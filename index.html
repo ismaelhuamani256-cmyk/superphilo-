@@ -17,9 +17,12 @@
   <nav class="tabs">
     <button data-go="select" class="tab">Capítulos</button>
     <button data-go="tracker" class="tab">Repaso</button>
+    <button data-go="examen" class="tab">Examen</button>
+    <button data-go="tarjetas" class="tab">Tarjetas</button>
     <button data-go="dilemas" class="tab">Dilemas</button>
-    <button data-go="disertacion" class="tab">Disertación</button>
+    <button data-go="autores" class="tab">Autores</button>
     <button data-go="reperes" class="tab">Repères</button>
+    <button data-go="plan" class="tab">Plan</button>
   </nav>
   <div class="seg" id="lang" role="group" aria-label="Idioma"><button data-l="es">ES</button><button data-l="fr">FR</button></div>
   <div id="xpbox" title="Tu nivel y XP"><span id="lvl">Nv 1</span><div class="xpbar"><i id="xpfill"></i></div><span id="xptxt">0 XP</span></div>
@@ -49,6 +52,10 @@
 
   <!-- 4.5 Repaso y tracker -->
   <section id="view-tracker" class="view page" hidden></section>
+  <section id="view-examen" class="view page" hidden></section>
+  <section id="view-tarjetas" class="view page" hidden></section>
+  <section id="view-autores" class="view page" hidden></section>
+  <section id="view-plan" class="view page" hidden></section>
   <section id="view-dilemas" class="view page" hidden></section>
   <section id="view-disertacion" class="view page" hidden></section>
   <section id="view-reperes" class="view page" hidden></section>
@@ -79,6 +86,8 @@
 <script src="js/map.js"></script>
 <script src="js/ui.js"></script>
 <script src="js/dilemas.js"></script>
+<script src="js/examen.js"></script>
+<script src="js/estudio.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

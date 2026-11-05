@@ -1,0 +1,202 @@
+{
+  "capitulo": "art",
+  "perspectivas": {
+    "autores": ["Platon", "Aristote", "Kant", "Hegel", "Bergson", "Jankélévitch", "Ricœur"],
+    "nociones_liadas": ["nature", "travail", "conscience", "liberté"],
+    "ramas": [
+      {
+        "titulo": {"es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture"},
+        "ideas": [
+          {
+            "texto": {
+              "es": "El arte es una creación espiritual y una mirada atenta y singular sobre el mundo.",
+              "fr": "L’art est une création spirituelle et un regard attentif et singulier sur le monde."
+            },
+            "cours": "2. a."
+          },
+          {
+            "texto": {
+              "es": "El placer y el juicio estético son propios de cada uno.",
+              "fr": "Le plaisir et le jugement esthétique sont propres à chacun."
+            },
+            "cours": "4. a."
+          },
+          {
+            "texto": {
+              "es": "El juicio de gusto supone una educación.",
+              "fr": "Le jugement de goût suppose une éducation."
+            },
+            "cours": "4. b."
+          }
+        ]
+      },
+      {
+        "titulo": {"es": "La moral y la política", "fr": "La morale et la politique"},
+        "ideas": [
+          {
+            "texto": {
+              "es": "El arte no conoce ninguna moral; su finalidad no es transmitir mensajes.",
+              "fr": "L’art ne connaît aucune morale, son but n’est pas de délivrer des messages."
+            },
+            "cours": "5. a."
+          },
+          {
+            "texto": {
+              "es": "Sin embargo, el arte permite una elevación moral de la humanidad.",
+              "fr": "L’art permet tout de même une élévation morale de l’humanité."
+            },
+            "cours": "5. b."
+          }
+        ]
+      },
+      {
+        "titulo": {"es": "El conocimiento", "fr": "La connaissance"},
+        "ideas": [
+          {
+            "texto": {
+              "es": "Una reproducción fiel de la naturaleza no puede transcribir la esencia de esa naturaleza ni darnos un conocimiento pleno y completo de ella.",
+              "fr": "Une reproduction fidèle de la nature ne peut retranscrire l’essence de cette nature et nous apporter une connaissance pleine et entière de cette dernière."
+            },
+            "cours": "1. a."
+          },
+          {
+            "texto": {
+              "es": "El arte no es la realidad: transmite la mirada singular del artista sobre el mundo.",
+              "fr": "L’art n’est pas la réalité : il transmet le regard singulier de l’artiste sur le monde."
+            },
+            "cours": "4. a."
+          }
+        ]
+      }
+    ],
+    "pagina_pdf": 133
+  },
+  "ejercicios": [
+    {
+      "id": "art-diss",
+      "tipo": "dissertation",
+      "enunciado": {
+        "es": "En el ámbito estético, ¿es legítimo decir: «Sobre gustos no hay nada escrito» («A cada cual su gusto»)?",
+        "fr": "Dans le domaine esthétique, est-il légitime de dire : « À chacun son goût » ?"
+      },
+      "consigna": {
+        "es": "Redacta la introducción de este tema cuidando de mostrar bien cuáles serían tus tres tesis. Desconfía de los lugares comunes, pues este tema se presta mucho a ellos.",
+        "fr": "Rédigez l’introduction de ce sujet en veillant à bien montrer qu’elles seraient vos trois thèses. Méfiez-vous des lieux communs car ce sujet s’y prête fortement !"
+      },
+      "corrige": {
+        "orientacion": {
+          "es": "El tema obliga a interrogarse sobre la calidad de un juicio estético y sobre la cultura necesaria para formarlo, e incluso mejorarlo. El gusto estético es un indicio del nivel cultural de un pueblo, pero también de lo que los hombres consideran esencial para su existencia.",
+          "fr": "Le sujet oblige à s’interroger sur la qualité d’un jugement esthétique et la culture nécessaire pour le former, voire l’améliorer. Le goût esthétique est un indice sur le niveau culturel d’un peuple, mais aussi ce que les hommes considèrent comme essentiel à leur existence."
+        },
+        "introduccion": {
+          "es": "[Explicación del tema] Por su constitución, su sensibilidad y su cultura diferentes, los hombres tienen de hecho gustos que no son similares en todos los ámbitos estéticos. Incluso puede decirse que la riqueza del arte se apoya en la diversidad de gustos de los espectadores, sin que ningún gusto alcance jamás la unanimidad. Más aún, esta diversidad infinita impide que se constituya un gusto oficial que limitaría el placer de cada uno. Sin embargo, si de hecho todos los gustos están en la naturaleza, está lejos de ser seguro que todos estén justificados, sean pertinentes o incluso de calidad. Si en el ámbito de las ciencias se admite comúnmente que ciertos juicios pueden ser falsos, nada impide que en el ámbito estético se exija, si no la misma objetividad, al menos la superación de una simple opinión (afirmada sin explicación ni justificación). No basta con declarar que se ama o se detesta para demostrar una sensibilidad, y menos aún un gusto estético. [Problemática] En este sentido, ¿no es justo afirmar que un gusto singular puede resultar malo? [Anuncio del plan] Así pues, la diversidad no indica necesariamente la calidad, y puede decirse incluso que, para formar el propio gusto estético, hay que empezar —mutatis mutandis, como preconizaba Bachelard en el ámbito científico— por superar los obstáculos de una visión estética del mundo. Los mayores obstáculos en materia de estética son entonces nuestros propios gustos, que con frecuencia no son sino prejuicios que impiden descubrir nuevas formas de arte e incluso mirar con atención lo que vemos a diario. El hombre es naturalmente conservador: sólo ama lo que cree conocer y teme lo que choca con sus hábitos. ¿No será entonces cultivándonos, siendo a la vez siempre curiosos y exigentes con nosotros mismos, como podremos diversificar nuestros gustos y elevar su calidad? ¿No superaremos legítimamente la afirmación pretenciosa del propio gusto formando y educando cada vez mejor nuestro juicio estético?",
+          "fr": "[Explication du sujet] De par leur constitution, leur sensibilité et leur culture différentes, les hommes ont de fait des goûts qui ne sont pas similaires dans tous les domaines esthétiques. On peut même dire que la richesse de l’art s’appuie sur la diversité des goûts des spectateurs sans que jamais un goût fasse l’unanimité. Plus encore, cette infinie diversité empêche la constitution d’un goût officiel qui limiterait le plaisir de chacun. Néanmoins, si de fait tous les goûts sont dans la nature, il est loin d’être certains qu’ils soient tous justifiés, pertinents ou même de qualité. Si dans le domaine des sciences, il est communément admis que certains jugements peuvent être faux, aussi n’y a-t-il rien qui s’oppose à ce que dans le domaine esthétique on ne puisse exiger, si ce n’est la même objectivité, du moins le dépassement d’une simple opinion (affirmée sans explication, ni justification). Il ne suffit pas de déclarer que l’on aime ou déteste pour démontrer une sensibilité et encore moins un goût esthétique. [Problématique] En ce sens, n’est-il pas juste d’affirmer qu’un goût singulier peut s’avérer mauvais ? [Annonce du plan] Ainsi, la diversité n’indique pas nécessairement la qualité et on peut même dire que pour former son goût esthétique, il faut, mutatis mutandis, comme le préconisait Bachelard dans le domaine scientifique, commencer par surmonter les obstacles d’une vision esthétique du monde. On peut alors dire que les plus grands obstacles en matière d’esthétisme sont nos propres goûts qui ne sont bien souvent que des préjugés empêchant de découvrir de nouvelles formes d’art et même de regarder attentivement ce que l’on voit quotidiennement. L’homme est naturellement conservateur, n’aime que ce qu’il croit connaître et craint ce qui choque ses habitudes. N’est-ce pas alors en se cultivant, en étant à la fois toujours curieux et exigeant avec soi-même que nous pourrons diversifier nos goûts et élever leur qualité ? Ne dépasserons-nous pas légitimement l’affirmation prétentieuse de son propre goût en formant, éduquant toujours mieux notre jugement esthétique ?"
+        },
+        "problematica": {
+          "es": "¿No es justo afirmar que un gusto singular puede resultar malo?",
+          "fr": "N’est-il pas juste d’affirmer qu’un goût singulier peut s’avérer mauvais ?"
+        },
+        "plan": [
+          {
+            "parte": {"es": "I. De hecho, los gustos son diversos (tesis de partida: «a cada cual su gusto»)", "fr": "I. De fait, les goûts sont divers (thèse de départ : « à chacun son goût »)"},
+            "idea": {
+              "es": "Por su constitución, sensibilidad y cultura, los hombres no tienen los mismos gustos; la riqueza del arte descansa en esa diversidad, que impide un gusto oficial que limitaría el placer de cada uno.",
+              "fr": "De par leur constitution, leur sensibilité et leur culture, les hommes n’ont pas les mêmes goûts ; la richesse de l’art s’appuie sur cette diversité, qui empêche un goût officiel limitant le plaisir de chacun."
+            },
+            "autores": []
+          },
+          {
+            "parte": {"es": "II. Pero la diversidad no indica la calidad: un gusto puede ser malo", "fr": "II. Mais la diversité n’indique pas la qualité : un goût peut être mauvais"},
+            "idea": {
+              "es": "No todos los gustos están justificados ni son pertinentes o de calidad; como en las ciencias se admite que un juicio puede ser falso, en estética cabe exigir la superación de la simple opinión. Nuestros propios gustos son a menudo prejuicios, el principal obstáculo para descubrir nuevas formas de arte y mirar con atención (el hombre, naturalmente conservador, sólo ama lo que cree conocer).",
+              "fr": "Tous les goûts ne sont pas justifiés, pertinents ou de qualité ; comme en sciences on admet qu’un jugement peut être faux, en esthétique on peut exiger le dépassement de la simple opinion. Nos propres goûts sont souvent des préjugés, premier obstacle pour découvrir de nouvelles formes d’art et regarder attentivement (l’homme, naturellement conservateur, n’aime que ce qu’il croit connaître)."
+            },
+            "autores": []
+          },
+          {
+            "parte": {"es": "III. Formar y educar el juicio estético: cultivarse para diversificar los gustos y elevar su calidad", "fr": "III. Former et éduquer le jugement esthétique : se cultiver pour diversifier ses goûts et élever leur qualité"},
+            "idea": {
+              "es": "Siendo a la vez curioso y exigente consigo mismo, se supera legítimamente la afirmación pretenciosa del propio gusto educando cada vez mejor el juicio estético.",
+              "fr": "En étant à la fois curieux et exigeant avec soi-même, on dépasse légitimement l’affirmation prétentieuse de son propre goût en éduquant toujours mieux son jugement esthétique."
+            },
+            "autores": []
+          }
+        ],
+        "puntos_clave": [
+          {"es": "Plantear el hecho de la diversidad de gustos (constitución, sensibilidad, cultura) y reconocer que alimenta la riqueza del arte.", "fr": "Poser le fait de la diversité des goûts (constitution, sensibilité, culture) et reconnaître qu’elle nourrit la richesse de l’art."},
+          {"es": "Señalar que la diversidad impide un gusto oficial que limitaría el placer de cada uno.", "fr": "Souligner que la diversité empêche un goût officiel qui limiterait le plaisir de chacun."},
+          {"es": "Distinguir el hecho (todos los gustos existen) del derecho (no todos están justificados, son pertinentes o de calidad).", "fr": "Distinguer le fait (tous les goûts existent) du droit (tous ne sont pas justifiés, pertinents ou de qualité)."},
+          {"es": "Comparar con las ciencias: si un juicio puede ser falso allí, en estética se puede exigir superar la simple opinión sin explicación ni justificación.", "fr": "Comparer avec les sciences : si un jugement peut y être faux, en esthétique on peut exiger le dépassement de la simple opinion sans explication ni justification."},
+          {"es": "Mostrar que decir «me gusta / no me gusta» no basta para demostrar una sensibilidad y menos un gusto estético.", "fr": "Montrer qu’affirmer qu’on aime ou déteste ne suffit pas à démontrer une sensibilité, encore moins un goût esthétique."},
+          {"es": "Formular una problemática clara: ¿puede un gusto singular ser malo?", "fr": "Formuler une problématique claire : un goût singulier peut-il s’avérer mauvais ?"},
+          {"es": "Evitar los lugares comunes y mostrar las tres tesis en el anuncio del plan (diversidad / gustos como prejuicios / educación del juicio estético).", "fr": "Éviter les lieux communs et faire apparaître les trois thèses dans l’annonce du plan (diversité / goûts comme préjugés / éducation du jugement esthétique)."},
+          {"es": "Aludir al método de superar los obstáculos (Bachelard) y a la idea de que el juicio estético se cultiva y se educa.", "fr": "Évoquer la démarche de surmonter les obstacles (Bachelard) et l’idée que le jugement esthétique se cultive et s’éduque."}
+        ]
+      },
+      "pagina_pdf": 136,
+      "pagina_corrige": 138
+    },
+    {
+      "id": "art-expl",
+      "tipo": "explication",
+      "enunciado": {
+        "es": "Explicación de texto. 1. ¿Cuáles son las articulaciones del texto y qué expresan? 2. ¿Qué interés tiene el ejemplo del palacio?",
+        "fr": "Explication de texte. 1. Quelles sont les articulations du texte et qu’expriment-elles ? 2. Quel intérêt représente l’exemple du palais ?"
+      },
+      "texto": {
+        "fr": "Si l’on me demande si je trouve beau le palais que je vois devant moi, je puis sans doute répondre : je n’aime pas ces choses qui ne sont faites que pour les badauds, ou encore répondre comme ce sachem iroquois qui n’appréciait à Paris que les rôtisseries ; je peux bien encore déclamer, tout à la manière de Rousseau, contre la vanité des grands qui abusent du travail du peuple pour des choses aussi inutiles ; enfin je puis me persuader bien facilement que si je me trouvais dans une île inhabitée, sans espoir de jamais revenir parmi les hommes, et que j’eusse le pouvoir par le simple fait de le souhaiter d’y transporter magiquement un tel palais, je n’en prendrais même pas la peine, supposé que je possède une masure assez confortable pour moi. On peut m’accorder tout cela et l’approuver ; toutefois ce n’est pas ici la question. On désire uniquement savoir si la seule représentation de l’objet est accompagnée en moi par une satisfaction, aussi indifférent que je puisse être à l’existence de l’objet de cette représentation. On voit aisément que ce qui importe pour dire l’objet beau et prouver que j’ai du goût, c’est ce que je découvre en fonction de cette représentation et non ce par quoi je dépends de l’existence de l’objet. Chacun doit reconnaître qu’un jugement sur la beauté en lequel se mêle le plus petit intérêt est très partial et ne peut être un jugement de goût pur. Pour jouer le rôle de juge en matière de goût il ne faut pas se soucier le moins du monde de l’existence de l’objet, mais bien au contraire être indifférent en ce qui y touche.",
+        "autor": "Kant",
+        "obra": "Critique de la faculté de juger, 1790",
+        "pagina_pdf": 136
+      },
+      "consigna": {
+        "es": "1. ¿Cuáles son las articulaciones del texto y qué expresan? 2. ¿Qué interés tiene el ejemplo del palacio?",
+        "fr": "1. Quelles sont les articulations du texte et qu’expriment-elles ? 2. Quel intérêt représente l’exemple du palais ?"
+      },
+      "corrige": {
+        "tesis": {
+          "es": "El juicio de gusto puro es desinteresado: para juzgar bello un objeto hay que ser indiferente a su existencia y atenerse a la satisfacción que procura su sola representación, de modo que lo bello supera la singularidad de una época, de una cultura e incluso la existencia de los hombres, y es por tanto universal.",
+          "fr": "Le jugement de goût pur est désintéressé : pour dire un objet beau, il faut être indifférent à son existence et s’en tenir à la satisfaction que procure sa seule représentation ; le Beau dépasse ainsi la singularité d’une époque, d’une culture et même l’existence des hommes : il est donc universel."
+        },
+        "etapas": [
+          {
+            "titulo": {"es": "Primera parte: tres argumentos que justifican un juicio negativo sobre el palacio", "fr": "Première partie : trois arguments successifs pour un jugement négatif sur le palais"},
+            "idea": {
+              "es": "Kant justifica, con tres argumentos sucesivos, un juicio negativo sobre la utilidad y el interés de un palacio (cosas hechas para los curiosos; la vanidad de los grandes denunciada a la manera de Rousseau; la isla inhabitada donde no se tomaría la molestia de transportarlo). Ese juicio obliga a interrogarse sobre las causas verdaderas de su construcción. Termina con «no es esta la cuestión».",
+              "fr": "Kant justifie, à l’aide de trois arguments successifs, un jugement négatif sur l’utilité et l’intérêt d’un palais, jugement obligeant à s’interroger sur les causes véritables de sa construction. La partie s’achève sur « ce n’est pas ici la question »."
+            },
+            "lineas": "l. 1-12"
+          },
+          {
+            "titulo": {"es": "Segunda parte: la originalidad del juicio de gusto, desinteresado", "fr": "Seconde partie : l’originalité du jugement de goût, désintéressé"},
+            "idea": {
+              "es": "Sin rechazar los argumentos anteriores, Kant explica por qué no permiten emitir un juicio estético. Precisa la originalidad del juicio de gusto, que debe descartar de entrada todo interés relativo al objeto mismo, es decir, todas las condiciones de su existencia, para conservar sólo su forma y el placer muy específico que procura la representación de ese objeto.",
+              "fr": "Sans rejeter les arguments antérieurs, l’auteur explique pourquoi ils ne permettent pas de porter un jugement esthétique. Il précise l’originalité du jugement de goût et illustre en quoi il doit d’emblée écarter tout intérêt concernant l’objet lui-même, à savoir toutes les conditions de son existence pour ne conserver que sa forme et donc le plaisir tout à fait spécifique que procure la représentation de cet objet."
+            },
+            "lineas": "l. 12-21"
+          }
+        ],
+        "introduccion": {
+          "es": "El ejemplo del palacio permite a Kant establecer distinciones y preguntarse a la vez por la finalidad del arte y por la singularidad del juicio estético. Para apoyar su tesis, toma el ejemplo de un palacio como símbolo político: ello le permite demostrar que lo Bello supera la singularidad de una época, de una cultura e incluso la existencia de los hombres, y es por tanto universal.",
+          "fr": "Pour bien appuyer sa thèse, Kant prend l’exemple d’un château comme symbole politique, cela lui permet de démontrer que le Beau dépasse la singularité d’une époque, d’une culture et même l’existence des hommes : il est donc universel."
+        },
+        "enjeu": {
+          "es": "Hay que saber distinguir los niveles de aproximación al hablar de arte y ser capaz de estudiar o admirar una obra por sí misma, por sus solas cualidades estéticas: si no se separan los enfoques, se corre el riesgo de pasar por alto obras maestras reduciéndolas a su época y a su función utilitaria, política o religiosa, como si no las superaran por sus cualidades estéticas y su alcance universal.",
+          "fr": "Il faut simplement savoir distinguer les niveaux d’approche lorsque l’on parle d’art et être capable d’étudier ou admirer une œuvre pour elle-même, à savoir pour ses seules qualités esthétiques : si l’on ne veille pas à séparer les approches, on risque de passer à côté de chefs-d’œuvre en les réduisant à leur époque et à leur fonction utilitaire, politique ou religieuse comme s’ils ne les dépassaient pas par leurs qualités esthétiques et leur portée universelle."
+        },
+        "puntos_clave": [
+          {"es": "Identificar las dos partes del texto y su articulación en «ce n’est pas ici la question» (l. 12).", "fr": "Identifier les deux parties du texte et leur articulation sur « ce n’est pas ici la question » (l. 12)."},
+          {"es": "Reconocer en la primera parte tres argumentos sucesivos (los badauds/el sachem iroquois, Rousseau y la vanidad de los grandes, la isla inhabitada) que justifican un juicio negativo sobre el palacio.", "fr": "Reconnaître dans la première partie trois arguments successifs (les badauds / le sachem iroquois, Rousseau et la vanité des grands, l’île inhabitée) justifiant un jugement négatif sur le palais."},
+          {"es": "Ver que esos argumentos no se rechazan, pero no permiten un juicio estético.", "fr": "Voir que ces arguments ne sont pas rejetés mais ne permettent pas de porter un jugement esthétique."},
+          {"es": "Formular la tesis: el juicio de gusto sólo considera la satisfacción que procura la representación del objeto, con indiferencia hacia su existencia.", "fr": "Formuler la thèse : le jugement de goût ne considère que la satisfaction procurée par la représentation de l’objet, dans l’indifférence à son existence."},
+          {"es": "Explicar que el menor interés mezclado en el juicio lo vuelve parcial e impide que sea un juicio de gusto puro.", "fr": "Expliquer que le moindre intérêt mêlé au jugement le rend partial et l’empêche d’être un jugement de goût pur."},
+          {"es": "Explicar el interés del ejemplo del palacio: símbolo de valores políticos y de justicia social, obliga a distinguir finalidad del arte y singularidad del juicio estético.", "fr": "Expliquer l’intérêt de l’exemple du palais : symbole de valeurs politiques et de justice sociale, il oblige à distinguer finalité de l’art et singularité du jugement esthétique."},
+          {"es": "Mostrar que un edificio puede ser ilegítimo o escandaloso y, aun así, bello, y que las mismas causas no dan el mismo efecto (una construcción vanidosa puede ser fea).", "fr": "Montrer qu’un édifice peut être illégitime voire scandaleux et pourtant beau, et que les mêmes causes ne donnent pas le même effet (une construction vaniteuse peut être laide)."},
+          {"es": "Concluir sobre la universalidad de lo Bello y la necesidad de distinguir los niveles de aproximación a una obra (utilitario, político, religioso, estético).", "fr": "Conclure sur l’universalité du Beau et la nécessité de distinguer les niveaux d’approche d’une œuvre (utilitaire, politique, religieux, esthétique)."}
+        ]
+      },
+      "pagina_pdf": 136,
+      "pagina_corrige": 139
+    }
+  ]
+}

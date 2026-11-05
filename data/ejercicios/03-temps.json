@@ -1,0 +1,144 @@
+{
+  "capitulo": "temps",
+  "perspectivas": {
+    "autores": ["Newton", "Einstein", "Bergson", "Kant", "Zénon", "Saint Augustin", "Aristote", "Durkheim", "Mauss", "Nietzsche", "Heidegger", "Husserl", "Malinowski", "Halbwachs"],
+    "nociones_liadas": ["science", "conscience", "liberté", "nature"],
+    "ramas": [
+      {
+        "titulo": {"es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture"},
+        "ideas": [
+          {"texto": {"es": "La concepción del tiempo varía según las culturas y las sociedades.", "fr": "La conception du temps varie selon les cultures et sociétés."}, "cours": "1. a."},
+          {"texto": {"es": "El tiempo es una forma a priori de nuestra sensibilidad, que hace que nuestra relación con el mundo sea singular.", "fr": "Le temps est une forme a priori de notre sensibilité qui fait que notre rapport au monde est singulier."}, "cours": "2. b."},
+          {"texto": {"es": "El tiempo no se mide: es una duración vivida.", "fr": "Le temps ne se mesure pas : il est une durée vécue."}, "cours": "3. b."},
+          {"texto": {"es": "La muerte da sentido al tiempo y, por consiguiente, a nuestra existencia.", "fr": "La mort donne du sens au temps, et par conséquent à notre existence."}, "cours": "4. b."}
+        ]
+      },
+      {
+        "titulo": {"es": "La moral y la política", "fr": "La morale et la politique"},
+        "ideas": [
+          {"texto": {"es": "El tiempo social rige las actividades de los individuos.", "fr": "Le temps social régit les activités des individus."}, "cours": "2. a."},
+          {"texto": {"es": "El trabajo destruye el tiempo de libertad (fuera del trabajo) de que disponen los individuos, pero, paradójicamente, si llegan a perder su trabajo tampoco podrán disfrutar de su libertad, porque no tendrán los medios para ello.", "fr": "Le travail détruit le temps de liberté (en dehors du travail) dont les individus disposent, mais paradoxalement, s’ils en viennent à perdre leur travail, ils ne pourront pas non plus profiter de leur liberté, car ils n’en auront pas les moyens."}, "cours": "2. a."},
+          {"texto": {"es": "Los hombres tienen el deber moral para consigo mismos de llegar a ser lo que son y de estar a la altura de su libertad.", "fr": "Les hommes ont le devoir moral envers eux-mêmes de devenir ce qu’ils sont et d’être à la hauteur de leur liberté."}, "cours": "4. b."}
+        ]
+      },
+      {
+        "titulo": {"es": "El conocimiento", "fr": "La connaissance"},
+        "ideas": [
+          {"texto": {"es": "La medida del tiempo varía según las épocas y los medios técnicos.", "fr": "La mesure du temps varie selon les époques et les moyens techniques."}, "cours": "1. a."},
+          {"texto": {"es": "Según las teorías científicas, el tiempo puede ser reversible o no.", "fr": "Selon les théories scientifiques, le temps peut être réversible ou non."}, "cours": "1. b."},
+          {"texto": {"es": "Con Einstein, el tiempo pasa a ser relativo a nuestra percepción.", "fr": "Avec Einstein, le temps devient relatif à notre perception."}, "autor": "Einstein", "cours": "1. c."},
+          {"texto": {"es": "Nuestra aprehensión evidente del tiempo como instantes sucesivos desemboca en paradojas teóricas que, a pesar de todo, pueden resolverse.", "fr": "Notre appréhension évidente du temps en instants successifs aboutit à des paradoxes théoriques qui peuvent, malgré tout être résolus."}, "cours": "3. a."}
+        ]
+      }
+    ],
+    "pagina_pdf": 78
+  },
+  "ejercicios": [
+    {
+      "id": "temps-diss",
+      "tipo": "dissertation",
+      "enunciado": {"es": "¿Está la conciencia en el tiempo o el tiempo en la conciencia?", "fr": "La conscience est-elle dans le temps ou le temps est-il dans la conscience ?"},
+      "consigna": {"es": "1. Haga un trabajo preparatorio analizando los términos del tema. 2. Luego exponga en unas líneas su argumentación según un plan dialéctico. (Perspectivas 1 y 2; 1 h, nivel **)", "fr": "1. Faites un travail préparatoire en analysant les termes du sujet. 2. Puis, exposer en quelques lignes votre argumentation selon un plan dialectique. (Perspectives 1 et 2 ; 1 h, niveau **)"},
+      "corrige": {
+        "orientacion": {
+          "es": "Análisis del enunciado. «dans»: registro espacial, «en el interior de»; inclusión, vínculo intrínseco. «temps»: el tiempo como dato objetivo, es decir el devenir, pero también la duración como elemento subjetivo de la conciencia. «ou»: esta disyunción introduce una alternativa entre dos proposiciones incompatibles; si se encuentran argumentos a favor de ambas, la coherencia sólo se mantiene si los términos se emplean en sentidos diferentes.",
+          "fr": "Analyse de l’énoncé du sujet : « dans » : registre spatial : à l’intérieur de ; inclusion, lien intrinsèque. « temps » : temps comme donnée objective, à savoir le devenir, mais également la durée, comme élément subjectif de la conscience. « ou » : cette disjonction introduit une alternative entre deux propositions incompatibles. Si l’on trouve des arguments en faveur des deux propositions, la cohérence n’est maintenue que si les termes sont employés dans des sens différents."
+        },
+        "problematica": {
+          "es": "Para abordar el tema hay que aprehender el concepto de tiempo tanto en su dimensión objetiva como en su dimensión subjetiva, la ligada a la percepción de la conciencia y que determina en gran parte la existencia humana.",
+          "fr": "Afin d’aborder le sujet, il nous faut à la fois appréhender le concept de temps, selon sa dimension objective, mais aussi selon sa dimension subjective, celle liée à la perception de la conscience et qui détermine en grande partie l’existence humaine."
+        },
+        "plan": [
+          {
+            "parte": {"es": "I. Tesis: la conciencia está en el devenir", "fr": "I. Thèse : la conscience est dans le devenir"},
+            "idea": {
+              "es": "Cada hombre evoluciona en un medio objetivo sometido al cambio y sufre su irreversibilidad. Como expresa Aristóteles, hay una trascendencia del devenir sobre la conciencia: queramos o no, el mundo cambia y nosotros también. El hombre debe vivir con un mundo que no ha elegido, que cambia y es irreversible; es una forma de impotencia (la ausencia de libertad es impotencia). La experiencia del tiempo implica un sentimiento de inacabamiento, de incompletud, incluso de separación respecto de uno mismo. «El presente es poroso» (Valéry) porque se nos escapa y el hombre nunca es verdaderamente él mismo en un momento dado. El pasado puede vivirse como un peso que no se puede hacer desaparecer; el transcurrir del tiempo vuelve todo precario y puede engendrar un sentimiento de absurdo o de desesperación ante lo que se nos escapa.",
+              "fr": "Chaque homme évolue dans un milieu objectif qui est soumis au changement, il subit alors son irréversibilité. Ainsi que l’exprime Aristote, il y a une transcendance du devenir sur la conscience car qu’on le veuille ou non, le monde change et nous aussi. L’homme doit faire avec un monde qu’il n’a pas choisi, qui change et qui est irréversible : c’est une forme d’impuissance, l’absence de liberté est une impuissance. L’expérience du temps implique un sentiment d’inachèvement, d’incomplétude, voire de séparation d’avec soi. « Le présent est poreux » (Valéry) parce qu’il nous échappe et que l’homme n’est jamais vraiment lui-même dans un moment donné. Notre passé peut même être vécu comme un poids que l’on ne peut faire disparaître. L’écoulement du temps rend tout précaire et cela peut engendrer un sentiment d’absurdité, voire de désespoir devant ce qui nous échappe."
+            },
+            "autores": ["aristote"]
+          },
+          {
+            "parte": {"es": "II. Antítesis: el tiempo está en la conciencia", "fr": "II. Antithèse : le temps est dans la conscience"},
+            "idea": {
+              "es": "El tiempo es la forma misma de existencia de la conciencia. Según Husserl, el tiempo es inmanente a la conciencia y ambos se constituyen recíprocamente. La conciencia es por esencia temporalidad, pues el tiempo es el modo de presencia a sí de la conciencia, mientras que el espacio es su modo de presencia en el mundo. Ser en el mundo es existir en el modo del para-sí y constituirse como proyecto; el hombre «desenrolla» su vida como una película, en el tiempo. «El ego no es pura presencia a sí, está siempre como separado de sí mismo, pues es el heredero de su propia vida y aún no es todo lo que puede ser» (Husserl): el hombre depende de su pasado y necesita su futuro para realizarse. Por la espera, la conciencia ya es algo que aún no es, pero lo anticipa por el recuerdo; y todavía es algo que ya no es. El tiempo se aloja, pues, en el proyecto (proyectarse hacia el pasado o el futuro) y, como todo proyecto es expresión del deseo, la experiencia del deseo es la del tiempo.",
+              "fr": "Le temps se trouve dans la conscience car il est la forme même d’existence de la conscience. Selon Husserl, le temps est immanent à la conscience et ils se constituent réciproquement. La conscience est par essence temporalité car le temps est le mode de présence à soi de la conscience, tandis que l’espace est le mode de présence au monde de la conscience. Être au monde, c’est exister sur le mode du pour-soi et se constituer comme projet ; l’homme « déroule » sa vie comme un film, dans le temps. « L’ego n’est pas pure présence à soi, il est toujours comme séparé de lui-même car il est l’héritier de sa propre vie et il n’est pas encore tout ce qu’il peut être » (Husserl) : l’homme est tributaire de son passé et a besoin de son avenir pour se réaliser. Par l’attente, la conscience est déjà quelque chose qu’elle n’est pas encore mais anticipe alors par le souvenir ; elle est encore quelque chose qu’elle n’est plus. C’est dans le projet que se loge le temps et, comme tout projet est expression du désir, l’expérience du désir est celle du temps."
+            },
+            "autores": ["husserl"]
+          },
+          {
+            "parte": {"es": "III. Síntesis: un «ou» inclusivo", "fr": "III. Synthèse : un « ou » inclusif"},
+            "idea": {
+              "es": "El «ou» es inclusivo: las dos proposiciones son compatibles y no se excluyen si no se da el mismo significado a «temps» y a «dans». Hay tiempo únicamente porque hay una realidad en devenir, pero ese devenir sólo es tiempo por la conciencia. Con todo, el devenir es una condición exterior que se impone a la conciencia: quiera o no, mi cuerpo envejece y las cosas se degradan, aunque el tiempo sea un producto de la conciencia. «La distensión del alma» (San Agustín) es quizá una manera de experimentar nuestra impotencia, pero también la condición de posibilidad para superarla. Es a la vez la experiencia de una fisura de la conciencia y la posibilidad de unir los momentos que pasan: por la conciencia hago la experiencia de la continuidad psíquica del tiempo vivido. Proust dice a este respecto que es en el recuerdo donde se toma conciencia de la propia unidad y se siente la existencia, esa emoción fulgurante que da realmente la impresión de «fulgurar» el tiempo.",
+              "fr": "Le « ou » est inclusif au sens où les deux propositions sont compatibles, ne s’excluent pas si on ne met pas la même signification à « temps » et « dans ». Il y a du temps uniquement parce qu’il y a une réalité en devenir, mais ce devenir n’est du temps que par la conscience. Pour autant, le devenir est bien une condition extérieure qui s’impose à la conscience car que je le veuille ou pas mon corps vieillit et les choses se dégradent même si le temps est un produit de la conscience. « La distension de l’âme » (St Augustin) est peut-être une façon d’éprouver notre impuissance, mais c’est aussi la condition de possibilité pour dépasser cette impuissance. C’est à la fois l’expérience d’une fêlure de la conscience et la possibilité de relier les moments qui passent : c’est par la conscience que je fais l’expérience de la continuité psychique du temps vécu. Proust déclare à ce propos que c’est dans le souvenir que l’on prend conscience de son unité, que l’on ressent son existence, cette émotion fulgurante donnant vraiment l’impression de « fulgurer » le temps."
+            },
+            "autores": ["augustin"]
+          }
+        ],
+        "puntos_clave": [
+          {"es": "Analiza los términos del tema («dans», «temps», «ou») antes de argumentar.", "fr": "Analyse les termes du sujet (« dans », « temps », « ou ») avant d’argumenter."},
+          {"es": "Distingue el tiempo como dato objetivo (devenir) y como duración subjetiva de la conciencia.", "fr": "Distingue le temps comme donnée objective (devenir) et comme durée subjective de la conscience."},
+          {"es": "Tesis: la conciencia está en el devenir; el cambio y la irreversibilidad se le imponen y generan impotencia, inacabamiento y precariedad (Aristóteles, Valéry).", "fr": "Thèse : la conscience est dans le devenir ; changement et irréversibilité s’imposent à elle et engendrent impuissance, inachèvement et précarité (Aristote, Valéry)."},
+          {"es": "Antítesis: el tiempo está en la conciencia, que es temporalidad por esencia; el ego se proyecta entre recuerdo y espera, y la experiencia del deseo es la del tiempo (Husserl).", "fr": "Antithèse : le temps est dans la conscience, temporalité par essence ; l’ego se projette entre souvenir et attente, et l’expérience du désir est celle du temps (Husserl)."},
+          {"es": "Síntesis: el «ou» es inclusivo; el devenir es condición exterior, pero sólo es tiempo por la conciencia (distensión del alma de San Agustín, continuidad psíquica, Proust).", "fr": "Synthèse : le « ou » est inclusif ; le devenir est une condition extérieure mais n’est du temps que par la conscience (distension de l’âme chez St Augustin, continuité psychique, Proust)."},
+          {"es": "Sigue un plan dialéctico (tesis, antítesis, síntesis) en el que cada parte se apoya en un autor.", "fr": "Suit un plan dialectique (thèse, antithèse, synthèse) où chaque partie s’appuie sur un auteur."}
+        ]
+      },
+      "pagina_pdf": 81,
+      "pagina_corrige": 82
+    },
+    {
+      "id": "temps-expl",
+      "tipo": "explication",
+      "enunciado": {"es": "Redacte la introducción de la explicación de este texto.", "fr": "Rédigez l’introduction de l’explication de ce texte."},
+      "texto": {
+        "fr": "Prends l’habitude de penser que la mort n’est rien pour nous. Car tout bien et tout mal résident dans la sensation : or la mort est privation de toute sensibilité. Par conséquent, la connaissance de cette vérité que la mort n’est rien pour nous, nous rend capables de jouir de cette vie mortelle, non pas en y ajoutant la perspective d’une durée infinie, mais en nous enlevant le désir de l’immortalité. Car il ne reste plus rien à redouter dans la vie, pour qui a vraiment compris que hors de la vie il n’y a rien de redoutable. On prononce donc de vaines paroles quand on soutient que la mort est à craindre non pas parce qu’elle sera douloureuse étant réalisée, mais parce qu’il est douloureux de l’attendre. Ce serait en effet une crainte vaine et sans objet que celle qui serait produite par l’attente d’une chose qui ne cause aucun trouble par sa présence. Ainsi celui de tous les maux qui nous donne le plus d’horreur, la mort, n’est rien pour nous, puisque, tant que nous existons nous-mêmes, la mort n’est pas, et que, quand la mort existe, nous ne sommes plus. Donc la mort n’existe ni pour les vivants ni pour les morts, puisqu’elle n’a rien à faire avec les premiers, et que les seconds ne sont plus.",
+        "autor": "Épicure",
+        "obra": "Lettre à Ménécée",
+        "pagina_pdf": 81
+      },
+      "consigna": {"es": "Redacte la introducción de la explicación de este texto (30 min, nivel *).", "fr": "Rédigez l’introduction de l’explication de ce texte. (30 min, niveau *)"},
+      "corrige": {
+        "tesis": {
+          "es": "Para Epicuro la muerte no es nada para nosotros, pues es privación de toda sensibilidad y todo bien y todo mal residen en la sensación; saberlo es una liberación que nos quita el deseo de inmortalidad y vuelve vano el temor a la muerte.",
+          "fr": "Épicure affirme que la mort n’est rien pour les hommes, car elle est privation de toute sensibilité (tout bien et tout mal résidant dans la sensation) ; cette connaissance apparaît comme une délivrance qui ôte le désir de l’immortalité et rend vaine la crainte de la mort."
+        },
+        "etapas": [
+          {
+            "titulo": {"es": "La muerte, ausencia de sensaciones, no puede temerse", "fr": "La mort, absence de sensations, ne peut être redoutée"},
+            "idea": {
+              "es": "Desde el principio hasta «il n’y a rien de redoutable» (l. 7): como la muerte es ausencia de sensaciones, no puede temerse y suprime el vano deseo de inmortalidad.",
+              "fr": "Du début jusqu’à « […] il n’y a rien de redoutable » à la ligne 7 : la mort, dans la mesure où elle est une absence de sensations, ne peut être redoutée et ôte, ainsi, le vain désir de l’immortalité."
+            },
+            "lineas": "l. 1-7"
+          },
+          {
+            "titulo": {"es": "La inquietud ante la muerte carece de objeto", "fr": "L’inquiétude liée à la mort est sans objet"},
+            "idea": {
+              "es": "Hasta el final: la muerte no puede ser objeto de ninguna experiencia; la inquietud que se le asocia es literalmente sin objeto («tant que nous existons, la mort n’est pas; quand la mort existe, nous ne sommes plus»).",
+              "fr": "Jusqu’à la fin : la mort ne pouvant être l’objet d’aucune expérience, l’inquiétude qui s’y rattache est littéralement sans objet."
+            },
+            "lineas": "l. 7-16"
+          }
+        ],
+        "introduccion": {
+          "es": "[Tesis sostenida por el autor] En este pasaje de la Carta a Meneceo consagrado al sentido de la muerte, Epicuro afirma que ésta no es nada para los hombres y que este conocimiento aparece como una liberación. En efecto, para conocer lo que es la muerte el hombre debería poder experimentarla, pero ¿no es la muerte, al contrario, la ausencia total de conciencia y de sensaciones? Esta liberación regula nuestros deseos y nos hace aptos para experimentar placeres que no engendran ninguna amargura. Este conocimiento nos hace incluso responsables de nuestra vida y nos permite gozar plenamente del momento presente y del tiempo que pasa. [Estructura del texto] El texto consta de dos momentos: en un primer tiempo, el autor declara (desde el comienzo hasta «il n’y a rien de redoutable», l. 7) que la muerte, en la medida en que es una ausencia de sensaciones, no puede temerse y suprime así el vano deseo de inmortalidad. Después, Epicuro explica (hasta el final) que, como la muerte no puede ser objeto de ninguna experiencia, la inquietud ligada a ella es literalmente sin objeto.",
+          "fr": "[Thèse soutenue par l’auteur] Dans ce passage de la Lettre à Ménécée consacré au sens de la mort, Épicure affirme que celle-ci n’est rien pour les hommes et que cette connaissance apparaît comme une délivrance. En effet, pour avoir une connaissance de ce qu’est la mort, l’homme doit pouvoir l’éprouver, or la mort n’est-ce pas au contraire l’absence totale de conscience et de sensations. Cette délivrance règle nos désirs et nous rend aptes à éprouver des plaisirs qui n’engendrent aucune amertume. Cette connaissance nous rend même responsables de notre vie et nous permet de jouir pleinement du moment présent et du temps qui passe. [Structure du texte] Le texte comprend deux moments : dans un premier temps, l’auteur déclare (du début jusqu’à « […] il n’y a rien de redoutable » à la ligne 7), que la mort, dans la mesure où elle est une absence de sensations, ne peut être redoutée et ôte, ainsi, le vain désir de l’immortalité. Enfin, Épicure nous explique (jusqu’à la fin) que la mort ne pouvant être l’objet d’aucune expérience, l’inquiétude qui s’y rattache est littéralement sans objet."
+        },
+        "enjeu": {
+          "es": "El hombre no sufre únicamente el devenir, le da sentido y toma así conciencia de existir; aprender a vivir con la muerte es elegir la mejor manera de vivir con serenidad, sin temer esta etapa ineluctable de nuestra existencia.",
+          "fr": "L’homme ne subit pas seulement le devenir, il lui donne du sens et prend par là-même conscience d’exister, apprendre à vivre avec la mort, c’est choisir la meilleure manière de vivre avec sérénité, sans craindre cette étape inéluctable de notre existence."
+        },
+        "puntos_clave": [
+          {"es": "Abre con la tesis del autor: la muerte no es nada para nosotros y saberlo es una liberación.", "fr": "Ouvre par la thèse de l’auteur : la mort n’est rien pour nous et le savoir est une délivrance."},
+          {"es": "Justifica la tesis: todo bien y todo mal residen en la sensación y la muerte es privación de toda sensibilidad.", "fr": "Justifie la thèse : tout bien et tout mal résident dans la sensation et la mort est privation de toute sensibilité."},
+          {"es": "Señala las consecuencias: regular los deseos, gozar de placeres sin amargura, quitar el deseo de inmortalidad y gozar del presente.", "fr": "Indique les conséquences : régler les désirs, jouir de plaisirs sans amertume, ôter le désir d’immortalité et jouir du moment présent."},
+          {"es": "Anuncia la estructura del texto en dos momentos con sus límites (hasta «il n’y a rien de redoutable», l. 7; luego hasta el final).", "fr": "Annonce la structure du texte en deux moments avec leurs limites (jusqu’à « il n’y a rien de redoutable », l. 7 ; puis jusqu’à la fin)."},
+          {"es": "Primer momento: la muerte, ausencia de sensaciones, no puede temerse; segundo: no siendo objeto de experiencia alguna, el temor a esperarla carece de objeto.", "fr": "Premier moment : la mort, absence de sensations, ne peut être redoutée ; second : n’étant objet d’aucune expérience, la crainte de l’attendre est sans objet."},
+          {"es": "Recuerda el argumento central: mientras existimos la muerte no está, y cuando existe ya no somos.", "fr": "Rappelle l’argument central : tant que nous existons la mort n’est pas, et quand elle existe nous ne sommes plus."}
+        ]
+      },
+      "pagina_pdf": 81,
+      "pagina_corrige": 83
+    }
+  ]
+}

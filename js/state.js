@@ -21,6 +21,11 @@
     disert: {},   // "cap#i" -> true (plan estudiado)
     dificiles: {},// "cap#i" -> fallos acumulados (repaso espaciado ligero)
     dilemas: {},  // id -> {finales:{}, visitados:{}, aristas:{}, jugadas}
+    cards: {},    // tarjetas SRS: id -> {ef, int, rep, due}
+    escritos: {}, // borradores del simulacro / entrenadores: id -> {texto, ts}
+    simulacro: null, simulacros: [], // examen en curso e historial
+    plan: null,   // {fecha, minutos, hecho:{}}
+    hist: [],     // registro de actividad [{t, k, cap, ok}] (últimos 600)
   });
   let P = defaults(), saveTimer = 0, useServer = false;
   const listeners = new Set();
@@ -55,7 +60,8 @@
   function F(cap, fil) { return P.fil[key(cap, fil)] || (P.fil[key(cap, fil)] = { visto: false, escena: false, intentos: 0, aciertos: 0, xp: 0 }); }
   function markVisto(cap, fil) { const f = F(cap, fil); if (!f.visto) { f.visto = true; addXP(5, 'ficha vista'); } save(); emit(); }
   function markEscena(cap, fil) { const f = F(cap, fil); if (!f.escena) { f.escena = true; addXP(10, 'escena vista'); } save(); emit(); }
-  function markRespuesta(cap, fil, ok) { if (!fil) return; const f = F(cap, fil); f.intentos++; if (ok) f.aciertos++; save(); emit(); }
+  function log(k, cap, ok) { P.hist.push({ t: Date.now(), k, cap: cap || null, ok: ok === undefined ? null : !!ok }); if (P.hist.length > 600) P.hist.splice(0, P.hist.length - 600); }
+  function markRespuesta(cap, fil, ok) { log('q', cap, ok); if (!fil) { save(); return; } const f = F(cap, fil); f.intentos++; if (ok) f.aciertos++; save(); emit(); }
 
   /** Dominio 0..100 de un filósofo: visto 15 + escena 15 + precisión de quiz hasta 70 (necesita ≥3 intentos para el máximo). */
   function mastery(cap, fil) {
@@ -83,7 +89,7 @@
   global.tx = tx;
 
   global.State = {
-    get COURS() { return lang() === 'fr' ? FR : ES; }, get byCap() { return IDX[lang()]; }, ES, DILEMAS, hasFR: !!FR, get lang() { return lang(); }, tx, load, save, on, emit, addXP, level, levelBase, markVisto, markEscena, markRespuesta, mastery, estado,
+    get COURS() { return lang() === 'fr' ? FR : ES; }, get byCap() { return IDX[lang()]; }, ES, DILEMAS, EJERCICIOS: global.EJERCICIOS || [], hasFR: !!FR, get lang() { return lang(); }, tx, load, save, on, emit, addXP, log, level, levelBase, markVisto, markEscena, markRespuesta, mastery, estado,
     chapterMastery, globalMastery, setAjuste, exportar, importar, reset,
     get P() { return P; }, get useServer() { return useServer; },
   };

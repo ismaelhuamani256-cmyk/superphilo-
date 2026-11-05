@@ -4,7 +4,7 @@
 (function () {
   'use strict';
   const $ = (s, r = document) => r.querySelector(s), S = State;
-  const views = ['select', 'map', 'tracker', 'dilemas', 'disertacion', 'reperes'];
+  const views = ['select', 'map', 'tracker', 'examen', 'tarjetas', 'dilemas', 'autores', 'plan', 'disertacion', 'reperes'];
   let cur = { view: 'select' };
 
   /* ---------- fondo de estrellas (2D, ligero) ---------- */
@@ -32,7 +32,7 @@
   /* ---------- navegación ---------- */
   function show(v) {
     views.forEach(x => $('#view-' + x).hidden = x !== v);
-    document.querySelectorAll('.tab').forEach(t => t.classList.toggle('on', t.dataset.go === v || (v === 'map' && t.dataset.go === 'select')));
+    document.querySelectorAll('.tab').forEach(t => t.classList.toggle('on', t.dataset.go === v || (v === 'map' && t.dataset.go === 'select') || (v === 'disertacion' && t.dataset.go === 'examen')));
     if (v === 'select') { Select.start(); } else Select.stop();
   }
   function crumbs(parts) { $('#crumbs').innerHTML = parts.map((p, i) => i === parts.length - 1 ? `<b>${p}</b>` : `<span>${p}</span><span>›</span>`).join(' '); }
@@ -51,6 +51,10 @@
       });
     }
     else if (view === 'tracker') { show('tracker'); crumbs(['Repaso']); UI.renderTracker($('#view-tracker')); }
+    else if (view === 'examen') { show('examen'); crumbs([L('Examen', 'Examen')]); Examen.render($('#view-examen'), id); }
+    else if (view === 'tarjetas') { show('tarjetas'); crumbs([L('Tarjetas', 'Cartes')]); Estudio.renderCards($('#view-tarjetas'), id); }
+    else if (view === 'autores') { show('autores'); crumbs([L('Autores', 'Auteurs')]); Estudio.renderAutores($('#view-autores'), id); }
+    else if (view === 'plan') { show('plan'); crumbs([L('Plan', 'Plan')]); Estudio.renderPlan($('#view-plan')); }
     else if (view === 'dilemas') { show('dilemas'); crumbs([L('Dilemas', 'Dilemmes')]); Dilemas.renderList($('#view-dilemas')); if (id) Dilemas.play(id); }
     else if (view === 'disertacion') { show('disertacion'); crumbs(['Disertación']); UI.renderDisert($('#view-disertacion'), id); }
     else if (view === 'reperes') { show('reperes'); crumbs(['Repères']); UI.renderReperes($('#view-reperes')); }
@@ -62,11 +66,12 @@
     $('#chap-side').innerHTML = `<div class="n" style="color:var(--muted);font-size:11px;letter-spacing:.14em">NOCIÓN ${cap.numero} / 17 · pp. ${cap.paginas.inicio}-${cap.paginas.fin}</div>
       <h2 style="color:${col}">${esc(cap.titulo)}</h2><div class="sub">${esc(cap.titulo_es)} · dominio <b>${S.chapterMastery(cap.id)}%</b></div>
       <p>${esc(cap.resumen)}</p>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px"><button class="btn sm primary" id="s-quiz">Quiz del capítulo</button><button class="btn sm" id="s-dis">Disertación</button>${S.DILEMAS.some(d => d.capitulo === cap.id) ? '<button class="btn sm" id="s-dil">Dilema 🎮</button>' : ''}</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px"><button class="btn sm primary" id="s-quiz">Quiz del capítulo</button><button class="btn sm" id="s-dis">Disertación</button><button class="btn sm" id="s-carte">🧠 Carte mentale</button>${S.DILEMAS.some(d => d.capitulo === cap.id) ? '<button class="btn sm" id="s-dil">Dilema 🎮</button>' : ''}</div>
       <h4>Los 5 puntos incontournables</h4><ol>${cap.puntos_incontournables.map(x => `<li>${esc(x)}</li>`).join('')}</ol>
       <h4>Nociones clave</h4><div class="chips">${cap.nociones_clave.map(x => `<span class="chip">${esc(x)}</span>`).join('')}</div>
       <h4>Problemáticas tipo bac</h4>${cap.problematicas_bac.map(x => `<button class="prob" data-d="1">${esc(x)}</button>`).join('')}`;
     $('#s-quiz').onclick = () => UI.startQuiz({ cap }); $('#s-dis').onclick = () => go('disertacion', cap.id);
+    $('#s-carte').onclick = () => Examen.openCarte(cap.id);
     const bd = $('#s-dil'); if (bd) bd.onclick = () => { const d = S.DILEMAS.find(x => x.capitulo === cap.id); go('dilemas', d.id); };
     $('#chap-side').querySelectorAll('[data-d]').forEach(b => b.onclick = () => go('disertacion', cap.id));
   }

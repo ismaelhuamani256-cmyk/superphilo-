@@ -261,5 +261,5 @@
     $('#s-reset', c).onclick = () => { if (confirm('¿Borrar todo tu progreso y XP?')) { S.reset(); closeModal(); global.App && App.rerender(); toast('Progreso borrado'); } };
   }
 
-  global.UI = { openModal, setFichaW, openFicha, closeFicha, openScene, startQuiz, startOpen, renderTracker, renderDisert, renderReperes, openSettings, closeModal, titulo };
+  global.UI = { startMixed, openModal, setFichaW, openFicha, closeFicha, openScene, startQuiz, startOpen, renderTracker, renderDisert, renderReperes, openSettings, closeModal, titulo };
 })(window);

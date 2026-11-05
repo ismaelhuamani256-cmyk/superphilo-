@@ -1,0 +1,155 @@
+{
+  "capitulo": "bonheur",
+  "perspectivas": {
+    "autores": ["Aristote", "les stoïciens", "Épicure", "Kant", "Bergson", "Spinoza", "Sartre"],
+    "nociones_liadas": ["désir", "art", "nature", "liberté", "temps", "devoir"],
+    "ramas": [
+      {
+        "titulo": { "es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture" },
+        "ideas": [
+          { "texto": { "es": "El sabio aristotélico es un modelo espiritual de felicidad.", "fr": "Le sage aristotélicien est un modèle spirituel de bonheur." }, "autor": "Aristote", "cours": "1. a." },
+          { "texto": { "es": "La felicidad depende de mi juicio sobre la realidad.", "fr": "Le bonheur dépend de mon jugement sur la réalité." }, "autor": "les stoïciens", "cours": "2. a." },
+          { "texto": { "es": "La felicidad puede concebirse como un placer sobrio que procede de un deseo natural.", "fr": "Le bonheur peut être envisagé comme un plaisir sobre provenant d’un désir naturel." }, "autor": "Épicure", "cours": "4. a." },
+          { "texto": { "es": "La vida como creación de uno mismo engendra la alegría: ésta no se reduce a un simple placer.", "fr": "La vie comme création de soi engendre la joie : cette dernière n’est pas réductible à un simple plaisir." }, "autor": "Bergson", "cours": "5. a." }
+        ]
+      },
+      {
+        "titulo": { "es": "La moral y la política", "fr": "La morale et la politique" },
+        "ideas": [
+          { "texto": { "es": "La felicidad se distingue de la moral.", "fr": "Le bonheur se distingue de la morale." }, "autor": "Kant", "cours": "4. b." }
+        ]
+      },
+      {
+        "titulo": { "es": "El conocimiento", "fr": "La connaissance" },
+        "ideas": [
+          { "texto": { "es": "El saber desinteresado hace feliz.", "fr": "Le savoir désintéressé rend heureux." }, "autor": "Aristote", "cours": "3." }
+        ]
+      }
+    ],
+    "pagina_pdf": 280
+  },
+  "ejercicios": [
+    {
+      "id": "bonheur-diss",
+      "tipo": "dissertation",
+      "enunciado": { "es": "¿Es la felicidad un fin político?", "fr": "Le bonheur est-il un but politique ?" },
+      "consigna": {
+        "es": "1. Resuma su argumentación bajo tres ángulos (tesis) de enfoque y redacte una breve transición entre las dos primeras tesis. 2. Redacte una conclusión.",
+        "fr": "1. Résumez votre argumentation sous trois angles (thèses) d’approche et rédiger une rapide transition entre les deux premières thèses. 2. Rédigez une conclusion."
+      },
+      "corrige": {
+        "orientacion": {
+          "es": "Perspectiva 2. El sujeto supone que la política tendría como único fin la felicidad, y eso aparecería como un imperativo moral. Ahora bien, la política debe distinguirse de la moral. Este sujeto aborda dos temas (felicidad/Estado) que obligan a considerar sus vínculos, así como las consecuencias (positivas o negativas) que ello puede acarrear para los hombres.",
+          "fr": "Perspective 2. Le sujet suppose que la politique n’aurait comme but que le bonheur, et cela apparaîtrait comme un impératif moral. Or la politique est à distinguer de la morale. Ce sujet a la particularité d’aborder deux thèmes (bonheur/État) qui obligent à considérer leurs liens, ainsi que les conséquences (positives ou négatives) que cela peut entraîner pour les hommes."
+        },
+        "plan": [
+          {
+            "parte": { "es": "I. La felicidad de todos es un fin político loable", "fr": "I. Le bonheur pour tous est un but politique louable" },
+            "idea": {
+              "es": "Durante la Revolución, Saint-Just proclamó que «la felicidad [era] una idea nueva en Europa»: la democracia naciente iba a llevar la felicidad a todas las capas de la población, y ya no estaría reservada a los poderosos. Este derecho a la felicidad significa que todo hombre debe poder vivir con sus necesidades primarias aseguradas. La felicidad es, en este sentido, una obra de justicia social que el Estado debe aplicar y respetar, permitiendo a los más débiles vivir dignamente mediante condiciones de vida decentes. Transición: ¿no corremos el riesgo de que el Estado aporte su propia visión de una felicidad que intentaría imponer a todos? En nombre de la felicidad de todos, ¿no estará en peligro la libertad de cada uno?",
+              "fr": "Pendant la Révolution, Saint Just a proclamé que « le bonheur [était] une idée neuve en Europe ». Il voulait alors montrer que la démocratie naissante était sur le point d’amener un bonheur à toutes les franges de la population, et qu’il n’était plus désormais réservé qu’aux puissants. Ce droit au bonheur signifie que tout homme doit pouvoir vivre en ayant ses besoins primaires assurés. Le bonheur est, en ce sens, une œuvre de justice sociale que l’État se doit d’appliquer et de respecter. Pour ce faire, il doit permettre aux plus faibles de vivre dignement en leur donnant des conditions de vie décentes. [Transition] Toutefois, ne sommes-nous pas confrontés au risque que l’État apporte sa propre vision d’un bonheur qu’il tenterait d’imposer à tous ? Au nom du bonheur de tous, ne sera-ce pas la liberté de chacun qui sera en danger ?"
+            }
+          },
+          {
+            "parte": { "es": "II. Los riesgos de una definición política de la felicidad", "fr": "II. Les risques d’une définition politique du bonheur" },
+            "idea": {
+              "es": "Hay que desconfiar siempre de los políticos que prometen la felicidad a cada uno y cuyo objetivo no se limita al bien común y a la prosperidad del pueblo; estos dos conceptos son políticos porque comprometen la vida de toda la comunidad. Pero la felicidad es una idea eminentemente subjetiva, cuya validez se limita estrictamente a la esfera de la vida personal y privada. Querer hacer la felicidad de los hombres implica, como han mostrado los regímenes totalitarios, la voluntad de imponer por la fuerza la propia concepción de la felicidad. Transición: ¿significa esto que el Estado y la felicidad deben distinguirse radicalmente y que sus respectivos campos de aplicación deben permanecer sin vínculo?",
+              "fr": "Il faut toujours se méfier des hommes ou femmes politiques qui promettent le bonheur pour chacun et dont l’objectif ne se circonscrit pas seulement au bien commun et à la prospérité du peuple. Ces deux derniers concepts sont politiques parce qu’ils engagent la vie de la communauté tout entière. Néanmoins, le bonheur est une idée éminemment subjective dont la validité est strictement limitée à la sphère de la vie personnelle et privée. Vouloir faire le bonheur des hommes implique, comme l’ont montré les régimes totalitaires, la volonté d’imposer sa propre conception du bonheur par la force. [Transition] Est-ce à dire que l’État et le bonheur doivent être radicalement distingués et que leurs champs d’application respectifs doivent demeurer sans lien ?"
+            }
+          },
+          {
+            "parte": { "es": "III. El Estado debe únicamente garantizar las libertades individuales y favorecer la adquisición de las condiciones materiales indispensables para la felicidad, sin definirla jamás", "fr": "III. L’État doit seulement garantir les libertés individuelles et favoriser l’acquisition des conditions matérielles indispensables au bonheur sans jamais le définir" },
+            "idea": {
+              "es": "La constitución estadounidense contiene la palabra «felicidad» y la plantea como principio al mismo nivel que la libertad individual, sin que ello signifique que los estadounidenses vivan bajo un régimen autoritario. Cuando la felicidad se convierte en un valor político, debe limitarse a las estrictas condiciones materiales de vida de los individuos y no ir más allá. El Estado no debe ser el fundador ni el propagador de la felicidad, sino su garante, permitiendo a cada uno vivir como quiera. Sin embargo, la seguridad necesaria de todos, y ante todo de los más débiles, no debe ser un pretexto para reducir las libertades fundamentales.",
+              "fr": "La constitution américaine contient le mot « bonheur » et le pose comme principe au même titre que la liberté individuelle. Cela ne signifie pas que les américains vivent sous un régime autoritaire. En effet, le bonheur, lorsqu’il devient une valeur politique, doit se limiter aux strictes conditions matérielles de vie des individus et ne pas aller au-delà. L’État ne doit surtout pas être le fondateur ou propagateur du bonheur, mais simplement devenir son garant en permettant à chacun de vivre comme il l’entend. Toutefois, la sécurité nécessaire de tous et d’abord des plus faibles ne doit pas être un prétexte à la réduction des libertés fondamentales."
+            }
+          }
+        ],
+        "conclusion": {
+          "es": "Aunque a primera vista parece loable el proyecto político de construir una sociedad en la que cada ciudadano sería feliz, una reflexión profunda ha mostrado que las buenas intenciones pueden desembocar en efectos perversos. Un hombre o poder político que quiera hacer la felicidad de su pueblo habrá definido primero ésta y querrá luego, casi naturalmente, imponerla a todos. La historia muestra, por desgracia, en China y en otras partes, que tal enfoque conduce a la desaparición de la felicidad. Para que la felicidad del pueblo sea posible, hace falta un Estado a la vez modesto y voluntarista, que afirme su firme voluntad de garantizar las condiciones de la felicidad de todos dejando que cada uno viva como quiera. Los ciudadanos deben, pues, estar atentos a la acción política para asegurar verdadera y únicamente la felicidad de todos.",
+          "fr": "Si d’emblée on peut penser louable le projet politique de construire une société dans laquelle chaque citoyen serait heureux, une réflexion approfondie nous a montrés que les bonnes intentions peuvent aboutir à des effets pervers. Un homme ou pouvoir politique voulant faire le bonheur de son peuple aura d’abord défini celui-ci pour ensuite presque naturellement vouloir l’imposer à tous. L’histoire nous montre malheureusement, en Chine et ailleurs, qu’une telle approche aboutit à la disparition du bonheur. Comme nous l’avons montré, pour que le bonheur du peuple soit possible, il faut un État à la fois modeste et volontaire, affirmant sa forte volonté de garantir les conditions du bonheur de tous en laissant chacun vivre comme il l’entend. Les citoyens doivent donc être attentifs à l’action politique pour assurer vraiment et seulement le bonheur de tous."
+        },
+        "puntos_clave": [
+          { "es": "Distingue la felicidad (idea subjetiva, ligada a la vida personal y privada) del bien común y la prosperidad, que sí son conceptos políticos.", "fr": "Distingue le bonheur (idée subjective, liée à la vie personnelle et privée) du bien commun et de la prospérité, qui sont des concepts politiques." },
+          { "es": "Reconoce el valor del derecho a la felicidad como obra de justicia social: asegurar a todos las necesidades primarias y condiciones de vida dignas (Saint-Just).", "fr": "Reconnaît la valeur du droit au bonheur comme œuvre de justice sociale : assurer à tous les besoins primaires et des conditions de vie décentes (Saint Just)." },
+          { "es": "Muestra el riesgo de que el Estado imponga su propia concepción de la felicidad y ponga en peligro la libertad de cada uno.", "fr": "Montre le risque que l’État impose sa propre conception du bonheur et mette en danger la liberté de chacun." },
+          { "es": "Recurre a los regímenes totalitarios (y a la historia, en China y otras partes) para ilustrar que querer hacer la felicidad de los hombres lleva a imponerla por la fuerza.", "fr": "Recourt aux régimes totalitaires (et à l’histoire, en Chine et ailleurs) pour illustrer que vouloir faire le bonheur des hommes conduit à l’imposer par la force." },
+          { "es": "Concluye que el Estado es garante y no fundador de la felicidad: garantiza las libertades y las condiciones materiales, sin definir la felicidad.", "fr": "Conclut que l’État est garant et non fondateur du bonheur : il garantit les libertés et les conditions matérielles, sans définir le bonheur." },
+          { "es": "Evita que la seguridad de los más débiles sirva de pretexto para reducir las libertades fundamentales.", "fr": "Évite que la sécurité des plus faibles serve de prétexte à la réduction des libertés fondamentales." },
+          { "es": "Articula el desarrollo en tres tesis con transiciones en forma de pregunta (peligro para la libertad; separación radical del Estado y la felicidad).", "fr": "Articule le développement en trois thèses avec des transitions sous forme de question (danger pour la liberté ; séparation radicale de l’État et du bonheur)." }
+        ]
+      },
+      "pagina_pdf": 283,
+      "pagina_corrige": 285
+    },
+    {
+      "id": "bonheur-expl",
+      "tipo": "explication",
+      "enunciado": {
+        "es": "Explicación de texto. 1. Redacte la introducción. 2. Detalle la estructura del texto analizando las problemáticas que plantea Descartes. 3. Redacte una breve conclusión.",
+        "fr": "Explication de texte. 1. Rédigez l’introduction. 2. Détaillez la structure du texte en analysant les problématiques soulevées par Descartes. 3. Rédigez une brève conclusion."
+      },
+      "texto": {
+        "fr": "Souvent la passion nous fait croire certaines choses beaucoup meilleures et plus désirables qu’elles ne sont ; puis, quand nous avons pris bien de la peine à les acquérir, et perdu cependant l’occasion de posséder d’autres biens plus véritables, la jouissance nous en fait connaître les défauts, et de là viennent les dédains, les regrets et les repentirs. C’est pourquoi le vrai office de la raison est d’examiner la juste valeur de tous les biens dont l’acquisition semble dépendre en quelque façon de notre conduite, afin que nous ne manquions jamais d’employer tous nos soins à tâcher de nous procurer ceux qui sont, en effet, les plus désirables […].\nAu reste, le vrai usage de notre raison pour la conduite de la vie ne consiste qu’à examiner et considérer sans passion la valeur de toutes les perfections, tant du corps que de l’esprit, qui peuvent être acquises par notre conduite, afin qu’étant ordinairement obligés de nous priver de quelques-unes, pour avoir les autres, nous choisissions toujours les meilleurs. Et parce que celles du corps sont moindres, on peut dire généralement que, sans elle, il y a moyen de se rendre heureux. Toutefois, je ne suis point d’opinion qu’on les doive entièrement mépriser, ni même qu’on doive s’exempter d’avoir des passions ; il suffit qu’on les rende sujettes à la raison, et lorsqu’on les a ainsi apprivoisées, elles sont quelquefois d’autant plus utiles qu’elles penchent plus vers l’excès.",
+        "autor": "Descartes",
+        "obra": "« Lettre à Élisabeth », 1er juin 1645",
+        "pagina_pdf": 283
+      },
+      "consigna": {
+        "es": "Redactar la introducción, detallar la estructura del texto analizando las problemáticas de Descartes y redactar una breve conclusión.",
+        "fr": "Rédigez l’introduction, détaillez la structure du texte en analysant les problématiques soulevées par Descartes et rédigez une brève conclusion."
+      },
+      "corrige": {
+        "tesis": {
+          "es": "Descartes examina en qué medida seguir las propias pasiones contribuye o no a hacer más feliz nuestra existencia: la pasión engaña, la razón debe examinar el justo valor de los bienes y elegir los mejores, pero las pasiones no hay que despreciarlas ni suprimirlas, sino someterlas a la razón, y entonces pueden ser útiles.",
+          "fr": "Descartes examine dans quelle mesure le fait de suivre ses passions contribue ou non à nous « rendre heureux » : la passion trompe, la raison doit examiner la juste valeur des biens et choisir les meilleurs, mais il ne faut ni mépriser ni supprimer les passions, il suffit de les rendre sujettes à la raison, et elles peuvent alors être utiles."
+        },
+        "etapas": [
+          {
+            "titulo": { "es": "Primera parte: aportación respectiva de las pasiones y de la razón a la felicidad", "fr": "Première partie : la contribution respective des passions et de la raison au bonheur" },
+            "idea": {
+              "es": "Constatación psicológica: el hombre quiere procurarse lo que desea para alcanzar la felicidad; los objetos del deseo los suscitan el cuerpo o el espíritu. El problema es saber si la pasión es un buen medio para obtener lo deseable. Descartes no lo cree: la pasión nos engaña y nos muestra las cosas como desearíamos verlas; siempre se da la razón, de modo que engendra la ilusión y quita toda lucidez. Hay que recurrir absolutamente a la razón para desear sólo lo que depende de nosotros, «en cierta manera de nuestra conducta», a semejanza de la filosofía estoica.",
+              "fr": "Descartes part du constat psychologique suivant : l’homme veut se procurer ce qu’il désire afin d’atteindre le bonheur. Les objets du désir sont suscités par le corps ou par l’esprit. Le problème est alors de savoir si sa passion est un bon moyen d’obtenir ce qui est désirable. Descartes n’en est pas convaincu, et estime que la passion nous trompe, et qu’elle nous montrerait les choses de la manière dont on souhaiterait les voir. La passion se donne toujours raison, ce qui fait qu’elle engendre logiquement l’illusion et enlève toute lucidité. Descartes pense qu’il faut absolument recourir à la raison pour ne désirer que ce qui dépend de nous et donc « en quelque façon de notre conduite », à l’instar de la philosophie stoïcienne."
+            },
+            "lineas": "du début jusqu’à « […] les plus désirables »"
+          },
+          {
+            "titulo": { "es": "Segunda parte: se profundiza la oposición entre razón y pasión", "fr": "Deuxième partie : l’opposition entre la raison et la passion est approfondie" },
+            "idea": {
+              "es": "El autor profundiza la oposición entre razón y pasión de la primera parte: la razón aparta toda pasión y sus perfecciones deben privilegiarse hasta la exclusividad, ya que sin ellas hay manera de ser feliz.",
+              "fr": "Descartes poursuit en précisant que la raison écarte toute passion et ses perfections doivent être privilégiées jusqu’à l’exclusivité puisque « sans elles, il y a moyen d’être heureux »."
+            },
+            "lineas": "de « Au reste […] » jusqu’à « […] se rendre heureux »"
+          },
+          {
+            "titulo": { "es": "Tercera parte: Descartes matiza su posición", "fr": "Troisième partie : Descartes nuance sa position" },
+            "idea": {
+              "es": "Descartes se pregunta a qué condición las pasiones pueden tener parcialmente un lugar en la conducta de nuestra vida: hay que controlarlas por la razón y así hacerlas útiles, pues habremos aprendido a dominarlas y orientarlas. No las condena radicalmente porque son maneras de estar en el mundo de una conciencia ligada a un cuerpo.",
+              "fr": "Dans la dernière partie de son raisonnement, Descartes se demande à quelle condition les passions peuvent partiellement avoir une place dans la conduite de notre vie. Il s’agit de les contrôler par la raison, et ainsi de les rendre utiles, puisque nous aurons appris à les maîtriser et les orienter. Descartes ne condamne donc pas radicalement les passions parce qu’elles sont des manières d’être au monde d’une conscience liée à un corps."
+            },
+            "lineas": "de « Toutefois […] » jusqu’à la fin"
+          }
+        ],
+        "introduccion": {
+          "es": "En esta carta, Descartes examina en qué medida seguir las propias pasiones contribuye o no a «hacernos felices». Se trata menos de un análisis argumentado que de un resumen-balance de su pensamiento sobre el tema. Descartes aborda el siguiente problema: «la conducta de nuestra vida» supone la referencia a un sistema jerarquizado de valores y a una cierta concepción de la felicidad. En función de ello examina la capacidad de las pasiones para asegurar nuestra felicidad y, puesto que asigna a la razón la tarea de conducir nuestra vida, el texto se inscribe en la tradición filosófica de la desvalorización de las pasiones humanas, aunque Descartes matice su análisis.",
+          "fr": "Dans cette lettre, Descartes examine dans quelle mesure le fait de suivre ses passions contribue ou non à nous « rendre heureux ». On peut d’abord noter qu’il s’agit moins d’une analyse argumentée que d’un résumé-bilan de sa pensée sur ce sujet. Descartes aborde donc le problème suivant : « la conduite de notre vie » suppose la référence à un système hiérarchisé de valeurs et à une certaine conception du bonheur. C’est en fonction de cela qu’il examine la capacité des passions à assurer notre bonheur et puisqu’il fixe à la raison la tâche de conduire notre vie, ce texte s’inscrit dans la tradition philosophique d’une dévalorisation des passions humaines, même si Descartes nuance son analyse."
+        },
+        "enjeu": {
+          "es": "La originalidad de la concepción cartesiana de la felicidad: de inspiración estoica, pero matizada, halla un justo medio entre las pasiones y la razón, sin la condena radical de Platón ni el elogio sin reservas de Nietzsche. Se explica por su concepción del hombre (unión de un cuerpo y un alma), de la voluntad (infinitamente libre) y de sus poderes (suspender los efectos de la pasión). Si se acepta la definición cartesiana de la felicidad (desear sólo los bienes que nos son accesibles), la solución a la relación entre razón y pasión es coherente; el texto puede verse como una lección de generosidad.",
+          "fr": "On peut noter l’originalité de la conception cartésienne du bonheur car si elle est bien d’inspiration stoïcienne, elle a le mérite d’être nuancée et trouve un juste milieu entre les passions et la raison. Ainsi, elle ne se situe ni dans une condamnation radicale, à la manière de Platon, ni dans un éloge sans réserve comme le fait Nietzsche. Cette originalité s’explique par sa conception de l’homme (union d’un corps et d’une âme), de la volonté (infiniment libre) et de ses pouvoirs (suspendre les effets de la passion). Si on accepte la définition cartésienne du bonheur, à savoir ne désirer que les biens qui nous sont accessibles, la solution des rapports entre raison et passion est tout à fait cohérente compte tenu de la logique des passions. En ce sens, on peut voir ce texte comme une leçon de générosité."
+        },
+        "puntos_clave": [
+          { "es": "Plantea en la introducción la cuestión: en qué medida las pasiones contribuyen a la felicidad, y precisa que el texto es más un resumen-balance que un análisis argumentado.", "fr": "Pose en introduction la question : dans quelle mesure les passions contribuent au bonheur, et précise que le texte est plus un résumé-bilan qu’une analyse argumentée." },
+          { "es": "Muestra que la pasión engaña (se da siempre la razón, engendra ilusión y quita lucidez) y que la razón debe examinar el justo valor de los bienes.", "fr": "Montre que la passion trompe (elle se donne toujours raison, engendre l’illusion et enlève la lucidité) et que la raison doit examiner la juste valeur des biens." },
+          { "es": "Señala la inspiración estoica: desear sólo lo que depende de nosotros, es decir, de nuestra conducta.", "fr": "Relève l’inspiration stoïcienne : ne désirer que ce qui dépend de nous, donc de notre conduite." },
+          { "es": "Identifica la oposición razón/pasión y el privilegio de las perfecciones del espíritu sobre las del cuerpo (se puede ser feliz sin éstas).", "fr": "Identifie l’opposition raison/passion et le privilège des perfections de l’esprit sur celles du corps (on peut être heureux sans elles)." },
+          { "es": "Explica el matiz final: ni despreciar ni suprimir las pasiones, sino someterlas a la razón para hacerlas útiles, porque expresan un alma unida a un cuerpo.", "fr": "Explique la nuance finale : ne ni mépriser ni supprimer les passions mais les soumettre à la raison pour les rendre utiles, car elles expriment une âme unie à un corps." },
+          { "es": "Reconoce la estructura en tres partes (aportación de pasión y razón; oposición razón/pasión; matiz sobre el lugar de las pasiones).", "fr": "Reconnaît la structure en trois parties (contribution de la passion et de la raison ; opposition raison/passion ; nuance sur la place des passions)." },
+          { "es": "Concluye con la originalidad cartesiana: justo medio entre Platón (condena) y Nietzsche (elogio), fundado en la unión cuerpo-alma, la voluntad libre y el poder de suspender la pasión; una lección de generosidad.", "fr": "Conclut sur l’originalité cartésienne : juste milieu entre Platon (condamnation) et Nietzsche (éloge), fondé sur l’union corps-âme, la volonté libre et le pouvoir de suspendre la passion ; une leçon de générosité." }
+        ]
+      },
+      "pagina_pdf": 283,
+      "pagina_corrige": 286
+    }
+  ]
+}

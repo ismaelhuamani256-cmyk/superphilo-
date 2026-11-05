@@ -1,0 +1,249 @@
+{
+  "capitulo": "travail",
+  "perspectivas": {
+    "autores": ["Aristote", "Sénèque", "Marx", "Nietzsche", "Hegel", "Marcuse", "Jouvenel"],
+    "nociones_liadas": ["liberté", "technique", "conscience", "bonheur"],
+    "ramas": [
+      {
+        "titulo": {"es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture"},
+        "ideas": [
+          {
+            "texto": {
+              "es": "El trabajo es específico del hombre: a diferencia de un animal guiado por su instinto, el hombre es capaz de interrogarse sobre su trabajo y de ajustar su saber hacer en función de su experiencia.",
+              "fr": "Le travail est spécifique à l’homme, car contrairement à un animal guidé par son instinct, celui-ci possède la capacité de s’interroger sur son travail et d’ajuster son savoir-faire en fonction de son expérience."
+            },
+            "autor": "aristote", "cours": "1. a."
+          },
+          {
+            "texto": {
+              "es": "El trabajo libera al hombre de su estado de naturaleza.",
+              "fr": "Le travail libère l’homme de son état de nature."
+            },
+            "cours": "2. b."
+          },
+          {
+            "texto": {
+              "es": "El trabajo se vuelve alienante cuando sirve a una clase social superior cuyo objetivo es obtener beneficios a expensas de los trabajadores.",
+              "fr": "Le travail devient aliénant, lorsqu’il sert une classe sociale supérieure dont le but est de faire du profit aux dépens des travailleurs."
+            },
+            "autor": "marx", "cours": "3. b."
+          },
+          {
+            "texto": {
+              "es": "Se puede revalorizar el trabajo reconciliándolo con la noción de placer.",
+              "fr": "On peut revaloriser le travail en le réconciliant avec la notion de plaisir."
+            },
+            "autor": "jouvenel", "cours": "5."
+          }
+        ]
+      },
+      {
+        "titulo": {"es": "La moral y la política", "fr": "La morale et la politique"},
+        "ideas": [
+          {
+            "texto": {
+              "es": "Los hombres construyen y elevan su humanidad produciendo obras, fuentes de su trabajo.",
+              "fr": "Les hommes construisent et élèvent leur humanité en produisant des œuvres, sources de leur travail."
+            },
+            "cours": "2. b."
+          },
+          {
+            "texto": {
+              "es": "El trabajo se vuelve moral cuando la remuneración que recibe sirve únicamente para las necesidades vitales de los hombres.",
+              "fr": "Le travail devient moral, lorsque la rémunération pour celui-ci ne sert que les besoins vitaux des hommes."
+            },
+            "cours": "3. a."
+          },
+          {
+            "texto": {
+              "es": "A la inversa, «el arte de adquirir riquezas» únicamente por el placer de poseer dinero y bienes es inmoral.",
+              "fr": "À l’inverse, « l’art d’acquérir des richesses » uniquement pour le plaisir de posséder de l’argent et des biens est immoral."
+            },
+            "cours": "3. a."
+          },
+          {
+            "texto": {
+              "es": "El trabajo socializado muestra un miedo a lo individual y a la independencia de los hombres.",
+              "fr": "Le travail socialisé montre une peur de l’individuel et de l’indépendance des hommes."
+            },
+            "cours": "4. a."
+          }
+        ]
+      },
+      {
+        "titulo": {"es": "El conocimiento", "fr": "La connaissance"},
+        "ideas": [
+          {
+            "texto": {
+              "es": "El conocimiento de la historia de la humanidad nos ayuda a comprender la evolución del trabajo y de sus concepciones, que siempre han estado ligadas al valor atribuido a la vida de los hombres.",
+              "fr": "La connaissance de l’histoire de l’humanité nous aide à comprendre l’évolution du travail et de ses conceptions. On peut d’ailleurs noter à ce propos que celles-ci ont toujours été liées à la valeur attribuée à la vie des hommes."
+            }
+          }
+        ]
+      }
+    ],
+    "pagina_pdf": 105
+  },
+  "ejercicios": [
+    {
+      "id": "travail-diss",
+      "tipo": "dissertation",
+      "enunciado": {"es": "¿El trabajo hace libre?", "fr": "Le travail rend-il libre ?"},
+      "consigna": {
+        "es": "Elabore un plan en tres partes y luego resuma sus argumentos.",
+        "fr": "Élaborez un plan en trois parties, puis résumez vos arguments."
+      },
+      "corrige": {
+        "problematica": {
+          "es": "¿Es el trabajo, a la vez necesidad vital, relación de poder y actividad elegida, un medio de liberación o de sumisión?",
+          "fr": "Le travail, à la fois nécessité vitale, rapport de pouvoir et activité choisie, libère-t-il ou soumet-il les hommes ?"
+        },
+        "plan": [
+          {
+            "parte": {
+              "es": "I. El trabajo es una condición de la supervivencia de los hombres.",
+              "fr": "I. Le travail est une condition de la survie des hommes."
+            },
+            "idea": {
+              "es": "El trabajo es ante todo una necesidad vital, pues el hombre nunca ha vivido en armonía con la naturaleza sin hacer nada. Pero esa necesidad es también una oportunidad de ejercer la libertad imprimiendo el espíritu en lo real: como muestra Hegel, al trabajar la realidad según sus competencias y valores, el hombre se forma a sí mismo y aumenta su libertad. Al transformar lo real y crear obras, se aleja de la naturaleza y transforma su propia naturaleza elaborando valores como el derecho y la moral; así hace su historia y la orienta con más lucidez que mediante la violencia de las guerras.",
+              "fr": "Le travail est d’abord une nécessité vitale, car jamais l’homme n’a vécu dans une sorte d’harmonie avec la nature lui permettant de vivre sans rien faire. Mais cette nécessité est aussi une chance de mettre en œuvre sa liberté en imprimant le réel de son esprit : comme le montre Hegel, en travaillant la réalité selon ses compétences et ses valeurs, l’homme se forme lui-même et accroît sa liberté. En transformant la réalité et en créant des œuvres, il s’éloigne de la nature et transforme sa propre nature en élaborant des valeurs, telles que le droit et la morale ; il fait ainsi son histoire et l’oriente plus lucidement que par les actes de violence que sont les guerres."
+            },
+            "autores": ["hegel"]
+          },
+          {
+            "parte": {
+              "es": "II. El trabajo supone relaciones jerárquicas entre los hombres.",
+              "fr": "II. Le travail suppose des rapports hiérarchiques entre les hommes."
+            },
+            "idea": {
+              "es": "El trabajo es también lo que une a los hombres e instituye relaciones de poder con quienes dominan a los demás reduciendo su fuerza de trabajo a un simple coste. Lejos de liberar, obliga a quienes deben aceptarlo para vivir a someterse a las condiciones impuestas (cólera de André Breton en Nadja). El ingeniero Taylor quería asociar saber y poder: los obreros no debían tener demasiados conocimientos sobre la organización de su oficio para no querer organizarlo a su manera. Hoy, los métodos de gestión enseñados en las escuelas de comercio quitan la autonomía a los obreros y les hacen aceptar las relaciones de dominación; las ideologías cambian, pero se presentan siempre como técnicas neutras.",
+              "fr": "Le travail est aussi ce qui relie les hommes et institue des rapports de pouvoir avec ceux qui dominent les autres en réduisant leur force de travail à un simple coût. Loin de libérer les hommes, il oblige ceux qui doivent l’accepter pour vivre à se soumettre aux conditions qui leur sont imposées (colère d’André Breton dans Nadja). L’ingénieur Taylor affirmait qu’il fallait associer le savoir et le pouvoir : les ouvriers ne devaient pas avoir trop de connaissances dans l’organisation de leur métier, afin de ne pas désirer l’organiser à leur guise. Aujourd’hui, les méthodes managériales enseignées dans les écoles de commerce servent à ôter l’autonomie des ouvriers et à leur faire accepter les rapports de domination ; les idéologies changent, mais se présentent toujours comme des techniques neutres."
+            },
+            "autores": ["marx"]
+          },
+          {
+            "parte": {
+              "es": "III. Al elegir su trabajo, el hombre eleva sus cualidades y su papel social.",
+              "fr": "III. L’homme, en choisissant son travail, élève ses qualités et son rôle social."
+            },
+            "idea": {
+              "es": "Al elegir libremente un trabajo en el que puede realizarse, el hombre puede elevar sus cualidades y desempeñar un papel social esencial: lo alienante no es el trabajo mismo sino la miseria que obliga a aceptar cualquier condición. Si «lo propio del trabajo es ser forzado» (Alain), cuando es elegido y ejercido con pasión ya no es propiamente un trabajo. Esto vale para el trabajo intelectual y artístico, que no pueden separar radicalmente ocio y trabajo; para los griegos la cultura era un privilegio de las élites de ocio, mientras que lo público era el dominio del trabajo (ascholia, ausencia de ocio). El trabajo impuesto como instrumento de dominación atenta contra la libertad de los débiles, que deben conquistarla exigiendo que sea vivido como un ocio libremente elegido: ya no se trata de un simple trabajo sino de una vida feliz y libre.",
+              "fr": "En choisissant librement un travail dans lequel il peut s’épanouir, un homme peut élever ses qualités et avoir un rôle social essentiel : ce n’est pas le travail lui-même qui est aliénant, mais la misère qui oblige à accepter n’importe quelles conditions de travail. Si « le propre du travail, c’est d’être forcé » (Alain), lorsqu’il est choisi et exercé avec passion, ce n’est plus à proprement parler un travail. Cela vaut pour le travail intellectuel et artistique, qui ne peuvent séparer radicalement loisir et travail ; pour les Grecs, la culture était un privilège réservé aux élites de loisir, tandis que le domaine public relevait du travail et de l’ascholia (absence de loisir). Le travail imposé comme outil de domination porte atteinte à la liberté des faibles, qui doivent la conquérir en exigeant qu’il soit vécu comme un loisir librement choisi : nous n’avons plus alors affaire à un simple travail, mais à une vie heureuse et libre."
+            },
+            "autores": []
+          }
+        ],
+        "puntos_clave": [
+          {
+            "es": "Reconoce que el trabajo es una necesidad vital: el hombre nunca ha vivido en armonía con la naturaleza sin trabajar.",
+            "fr": "Reconnaît que le travail est une nécessité vitale : l’homme n’a jamais vécu en harmonie avec la nature sans travailler."
+          },
+          {
+            "es": "Muestra, con Hegel, que al transformar lo real y crear obras el hombre se forma a sí mismo, aumenta su libertad y elabora valores (derecho, moral).",
+            "fr": "Montre, avec Hegel, qu’en transformant le réel et en créant des œuvres l’homme se forme lui-même, accroît sa liberté et élabore des valeurs (droit, morale)."
+          },
+          {
+            "es": "Señala que el trabajo instituye relaciones jerárquicas y de poder que someten a quienes deben aceptarlo para vivir.",
+            "fr": "Souligne que le travail institue des rapports hiérarchiques et de pouvoir qui soumettent ceux qui doivent l’accepter pour vivre."
+          },
+          {
+            "es": "Ilustra la dominación con ejemplos precisos: Breton (Nadja), Taylor (saber y poder separados) y los métodos de gestión actuales presentados como técnicas neutras.",
+            "fr": "Illustre la domination par des exemples précis : Breton (Nadja), Taylor (savoir et pouvoir associés) et les méthodes managériales actuelles présentées comme des techniques neutres."
+          },
+          {
+            "es": "Distingue el trabajo impuesto por la miseria del trabajo elegido y asumido con placer, que desarrolla las cualidades y permite un buen uso de la libertad.",
+            "fr": "Distingue le travail imposé par la misère du travail choisi et assumé avec plaisir, qui développe les qualités et permet de faire bon usage de sa liberté."
+          },
+          {
+            "es": "Recurre a la idea de ocio (los griegos, la ascholia) y a la cita de Alain («el propio del trabajo es ser forzado») para mostrar que el trabajo elegido deja de ser un simple trabajo.",
+            "fr": "Mobilise l’idée de loisir (les Grecs, l’ascholia) et la citation d’Alain (« le propre du travail, c’est d’être forcé ») pour montrer que le travail choisi n’est plus un simple travail."
+          },
+          {
+            "es": "Concluye que el trabajo no es en sí alienante: lo es el carácter impuesto, y la libertad debe conquistarse porque nunca se da.",
+            "fr": "Conclut que ce n’est pas le travail en soi qui aliène, mais son caractère imposé, et que la liberté doit être conquise car elle ne se donne jamais."
+          }
+        ]
+      },
+      "pagina_pdf": 108,
+      "pagina_corrige": 109
+    },
+    {
+      "id": "travail-expl",
+      "tipo": "explication",
+      "enunciado": {
+        "es": "1. Indique los distintos momentos del texto resumiendo su contenido. 2. Varios autores inspiran el pensamiento de Sartre: ¿cuál podemos considerar el más fundamental aquí? ¿Por qué?",
+        "fr": "1. Donnez les différents moments du texte en résumant leur contenu. 2. Plusieurs auteurs inspirent la pensée de Sartre, quel est celui que nous pouvons considérer comme le plus fondamental ici ? Pourquoi ?"
+      },
+      "texto": {
+        "fr": "L’ouvrier devient l’homme d’une seule opération qu’il répète cent fois par jour ; il n’est plus qu’un objet et il serait enfantin ou odieux de raconter à une piqueuse de bottines ou à l’ouvrière qui pose les aiguilles sur le cadran de vitesse des automobiles Ford qu’elles conservent, au sein de l’action où elles sont engagées, la liberté intérieure de penser. Mais dans le même temps, le travail offre une amorce de libération concrète, même dans ces cas extrêmes, parce qu’il est d’abord négation de l’ordre contingent et capricieux qui est l’ordre du maître. Au travail, l’opprimé n’a plus le souci de plaire au maître, il échappe au monde de la danse, de la politesse, de la cérémonie, de la psychologie ; il n’a pas à deviner ce qui se passe derrière les yeux du chef, il n’est plus à la merci d’une humeur : son travail, certes, lui est imposé à l’origine et on lui vole finalement son produit. Mais entre ces deux limites, il lui confère la maîtrise sur les choses ; le travailleur se saisit comme possibilité de faire varier à l’infini la forme d’un objet matériel en agissant sur lui selon certaines règles universelles. En d’autres termes, c’est le déterminisme de la matière qui lui offre la première image de sa liberté.",
+        "autor": "Sartre",
+        "obra": "Matérialisme et révolution, in Situation III, 1949",
+        "pagina_pdf": 108
+      },
+      "consigna": {
+        "es": "1. Indique los distintos momentos del texto resumiendo su contenido. 2. Varios autores inspiran el pensamiento de Sartre: ¿cuál podemos considerar el más fundamental aquí? ¿Por qué?",
+        "fr": "1. Donnez les différents moments du texte en résumant leur contenu. 2. Plusieurs auteurs inspirent la pensée de Sartre, quel est celui que nous pouvons considérer comme le plus fondamental ici ? Pourquoi ?"
+      },
+      "corrige": {
+        "tesis": {
+          "es": "Si el trabajo manual puede ser una coacción que reduce al obrero a un objeto, también ofrece un comienzo de liberación concreta: al trabajar la materia, el trabajador escapa un tiempo de las relaciones de poder y se ve libre de dar forma a las cosas.",
+          "fr": "Si le travail manuel peut être contraignant, il permet de s’évader un temps grâce au travail de la matière : il offre une amorce de libération concrète."
+        },
+        "etapas": [
+          {
+            "titulo": {"es": "Primer momento: el obrero reducido a objeto", "fr": "Premier moment : l’ouvrier réduit à un objet"},
+            "idea": {
+              "es": "Se opone a la concepción estoica de una libertad interior: un obrero de una cadena de montaje está completamente absorbido por su actividad y no puede tomar la distancia necesaria para pensar.",
+              "fr": "Ce moment s’oppose à la conception stoïcienne d’une liberté intérieure, puisqu’un ouvrier qui travaille sur une chaîne de montage est complètement happé par son activité et ne peut prendre le recul nécessaire pour penser."
+            },
+            "lineas": "l. 1-5"
+          },
+          {
+            "titulo": {"es": "Segundo momento: el trabajo, comienzo de liberación concreta", "fr": "Second moment : le travail, amorce de libération concrète"},
+            "idea": {
+              "es": "Sartre demuestra que, por su contacto continuo con una materia, el obrero le impone libremente una forma particular, lo que le permite escapar, durante el tiempo de su trabajo, a las relaciones de poder que le son impuestas.",
+              "fr": "Sartre démontre que, par son contact continu avec une matière, l’ouvrier lui impose librement une forme particulière qui lui permet d’échapper le temps de son travail aux rapports de pouvoir qui lui sont imposés."
+            },
+            "lineas": "l. 5-16"
+          }
+        ],
+        "enjeu": {
+          "es": "El texto pone de manifiesto una ambivalencia a la vez social y política, ligada a la existencia humana (perspectivas 1 y 2). Su perspectiva política es de inspiración marxista, pero el fondo filosófico que permite pensar el trabajo como liberador es incuestionablemente heredado de Hegel: gracias a su trabajo, la libertad de un hombre se vuelve realmente práctica, pues le permite afrontar la realidad y transformarla dándole una forma que le es propia.",
+          "fr": "Le texte de Sartre met au jour une ambivalence à la fois sociale et politique, et liée à l’existence humaine (perspectives 1 et 2). Sa perspective politique est d’inspiration marxiste, mais le fond philosophique permettant de penser le travail comme libérateur est incontestablement hérité de Hegel : grâce à son travail, la liberté d’un homme devient réellement pratique, car il lui permet d’affronter la réalité et de la transformer en lui donnant une forme qui lui est propre."
+        },
+        "puntos_clave": [
+          {
+            "es": "Identifica el primer momento (hasta «la libertad interior de pensar», l. 5): el obrero de la cadena queda reducido a un objeto.",
+            "fr": "Identifie le premier moment (jusqu’à « la liberté intérieure de penser », l. 5) : l’ouvrier à la chaîne est réduit à un objet."
+          },
+          {
+            "es": "Señala que este primer momento se opone a la concepción estoica de una libertad interior, pues el obrero absorbido por su actividad no puede tomar distancia para pensar.",
+            "fr": "Relève que ce premier moment s’oppose à la conception stoïcienne d’une liberté intérieure, l’ouvrier happé par son activité ne pouvant prendre le recul pour penser."
+          },
+          {
+            "es": "Identifica el segundo momento (desde «Mais dans le même temps…» hasta el final): el trabajo ofrece un comienzo de liberación concreta.",
+            "fr": "Identifie le second moment (de « Mais dans le même temps… » jusqu’à la fin) : le travail offre une amorce de libération concrète."
+          },
+          {
+            "es": "Explica que el contacto con la materia permite al obrero imponerle una forma y escapar, mientras trabaja, a las relaciones de poder (el orden caprichoso del amo).",
+            "fr": "Explique que le contact avec la matière permet à l’ouvrier de lui imposer une forme et d’échapper, le temps du travail, aux rapports de pouvoir (l’ordre capricieux du maître)."
+          },
+          {
+            "es": "Subraya la ambivalencia social y política del trabajo manual: coacción, pero también evasión mediante el trabajo de la materia.",
+            "fr": "Souligne l’ambivalence sociale et politique du travail manuel : contrainte, mais aussi évasion grâce au travail de la matière."
+          },
+          {
+            "es": "Reconoce la inspiración marxista de la perspectiva política, pero considera a Hegel como el autor más fundamental para pensar el trabajo como liberador.",
+            "fr": "Reconnaît l’inspiration marxiste de la perspective politique, mais retient Hegel comme l’auteur le plus fondamental pour penser le travail comme libérateur."
+          },
+          {
+            "es": "Justifica la elección de Hegel: por el trabajo, la libertad se vuelve realmente práctica al afrontar la realidad y transformarla dándole una forma propia.",
+            "fr": "Justifie le choix de Hegel : par le travail, la liberté devient réellement pratique en affrontant la réalité et en la transformant pour lui donner une forme propre."
+          }
+        ]
+      },
+      "pagina_pdf": 108,
+      "pagina_corrige": 111
+    }
+  ]
+}

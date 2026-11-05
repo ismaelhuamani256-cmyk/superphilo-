@@ -1,0 +1,130 @@
+{
+  "capitulo": "religion",
+  "perspectivas": {
+    "autores": ["Durkheim", "Bergson", "Pascal", "Descartes", "Kant", "Freud", "Feuerbach", "Nietzsche", "Otto", "Benveniste", "Voltaire", "Marx"],
+    "nociones_liadas": ["justice", "vérité", "conscience", "temps", "liberté", "nature"],
+    "ramas": [
+      {
+        "titulo": {"es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture"},
+        "ideas": [
+          {"texto": {"es": "La religión es ante todo un hecho social y cultural.", "fr": "La religion est d’abord un fait social et culturel."}, "cours": "1. a."},
+          {"texto": {"es": "Toda religión comporta ritos que dan sentido a la existencia de los creyentes.", "fr": "Toute religion comporte des rites qui donnent du sens à l’existence des croyants."}, "cours": "1. b."},
+          {"texto": {"es": "Una religión supone una realidad trascendente de la que se pueden ver signos en nuestro mundo.", "fr": "Une religion suppose une réalité transcendante dont on peut voir des signes dans notre monde."}, "cours": "2. a."},
+          {"texto": {"es": "Toda creencia religiosa se apoya en una fascinación, un temor y un respeto.", "fr": "Toute croyance religieuse s’appuie sur une fascination, une crainte et un respect."}, "autor": "Otto", "cours": "2. b."},
+          {"texto": {"es": "Dios da sentido a la existencia humana.", "fr": "Dieu donne du sens à l’existence humaine."}, "autor": "Pascal", "cours": "4. a."},
+          {"texto": {"es": "Los hombres han creado a los dioses por debilidad.", "fr": "Les hommes ont créé les dieux par faiblesse."}, "cours": "4. b."}
+        ]
+      },
+      {
+        "titulo": {"es": "La moral y la política", "fr": "La morale et la politique"},
+        "ideas": [
+          {"texto": {"es": "La existencia de un dios justiciero hace surgir la moral.", "fr": "L’existence d’un dieu justicier fait émerger la morale."}, "autor": "Voltaire", "cours": "4. a."}
+        ]
+      },
+      {
+        "titulo": {"es": "El conocimiento", "fr": "La connaissance"},
+        "ideas": [
+          {"texto": {"es": "Existen al menos tres tipos de pruebas de la existencia de Dios.", "fr": "Il existe au moins trois types de preuves de l’existence de Dieu."}, "cours": "3."},
+          {"texto": {"es": "Según Pascal, Dios no se prueba, sino que se experimenta.", "fr": "Selon Pascal, Dieu ne se prouve pas mais s’éprouve."}, "autor": "Pascal", "cours": "4. a."}
+        ]
+      }
+    ],
+    "pagina_pdf": 148
+  },
+  "ejercicios": [
+    {
+      "id": "religion-diss",
+      "tipo": "dissertation",
+      "enunciado": {"es": "¿Puede el hombre prescindir de la religión?", "fr": "L’homme peut-il se passer de religion ?"},
+      "consigna": {"es": "Redactar la introducción del tema, respetando todas las etapas que la estructuran. (Perspectivas 1 y 2. Este tema invita a interesarse por la religión en la esfera privada y en la esfera pública: interroga la voluntad del hombre de comprender el sentido de su propia existencia y la necesidad de las reglas religiosas para mantener la paz civil.)", "fr": "Rédigez l’introduction du sujet, en veillant à respecter toutes les étapes structurant cette dernière. (Perspectives 1 et 2. Ce sujet incite à s’intéresser à la religion dans la sphère privée et dans la sphère publique. Il interroge sur la volonté de l’homme à comprendre le sens de sa propre existence et sur la nécessité des règles religieuses pour maintenir la paix civile.)"},
+      "corrige": {
+        "introduccion": {
+          "es": "[Explicación del tema] Podemos concebir una sociedad sin religión y tener como ideal un hombre educado, hecho adulto y que, como dice Freud, ya no necesita una protección para afrontar la realidad. En este sentido, la ausencia de religión marcaría el progreso de un hombre que decide pensar por sí mismo y se niega a recurrir en su vida a una entidad exterior y superior que le sirva de modelo moral y existencial. [Problemática] ¿No es para el hombre una manera de asumir toda su humanidad el rechazar la alienación religiosa? [Anuncio del plan] Pero si una posición teórica así puede sostenerse, el riesgo es grande, si se presenta como un ideal social y político, de provocar la creación de ídolos que sirvan de sustitutos de los dioses. En los países totalitarios en los que la religión no estaba reconocida se asistió a una sacralización del Estado que nada tuvo de liberador para los hombres. Peor aún, ¿el ateísmo radical reivindicado, por ejemplo, por numerosos personajes de la obra de Dostoievski no desemboca necesariamente en la pérdida de todo valor moral? Sin embargo, es posible no ser fiel a una religión, no aceptar sus dogmas y compartir sus valores fundamentales. Así, ¿no nos muestra Nietzsche que una ausencia de valor religioso expresaría un rechazo de sentido peligroso, porque destructor de todo valor? Si se quiere evitar la sacralización de falsos valores como el consumo, el deporte o la violencia, ¿no hace falta entonces que el hombre asuma y respete valores universales heredados de la Ilustración para hacerse una religión a la vez crítica y liberadora?",
+          "fr": "[Explication du sujet] Il nous est possible de concevoir une société sans religion et avoir comme idéal un homme éduqué, devenu adulte et, comme le dit Freud, n’ayant plus besoin d’une protection pour affronter la réalité. En ce sens, l’absence de religion marquerait le progrès d’un homme qui décide de penser par lui-même et refuse dans sa vie de recourir à une entité extérieure et supérieure lui servant de modèle morale et existentiel. [Problématique] N’est-ce pas pour un homme une façon d’assumer toute son humanité que de refuser l’aliénation religieuse ? [Annonce du plan] Mais si une telle position théorique peut être soutenue, le risque est grand, si elle est présentée comme un idéal social et politique, d’engendrer la création d’idoles servant de substituts aux dieux. Dans les pays totalitaires dans lesquels la religion n’était pas reconnue, on a assisté à une sacralisation de l’État qui n’avait rien de libérateur pour les hommes. Pis encore, l’athéisme radical revendiqué, par exemple, par de nombreux personnages dans l’œuvre de Dostoïevski n’aboutit-il pas nécessairement à la perte de toute valeur morale ? Cependant il est possible de ne pas être fidèle à une religion, de ne pas en accepter les dogmes et d’en partager les valeurs fondamentales. Ainsi, Nietzsche ne nous montre-t-il qu’une absence de valeur religieuse exprimerait un refus de sens dangereux, car destructeur de toute valeur. Si l’on veut éviter la sacralisation de fausses valeurs telles que la consommation, le sport ou la violence, ne faut-il pas alors que l’homme assume et respecte des valeurs universelles héritées des Lumières pour s’en faire une religion à la fois critique et libératrice ?"
+        },
+        "problematica": {
+          "es": "¿No es para un hombre una manera de asumir toda su humanidad el rechazar la alienación religiosa?",
+          "fr": "N’est-ce pas pour un homme une façon d’assumer toute son humanité que de refuser l’aliénation religieuse ?"
+        },
+        "plan": [
+          {
+            "parte": {"es": "I. Una sociedad sin religión como progreso del hombre adulto", "fr": "I. Une société sans religion comme progrès de l’homme devenu adulte"},
+            "idea": {"es": "Se puede concebir un hombre educado y adulto que, como dice Freud, ya no necesita protección para afrontar la realidad: rechazar la alienación religiosa sería asumir toda su humanidad y pensar por sí mismo.", "fr": "On peut concevoir un homme éduqué, devenu adulte, qui, comme le dit Freud, n’a plus besoin de protection pour affronter la réalité : refuser l’aliénation religieuse serait assumer toute son humanité et penser par lui-même."},
+            "autores": ["freud"]
+          },
+          {
+            "parte": {"es": "II. Los riesgos de la ausencia de religión como ideal social y político", "fr": "II. Les risques de l’absence de religion comme idéal social et politique"},
+            "idea": {"es": "Presentada como ideal social y político, la ausencia de religión corre el riesgo de crear ídolos sustitutos de los dioses (sacralización del Estado en los países totalitarios) y, con un ateísmo radical como el de ciertos personajes de Dostoievski, de acabar en la pérdida de todo valor moral.", "fr": "Présentée comme un idéal social et politique, l’absence de religion risque d’engendrer des idoles substituts aux dieux (sacralisation de l’État dans les pays totalitaires) et, avec un athéisme radical comme celui de certains personnages de Dostoïevski, d’aboutir à la perte de toute valeur morale."},
+            "autores": []
+          },
+          {
+            "parte": {"es": "III. Valores universales como religión crítica y liberadora", "fr": "III. Des valeurs universelles comme religion critique et libératrice"},
+            "idea": {"es": "Se puede no ser fiel a una religión ni aceptar sus dogmas y compartir sus valores fundamentales; para evitar la sacralización de falsos valores (consumo, deporte, violencia), el hombre debe asumir y respetar los valores universales heredados de la Ilustración, una religión a la vez crítica y liberadora.", "fr": "On peut ne pas être fidèle à une religion, ne pas en accepter les dogmes et en partager les valeurs fondamentales ; pour éviter la sacralisation de fausses valeurs (consommation, sport, violence), l’homme doit assumer et respecter les valeurs universelles héritées des Lumières, une religion à la fois critique et libératrice."},
+            "autores": ["nietzsche"]
+          }
+        ],
+        "puntos_clave": [
+          {"es": "La introducción sigue las etapas exigidas: explicación del tema, problemática y anuncio del plan.", "fr": "L’introduction suit les étapes exigées : explication du sujet, problématique et annonce du plan."},
+          {"es": "Explica el tema a partir de la idea de una sociedad sin religión y de un hombre adulto que ya no necesita protección para afrontar la realidad (Freud).", "fr": "Explique le sujet à partir de l’idée d’une société sans religion et d’un homme adulte n’ayant plus besoin de protection pour affronter la réalité (Freud)."},
+          {"es": "Formula una problemática en forma de pregunta: ¿rechazar la alienación religiosa es una manera de asumir toda la humanidad?", "fr": "Formule une problématique sous forme de question : refuser l’aliénation religieuse est-ce une façon d’assumer toute son humanité ?"},
+          {"es": "Considera la religión tanto en la esfera privada (sentido de la existencia) como en la esfera pública (paz civil, valores).", "fr": "Envisage la religion dans la sphère privée (sens de l’existence) comme dans la sphère publique (paix civile, valeurs)."},
+          {"es": "Señala el riesgo de las idolatrías de sustitución (sacralización del Estado en los regímenes totalitarios) y el de la pérdida de valores morales (Dostoievski).", "fr": "Signale le risque des idoles de substitution (sacralisation de l’État dans les régimes totalitaires) et celui de la perte des valeurs morales (Dostoïevski)."},
+          {"es": "Mantiene la distinción entre no ser fiel a una religión y rechazar todo valor, apoyándose en Nietzsche.", "fr": "Maintient la distinction entre ne pas être fidèle à une religion et refuser toute valeur, en s’appuyant sur Nietzsche."},
+          {"es": "Anuncia un plan que evoluciona hacia una apertura: valores universales de la Ilustración como religión crítica y liberadora.", "fr": "Annonce un plan qui évolue vers une ouverture : valeurs universelles des Lumières comme religion critique et libératrice."}
+        ]
+      },
+      "pagina_pdf": 151,
+      "pagina_corrige": 152
+    },
+    {
+      "id": "religion-expl",
+      "tipo": "explication",
+      "enunciado": {"es": "Realizar la introducción respetando las etapas de composición de este ejercicio.", "fr": "Réaliser l’introduction en respectant les étapes de composition de cet exercice."},
+      "texto": {
+        "fr": "Ainsi je suis en contradiction avec vous lorsque, poursuivant vos déductions, vous dites que l’homme ne saurait absolument pas se passer de la consolation que lui apporte l’illusion religieuse, que, sans elle, il ne supporterait pas le poids de la vie, la réalité cruelle. Oui, cela est vrai de l’homme à qui vous avez instillé dès l’enfance le doux – ou doux et amer – poison. Mais de l’autre, qui a été élevé dans la sobriété ? Peut-être celui qui ne souffre d’aucune névrose n’a-t-il pas besoin d’ivresse pour étourdir celle-ci. Sans aucun doute l’homme alors se trouvera dans une situation difficile ; il sera contraint de s’avouer toute sa détresse, sa petitesse dans l’ensemble de l’univers ; il ne sera plus le centre de la création, l’objet des tendres soins d’une Providence bénévole. Il se trouvera dans la même situation qu’un enfant qui a quitté la maison paternelle, où il se sentait si bien et où il avait chaud. Mais le stade de l’infantilisme n’est-il pas destiné à être dépassé ? L’homme ne peut pas éternellement demeurer un enfant, il lui faut enfin s’aventurer dans l’univers hostile. On peut appeler cela « l’éducation en vue de la réalité » ; ai-je besoin de vous dire que mon unique dessein, en écrivant cette étude, est d’attirer l’attention sur la nécessité qui s’impose de réaliser ce progrès ?",
+        "autor": "Freud",
+        "obra": "L’Avenir d’une illusion, 1927",
+        "pagina_pdf": 151
+      },
+      "consigna": {"es": "Realizar la introducción respetando las etapas de composición de este ejercicio. (Perspectiva 1: el texto supone superar la etapa de infantilización en la que la religión sumerge a los hombres.)", "fr": "Réaliser l’introduction en respectant les étapes de composition de cet exercice. (Perspective 1 : le texte suppose de dépasser le stade de l’infantilisation dans lequel la religion plonge les hommes.)"},
+      "corrige": {
+        "tesis": {
+          "es": "Freud se pregunta si el hombre está condenado a creer en Dios o si, por el contrario, puede prescindir de la religión para ganar así madurez psicológica y autonomía.",
+          "fr": "Freud se demande si l’homme est condamné à croire en Dieu ou si au contraire il peut se passer de la religion pour gagner ainsi en maturité psychologique et en autonomie."
+        },
+        "etapas": [
+          {
+            "titulo": {"es": "Primer momento: contradecir al interlocutor", "fr": "Premier moment : contredire l’interlocuteur"},
+            "idea": {"es": "Freud contradice a su interlocutor sobre si el hombre puede prescindir de la religión frente a la dura realidad.", "fr": "Freud contredit son interlocuteur sur le fait de savoir si l’homme peut se passer de la religion face à la dure réalité."},
+            "lineas": "l. 1-4"
+          },
+          {
+            "titulo": {"es": "Segundo momento: el origen de la necesidad de creer", "fr": "Deuxième moment : l’origine du besoin de croire"},
+            "idea": {"es": "Freud analiza el origen de la necesidad que tiene el hombre de creer y pone de relieve las consecuencias difíciles, pero necesarias, de hacerse cargo él mismo de su existencia.", "fr": "Freud analyse l’origine du besoin de l’homme de croire et met en évidence les conséquences difficiles, mais nécessaires de sa propre prise en charge existentielle."},
+            "lineas": "l. 4-12"
+          },
+          {
+            "titulo": {"es": "Tercer momento: superar la infantilidad", "fr": "Troisième moment : dépasser l’infantilisme"},
+            "idea": {"es": "El autor concluye dando a entender que su defensa del ateísmo se ve reforzada por la lógica interna del desarrollo del hombre, que supone que este deba afrontar con lucidez la realidad si quiere progresar.", "fr": "L’auteur conclut en laissant sous-entendre que sa défense de l’athéisme est confortée par la logique interne du développement de l’homme qui suppose que celui-ci doive affronter lucidement la réalité s’il veut progresser."},
+            "lineas": "l. 12-17"
+          }
+        ],
+        "introduccion": {
+          "es": "[Tema general] El texto trata de la religión y del origen fundamental de la creencia religiosa. [Tesis sostenida por el autor] Freud se pregunta si el hombre está condenado a creer en Dios o si, por el contrario, puede prescindir de la religión para ganar así madurez psicológica y autonomía. [Estructura del texto] La argumentación de Freud puede dividirse en tres momentos: del inicio a «la realidad cruel» (l. 4), Freud contradice a su interlocutor sobre si el hombre puede prescindir de la religión frente a la dura realidad; de «Sí, eso es cierto…» (l. 4) a «…donde tenía calor» (l. 12), analiza el origen de la necesidad de creer y pone de relieve las consecuencias difíciles, pero necesarias, de que el hombre se haga cargo de su propia existencia; por último, de «Pero la etapa del infantilismo» (l. 12) hasta el final, concluye dando a entender que su defensa del ateísmo se ve reforzada por la lógica interna del desarrollo del hombre, que debe afrontar con lucidez la realidad si quiere progresar.",
+          "fr": "[Thème général] Le texte a pour thème la religion et l’origine fondamentale de la croyance religieuse. [Thèse soutenue par l’auteur] Freud se demande si l’homme est condamné à croire en Dieu ou si au contraire il peut se passer de la religion pour gagner ainsi en maturité psychologique et en autonomie. [Structure du texte] L’argumentation de Freud peut être découpée en trois moments : du début jusqu’à « la réalité cruelle » à la ligne 4, Freud contredit son interlocuteur sur le fait de savoir si l’homme peut se passer de la religion face à la dure réalité ; de « Oui, cela est vrai… » ligne 4 jusqu’à «… où il avait chaud » ligne 12, il analyse l’origine du besoin de croire et met en évidence les conséquences difficiles, mais nécessaires de sa propre prise en charge existentielle ; enfin, de « Mais le stade de l’infantilisme » ligne 12 jusqu’à la fin, il conclut en laissant sous-entendre que sa défense de l’athéisme est confortée par la logique interne du développement de l’homme, qui doit affronter lucidement la réalité s’il veut progresser."
+        },
+        "puntos_clave": [
+          {"es": "Enuncia el tema general: la religión y el origen fundamental de la creencia religiosa.", "fr": "Énonce le thème général : la religion et l’origine fondamentale de la croyance religieuse."},
+          {"es": "Formula la tesis: el hombre no está condenado a creer; puede prescindir de la religión para ganar madurez psicológica y autonomía.", "fr": "Formule la thèse : l’homme n’est pas condamné à croire ; il peut se passer de la religion pour gagner en maturité psychologique et en autonomie."},
+          {"es": "Identifica el primer momento (hasta «la réalité cruelle», l. 4): Freud contradice a su interlocutor sobre la necesidad de la consolación religiosa.", "fr": "Identifie le premier moment (jusqu’à « la réalité cruelle », l. 4) : Freud contredit son interlocuteur sur la nécessité de la consolation religieuse."},
+          {"es": "Identifica el segundo momento (l. 4-12): origen del deseo de creer (el «veneno» instilado desde la infancia) y dificultad de asumir la propia existencia, como un niño que deja la casa paterna.", "fr": "Identifie le deuxième moment (l. 4-12) : origine du besoin de croire (le « poison » instillé dès l’enfance) et difficulté d’assumer sa propre existence, comme un enfant qui quitte la maison paternelle."},
+          {"es": "Identifica el tercer momento (l. 12-fin): el estadio de infantilismo debe superarse; «educación para la realidad» como progreso necesario.", "fr": "Identifie le troisième moment (l. 12-fin) : le stade de l’infantilisme doit être dépassé ; « l’éducation en vue de la réalité » comme progrès nécessaire."},
+          {"es": "Anuncia la estructura en tres momentos con las referencias de línea correspondientes.", "fr": "Annonce la structure en trois moments avec les références de lignes correspondantes."},
+          {"es": "Sitúa el texto en la perspectiva 1: superar la etapa de infantilización en la que la religión sumerge a los hombres.", "fr": "Situe le texte dans la perspective 1 : dépasser le stade de l’infantilisation dans lequel la religion plonge les hommes."}
+        ]
+      },
+      "pagina_pdf": 151,
+      "pagina_corrige": 153
+    }
+  ]
+}

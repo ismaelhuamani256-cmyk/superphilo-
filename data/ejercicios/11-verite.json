@@ -1,0 +1,153 @@
+{
+  "capitulo": "verite",
+  "perspectivas": {
+    "autores": ["Platon", "Aristote", "Épicure", "Lucrèce", "Hume", "Descartes", "Montaigne", "James", "Pascal"],
+    "nociones_liadas": ["science", "religion", "langage", "raison"],
+    "ramas": [
+      {
+        "titulo": {"es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture"},
+        "ideas": [
+          {"texto": {"es": "El primer deseo de la filosofía es una búsqueda de la verdad.", "fr": "Le premier désir de la philosophie est une quête de la vérité."}, "autor": "platon", "cours": "1. a."},
+          {"texto": {"es": "Todos somos iguales ante esta búsqueda de la verdad.", "fr": "Nous sommes tous égaux face à cette recherche de vérité."}, "autor": "platon", "cours": "1. b."},
+          {"texto": {"es": "No toda opinión es legítima.", "fr": "Toute opinion n’est pas légitime."}, "autor": "aristote", "cours": "3. b."},
+          {"texto": {"es": "Nuestras percepciones son el reflejo de la realidad, pues no podrían engendrar un falso testimonio.", "fr": "Nos perceptions sont le reflet de la réalité, car elles ne sauraient engendrer un faux témoignage."}, "autor": "epicure", "cours": "3. b."},
+          {"texto": {"es": "Según Descartes, la verdad es una idea innata: buscamos reconocer ideas de las que tenemos un conocimiento intuitivo.", "fr": "Selon Descartes, la vérité est une idée innée : nous cherchons à reconnaître des idées dont nous avons une connaissance intuitive."}, "autor": "descartes", "cours": "4. a."}
+        ]
+      },
+      {
+        "titulo": {"es": "La moral y la política", "fr": "La morale et la politique"},
+        "ideas": [
+          {"texto": {"es": "Se puede tener una concepción pragmática de la verdad.", "fr": "On peut avoir une conception pragmatique de la vérité."}, "autor": "james", "cours": "6. a."}
+        ]
+      },
+      {
+        "titulo": {"es": "El conocimiento", "fr": "La connaissance"},
+        "ideas": [
+          {"texto": {"es": "La búsqueda de la verdad supone apartar la mirada de las apariencias sensibles.", "fr": "La recherche de la vérité suppose de détourner le regard des apparences sensibles."}, "autor": "platon", "cours": "2. a."},
+          {"texto": {"es": "No hay verdad sin identidades estables.", "fr": "Il n’y a pas de vérité sans identités stables."}, "autor": "platon", "cours": "2. b."},
+          {"texto": {"es": "La coherencia del pensamiento es indispensable para alcanzar la verdad.", "fr": "La cohérence de la pensée est indispensable pour parvenir à la vérité."}, "autor": "aristote", "cours": "3. a."},
+          {"texto": {"es": "Hay que dudar para esperar acceder a la verdad.", "fr": "Il faut douter pour espérer accéder à la vérité."}, "autor": "descartes", "cours": "5. a."},
+          {"texto": {"es": "El escéptico no tiene un criterio cierto que le permita afirmar una verdad, pero no deja de buscarla.", "fr": "Le sceptique n’a pas de critère certain lui permettant d’affirmer une vérité, mais il ne cesse de la chercher."}, "autor": "montaigne", "cours": "5. b."}
+        ]
+      }
+    ],
+    "pagina_pdf": 189
+  },
+  "ejercicios": [
+    {
+      "id": "verite-diss",
+      "tipo": "dissertation",
+      "enunciado": {"es": "¿Hay que amar la verdad?", "fr": "Faut-il aimer la vérité ?"},
+      "consigna": {
+        "es": "Siguiendo un plan dialéctico (tesis, antítesis, síntesis), identifique tres tesis que desarrollará brevemente. Cuide las transiciones. (Duración indicada: 3 h; perspectiva 3, el conocimiento.)",
+        "fr": "Selon un plan dialectique (thèse, antithèse, synthèse), identifiez trois thèses que vous développerez brièvement. Veillez à soigner vos transitions."
+      },
+      "corrige": {
+        "orientacion": {
+          "es": "El verbo «amar» supone que la noción de verdad no es neutra y que reviste una importancia crucial para el sentido que un hombre da a su existencia y para el contenido que juzga fundamental para su propia cultura.",
+          "fr": "Le verbe « aimer » suppose que la notion de vérité n’est pas neutre et qu’elle revêt une importance cruciale pour le sens qu’un homme donne à son existence et sur le contenu qu’il juge fondamental pour sa propre culture."
+        },
+        "problematica": {
+          "es": "¿Es necesario amar la verdad para buscarla? ¿No sería tal pasión un obstáculo para una búsqueda objetiva, e incluso una forma de disimular una búsqueda de poder? ¿No es la verdadera causa de este amor la necesidad de identidades estables?",
+          "fr": "Est-il nécessaire d’aimer la vérité pour la rechercher ? Une telle passion ne serait-elle pas non seulement un obstacle à une recherche objective, mais une façon de dissimuler une recherche de pouvoir ? Le besoin d’identités stables n’est-il pas la vraie cause de cet amour de la vérité ?"
+        },
+        "plan": [
+          {
+            "parte": {"es": "I. Hay que amar la verdad contra viento y marea.", "fr": "I. Il faut aimer la vérité envers et contre tous."},
+            "idea": {
+              "es": "El pensamiento sólo se ejerce rechazando las ilusiones y las apariencias: el amor a la verdad es su condición, pues la verdad corresponde a la parte racional del hombre y lo distingue del animal; es un deber. El verdadero amor se apoya en una ignorancia reconocida («Sé que no sé nada»): se ama lo que no se posee; de lo contrario sólo uno se ama a sí mismo, lo que desemboca en el dogmatismo. Como el prisionero liberado de la caverna platónica, a quien no se cree y pasa por loco, hay que amar la verdad pese a las burlas: es universal por principio, aunque sólo la defienda un hombre. Transición: este amor puede ser una pasión ciega y dogmática; ¿no es su verdadera causa la necesidad de identidades estables?",
+              "fr": "La pensée ne peut s’exercer qu’à condition de refuser les illusions, les faux-semblants : l’amour de la vérité en est la condition, car la vérité correspond à la partie rationnelle de l’homme ; c’est un devoir qui distingue l’homme de l’animal. Le véritable amour s’appuie sur une ignorance reconnue comme telle (« Je sais que je ne sais rien ! ») : on aime ce qu’on ne possède pas, sinon on ne fait que s’aimer soi-même, ce qui aboutit au dogmatisme. Comme le prisonnier libéré de la caverne platonicienne, qui n’est pas cru et passe pour un fou, il faut aimer la vérité malgré les moqueries : elle est par principe universelle, même si elle n’est défendue que par un seul homme. Transition : cet amour peut s’apparenter à une passion aveugle et dogmatique ; le besoin d’identités stables n’en est-il pas la vraie cause ?"
+            },
+            "autores": ["platon"]
+          },
+          {
+            "parte": {"es": "II. La imposibilidad de acceder a conocimientos verdaderos.", "fr": "II. L’impossibilité d’accéder à toutes connaissances véritables."},
+            "idea": {
+              "es": "¿Existe un criterio lo bastante fuerte para tener la certeza de acceder a conocimientos verdaderos? Los escépticos dudarían mucho. La voluntad humana quiere hacer cognoscible el mundo creando la ilusión del ser y de la estabilidad, pero nada en la realidad parece corresponder a nuestros conceptos, que suponen la existencia de cosas y su identidad. Amar la verdad sería entonces amar una estabilidad que no existe, es decir, una ilusión, vital para seguir buscando pero ilusión al fin. La valoración de lo verdadero no es más que una opinión como otra; todo conocimiento descansa en opiniones semejantes, expresión de una necesidad vital de tranquilizarse y de nuestra voluntad de poder. Los hombres prefieren mecerse en ilusiones para seguir conquistando el mundo y creyendo en el progreso: la verdad es quizá la madre de las ilusiones. Transición: pero la verdad, lejos de ser una ilusión, ilumina y da sentido a la vida; hay que distinguir amor y verdad, que no son del mismo orden.",
+              "fr": "Existe-t-il un critère suffisamment fort pour avoir la certitude d’accéder à des connaissances véritables ? Les sceptiques seraient fortement dubitatifs. La volonté humaine veut rendre le monde connaissable en créant l’illusion de l’être et de la stabilité, mais rien ne semble correspondre dans la réalité à nos concepts, qui supposent l’existence de choses et leur identité. L’amour de la vérité serait alors l’amour d’une stabilité qui n’existe pas, donc d’une illusion, vitale pour continuer à chercher mais qui reste une illusion. La valorisation du vrai n’est qu’une opinion comme une autre ; toutes les connaissances reposent sur de semblables opinions, expression d’un besoin vital de se rassurer et de notre volonté de puissance. Les hommes préfèrent se bercer d’illusions pour continuer à conquérir le monde et à croire au progrès : la vérité est peut-être la mère des illusions. Transition : mais la vérité, loin d’être une illusion, éclaire et donne un sens à notre vie ; il faut distinguer l’amour et la vérité, qui ne sont pas du même ordre."
+            },
+            "autores": ["aristote", "montaigne"]
+          },
+          {
+            "parte": {"es": "III. Hay que amar la búsqueda de la verdad, y no sólo la verdad.", "fr": "III. Il faut aimer la recherche de la vérité, et non pas seulement la vérité."},
+            "idea": {
+              "es": "Ante el argumento de Menón («¿Cuál de las cosas que ignoras tomarás como objeto de tu búsqueda? Y si la encontraras, ¿cómo sabrías que es ella, puesto que no la conoces?»), Sócrates muestra que la búsqueda tiene valor por sí misma: reconocer la propia ignorancia y tratar de colmarla impide encerrarse en certezas y creer poseer la verdad. Se trata de combatir un enfoque utilitario del pensamiento que sólo valoraría el resultado. Detrás del amor proclamado a la verdad, los sofistas buscan el éxito y el poder, seducir para engañar; los regímenes totalitarios del siglo XX exhibían la verdad como eslogan (el diario «Pravda»). Sócrates y luego Montaigne dirían que la honestidad intelectual consiste menos en amar la verdad que en buscarla ardiente y lúcidamente.",
+              "fr": "Face à l’argument de Ménon (« Laquelle des choses qu’en effet tu ignores, prendras-tu comme objet de ta recherche ? Et si même, par chance, tu tombais dessus, comment saurais-tu que c’est elle puisque tu ne la connais pas ? »), Socrate démontre que la recherche a par elle-même une valeur : reconnaître son ignorance et tenter de la combler permet de ne pas s’enfermer dans des certitudes et croire détenir la vérité. Il s’agit de combattre une approche utilitaire de la pensée qui n’aurait d’intérêt que dans son résultat. Derrière leur amour affiché de la vérité, les sophistes désirent le succès et le pouvoir, séduire pour tromper ; les régimes totalitaires du xxe siècle affichaient la vérité comme slogan (le journal « Pravda »). Socrate, puis Montaigne affirmeraient que l’honnêteté intellectuelle consiste moins à aimer la vérité qu’à la chercher ardemment et lucidement."
+            },
+            "autores": ["platon", "montaigne"]
+          }
+        ],
+        "conclusion": {
+          "es": "No se trata de elegir entre la verdad y la ignorancia total, sino de cultivarse y proseguir la búsqueda para tomar conciencia de la extensión de la propia ignorancia y seguir colmándola sin descanso. La verdad sigue siendo un objeto de búsqueda, pero lo que puede ser apasionado es su búsqueda, no su posesión orgullosa y siempre ilusoria.",
+          "fr": "Il ne s’agit pas de choisir entre la vérité et l’ignorance totale, mais de se cultiver, de poursuivre cette recherche afin de prendre conscience de l’étendue de son ignorance, et ainsi continuer inlassablement à la combler. La vérité reste bien un objet de recherche, mais c’est sa quête qui peut être passionnée et non sa détention orgueilleuse et toujours illusoire."
+        },
+        "puntos_clave": [
+          {"es": "Seguir un plan dialéctico (tesis, antítesis, síntesis) con tres tesis claras y transiciones cuidadas.", "fr": "Suivre un plan dialectique (thèse, antithèse, synthèse) avec trois thèses claires et des transitions soignées."},
+          {"es": "Mostrar que el verbo «amar» hace de la verdad una noción no neutra, ligada al sentido de la existencia y de la cultura.", "fr": "Montrer que le verbe « aimer » rend la notion de vérité non neutre, liée au sens de l’existence et de la culture."},
+          {"es": "Defender que amar la verdad es un deber racional que supone una ignorancia reconocida (Sócrates, el prisionero de la caverna).", "fr": "Défendre qu’aimer la vérité est un devoir rationnel qui suppose une ignorance reconnue (Socrate, le prisonnier de la caverne)."},
+          {"es": "Plantear que este amor puede ser una pasión dogmática o una ilusión vital: necesidad de identidades estables, voluntad de poder.", "fr": "Poser que cet amour peut être une passion dogmatique ou une illusion vitale : besoin d’identités stables, volonté de puissance."},
+          {"es": "Distinguir amor (subjetivo) y verdad (acuerdo entre la realidad y el espíritu): ¿hace falta amar la verdad para buscarla?", "fr": "Distinguer l’amour (subjectif) et la vérité (accord entre la réalité et l’esprit) : faut-il aimer la vérité pour la rechercher ?"},
+          {"es": "Usar el argumento de Menón y la respuesta socrática para dar valor a la búsqueda en sí, contra un enfoque utilitario.", "fr": "Utiliser l’argument de Ménon et la réponse de Socrate pour valoriser la recherche en elle-même, contre une approche utilitaire."},
+          {"es": "Denunciar el falso amor a la verdad de los sofistas y de los regímenes totalitarios («Pravda»).", "fr": "Dénoncer le faux amour de la vérité des sophistes et des régimes totalitaires (« Pravda »)."},
+          {"es": "Concluir que lo que cabe amar es la búsqueda lúcida de la verdad, no su posesión orgullosa.", "fr": "Conclure que c’est la quête lucide de la vérité qu’il faut aimer, non sa détention orgueilleuse."}
+        ]
+      },
+      "pagina_pdf": 192,
+      "pagina_corrige": 193
+    },
+    {
+      "id": "verite-expl",
+      "tipo": "explication",
+      "enunciado": {
+        "es": "1. ¿Cuál es la idea central del texto? 2. ¿Con qué propuesta lo concluye Leibniz?",
+        "fr": "1. Quelle est l’idée centrale du texte ? 2. Avec quelle proposition Leibniz le conclut-il ?"
+      },
+      "texto": {
+        "fr": "L’opinion, fondée dans le vraisemblable, mérite peut-être aussi le nom de connaissance ; autrement presque toute connaissance historique et beaucoup d’autres tomberont. Mais sans disputer des noms, je tiens que la recherche des degrés de probabilité serait très importante et nous manque encore, et c’est un grand défaut de nos logiques. Car lorsqu’on ne peut point décider absolument la question, on pourrait toujours déterminer le degré de vraisemblance ex datis, et par conséquent on peut juger raisonnablement quel parti est le plus apparent. […] L’opinion des personnes dont l’autorité est de poids est une des choses qui peuvent contribuer à rendre une opinion vraisemblable, mais ce n’est pas ce qui achève toute la vérisimilitude. Et lorsque Copernic était presque seul de son opinion, elle était toujours incomparablement plus vraisemblable que celle de tout le reste du genre humain. Or je ne sais si l’établissement de l’art d’estimer les vérisimilitudes ne serait plus utile qu’une bonne partie de nos sciences démonstratives et j’y ai pensé plus d’une fois.",
+        "autor": "leibniz",
+        "obra": "Nouveaux essais sur l’entendement humain, 1765",
+        "pagina_pdf": 192
+      },
+      "consigna": {
+        "es": "Explicación de texto (30 min): 1. ¿Cuál es la idea central del texto? 2. ¿Con qué propuesta lo concluye Leibniz?",
+        "fr": "Explication de texte (30 min) : 1. Quelle est l’idée centrale du texte ? 2. Avec quelle proposition Leibniz le conclut-il ?"
+      },
+      "corrige": {
+        "tesis": {
+          "es": "Leibniz defiende que ciertas opiniones son mejores que otras, sobre todo en los ámbitos donde los grados de certeza son variables (como las ciencias humanas), que sin poder apoyarse en verdades apodícticas no dejan de ser probables o verosímiles. El texto ilustra que el conocimiento es diverso y supone varios grados de saber.",
+          "fr": "Leibniz défend l’idée que certaines opinions sont meilleures que d’autres, notamment dans des domaines où les degrés de certitudes sont variables comme les sciences humaines, qui, sans pouvoir reposer sur des vérités apodictiques, n’en restent pas moins probables ou vraisemblables. Ce texte illustre le fait que la connaissance est diverse, variée et suppose plusieurs degrés de savoirs."
+        },
+        "etapas": [
+          {
+            "titulo": {"es": "1. La idea central: la opinión verosímil y sus grados", "fr": "1. L’idée centrale : l’opinion vraisemblable et ses degrés"},
+            "idea": {
+              "es": "Hay opiniones mejores que otras: aquellas, probables o verosímiles, que no descansan en verdades apodícticas (evidencias de derecho y no sólo de hecho, anteriores a ser una verdad demostrada). Leibniz extiende la tesis a la competencia reconocida de una persona, que legitima su opinión, incluso contra el parecer de todos, si es una opinión verosímil (ejemplo de Copérnico, casi solo contra todo el género humano).",
+              "fr": "Certaines opinions sont meilleures que d’autres : celles, probables ou vraisemblables, qui ne reposent pas sur des vérités apodictiques (des évidences de droit et non pas seulement de faits, avant d’être une vérité démontrée). Leibniz étend cette thèse à la compétence reconnue d’une personne, qui légitime son opinion, même contre l’avis de tous, s’il s’agit d’une opinion vraisemblable (exemple de Copernic, presque seul contre tout le genre humain)."
+            }
+          },
+          {
+            "titulo": {"es": "2. La propuesta final: el arte de estimar las verosimilitudes", "fr": "2. La proposition finale : l’art d’estimer les vérisimilitudes"},
+            "idea": {
+              "es": "La propuesta de Leibniz al final del texto, establecer un arte de estimar las verosimilitudes (la búsqueda de los grados de probabilidad), es la puesta en práctica de lo que hoy se llama una epistemología: una disciplina filosófica que analiza las diferentes ciencias, explica sus métodos y muestra los criterios de verdad en que se basan sus teorías.",
+              "fr": "La proposition faite par Leibniz à la fin du texte, établir un art d’estimer les vérisimilitudes (la recherche des degrés de probabilité), est la mise en œuvre de ce que l’on appelle aujourd’hui une épistémologie, à savoir une discipline philosophique qui analyse les différentes sciences, explique notamment leurs méthodes et montre les critères de vérité sur lesquels reposent leurs théories."
+            }
+          }
+        ],
+        "enjeu": {
+          "es": "Reconocer que entre la certeza demostrada y la simple creencia existen grados de conocimiento: la verdad no es todo o nada, y se puede juzgar razonablemente qué opinión es la más verosímil.",
+          "fr": "Reconnaître qu’entre la certitude démontrée et la simple croyance il existe des degrés de connaissance : on peut juger raisonnablement quelle opinion est la plus vraisemblable lorsqu’on ne peut décider absolument la question."
+        },
+        "puntos_clave": [
+          {"es": "Identificar la idea central: hay opiniones mejores que otras, probables o verosímiles, aunque no descansen en verdades apodícticas.", "fr": "Identifier l’idée centrale : certaines opinions sont meilleures que d’autres, probables ou vraisemblables, sans reposer sur des vérités apodictiques."},
+          {"es": "Señalar que el conocimiento es diverso y supone varios grados de saber (p. ej. ciencias humanas, conocimiento histórico).", "fr": "Souligner que la connaissance est diverse et suppose plusieurs degrés de savoirs (ex. sciences humaines, connaissance historique)."},
+          {"es": "Explicar el ejemplo de Copérnico: la autoridad de las personas no basta para fundar la verosimilitud; una opinión casi solitaria puede ser más verosímil.", "fr": "Expliquer l’exemple de Copernic : l’autorité des personnes ne suffit pas à fonder la vraisemblance ; une opinion presque isolée peut être plus vraisemblable."},
+          {"es": "Definir «verdades apodícticas»: evidencias de derecho y no sólo de hecho, anteriores a ser una verdad demostrada.", "fr": "Définir les « vérités apodictiques » : évidences de droit et non pas seulement de faits, avant d’être une vérité démontrée."},
+          {"es": "Identificar la propuesta final: un arte de estimar las verosimilitudes, más útil que buena parte de las ciencias demostrativas.", "fr": "Identifier la proposition finale : un art d’estimer les vérisimilitudes, plus utile qu’une bonne partie des sciences démonstratives."},
+          {"es": "Relacionar esa propuesta con una epistemología: disciplina que analiza las ciencias, sus métodos y sus criterios de verdad.", "fr": "Relier cette proposition à une épistémologie : discipline qui analyse les sciences, leurs méthodes et leurs critères de vérité."}
+        ]
+      },
+      "pagina_pdf": 192,
+      "pagina_corrige": 195
+    }
+  ]
+}

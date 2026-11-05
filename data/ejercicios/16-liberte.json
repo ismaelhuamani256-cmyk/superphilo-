@@ -1,0 +1,334 @@
+{
+  "capitulo": "liberte",
+  "perspectivas": {
+    "autores": [
+      "Descartes",
+      "Kant",
+      "Spinoza",
+      "Bourdieu",
+      "Freud",
+      "Gide"
+    ],
+    "nociones_liadas": [
+      "conscience",
+      "nature",
+      "devoir",
+      "état",
+      "art"
+    ],
+    "ramas": [
+      {
+        "titulo": {
+          "es": "La existencia humana y la cultura",
+          "fr": "L’existence humaine et la culture"
+        },
+        "ideas": [
+          {
+            "texto": {
+              "es": "La voluntad de los hombres es infinita, pero su entendimiento es limitado (Descartes).",
+              "fr": "La volonté des hommes est infinie, mais leur entendement est limité (Descartes)."
+            },
+            "autor": "Descartes",
+            "cours": "1. a."
+          },
+          {
+            "texto": {
+              "es": "El hecho de dudar es una prueba de la libertad humana (Descartes).",
+              "fr": "Le fait de douter est une preuve de la liberté humaine (Descartes)."
+            },
+            "autor": "Descartes",
+            "cours": "1. b."
+          },
+          {
+            "texto": {
+              "es": "El libre albedrío permite a los hombres elegir.",
+              "fr": "Le libre arbitre permet aux hommes de choisir."
+            },
+            "autor": "Descartes",
+            "cours": "1. c."
+          },
+          {
+            "texto": {
+              "es": "Nuestras elecciones están influidas por determinismos sociales (Bourdieu).",
+              "fr": "Nos choix sont influencés par des déterminismes sociaux (Bourdieu)."
+            },
+            "autor": "Bourdieu",
+            "cours": "2. a."
+          }
+        ]
+      },
+      {
+        "titulo": {
+          "es": "La moral y la política",
+          "fr": "La morale et la politique"
+        },
+        "ideas": [
+          {
+            "texto": {
+              "es": "La libertad implica ser responsable.",
+              "fr": "La liberté implique d’être responsable."
+            },
+            "autor": "Kant",
+            "cours": "5. a."
+          },
+          {
+            "texto": {
+              "es": "Ningún valor moral es posible sin una libertad fundadora (Kant).",
+              "fr": "Aucune valeur morale n’est possible sans une liberté fondatrice (Kant)."
+            },
+            "autor": "Kant",
+            "cours": "5. b."
+          },
+          {
+            "texto": {
+              "es": "Nuestras elecciones deben hacer frente a un principio de realidad (Freud).",
+              "fr": "Nos choix doivent faire face à un principe de réalité (Freud)."
+            },
+            "autor": "Freud",
+            "cours": "2. b."
+          },
+          {
+            "texto": {
+              "es": "Toda acción puede tener una causa ignorada, inconsciente.",
+              "fr": "Toute action peut avoir une cause ignorée, inconsciente."
+            },
+            "autor": "Gide",
+            "cours": "4. b."
+          }
+        ]
+      },
+      {
+        "titulo": {
+          "es": "El conocimiento",
+          "fr": "La connaissance"
+        },
+        "ideas": [
+          {
+            "texto": {
+              "es": "El límite del entendimiento humano es fuente de errores.",
+              "fr": "La limite de l’entendement humain est source d’erreurs."
+            },
+            "autor": "Descartes",
+            "cours": "1. a."
+          },
+          {
+            "texto": {
+              "es": "El determinismo no es el fatalismo: nos permite elegir, porque conocemos la causa y podemos modificar sus efectos.",
+              "fr": "Le déterminisme n’est pas le fatalisme, il nous permet de choisir, car nous avons connaissance de la cause et pouvons en modifier les effets."
+            },
+            "autor": "Spinoza",
+            "cours": "3. a."
+          },
+          {
+            "texto": {
+              "es": "Todo pensamiento supone la libertad del pensador.",
+              "fr": "Toute pensée suppose la liberté du penseur."
+            },
+            "cours": "3. b."
+          },
+          {
+            "texto": {
+              "es": "Cuando nuestra voluntad está iluminada, refuerza nuestra libertad.",
+              "fr": "Lorsque notre volonté est éclairée, elle renforce notre liberté."
+            },
+            "cours": "4. a."
+          }
+        ]
+      }
+    ],
+    "pagina_pdf": 264
+  },
+  "ejercicios": [
+    {
+      "id": "liberte-diss",
+      "tipo": "dissertation",
+      "enunciado": {
+        "es": "¿Se oponen necesariamente la fuerza y la libertad?",
+        "fr": "La force et la liberté s’opposent-elles nécessairement ?"
+      },
+      "consigna": {
+        "es": "Perspectiva 2 (este tema pone de relieve la fuerza que un Estado puede ejercer sobre cada individuo y, así, restringir sus libertades). 1. Redacte la introducción del tema respetando las etapas de redacción. 2. Elabore después sus distintas tesis y resúmalas brevemente. (3 h, ***)",
+        "fr": "Perspective 2 (ce sujet met en lumière la force que peut exercer un état sur chaque individu, et ainsi restreindre ses libertés). 1. Réalisez l’introduction du sujet, en veillant à respecter les étapes de rédaction. 2. Puis, élaborez vos différentes thèses et résumez-les brièvement."
+      },
+      "corrige": {
+        "introduccion": {
+          "es": "[Gancho + explicación del tema] Hay actos que no solo rebajan a un individuo y revelan la tiranía de sus instintos, sino que lo excluyen de la sociedad. Si la violencia atenta contra la integridad física y moral de la víctima, conduce inevitablemente al rechazo de quien la causa. Así, un uso ilegítimo de la propia libertad es con frecuencia prueba de su debilidad, incluso de su vacuidad, y es el camino inexorable hacia su desaparición. [Problemática] ¿No es necesario obligar a un individuo a aceptar ciertas reglas para que respete al menos la libertad de los demás y dé así consistencia a la suya? Del mismo modo, ¿no es también el temor a una derrota lo que limita el uso de la fuerza armada entre Estados? [Anuncio del plan] Pero no hay que considerar la libertad como una especie de don que se recibe pasivamente, pues entonces uno se condena a ser el juguete de quien abusa de su fuerza en nombre de la libertad. Hay que desconfiar siempre del uso de la fuerza, incluso legal: puede ocultar intenciones perversas y perseguir fines ilegítimos. ¿No es simple prudencia elemental rechazar la fuerza que se disfraza de libertad? Sin embargo, la fuerza, para ser realmente eficaz, se sitúa lógicamente en un proceso de apertura y no de adoctrinamiento. Cuando se despliega, es un medio de comprender los determinismos o de hacer tomar conciencia de la responsabilidad de cada hombre. ¿No tiene entonces una autoridad legítima tanta más fuerza cuanto ejerce una coacción aceptada, liberadora e incluso salvadora, para ayudar a un pueblo a ser libre o a un niño a hacerse hombre?",
+          "fr": "[Accroche + explication du sujet] Il est des actes qui non seulement abaissent un individu, témoignent de la tyrannie de ses instincts et l’excluent de la société. Si la violence porte atteinte à l’intégrité physique et morale de la victime, elle conduit immanquablement au rejet de celui qui en est la cause. Ainsi, non seulement un usage illégitime de sa propre liberté est bien souvent une preuve de la faiblesse de cette dernière, et même de sa vacuité, mais il est le chemin inéluctable de sa disparition. [Problématique] N’est-il pas nécessaire d’obliger un individu à accepter certaines règles afin qu’il respecte au moins la liberté d’autrui et donne par là-même une contenance à sa propre liberté ? De même, n’est-ce pas aussi la crainte d’une défaite qui limite l’usage de la force armée entre États ? [Annonce du plan] Mais il ne faut pas pour autant considérer la liberté comme une sorte de don que l’on reçoit passivement car, ce faisant, on se condamne soi-même à n’être que le jouet de celui qui abuse de sa force au nom de la liberté. Il faut toujours se méfier de l’usage même légal de la force, cela peut cacher des intentions perverses et viser à des fins illégitimes. N’est-ce donc pas tout simplement raison garder de faire preuve d’une prudence élémentaire que de refuser la force qui prend le masque de la liberté ? Cependant, la force, pour être vraiment efficace, se situe logiquement dans un processus d’ouverture et non d’embrigadement. Lorsqu’elle se déploie, elle s’apparente à un moyen de comprendre les déterminismes ou de faire prendre conscience de la responsabilité qui incombe à chaque homme. Une autorité légitime n’a-t-elle pas alors d’autant plus de force qu’elle exerce une contrainte acceptée, libératrice et même salvatrice pour aider un peuple à être libre ou un enfant à devenir un homme ?"
+        },
+        "problematica": {
+          "es": "¿No es necesario obligar a un individuo a aceptar ciertas reglas para que respete al menos la libertad de los demás y dé así consistencia a la suya? ¿No es también el temor a una derrota lo que limita el uso de la fuerza armada entre Estados?",
+          "fr": "N’est-il pas nécessaire d’obliger un individu à accepter certaines règles afin qu’il respecte au moins la liberté d’autrui et donne par là-même une contenance à sa propre liberté ? De même, n’est-ce pas aussi la crainte d’une défaite qui limite l’usage de la force armée entre États ?"
+        },
+        "plan": [
+          {
+            "parte": {
+              "es": "I. La libertad lleva en sí misma la idea de responsabilidad.",
+              "fr": "I. La liberté porte en elle-même l’idée de responsabilité."
+            },
+            "idea": {
+              "es": "Un Estado puede legítimamente obligar a quien actúa mal y usa la violencia a asumir las consecuencias de sus actos. Las sanciones coercitivas son necesarias y no buscan envilecer: hacen cesar los actos delictivos, contribuyen a que el individuo tome conciencia de su falta y buscan su reintegración en la sociedad haciéndole aceptar las reglas necesarias. Privar de libertad no es suprimirla: pone de manifiesto lo frágil e insustituible de la libertad de todos. Rousseau: no hay que confundir libertad e independencia; la verdadera libertad no rechaza la obediencia. Transición: ¿puede la fuerza, incluso legal, rechazar toda crítica y volverse tiránica? La fuerza sin límite, ¿no es de entrada la negación de la libertad?",
+              "fr": "Un État peut légitimement obliger un individu qui agit mal et use de la violence à assumer les conséquences de ses actes. Les sanctions coercitives sont nécessaires et n’ont pas pour but d’avilir : elles font cesser les actes délictueux, contribuent à la prise de conscience de la faute et recherchent la réintégration dans la société en faisant accepter les règles nécessaires. La privation de la liberté n’est pas sa suppression : elle met en évidence l’aspect fragile et irremplaçable de la liberté de tous. Rousseau : il ne faut pas confondre la liberté et l’indépendance, la véritable liberté ne refusant pas l’obéissance. Transition : la force même légale peut-elle refuser toute contestation et devenir tyrannique ? La force sans limite n’est-elle pas d’emblée la négation de la liberté ?"
+            },
+            "autores": [
+              "rousseau"
+            ]
+          },
+          {
+            "parte": {
+              "es": "II. La libertad no es una «cosa» que se da: supone una lucha.",
+              "fr": "II. La liberté n’est pas une « chose » que l’on donne, elle suppose une lutte."
+            },
+            "idea": {
+              "es": "La libertad se conquista por la lucha y el trabajo y se preserva por la resistencia o la reflexión (Lequier: «si yo estuviera obligado a afirmar que soy libre, no sería libre»). Con Rousseau, fuerza y libertad son contradictorias: la fuerza solo funda el poder del más fuerte, no la legitimidad de un derecho («¿qué derecho es el que perece cuando cesa la fuerza?»); la fuerza no justifica nada y muestra su propia debilidad, pues dura solo lo que dura su efectividad. Un poder basado solo en la fuerza únicamente perdura aniquilando la libertad de la mayoría y rechazando la crítica: «en cuanto un poder usa la fuerza para matar la crítica, es tiránico» (Alain). Transición: ¿puede la fuerza dejar su lugar a una autoridad que ejerce tanto menos su poder cuanto más reconocida es? ¿No hay que usar a veces la fuerza con justicia para detener la fuerza bruta?",
+              "fr": "La liberté se conquiert par la lutte, le travail et/ou se préserve par la résistance ou la réflexion (Lequier : « si j’étais contraint d’affirmer que je suis libre, je ne serais pas libre »). Avec Rousseau, la force et la liberté sont contradictoires : la force ne peut fonder que le pouvoir du plus fort et non la légitimité d’un droit (« qu’est-ce qu’un droit qui périt quand la force cesse ? ») ; elle ne justifie rien et illustre sa propre faiblesse puisqu’elle ne dure que le temps de son effectivité. Un pouvoir basé sur la seule force ne perdure qu’en annihilant la liberté du plus grand nombre et en rejetant la critique : « dès qu’un pouvoir use de la force pour tuer la critique, il est tyrannique » (Alain). Transition : la force peut-elle céder la place à une autorité qui exerce d’autant moins son pouvoir qu’elle est reconnue ? Ne faut-il pas parfois faire un usage juste de la force pour arrêter la force brute et sans limite ?"
+            },
+            "autores": [
+              "rousseau"
+            ]
+          },
+          {
+            "parte": {
+              "es": "III. La verdadera autoridad supone una adhesión, sin recurrir a la fuerza.",
+              "fr": "III. La véritable autorité suppose une adhésion, sans user de la force."
+            },
+            "idea": {
+              "es": "En el sistema indoeuropeo, la autoridad del rey (griego krainein, «ejecutar») procede del gesto por el que el dios da existencia a lo que de otro modo sería solo palabra (Benveniste): permite que una palabra se realice en acto. Interesa su función «performativa»: como dice Austin, es un acto en sí misma. Una palabra de autoridad tiene tanto más poder cuanto menos necesita la fuerza física, policial o militar. Según el pensamiento chino (Jullien), la eficacia del poder reside en disolver las relaciones de fuerza, «no persuadir al otro, sino llevarlo de antemano a adherir». Conclusión de los argumentos: todo poder político es tanto más fuerte cuanto menos necesita la fuerza, pues los ciudadanos le reconocen esa autoridad.",
+              "fr": "Dans le système indo-européen, l’autorité du roi (grec krainein, exécuter) « procède du geste par lequel le dieu donne existence à ce qui autrement ne serait que parole » (Benveniste) : elle permet à une parole de se réaliser en acte. Sa fonction « performatrice » compte ici : comme le dit Austin, elle est un acte en elle-même. Une parole d’autorité a d’autant plus de pouvoir qu’elle n’a pas besoin de la force physique, policière ou militaire. Selon la pensée chinoise (Jullien), l’efficacité du pouvoir réside dans sa capacité à dissoudre les rapports de forces : « non point persuader l’autre, mais le conduire par avance à adhérer ». Conclusion des arguments : tout pouvoir politique est d’autant plus fort qu’il n’a pas besoin d’utiliser la force, les citoyens lui reconnaissant cette autorité."
+            }
+          }
+        ],
+        "puntos_clave": [
+          {
+            "es": "La introducción sigue las etapas: gancho + explicación del tema, problemática y anuncio del plan.",
+            "fr": "L’introduction suit les étapes : accroche + explication du sujet, problématique et annonce du plan."
+          },
+          {
+            "es": "Se pregunta si hay que obligar a un individuo a aceptar reglas para que respete la libertad ajena y dé consistencia a la suya.",
+            "fr": "Elle demande s’il faut obliger un individu à accepter des règles pour qu’il respecte la liberté d’autrui et donne une contenance à la sienne."
+          },
+          {
+            "es": "Parte I: la libertad implica responsabilidad; las sanciones no suprimen la libertad y no hay que confundir libertad e independencia (Rousseau).",
+            "fr": "Partie I : la liberté implique la responsabilité ; les sanctions ne suppriment pas la liberté et il ne faut pas confondre liberté et indépendance (Rousseau)."
+          },
+          {
+            "es": "Parte II: la fuerza y la libertad son contradictorias; la fuerza solo funda el poder del más fuerte y un poder que mata la crítica es tiránico (Rousseau, Alain).",
+            "fr": "Partie II : la force et la liberté sont contradictoires ; la force ne fonde que le pouvoir du plus fort et un pouvoir qui tue la critique est tyrannique (Rousseau, Alain)."
+          },
+          {
+            "es": "Parte III: la verdadera autoridad se basa en la adhesión (fuerza performativa de la palabra, Benveniste, Austin, Jullien), no en la fuerza.",
+            "fr": "Partie III : la véritable autorité repose sur l’adhésion (force performative de la parole, Benveniste, Austin, Jullien), non sur la force."
+          },
+          {
+            "es": "Hay transiciones en forma de pregunta entre las partes.",
+            "fr": "Des transitions sous forme de questions relient les parties."
+          },
+          {
+            "es": "Cada parte enuncia sus argumentos, los apoya en autores citados y concluye.",
+            "fr": "Chaque partie énonce ses arguments, les appuie sur des auteurs cités et conclut."
+          }
+        ]
+      },
+      "pagina_pdf": 267,
+      "pagina_corrige": 268
+    },
+    {
+      "id": "liberte-expl",
+      "tipo": "explication",
+      "enunciado": {
+        "es": "Redacte la conclusión crítica de la explicación de texto.",
+        "fr": "Rédigez la conclusion critique de l’explication de texte."
+      },
+      "texto": {
+        "fr": "L’homme qui n’est soumis à aucune entrave est libre, lui qui a toutes choses sous la main, à son gré. Mais celui que l’on peut entraver ou contraindre, à qui l’on peut faire obstacle, celui que l’on peut, malgré lui, jeter dans quelque difficulté, celui-là est esclave. Et quel est l’homme qui est affranchi de toute entrave ? Celui qui ne désire rien de ce qui lui est étranger. Et quelles choses nous sont étrangères ? Celles qu’il ne dépend de nous ni d’avoir, ni de n’avoir pas, ni d’avoir avec telles ou telles qualités, ou en telles conditions. Donc le corps nous est étranger, ses membres nous sont étrangers, la fortune nous est étrangère. Si, par conséquent, tu t’attaches à quelqu’une de ces choses comme à un objet personnel, tu recevras le châtiment que mérite celui qui désire ce qui lui est étranger. Telle est la route qui conduit à la liberté ; la seule qui délivre de l’esclavage.",
+        "autor": "Épictète",
+        "obra": "Manuel",
+        "pagina_pdf": 267
+      },
+      "consigna": {
+        "es": "Redacte la conclusión crítica de la explicación de texto (1 h, ***). Perspectiva 1: el texto de Epicteto llama a la sabiduría sugiriendo desear las cosas que tenemos la posibilidad de desear, con el riesgo de volverse esclavo del propio deseo.",
+        "fr": "Rédigez la conclusion critique de l’explication de texte (1 h, ***). Perspective 1 : le texte d’Épictète appelle à la sagesse en suggérant de désirer les choses que nous avons la possibilité de désirer, au risque de devenir esclave de notre désir."
+      },
+      "corrige": {
+        "tesis": {
+          "es": "Es libre quien no desea nada que le sea ajeno, es decir, nada que no dependa de nosotros; desear lo ajeno (el cuerpo, la fortuna) es la vía de la esclavitud, y desear solo lo propio, el único camino de la libertad.",
+          "fr": "Est libre celui qui ne désire rien de ce qui lui est étranger, c’est-à-dire de ce qui ne dépend pas de nous ; désirer l’étranger (le corps, la fortune) mène à l’esclavage, et ne désirer que ce qui dépend de nous est la seule route vers la liberté."
+        },
+        "etapas": [
+          {
+            "titulo": {
+              "es": "Definición de libre y de esclavo",
+              "fr": "Définition du libre et de l’esclave"
+            },
+            "idea": {
+              "es": "Es libre quien no sufre ninguna traba y dispone de todo a su gusto; es esclavo quien puede ser estorbado o constreñido.",
+              "fr": "Est libre celui qui n’est soumis à aucune entrave et a tout sous la main ; est esclave celui que l’on peut entraver ou contraindre."
+            },
+            "lineas": "l. 1-4"
+          },
+          {
+            "titulo": {
+              "es": "Condición de la liberación: no desear lo ajeno",
+              "fr": "Condition de l’affranchissement : ne pas désirer l’étranger"
+            },
+            "idea": {
+              "es": "Está libre de toda traba quien no desea nada de lo que le es ajeno; es ajeno lo que no depende de nosotros: el cuerpo, los miembros, la fortuna.",
+              "fr": "Est affranchi de toute entrave celui qui ne désire rien de ce qui lui est étranger ; est étranger ce qui ne dépend pas de nous : le corps, ses membres, la fortune."
+            },
+            "lineas": "l. 4-8"
+          },
+          {
+            "titulo": {
+              "es": "Advertencia y conclusión",
+              "fr": "Avertissement et conclusion"
+            },
+            "idea": {
+              "es": "Quien se apega a estas cosas como a un bien personal recibe el castigo de quien desea lo ajeno; tal es el único camino que libera de la esclavitud.",
+              "fr": "Celui qui s’attache à ces choses comme à un objet personnel reçoit le châtiment de celui qui désire l’étranger ; telle est la seule route qui délivre de l’esclavage."
+            },
+            "lineas": "l. 8-12"
+          }
+        ],
+        "conclusion": {
+          "es": "La concepción de Epicteto sorprende por oponerse a la visión actual de la libertad, que hace creer que todo es posible para quien lo desea. Su tesis muestra que tal enfoque descansa en una concepción falaz que conduce a la esclavitud, a la dependencia total de las cosas y los seres: el deseo insaciable de posesión es una huida de sí y revela el miedo a asumir la propia libertad. La verdadera lucidez consiste en asumir plenamente lo que se es, sin desear lo que no se tiene. Todo depende de mí, pues mi juicio sobre las cosas me es propio (el tiempo es bueno o malo según el juicio que le doy); el orgullo aquí no es el de un ego desmesurado sino el de un hombre seguro de su humanidad, su razón y su uso invariable. Con Spinoza, la verdadera libertad es la comprensión de los determinismos existentes: «tal es esa libertad humana de la que todos se jactan, que consiste solo en que los hombres tienen conciencia de sus apetitos e ignoran las causas que los determinan». Solo la razón permite al hombre, primero esclavo, salir de los límites de su individualidad.",
+          "fr": "La conception de la liberté développée ici par Épictète peut surprendre tant elle s’oppose à la vision actuelle de la liberté, qui laisse croire que tout est possible pour celui qui le désire. La thèse d’Épictète vise à montrer qu’une telle approche repose sur une conception fallacieuse de la liberté qui conduit à une forme d’esclavage, de dépendance totale aux choses et aux êtres. Le désir insatiable de possession n’est qu’une fuite de soi qui indique la peur d’assumer sa propre liberté. La véritable lucidité consiste à assumer complètement ce que l’on est, sans désirer ce qu’on n’a pas. Tout dépend de moi, puisque mon jugement sur toute chose m’est propre (le temps qu’il fait n’est beau ou mauvais que si je lui donne une qualité) ; l’orgueil n’est pas celui d’un ego surdimensionné mais d’un homme sûr de ce qui fait son humanité, c’est-à-dire sa raison et son usage invariable. Avec Spinoza, la véritable liberté s’exprime par la compréhension des déterminismes existants : « Telle est cette liberté humaine que tous se vantent de posséder et qui consiste en cela seul que les hommes ont conscience de leurs appétits et ignorent les causes qui les déterminent » (Lettre n°58 à Schuller). Si l’homme est d’abord un esclave, seule sa raison lui permettra de se détacher des limites de son individualité bornée."
+        },
+        "enjeu": {
+          "es": "Qué es ser libre: ¿poseer lo que se desea o asumir lo que se es y distinguir lo que depende de nosotros? La libertad como lucidez y dominio del juicio frente a la dependencia de las cosas.",
+          "fr": "Qu’est-ce qu’être libre : posséder ce que l’on désire ou assumer ce que l’on est et distinguer ce qui dépend de nous ? La liberté comme lucidité et maîtrise du jugement face à la dépendance aux choses."
+        },
+        "puntos_clave": [
+          {
+            "es": "Reconocer la tesis: la libertad consiste en no desear lo que no depende de nosotros (cuerpo, fortuna).",
+            "fr": "Reconnaître la thèse : la liberté consiste à ne pas désirer ce qui ne dépend pas de nous (corps, fortune)."
+          },
+          {
+            "es": "Oponer esta concepción a la visión actual según la cual todo es posible para quien lo desea.",
+            "fr": "Opposer cette conception à la vision actuelle selon laquelle tout est possible pour qui le désire."
+          },
+          {
+            "es": "Mostrar que la libertad puesta en la posesión de las cosas conduce a una dependencia total, una forma de esclavitud.",
+            "fr": "Montrer que placer sa liberté dans la possession des choses mène à une dépendance totale, forme d’esclavage."
+          },
+          {
+            "es": "Ver en el deseo insaciable de posesión una huida de sí y un miedo a asumir la propia libertad.",
+            "fr": "Voir dans le désir insatiable de possession une fuite de soi et la peur d’assumer sa liberté."
+          },
+          {
+            "es": "Distinguir el ser y el tener: la lucidez es asumir lo que se es.",
+            "fr": "Distinguer l’être et l’avoir : la lucidité est d’assumer ce que l’on est."
+          },
+          {
+            "es": "Subrayar la autonomía del juicio: mi juicio sobre las cosas depende solo de mí.",
+            "fr": "Souligner l’autonomie du jugement : mon jugement sur les choses ne tient qu’à moi."
+          },
+          {
+            "es": "Abrir la discusión con Spinoza: la verdadera libertad es comprender los determinismos mediante la razón.",
+            "fr": "Ouvrir la discussion avec Spinoza : la véritable liberté est la compréhension des déterminismes par la raison."
+          }
+        ]
+      },
+      "pagina_pdf": 267,
+      "pagina_corrige": 270
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "capitulo": "justice",
+  "perspectivas": {
+    "autores": ["Aristote", "Platon", "Pascal", "Kant", "Rousseau", "Alain", "Marx"],
+    "nociones_liadas": ["État", "devoir", "liberté", "nature"],
+    "ramas": [
+      {
+        "titulo": {"es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture"},
+        "ideas": [
+          {"texto": {"es": "No existe una justicia moral universal.", "fr": "Il n’y a pas de justice morale universelle."}, "autor": "Pascal", "cours": "4."},
+          {"texto": {"es": "La justicia moral debería orientar el derecho.", "fr": "La justice morale devrait orienter le droit."}, "cours": "4. a."}
+        ]
+      },
+      {
+        "titulo": {"es": "La moral y la política", "fr": "La morale et la politique"},
+        "ideas": [
+          {"texto": {"es": "El derecho es garante de la cohesión social.", "fr": "Le droit est garant de la cohésion sociale."}, "cours": "1. a."},
+          {"texto": {"es": "En los regímenes democráticos existe una separación de poderes.", "fr": "Il y a une séparation des pouvoirs dans les régimes démocratiques."}, "cours": "1. b."},
+          {"texto": {"es": "Los orígenes del fundamento del derecho están ligados al valor del derecho y se apoyan en conceptos filosóficos y políticos.", "fr": "Les origines du fondement de droit sont liées à la valeur du droit et s’appuient sur des concepts philosophiques et politiques."}, "cours": "1. c."},
+          {"texto": {"es": "Un ciudadano justo respeta las leyes.", "fr": "Un citoyen juste respecte les lois."}, "autor": "Aristote", "cours": "2. a."},
+          {"texto": {"es": "Distinguir los derechos subjetivos y los objetivos.", "fr": "Distinguer les droits subjectifs et objectifs."}, "cours": "2. b."},
+          {"texto": {"es": "Distinguir las justicias distributiva y conmutativa.", "fr": "Distinguer les justices distributive et commutative."}, "cours": "3."},
+          {"texto": {"es": "El derecho no es moral.", "fr": "Le droit n’est pas de la morale."}, "cours": "4."}
+        ]
+      },
+      {
+        "titulo": {"es": "El conocimiento", "fr": "La connaissance"},
+        "ideas": [
+          {"texto": {"es": "Uno de los orígenes del derecho es la ciencia jurídica, es decir, una ciencia humana que permite conocer y comprender mejor el funcionamiento del derecho y los principios que lo renuevan sin cesar.", "fr": "Une des origines du droit est la science juridique, à savoir une science humaine permettant de mieux connaître et comprendre le fonctionnement du droit et les principes qui le renouvellent sans cesse."}}
+        ]
+      }
+    ],
+    "pagina_pdf": 233
+  },
+  "ejercicios": [
+    {
+      "id": "justice-diss",
+      "tipo": "dissertation",
+      "enunciado": {"es": "¿Es siempre justo el respeto de la legalidad?", "fr": "Le respect de la légalité est-il toujours juste ?"},
+      "consigna": {
+        "es": "1. Redacte la introducción sin olvidar ninguna etapa. 2. Argumente después con un plan clásico (tesis, antítesis, síntesis). 3. Y concluya su argumentación. (Perspectiva 2, nivel 1 estrella, 3 h)",
+        "fr": "1. Rédigez l’introduction en veillant bien à n’oublier aucune étape. 2. Puis, argumentez en établissant un plan classique (thèse, antithèse, synthèse). 3. Et enfin, concluez votre argumentation."
+      },
+      "corrige": {
+        "orientacion": {
+          "es": "El sujeto establece el vínculo entre las nociones de respeto de las leyes y de moralidad. Astucia: puede ilustrar su última reflexión con el pensamiento de Thoreau sobre la desobediencia civil o con la acción de Antígona, que se rebela contra una ley que juzga injusta.",
+          "fr": "Le sujet établit le lien entre les notions de respect des lois et de moralité. Astuce : vous pouvez illustrer votre dernière réflexion en utilisant la pensée de Thoreau sur la désobéissance civile ou l’action d’Antigone qui se révolte contre une loi qu’elle estime injuste."
+        },
+        "introduccion": {
+          "es": "[Explicación del sujeto] Ninguna justicia es posible sin respeto de la legalidad, en la medida en que ésta es su condición. ¿No puede entonces afirmarse con Aristóteles que su respeto es justo por principio? Pero no todas las leyes de un país expresan valores universales, y pueden incluso oponerse a lo que un individuo estimará más justo. No basta con que la ley se aplique a todos para ser ipso facto justa. [Problemática] En ese caso, ¿no es necesario superar la mera legalidad? [Plan] Sin embargo, la respuesta puede variar según la finalidad que se dé o se atribuya a la práctica jurídica, aunque pueda afirmarse que sin legalidad no puede haber justicia. Es preciso, pues, que cada hombre busque el justo medio entre sus principios personales y la ley de su país. ¿No es respetando este equilibrio como podrá seguir siendo justo y conservar la estima de sí mismo?",
+          "fr": "[Explication du sujet] Aucune justice n’est possible sans respect de la légalité, dans la mesure où elle en est la condition. Ne peut-on alors affirmer avec Aristote que son respect est par principe juste ? Mais toutes les lois d’un pays ne sont pas l’expression de valeurs universelles et peuvent même s’opposer à ce qu’un individu estimera le plus juste. Il ne suffit pas que la loi s’applique à tous pour être ipso facto juste. [Problématique] Dans ce cas, n’est-il pas nécessaire de dépasser la seule légalité ? [Plan] Pourtant, la réponse peut varier en fonction de la finalité que l’on donne ou attribue à la pratique juridique, même si l’on peut affirmer que sans légalité il ne peut y avoir de justice. Il faut donc que chaque homme cherche le juste milieu entre ses principes personnels et la loi de son pays. N’est-ce pas dans le respect de cet équilibre qu’il pourra demeurer juste et garder l’estime de lui-même ?"
+        },
+        "problematica": {
+          "es": "Si la ley no basta por sí sola para ser justa, ¿no es necesario superar la mera legalidad?",
+          "fr": "Dans ce cas, n’est-il pas nécessaire de dépasser la seule légalité ?"
+        },
+        "plan": [
+          {
+            "parte": {"es": "I. Por el solo hecho de que la ley asegura la paz social, aparece como justa y justificada.", "fr": "I – Par le seul fait que la loi assure la paix sociale, alors elle apparaît juste et justifiée."},
+            "idea": {
+              "es": "Si se piensa que la ley debe asegurar únicamente el orden y la paz, su respeto es siempre justo. Está en la naturaleza de la ley superar los puntos de vista particulares para considerar las cosas desde el punto de vista de toda la comunidad. En sí misma, la ley engendra cohesión y eso basta para justificarla. Transición: el derecho positivo debe corresponder a los valores del país; si no, no aparecerá como legítimo.",
+              "fr": "Si l’on pense que celle-ci doit seulement assurer l’ordre et la paix, le respect de la loi est toujours juste. C’est, en effet, dans la nature de la loi de dépasser les points de vue particuliers pour envisager les choses ou les situations du point de vue de la communauté tout entière. En elle-même, la loi engendre la cohésion et cela suffit à la justifier. Transition : le droit positif doit correspondre aux valeurs du pays, sinon il n’apparaîtra pas comme légitime."
+            },
+            "autores": ["aristote"]
+          },
+          {
+            "parte": {"es": "II. La justicia de un país debe ser conforme a sus valores.", "fr": "II – La justice d’un pays doit être conforme à ses valeurs."},
+            "idea": {
+              "es": "Si, al contrario, se piensa que la práctica jurídica debe conformarse absolutamente a un orden trascendente, a una cierta idea del hombre y, más en general, a ciertos valores, el respeto de las leyes es justo únicamente si el derecho positivo es conforme a esos valores.",
+              "fr": "Si au contraire, on pense que la pratique juridique doit absolument se conformer à un ordre transcendant, à une certaine idée de l’homme et plus généralement à certaines valeurs, le respect des lois est juste uniquement si le droit positif est conforme à ces valeurs."
+            },
+            "autores": ["platon"]
+          },
+          {
+            "parte": {"es": "III. Actuar siempre según su conciencia.", "fr": "III – Toujours agir selon sa conscience."},
+            "idea": {
+              "es": "Si es cierto que el respeto de la ley engendra paz civil, corresponde a cada uno interrogarse sobre los valores que deben respetarse más. La práctica jurídica y el respeto de toda legalidad se apoyan necesariamente en una concepción del hombre y en un ideal que cada hombre debe respetar en conciencia. Aunque el respeto de la legalidad sea un principio seguro y aplicable, según las situaciones un individuo puede negarse a aplicarlo en nombre de valores universales; esta actitud sólo puede ser excepcional. No se puede decir, pues, que el respeto de la legalidad sea siempre justo, aunque deba ser el principio de acción de todo ciudadano. Transición: en el caso contrario, el respeto de la legalidad choca con una exigencia de legitimidad y entonces el respeto del derecho positivo no es justo aunque sea, claro está, legal.",
+              "fr": "S’il est certain que le respect de la loi engendre une paix civile, c’est pourtant à chacun de s’interroger sur les valeurs qui doivent être les plus respectées. La pratique juridique comme le respect de toute légalité reposent nécessairement sur une conception de l’homme et sur un idéal que chaque homme se doit de respecter en conscience. Si le respect de la légalité est un principe sûr et applicable, selon les situations, un individu peut pourtant refuser de l’appliquer au nom de valeurs universelles. Cette attitude ne peut qu’être exceptionnelle. On ne peut donc pas dire que le respect de la légalité soit toujours juste, même s’il doit être le principe d’action de tout citoyen. Transition : dans le cas contraire, le respect de la légalité se heurte à une exigence de légitimité et alors le respect du droit positif n’est pas juste même s’il est, bien sûr, légal."
+            },
+            "autores": ["kant"]
+          }
+        ],
+        "conclusion": {
+          "es": "[Recapitulación de los argumentos] Se plantea a la conciencia la cuestión fundamental de la jerarquía de sus deberes. Cabe preguntarse legítimamente si hay que privilegiar la legalidad o la legitimidad en las situaciones en que ambas no concuerdan. Se dibujan aquí dos sentidos de la palabra justo: lo conforme a la legalidad (respeto del derecho positivo) y lo conforme a la legitimidad (lo que se estima bueno o justo para regular el reparto de los derechos). Sigue siendo un problema de conciencia. La justicia no puede ser una simple aplicación de una regla o de una ley: supone una deliberación y, por tanto, la toma en cuenta de las situaciones particulares.",
+          "fr": "[Récapitulatif des arguments] Se pose donc à la conscience la question fondamentale de la hiérarchie de ses devoirs. On peut légitimement se demander s’il faut privilégier la légalité ou la légitimité dans les situations où il n’y a pas concordance entre les deux. Se dessine ici deux sens du mot juste : ce qui est conforme à la légalité (respect du droit positif) d’un côté, et ce qui est conforme à la légitimité (ce que l’on estime bon ou juste pour régler le partage des droits). Cela demeure un problème de conscience. La justice ne peut être une simple application d’une règle ou d’une loi, elle suppose une délibération, et donc la prise compte des situations particulières."
+        },
+        "puntos_clave": [
+          {"es": "Explica el sujeto: sin legalidad no hay justicia, pero legalidad y justicia no coinciden necesariamente.", "fr": "Explique le sujet : sans légalité pas de justice, mais légalité et justice ne coïncident pas nécessairement."},
+          {"es": "Formula la problemática: ¿hay que superar la mera legalidad?", "fr": "Formule la problématique : faut-il dépasser la seule légalité ?"},
+          {"es": "Primera parte: la ley asegura la paz y la cohesión social, lo que basta para justificarla.", "fr": "Première partie : la loi assure la paix et la cohésion sociales, ce qui suffit à la justifier."},
+          {"es": "Segunda parte: el derecho positivo sólo es justo si es conforme a los valores del país o a un orden trascendente.", "fr": "Deuxième partie : le droit positif n’est juste que s’il est conforme aux valeurs du pays ou à un ordre transcendant."},
+          {"es": "Tercera parte: en conciencia, un individuo puede excepcionalmente rechazar una ley en nombre de valores universales (Thoreau, Antígona).", "fr": "Troisième partie : en conscience, un individu peut exceptionnellement refuser une loi au nom de valeurs universelles (Thoreau, Antigone)."},
+          {"es": "Distingue dos sentidos de «justo»: conforme a la legalidad y conforme a la legitimidad.", "fr": "Distingue deux sens de « juste » : conforme à la légalité et conforme à la légitimité."},
+          {"es": "Concluye que la justicia exige deliberación y toma en cuenta las situaciones particulares, no una simple aplicación de la regla.", "fr": "Conclut que la justice suppose délibération et prise en compte des situations particulières, non la simple application d’une règle."}
+        ]
+      },
+      "pagina_pdf": 236,
+      "pagina_corrige": 237
+    },
+    {
+      "id": "justice-expl",
+      "tipo": "explication",
+      "enunciado": {
+        "es": "Explicación de texto: 1. Haga la introducción de la explicación de este texto. 2. ¿En qué concepción de la última parte del curso (parte 4) se situaría su tesis (a o b)? Justifique en una frase.",
+        "fr": "Explication de texte : 1. Faites l’introduction de l’explication de ce texte. 2. Dans quelle conception de la dernière partie du cours (partie 4) se situerait sa thèse (a ou b) ? Justifiez en une phrase."
+      },
+      "texto": {
+        "fr": "Mais il y a loin de ces équilibres mécaniquement atteints, toujours provisoires comme celui de la balance aux mains de la justice antique, à une justice telle que la nôtre, celle des « droits de l’homme » qui n’évoque plus des idées de relation ou de mesure, mais au contraire d’incommensurabilité et d’absolu. Cette justice ne comporterait une représentation complète qu’« à l’infini », comme disent les mathématiciens ; elle ne se formule précisément et catégoriquement à un moment déterminé, que par des interdictions ; mais, dans ce qu’elle a de positif, elle procède par des créations successives, dont chacune est une réalisation plus complète de la personnalité, et par conséquent de l’humanité. Cette réalisation n’est possible que par l’intermédiaire des lois ; elle implique le consentement de la société. En vain d’ailleurs on prétendrait qu’elle se fait d’elle-même, peu à peu, en vertu de l’état d’âme de la société à une certaine période de son histoire. C’est un bond en avant, qui ne s’exécute que si la société s’est décidée à tenter une expérience ; il faut pour cela qu’elle se soit laissé convaincre ou tout au moins ébranler ; et le branle a toujours été donné par quelqu’un.",
+        "autor": "Bergson",
+        "obra": "Les Deux Sources de la morale et de la religion, 1932",
+        "pagina_pdf": 236
+      },
+      "consigna": {
+        "es": "1. Haga la introducción de la explicación de este texto. 2. ¿En qué concepción de la parte 4 del curso (a o b) se situaría su tesis? Justifique en una frase. (Perspectiva 2, nivel 2 estrellas, 30 min)",
+        "fr": "1. Faites l’introduction de l’explication de ce texte. 2. Dans quelle conception de la dernière partie du cours (partie 4) se situerait sa thèse (a ou b) ? Justifiez en une phrase."
+      },
+      "corrige": {
+        "tesis": {
+          "es": "Para Bergson, lo que representa la moral es la justicia concebida como realización de la humanidad; ese ideal moral, que supera la mera medida, sólo se realiza por medio de las leyes admitidas por la sociedad, de modo que debe orientar el derecho.",
+          "fr": "Pour Bergson, ce qui représente la morale est la justice conçue comme réalisation de l’humanité."
+        },
+        "etapas": [
+          {
+            "titulo": {"es": "La justicia antigua y la nuestra", "fr": "La justice antique et la nôtre"},
+            "idea": {
+              "es": "Bergson subraya la diferencia esencial entre la justicia antigua (equilibrio provisional, la balanza) y la nuestra, la de los «derechos del hombre», que apunta a la realización de una cierta idea del hombre (incomensurabilidad y absoluto, creaciones sucesivas, realización de la personalidad y de la humanidad).",
+              "fr": "Bergson souligne la différence essentielle entre la justice antique et la nôtre qui vise la réalisation d’une certaine idée de l’homme."
+            },
+            "lineas": "l. 1-10"
+          },
+          {
+            "titulo": {"es": "Las leyes hacen posible y justifican ese ideal moral", "fr": "Les lois rendent possible et justifient cet idéal moral"},
+            "idea": {
+              "es": "Desde la línea 10 hasta el final, el autor explica en qué medida las leyes admitidas por todos hacen posible y justifican la realización de ese ideal moral (consentimiento de la sociedad, salto adelante, impulso dado siempre por alguien).",
+              "fr": "De la ligne 10 jusqu’à la fin du texte, l’auteur nous explique dans quelles mesures les lois admises par tous rendent possible et justifient la réalisation de cet idéal moral."
+            },
+            "lineas": "l. 10-16"
+          }
+        ],
+        "introduccion": {
+          "es": "[Tema general] Este texto tiene como tema central la difícil relación entre el derecho y el ideal moral de justicia. [Tesis del autor] Para Bergson, lo que representa la moral es la justicia concebida como realización de la humanidad. El derecho reglamenta el funcionamiento de la vida social, mientras que la moral aborda las acciones de los hombres y analiza sus efectos desde el ángulo de las cualidades humanas y de valores trascendentes. [Problemática] Según Bergson, por medio del derecho la sociedad persigue un fin que le es intrínseco: mantiene su existencia y su buen funcionamiento. A la inversa, la exigencia de justicia apunta a un fin que le es extrínseco, a saber, el bien del hombre en tanto que hombre. Este fin puede aparecer como posterior a la puesta en marcha de las leyes y del derecho. Sin embargo, para Bergson, constituye su justificación última. [Estructura del texto] El texto dibuja dos momentos distintos. En un primer tiempo, Bergson subraya, de las líneas 1 a 10 hasta «…de la humanidad», la diferencia esencial entre la justicia antigua y la nuestra, que apunta a la realización de una cierta idea del hombre. Después, de la línea 10 hasta el final, el autor explica en qué medida las leyes admitidas por todos hacen posible y justifican la realización de ese ideal moral.",
+          "fr": "[Thème général] Ce texte a pour thème central la difficile relation entre le droit et l’idéal moral de justice. [Thèse soutenue par l’auteur] Pour Bergson, ce qui représente la morale est la justice conçue comme réalisation de l’humanité. Le droit réglemente le fonctionnement de la vie sociale alors que la morale aborde les actions des hommes et analyse leurs effets sous l’angle des qualités humaines et de valeurs transcendantes. [Problématique] Selon Bergson, par le biais du droit, la société poursuit une fin qui lui est intrinsèque, elle maintient son existence et son bon fonctionnement. À l’inverse, l’exigence de justice vise une fin qui lui est extrinsèque, à savoir le bien de l’homme en tant qu’homme. Cette fin peut apparaître comme ultérieure à la mise en place des lois et du droit. Toutefois, pour Bergson, elle en constitue la justification ultime. [Structure du texte] Le texte dessine deux moments distincts. Dans un premier temps, Bergson souligne, des lignes 1 à 10 jusqu’à « …de l’humanité », la différence essentielle entre la justice antique et la nôtre qui vise la réalisation d’une certaine idée de l’homme. Puis, de la ligne 10 jusqu’à la fin du texte, l’auteur nous explique dans quelles mesures les lois admises par tous rendent possible et justifient la réalisation de cet idéal moral."
+        },
+        "enjeu": {
+          "es": "La relación entre el derecho y el ideal moral de justicia: el derecho persigue un fin intrínseco a la sociedad (su existencia y buen funcionamiento), mientras que la exigencia de justicia apunta al bien del hombre en tanto que hombre, que es la justificación última de las leyes. Respuesta a la pregunta 2: la tesis se situaría en el segundo párrafo (b) del curso, puesto que Bergson estima que un ideal debe orientar absolutamente el derecho.",
+          "fr": "La relation entre le droit et l’idéal moral de justice : le droit poursuit une fin intrinsèque à la société (son existence et son bon fonctionnement) alors que l’exigence de justice vise le bien de l’homme en tant qu’homme, justification ultime des lois. Réponse à la question 2 : cette thèse devrait logiquement se situer dans le second paragraphe (b), puisque Bergson estime qu’un idéal doit absolument orienter le droit."
+        },
+        "puntos_clave": [
+          {"es": "Identifica el tema: la difícil relación entre el derecho y el ideal moral de justicia.", "fr": "Identifie le thème : la difficile relation entre le droit et l’idéal moral de justice."},
+          {"es": "Enuncia la tesis: la moral es la justicia concebida como realización de la humanidad.", "fr": "Énonce la thèse : la morale est la justice conçue comme réalisation de l’humanité."},
+          {"es": "Distingue el derecho (reglamenta la vida social, fin intrínseco) de la moral (valores trascendentes, fin extrínseco: el bien del hombre en tanto que hombre).", "fr": "Distingue le droit (réglemente la vie sociale, fin intrinsèque) de la morale (valeurs transcendantes, fin extrinsèque : le bien de l’homme en tant qu’homme)."},
+          {"es": "Señala que el ideal moral es la justificación última de las leyes, aunque parezca posterior a ellas.", "fr": "Souligne que l’idéal moral est la justification ultime des lois, même s’il peut sembler ultérieur à elles."},
+          {"es": "Presenta la estructura en dos momentos: l. 1-10 (justicia antigua y justicia actual) y l. 10-fin (las leyes hacen posible la realización del ideal).", "fr": "Présente la structure en deux moments : l. 1-10 (justice antique et justice actuelle) et l. 10-fin (les lois rendent possible la réalisation de l’idéal)."},
+          {"es": "Sitúa la tesis en la concepción 4. b. del curso: un ideal debe orientar el derecho.", "fr": "Situe la thèse dans la conception 4. b. du cours : un idéal doit orienter le droit."}
+        ]
+      },
+      "pagina_pdf": 236,
+      "pagina_corrige": 238
+    }
+  ]
+}
