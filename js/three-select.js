@@ -45,7 +45,7 @@
         const face = new T.Mesh(new T.PlaneGeometry(2.3, 3.23), new T.MeshBasicMaterial({ map: tex, transparent: true }));
         const glow = new T.Mesh(new T.PlaneGeometry(4.2, 5.2), new T.MeshBasicMaterial({ map: this.glowTex(), color: new T.Color(capColor(c, 60)), transparent: true, opacity: 0.0, blending: T.AdditiveBlending, depthWrite: false }));
         glow.position.z = -0.05;
-        const back = new T.Mesh(new T.PlaneGeometry(2.3, 3.23), new T.MeshBasicMaterial({ color: 0x0b0e22 })); back.rotation.y = Math.PI; back.position.z = -0.01;
+        const back = new T.Mesh(new T.PlaneGeometry(2.3, 3.23), new T.MeshBasicMaterial({ color: 0x151a3a, transparent: true, opacity: 0.35 })); back.rotation.y = Math.PI; back.position.z = -0.01;
         g.add(glow, face, back); g.userData = { i, face, glow, tex, hv: 0, mastery: -1, phase: Math.random() * 6.28 }; this.scene.add(g); return g;
       });
 
