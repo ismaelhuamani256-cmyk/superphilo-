@@ -1,0 +1,2615 @@
+{
+ "id": "science",
+ "numero": 10,
+ "titulo": "La science",
+ "titulo_es": "La ciencia",
+ "resumen": "La science recherche une connaissance objective et de valeur universelle par des méthodes rationnelles : pour y parvenir, elle doit rompre avec l'opinion et avec les « obstacles épistémologiques » (Bachelard), distinguer le monde de la vie et le monde de la science (Koyré) et reconnaître que la raison interprète les faits (Kant), même si toute expérience part de l'observation (Locke). Une théorie est valide tant qu'elle résiste aux tentatives de réfutation (Popper). Enfin, la physique classique (Newton) et la physique quantique (Heisenberg) montrent que la science décrit des phénomènes et que sa connaissance du réel reste relative.",
+ "paginas": {
+  "inicio": 168,
+  "fin": 181
+ },
+ "puntos_incontournables": [
+  "La science se fonde sur des méthodes rationnelles et rigoureuses qui permettent d'atteindre une connaissance objective ; une science exacte peut établir des lois dont découlent des prévisions de valeur universelle (connaissance objective, valeur universelle).",
+  "Toute démarche scientifique exige d'écarter les « obstacles épistémologiques » (Bachelard) : l'anthropomorphisme, un empirisme naïf et un vocabulaire inadapté à l'expérience réalisée.",
+  "La science ne progresse jamais par le simple constat du réel : le chercheur a besoin de connaissances préalables pour interpréter ce qu'il voit ; la raison possède des structures a priori, les catégories de l'entendement (Kant).",
+  "Locke s'oppose à la théorie kantienne et aux idées innées cartésiennes : la source première de toute connaissance est l'expérience, et elle seule (table rase).",
+  "La science dit quelque chose du réel, mais cette connaissance reste relative : elle explique le « comment » des lois de la nature, non le « pourquoi » des choses."
+ ],
+ "nociones_clave": [
+  "connaissance objective",
+  "sujet épistémique",
+  "phénomène",
+  "obstacle épistémologique",
+  "rupture épistémologique",
+  "loi universelle",
+  "prévision / prédiction",
+  "catégories de l'entendement",
+  "sujet transcendantal",
+  "induction / déduction",
+  "méthode hypothético-déductive",
+  "falsifiabilité / vérifiabilité",
+  "vérités provisoires",
+  "physique classique",
+  "physique quantique",
+  "principe d'incertitude",
+  "scientisme"
+ ],
+ "problematicas_bac": [
+  "La connaissance scientifique a-t-elle des limites ?",
+  "La science peut-elle rendre compte de la réalité du monde ?",
+  "Quelle est l'attitude du savant face au monde ?"
+ ],
+ "conceptos": [
+  {
+   "id": "objectivite",
+   "nombre": "Exigence d'objectivité",
+   "definicion": "Le sujet qui recherche une connaissance scientifique (sujet épistémique) doit s'écarter de tout ce qui est personnel et étudier des phénomènes dépouillés de toute qualité subjective, mesurables et décrits par des concepts univoques.",
+   "pagina_pdf": 169,
+   "autores": []
+  },
+  {
+   "id": "obstacle-epistemologique",
+   "nombre": "Obstacles épistémologiques",
+   "definicion": "Formes immédiates de la pensée qui freinent l'accès à l'objectivité : anthropomorphisme, empirisme naïf (obstacle substantialiste) et obstacle linguistique qui prend des métaphores pour des explications.",
+   "pagina_pdf": 170,
+   "autores": [
+    "bachelard"
+   ]
+  },
+  {
+   "id": "prevision-prediction",
+   "nombre": "Prévision et prédiction",
+   "definicion": "La prévision se déduit de relations causales universelles vérifiables ; la prédiction (par ex. l'astrologie) interprète des signes et ne peut être reproduite dans une expérience objective.",
+   "pagina_pdf": 170,
+   "autores": [
+    "bachelard"
+   ]
+  },
+  {
+   "id": "induction-deduction",
+   "nombre": "Induction et déduction",
+   "definicion": "L'induction part de faits particuliers pour conclure à des lois générales (sans garantie : l'exemple des cygnes) ; la déduction part d'une prémisse et avance par des règles logiques. Seule la méthode hypothético-déductive donne des conclusions convaincantes.",
+   "pagina_pdf": 173,
+   "autores": [
+    "locke",
+    "popper"
+   ]
+  },
+  {
+   "id": "falsifiabilite",
+   "nombre": "Falsifiabilité",
+   "definicion": "Une thèse n'est scientifique que si on peut la remettre en question en cherchant à en montrer les anomalies : le scientifique tente d'invalider son hypothèse au lieu de la vérifier.",
+   "pagina_pdf": 173,
+   "autores": [
+    "popper"
+   ]
+  },
+  {
+   "id": "verite-provisoire",
+   "nombre": "Vérités provisoires ou approchées",
+   "definicion": "Aucune théorie scientifique ne se présente comme définitivement vraie, mais elle n'est pas fausse pour autant : elle est valide jusqu'à ce qu'une autre la remplace.",
+   "pagina_pdf": 173,
+   "autores": [
+    "popper",
+    "newton"
+   ]
+  },
+  {
+   "id": "physique-quantique",
+   "nombre": "Physique quantique",
+   "definicion": "Elle étudie les objets microscopiques ; ses phénomènes contre-intuitifs (expérience des deux fentes) suggèrent que notre perception de la réalité est incomplète et que le réel de la science se fabrique en laboratoire.",
+   "pagina_pdf": 174,
+   "autores": [
+    "heisenberg"
+   ]
+  },
+  {
+   "id": "scientisme",
+   "nombre": "Scientisme",
+   "definicion": "Idéologie qui considère que la science a le monopole de toute connaissance possible et peut répondre à toutes les questions de l'homme ; les limites de la science évitent ce délire.",
+   "pagina_pdf": 181,
+   "autores": [
+    "merleau-ponty"
+   ]
+  }
+ ],
+ "filosofos": [
+  {
+   "id": "bachelard",
+   "nombre": "Gaston Bachelard",
+   "epoca": "XXe siècle",
+   "tesis_principal": "La science exige une rupture épistémologique : il faut écarter les obstacles épistémologiques et détruire l'opinion, qui est le premier obstacle, pour accéder à une connaissance objective.",
+   "ideas_clave": [
+    "Trois obstacles : anthropomorphisme, empirisme naïf (obstacle substantialiste) et obstacle linguistique (métaphores prises pour des explications)",
+    "Expliquer scientifiquement, c'est absorber la cause dans la loi universelle (loi universelle)",
+    "Distinguer prévision (prévision) et prédiction (prédiction)",
+    "La science suppose une catharsis : purification intellectuelle et affective",
+    "La première observation n'est jamais la bonne : il faut réfléchir avant de regarder"
+   ],
+   "citas": [
+    {
+     "texto": "absorber la cause dans la loi est la condition de la scientificité",
+     "idioma": "fr",
+     "obra": "citado en el cours",
+     "pagina_pdf": 170
+    },
+    {
+     "texto": "On ne peut rien fonder sur l’opinion, il faut d’abord la détruire, elle est le premier obstacle à surmonter.",
+     "idioma": "fr",
+     "obra": "citado en el cours",
+     "pagina_pdf": 171
+    }
+   ],
+   "debate_con": [
+    "platon",
+    "koyre",
+    "popper"
+   ],
+   "como_usarlo_en_disertacion": "Utile en première partie de sujets portant sur les conditions de la connaissance scientifique (Faut-il se méfier de l'opinion ? Qu'est-ce qui distingue la science du sens commun ?). Sert à montrer que la science se construit contre les évidences immédiates.",
+   "escena_sugerida": "Un chercheur renverse trois pierres-obstacles et détruit le nuage de l'opinion pour atteindre la loi universelle.",
+   "pagina_pdf": 170,
+   "escena": {
+    "titulo": "Bachelard : rompre avec les obstacles épistémologiques",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "chercheur",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.75
+      ],
+      "etiqueta": "Le chercheur",
+      "escala": 1
+     },
+     {
+      "id": "opinion",
+      "tipo": "nube",
+      "pos": [
+       0.25,
+       0.25
+      ],
+      "etiqueta": "L'opinion",
+      "escala": 1
+     },
+     {
+      "id": "o1",
+      "tipo": "piedra",
+      "pos": [
+       0.42,
+       0.78
+      ],
+      "etiqueta": "Anthropomorphisme",
+      "escala": 1
+     },
+     {
+      "id": "o2",
+      "tipo": "piedra",
+      "pos": [
+       0.57,
+       0.78
+      ],
+      "etiqueta": "Empirisme naïf",
+      "escala": 1
+     },
+     {
+      "id": "o3",
+      "tipo": "piedra",
+      "pos": [
+       0.72,
+       0.78
+      ],
+      "etiqueta": "Métaphores",
+      "escala": 1
+     },
+     {
+      "id": "loi",
+      "tipo": "libro",
+      "pos": [
+       0.88,
+       0.5
+      ],
+      "etiqueta": "Loi universelle",
+      "escala": 1.2
+     },
+     {
+      "id": "marteau",
+      "tipo": "martillo",
+      "pos": [
+       0.35,
+       0.55
+      ],
+      "etiqueta": "Rupture",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "chercheur"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "loi"
+     },
+     {
+      "t": 1,
+      "accion": "piensa",
+      "actor": "chercheur",
+      "texto": "Je veux atteindre la loi..."
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Pour atteindre une loi universelle, la pensée spontanée fait obstacle."
+     },
+     {
+      "t": 3.5,
+      "accion": "aparece",
+      "actor": "o1"
+     },
+     {
+      "t": 4.5,
+      "accion": "aparece",
+      "actor": "o2"
+     },
+     {
+      "t": 5.5,
+      "accion": "aparece",
+      "actor": "o3"
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "opinion"
+     },
+     {
+      "t": 8,
+      "accion": "dice",
+      "actor": "opinion",
+      "texto": "Les choses sont comme elles paraissent..."
+     },
+     {
+      "t": 9.5,
+      "accion": "tiembla",
+      "actor": "chercheur"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "Anthropomorphisme, empirisme naïf et métaphores : trois obstacles épistémologiques."
+     },
+     {
+      "t": 13,
+      "accion": "cita",
+      "texto": "On ne peut rien fonder sur l’opinion, il faut d’abord la détruire"
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "marteau"
+     },
+     {
+      "t": 16,
+      "accion": "mueve",
+      "actor": "marteau",
+      "a": [
+       0.25,
+       0.3
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 17.5,
+      "accion": "desaparece",
+      "actor": "opinion"
+     },
+     {
+      "t": 18.5,
+      "accion": "desaparece",
+      "actor": "o1"
+     },
+     {
+      "t": 19,
+      "accion": "desaparece",
+      "actor": "o2"
+     },
+     {
+      "t": 19.5,
+      "accion": "desaparece",
+      "actor": "o3"
+     },
+     {
+      "t": 20,
+      "accion": "subtitulo",
+      "texto": "La rupture épistémologique détruit l'opinion et dégage le chemin."
+     },
+     {
+      "t": 21.5,
+      "accion": "mueve",
+      "actor": "chercheur",
+      "a": [
+       0.75,
+       0.75
+      ],
+      "dur": 2.5
+     },
+     {
+      "t": 24,
+      "accion": "une",
+      "de": "chercheur",
+      "a": "loi",
+      "nota": "cause absorbée dans la loi"
+     },
+     {
+      "t": 25,
+      "accion": "subtitulo",
+      "texto": "Sans opinion ni obstacles, la cause est absorbée dans la loi : condition de la scientificité."
+     }
+    ]
+   }
+  },
+  {
+   "id": "platon",
+   "nombre": "Platon",
+   "epoca": "Ve-IVe siècle av. J.-C.",
+   "tesis_principal": "Dans le Cratyle s'opposent deux thèses sur la justesse des noms (nature ou convention) ; le cours s'en sert pour montrer qu'il faut se méfier de la manière dont les hommes nomment les choses, parce que cela influe sur la façon dont nous les percevons.",
+   "ideas_clave": [
+    "Dans le Cratyle dialoguent Cratyle, Socrate et Hermogène",
+    "Cratyle : il existe une dénomination correcte, adaptée naturellement à chaque être",
+    "Hermogène : la dénomination n'est qu'une convention",
+    "Il faut se méfier des mots (obstacle linguistique), proche de Bachelard"
+   ],
+   "citas": [
+    {
+     "texto": "la dénomination soit autre chose que la reconnaissance d’une convention",
+     "idioma": "fr",
+     "obra": "Le Cratyle",
+     "pagina_pdf": 171
+    }
+   ],
+   "debate_con": [
+    "bachelard"
+   ],
+   "como_usarlo_en_disertacion": "Peut servir à illustrer l'obstacle linguistique de Bachelard dans une partie sur la nécessité d'un vocabulaire univoque en science. S'emploie comme renfort d'autorité, non comme axe du plan.",
+   "escena_sugerida": "Cratyle et Hermogène discutent devant un arbre pour savoir si son nom est naturel ou conventionnel.",
+   "pagina_pdf": 171,
+   "escena": {
+    "titulo": "Platon : la justesse des noms (Cratyle)",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "cratyle",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.75
+      ],
+      "etiqueta": "Cratyle",
+      "escala": 1
+     },
+     {
+      "id": "hermogene",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.75
+      ],
+      "etiqueta": "Hermogène",
+      "escala": 1
+     },
+     {
+      "id": "socrate",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.8
+      ],
+      "etiqueta": "Socrate",
+      "escala": 1
+     },
+     {
+      "id": "arbre",
+      "tipo": "arbol",
+      "pos": [
+       0.5,
+       0.45
+      ],
+      "etiqueta": "« arbre »",
+      "escala": 1.3
+     },
+     {
+      "id": "q",
+      "tipo": "interrogacion",
+      "pos": [
+       0.5,
+       0.12
+      ],
+      "etiqueta": "​",
+      "escala": 1
+     },
+     {
+      "id": "science",
+      "tipo": "libro",
+      "pos": [
+       0.5,
+       0.15
+      ],
+      "etiqueta": "Mots précis",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "arbre"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "cratyle"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "hermogene"
+     },
+     {
+      "t": 2.5,
+      "accion": "subtitulo",
+      "texto": "Platon met en scène Cratyle, Hermogène et Socrate autour d'un nom."
+     },
+     {
+      "t": 4,
+      "accion": "dice",
+      "actor": "cratyle",
+      "texto": "Le nom s'ajuste à la nature de la chose"
+     },
+     {
+      "t": 6,
+      "accion": "une",
+      "de": "cratyle",
+      "a": "arbre",
+      "nota": "nom naturel"
+     },
+     {
+      "t": 8,
+      "accion": "dice",
+      "actor": "hermogene",
+      "texto": "Le nom n'est qu'une convention"
+     },
+     {
+      "t": 10,
+      "accion": "une",
+      "de": "hermogene",
+      "a": "arbre",
+      "nota": "convention"
+     },
+     {
+      "t": 11.5,
+      "accion": "tiembla",
+      "actor": "arbre"
+     },
+     {
+      "t": 12.5,
+      "accion": "subtitulo",
+      "texto": "Deux thèses opposées : le nom reflète-t-il la chose ou est-il un pacte entre les hommes ?"
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "socrate"
+     },
+     {
+      "t": 16,
+      "accion": "aparece",
+      "actor": "q"
+     },
+     {
+      "t": 17,
+      "accion": "cita",
+      "texto": "la dénomination soit autre chose que la reconnaissance d’une convention"
+     },
+     {
+      "t": 19,
+      "accion": "piensa",
+      "actor": "socrate",
+      "texto": "Les mots influencent notre perception"
+     },
+     {
+      "t": 20.5,
+      "accion": "aparece",
+      "actor": "science"
+     },
+     {
+      "t": 21.5,
+      "accion": "resalta",
+      "actor": "science"
+     },
+     {
+      "t": 22.5,
+      "accion": "subtitulo",
+      "texto": "Il faut se méfier de la façon dont nous nommons les choses : la science crée des dénominations adéquates."
+     }
+    ]
+   }
+  },
+  {
+   "id": "koyre",
+   "nombre": "Alexandre Koyré",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Toute approche scientifique implique de distinguer le monde de la vie et le monde de la science : l'exigence d'objectivité élimine les jugements de valeur et sépare le qualitatif du quantitatif.",
+   "ideas_clave": [
+    "Séparer monde de la vie et monde de la science",
+    "Éliminer le jugement de valeur (jugement de valeur)",
+    "Seul le quantitatif permet des comparaisons précises et des prévisions",
+    "Grâce à cette distinction, le scientifique peut analyser et expérimenter activement"
+   ],
+   "citas": [
+    {
+     "texto": "de distinguer le monde de la vie et le monde de la science",
+     "idioma": "fr",
+     "obra": "citado en el cours",
+     "pagina_pdf": 171
+    }
+   ],
+   "debate_con": [
+    "bachelard",
+    "merleau-ponty"
+   ],
+   "como_usarlo_en_disertacion": "Pièce maîtresse pour des sujets comme « La science peut-elle se confondre avec la vie ? » ou sur l'objectivité : montre que la science se construit en se séparant du vécu. Contraste bien avec Merleau-Ponty.",
+   "escena_sugerida": "Un savant franchit une porte qui sépare le monde de la vie (qualités) du monde de la science (quantités).",
+   "pagina_pdf": 171,
+   "escena": {
+    "titulo": "Koyré : distinguer le monde de la vie et celui de la science",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "savant",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.75
+      ],
+      "etiqueta": "Le savant",
+      "escala": 1
+     },
+     {
+      "id": "vie",
+      "tipo": "casa",
+      "pos": [
+       0.12,
+       0.35
+      ],
+      "etiqueta": "Monde de la vie",
+      "escala": 1.2
+     },
+     {
+      "id": "qualite",
+      "tipo": "flor",
+      "pos": [
+       0.28,
+       0.35
+      ],
+      "etiqueta": "Qualitatif",
+      "escala": 1
+     },
+     {
+      "id": "porte",
+      "tipo": "puerta",
+      "pos": [
+       0.5,
+       0.55
+      ],
+      "etiqueta": "Distinction",
+      "escala": 1.3
+     },
+     {
+      "id": "sci",
+      "tipo": "engranaje",
+      "pos": [
+       0.88,
+       0.35
+      ],
+      "etiqueta": "Monde de la science",
+      "escala": 1.2
+     },
+     {
+      "id": "quant",
+      "tipo": "balanza",
+      "pos": [
+       0.72,
+       0.35
+      ],
+      "etiqueta": "Quantitatif",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "vie"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "qualite"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "savant"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Dans le monde de la vie, il y a des qualités, des valeurs et des jugements personnels."
+     },
+     {
+      "t": 4,
+      "accion": "dice",
+      "actor": "savant",
+      "texto": "Ainsi, je ne peux ni comparer ni prévoir !"
+     },
+     {
+      "t": 5.5,
+      "accion": "tiembla",
+      "actor": "qualite"
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "porte"
+     },
+     {
+      "t": 8,
+      "accion": "cita",
+      "texto": "de distinguer le monde de la vie et le monde de la science"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "L'objectivité exige d'éliminer le jugement de valeur et de séparer le qualitatif du quantitatif."
+     },
+     {
+      "t": 12.5,
+      "accion": "aparece",
+      "actor": "sci"
+     },
+     {
+      "t": 13,
+      "accion": "aparece",
+      "actor": "quant"
+     },
+     {
+      "t": 14.5,
+      "accion": "mueve",
+      "actor": "savant",
+      "a": [
+       0.5,
+       0.75
+      ],
+      "dur": 2
+     },
+     {
+      "t": 16.5,
+      "accion": "resalta",
+      "actor": "porte"
+     },
+     {
+      "t": 17.5,
+      "accion": "mueve",
+      "actor": "savant",
+      "a": [
+       0.75,
+       0.75
+      ],
+      "dur": 2
+     },
+     {
+      "t": 19.5,
+      "accion": "une",
+      "de": "savant",
+      "a": "quant",
+      "nota": "mesurer"
+     },
+     {
+      "t": 20.5,
+      "accion": "dice",
+      "actor": "savant",
+      "texto": "Maintenant je peux mesurer, analyser et expérimenter"
+     },
+     {
+      "t": 22.5,
+      "accion": "subtitulo",
+      "texto": "Seul le quantitatif permet des comparaisons précises et des prévisions : c'est là que naît la science."
+     }
+    ]
+   }
+  },
+  {
+   "id": "canguilhem",
+   "nombre": "Georges Canguilhem",
+   "epoca": "XXe siècle",
+   "tesis_principal": "La science ne progresse pas par la simple observation de faits qu'il suffirait de constater : le fait scientifique est ce que la science produit en se faisant.",
+   "ideas_clave": [
+    "Le fait n'est pas donné : il se construit dans la pratique scientifique (fait)",
+    "Observer ne suffit pas pour comprendre : il faut interpréter à la lumière des connaissances",
+    "Rejet de l'observation naïve (observations naïves)"
+   ],
+   "citas": [
+    {
+     "texto": "le fait n’est pas ce dont la science est faite mais ce que fait la science en ce faisant.",
+     "idioma": "fr",
+     "obra": "citado en el cours",
+     "pagina_pdf": 171
+    }
+   ],
+   "debate_con": [
+    "locke",
+    "koyre"
+   ],
+   "como_usarlo_en_disertacion": "Renforce l'idée qu'il n'y a pas de fait scientifique sans théorie : sert contre l'empirisme naïf dans une partie sur les conditions de la connaissance scientifique. À combiner avec Kant et Bachelard.",
+   "escena_sugerida": "Un œil regarde une pierre sans comprendre ; l'engrenage de la théorie la transforme en fait scientifique.",
+   "pagina_pdf": 171,
+   "escena": {
+    "titulo": "Canguilhem : le fait scientifique est produit par la science",
+    "estilo": "monigotes",
+    "duracion_seg": 23,
+    "actores": [
+     {
+      "id": "obs",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.75
+      ],
+      "etiqueta": "L'observateur naïf",
+      "escala": 1
+     },
+     {
+      "id": "oeil",
+      "tipo": "ojo",
+      "pos": [
+       0.2,
+       0.45
+      ],
+      "etiqueta": "​",
+      "escala": 1
+     },
+     {
+      "id": "fait",
+      "tipo": "piedra",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": "Fait brut",
+      "escala": 1.2
+     },
+     {
+      "id": "theorie",
+      "tipo": "engranaje",
+      "pos": [
+       0.5,
+       0.25
+      ],
+      "etiqueta": "Théorie, questions",
+      "escala": 1.3
+     },
+     {
+      "id": "ampoule",
+      "tipo": "bombilla",
+      "pos": [
+       0.82,
+       0.3
+      ],
+      "etiqueta": "Sens",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "obs"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "fait"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "oeil"
+     },
+     {
+      "t": 2,
+      "accion": "une",
+      "de": "oeil",
+      "a": "fait",
+      "nota": "constat"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Observer un fait ne suffit pas : l'observation naïve n'explique rien."
+     },
+     {
+      "t": 5,
+      "accion": "piensa",
+      "actor": "obs",
+      "texto": "Je le vois... et qu'est-ce que ça signifie ?"
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "theorie"
+     },
+     {
+      "t": 8.5,
+      "accion": "resalta",
+      "actor": "theorie"
+     },
+     {
+      "t": 9.5,
+      "accion": "subtitulo",
+      "texto": "Ce n'est qu'avec des connaissances préalables et de bonnes questions que le chercheur peut interpréter."
+     },
+     {
+      "t": 12,
+      "accion": "proyecta",
+      "de": "theorie",
+      "a": "fait",
+      "nota": "interpréter"
+     },
+     {
+      "t": 14,
+      "accion": "etiqueta",
+      "actor": "fait",
+      "texto": "Fait scientifique"
+     },
+     {
+      "t": 14.5,
+      "accion": "resalta",
+      "actor": "fait"
+     },
+     {
+      "t": 16,
+      "accion": "aparece",
+      "actor": "ampoule"
+     },
+     {
+      "t": 16.5,
+      "accion": "salta",
+      "actor": "obs"
+     },
+     {
+      "t": 17.5,
+      "accion": "cita",
+      "texto": "le fait n’est pas ce dont la science est faite mais ce que fait la science en ce faisant."
+     },
+     {
+      "t": 20,
+      "accion": "subtitulo",
+      "texto": "Le fait scientifique ne se reçoit pas : la science le fabrique en interrogeant le réel."
+     }
+    ]
+   }
+  },
+  {
+   "id": "kant",
+   "nombre": "Emmanuel Kant",
+   "epoca": "XVIIIe siècle",
+   "tesis_principal": "La raison n'est pas passive face à la réalité : elle doit prendre l'initiative, et notre esprit, avec ses structures a priori (catégories de l'entendement), rend possible la connaissance des objets, tout comme Copernic a inversé la perspective astronomique.",
+   "ideas_clave": [
+    "La raison prend l'initiative d'expérimenter (« la raison doit prendre les devants »)",
+    "La raison intervient dans les principes de pensée (catégories de l'entendement) et dans les questions",
+    "L'expérience apporte le résultat, mais l'esprit rend possible la connaissance des objets (structures a priori)",
+    "Changement de perspective comparable à celui de Copernic : sujet transcendantal",
+    "Les catégories sont universelles : le jugement peut être objectif"
+   ],
+   "citas": [
+    {
+     "texto": "la raison [qui] doit prendre les devants",
+     "idioma": "fr",
+     "obra": "citado en el cours",
+     "pagina_pdf": 171
+    }
+   ],
+   "debate_con": [
+    "locke",
+    "einstein"
+   ],
+   "como_usarlo_en_disertacion": "Auteur central pour montrer que la connaissance scientifique n'est pas une simple réception de données : dans des sujets sur l'objectivité ou sur le rôle de la raison face à l'expérience. À opposer à Locke dans un plan dialectique.",
+   "escena_sugerida": "Révolution copernicienne : le sujet cesse de tourner autour de l'objet et projette sur lui ses catégories.",
+   "pagina_pdf": 171,
+   "escena": {
+    "titulo": "Kant : la raison prend les devants",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "sujet",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.75
+      ],
+      "etiqueta": "Le sujet",
+      "escala": 1
+     },
+     {
+      "id": "cerveau",
+      "tipo": "cerebro",
+      "pos": [
+       0.25,
+       0.4
+      ],
+      "etiqueta": "Catégories a priori",
+      "escala": 1.2
+     },
+     {
+      "id": "objet",
+      "tipo": "caja",
+      "pos": [
+       0.78,
+       0.7
+      ],
+      "etiqueta": "Phénomène",
+      "escala": 1.1
+     },
+     {
+      "id": "soleil",
+      "tipo": "sol",
+      "pos": [
+       0.55,
+       0.2
+      ],
+      "etiqueta": "Copernic",
+      "escala": 1.2
+     },
+     {
+      "id": "q",
+      "tipo": "interrogacion",
+      "pos": [
+       0.78,
+       0.4
+      ],
+      "etiqueta": "​",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "sujet"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "objet"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "q"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "L'esprit est-il un spectateur passif qui reçoit ce que l'objet lui donne ?"
+     },
+     {
+      "t": 4,
+      "accion": "dice",
+      "actor": "sujet",
+      "texto": "Je regarde seulement et j'attends ce qui arrive..."
+     },
+     {
+      "t": 6,
+      "accion": "tiembla",
+      "actor": "q"
+     },
+     {
+      "t": 7.5,
+      "accion": "desaparece",
+      "actor": "q"
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "cerveau"
+     },
+     {
+      "t": 9,
+      "accion": "resalta",
+      "actor": "cerveau"
+     },
+     {
+      "t": 10,
+      "accion": "cita",
+      "texto": "la raison [qui] doit prendre les devants"
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "Kant : la raison prend l'initiative, pose des questions et applique des principes de pensée."
+     },
+     {
+      "t": 14.5,
+      "accion": "proyecta",
+      "de": "cerveau",
+      "a": "objet",
+      "nota": "catégories de l'entendement"
+     },
+     {
+      "t": 16.5,
+      "accion": "etiqueta",
+      "actor": "objet",
+      "texto": "Objet connu"
+     },
+     {
+      "t": 17.5,
+      "accion": "salta",
+      "actor": "sujet"
+     },
+     {
+      "t": 18.5,
+      "accion": "aparece",
+      "actor": "soleil"
+     },
+     {
+      "t": 19.5,
+      "accion": "resalta",
+      "actor": "soleil"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Comme Copernic a déplacé le centre du ciel, Kant le déplace dans la connaissance : le sujet la conditionne."
+     },
+     {
+      "t": 24.5,
+      "accion": "subtitulo",
+      "texto": "L'expérience donne le résultat, mais les structures a priori rendent la connaissance possible."
+     }
+    ]
+   }
+  },
+  {
+   "id": "einstein",
+   "nombre": "Albert Einstein",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Einstein s'étonnait que les mathématiques, produit de la pensée humaine et indépendantes de l'expérience, s'adaptent si admirablement aux objets de la réalité.",
+   "ideas_clave": [
+    "Les mathématiques sont un produit de la pensée humaine",
+    "Elles sont indépendantes de toute expérience",
+    "Pourtant elles s'adaptent aux objets de la réalité (énigme de l'adéquation)",
+    "Pose la question de savoir si la raison peut découvrir les propriétés du réel par la seule pensée"
+   ],
+   "citas": [],
+   "debate_con": [
+    "kant",
+    "locke"
+   ],
+   "como_usarlo_en_disertacion": "À utiliser comme question qui prolonge Kant : pourquoi les structures de la raison s'accordent-elles avec le réel ? Sert d'ouverture ou de transition entre rationalisme et empirisme.",
+   "escena_sugerida": "Einstein se demande pourquoi un livre de mathématiques s'accorde avec la réalité.",
+   "pagina_pdf": 172,
+   "escena": {
+    "titulo": "Einstein : l'étonnante adaptation des mathématiques au réel",
+    "estilo": "monigotes",
+    "duracion_seg": 22,
+    "actores": [
+     {
+      "id": "einstein",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.78
+      ],
+      "etiqueta": "Einstein",
+      "escala": 1
+     },
+     {
+      "id": "maths",
+      "tipo": "libro",
+      "pos": [
+       0.2,
+       0.3
+      ],
+      "etiqueta": "Mathématiques",
+      "escala": 1.2
+     },
+     {
+      "id": "pensee",
+      "tipo": "cerebro",
+      "pos": [
+       0.2,
+       0.62
+      ],
+      "etiqueta": "Pensée humaine",
+      "escala": 1
+     },
+     {
+      "id": "reel",
+      "tipo": "estrella",
+      "pos": [
+       0.8,
+       0.3
+      ],
+      "etiqueta": "Objets réels",
+      "escala": 1.2
+     },
+     {
+      "id": "q",
+      "tipo": "interrogacion",
+      "pos": [
+       0.5,
+       0.25
+      ],
+      "etiqueta": "​",
+      "escala": 1.3
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "einstein"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "pensee"
+     },
+     {
+      "t": 2,
+      "accion": "aparece",
+      "actor": "maths"
+     },
+     {
+      "t": 3,
+      "accion": "proyecta",
+      "de": "pensee",
+      "a": "maths",
+      "nota": "produit de la pensée"
+     },
+     {
+      "t": 4.5,
+      "accion": "subtitulo",
+      "texto": "Les mathématiques naissent de la pensée humaine, sans dépendre de l'expérience."
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "reel"
+     },
+     {
+      "t": 8.5,
+      "accion": "une",
+      "de": "maths",
+      "a": "reel",
+      "nota": "elles s'accordent !"
+     },
+     {
+      "t": 10,
+      "accion": "resalta",
+      "actor": "reel"
+     },
+     {
+      "t": 11,
+      "accion": "aparece",
+      "actor": "q"
+     },
+     {
+      "t": 12,
+      "accion": "piensa",
+      "actor": "einstein",
+      "texto": "Comment est-il possible qu'elles s'accordent si bien ?"
+     },
+     {
+      "t": 14,
+      "accion": "subtitulo",
+      "texto": "Einstein s'étonne : ce qui est pensé sans expérience s'adapte aux objets réels."
+     },
+     {
+      "t": 17,
+      "accion": "salta",
+      "actor": "einstein"
+     },
+     {
+      "t": 18,
+      "accion": "dice",
+      "actor": "einstein",
+      "texto": "La pensée suffit-elle pour connaître le réel ?"
+     },
+     {
+      "t": 20.5,
+      "accion": "subtitulo",
+      "texto": "Question ouverte : la raison peut-elle découvrir à elle seule les propriétés du réel ?"
+     }
+    ]
+   }
+  },
+  {
+   "id": "locke",
+   "nombre": "John Locke",
+   "epoca": "XVIIe siècle",
+   "tesis_principal": "Toute connaissance procède uniquement de l'expérience : au commencement, l'âme est une table rase, sans idées ; cela contredit les idées innées cartésiennes et Kant. Mais l'induction ne garantit pas la vérité de ses conclusions.",
+   "ideas_clave": [
+    "L'âme est une table rase au commencement",
+    "Les idées viennent de l'expérience (expérience), il n'y a pas d'idées innées",
+    "Contre Descartes et, par avance, contre Kant",
+    "Limite de l'induction : l'exemple des cygnes blancs et d'un cygne noir (induction)"
+   ],
+   "citas": [
+    {
+     "texto": "qu’au commencement l’âme est ce qu’on appelle une table rase, vide de tous caractères, sans aucune idée, quelle qu’elle soit.",
+     "idioma": "fr",
+     "obra": "Essai sur l'entendement humain, Livre II",
+     "pagina_pdf": 172
+    }
+   ],
+   "debate_con": [
+    "kant",
+    "popper",
+    "canguilhem"
+   ],
+   "como_usarlo_en_disertacion": "Thèse empiriste que l'on oppose à Kant dans une partie sur l'origine de la connaissance scientifique ; la nuancer ensuite avec le problème de l'induction et la solution de Popper.",
+   "escena_sugerida": "Une boîte vide (table rase) se remplit par l'expérience ; l'apparition d'un cygne noir brise la loi induite.",
+   "pagina_pdf": 172,
+   "escena": {
+    "titulo": "Locke : la table rase et la limite de l'induction",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "ame",
+      "tipo": "caja",
+      "pos": [
+       0.2,
+       0.55
+      ],
+      "etiqueta": "Table rase",
+      "escala": 1.3
+     },
+     {
+      "id": "locke",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.82
+      ],
+      "etiqueta": "Locke",
+      "escala": 1
+     },
+     {
+      "id": "exp",
+      "tipo": "ojo",
+      "pos": [
+       0.5,
+       0.3
+      ],
+      "etiqueta": "Expérience",
+      "escala": 1.2
+     },
+     {
+      "id": "cy1",
+      "tipo": "flor",
+      "pos": [
+       0.6,
+       0.75
+      ],
+      "etiqueta": "Cygnes blancs",
+      "escala": 1
+     },
+     {
+      "id": "cy2",
+      "tipo": "flor",
+      "pos": [
+       0.72,
+       0.75
+      ],
+      "etiqueta": "​",
+      "escala": 1
+     },
+     {
+      "id": "cy3",
+      "tipo": "piedra",
+      "pos": [
+       0.88,
+       0.75
+      ],
+      "etiqueta": "Cygne noir",
+      "escala": 1
+     },
+     {
+      "id": "q",
+      "tipo": "interrogacion",
+      "pos": [
+       0.78,
+       0.4
+      ],
+      "etiqueta": "​",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "locke"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "ame"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Au commencement, l'âme est une table rase : vide, sans aucune idée."
+     },
+     {
+      "t": 4,
+      "accion": "cita",
+      "texto": "une table rase, vide de tous caractères, sans aucune idée"
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "exp"
+     },
+     {
+      "t": 7,
+      "accion": "proyecta",
+      "de": "exp",
+      "a": "ame",
+      "nota": "idées par l'expérience"
+     },
+     {
+      "t": 9,
+      "accion": "etiqueta",
+      "actor": "ame",
+      "texto": "Connaissances"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "Locke : toute connaissance vient de l'expérience, et d'elle seule ; il n'y a pas d'idées innées."
+     },
+     {
+      "t": 13,
+      "accion": "aparece",
+      "actor": "cy1"
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "cy2"
+     },
+     {
+      "t": 15,
+      "accion": "dice",
+      "actor": "locke",
+      "texto": "Tous les cygnes sont blancs"
+     },
+     {
+      "t": 17,
+      "accion": "subtitulo",
+      "texto": "Mais l'induction généralise à partir de cas particuliers et ne garantit pas la vérité."
+     },
+     {
+      "t": 19,
+      "accion": "aparece",
+      "actor": "cy3"
+     },
+     {
+      "t": 20,
+      "accion": "tiembla",
+      "actor": "cy3"
+     },
+     {
+      "t": 20.5,
+      "accion": "aparece",
+      "actor": "q"
+     },
+     {
+      "t": 21.5,
+      "accion": "tiembla",
+      "actor": "locke"
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "Un seul cygne noir suffit à invalider la loi que l'induction croyait avoir trouvée."
+     }
+    ]
+   }
+  },
+  {
+   "id": "popper",
+   "nombre": "Karl Popper",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Une théorie est scientifique et valide si elle résiste aux tentatives de réfutation : toute épreuve authentique cherche à montrer sa fausseté, non à la confirmer. Aucune théorie n'est définitivement vraie, seulement provisoire.",
+   "ideas_clave": [
+    "Une théorie est valide si elle résiste aux expériences qui cherchent à la réfuter (réfutation)",
+    "Une expérience cherche des anomalies et des insuffisances, non à confirmer l'hypothèse",
+    "Falsifiabilité face à vérifiabilité (falsifiabilité / vérifiabilité), inspiré de Bachelard",
+    "Méthode hypothético-déductive, meilleure protection contre les illusions et les croyances",
+    "Vérités provisoires ou approchées"
+   ],
+   "citas": [
+    {
+     "texto": "Toute mise à l’épreuve […] véritable d’une théorie par des […] tests constitue une tentative […] pour en démontrer la fausseté […] pour la réfuter.",
+     "idioma": "fr",
+     "obra": "Conjectures et réfutations",
+     "pagina_pdf": 173
+    }
+   ],
+   "debate_con": [
+    "locke",
+    "bachelard"
+   ],
+   "como_usarlo_en_disertacion": "Répond au problème de l'induction dans des sujets sur la manière de valider une théorie ou sur ce qui distingue science et croyance. Sert dans la partie finale d'un plan qui recherche un critère de scientificité.",
+   "escena_sugerida": "Un marteau frappe la maison-théorie pour la mettre à l'épreuve ; si elle résiste, elle est validée provisoirement.",
+   "pagina_pdf": 173,
+   "escena": {
+    "titulo": "Popper : tester une théorie en cherchant à la réfuter",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "savant",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.75
+      ],
+      "etiqueta": "Le scientifique",
+      "escala": 1
+     },
+     {
+      "id": "theorie",
+      "tipo": "casa",
+      "pos": [
+       0.65,
+       0.65
+      ],
+      "etiqueta": "Théorie",
+      "escala": 1.4
+     },
+     {
+      "id": "marteau",
+      "tipo": "martillo",
+      "pos": [
+       0.35,
+       0.4
+      ],
+      "etiqueta": "Test",
+      "escala": 1.2
+     },
+     {
+      "id": "eclair",
+      "tipo": "rayo",
+      "pos": [
+       0.65,
+       0.25
+      ],
+      "etiqueta": "Réfutation ?",
+      "escala": 1
+     },
+     {
+      "id": "temps",
+      "tipo": "reloj",
+      "pos": [
+       0.88,
+       0.25
+      ],
+      "etiqueta": "Pour un temps",
+      "escala": 1
+     },
+     {
+      "id": "croyance",
+      "tipo": "nube",
+      "pos": [
+       0.15,
+       0.25
+      ],
+      "etiqueta": "Croyances",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "savant"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "theorie"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": "Un scientifique propose une théorie. Comment savoir si elle est valide ?"
+     },
+     {
+      "t": 3.5,
+      "accion": "aparece",
+      "actor": "croyance"
+     },
+     {
+      "t": 4.5,
+      "accion": "dice",
+      "actor": "croyance",
+      "texto": "Cherche des preuves qui la confirment !"
+     },
+     {
+      "t": 6,
+      "accion": "dice",
+      "actor": "savant",
+      "texto": "Non : j'essaierai de la détruire"
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "marteau"
+     },
+     {
+      "t": 8.5,
+      "accion": "cita",
+      "texto": "Toute mise à l’épreuve véritable d’une théorie par des tests constitue une tentative pour en démontrer la fausseté ou pour la réfuter."
+     },
+     {
+      "t": 10.5,
+      "accion": "subtitulo",
+      "texto": "Pour Popper, une épreuve authentique cherche la fausseté : anomalies et insuffisances."
+     },
+     {
+      "t": 13,
+      "accion": "mueve",
+      "actor": "marteau",
+      "a": [
+       0.6,
+       0.6
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 14.5,
+      "accion": "aparece",
+      "actor": "eclair"
+     },
+     {
+      "t": 15,
+      "accion": "tiembla",
+      "actor": "theorie"
+     },
+     {
+      "t": 17,
+      "accion": "desaparece",
+      "actor": "eclair"
+     },
+     {
+      "t": 17.5,
+      "accion": "resalta",
+      "actor": "theorie"
+     },
+     {
+      "t": 18.5,
+      "accion": "desaparece",
+      "actor": "croyance"
+     },
+     {
+      "t": 19,
+      "accion": "aparece",
+      "actor": "temps"
+     },
+     {
+      "t": 20,
+      "accion": "subtitulo",
+      "texto": "Si la théorie résiste à la réfutation, elle est validée, au moins pour un temps."
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "Ainsi nous nous protégeons des illusions et des croyances : la vérité scientifique est provisoire."
+     }
+    ]
+   }
+  },
+  {
+   "id": "newton",
+   "nombre": "Isaac Newton",
+   "epoca": "XVIIe siècle",
+   "tesis_principal": "La physique classique de Newton traduit mathématiquement l'observation de la nature (loi de la gravitation universelle) et est l'exemple par excellence d'une science en adéquation avec les lois de la nature, même si sa validité est celle d'une théorie qu'une autre peut supplanter.",
+   "ideas_clave": [
+    "Loi de la gravitation universelle : deux objets s'attirent en raison de leurs masses (gravitation universelle)",
+    "Principia mathematica : traduction mathématique d'une observation physique",
+    "Principe d'inertie, déjà formulé par Galilée (principe d'inertie)",
+    "N'a pas été invalidée par la physique quantique : deux conceptions scientifiques différentes et légitimes"
+   ],
+   "citas": [],
+   "debate_con": [
+    "heisenberg"
+   ],
+   "como_usarlo_en_disertacion": "Exemple canonique de science qui décrit des lois de la nature en langage mathématique. À utiliser en première partie (oui, la science rend compte du réel) avant de nuancer avec la physique quantique.",
+   "escena_sugerida": "Une pomme tombe de l'arbre, Newton l'observe et écrit la loi dans les Principia.",
+   "pagina_pdf": 174,
+   "escena": {
+    "titulo": "Newton : traduire mathématiquement la nature",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "newton",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.78
+      ],
+      "etiqueta": "Newton",
+      "escala": 1
+     },
+     {
+      "id": "arbre",
+      "tipo": "arbol",
+      "pos": [
+       0.5,
+       0.45
+      ],
+      "etiqueta": "​",
+      "escala": 1.4
+     },
+     {
+      "id": "pomme",
+      "tipo": "corazon",
+      "pos": [
+       0.5,
+       0.3
+      ],
+      "etiqueta": "Pomme",
+      "escala": 0.6
+     },
+     {
+      "id": "terre",
+      "tipo": "piedra",
+      "pos": [
+       0.5,
+       0.88
+      ],
+      "etiqueta": "Terre",
+      "escala": 1.4
+     },
+     {
+      "id": "ampoule",
+      "tipo": "bombilla",
+      "pos": [
+       0.25,
+       0.4
+      ],
+      "etiqueta": "​",
+      "escala": 1
+     },
+     {
+      "id": "principia",
+      "tipo": "libro",
+      "pos": [
+       0.85,
+       0.55
+      ],
+      "etiqueta": "Principia",
+      "escala": 1.3
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "newton"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "arbre"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "pomme"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "terre"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "La célèbre histoire de la pomme : d'une observation de la nature naît une loi."
+     },
+     {
+      "t": 5.5,
+      "accion": "mueve",
+      "actor": "pomme",
+      "a": [
+       0.5,
+       0.78
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 7,
+      "accion": "salta",
+      "actor": "newton"
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "ampoule"
+     },
+     {
+      "t": 9,
+      "accion": "une",
+      "de": "pomme",
+      "a": "terre",
+      "nota": "elles s'attirent"
+     },
+     {
+      "t": 10.5,
+      "accion": "subtitulo",
+      "texto": "Deux objets s'attirent en raison de leurs masses : loi de la gravitation universelle."
+     },
+     {
+      "t": 13.5,
+      "accion": "aparece",
+      "actor": "principia"
+     },
+     {
+      "t": 14.5,
+      "accion": "proyecta",
+      "de": "newton",
+      "a": "principia",
+      "nota": "loi en langage mathématique"
+     },
+     {
+      "t": 17,
+      "accion": "resalta",
+      "actor": "principia"
+     },
+     {
+      "t": 18,
+      "accion": "subtitulo",
+      "texto": "La science traduit mathématiquement une observation physique : physique classique."
+     },
+     {
+      "t": 21,
+      "accion": "dice",
+      "actor": "newton",
+      "texto": "Cette loi vaut jusqu'à ce qu'une autre théorie la dépasse"
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "Exemple de science en adéquation avec les lois de la nature, même si sa validité est provisoire."
+     }
+    ]
+   }
+  },
+  {
+   "id": "heisenberg",
+   "nombre": "Werner Heisenberg",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Avec son principe d'incertitude, il a montré que les conditions de l'expérience modifient constamment la réalité étudiée : le réel de la science apparaît fabriqué et n'existe pas hors du laboratoire.",
+   "ideas_clave": [
+    "Principe d'incertitude (principe d'incertitude)",
+    "L'expérience change la réalité que l'on étudie : on n'accède pas à la réalité ultime de l'atome",
+    "Expérience des deux fentes (Young) : la particule se comporte comme une onde, sauf si on l'observe",
+    "Le résultat semble influencé par l'observateur",
+    "Le réel de la science est construit : il n'existe qu'en laboratoire"
+   ],
+   "citas": [],
+   "debate_con": [
+    "newton",
+    "bachelard"
+   ],
+   "como_usarlo_en_disertacion": "Pièce pour montrer les limites de la science à dire la réalité ultime : dans des sujets comme « La science peut-elle rendre compte du réel ? », sert dans la partie critique, aux côtés de Bachelard (la première observation n'est pas la bonne).",
+   "escena_sugerida": "Un œil observe des particules qui passent par deux fentes : sans regarder, ce sont des ondes ; en regardant, des particules.",
+   "pagina_pdf": 175,
+   "escena": {
+    "titulo": "Heisenberg : l'observation modifie la réalité",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "physicien",
+      "tipo": "monigote",
+      "pos": [
+       0.12,
+       0.78
+      ],
+      "etiqueta": "Le physicien",
+      "escala": 1
+     },
+     {
+      "id": "particule",
+      "tipo": "estrella",
+      "pos": [
+       0.25,
+       0.45
+      ],
+      "etiqueta": "Particule",
+      "escala": 0.8
+     },
+     {
+      "id": "fentes",
+      "tipo": "puerta",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "etiqueta": "Deux fentes",
+      "escala": 1.4
+     },
+     {
+      "id": "onde",
+      "tipo": "nube",
+      "pos": [
+       0.8,
+       0.5
+      ],
+      "etiqueta": "Onde",
+      "escala": 1.2
+     },
+     {
+      "id": "oeil",
+      "tipo": "ojo",
+      "pos": [
+       0.5,
+       0.15
+      ],
+      "etiqueta": "Observation",
+      "escala": 1.2
+     },
+     {
+      "id": "q",
+      "tipo": "interrogacion",
+      "pos": [
+       0.88,
+       0.2
+      ],
+      "etiqueta": "​",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "physicien"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "fentes"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "particule"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Expérience des deux fentes : une particule de matière traverse deux ouvertures."
+     },
+     {
+      "t": 4.5,
+      "accion": "mueve",
+      "actor": "particule",
+      "a": [
+       0.5,
+       0.5
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "onde"
+     },
+     {
+      "t": 6.5,
+      "accion": "etiqueta",
+      "actor": "particule",
+      "texto": "Sans regarder : se comporte comme une onde"
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "q"
+     },
+     {
+      "t": 9,
+      "accion": "subtitulo",
+      "texto": "Sans être observée, la particule se comporte comme une onde : contraire au sens commun."
+     },
+     {
+      "t": 12.5,
+      "accion": "desaparece",
+      "actor": "onde"
+     },
+     {
+      "t": 13,
+      "accion": "aparece",
+      "actor": "oeil"
+     },
+     {
+      "t": 14,
+      "accion": "mueve",
+      "actor": "particule",
+      "a": [
+       0.25,
+       0.45
+      ],
+      "dur": 1
+     },
+     {
+      "t": 15,
+      "accion": "mueve",
+      "actor": "particule",
+      "a": [
+       0.5,
+       0.5
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 16.5,
+      "accion": "etiqueta",
+      "actor": "particule",
+      "texto": "Observée : se comporte comme particule"
+     },
+     {
+      "t": 17,
+      "accion": "tiembla",
+      "actor": "particule"
+     },
+     {
+      "t": 18,
+      "accion": "subtitulo",
+      "texto": "Quand on l'observe, elle redevient particule : le résultat semble influencé par l'observateur."
+     },
+     {
+      "t": 21,
+      "accion": "dice",
+      "actor": "physicien",
+      "texto": "L'expérience change ce que j'étudie"
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "Principe d'incertitude : le réel de la science est fabriqué et n'existe pas hors du laboratoire."
+     }
+    ]
+   }
+  },
+  {
+   "id": "merleau-ponty",
+   "nombre": "Maurice Merleau-Ponty",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Le savant adopte face au monde une attitude d'ingéniosité et de manipulation : il veut disposer des choses et évacue les qualités ; l'artiste, en revanche, redonne de la densité aux apparences et rend le monde habitable. C'est un texte qui met en garde contre une surévaluation des connaissances humaines.",
+   "ideas_clave": [
+    "Attitude du savant : manipuler, monter des dispositifs efficaces, interroger la nature (savant)",
+    "Il évacue les qualités, qui sont le tissu de notre présence au monde",
+    "L'artiste ne quitte pas les apparences : il leur rend leur densité (l'artiste)",
+    "Avec le savant, le monde est disponible ; avec l'artiste, habitable",
+    "Le corrigé nuance : science et technique rendent aussi le monde habitable ; il faut défendre la complémentarité"
+   ],
+   "citas": [
+    {
+     "texto": "Si pour le savant le monde doit être disponible, grâce à l’artiste il devient habitable.",
+     "idioma": "fr",
+     "obra": "L'Œil et l'esprit, 1964",
+     "pagina_pdf": 179
+    }
+   ],
+   "debate_con": [
+    "koyre"
+   ],
+   "como_usarlo_en_disertacion": "Pour des sujets sur les limites de la science ou sur d'autres accès au réel (art, philosophie) : montre le danger du scientisme. À équilibrer avec la critique du corrigé : ne pas opposer dogmatiquement art et science.",
+   "escena_sugerida": "Le savant manie le monde comme un objet disponible ; l'artiste en fait une maison habitable.",
+   "pagina_pdf": 179,
+   "escena": {
+    "titulo": "Merleau-Ponty : le savant, l'artiste et le monde",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "savant",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.78
+      ],
+      "etiqueta": "Le savant",
+      "escala": 1
+     },
+     {
+      "id": "artiste",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.78
+      ],
+      "etiqueta": "L'artiste",
+      "escala": 1
+     },
+     {
+      "id": "monde",
+      "tipo": "caja",
+      "pos": [
+       0.5,
+       0.55
+      ],
+      "etiqueta": "Le monde",
+      "escala": 1.4
+     },
+     {
+      "id": "engr",
+      "tipo": "engranaje",
+      "pos": [
+       0.3,
+       0.3
+      ],
+      "etiqueta": "Dispositifs",
+      "escala": 1
+     },
+     {
+      "id": "oeil",
+      "tipo": "ojo",
+      "pos": [
+       0.7,
+       0.3
+      ],
+      "etiqueta": "Vision",
+      "escala": 1
+     },
+     {
+      "id": "maison",
+      "tipo": "casa",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Habitable",
+      "escala": 1.2
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "monde"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "savant"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "engr"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Le savant manipule les choses, monte des dispositifs et invite la nature à répondre."
+     },
+     {
+      "t": 4.5,
+      "accion": "proyecta",
+      "de": "engr",
+      "a": "monde",
+      "nota": "manipuler"
+     },
+     {
+      "t": 6.5,
+      "accion": "etiqueta",
+      "actor": "monde",
+      "texto": "Disponible"
+     },
+     {
+      "t": 7.5,
+      "accion": "dice",
+      "actor": "savant",
+      "texto": "J'élimine les qualités : ce n'est qu'un simple résidu"
+     },
+     {
+      "t": 10,
+      "accion": "tiembla",
+      "actor": "monde"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "Mais les qualités sont le tissu même de notre présence au monde."
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "artiste"
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "oeil"
+     },
+     {
+      "t": 16,
+      "accion": "proyecta",
+      "de": "oeil",
+      "a": "monde",
+      "nota": "redonner de la densité"
+     },
+     {
+      "t": 18,
+      "accion": "aparece",
+      "actor": "maison"
+     },
+     {
+      "t": 19,
+      "accion": "etiqueta",
+      "actor": "monde",
+      "texto": "Monde habité"
+     },
+     {
+      "t": 19.5,
+      "accion": "resalta",
+      "actor": "maison"
+     },
+     {
+      "t": 20.5,
+      "accion": "cita",
+      "texto": "Si pour le savant le monde doit être disponible, grâce à l’artiste il devient habitable."
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "Le savant rend le monde disponible ; l'artiste, habitable. Il faut voir leur complémentarité."
+     }
+    ]
+   }
+  }
+ ],
+ "relaciones": [
+  {
+   "de": "kant",
+   "a": "locke",
+   "tipo": "se opone",
+   "nota": "Kant : structures a priori de l'esprit ; Locke : toute connaissance vient uniquement de l'expérience."
+  },
+  {
+   "de": "bachelard",
+   "a": "platon",
+   "tipo": "complementa",
+   "nota": "Bachelard rejoint la réflexion du Cratyle sur la justesse des noms (obstacle linguistique)."
+  },
+  {
+   "de": "bachelard",
+   "a": "popper",
+   "tipo": "influye",
+   "nota": "Popper théorise la falsifiabilité en s'inspirant de Bachelard."
+  },
+  {
+   "de": "koyre",
+   "a": "bachelard",
+   "tipo": "complementa",
+   "nota": "Tous deux demandent de rompre avec le monde de la vie et l'opinion pour construire la science."
+  },
+  {
+   "de": "canguilhem",
+   "a": "kant",
+   "tipo": "complementa",
+   "nota": "Ni le fait ni l'observation ne suffisent : la raison interprète et produit le fait."
+  },
+  {
+   "de": "kant",
+   "a": "einstein",
+   "tipo": "complementa",
+   "nota": "Einstein se demande pourquoi les constructions de la raison s'adaptent aux objets réels."
+  },
+  {
+   "de": "popper",
+   "a": "locke",
+   "tipo": "se opone",
+   "nota": "Popper substitue la réfutation à l'induction (méthode hypothético-déductive)."
+  },
+  {
+   "de": "newton",
+   "a": "heisenberg",
+   "tipo": "complementa",
+   "nota": "Physique classique et quantique : deux conceptions scientifiques différentes et légitimes."
+  },
+  {
+   "de": "heisenberg",
+   "a": "bachelard",
+   "tipo": "complementa",
+   "nota": "L'expérience modifie le réel ; la première observation n'est jamais la bonne."
+  },
+  {
+   "de": "merleau-ponty",
+   "a": "scientisme",
+   "tipo": "se opone",
+   "nota": "Son texte met en garde contre une valorisation exclusive du rapport scientifique au monde."
+  },
+  {
+   "de": "popper",
+   "a": "falsifiabilite",
+   "tipo": "influye",
+   "nota": "Popper théorise la falsifiabilité comme critère de scientificité."
+  },
+  {
+   "de": "bachelard",
+   "a": "obstacle-epistemologique",
+   "tipo": "influye",
+   "nota": "Bachelard identifie et nomme les trois obstacles épistémologiques."
+  }
+ ],
+ "quiz": [
+  {
+   "pregunta": "Quel est le scientifique dont la démarche symbolise la science classique ?",
+   "opciones": [
+    "Euclide",
+    "Newton",
+    "Einstein",
+    "Heisenberg"
+   ],
+   "correcta": 1,
+   "explicacion": "Selon le corrigé, la réponse est Newton : la physique classique est l'exemple par excellence d'une science en adéquation avec les lois de la nature.",
+   "filosofo": "newton",
+   "pagina_pdf": 174
+  },
+  {
+   "pregunta": "Qu'est-ce que l'épistémologie ?",
+   "opciones": [
+    "L'étude du vivant.",
+    "Une partie de la physique.",
+    "L'étude de la science et de sa démarche.",
+    "L'étude du langage ordinaire."
+   ],
+   "correcta": 2,
+   "explicacion": "Corrigé du QCM : l'épistémologie étudie la science et sa méthode (d'où les « obstacles épistémologiques »).",
+   "filosofo": null,
+   "pagina_pdf": 178
+  },
+  {
+   "pregunta": "Qu'étudie la science ?",
+   "opciones": [
+    "Des phénomènes.",
+    "La réalité.",
+    "Le mystérieux.",
+    "Des choses perçues par les sens."
+   ],
+   "correcta": 0,
+   "explicacion": "Le cours précise que la science étudie des phénomènes (ce qui apparaît) dépouillés de toute qualité subjective, et non les choses perçues par nos sensations.",
+   "filosofo": null,
+   "pagina_pdf": 169
+  },
+  {
+   "pregunta": "De quoi distingue-t-on généralement une prévision ?",
+   "opciones": [
+    "D'un rêve.",
+    "D'une nécessité.",
+    "D'une prédiction.",
+    "D'une hypothèse."
+   ],
+   "correcta": 2,
+   "explicacion": "La prévision s'appuie sur des causes objectivement vérifiables ; la prédiction (ex. l'astrologie) interprète des signes et ne peut être reproduite dans une expérience objective.",
+   "filosofo": "bachelard",
+   "pagina_pdf": 170
+  },
+  {
+   "pregunta": "La méthode inductive consiste à partir … :",
+   "opciones": [
+    "de faits.",
+    "d'idées.",
+    "de conclusions.",
+    "de définitions."
+   ],
+   "correcta": 0,
+   "explicacion": "L'induction part d'expériences ou de faits multiples pour tirer une conclusion générale (Vocabulaire du cours).",
+   "filosofo": "locke",
+   "pagina_pdf": 177
+  },
+  {
+   "pregunta": "Pour prouver la validité d'une théorie, le scientifique tente de la … :",
+   "opciones": [
+    "démontrer.",
+    "simplifier.",
+    "réfuter.",
+    "confirmer."
+   ],
+   "correcta": 2,
+   "explicacion": "Selon Popper, une théorie est valide si elle résiste aux tentatives de réfutation : l'épreuve cherche à montrer sa fausseté, non à la confirmer.",
+   "filosofo": "popper",
+   "pagina_pdf": 173
+  },
+  {
+   "pregunta": "En science, de quel type de vérités pouvons-nous parler ?",
+   "opciones": [
+    "De vérités approchées.",
+    "De vérités définitives.",
+    "De vérités relatives.",
+    "De vérités révélées."
+   ],
+   "correcta": 0,
+   "explicacion": "Corrigé : il n'y a pas de vérité absolue en science, mais il y a des vérités provisoires ou approchées (cours 4).",
+   "filosofo": null,
+   "pagina_pdf": 173
+  },
+  {
+   "pregunta": "Qui a évoqué le « principe d'incertitude » ?",
+   "opciones": [
+    "Zénon.",
+    "Kepler.",
+    "Heisenberg.",
+    "Young."
+   ],
+   "correcta": 2,
+   "explicacion": "Heisenberg a théorisé le principe d'incertitude : les conditions de l'expérience modifient la réalité étudiée.",
+   "filosofo": "heisenberg",
+   "pagina_pdf": 175
+  },
+  {
+   "pregunta": "Quelle problématique soulève Platon dans le Cratyle ?",
+   "opciones": [
+    "L'inadéquation entre l'essence des choses et leur dénomination.",
+    "L'incertitude des expérimentations scientifiques.",
+    "Dieu comme seul maître de la nature.",
+    "Le rôle de l'expérience dans la connaissance."
+   ],
+   "correcta": 0,
+   "explicacion": "Platon oppose Cratyle et Hermogène sur la justesse des noms ; le cours invite à se méfier de la manière dont les hommes nomment les choses.",
+   "filosofo": "platon",
+   "pagina_pdf": 171
+  },
+  {
+   "pregunta": "Quelle question est proprement scientifique ?",
+   "opciones": [
+    "Pourquoi ?",
+    "Comment ?",
+    "Quand ?",
+    "Qui ?"
+   ],
+   "correcta": 1,
+   "explicacion": "Le chercheur ne se demande pas « pourquoi ? », qui est une question philosophique ou religieuse : la science explique comment fonctionnent les lois.",
+   "filosofo": null,
+   "pagina_pdf": 173
+  },
+  {
+   "pregunta": "Selon Bachelard, quel est le premier obstacle à surmonter pour fonder la connaissance scientifique ?",
+   "opciones": [
+    "L'expérimentation",
+    "L'opinion",
+    "Les mathématiques",
+    "La technique"
+   ],
+   "correcta": 1,
+   "explicacion": "Bachelard : « On ne peut rien fonder sur l'opinion, il faut d'abord la détruire, elle est le premier obstacle à surmonter ».",
+   "filosofo": "bachelard",
+   "pagina_pdf": 171
+  },
+  {
+   "pregunta": "Quel changement de perspective Kant compare-t-il à celui de Copernic ?",
+   "opciones": [
+    "Le sujet connaissant, par ses structures a priori, rend possible la connaissance des objets.",
+    "Toute connaissance vient uniquement de l'expérience.",
+    "La science doit éliminer les jugements de valeur.",
+    "Les théories scientifiques sont toujours réfutées."
+   ],
+   "correcta": 0,
+   "explicacion": "Le cours compare le changement kantien à celui de Copernic : notre esprit, avec ses structures a priori, rend possible la connaissance des objets.",
+   "filosofo": "kant",
+   "pagina_pdf": 172
+  },
+  {
+   "pregunta": "Que montre l'exemple des cygnes blancs ?",
+   "opciones": [
+    "Que la déduction est infaillible.",
+    "Que l'induction ne peut garantir la véracité de ses conclusions.",
+    "Que l'astrologie est une science.",
+    "Que l'opinion est toujours juste."
+   ],
+   "correcta": 1,
+   "explicacion": "Quel que soit le nombre de cygnes blancs observés, un cygne noir peut invalider la loi : seule la méthode hypothético-déductive donne des conclusions convaincantes.",
+   "filosofo": "locke",
+   "pagina_pdf": 173
+  }
+ ],
+ "preguntas_abiertas": [
+  {
+   "enunciado": "La connaissance scientifique a-t-elle des limites ?",
+   "puntos_clave": [
+    "Définir la limite : interne ou externe à la science, et si elle est réellement un obstacle à son développement",
+    "Les disciplines se renouvellent et se spécialisent : aucune science ne peut prétendre à un savoir global et définitif",
+    "La science dépend de la technique, de ses instruments et des questions de son époque",
+    "La limite protège du scientisme et des pseudosciences ; elle délimite le domaine de la connaissance",
+    "Les expériences ne mesurent pas la correspondance entre vérité et réalité (Heisenberg) ; vérités provisoires (Popper)"
+   ],
+   "filosofos": [
+    "popper",
+    "heisenberg",
+    "merleau-ponty"
+   ],
+   "pagina_pdf": 179
+  },
+  {
+   "enunciado": "Quelle est l'attitude du savant face au monde ? (conclusion d'une explication de texte de Merleau-Ponty, L'Œil et l'esprit)",
+   "puntos_clave": [
+    "Le savant manipule, monte des dispositifs efficaces, invite la nature à répondre : le monde devient disponible",
+    "Il évacue les qualités, qui sont le tissu de notre présence au monde",
+    "L'artiste restitue la densité des apparences et rend le monde habitable",
+    "Intérêt du texte : il met en garde contre l'appauvrissement et le scientisme ; il réhabilite l'art",
+    "Critique : ne pas tomber dans un dogmatisme inversé ; science et technique rendent aussi le monde habitable ; complémentarité des expériences humaines"
+   ],
+   "filosofos": [
+    "merleau-ponty",
+    "koyre"
+   ],
+   "pagina_pdf": 179
+  },
+  {
+   "enunciado": "Comment le scientifique doit-il se libérer des obstacles épistémologiques selon Bachelard ?",
+   "puntos_clave": [
+    "Trois obstacles : anthropomorphisme, empirisme naïf (substantialiste) et obstacle linguistique",
+    "Rupture épistémologique : catharsis, purification intellectuelle et affective",
+    "Détruire l'opinion, premier obstacle : « l'opinion pense mal »",
+    "Absorber la cause dans la loi universelle et distinguer prévision et prédiction",
+    "Platon (Cratyle) et Koyré : se méfier des mots et séparer monde de la vie et monde de la science"
+   ],
+   "filosofos": [
+    "bachelard",
+    "platon",
+    "koyre"
+   ],
+   "pagina_pdf": 170
+  },
+  {
+   "enunciado": "Peut-on dire qu'une théorie scientifique est définitivement vraie ?",
+   "puntos_clave": [
+    "Aucune théorie ne se présente comme définitivement vraie, mais cela ne la rend pas fausse : vérités provisoires ou approchées",
+    "Popper : une théorie est valide si elle résiste aux tentatives de réfutation",
+    "L'induction (Locke) ne garantit pas la véracité : exemple des cygnes",
+    "Newton et la physique quantique : deux théories différentes et légitimes, la première n'a pas été invalidée",
+    "Le réel de la science est construit en laboratoire (Heisenberg)"
+   ],
+   "filosofos": [
+    "popper",
+    "locke",
+    "newton",
+    "heisenberg"
+   ],
+   "pagina_pdf": 173
+  }
+ ],
+ "disertaciones": [
+  {
+   "sujeto": "La connaissance scientifique a-t-elle des limites ?",
+   "tipo_plan": "thématique",
+   "problematica": "Il faut se demander si les limites sont internes ou externes à la science et si elles constituent réellement un obstacle à son développement. Le plan montre que les limitations sont aussi ce qui fait progresser et circonscrit la connaissance.",
+   "plan": [
+    {
+     "parte": "I. Les disciplines scientifiques se renouvellent et évoluent sans cesse",
+     "idea": "La science ne peut plus donner d'explication générale et définitive du monde ; elle se spécialise, mais repousse les limites de l'ignorance grâce à la rigueur de ses méthodes et à une objectivité toujours plus grande.",
+     "autores": [
+      "popper"
+     ],
+     "ejemplo": "Archimède serait surpris par l'astrophysique et Darwin par la biologie moléculaire ; les théories sont des vérités provisoires."
+    },
+    {
+     "parte": "II. Les découvertes dépendent des instruments de mesure et des problématiques de chaque époque",
+     "idea": "La science a l'âge de ses instruments : limite interne et objective, mais aussi occasion de poser de nouveaux problèmes.",
+     "autores": [
+      "heisenberg",
+      "newton"
+     ],
+     "ejemplo": "La biologie moléculaire du XXe siècle a posé de nouvelles questions métaphysiques et morales ; l'accélérateur de particules change ce qu'il observe."
+    },
+    {
+     "parte": "III. Les limites circonscrivent le domaine de la connaissance",
+     "idea": "La limite évite que le savoir scientifique se croie détenteur de toute la vérité au détriment d'autres approches (artistique, philosophique, religieuse) et qu'il dérive en scientisme.",
+     "autores": [
+      "merleau-ponty"
+     ],
+     "ejemplo": "Pseudosciences du XIXe siècle comme la phrénologie ; le texte de Merleau-Ponty sur le savant et l'artiste."
+    }
+   ],
+   "pagina_pdf": 179
+  },
+  {
+   "sujeto": "La science peut-elle rendre compte de la réalité du monde ?",
+   "tipo_plan": "dialectique",
+   "problematica": "La science décrit avec succès des lois de la nature, mais accède-t-elle à la réalité ultime ou seulement à une réalité construite en laboratoire ? Il faut distinguer ce que fait la science (décrire des phénomènes) des croyances métaphysiques des scientifiques.",
+   "plan": [
+    {
+     "parte": "I. La science traduit les lois de la nature",
+     "idea": "La physique classique montre une adéquation entre observation et lois mathématiques, et la raison structure l'expérience.",
+     "autores": [
+      "newton",
+      "kant"
+     ],
+     "ejemplo": "La loi de la gravitation universelle dans les Principia mathematica."
+    },
+    {
+     "parte": "II. Mais le réel de la science semble fabriqué",
+     "idea": "Les expériences quantiques sont contre-intuitives et le dispositif modifie la réalité ; la science décrit des phénomènes et non le « pourquoi ».",
+     "autores": [
+      "heisenberg",
+      "bachelard"
+     ],
+     "ejemplo": "Expérience des deux fentes et principe d'incertitude."
+    },
+    {
+     "parte": "III. Dépasser le dilemme : vérités provisoires et complémentarité",
+     "idea": "Une théorie est valide tant qu'elle résiste à la réfutation ; la connaissance scientifique est relative et il faut reconnaître ce que révèlent d'autres approches.",
+     "autores": [
+      "popper",
+      "merleau-ponty"
+     ],
+     "ejemplo": "La physique classique n'a pas été invalidée par la quantique : deux conceptions légitimes."
+    }
+   ],
+   "pagina_pdf": 173
+  },
+  {
+   "sujeto": "Quelle est l'attitude du savant face au monde ?",
+   "tipo_plan": "progressif",
+   "problematica": "Le savant recherche l'objectivité en se séparant du monde vécu pour manipuler et prévoir ; que gagne-t-on et que perd-on avec cette attitude, et comment s'articule-t-elle avec d'autres rapports au monde ?",
+   "plan": [
+    {
+     "parte": "I. Rompre avec l'opinion et avec le monde de la vie",
+     "idea": "Le scientifique distingue le monde de la vie et celui de la science, élimine le jugement de valeur et se purifie des obstacles épistémologiques.",
+     "autores": [
+      "bachelard",
+      "koyre"
+     ],
+     "ejemplo": "Obstacles : anthropomorphisme, empirisme naïf, métaphores."
+    },
+    {
+     "parte": "II. Une attitude active : interroger et construire les faits",
+     "idea": "La raison prend l'initiative, l'expérience s'interprète, et le fait est produit par la science ; l'épreuve cherche à réfuter la théorie.",
+     "autores": [
+      "kant",
+      "canguilhem",
+      "popper"
+     ],
+     "ejemplo": "Révolution copernicienne de Kant ; le fait scientifique selon Canguilhem."
+    },
+    {
+     "parte": "III. Les limites de cette attitude : le monde habitable",
+     "idea": "Le monde disponible du savant appauvrit la présence au monde ; l'art le rend habitable. Mais science et technique accroissent aussi notre liberté : la complémentarité s'impose.",
+     "autores": [
+      "merleau-ponty"
+     ],
+     "ejemplo": "L'Œil et l'esprit : le savant est « l'essayeur », l'artiste donne de la densité aux apparences."
+    }
+   ],
+   "pagina_pdf": 179
+  }
+ ]
+}

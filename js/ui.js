@@ -16,7 +16,7 @@
 
   /* títulos según el ajuste de idioma */
   const flat = x => String(x || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  const titulo = c => { const m = P().ajustes.idioma; return m === 'es' ? c.titulo_es : m === 'fr' ? c.titulo : c.titulo + (c.titulo_es && flat(c.titulo_es) !== flat(c.titulo) ? ' · ' + c.titulo_es : ''); };
+  const titulo = c => S.lang === 'fr' ? c.titulo : c.titulo + (c.titulo_es && flat(c.titulo_es) !== flat(c.titulo) ? ' · ' + c.titulo_es : '');
   const pg = n => n ? `<span class="pg" title="Página del PDF">p.${n}</span>` : '';
   const estadoChip = m => { const e = S.estado(m); return `<span class="estado ${e}">${e}</span>`; };
 
@@ -32,13 +32,15 @@
 
   /* ============ FICHA ============ */
   let fichaCtx = null;
-  function closeFicha() { $('#ficha').hidden = true; fichaCtx = null; if (global.MapView && MapView.sel) MapView.select(null); }
+  function toggleMax() { const w = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--ficha-w')) || 520, big = innerWidth * 0.8; setFichaW(w > big - 40 ? 520 : big); }
+  function setFichaW(w) { w = Math.max(340, Math.min(innerWidth * 0.92, w)); document.documentElement.style.setProperty('--ficha-w', Math.round(w) + 'px'); try { localStorage.setItem('philo-ficha-w', Math.round(w)); } catch (e) {} }
+  function closeFicha() { $('#ficha').hidden = true; $('#ficha-resizer').hidden = true; fichaCtx = null; if (global.MapView && MapView.sel) MapView.select(null); }
   function openFicha(cap, node) {
-    const f = $('#ficha'); f.hidden = false; f.scrollTop = 0; fichaCtx = { cap, node };
+    const f = $('#ficha'); f.hidden = false; $('#ficha-resizer').hidden = false; f.scrollTop = 0; fichaCtx = { cap, node };
     if (node.kind === 'c') return fichaConcepto(cap, node.data);
     const fil = node.data; S.markVisto(cap.id, fil.id);
     const m = S.mastery(cap.id, fil.id), byId = Object.fromEntries(cap.filosofos.map(x => [x.id, x]));
-    f.innerHTML = `<button class="close" aria-label="Cerrar">✕</button>
+    f.innerHTML = `<button class="close" aria-label="Cerrar">✕</button><button class="max" aria-label="Ampliar / reducir" title="Ampliar / reducir">⤢</button>
       <div class="n" style="font-size:11px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase">${esc(cap.titulo)}</div>
       <h2>${esc(fil.nombre)}</h2>
       <div class="epoca">${esc(fil.epoca)} ${pg(fil.pagina_pdf)} · ${estadoChip(m)}</div>
@@ -49,18 +51,18 @@
       <h4>Citas</h4>${fil.citas && fil.citas.length ? fil.citas.map(c => `<div class="cita"><q lang="${esc(c.idioma || 'fr')}">${esc(c.texto)}</q><small>${esc(c.obra || '')} ${pg(c.pagina_pdf)}</small></div>`).join('') : '<div class="cita"><small>No está en el cours: el libro no da cita textual de este autor.</small></div>'}
       <h4>Debate con</h4><div class="chips">${(fil.debate_con || []).filter(x => byId[x]).map(x => `<button class="chip link" data-go="${x}">${esc(byId[x].nombre)}</button>`).join('') || '<span class="chip">—</span>'}</div>
       <h4>Cómo usarlo en la disertación</h4><div class="uso">${esc(fil.como_usarlo_en_disertacion)}</div>`;
-    $('.close', f).onclick = closeFicha;
+    $('.close', f).onclick = closeFicha; $('.max', f).onclick = toggleMax;
     $('#f-escena').onclick = () => openScene(cap, fil);
     $('#f-quiz').onclick = () => startQuiz({ cap, fil });
     f.querySelectorAll('[data-go]').forEach(b => b.onclick = () => { const n = MapView.nodes.find(x => x.id === b.dataset.go); if (n) { MapView.select(n.id); openFicha(cap, n); } });
   }
   function fichaConcepto(cap, c) {
     const f = $('#ficha'), byId = Object.fromEntries(cap.filosofos.map(x => [x.id, x]));
-    f.innerHTML = `<button class="close" aria-label="Cerrar">✕</button><div class="n" style="font-size:11px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase">Concepto · ${esc(cap.titulo)}</div>
+    f.innerHTML = `<button class="close" aria-label="Cerrar">✕</button><button class="max" aria-label="Ampliar / reducir" title="Ampliar / reducir">⤢</button><div class="n" style="font-size:11px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase">Concepto · ${esc(cap.titulo)}</div>
       <h2 style="font-size:32px">${esc(c.nombre)}</h2><div class="epoca">${pg(c.pagina_pdf)}</div>
       <h4>Definición</h4><div class="tesis">${esc(c.definicion)}</div>
       <h4>Autores asociados</h4><div class="chips">${(c.autores || []).filter(x => byId[x]).map(x => `<button class="chip link" data-go="${x}">${esc(byId[x].nombre)}</button>`).join('') || '<span class="chip">—</span>'}</div>`;
-    $('.close', f).onclick = closeFicha;
+    $('.close', f).onclick = closeFicha; $('.max', f).onclick = toggleMax;
     f.querySelectorAll('[data-go]').forEach(b => b.onclick = () => { const n = MapView.nodes.find(x => x.id === b.dataset.go); if (n) { MapView.select(n.id); openFicha(cap, n); } });
   }
 
@@ -242,20 +244,22 @@
   function openSettings() {
     const a = P().ajustes;
     const c = openModal(`<h2>Ajustes</h2>
-      <div class="field"><label>Idioma de los títulos</label><div class="seg" id="s-idioma">${[['bilingue', 'Bilingüe'], ['es', 'Español'], ['fr', 'Idioma original']].map(([v, n]) => `<button data-v="${v}" class="${a.idioma === v ? 'on' : ''}">${n}</button>`).join('')}</div>
-        <p style="color:var(--muted);font-size:12.5px;margin:8px 0 0">Citas y términos clave siempre se muestran en francés (idioma original del cours); las explicaciones están en español.</p></div>
+      <div class="field"><label>Idioma de la interfaz y del cours</label><div class="seg" id="s-idioma">${[['es', 'Español'], ['fr', 'Français']].map(([v, n]) => `<button data-v="${v}" class="${a.lang === v ? 'on' : ''}" ${v === 'fr' && !S.hasFR ? 'disabled' : ''}>${n}</button>`).join('')}</div>
+        <p style="color:var(--muted);font-size:12.5px;margin:8px 0 0">${L('Las citas y los términos clave siempre van en francés (idioma original del cours). Con «Español» las explicaciones están en español; con «Français», todo el contenido está en francés.', 'Les citations et les termes clés restent en français (langue d’origine du cours). En «Français», tout le contenu est en français.')}</p></div>
       <div class="field"><label>Estilo de escena por defecto</label><div class="seg" id="s-estilo">${STYLE_NAMES.map(([v, n]) => `<button data-v="${v}" class="${a.estilo === v ? 'on' : ''}" ${SceneSkins[v] ? '' : 'disabled style="opacity:.4"'}>${n}</button>`).join('')}</div></div>
       <div class="field"><label>Movimiento y sonido</label>
         <label class="chk"><input type="checkbox" id="s-red" ${a.reducirMov ? 'checked' : ''}><span>Reducir animaciones (menos calor, respeta <code>prefers-reduced-motion</code>)</span></label>
-        <label class="chk"><input type="checkbox" id="s-son" ${a.sonido ? 'checked' : ''}><span>Sonidos suaves (aciertos / fallos)</span></label></div>
+        <label class="chk"><input type="checkbox" id="s-son" ${a.sonido ? 'checked' : ''}><span>Sonidos suaves (aciertos / fallos)</span></label>
+        <label class="chk"><input type="checkbox" id="s-cro" ${a.cronometro !== false ? 'checked' : ''}><span>Cronómetro en los dilemas (estilo Detroit)</span></label></div>
       <div class="field"><label>Datos</label><p style="color:var(--muted);font-size:13px;line-height:1.5;margin:0 0 10px">Todo el contenido ya está generado a partir de tu PDF: <b>no se usa ninguna API ni key</b>. Tu progreso se guarda en <code>data/progreso.json</code>${S.useServer ? '' : ' (ahora: en el navegador, porque abriste el archivo sin servidor)'}.</p>
         <button class="btn sm" id="s-reset">Borrar mi progreso</button></div>`, true);
     const seg = (id, key) => $(id, c).onclick = e => { const b = e.target.closest('[data-v]'); if (!b || b.disabled) return; S.setAjuste(key, b.dataset.v); $(id, c).querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b)); global.App && App.rerender(); };
-    seg('#s-idioma', 'idioma'); seg('#s-estilo', 'estilo');
+    $('#s-idioma', c).onclick = e => { const b = e.target.closest('[data-v]'); if (b && !b.disabled) { closeModal(); global.App.setLang(b.dataset.v); } }; seg('#s-estilo', 'estilo');
     $('#s-red', c).onchange = e => { S.setAjuste('reducirMov', e.target.checked); document.body.classList.toggle('reduce', e.target.checked); };
     $('#s-son', c).onchange = e => S.setAjuste('sonido', e.target.checked);
+    $('#s-cro', c).onchange = e => S.setAjuste('cronometro', e.target.checked);
     $('#s-reset', c).onclick = () => { if (confirm('¿Borrar todo tu progreso y XP?')) { S.reset(); closeModal(); global.App && App.rerender(); toast('Progreso borrado'); } };
   }
 
-  global.UI = { openFicha, closeFicha, openScene, startQuiz, startOpen, renderTracker, renderDisert, renderReperes, openSettings, closeModal, titulo };
+  global.UI = { openModal, setFichaW, openFicha, closeFicha, openScene, startQuiz, startOpen, renderTracker, renderDisert, renderReperes, openSettings, closeModal, titulo };
 })(window);

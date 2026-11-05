@@ -43,7 +43,7 @@
       const add = (de, a, tipo, nota, w) => { if (!ids.has(de) || !ids.has(a) || de === a) return; const k = [de, a].sort().join('|') + tipo; if (seen.has(k)) return; seen.add(k); edges.push({ de, a, tipo, nota, w }); };
       cap.relaciones.forEach(r => add(r.de, r.a, r.tipo, r.nota, 1.4));
       const strong = new Set(edges.map(e => [e.de, e.a].sort().join('|')));
-      cap.filosofos.forEach(f => (f.debate_con || []).forEach(o => { if (!strong.has([f.id, o].sort().join('|'))) add(f.id, o, 'debate', 'debate con', 0.5); }));
+      cap.filosofos.forEach(f => (f.debate_con || []).forEach(o => { if (!strong.has([f.id, o].sort().join('|'))) add(f.id, o, 'debate', L('debate con', 'débat avec'), 0.5); }));
       cap.conceptos.forEach(c => (c.autores || []).forEach(a => add(c.id, a, 'autor', '', 0.7)));
       this.nodes = nodes; this.edges = edges; layout(nodes, edges, W, H);
       const pos = Object.fromEntries(nodes.map(n => [n.id, n]));

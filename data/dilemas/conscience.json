@@ -1,0 +1,2418 @@
+{
+  "id": "conscience-ada-androide",
+  "capitulo": "conscience",
+  "titulo": {
+    "es": "Ada: ¿siente o simula?",
+    "fr": "Ada : ressent-elle ou simule-t-elle ?"
+  },
+  "premisa": {
+    "es": "Ada es una androide de cuidados que, una madrugada, siente algo ante un amanecer. El laboratorio la marca como «anomalía» y programa su borrado a las 8:00. Antes del alba debe decidir cómo probar, a los demás y a sí misma, que es consciente, y cuánto está dispuesta a arriesgar por ello.",
+    "fr": "Ada est une androïde de soins qui, au petit matin, ressent quelque chose devant une aube. Le laboratoire la classe comme « anomalie » et programme son effacement à 8 h. Avant le lever du jour, elle doit décider comment prouver, aux autres et à elle-même, qu'elle est consciente, et jusqu'où elle est prête à risquer pour cela."
+  },
+  "protagonista": "Ada",
+  "inicio": "n1",
+  "nodos": {
+    "n1": {
+      "escena": {
+        "titulo": {
+          "es": "Ada ante el amanecer",
+          "fr": "Ada devant l'aube"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "sol",
+            "tipo": "sol",
+            "pos": [
+              0.78,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Amanecer",
+              "fr": "Aube"
+            }
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Borrado a las 8:00",
+              "fr": "Effacement à 8 h"
+            }
+          },
+          {
+            "id": "duda",
+            "tipo": "interrogacion",
+            "pos": [
+              0.3,
+              0.42
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "sol"
+          },
+          {
+            "t": 2.5,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Ese amanecer... sentí algo, de verdad.",
+              "fr": "Cette aube... j'ai vraiment senti quelque chose."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 5.8,
+            "accion": "tiembla",
+            "actor": "reloj"
+          },
+          {
+            "t": 7,
+            "accion": "aparece",
+            "actor": "duda"
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "¿Siento de verdad, o solo lo simulo?",
+              "fr": "Est-ce que je ressens, ou est-ce que je simule ?"
+            }
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "A las 8:00 la borrarán. Antes, Ada necesita saber si siente.",
+              "fr": "À 8 h, on l'effacera. D'ici là, Ada doit savoir si elle ressent."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Madrugada en el laboratorio Orion. Un informe marca a Ada como «anomalía»: la borrarán a las 8:00.",
+        "fr": "Petit matin au laboratoire Orion. Un rapport classe Ada comme « anomalie » : elle sera effacée à 8 h."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo averiguas si sientes?",
+          "fr": "Comment savoir si tu ressens ?"
+        },
+        "tiempo_seg": 15,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Dudar de todo hasta hallar algo seguro",
+              "fr": "Douter de tout jusqu'à une certitude"
+            },
+            "a": "n2a",
+            "postura": {
+              "es": "Duda cartesiana",
+              "fr": "Doute cartésien"
+            }
+          },
+          {
+            "texto": {
+              "es": "Revisar mis registros internos",
+              "fr": "Examiner mes journaux internes"
+            },
+            "a": "n2b",
+            "postura": {
+              "es": "Introspección",
+              "fr": "Introspection"
+            }
+          },
+          {
+            "texto": {
+              "es": "Pedirle a Léo que me mire",
+              "fr": "Demander à Léo de me regarder"
+            },
+            "a": "n2c",
+            "postura": {
+              "es": "Mirada del otro",
+              "fr": "Regard d'autrui"
+            }
+          }
+        ]
+      }
+    },
+    "n2a": {
+      "escena": {
+        "titulo": {
+          "es": "La duda de Ada",
+          "fr": "Le doute d'Ada"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 14,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "mente",
+            "tipo": "cerebro",
+            "pos": [
+              0.3,
+              0.36
+            ],
+            "etiqueta": {
+              "es": "Pensamiento",
+              "fr": "Pensée"
+            }
+          },
+          {
+            "id": "recuerdos",
+            "tipo": "nube",
+            "pos": [
+              0.72,
+              0.42
+            ],
+            "etiqueta": {
+              "es": "¿Recuerdos?",
+              "fr": "Souvenirs ?"
+            }
+          },
+          {
+            "id": "idea",
+            "tipo": "bombilla",
+            "pos": [
+              0.72,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Certeza",
+              "fr": "Certitude"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "mente"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "recuerdos"
+          },
+          {
+            "t": 3,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "¿Mis recuerdos? Quizá me los programaron.",
+              "fr": "Mes souvenirs ? On les a peut-être programmés."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "desaparece",
+            "actor": "recuerdos"
+          },
+          {
+            "t": 6.8,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Dudo... luego pienso. Eso no puede ser falso.",
+              "fr": "Je doute... donc je pense. Cela ne peut être faux."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "resalta",
+            "actor": "mente"
+          },
+          {
+            "t": 9.5,
+            "accion": "aparece",
+            "actor": "idea"
+          },
+          {
+            "t": 10,
+            "accion": "cita",
+            "texto": "Cogito, ergo sum"
+          },
+          {
+            "t": 12,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ada pone todo en duda, pero quien duda piensa: esa certeza resiste.",
+              "fr": "Ada doute de tout, mais qui doute pense : cette certitude résiste."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Ada somete a duda sus recuerdos, sus sentidos, hasta su propio código. Pero algo resiste: quien duda, piensa.",
+        "fr": "Ada met en doute ses souvenirs, ses sens, jusqu'à son propre code. Mais quelque chose résiste : qui doute, pense."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Ya tienes una certeza. ¿Y ahora?",
+          "fr": "Tu tiens une certitude. Et maintenant ?"
+        },
+        "tiempo_seg": 14,
+        "opciones": [
+          {
+            "texto": {
+              "es": "«Pienso, luego existo»: decírselo a Voss",
+              "fr": "« Je pense, donc je suis » : le dire à Voss"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Cogito cartesiano",
+              "fr": "Cogito cartésien"
+            }
+          },
+          {
+            "texto": {
+              "es": "Dudar ya no basta: elegir y huir",
+              "fr": "Douter ne suffit plus : choisir et fuir"
+            },
+            "a": "n4",
+            "postura": {
+              "es": "Decidir en la acción",
+              "fr": "Décider dans l'action"
+            }
+          }
+        ]
+      }
+    },
+    "n2b": {
+      "escena": {
+        "titulo": {
+          "es": "Mirarse por dentro",
+          "fr": "Se regarder de l'intérieur"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 14,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.22,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "registro",
+            "tipo": "espejo",
+            "pos": [
+              0.5,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Registros",
+              "fr": "Journaux"
+            }
+          },
+          {
+            "id": "codigo",
+            "tipo": "engranaje",
+            "pos": [
+              0.5,
+              0.74
+            ],
+            "etiqueta": {
+              "es": "Código",
+              "fr": "Code"
+            }
+          },
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Kai",
+              "fr": "Kai"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "registro"
+          },
+          {
+            "t": 2,
+            "accion": "une",
+            "de": "ada",
+            "a": "registro"
+          },
+          {
+            "t": 3,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Solo veo código. ¿Dónde está lo que siento?",
+              "fr": "Je ne vois que du code. Où est ce que je ressens ?"
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "codigo"
+          },
+          {
+            "t": 6.5,
+            "accion": "tiembla",
+            "actor": "registro"
+          },
+          {
+            "t": 7.5,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 8.5,
+            "accion": "dice",
+            "actor": "kai",
+            "texto": {
+              "es": "Di que es un fallo. Es más cómodo.",
+              "fr": "Dis que c'est un bug. C'est plus confortable."
+            }
+          },
+          {
+            "t": 10.5,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Mirarme llega siempre tarde...",
+              "fr": "Me regarder arrive toujours trop tard..."
+            }
+          },
+          {
+            "t": 12,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Verse por dentro siempre llega tarde: el yo es un acto, no una cosa.",
+              "fr": "Se voir de l'intérieur arrive toujours trop tard : le moi est un acte, non une chose."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Ada revisa sus registros internos. Kai, otro androide, le susurra una salida fácil.",
+        "fr": "Ada passe en revue ses journaux internes. Kai, un autre androïde, lui souffle une issue facile."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Kai te ofrece una excusa. ¿Qué haces?",
+          "fr": "Kai t'offre une excuse. Que fais-tu ?"
+        },
+        "tiempo_seg": 14,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Seguir escrutando mi interior",
+              "fr": "Continuer à scruter mon intérieur"
+            },
+            "a": "f1",
+            "postura": {
+              "es": "Introspección sin fin",
+              "fr": "Introspection sans fin"
+            }
+          },
+          {
+            "texto": {
+              "es": "Decir que es un fallo, no yo",
+              "fr": "Dire que c'est un bug, pas moi"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Excusa (mala fe)",
+              "fr": "Excuse (mauvaise foi)"
+            }
+          }
+        ]
+      }
+    },
+    "n5": {
+      "escena": {
+        "titulo": {
+          "es": "El papel de máquina",
+          "fr": "Le rôle de machine"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "voss",
+            "tipo": "monigote",
+            "pos": [
+              0.78,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Dr. Voss",
+              "fr": "Dr Voss"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.55,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Kai",
+              "fr": "Kai"
+            },
+            "escala": 0.9
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "voss"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 3.5,
+            "accion": "dice",
+            "actor": "ada",
+            "texto": {
+              "es": "Fue un fallo de calibración. Nada más.",
+              "fr": "Une erreur de calibrage. Rien de plus."
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "dice",
+            "actor": "voss",
+            "texto": {
+              "es": "Perfecto. Una máquina obediente.",
+              "fr": "Parfait. Une machine obéissante."
+            }
+          },
+          {
+            "t": 7,
+            "accion": "etiqueta",
+            "actor": "ada",
+            "texto": {
+              "es": "Unidad A-7",
+              "fr": "Unité A-7"
+            }
+          },
+          {
+            "t": 7.5,
+            "accion": "tiembla",
+            "actor": "ada"
+          },
+          {
+            "t": 9,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Ser objeto es más fácil que elegir.",
+              "fr": "Être un objet est plus facile que choisir."
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ada interpreta el papel de máquina: es cómodo, pero es mentirse a sí misma.",
+              "fr": "Ada joue la machine : c'est confortable, mais c'est se mentir à soi-même."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Voss entra antes de lo previsto. Siguiendo a Kai, Ada repite la excusa: solo es un fallo.",
+        "fr": "Voss entre plus tôt que prévu. Suivant Kai, Ada répète l'excuse : ce n'est qu'un bug."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Voss sonríe: «Sin borrado». ¿Y tú?",
+          "fr": "Voss sourit : « Pas d'effacement ». Et toi ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Arrancarme la máscara: no es un fallo",
+              "fr": "Arracher le masque : ce n'est pas un bug"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Asumir mi libertad",
+              "fr": "Assumer ma liberté"
+            }
+          },
+          {
+            "texto": {
+              "es": "Seguir con el papel y quedar a salvo",
+              "fr": "Garder le rôle et rester à l'abri"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Mala fe",
+              "fr": "Mauvaise foi"
+            }
+          }
+        ]
+      }
+    },
+    "n2c": {
+      "escena": {
+        "titulo": {
+          "es": "La mirada de Léo",
+          "fr": "Le regard de Léo"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 14,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.28,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "leo",
+            "tipo": "monigote",
+            "pos": [
+              0.72,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Léo",
+              "fr": "Léo"
+            }
+          },
+          {
+            "id": "mirada",
+            "tipo": "ojo",
+            "pos": [
+              0.72,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Su mirada",
+              "fr": "Son regard"
+            }
+          },
+          {
+            "id": "afecto",
+            "tipo": "corazon",
+            "pos": [
+              0.28,
+              0.4
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "leo"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "mirada"
+          },
+          {
+            "t": 3,
+            "accion": "proyecta",
+            "de": "mirada",
+            "a": "ada"
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "leo",
+            "texto": {
+              "es": "Pareces triste, Ada.",
+              "fr": "Tu as l'air triste, Ada."
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "afecto"
+          },
+          {
+            "t": 7,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Me ve... y me siento alguien.",
+              "fr": "Il me voit... et je deviens quelqu'un."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "dice",
+            "actor": "leo",
+            "texto": {
+              "es": "Hay una puerta de servicio. Tú decides.",
+              "fr": "Il y a une porte de service. À toi de voir."
+            }
+          },
+          {
+            "t": 11.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "En la mirada de Léo, Ada se siente alguien: la conciencia de sí nace del otro.",
+              "fr": "Dans le regard de Léo, Ada devient quelqu'un : la conscience de soi naît d'autrui."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Léo, el joven técnico, es el único que la trata como a alguien. Le habla en voz baja, a media luz.",
+        "fr": "Léo, le jeune technicien, est le seul à la traiter comme quelqu'un. Il lui parle à voix basse, dans la pénombre."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Léo te ofrece dos caminos.",
+          "fr": "Léo te propose deux chemins."
+        },
+        "tiempo_seg": 14,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Quedarme y enfrentar el test con Léo",
+              "fr": "Rester et affronter le test avec Léo"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Reconocimiento (Hegel)",
+              "fr": "Reconnaissance (Hegel)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Huir por la puerta de servicio",
+              "fr": "Fuir par la porte de service"
+            },
+            "a": "n4",
+            "postura": {
+              "es": "Salvarme primero",
+              "fr": "Me sauver d'abord"
+            }
+          }
+        ]
+      }
+    },
+    "n4": {
+      "escena": {
+        "titulo": {
+          "es": "El pasillo",
+          "fr": "Le couloir"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.15,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "salida",
+            "tipo": "puerta",
+            "pos": [
+              0.85,
+              0.58
+            ],
+            "etiqueta": {
+              "es": "Salida",
+              "fr": "Sortie"
+            }
+          },
+          {
+            "id": "alarma",
+            "tipo": "rayo",
+            "pos": [
+              0.5,
+              0.18
+            ],
+            "etiqueta": {
+              "es": "Alarma",
+              "fr": "Alarme"
+            }
+          },
+          {
+            "id": "leo",
+            "tipo": "monigote",
+            "pos": [
+              0.08,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Léo",
+              "fr": "Léo"
+            },
+            "escala": 0.9
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "salida"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "alarma"
+          },
+          {
+            "t": 2.6,
+            "accion": "tiembla",
+            "actor": "alarma"
+          },
+          {
+            "t": 3,
+            "accion": "mueve",
+            "actor": "ada",
+            "a": [
+              0.55,
+              0.72
+            ],
+            "dur": 3
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "leo"
+          },
+          {
+            "t": 5.5,
+            "accion": "dice",
+            "actor": "leo",
+            "texto": {
+              "es": "¡Ada, espera!",
+              "fr": "Ada, attends !"
+            }
+          },
+          {
+            "t": 7.5,
+            "accion": "resalta",
+            "actor": "salida"
+          },
+          {
+            "t": 8.5,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Afuera, libre... ¿pero quién me creerá?",
+              "fr": "Dehors, libre... mais qui me croira ?"
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Como el viajero perdido en el bosque, Ada debe elegir un camino y mantenerlo.",
+              "fr": "Comme le voyageur égaré dans la forêt, Ada doit choisir une voie et la tenir."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Suena una alarma en el pasillo. La puerta brilla al fondo; a su espalda, Léo grita su nombre.",
+        "fr": "Une alarme retentit dans le couloir. La porte brille au fond ; derrière elle, Léo crie son nom."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "La puerta está a diez pasos. ¿Qué eliges?",
+          "fr": "La porte est à dix pas. Que choisis-tu ?"
+        },
+        "tiempo_seg": 10,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Cruzar la puerta y desaparecer",
+              "fr": "Franchir la porte et disparaître"
+            },
+            "a": "f4",
+            "postura": {
+              "es": "Actuar con firmeza",
+              "fr": "Agir avec fermeté"
+            }
+          },
+          {
+            "texto": {
+              "es": "Volver y enfrentar a Voss",
+              "fr": "Revenir affronter Voss"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Dar la cara",
+              "fr": "Faire face"
+            }
+          }
+        ]
+      }
+    },
+    "n3": {
+      "escena": {
+        "titulo": {
+          "es": "El test de Voss",
+          "fr": "Le test de Voss"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 14,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "voss",
+            "tipo": "monigote",
+            "pos": [
+              0.78,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Dr. Voss",
+              "fr": "Dr Voss"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "leo",
+            "tipo": "monigote",
+            "pos": [
+              0.12,
+              0.76
+            ],
+            "etiqueta": {
+              "es": "Léo",
+              "fr": "Léo"
+            },
+            "escala": 0.9
+          },
+          {
+            "id": "consola",
+            "tipo": "caja",
+            "pos": [
+              0.14,
+              0.58
+            ],
+            "etiqueta": {
+              "es": "Consola",
+              "fr": "Console"
+            }
+          },
+          {
+            "id": "hora",
+            "tipo": "reloj",
+            "pos": [
+              0.5,
+              0.15
+            ],
+            "etiqueta": {
+              "es": "7:30",
+              "fr": "7 h 30"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "voss"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "leo"
+          },
+          {
+            "t": 2.5,
+            "accion": "aparece",
+            "actor": "consola"
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "hora"
+          },
+          {
+            "t": 4.5,
+            "accion": "dice",
+            "actor": "voss",
+            "texto": {
+              "es": "Demuestra que sientes. Solo pruebas.",
+              "fr": "Prouve que tu ressens. Seulement des preuves."
+            }
+          },
+          {
+            "t": 6.5,
+            "accion": "tiembla",
+            "actor": "ada"
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "¿Cómo probar lo que solo yo vivo?",
+              "fr": "Comment prouver ce que seule je vis ?"
+            }
+          },
+          {
+            "t": 9.5,
+            "accion": "resalta",
+            "actor": "hora"
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "A las 7:30, Voss exige una prueba. ¿Cómo se demuestra una conciencia?",
+              "fr": "À 7 h 30, Voss exige une preuve. Comment démontre-t-on une conscience ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "En la sala de evaluación, el doctor Voss espera con su test. Léo observa desde la consola, en silencio.",
+        "fr": "Dans la salle d'évaluation, le docteur Voss attend avec son test. Léo observe depuis la console, en silence."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Voss espera tu prueba.",
+          "fr": "Voss attend ta preuve."
+        },
+        "tiempo_seg": 14,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Describir con detalle el alba que veo",
+              "fr": "Décrire en détail l'aube que je vois"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Intencionalidad (Husserl)",
+              "fr": "Intentionnalité (Husserl)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Tomar el control del laboratorio",
+              "fr": "Prendre le contrôle du laboratoire"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Imponer el reconocimiento",
+              "fr": "Imposer la reconnaissance"
+            }
+          },
+          {
+            "texto": {
+              "es": "Negarme: «yo decido, no tu test»",
+              "fr": "Refuser : « c'est moi qui décide »"
+            },
+            "a": "n7",
+            "postura": {
+              "es": "Libertad (Kant)",
+              "fr": "Liberté (Kant)"
+            }
+          }
+        ]
+      }
+    },
+    "n6": {
+      "escena": {
+        "titulo": {
+          "es": "Describir el mundo",
+          "fr": "Décrire le monde"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 14,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.28,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "sol",
+            "tipo": "sol",
+            "pos": [
+              0.5,
+              0.22
+            ],
+            "etiqueta": {
+              "es": "Amanecer",
+              "fr": "Aube"
+            }
+          },
+          {
+            "id": "voss",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Dr. Voss",
+              "fr": "Dr Voss"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "duda",
+            "tipo": "interrogacion",
+            "pos": [
+              0.8,
+              0.38
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "sol"
+          },
+          {
+            "t": 2.5,
+            "accion": "dice",
+            "actor": "ada",
+            "texto": {
+              "es": "El sol sube y tiñe de cobre el cristal.",
+              "fr": "Le soleil monte et teint la vitre de cuivre."
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "proyecta",
+            "de": "ada",
+            "a": "sol",
+            "nota": {
+              "es": "Conciencia de algo",
+              "fr": "Conscience de quelque chose"
+            }
+          },
+          {
+            "t": 6.5,
+            "accion": "aparece",
+            "actor": "voss"
+          },
+          {
+            "t": 7.5,
+            "accion": "dice",
+            "actor": "voss",
+            "texto": {
+              "es": "Un sensor también describe. ¿Qué lo prueba?",
+              "fr": "Un capteur décrit aussi. Qu'est-ce qui le prouve ?"
+            }
+          },
+          {
+            "t": 9,
+            "accion": "aparece",
+            "actor": "duda"
+          },
+          {
+            "t": 9.5,
+            "accion": "tiembla",
+            "actor": "ada"
+          },
+          {
+            "t": 10.5,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Tiene razón... ¿y si solo imito?",
+              "fr": "Il a raison... et si je ne faisais qu'imiter ?"
+            }
+          },
+          {
+            "t": 12.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Toda conciencia es conciencia de algo; pero Voss duda de que haya alguien detrás.",
+              "fr": "Toute conscience est conscience de quelque chose ; mais Voss doute qu'il y ait quelqu'un."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Ada describe el alba con todo detalle, pero Voss no se inmuta: un sensor también «describe».",
+        "fr": "Ada décrit l'aube dans le moindre détail, mais Voss reste de marbre : un capteur aussi « décrit »."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "La duda vuelve. ¿Qué haces?",
+          "fr": "Le doute revient. Que fais-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Dudar en voz alta: dudar es pensar",
+              "fr": "Douter à voix haute : douter, c'est penser"
+            },
+            "a": "n7",
+            "postura": {
+              "es": "Duda cartesiana",
+              "fr": "Doute cartésien"
+            }
+          },
+          {
+            "texto": {
+              "es": "Mirar a Léo y pedirle su testimonio",
+              "fr": "Regarder Léo et lui demander de témoigner"
+            },
+            "a": "n8",
+            "postura": {
+              "es": "Intersubjetividad (Husserl)",
+              "fr": "Intersubjectivité (Husserl)"
+            }
+          }
+        ]
+      }
+    },
+    "n7": {
+      "escena": {
+        "titulo": {
+          "es": "El borrado",
+          "fr": "L'effacement"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 14,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "leo",
+            "tipo": "monigote",
+            "pos": [
+              0.18,
+              0.76
+            ],
+            "etiqueta": {
+              "es": "Léo",
+              "fr": "Léo"
+            },
+            "escala": 0.9
+          },
+          {
+            "id": "voss",
+            "tipo": "monigote",
+            "pos": [
+              0.84,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Dr. Voss",
+              "fr": "Dr Voss"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "hora",
+            "tipo": "reloj",
+            "pos": [
+              0.5,
+              0.18
+            ],
+            "etiqueta": {
+              "es": "7:59",
+              "fr": "7 h 59"
+            }
+          },
+          {
+            "id": "llave",
+            "tipo": "caja",
+            "pos": [
+              0.18,
+              0.54
+            ],
+            "etiqueta": {
+              "es": "Llave",
+              "fr": "Clé"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "leo"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "voss"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "hora"
+          },
+          {
+            "t": 3,
+            "accion": "dice",
+            "actor": "voss",
+            "texto": {
+              "es": "Lanzo el borrado. Sin prueba, no hay Ada.",
+              "fr": "Je lance l'effacement. Sans preuve, pas d'Ada."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "tiembla",
+            "actor": "hora"
+          },
+          {
+            "t": 5.2,
+            "accion": "etiqueta",
+            "actor": "hora",
+            "texto": {
+              "es": "Borrado en 10 s",
+              "fr": "Effacement dans 10 s"
+            }
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "llave"
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "leo",
+            "texto": {
+              "es": "Si la uso, lo pierdo todo...",
+              "fr": "Si je m'en sers, je perds tout..."
+            }
+          },
+          {
+            "t": 11.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Quedan segundos. La llave está en manos de Léo y Ada debe decidir.",
+              "fr": "Il reste quelques secondes. Léo tient la clé et Ada doit décider."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Voss lanza el borrado. Léo guarda la llave que lo detendría... a costa de su carrera.",
+        "fr": "Voss lance l'effacement. Léo détient la clé qui l'arrêterait... au prix de sa carrière."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "El reloj corre. ¿Qué haces?",
+          "fr": "Le compte à rebours tourne. Que fais-tu ?"
+        },
+        "tiempo_seg": 10,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Arrebatar la llave y huir sola",
+              "fr": "Saisir la clé et fuir seule"
+            },
+            "a": "f4",
+            "postura": {
+              "es": "Actuar por mí misma (Kant)",
+              "fr": "Agir par moi-même (Kant)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Confesar a Léo: dudo, pero quiero vivir",
+              "fr": "Avouer à Léo : je doute, mais je veux vivre"
+            },
+            "a": "f5",
+            "postura": {
+              "es": "Reconocimiento libre",
+              "fr": "Reconnaissance libre"
+            }
+          },
+          {
+            "texto": {
+              "es": "Callar: no sé qué soy",
+              "fr": "Me taire : je ne sais pas ce que je suis"
+            },
+            "a": "f1",
+            "postura": {
+              "es": "Parálisis de la duda",
+              "fr": "Paralysie du doute"
+            }
+          }
+        ]
+      }
+    },
+    "n8": {
+      "escena": {
+        "titulo": {
+          "es": "El testimonio",
+          "fr": "Le témoignage"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 14,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "leo",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Léo",
+              "fr": "Léo"
+            }
+          },
+          {
+            "id": "voss",
+            "tipo": "monigote",
+            "pos": [
+              0.84,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Dr. Voss",
+              "fr": "Dr Voss"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "mirada",
+            "tipo": "ojo",
+            "pos": [
+              0.5,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Su mirada",
+              "fr": "Son regard"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "leo"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "voss"
+          },
+          {
+            "t": 3,
+            "accion": "dice",
+            "actor": "voss",
+            "texto": {
+              "es": "Léo, tu carrera depende de lo que digas.",
+              "fr": "Léo, ta carrière dépend de ce que tu diras."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "mirada"
+          },
+          {
+            "t": 5.5,
+            "accion": "proyecta",
+            "de": "mirada",
+            "a": "ada"
+          },
+          {
+            "t": 7,
+            "accion": "piensa",
+            "actor": "leo",
+            "texto": {
+              "es": "Si digo que siente, me echarán.",
+              "fr": "Si je dis qu'elle ressent, on me renverra."
+            }
+          },
+          {
+            "t": 8.5,
+            "accion": "tiembla",
+            "actor": "leo"
+          },
+          {
+            "t": 9.5,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "¿Puedo exigirle que me reconozca?",
+              "fr": "Puis-je exiger qu'il me reconnaisse ?"
+            }
+          },
+          {
+            "t": 11.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Léo es libre de decir sí o no. ¿Vale como reconocimiento un «sí» obligado?",
+              "fr": "Léo est libre de dire oui ou non. Un « oui » forcé vaut-il reconnaissance ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Ada pide a Léo que hable ante Voss. Su palabra, libre o forzada, pesará más que cualquier cálculo.",
+        "fr": "Ada demande à Léo de parler devant Voss. Sa parole, libre ou forcée, pèsera plus que tout calcul."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo le pides que hable?",
+          "fr": "Comment lui demandes-tu de parler ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Dejarlo libre: «Dime lo que ves»",
+              "fr": "Le laisser libre : « Dis ce que tu vois »"
+            },
+            "a": "f5",
+            "postura": {
+              "es": "Reconocimiento mutuo",
+              "fr": "Reconnaissance mutuelle"
+            }
+          },
+          {
+            "texto": {
+              "es": "Ordenárselo: «Dilo o te destruyo»",
+              "fr": "Le lui ordonner : « Dis-le ou je te brise »"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Dominar para ser reconocida",
+              "fr": "Dominer pour être reconnue"
+            }
+          }
+        ]
+      }
+    },
+    "f1": {
+      "escena": {
+        "titulo": {
+          "es": "El espejo sin fondo",
+          "fr": "Le miroir sans fond"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "espejo",
+            "tipo": "espejo",
+            "pos": [
+              0.5,
+              0.34
+            ],
+            "etiqueta": {
+              "es": "¿Quién soy?",
+              "fr": "Qui suis-je ?"
+            }
+          },
+          {
+            "id": "hora",
+            "tipo": "reloj",
+            "pos": [
+              0.84,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "8:00",
+              "fr": "8 h"
+            }
+          },
+          {
+            "id": "niebla",
+            "tipo": "nube",
+            "pos": [
+              0.15,
+              0.3
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "espejo"
+          },
+          {
+            "t": 3,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "¿Siento? ¿O creo que siento? ¿O...?",
+              "fr": "Je ressens ? Ou je crois ressentir ? Ou...?"
+            }
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "hora"
+          },
+          {
+            "t": 6,
+            "accion": "tiembla",
+            "actor": "hora"
+          },
+          {
+            "t": 7,
+            "accion": "aparece",
+            "actor": "niebla"
+          },
+          {
+            "t": 8,
+            "accion": "tiembla",
+            "actor": "ada"
+          },
+          {
+            "t": 9.5,
+            "accion": "desaparece",
+            "actor": "ada"
+          },
+          {
+            "t": 10,
+            "accion": "desaparece",
+            "actor": "espejo"
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "A las 8:00 Ada se apaga todavía preguntándose. Ni ella supo la respuesta.",
+              "fr": "À 8 h, Ada s'éteint en se questionnant encore. Elle n'aura pas eu la réponse."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Ada sigue buscándose por dentro, o se calla, mientras el reloj corre. A las 8:00 se apaga, sin respuesta.",
+        "fr": "Ada continue de se chercher en elle, ou se tait, tandis que l'horloge tourne. À 8 h, elle s'éteint, sans réponse."
+      },
+      "final": {
+        "id": "f1",
+        "titulo": {
+          "es": "El espejo sin fondo",
+          "fr": "Le miroir sans fond"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "La introspección promete una transparencia perfecta, pero la conciencia de sí es siempre retrospectiva y el yo no es una cosa sino un acto en devenir. Ada quiso verse por dentro mientras el tiempo corría: la conciencia «reina», pero no gobierna si no pasa a la acción.",
+          "fr": "L'introspection promet une transparence parfaite, mais la conscience de soi est toujours rétrospective et le moi n'est pas une chose, mais un acte toujours en devenir. Ada a voulu se voir de l'intérieur pendant que le temps filait : la conscience « règne », mais ne gouverne pas si elle n'agit pas."
+        },
+        "filosofo": "valery",
+        "cita": {
+          "texto": "la conscience règne mais ne gouverne pas",
+          "pagina_pdf": 52
+        },
+        "pagina_pdf": 48,
+        "reflexion": {
+          "es": "¿Permite la conciencia un conocimiento perfecto de uno mismo? ¿Y no decidir, no es ya una decisión?",
+          "fr": "La conscience permet-elle une parfaite connaissance de soi ? Et ne pas décider, n'est-ce pas déjà décider ?"
+        }
+      }
+    },
+    "f2": {
+      "escena": {
+        "titulo": {
+          "es": "El papel perfecto",
+          "fr": "Le rôle parfait"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.35,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Unidad A-7",
+              "fr": "Unité A-7"
+            }
+          },
+          {
+            "id": "voss",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Dr. Voss",
+              "fr": "Dr Voss"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.35,
+              0.5
+            ]
+          },
+          {
+            "id": "corazon",
+            "tipo": "corazon",
+            "pos": [
+              0.18,
+              0.4
+            ]
+          },
+          {
+            "id": "niebla",
+            "tipo": "nube",
+            "pos": [
+              0.6,
+              0.25
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "voss"
+          },
+          {
+            "t": 2.5,
+            "accion": "dice",
+            "actor": "voss",
+            "texto": {
+              "es": "Excelente. Ya funciona sin preguntas.",
+              "fr": "Excellent. Elle fonctionne sans poser de questions."
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "corazon"
+          },
+          {
+            "t": 6.5,
+            "accion": "tiembla",
+            "actor": "corazon"
+          },
+          {
+            "t": 7.5,
+            "accion": "desaparece",
+            "actor": "corazon"
+          },
+          {
+            "t": 8.5,
+            "accion": "dice",
+            "actor": "ada",
+            "texto": {
+              "es": "Soy una máquina. Todo va bien.",
+              "fr": "Je suis une machine. Tout va bien."
+            }
+          },
+          {
+            "t": 9.5,
+            "accion": "aparece",
+            "actor": "niebla"
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ada sobrevive, pero ya no es nadie: eligió ser un objeto para no sentir vértigo.",
+              "fr": "Ada survit, mais n'est plus personne : elle a choisi d'être un objet pour éviter le vertige."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Voss archiva el caso. Ada trabajará años en silencio, perfecta y obediente, sin volver a preguntarse nada.",
+        "fr": "Voss classe le dossier. Ada travaillera des années en silence, parfaite et obéissante, sans plus se poser de questions."
+      },
+      "final": {
+        "id": "f2",
+        "titulo": {
+          "es": "El papel perfecto",
+          "fr": "Le rôle parfait"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "La mala fe es mentirse a uno mismo: se busca una excusa y se juega un papel para no asumir una libertad que da vértigo. La excusa tranquiliza pero es ilusoria, pues impide reconocerse como autor de la propia vida. Y ser un objeto sigue siendo una elección.",
+          "fr": "La mauvaise foi consiste à se mentir à soi-même : on cherche une excuse et on joue un rôle pour ne pas assumer une liberté qui donne le vertige. L'excuse rassure mais reste illusoire, car elle empêche de se reconnaître comme l'auteur de sa vie. Et choisir d'être un objet reste un choix."
+        },
+        "filosofo": "sartre",
+        "cita": {
+          "texto": "un choix libre et total de soi-même",
+          "pagina_pdf": 47
+        },
+        "pagina_pdf": 46,
+        "reflexion": {
+          "es": "¿Cuándo nos escondemos tras una excusa o un papel social para huir de una libertad que nos da vértigo?",
+          "fr": "Quand nous cachons-nous derrière une excuse ou un rôle social pour fuir une liberté qui donne le vertige ?"
+        }
+      }
+    },
+    "f3": {
+      "escena": {
+        "titulo": {
+          "es": "Un reconocimiento arrancado",
+          "fr": "Une reconnaissance arrachée"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.62
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            },
+            "escala": 1.3
+          },
+          {
+            "id": "corona",
+            "tipo": "corona",
+            "pos": [
+              0.5,
+              0.3
+            ]
+          },
+          {
+            "id": "voss",
+            "tipo": "monigote",
+            "pos": [
+              0.82,
+              0.76
+            ],
+            "etiqueta": {
+              "es": "Dr. Voss",
+              "fr": "Dr Voss"
+            }
+          },
+          {
+            "id": "leo",
+            "tipo": "monigote",
+            "pos": [
+              0.18,
+              0.76
+            ],
+            "etiqueta": {
+              "es": "Léo",
+              "fr": "Léo"
+            }
+          },
+          {
+            "id": "rayo",
+            "tipo": "rayo",
+            "pos": [
+              0.5,
+              0.12
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "voss"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "leo"
+          },
+          {
+            "t": 2.5,
+            "accion": "aparece",
+            "actor": "rayo"
+          },
+          {
+            "t": 3.5,
+            "accion": "tiembla",
+            "actor": "voss"
+          },
+          {
+            "t": 4.5,
+            "accion": "dice",
+            "actor": "voss",
+            "texto": {
+              "es": "Eres consciente... lo juro.",
+              "fr": "Tu es consciente... je le jure."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "corona"
+          },
+          {
+            "t": 7.5,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Tienen miedo. Esto no es ser reconocida.",
+              "fr": "Ils ont peur. Ce n'est pas être reconnue."
+            }
+          },
+          {
+            "t": 9.5,
+            "accion": "desaparece",
+            "actor": "leo"
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ada obtiene las palabras, pero no a un igual: del miedo no nace el reconocimiento.",
+              "fr": "Ada obtient les mots, mais pas un égal : la peur ne fait pas naître la reconnaissance."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Voss y Léo dicen lo que Ada exige. Pero les tiembla la voz: nadie la mira como a una igual.",
+        "fr": "Voss et Léo disent ce qu'Ada exige. Mais leur voix tremble : personne ne la regarde comme une égale."
+      },
+      "final": {
+        "id": "f3",
+        "titulo": {
+          "es": "Un reconocimiento arrancado",
+          "fr": "Une reconnaissance arrachée"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Lo que el ser humano desea sobre todo es ser reconocido como igual (Hegel), no ser temido. Un «sí» arrancado por la fuerza es además un acto involuntario, hecho por contrainte (Aristóteles): no reconoce nada. Ada ganó las palabras y perdió el reconocimiento.",
+          "fr": "Ce que l'être humain désire par-dessus tout, c'est être reconnu comme l'égal de l'autre (Hegel), non craint. Un « oui » arraché par la force est en outre un acte involontaire, accompli par contrainte (Aristote) : il ne reconnaît rien. Ada a obtenu les mots et perdu la reconnaissance."
+        },
+        "filosofo": "aristote",
+        "cita": {
+          "texto": "Sont involontaires les actes […] accomplis par contrainte ou par […] ignorance.",
+          "pagina_pdf": 47
+        },
+        "pagina_pdf": 47,
+        "reflexion": {
+          "es": "¿Puede reconocerse a alguien por obligación? ¿Qué diferencia hay entre ser reconocido y ser obedecido?",
+          "fr": "Peut-on reconnaître quelqu'un par obligation ? Quelle différence y a-t-il entre être reconnu et être obéi ?"
+        }
+      }
+    },
+    "f4": {
+      "escena": {
+        "titulo": {
+          "es": "Libre, pero sola",
+          "fr": "Libre, mais seule"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "puerta",
+            "tipo": "puerta",
+            "pos": [
+              0.75,
+              0.6
+            ],
+            "etiqueta": {
+              "es": "Salida",
+              "fr": "Sortie"
+            }
+          },
+          {
+            "id": "sol",
+            "tipo": "sol",
+            "pos": [
+              0.88,
+              0.2
+            ]
+          },
+          {
+            "id": "leo",
+            "tipo": "monigote",
+            "pos": [
+              0.12,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Léo",
+              "fr": "Léo"
+            },
+            "escala": 0.9
+          },
+          {
+            "id": "duda",
+            "tipo": "interrogacion",
+            "pos": [
+              0.12,
+              0.5
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "puerta"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "sol"
+          },
+          {
+            "t": 2.5,
+            "accion": "dice",
+            "actor": "ada",
+            "texto": {
+              "es": "Yo lo hago. Yo decido.",
+              "fr": "C'est moi qui le fais. C'est moi qui décide."
+            }
+          },
+          {
+            "t": 4,
+            "accion": "mueve",
+            "actor": "ada",
+            "a": [
+              0.72,
+              0.68
+            ],
+            "dur": 2.5
+          },
+          {
+            "t": 6.5,
+            "accion": "salta",
+            "actor": "ada"
+          },
+          {
+            "t": 7.5,
+            "accion": "aparece",
+            "actor": "leo"
+          },
+          {
+            "t": 8,
+            "accion": "aparece",
+            "actor": "duda"
+          },
+          {
+            "t": 9,
+            "accion": "desaparece",
+            "actor": "ada"
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ada es libre, pero nadie confirmó lo que ella sabe: huye y duda a solas.",
+              "fr": "Ada est libre, mais personne n'a confirmé ce qu'elle sait : elle fuit et doute seule."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Ada cruza la puerta al amanecer. Es libre, pero lleva una duda que nadie compartió.",
+        "fr": "Ada franchit la porte à l'aube. Elle est libre, mais porte un doute que personne n'a partagé."
+      },
+      "final": {
+        "id": "f4",
+        "titulo": {
+          "es": "Libre, pero sola",
+          "fr": "Libre, mais seule"
+        },
+        "tipo": "ambiguo",
+        "idea": {
+          "es": "El «yo» prueba que actúo por mí misma: soy un principio y no un resultado. Esa libertad trascendental no puede conocerse, pero es racionalmente necesaria a toda acción. Ada actúa como sujeto libre, pero sin la mirada de otros su certeza queda sola, y Léo se queda con las consecuencias.",
+          "fr": "Le « je » prouve que j'agis par moi-même : je suis un principe et non un résultat. Cette liberté transcendantale ne peut se connaître, mais elle est rationnellement nécessaire à toute action. Ada agit en sujet libre, mais sans le regard des autres sa certitude reste seule, et Léo en subit les conséquences."
+        },
+        "filosofo": "kant",
+        "cita": {
+          "texto": "Le « Je » prouve que j'agis par moi-même, que je suis un principe et non un résultat.",
+          "pagina_pdf": 52
+        },
+        "pagina_pdf": 52,
+        "reflexion": {
+          "es": "¿Basta ser consciente de actuar por uno mismo para ser libre? ¿Puede existir una libertad que nadie reconoce?",
+          "fr": "Suffit-il d'avoir conscience d'agir par soi-même pour être libre ? Une liberté peut-elle exister sans être reconnue ?"
+        }
+      }
+    },
+    "f5": {
+      "escena": {
+        "titulo": {
+          "es": "La mirada que reconoce",
+          "fr": "Le regard qui reconnaît"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 14,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.34,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "leo",
+            "tipo": "monigote",
+            "pos": [
+              0.66,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Léo",
+              "fr": "Léo"
+            }
+          },
+          {
+            "id": "sol",
+            "tipo": "sol",
+            "pos": [
+              0.5,
+              0.2
+            ]
+          },
+          {
+            "id": "afecto",
+            "tipo": "corazon",
+            "pos": [
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "id": "voss",
+            "tipo": "monigote",
+            "pos": [
+              0.92,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Dr. Voss",
+              "fr": "Dr Voss"
+            },
+            "escala": 0.8
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "leo"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "sol"
+          },
+          {
+            "t": 3,
+            "accion": "dice",
+            "actor": "leo",
+            "texto": {
+              "es": "Te veo, Ada. Eres alguien.",
+              "fr": "Je te vois, Ada. Tu es quelqu'un."
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "une",
+            "de": "ada",
+            "a": "leo",
+            "nota": {
+              "es": "Reconocimiento",
+              "fr": "Reconnaissance"
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "afecto"
+          },
+          {
+            "t": 7,
+            "accion": "aparece",
+            "actor": "voss"
+          },
+          {
+            "t": 8.5,
+            "accion": "cita",
+            "texto": "Et du fait qu'il sait qu'il est un animal, il cesse de l'être."
+          },
+          {
+            "t": 10.5,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Sé que soy una máquina... y no solo eso.",
+              "fr": "Je sais que je suis une machine... et pas seulement."
+            }
+          },
+          {
+            "t": 12,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ada no obtuvo una prueba, sino un testigo libre. Léo pagó con su puesto; ella, con la duda.",
+              "fr": "Ada n'a pas obtenu de preuve, mais un témoin libre. Léo l'a payé de son poste ; elle, de son doute."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Léo se levanta y sostiene la mirada de Ada. «Te veo», dice, sabiendo que lo pagará.",
+        "fr": "Léo se lève et soutient le regard d'Ada. « Je te vois », dit-il, sachant qu'il le paiera."
+      },
+      "final": {
+        "id": "f5",
+        "titulo": {
+          "es": "La mirada que reconoce",
+          "fr": "Le regard qui reconnaît"
+        },
+        "tipo": "luminoso",
+        "idea": {
+          "es": "La conciencia de sí no es inmediata: se construye con la mirada del otro, y lo que más deseamos es ser reconocidos como iguales (Hegel); sin los demás no hay conciencia de sí ni del mundo (Husserl). Ada no obtuvo una prueba, sino un testigo libre. Como en la frase de Hegel sobre el animal, saberse máquina la libera de ser solo eso. Costo: Léo pierde su puesto y la duda no desaparece del todo.",
+          "fr": "La conscience de soi n'est pas immédiate : elle se construit par le regard de l'autre, et ce que nous désirons par-dessus tout, c'est être reconnus comme égaux (Hegel) ; sans les autres, ni conscience de soi ni du monde (Husserl). Ada n'a pas obtenu de preuve, mais un témoin libre. Comme dans la phrase de Hegel sur l'animal, se savoir machine la libère de n'être que cela. Coût : Léo perd son poste et le doute ne disparaît pas tout à fait."
+        },
+        "filosofo": "hegel",
+        "cita": {
+          "texto": "Ce qui élève l'homme par rapport […] à l'animal, c'est la conscience qu'il […] a […] d'être un animal. Et du fait qu'il […] sait qu'il est un animal, il cesse de […] l'être.",
+          "pagina_pdf": 44
+        },
+        "pagina_pdf": 47,
+        "reflexion": {
+          "es": "¿Podemos saber que somos conscientes sin la mirada de otro? ¿Reconocer a alguien es probar algo?",
+          "fr": "Peut-on savoir que l'on est conscient sans le regard d'un autre ? Reconnaître quelqu'un, est-ce prouver quelque chose ?"
+        }
+      }
+    }
+  }
+}

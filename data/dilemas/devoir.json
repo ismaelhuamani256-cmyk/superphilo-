@@ -1,0 +1,2478 @@
+{
+  "id": "devoir-sello",
+  "capitulo": "devoir",
+  "titulo": {
+    "es": "El sello de Mara",
+    "fr": "Le tampon de Mara"
+  },
+  "premisa": {
+    "es": "Mara es funcionaria de la Prefectura de una democracia. Esta noche debe sellar un decreto legal y votado que cierra al amanecer un refugio con cuarenta personas. ¿Obedecer, examinar la orden o negarse? Cada decisión encarna una concepción del deber.",
+    "fr": "Mara est fonctionnaire à la préfecture d’une démocratie. Ce soir, elle doit tamponner un décret légal et voté qui ferme à l’aube un refuge de quarante personnes. Obéir, examiner l’ordre ou refuser ? Chaque choix incarne une conception du devoir."
+  },
+  "protagonista": "Mara",
+  "inicio": "n1",
+  "nodos": {
+    "n1": {
+      "escena": {
+        "titulo": {
+          "es": "La orden",
+          "fr": "L’ordre"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "vargas",
+            "tipo": "monigote",
+            "pos": [
+              0.85,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            }
+          },
+          {
+            "id": "decreto",
+            "tipo": "libro",
+            "pos": [
+              0.42,
+              0.55
+            ],
+            "etiqueta": {
+              "es": "Decreto 14",
+              "fr": "Décret 14"
+            }
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.5,
+              0.15
+            ],
+            "etiqueta": {
+              "es": "22:00",
+              "fr": "22 h"
+            }
+          },
+          {
+            "id": "refugio",
+            "tipo": "casa",
+            "pos": [
+              0.88,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Refugio",
+              "fr": "Refuge"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "refugio"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 2.8,
+            "accion": "mueve",
+            "actor": "vargas",
+            "a": [
+              0.62,
+              0.72
+            ],
+            "dur": 1
+          },
+          {
+            "t": 3.8,
+            "accion": "aparece",
+            "actor": "decreto"
+          },
+          {
+            "t": 4.5,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "Decreto legal. El refugio cierra al alba. Firma.",
+              "fr": "Décret légal. Le refuge ferme à l’aube. Signe."
+            }
+          },
+          {
+            "t": 7,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Cuarenta personas, en pleno invierno…",
+              "fr": "Quarante personnes, en plein hiver…"
+            }
+          },
+          {
+            "t": 9,
+            "accion": "resalta",
+            "actor": "decreto"
+          },
+          {
+            "t": 9.4,
+            "accion": "tiembla",
+            "actor": "reloj"
+          },
+          {
+            "t": 10.4,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Una orden legal, votada y firmada. ¿Basta eso para obedecerla?",
+              "fr": "Un ordre légal, voté et signé. Cela suffit-il pour obéir ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara trabaja en la Prefectura. Su jefe le entrega un decreto legal y votado: el refugio de la calle del Molino cierra al amanecer.",
+        "fr": "Mara travaille à la préfecture. Son chef lui remet un décret légal et voté : le refuge de la rue du Moulin ferme à l’aube."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces, Mara?",
+          "fr": "Que fais-tu, Mara ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Leo el decreto antes de firmar",
+              "fr": "Je lis le décret avant de signer"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Examinar la orden",
+              "fr": "Examiner l’ordre"
+            }
+          },
+          {
+            "texto": {
+              "es": "Me niego a firmar",
+              "fr": "Je refuse de signer"
+            },
+            "a": "n4",
+            "postura": {
+              "es": "Rechazo inmediato",
+              "fr": "Refus immédiat"
+            }
+          },
+          {
+            "texto": {
+              "es": "Firmo: es la ley y es mi deber",
+              "fr": "Je signe : c’est la loi et mon devoir"
+            },
+            "a": "n2",
+            "postura": {
+              "es": "El deber como obediencia",
+              "fr": "Le devoir comme obéissance"
+            }
+          }
+        ]
+      }
+    },
+    "n2": {
+      "escena": {
+        "titulo": {
+          "es": "El sello",
+          "fr": "Le tampon"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.22,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "sello",
+            "tipo": "martillo",
+            "pos": [
+              0.4,
+              0.45
+            ],
+            "etiqueta": {
+              "es": "Sello",
+              "fr": "Tampon"
+            }
+          },
+          {
+            "id": "decreto",
+            "tipo": "libro",
+            "pos": [
+              0.5,
+              0.65
+            ],
+            "etiqueta": {
+              "es": "Decreto 14",
+              "fr": "Décret 14"
+            }
+          },
+          {
+            "id": "ivo",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ivo",
+              "fr": "Ivo"
+            }
+          },
+          {
+            "id": "admin",
+            "tipo": "engranaje",
+            "pos": [
+              0.8,
+              0.28
+            ],
+            "etiqueta": {
+              "es": "Administración",
+              "fr": "Administration"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "decreto"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "sello"
+          },
+          {
+            "t": 2,
+            "accion": "mueve",
+            "actor": "sello",
+            "a": [
+              0.5,
+              0.58
+            ],
+            "dur": 0.8
+          },
+          {
+            "t": 2.8,
+            "accion": "salta",
+            "actor": "sello"
+          },
+          {
+            "t": 3,
+            "accion": "resalta",
+            "actor": "decreto"
+          },
+          {
+            "t": 3.8,
+            "accion": "aparece",
+            "actor": "admin"
+          },
+          {
+            "t": 4.3,
+            "accion": "une",
+            "de": "decreto",
+            "a": "admin",
+            "nota": {
+              "es": "pasa a Dirección",
+              "fr": "transmis à la Direction"
+            }
+          },
+          {
+            "t": 5.2,
+            "accion": "aparece",
+            "actor": "ivo"
+          },
+          {
+            "t": 5.8,
+            "accion": "dice",
+            "actor": "ivo",
+            "texto": {
+              "es": "Tranquila: aquí todos somos solo un eslabón.",
+              "fr": "Tranquille : ici, nous ne sommes qu’un maillon."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Si algo sale mal, no será por mi culpa.",
+              "fr": "Si ça tourne mal, ce ne sera pas ma faute."
+            }
+          },
+          {
+            "t": 9.6,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El expediente pasa de mano en mano; nadie se siente responsable.",
+              "fr": "Le dossier passe de main en main ; personne ne se sent responsable."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "El sello cae. El decreto viaja de mesa en mesa y queda sobre la de Mara el aviso de desalojo que ella misma debe entregar.",
+        "fr": "Le tampon tombe. Le décret circule de bureau en bureau, et l’avis d’expulsion que Mara doit remettre reste sur sa table."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "El aviso de desalojo espera. ¿Qué haces?",
+          "fr": "L’avis d’expulsion attend. Que fais-tu ?"
+        },
+        "tiempo_seg": 10,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Voy al refugio a verlo con mis propios ojos",
+              "fr": "Je vais au refuge voir de mes propres yeux"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Mirar a las víctimas",
+              "fr": "Regarder les victimes en face"
+            }
+          },
+          {
+            "texto": {
+              "es": "Sigo el trámite sin mirar más",
+              "fr": "Je suis la procédure sans regarder plus"
+            },
+            "a": "f1",
+            "postura": {
+              "es": "Obediencia sin preguntas",
+              "fr": "Obéissance sans question"
+            }
+          }
+        ]
+      }
+    },
+    "n3": {
+      "escena": {
+        "titulo": {
+          "es": "La letra pequeña",
+          "fr": "Les petites lignes"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.18,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "decreto",
+            "tipo": "libro",
+            "pos": [
+              0.35,
+              0.55
+            ],
+            "etiqueta": {
+              "es": "Decreto 14",
+              "fr": "Décret 14"
+            }
+          },
+          {
+            "id": "orion",
+            "tipo": "moneda",
+            "pos": [
+              0.58,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Orión S.A.",
+              "fr": "Orion S.A."
+            }
+          },
+          {
+            "id": "vargas",
+            "tipo": "monigote",
+            "pos": [
+              0.85,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            }
+          },
+          {
+            "id": "estado",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.62,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "El Estado",
+              "fr": "L’État"
+            },
+            "escala": 1.3
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "decreto"
+          },
+          {
+            "t": 1.2,
+            "accion": "resalta",
+            "actor": "decreto"
+          },
+          {
+            "t": 2,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Ningún realojo… y el terreno es para una promotora.",
+              "fr": "Aucun relogement… et le terrain va à un promoteur."
+            }
+          },
+          {
+            "t": 3.8,
+            "accion": "aparece",
+            "actor": "orion"
+          },
+          {
+            "t": 4.2,
+            "accion": "une",
+            "de": "decreto",
+            "a": "orion",
+            "nota": {
+              "es": "el terreno",
+              "fr": "le terrain"
+            }
+          },
+          {
+            "t": 5.2,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 5.8,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "Es ley votada. Sin ley, vuelve la ley del más fuerte.",
+              "fr": "C’est la loi. Sans loi, c’est la loi du plus fort."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "aparece",
+            "actor": "estado"
+          },
+          {
+            "t": 8.6,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 9.3,
+            "accion": "cita",
+            "texto": "état de guerre de chacun contre chacun"
+          },
+          {
+            "t": 11.2,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La ley es válida, pero ¿protege la vida de todos o intereses particulares?",
+              "fr": "La loi est valide, mais protège-t-elle la vie de tous ou des intérêts privés ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara lee la letra pequeña: ningún realojo y el terreno pasa a una promotora. Vargas le recuerda que la ley es la ley.",
+        "fr": "Mara lit les petites lignes : aucun relogement, et le terrain passe à un promoteur. Vargas lui rappelle que la loi est la loi."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "La ley es legal… ¿y justa?",
+          "fr": "La loi est légale… mais est-elle juste ?"
+        },
+        "tiempo_seg": 14,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Filtro el decreto a la prensa, sin dar mi nombre",
+              "fr": "Je transmets le décret à la presse, sans nom"
+            },
+            "a": "n7",
+            "postura": {
+              "es": "Resistencia a escondidas",
+              "fr": "Résistance cachée"
+            }
+          },
+          {
+            "texto": {
+              "es": "Pruebo la máxima: ¿valdría para todos?",
+              "fr": "Je teste la maxime : vaut-elle pour tous ?"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Imperativo categórico (Kant)",
+              "fr": "Impératif catégorique (Kant)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Obedezco: sin ley volvería la guerra de todos",
+              "fr": "J’obéis : sans loi, ce serait la guerre de tous"
+            },
+            "a": "n2",
+            "postura": {
+              "es": "Obedecer al Estado legítimo (Hobbes)",
+              "fr": "Obéir à l’État légitime (Hobbes)"
+            }
+          }
+        ]
+      }
+    },
+    "n4": {
+      "escena": {
+        "titulo": {
+          "es": "El precio del no",
+          "fr": "Le prix du non"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "vargas",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            }
+          },
+          {
+            "id": "ascenso",
+            "tipo": "estrella",
+            "pos": [
+              0.5,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Ascenso",
+              "fr": "Promotion"
+            }
+          },
+          {
+            "id": "sotano",
+            "tipo": "caja",
+            "pos": [
+              0.5,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Archivo del sótano",
+              "fr": "Archives du sous-sol"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 1.2,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 2,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "No firmo.",
+              "fr": "Je ne signe pas."
+            }
+          },
+          {
+            "t": 3.2,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "Firma y serás jefa de servicio.",
+              "fr": "Signe et tu seras cheffe de service."
+            }
+          },
+          {
+            "t": 4.6,
+            "accion": "aparece",
+            "actor": "ascenso"
+          },
+          {
+            "t": 4.9,
+            "accion": "salta",
+            "actor": "ascenso"
+          },
+          {
+            "t": 6,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "Si no, te mando al sótano. Tú eliges.",
+              "fr": "Sinon, c’est le sous-sol. À toi de choisir."
+            }
+          },
+          {
+            "t": 7.6,
+            "accion": "aparece",
+            "actor": "sotano"
+          },
+          {
+            "t": 8,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 9.2,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Vargas no discute la ley: ofrece una recompensa y un castigo.",
+              "fr": "Vargas ne discute pas la loi : il offre une récompense et une menace."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara se niega. Vargas no discute el decreto: le ofrece un ascenso si firma y un castigo si no lo hace.",
+        "fr": "Mara refuse. Vargas ne discute pas le décret : il lui offre une promotion si elle signe, une sanction sinon."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cuánto vale tu no?",
+          "fr": "Que vaut ton non ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Mantengo mi no, cueste lo que cueste",
+              "fr": "Je maintiens mon non, quoi qu’il en coûte"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Convicción moral",
+              "fr": "Conviction morale"
+            }
+          },
+          {
+            "texto": {
+              "es": "Acepto el ascenso y firmo",
+              "fr": "J’accepte la promotion et je signe"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Imperativo hipotético: «si quiero…»",
+              "fr": "Impératif hypothétique : « si je veux… »"
+            }
+          }
+        ]
+      }
+    },
+    "n5": {
+      "escena": {
+        "titulo": {
+          "es": "El refugio",
+          "fr": "Le refuge"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.15,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "refugio",
+            "tipo": "casa",
+            "pos": [
+              0.85,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Refugio",
+              "fr": "Refuge"
+            }
+          },
+          {
+            "id": "leila",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Leila",
+              "fr": "Leila"
+            }
+          },
+          {
+            "id": "noe",
+            "tipo": "monigote",
+            "pos": [
+              0.88,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Noé",
+              "fr": "Noé"
+            },
+            "escala": 0.6
+          },
+          {
+            "id": "aviso",
+            "tipo": "libro",
+            "pos": [
+              0.35,
+              0.55
+            ],
+            "etiqueta": {
+              "es": "Aviso",
+              "fr": "Avis"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "refugio"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "aviso"
+          },
+          {
+            "t": 2,
+            "accion": "mueve",
+            "actor": "mara",
+            "a": [
+              0.45,
+              0.72
+            ],
+            "dur": 1.5
+          },
+          {
+            "t": 3.4,
+            "accion": "aparece",
+            "actor": "leila"
+          },
+          {
+            "t": 3.8,
+            "accion": "aparece",
+            "actor": "noe"
+          },
+          {
+            "t": 4.4,
+            "accion": "dice",
+            "actor": "leila",
+            "texto": {
+              "es": "¿Vienes a decirnos adónde ir?",
+              "fr": "Tu viens nous dire où aller ?"
+            }
+          },
+          {
+            "t": 6.4,
+            "accion": "dice",
+            "actor": "noe",
+            "texto": {
+              "es": "¿Mañana tendré cama?",
+              "fr": "Aurai-je un lit demain ?"
+            }
+          },
+          {
+            "t": 8,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 8.6,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Eran líneas en un papel. Ahora tienen cara.",
+              "fr": "Des lignes sur un papier. Maintenant, des visages."
+            }
+          },
+          {
+            "t": 10.6,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ver el rostro de las víctimas rompe la distancia del trámite.",
+              "fr": "Voir le visage des victimes brise la distance de la procédure."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara cruza la ciudad con el aviso en la mano. En el refugio, un nombre del expediente se convierte en una cara.",
+        "fr": "Mara traverse la ville, l’avis à la main. Au refuge, un nom du dossier devient un visage."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Ya sabes a quién afecta. ¿Qué haces?",
+          "fr": "Tu sais maintenant qui est touché. Que fais-tu ?"
+        },
+        "tiempo_seg": 14,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Vuelvo a la oficina y me niego en público",
+              "fr": "Je retourne au bureau et refuse publiquement"
+            },
+            "a": "n8",
+            "postura": {
+              "es": "Negarse a la vista de todos",
+              "fr": "Refuser au grand jour"
+            }
+          },
+          {
+            "texto": {
+              "es": "Les aviso y destruyo el archivo en secreto",
+              "fr": "Je les préviens et détruis le dossier en secret"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Acto solitario y clandestino",
+              "fr": "Acte solitaire et clandestin"
+            }
+          },
+          {
+            "texto": {
+              "es": "Entrego el aviso: cumplo mi deber",
+              "fr": "Je remets l’avis : je fais mon devoir"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "«Solo cumplo órdenes»",
+              "fr": "« Je ne fais qu’obéir »"
+            }
+          }
+        ]
+      }
+    },
+    "n6": {
+      "escena": {
+        "titulo": {
+          "es": "La prueba de la máxima",
+          "fr": "L’épreuve de la maxime"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "maxima",
+            "tipo": "libro",
+            "pos": [
+              0.2,
+              0.35
+            ],
+            "etiqueta": {
+              "es": "Mi máxima",
+              "fr": "Ma maxime"
+            }
+          },
+          {
+            "id": "m2",
+            "tipo": "monigote",
+            "pos": [
+              0.45,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "m3",
+            "tipo": "monigote",
+            "pos": [
+              0.62,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "m4",
+            "tipo": "monigote",
+            "pos": [
+              0.79,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.62,
+              0.25
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "maxima"
+          },
+          {
+            "t": 1.2,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Mi máxima: «firmo todo lo que sea legal».",
+              "fr": "Ma maxime : « je signe tout ce qui est légal »."
+            }
+          },
+          {
+            "t": 3.4,
+            "accion": "aparece",
+            "actor": "m2"
+          },
+          {
+            "t": 3.8,
+            "accion": "aparece",
+            "actor": "m3"
+          },
+          {
+            "t": 4.2,
+            "accion": "aparece",
+            "actor": "m4"
+          },
+          {
+            "t": 4.8,
+            "accion": "dice",
+            "actor": "m3",
+            "texto": {
+              "es": "Firmo. Firmo. Firmo.",
+              "fr": "Je signe. Je signe. Je signe."
+            }
+          },
+          {
+            "t": 6.4,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 6.8,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 7.4,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Si todos firman así, ¿quién dirá que no?",
+              "fr": "Si tous signent ainsi, qui dira non ?"
+            }
+          },
+          {
+            "t": 9.2,
+            "accion": "cita",
+            "texto": "Agis uniquement d’après la maxime qui fait que tu peux vouloir en même temps qu’elle devienne une loi universelle"
+          },
+          {
+            "t": 11.6,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Kant: sólo es moral lo que podría valer para todos.",
+              "fr": "Kant : n’est moral que ce qui pourrait valoir pour tous."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "De noche, a solas, Mara escribe la regla que seguiría si firmara. Y la imagina convertida en ley para todos.",
+        "fr": "La nuit, seule, Mara écrit la règle qu’elle suivrait en signant. Et l’imagine devenue loi pour tous."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Puedes querer que todos actúen como tú?",
+          "fr": "Peux-tu vouloir que tous agissent comme toi ?"
+        },
+        "tiempo_seg": 14,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Rehúso: mi razón se da su propia ley",
+              "fr": "Je refuse : ma raison se donne sa propre loi"
+            },
+            "a": "n8",
+            "postura": {
+              "es": "Autonomía moral (Kant)",
+              "fr": "Autonomie morale (Kant)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Cedo con pesar: la ley votada se cumple",
+              "fr": "Je cède à regret : la loi votée s’applique"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Obedecer la ley votada (Rousseau)",
+              "fr": "Obéir à la loi votée (Rousseau)"
+            }
+          }
+        ]
+      }
+    },
+    "n7": {
+      "escena": {
+        "titulo": {
+          "es": "El sobre anónimo",
+          "fr": "L’enveloppe anonyme"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "sobre",
+            "tipo": "caja",
+            "pos": [
+              0.55,
+              0.6
+            ],
+            "etiqueta": {
+              "es": "Sobre anónimo",
+              "fr": "Enveloppe anonyme"
+            }
+          },
+          {
+            "id": "prensa",
+            "tipo": "ojo",
+            "pos": [
+              0.85,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Prensa",
+              "fr": "Presse"
+            }
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.5,
+              0.15
+            ],
+            "etiqueta": {
+              "es": "03:00",
+              "fr": "3 h"
+            }
+          },
+          {
+            "id": "vigilancia",
+            "tipo": "ojo",
+            "pos": [
+              0.2,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "¿Quién filtró?",
+              "fr": "Qui a fuité ?"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "sobre"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "prensa"
+          },
+          {
+            "t": 1.8,
+            "accion": "proyecta",
+            "de": "mara",
+            "a": "sobre",
+            "nota": {
+              "es": "copia del decreto",
+              "fr": "copie du décret"
+            }
+          },
+          {
+            "t": 3,
+            "accion": "proyecta",
+            "de": "sobre",
+            "a": "prensa"
+          },
+          {
+            "t": 4.2,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 5,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Nadie responde… y el alba se acerca.",
+              "fr": "Personne ne répond… et l’aube approche."
+            }
+          },
+          {
+            "t": 6.8,
+            "accion": "aparece",
+            "actor": "vigilancia"
+          },
+          {
+            "t": 7.2,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 8.4,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Actuar a escondidas protege tu puesto, pero ¿cambia algo?",
+              "fr": "Agir dans l’ombre protège ton poste, mais cela change-t-il quelque chose ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara fotocopia el decreto y lo deja para un periodista, sin firmar. Pasan las horas y nadie responde.",
+        "fr": "Mara photocopie le décret et le laisse à un journaliste, sans signer. Les heures passent, personne ne répond."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "El alba se acerca. ¿Qué haces?",
+          "fr": "L’aube approche. Que fais-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Salgo a la luz: firmo la denuncia",
+              "fr": "Je sors de l’ombre : je signe la dénonciation"
+            },
+            "a": "n8",
+            "postura": {
+              "es": "Asumir el acto con mi nombre",
+              "fr": "Assumer l’acte sous mon nom"
+            }
+          },
+          {
+            "texto": {
+              "es": "Destruyo yo sola el archivo del refugio",
+              "fr": "Je détruis seule le dossier du refuge"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Acto solitario y clandestino",
+              "fr": "Acte solitaire et clandestin"
+            }
+          }
+        ]
+      }
+    },
+    "n8": {
+      "escena": {
+        "titulo": {
+          "es": "Ante todos",
+          "fr": "Devant tous"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "vargas",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            }
+          },
+          {
+            "id": "ivo",
+            "tipo": "monigote",
+            "pos": [
+              0.88,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ivo",
+              "fr": "Ivo"
+            }
+          },
+          {
+            "id": "colegas",
+            "tipo": "ojo",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "La oficina entera",
+              "fr": "Tout le bureau"
+            }
+          },
+          {
+            "id": "decreto",
+            "tipo": "libro",
+            "pos": [
+              0.45,
+              0.6
+            ],
+            "etiqueta": {
+              "es": "Decreto 14",
+              "fr": "Décret 14"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "decreto"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "colegas"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 2.5,
+            "accion": "aparece",
+            "actor": "ivo"
+          },
+          {
+            "t": 3.2,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "Última vez, Mara: firma o quedas suspendida.",
+              "fr": "Dernière fois, Mara : signe ou tu es suspendue."
+            }
+          },
+          {
+            "t": 5.4,
+            "accion": "piensa",
+            "actor": "ivo",
+            "texto": {
+              "es": "Si ella se atreve… ¿y yo?",
+              "fr": "Si elle ose… et moi ?"
+            }
+          },
+          {
+            "t": 7,
+            "accion": "resalta",
+            "actor": "mara"
+          },
+          {
+            "t": 7.8,
+            "accion": "tiembla",
+            "actor": "decreto"
+          },
+          {
+            "t": 9,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Toda la oficina mira. Es el momento de la verdad.",
+              "fr": "Tout le bureau regarde. C’est le moment de vérité."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Amanece. Toda la oficina mira a Mara. Vargas espera su respuesta y el decreto sigue sin sello.",
+        "fr": "Le jour se lève. Tout le bureau regarde Mara. Vargas attend sa réponse et le décret n’a toujours pas son tampon."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Vargas espera tu respuesta.",
+          "fr": "Vargas attend ta réponse."
+        },
+        "tiempo_seg": 10,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Rehúso ante todos y acepto el castigo",
+              "fr": "Je refuse devant tous et j’accepte la sanction"
+            },
+            "a": "f4",
+            "postura": {
+              "es": "Desobediencia civil (Thoreau)",
+              "fr": "Désobéissance civile (Thoreau)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Rehúso porque es justo, pase lo que pase",
+              "fr": "Je refuse parce que c’est juste, quoi qu’il arrive"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Deber moral sin cálculo (Kant)",
+              "fr": "Devoir moral sans calcul (Kant)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Retrocedo: me callo y firmo",
+              "fr": "Je recule : je me tais et je signe"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Cálculo y miedo",
+              "fr": "Calcul et peur"
+            }
+          }
+        ]
+      }
+    },
+    "n9": {
+      "escena": {
+        "titulo": {
+          "es": "¿De qué sirve?",
+          "fr": "À quoi bon ?"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "vargas",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            }
+          },
+          {
+            "id": "ivo",
+            "tipo": "monigote",
+            "pos": [
+              0.55,
+              0.74
+            ],
+            "etiqueta": {
+              "es": "Ivo",
+              "fr": "Ivo"
+            }
+          },
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.5,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Resultados",
+              "fr": "Résultats"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "ivo"
+          },
+          {
+            "t": 2,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "Te suspendo y el refugio cierra igual. ¿Para qué?",
+              "fr": "Je te suspends et le refuge ferme quand même. À quoi bon ?"
+            }
+          },
+          {
+            "t": 4.2,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 4.6,
+            "accion": "tiembla",
+            "actor": "balanza"
+          },
+          {
+            "t": 5.4,
+            "accion": "piensa",
+            "actor": "ivo",
+            "texto": {
+              "es": "Tiene razón… ¿o no?",
+              "fr": "Il a raison… ou pas ?"
+            }
+          },
+          {
+            "t": 7,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "No lo hago por ganar, sino porque es mi deber.",
+              "fr": "Ce n’est pas pour gagner, mais parce que c’est mon devoir."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "resalta",
+            "actor": "mara"
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "¿Vale un deber lo que valen sus resultados?",
+              "fr": "Un devoir vaut-il ce que valent ses résultats ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Vargas no la convence con argumentos morales, sino con cálculos: su negativa no salvará el refugio.",
+        "fr": "Vargas ne la convainc pas par des arguments moraux, mais par des calculs : son refus ne sauvera pas le refuge."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cuenta el resultado o la intención?",
+          "fr": "Compte le résultat ou l’intention ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "El deber no depende del resultado",
+              "fr": "Le devoir ne dépend pas du résultat"
+            },
+            "a": "f5",
+            "postura": {
+              "es": "Actuar por deber (Kant)",
+              "fr": "Agir par devoir (Kant)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Tiene razón: no sirve de nada. Firmo",
+              "fr": "Il a raison : ça ne sert à rien. Je signe"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Cálculo de consecuencias",
+              "fr": "Calcul des conséquences"
+            }
+          }
+        ]
+      }
+    },
+    "f1": {
+      "escena": {
+        "titulo": {
+          "es": "El engranaje",
+          "fr": "L’engrenage"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "admin",
+            "tipo": "engranaje",
+            "pos": [
+              0.55,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Administración",
+              "fr": "Administration"
+            },
+            "escala": 1.6
+          },
+          {
+            "id": "refugio",
+            "tipo": "casa",
+            "pos": [
+              0.85,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Refugio",
+              "fr": "Refuge"
+            }
+          },
+          {
+            "id": "frio",
+            "tipo": "nube",
+            "pos": [
+              0.85,
+              0.15
+            ],
+            "etiqueta": {
+              "es": "Frío",
+              "fr": "Froid"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "refugio"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "admin"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 2.2,
+            "accion": "mueve",
+            "actor": "mara",
+            "a": [
+              0.45,
+              0.62
+            ],
+            "dur": 1.5
+          },
+          {
+            "t": 3.8,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Yo solo cumplí mi deber.",
+              "fr": "Je n’ai fait que mon devoir."
+            }
+          },
+          {
+            "t": 5.2,
+            "accion": "desaparece",
+            "actor": "refugio"
+          },
+          {
+            "t": 5.8,
+            "accion": "aparece",
+            "actor": "frio"
+          },
+          {
+            "t": 6.6,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Nunca vi sus caras. No era cosa mía…",
+              "fr": "Je n’ai jamais vu leurs visages. Pas mon affaire…"
+            }
+          },
+          {
+            "t": 8.4,
+            "accion": "tiembla",
+            "actor": "admin"
+          },
+          {
+            "t": 9.2,
+            "accion": "cita",
+            "texto": "Il avait accompli ce qu’il […] citoyen respectueux de la loi"
+          },
+          {
+            "t": 11.4,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Obedecer sin preguntar por el fin: la banalidad del mal.",
+              "fr": "Obéir sans questionner la fin : la banalité du mal."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "El desalojo se cumple al amanecer. Nadie lo decidió solo, todos «solo obedecieron». Mara duerme tranquila… demasiado tranquila.",
+        "fr": "L’expulsion a lieu à l’aube. Personne n’a décidé seul, tous ont « seulement obéi ». Mara dort tranquille… trop tranquille."
+      },
+      "final": {
+        "id": "f1",
+        "titulo": {
+          "es": "El engranaje",
+          "fr": "L’engrenage"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Para Arendt, tras el juicio de Eichmann (1961), la obediencia convertida en deber absoluto suprime toda pregunta sobre el fin de los actos. Con el reparto de tareas y sin ver nunca a las víctimas, un funcionario consciencioso puede cooperar con actos inmorales creyendo cumplir su deber: es la «banalidad del mal» (tesis discutible, según el cours).",
+          "fr": "Pour Arendt, après le procès Eichmann (1961), l’obéissance devenue devoir absolu supprime toute interrogation sur la fin des actes. Avec la répartition des tâches et sans jamais voir les victimes, un fonctionnaire consciencieux peut cautionner des actes immoraux en croyant faire son devoir : c’est la « banalité du mal » (thèse discutable, selon le cours)."
+        },
+        "filosofo": "arendt",
+        "cita": {
+          "texto": "Il avait accompli ce qu’il […] citoyen respectueux de la loi",
+          "pagina_pdf": 244
+        },
+        "pagina_pdf": 244,
+        "reflexion": {
+          "es": "Faire son devoir, ¿es obedecer? ¿Puede una orden legal eximirte de responsabilidad personal?",
+          "fr": "Faire son devoir, est-ce obéir ? Un ordre légal peut-il te décharger de ta responsabilité personnelle ?"
+        }
+      }
+    },
+    "f2": {
+      "escena": {
+        "titulo": {
+          "es": "La paz perdida",
+          "fr": "La paix perdue"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "ascenso",
+            "tipo": "estrella",
+            "pos": [
+              0.2,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Ascenso",
+              "fr": "Promotion"
+            }
+          },
+          {
+            "id": "espejo",
+            "tipo": "espejo",
+            "pos": [
+              0.8,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "remordimiento",
+            "tipo": "nube",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Remordimientos",
+              "fr": "Remords"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "ascenso"
+          },
+          {
+            "t": 1,
+            "accion": "salta",
+            "actor": "ascenso"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "espejo"
+          },
+          {
+            "t": 2.8,
+            "accion": "mueve",
+            "actor": "mara",
+            "a": [
+              0.68,
+              0.72
+            ],
+            "dur": 1
+          },
+          {
+            "t": 4,
+            "accion": "tiembla",
+            "actor": "espejo"
+          },
+          {
+            "t": 4.6,
+            "accion": "aparece",
+            "actor": "remordimiento"
+          },
+          {
+            "t": 5.4,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "No soporto mirarme.",
+              "fr": "Je ne supporte pas mon regard."
+            }
+          },
+          {
+            "t": 6.8,
+            "accion": "mueve",
+            "actor": "mara",
+            "a": [
+              0.2,
+              0.75
+            ],
+            "dur": 1.5
+          },
+          {
+            "t": 8.2,
+            "accion": "cita",
+            "texto": "nous devons fuir la perversité de toutes nos forces et essayer d’être d’honnêtes gens"
+          },
+          {
+            "t": 10.6,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Quien actúa contra su conciencia huye de sí mismo.",
+              "fr": "Celui qui agit contre sa conscience se fuit lui-même."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara firma. El refugio cierra y el ascenso llega, pero cada noche ve en el espejo a alguien con quien no quiere quedarse a solas.",
+        "fr": "Mara signe. Le refuge ferme et la promotion arrive, mais chaque nuit le miroir lui renvoie quelqu’un avec qui elle ne veut pas rester seule."
+      },
+      "final": {
+        "id": "f2",
+        "titulo": {
+          "es": "La paz perdida",
+          "fr": "La paix perdue"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Mara actuó por interés, miedo o cálculo («si quiero…, debo…»): un imperativo hipotético, no un acto hecho por deber. Aristóteles describe el alma desgarrada que huye de sí misma y está «cargada de remordimientos»; su consejo es huir de la perversidad para ser amigo de uno mismo y de los demás.",
+          "fr": "Mara a agi par intérêt, peur ou calcul (« si je veux…, je dois… ») : un impératif hypothétique, non un acte fait par devoir. Aristote décrit l’âme déchirée qui se fuit elle-même, « chargée de regrets » ; son conseil est de fuir la perversité pour être ami de soi-même et des autres."
+        },
+        "filosofo": "aristote",
+        "cita": {
+          "texto": "nous devons fuir la perversité de toutes nos forces et essayer d’être d’honnêtes gens",
+          "pagina_pdf": 251
+        },
+        "pagina_pdf": 251,
+        "reflexion": {
+          "es": "¿Se puede ser feliz habiendo hecho algo que tu conciencia reprueba?",
+          "fr": "Peut-on être heureux après avoir fait ce que sa conscience réprouve ?"
+        }
+      }
+    },
+    "f3": {
+      "escena": {
+        "titulo": {
+          "es": "Antígona a solas",
+          "fr": "Antigone, seule"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.25,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "archivo",
+            "tipo": "fuego",
+            "pos": [
+              0.45,
+              0.65
+            ],
+            "etiqueta": {
+              "es": "Archivo",
+              "fr": "Archive"
+            }
+          },
+          {
+            "id": "ojo",
+            "tipo": "ojo",
+            "pos": [
+              0.7,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Vigilancia",
+              "fr": "Surveillance"
+            }
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.28,
+              0.82
+            ]
+          },
+          {
+            "id": "refugio",
+            "tipo": "casa",
+            "pos": [
+              0.88,
+              0.45
+            ],
+            "etiqueta": {
+              "es": "Refugio",
+              "fr": "Refuge"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "refugio"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1.4,
+            "accion": "aparece",
+            "actor": "archivo"
+          },
+          {
+            "t": 2.4,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Que no quede ni rastro del expediente.",
+              "fr": "Qu’il ne reste aucune trace du dossier."
+            }
+          },
+          {
+            "t": 4.2,
+            "accion": "aparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 4.8,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 5.8,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 6.2,
+            "accion": "une",
+            "de": "cadena",
+            "a": "mara"
+          },
+          {
+            "t": 7.4,
+            "accion": "desaparece",
+            "actor": "refugio"
+          },
+          {
+            "t": 8.4,
+            "accion": "desaparece",
+            "actor": "mara"
+          },
+          {
+            "t": 9.4,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Sola y a escondidas, el sacrificio de Mara no cambió la ley.",
+              "fr": "Seule et dans l’ombre, le sacrifice de Mara n’a pas changé la loi."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Antes del alba, Mara destruye el expediente. Pero hay copias en el ministerio: el refugio cierra igual y a ella la detienen por sabotaje.",
+        "fr": "Avant l’aube, Mara détruit le dossier. Mais il existe des copies au ministère : le refuge ferme quand même et elle est arrêtée pour sabotage."
+      },
+      "final": {
+        "id": "f3",
+        "titulo": {
+          "es": "Antígona a solas",
+          "fr": "Antigone, seule"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Como Antígona, que entierra a su hermano contra la decisión del soberano, Mara obedece a un valor que estima superior a la ley. La desobediencia civil (Thoreau) no es un derecho reconocido en una democracia: se paga. Aquí el precio es total y el gesto, solitario y clandestino, no logró cuestionar la ley ni convencer a nadie.",
+          "fr": "Comme Antigone, qui enterre son frère contre la décision du souverain, Mara obéit à une valeur qu’elle juge supérieure à la loi. La désobéissance civile (Thoreau) n’est pas un droit reconnu en démocratie : elle se paie. Ici le prix est total et le geste, solitaire et clandestin, n’a ni remis la loi en question ni convaincu personne."
+        },
+        "filosofo": "thoreau",
+        "pagina_pdf": 245,
+        "reflexion": {
+          "es": "¿Basta una buena razón para desobedecer? ¿Importa cómo se desobedece?",
+          "fr": "Une bonne raison suffit-elle pour désobéir ? La manière de désobéir importe-t-elle ?"
+        }
+      }
+    },
+    "f4": {
+      "escena": {
+        "titulo": {
+          "es": "A cara descubierta",
+          "fr": "À visage découvert"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.22,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "vargas",
+            "tipo": "monigote",
+            "pos": [
+              0.65,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            }
+          },
+          {
+            "id": "ivo",
+            "tipo": "monigote",
+            "pos": [
+              0.85,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ivo",
+              "fr": "Ivo"
+            }
+          },
+          {
+            "id": "puerta",
+            "tipo": "puerta",
+            "pos": [
+              0.1,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Salida",
+              "fr": "Sortie"
+            }
+          },
+          {
+            "id": "refugio",
+            "tipo": "casa",
+            "pos": [
+              0.5,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Refugio",
+              "fr": "Refuge"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "ivo"
+          },
+          {
+            "t": 1.4,
+            "accion": "aparece",
+            "actor": "refugio"
+          },
+          {
+            "t": 2,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Rehúso. Y acepto lo que venga.",
+              "fr": "Je refuse. Et j’accepte ce qui vient."
+            }
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "Quedas suspendida. Fuera de aquí.",
+              "fr": "Tu es suspendue. Sors d’ici."
+            }
+          },
+          {
+            "t": 5.8,
+            "accion": "aparece",
+            "actor": "puerta"
+          },
+          {
+            "t": 6.2,
+            "accion": "mueve",
+            "actor": "mara",
+            "a": [
+              0.15,
+              0.72
+            ],
+            "dur": 1.5
+          },
+          {
+            "t": 7.4,
+            "accion": "dice",
+            "actor": "ivo",
+            "texto": {
+              "es": "Yo tampoco firmo hoy.",
+              "fr": "Moi non plus, je ne signe pas aujourd’hui."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "resalta",
+            "actor": "refugio"
+          },
+          {
+            "t": 10.2,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Mara paga su desobediencia, pero el refugio gana un plazo.",
+              "fr": "Mara paie sa désobéissance, mais le refuge gagne un délai."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara es suspendida de empleo y sueldo. Pero su negativa, a la vista de todos, obliga a reabrir el expediente: el refugio gana un plazo. Nadie sabe si bastará.",
+        "fr": "Mara est suspendue sans salaire. Mais son refus, au vu de tous, oblige à rouvrir le dossier : le refuge gagne un délai. Personne ne sait si cela suffira."
+      },
+      "final": {
+        "id": "f4",
+        "titulo": {
+          "es": "A cara descubierta",
+          "fr": "À visage découvert"
+        },
+        "tipo": "ambiguo",
+        "idea": {
+          "es": "Mara practica la desobediencia civil que teorizó Thoreau: rechaza una ley legal en nombre de valores que estima superiores, como Antígona, y asume la sanción. El cours recuerda que no es un derecho reconocido en democracia, y que Hobbes la juzga intolerable en un Estado legítimo salvo si éste, privilegiando sus intereses, deja de proteger la vida de sus ciudadanos.",
+          "fr": "Mara pratique la désobéissance civile théorisée par Thoreau : elle refuse une loi légale au nom de valeurs qu’elle estime supérieures, comme Antigone, et assume la sanction. Le cours rappelle qu’elle n’est pas un droit reconnu en démocratie, et que pour Hobbes elle semble intolérable dans un État légitime, sauf si celui-ci, privilégiant ses intérêts, cesse de protéger la vie de ses citoyens."
+        },
+        "filosofo": "thoreau",
+        "pagina_pdf": 245,
+        "reflexion": {
+          "es": "¿Cuándo es legítimo desobedecer a un Estado democrático? ¿Quién decide qué valores son «superiores»?",
+          "fr": "Quand est-il légitime de désobéir à un État démocratique ? Qui décide quelles valeurs sont « supérieures » ?"
+        }
+      }
+    },
+    "f5": {
+      "escena": {
+        "titulo": {
+          "es": "La ley en mí",
+          "fr": "La loi en moi"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.25,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            }
+          },
+          {
+            "id": "sotano",
+            "tipo": "caja",
+            "pos": [
+              0.12,
+              0.75
+            ],
+            "etiqueta": {
+              "es": "Sótano",
+              "fr": "Sous-sol"
+            }
+          },
+          {
+            "id": "ivo",
+            "tipo": "monigote",
+            "pos": [
+              0.6,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ivo",
+              "fr": "Ivo"
+            }
+          },
+          {
+            "id": "leila",
+            "tipo": "monigote",
+            "pos": [
+              0.85,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Leila",
+              "fr": "Leila"
+            }
+          },
+          {
+            "id": "luz",
+            "tipo": "bombilla",
+            "pos": [
+              0.25,
+              0.28
+            ]
+          },
+          {
+            "id": "corazon",
+            "tipo": "corazon",
+            "pos": [
+              0.45,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Buena voluntad",
+              "fr": "Bonne volonté"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "sotano"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "luz"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "ivo"
+          },
+          {
+            "t": 2.4,
+            "accion": "dice",
+            "actor": "ivo",
+            "texto": {
+              "es": "Hoy me he preguntado qué es lo justo. Gracias.",
+              "fr": "Aujourd’hui, je me suis demandé ce qui est juste. Merci."
+            }
+          },
+          {
+            "t": 4.6,
+            "accion": "aparece",
+            "actor": "leila"
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "corazon"
+          },
+          {
+            "t": 5.4,
+            "accion": "resalta",
+            "actor": "corazon"
+          },
+          {
+            "t": 6.6,
+            "accion": "cita",
+            "texto": "la bonne volonté paraît constituer la condition indispensable même de ce qui nous rend digne d’être heureux"
+          },
+          {
+            "t": 10.8,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El refugio no está salvado, pero Mara es libre: obedece a su razón.",
+              "fr": "Le refuge n’est pas sauvé, mais Mara est libre : elle obéit à sa raison."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara es trasladada al archivo del sótano. El refugio no está salvado, pero Ivo y otros se preguntan por primera vez qué es lo justo. Mara duerme en paz.",
+        "fr": "Mara est mutée aux archives du sous-sol. Le refuge n’est pas sauvé, mais Ivo et d’autres se demandent pour la première fois ce qui est juste. Mara dort en paix."
+      },
+      "final": {
+        "id": "f5",
+        "titulo": {
+          "es": "La ley en mí",
+          "fr": "La loi en moi"
+        },
+        "tipo": "luminoso",
+        "idea": {
+          "es": "Mara actúa por deber, no solo conforme al deber: sigue una máxima que puede querer como ley universal, sin esperar recompensa ni garantía de éxito. Para Kant, obedecer la ley moral que la razón se da a sí misma es la forma más alta de libertad («la majesté du devoir») y la buena voluntad nos hace dignos de ser felices.",
+          "fr": "Mara agit par devoir, et non seulement conformément au devoir : elle suit une maxime qu’elle peut vouloir comme loi universelle, sans attendre récompense ni garantie de succès. Pour Kant, obéir à la loi morale que la raison se donne à elle-même est la plus haute expression de la liberté (« la majesté du devoir ») et la bonne volonté nous rend dignes d’être heureux."
+        },
+        "filosofo": "kant",
+        "cita": {
+          "texto": "la bonne volonté paraît constituer la condition indispensable même de ce qui nous rend digne d’être heureux",
+          "pagina_pdf": 255
+        },
+        "pagina_pdf": 255,
+        "reflexion": {
+          "es": "¿Hace falta ser feliz para ser libre? ¿Merece la pena un deber que quizá no cambie nada?",
+          "fr": "Faut-il être heureux pour être libre ? Un devoir qui ne change peut-être rien en vaut-il la peine ?"
+        }
+      }
+    }
+  }
+}

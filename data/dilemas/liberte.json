@@ -1,0 +1,2492 @@
+{
+  "id": "liberte-medianoche",
+  "capitulo": "liberte",
+  "titulo": {
+    "es": "Medianoche en el taller",
+    "fr": "Minuit à l'usine"
+  },
+  "premisa": {
+    "es": "Alma tiene hasta medianoche para aceptar una beca en la ciudad. Todo en su vida (su barrio, su familia, el taller donde trabajan todos) parece haber decidido por ella. ¿Es libre de elegir, o solo cree que elige?",
+    "fr": "Alma a jusqu'à minuit pour accepter une bourse en ville. Tout dans sa vie (son quartier, sa famille, l'usine où tous travaillent) semble avoir décidé pour elle. Est-elle libre de choisir, ou croit-elle seulement choisir ?"
+  },
+  "protagonista": "Alma",
+  "inicio": "n1",
+  "nodos": {
+    "n1": {
+      "escena": {
+        "titulo": {
+          "es": "Medianoche en el taller",
+          "fr": "Minuit à l'usine"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.88,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "23:50",
+              "fr": "23 h 50"
+            }
+          },
+          {
+            "id": "beca",
+            "tipo": "estrella",
+            "pos": [
+              0.15,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "La beca",
+              "fr": "La bourse"
+            }
+          },
+          {
+            "id": "taller",
+            "tipo": "engranaje",
+            "pos": [
+              0.14,
+              0.74
+            ],
+            "etiqueta": {
+              "es": "El taller",
+              "fr": "L'usine"
+            }
+          },
+          {
+            "id": "destino",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.52,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "El Destino",
+              "fr": "Le Destin"
+            },
+            "escala": 1.3
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 1.6,
+            "accion": "aparece",
+            "actor": "beca"
+          },
+          {
+            "t": 2.2,
+            "accion": "resalta",
+            "actor": "beca"
+          },
+          {
+            "t": 3.2,
+            "accion": "aparece",
+            "actor": "taller"
+          },
+          {
+            "t": 4.2,
+            "accion": "aparece",
+            "actor": "destino"
+          },
+          {
+            "t": 5,
+            "accion": "dice",
+            "actor": "destino",
+            "texto": {
+              "es": "Todo está escrito, Alma.",
+              "fr": "Tout est écrit, Alma."
+            }
+          },
+          {
+            "t": 7,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "¿Y si ya decidieron por mí?",
+              "fr": "Et si tout était déjà décidé pour moi ?"
+            }
+          },
+          {
+            "t": 9,
+            "accion": "tiembla",
+            "actor": "reloj"
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Diez minutos para la medianoche: la beca o el taller.",
+              "fr": "Dix minutes avant minuit : la bourse ou l'usine."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Alma, 18 años, hija de obreros. Su padre se lastimó el brazo y el taller les ofrece un puesto. Esta noche vence el plazo de la beca en la ciudad.",
+        "fr": "Alma, 18 ans, fille d'ouvriers. Son père s'est blessé au bras et l'usine leur propose un poste. Ce soir expire le délai de la bourse en ville."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces?",
+          "fr": "Que fais-tu ?"
+        },
+        "tiempo_seg": 14,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Aceptar: así es mi destino",
+              "fr": "Accepter : c'est mon destin"
+            },
+            "a": "n2a",
+            "postura": {
+              "es": "Fatalismo",
+              "fr": "Fatalisme"
+            }
+          },
+          {
+            "texto": {
+              "es": "Rebelarme, aunque sea sin razón",
+              "fr": "Me rebeller, même sans raison"
+            },
+            "a": "n2b",
+            "postura": {
+              "es": "Acto gratuito (Gide)",
+              "fr": "Acte gratuit (Gide)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Entender de dónde viene todo esto",
+              "fr": "Comprendre d'où tout cela vient"
+            },
+            "a": "n2c",
+            "postura": {
+              "es": "Conocer las causas (Spinoza)",
+              "fr": "Connaître les causes (Spinoza)"
+            }
+          }
+        ]
+      }
+    },
+    "n2a": {
+      "escena": {
+        "titulo": {
+          "es": "La puerta del taller",
+          "fr": "La porte de l'usine"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.28,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "roux",
+            "tipo": "monigote",
+            "pos": [
+              0.72,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Sr. Roux",
+              "fr": "M. Roux"
+            }
+          },
+          {
+            "id": "contrato",
+            "tipo": "libro",
+            "pos": [
+              0.5,
+              0.55
+            ],
+            "etiqueta": {
+              "es": "Contrato",
+              "fr": "Contrat"
+            }
+          },
+          {
+            "id": "destino",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.5,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "El Destino",
+              "fr": "Le Destin"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "taller",
+            "tipo": "engranaje",
+            "pos": [
+              0.88,
+              0.35
+            ],
+            "etiqueta": {
+              "es": "El taller",
+              "fr": "L'usine"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "roux"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "contrato"
+          },
+          {
+            "t": 1.8,
+            "accion": "aparece",
+            "actor": "taller"
+          },
+          {
+            "t": 2.5,
+            "accion": "dice",
+            "actor": "roux",
+            "texto": {
+              "es": "Firma. Tu padre y tu abuelo también firmaron.",
+              "fr": "Signe. Ton père et ton grand-père ont signé aussi."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "destino"
+          },
+          {
+            "t": 5.5,
+            "accion": "dice",
+            "actor": "destino",
+            "texto": {
+              "es": "Sin elección, no hay culpa.",
+              "fr": "Pas de choix, pas de faute."
+            }
+          },
+          {
+            "t": 7.5,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "¿Es un deber… o solo una fuerza?",
+              "fr": "Est-ce un devoir… ou seulement une force ?"
+            }
+          },
+          {
+            "t": 9,
+            "accion": "cita",
+            "texto": "S’il faut obéir par force on n’a pas besoin d’obéir par devoir (Rousseau)"
+          },
+          {
+            "t": 11.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Obedecer por fuerza no es un deber. ¿Firmas o dudas?",
+              "fr": "Obéir par force n'est pas un devoir. Signes-tu, ou doutes-tu ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "El capataz ya tiene el contrato listo, como si su nombre siempre hubiera estado escrito en él.",
+        "fr": "Le contremaître a déjà préparé le contrat, comme si son nom y avait toujours été écrit."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Firmas?",
+          "fr": "Tu signes ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Firmar: así es la vida",
+              "fr": "Signer : c'est la vie"
+            },
+            "a": "f1",
+            "postura": {
+              "es": "Consentir por resignación",
+              "fr": "Consentir par résignation"
+            }
+          },
+          {
+            "texto": {
+              "es": "Dudar de esa voz",
+              "fr": "Douter de cette voix"
+            },
+            "a": "n3d",
+            "postura": {
+              "es": "Duda cartesiana (Descartes)",
+              "fr": "Doute cartésien (Descartes)"
+            }
+          }
+        ]
+      }
+    },
+    "n2b": {
+      "escena": {
+        "titulo": {
+          "es": "El desafío de Théo",
+          "fr": "Le défi de Théo"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.28,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "theo",
+            "tipo": "monigote",
+            "pos": [
+              0.72,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Théo",
+              "fr": "Théo"
+            }
+          },
+          {
+            "id": "beca",
+            "tipo": "estrella",
+            "pos": [
+              0.5,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "La carta",
+              "fr": "La lettre"
+            }
+          },
+          {
+            "id": "fuego",
+            "tipo": "fuego",
+            "pos": [
+              0.5,
+              0.72
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "theo"
+          },
+          {
+            "t": 1.4,
+            "accion": "aparece",
+            "actor": "beca"
+          },
+          {
+            "t": 2,
+            "accion": "resalta",
+            "actor": "beca"
+          },
+          {
+            "t": 3,
+            "accion": "dice",
+            "actor": "theo",
+            "texto": {
+              "es": "Quémala. Sin motivo. Eso es ser libre.",
+              "fr": "Brûle-la. Sans raison. Ça, c'est être libre."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "fuego"
+          },
+          {
+            "t": 6.5,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "Nadie sabría decir por qué lo hice…",
+              "fr": "Personne ne saurait dire pourquoi je l'ai fait…"
+            }
+          },
+          {
+            "t": 8.5,
+            "accion": "tiembla",
+            "actor": "beca"
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Para Théo, ser libre es actuar sin ninguna causa.",
+              "fr": "Pour Théo, être libre, c'est agir sans aucune cause."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Théo, su mejor amigo, llega con un encendedor. Para él, la prueba de la libertad es hacer algo absurdo que nadie pueda explicar.",
+        "fr": "Théo, son meilleur ami, arrive avec un briquet. Pour lui, la preuve de la liberté, c'est de faire quelque chose d'absurde que personne ne peut expliquer."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces con la carta?",
+          "fr": "Que fais-tu de la lettre ?"
+        },
+        "tiempo_seg": 10,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Quemar la carta, sin motivo",
+              "fr": "Brûler la lettre, sans motif"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Acto gratuito (Gide)",
+              "fr": "Acte gratuit (Gide)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Preguntarme por qué lo quiero",
+              "fr": "Me demander pourquoi je le veux"
+            },
+            "a": "n3c",
+            "postura": {
+              "es": "Examinar las causas",
+              "fr": "Examiner les causes"
+            }
+          }
+        ]
+      }
+    },
+    "n2c": {
+      "escena": {
+        "titulo": {
+          "es": "Las cadenas invisibles",
+          "fr": "Les chaînes invisibles"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.28,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "vidal",
+            "tipo": "monigote",
+            "pos": [
+              0.72,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Prof. Vidal",
+              "fr": "Mme Vidal"
+            }
+          },
+          {
+            "id": "casa",
+            "tipo": "casa",
+            "pos": [
+              0.15,
+              0.35
+            ],
+            "etiqueta": {
+              "es": "Mi familia",
+              "fr": "Ma famille"
+            }
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.5,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Habitus",
+              "fr": "Habitus"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "vidal"
+          },
+          {
+            "t": 1.8,
+            "accion": "aparece",
+            "actor": "casa"
+          },
+          {
+            "t": 2.6,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 3.4,
+            "accion": "une",
+            "de": "casa",
+            "a": "alma",
+            "nota": {
+              "es": "origen",
+              "fr": "origine"
+            }
+          },
+          {
+            "t": 5,
+            "accion": "dice",
+            "actor": "vidal",
+            "texto": {
+              "es": "Tus deseos tienen causas. ¿Las conoces?",
+              "fr": "Tes désirs ont des causes. Les connais-tu ?"
+            }
+          },
+          {
+            "t": 7,
+            "accion": "resalta",
+            "actor": "cadena"
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "¿Es mi deseo… o el que me enseñaron?",
+              "fr": "Est-ce mon désir… ou celui qu'on m'a appris ?"
+            }
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Familia, barrio, escuela: causas que casi nunca vemos.",
+              "fr": "Famille, quartier, école : des causes qu'on voit rarement."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Su antigua profesora, la señora Vidal, la encuentra en la calle. Con tiza dibuja las cadenas invisibles que han moldeado sus deseos.",
+        "fr": "Son ancienne professeure, Mme Vidal, la croise dans la rue. À la craie, elle dessine les chaînes invisibles qui ont façonné ses désirs."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué camino tomas?",
+          "fr": "Quel chemin prends-tu ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Seguir cada cadena hasta su causa",
+              "fr": "Remonter chaque chaîne jusqu'à sa cause"
+            },
+            "a": "n3c",
+            "postura": {
+              "es": "Comprender los determinismos (Spinoza)",
+              "fr": "Comprendre les déterminismes (Spinoza)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Soltar lo que no depende de mí",
+              "fr": "Lâcher ce qui ne dépend pas de moi"
+            },
+            "a": "n3s",
+            "postura": {
+              "es": "Control interior (Épictète)",
+              "fr": "Maîtrise intérieure (Épictète)"
+            }
+          }
+        ]
+      }
+    },
+    "n3d": {
+      "escena": {
+        "titulo": {
+          "es": "Dudo, luego soy libre",
+          "fr": "Je doute, donc je suis libre"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.28,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "destino",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.62,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "La voz del Destino",
+              "fr": "La voix du Destin"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "duda",
+            "tipo": "interrogacion",
+            "pos": [
+              0.28,
+              0.4
+            ]
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.9,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "23:58",
+              "fr": "23 h 58"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "destino"
+          },
+          {
+            "t": 1.5,
+            "accion": "dice",
+            "actor": "destino",
+            "texto": {
+              "es": "Eres un engranaje más.",
+              "fr": "Tu n'es qu'un rouage."
+            }
+          },
+          {
+            "t": 3.4,
+            "accion": "aparece",
+            "actor": "duda"
+          },
+          {
+            "t": 4,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "Dudo… luego soy libre.",
+              "fr": "Je doute… donc je suis libre."
+            }
+          },
+          {
+            "t": 5.6,
+            "accion": "tiembla",
+            "actor": "destino"
+          },
+          {
+            "t": 6.2,
+            "accion": "mueve",
+            "actor": "destino",
+            "a": [
+              0.82,
+              0.18
+            ],
+            "dur": 2
+          },
+          {
+            "t": 6.6,
+            "accion": "etiqueta",
+            "actor": "destino",
+            "texto": {
+              "es": "Solo una voz",
+              "fr": "Juste une voix"
+            }
+          },
+          {
+            "t": 7.4,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 8,
+            "accion": "tiembla",
+            "actor": "reloj"
+          },
+          {
+            "t": 8.6,
+            "accion": "cita",
+            "texto": "notre liberté se connaît sans preuve, par la seule expérience que nous en avons (Descartes)"
+          },
+          {
+            "t": 11.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ninguna voz puede impedirle dudar: ahí empieza su libertad.",
+              "fr": "Aucune voix ne peut l'empêcher de douter : sa liberté commence là."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Alma duda de la voz que dice que todo está escrito. Una voz no es un hecho. Pero el reloj no espera.",
+        "fr": "Alma doute de la voix qui dit que tout est écrit. Une voix n'est pas un fait. Mais l'horloge n'attend pas."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Hasta dónde llevas la duda?",
+          "fr": "Jusqu'où pousses-tu le doute ?"
+        },
+        "tiempo_seg": 10,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Dudar para buscar lo verdadero",
+              "fr": "Douter pour chercher le vrai"
+            },
+            "a": "n4",
+            "postura": {
+              "es": "Duda que busca la verdad",
+              "fr": "Doute qui cherche la vérité"
+            }
+          },
+          {
+            "texto": {
+              "es": "Seguir dudando sin decidir nada",
+              "fr": "Douter encore sans rien décider"
+            },
+            "a": "f1",
+            "postura": {
+              "es": "Libertad de indiferencia (Descartes)",
+              "fr": "Liberté d'indifférence (Descartes)"
+            }
+          }
+        ]
+      }
+    },
+    "n3c": {
+      "escena": {
+        "titulo": {
+          "es": "Entender para poder",
+          "fr": "Comprendre pour pouvoir"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.28,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "vidal",
+            "tipo": "monigote",
+            "pos": [
+              0.72,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Prof. Vidal",
+              "fr": "Mme Vidal"
+            }
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.5,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Causas",
+              "fr": "Causes"
+            }
+          },
+          {
+            "id": "idea",
+            "tipo": "bombilla",
+            "pos": [
+              0.28,
+              0.35
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "vidal"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 2.5,
+            "accion": "resalta",
+            "actor": "cadena"
+          },
+          {
+            "t": 3.2,
+            "accion": "dice",
+            "actor": "vidal",
+            "texto": {
+              "es": "Determinismo no es fatalismo.",
+              "fr": "Déterminisme n'est pas fatalisme."
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "idea"
+          },
+          {
+            "t": 6,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "Si conozco la causa, puedo cambiar el efecto.",
+              "fr": "Si je connais la cause, je peux en changer l'effet."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "cita",
+            "texto": "les hommes ont conscience de leurs appétits et ignorent les causes qui les déterminent (Spinoza)"
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Conocer las causas no las borra, pero da poder sobre sus efectos.",
+              "fr": "Connaître les causes ne les efface pas, mais donne prise sur leurs effets."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Alma ve su vida como una red de causas. Vidal le recuerda que entender un determinismo es el primer paso para torcer sus efectos.",
+        "fr": "Alma voit sa vie comme un réseau de causes. Mme Vidal lui rappelle que comprendre un déterminisme est le premier pas pour en infléchir les effets."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces con lo que sabes?",
+          "fr": "Que fais-tu de ce que tu sais ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Usar lo que sé para torcer los efectos",
+              "fr": "Utiliser mon savoir pour infléchir les effets"
+            },
+            "a": "n4",
+            "postura": {
+              "es": "Libertad lúcida (Spinoza)",
+              "fr": "Liberté lucide (Spinoza)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Aceptar solo lo que no depende de mí",
+              "fr": "N'accepter que ce qui ne dépend pas de moi"
+            },
+            "a": "n3s",
+            "postura": {
+              "es": "Sabiduría estoica (Épictète)",
+              "fr": "Sagesse stoïcienne (Épictète)"
+            }
+          }
+        ]
+      }
+    },
+    "n3s": {
+      "escena": {
+        "titulo": {
+          "es": "Lo que depende de mí",
+          "fr": "Ce qui dépend de moi"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "juicio",
+            "tipo": "corazon",
+            "pos": [
+              0.25,
+              0.38
+            ],
+            "etiqueta": {
+              "es": "Mi juicio",
+              "fr": "Mon jugement"
+            }
+          },
+          {
+            "id": "fortuna",
+            "tipo": "moneda",
+            "pos": [
+              0.75,
+              0.38
+            ],
+            "etiqueta": {
+              "es": "La fortuna",
+              "fr": "La fortune"
+            }
+          },
+          {
+            "id": "beca",
+            "tipo": "estrella",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "La beca",
+              "fr": "La bourse"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "juicio"
+          },
+          {
+            "t": 1.6,
+            "accion": "resalta",
+            "actor": "juicio"
+          },
+          {
+            "t": 2.6,
+            "accion": "aparece",
+            "actor": "fortuna"
+          },
+          {
+            "t": 3.2,
+            "accion": "tiembla",
+            "actor": "fortuna"
+          },
+          {
+            "t": 4,
+            "accion": "aparece",
+            "actor": "beca"
+          },
+          {
+            "t": 4.8,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "Mi juicio es mío. La fortuna, no.",
+              "fr": "Mon jugement est à moi. La fortune, non."
+            }
+          },
+          {
+            "t": 7,
+            "accion": "cita",
+            "texto": "Celui qui ne désire rien de ce qui lui est étranger (Épictète)"
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El estoico separa lo que depende de él de lo que no.",
+              "fr": "Le stoïcien sépare ce qui dépend de lui de ce qui n'en dépend pas."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Alma recuerda a Épictète: es libre quien no desea lo que no depende de él. ¿Esa calma es fuerza… o una forma de rendirse?",
+        "fr": "Alma se souvient d'Épictète : est libre celui qui ne désire rien de ce qui ne dépend pas de lui. Ce calme est-il une force… ou une façon de s'avouer vaincue ?"
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo vives esta idea?",
+          "fr": "Comment vis-tu cette idée ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "No desear nada que no dependa de mí",
+              "fr": "Ne rien désirer qui ne dépende de moi"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Retirada estoica (Épictète)",
+              "fr": "Retrait stoïcien (Épictète)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Actuar en lo que sí depende de mí",
+              "fr": "Agir sur ce qui dépend de moi"
+            },
+            "a": "n4",
+            "postura": {
+              "es": "Acción sobre lo posible",
+              "fr": "Action sur le possible"
+            }
+          }
+        ]
+      }
+    },
+    "n4": {
+      "escena": {
+        "titulo": {
+          "es": "La mesa de la cocina",
+          "fr": "La table de la cuisine"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "papa",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Papá Marc",
+              "fr": "Papa Marc"
+            }
+          },
+          {
+            "id": "noe",
+            "tipo": "monigote",
+            "pos": [
+              0.52,
+              0.84
+            ],
+            "etiqueta": {
+              "es": "Noé",
+              "fr": "Noé"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "beca",
+            "tipo": "estrella",
+            "pos": [
+              0.18,
+              0.28
+            ],
+            "etiqueta": {
+              "es": "La beca",
+              "fr": "La bourse"
+            }
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.88,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "23:57",
+              "fr": "23 h 57"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "papa"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "noe"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 2.6,
+            "accion": "aparece",
+            "actor": "beca"
+          },
+          {
+            "t": 3.4,
+            "accion": "dice",
+            "actor": "papa",
+            "texto": {
+              "es": "Con este brazo, el taller nos necesita.",
+              "fr": "Avec ce bras, l'usine a besoin de nous."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "dice",
+            "actor": "noe",
+            "texto": {
+              "es": "Alma… ¿te vas a ir?",
+              "fr": "Alma… tu vas partir ?"
+            }
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "Cada elección tiene un precio. Será mío.",
+              "fr": "Chaque choix a un prix. Ce sera le mien."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "tiembla",
+            "actor": "reloj"
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Tres minutos. Conoce sus causas; ahora debe elegir y responder.",
+              "fr": "Trois minutes. Elle connaît ses causes ; il faut choisir et répondre."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "En la cocina esperan su padre y su hermano. Alma ya conoce las cadenas que la rodean. Ahora debe decidir qué hace con ellas.",
+        "fr": "Dans la cuisine, son père et son frère attendent. Alma connaît désormais les chaînes qui l'entourent. Il lui faut décider ce qu'elle en fait."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué le dices a tu familia?",
+          "fr": "Que dis-tu à ta famille ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Hablar claro y asumir mi elección",
+              "fr": "Parler franchement et assumer mon choix"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Autonomía moral (Kant)",
+              "fr": "Autonomie morale (Kant)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Quedarme: mi deber es la familia",
+              "fr": "Rester : mon devoir est ma famille"
+            },
+            "a": "n5a",
+            "postura": {
+              "es": "Deber y sacrificio",
+              "fr": "Devoir et sacrifice"
+            }
+          },
+          {
+            "texto": {
+              "es": "Irme en silencio: no es culpa mía",
+              "fr": "Partir en silence : ce n'est pas ma faute"
+            },
+            "a": "f4",
+            "postura": {
+              "es": "Excusa determinista",
+              "fr": "Excuse déterministe"
+            }
+          }
+        ]
+      }
+    },
+    "n5a": {
+      "escena": {
+        "titulo": {
+          "es": "No quiero tu sacrificio",
+          "fr": "Je ne veux pas de ton sacrifice"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.28,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "papa",
+            "tipo": "monigote",
+            "pos": [
+              0.72,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Papá Marc",
+              "fr": "Papa Marc"
+            }
+          },
+          {
+            "id": "noe",
+            "tipo": "monigote",
+            "pos": [
+              0.52,
+              0.84
+            ],
+            "etiqueta": {
+              "es": "Noé",
+              "fr": "Noé"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "corazon",
+            "tipo": "corazon",
+            "pos": [
+              0.5,
+              0.4
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "papa"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "noe"
+          },
+          {
+            "t": 2,
+            "accion": "dice",
+            "actor": "alma",
+            "texto": {
+              "es": "Me quedo. Es lo justo.",
+              "fr": "Je reste. C'est ce qui est juste."
+            }
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "papa",
+            "texto": {
+              "es": "No quiero una hija que se queda por pena.",
+              "fr": "Je ne veux pas d'une fille qui reste par pitié."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "corazon"
+          },
+          {
+            "t": 6.4,
+            "accion": "tiembla",
+            "actor": "corazon"
+          },
+          {
+            "t": 6.8,
+            "accion": "dice",
+            "actor": "noe",
+            "texto": {
+              "es": "Si te quedas así, será con rencor.",
+              "fr": "Si tu restes ainsi, ce sera avec rancœur."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "¿Elijo… o solo consiento por necesidad?",
+              "fr": "Est-ce un choix… ou un simple consentement ?"
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Consentir por culpa no es elegir con la razón.",
+              "fr": "Consentir par culpabilité n'est pas choisir avec raison."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Alma anuncia que se queda. Pero su padre y su hermano no aceptan un sacrificio hecho por culpa.",
+        "fr": "Alma annonce qu'elle reste. Mais son père et son frère refusent un sacrifice fait par culpabilité."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué respondes?",
+          "fr": "Que réponds-tu ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Insistir: me quedo y punto",
+              "fr": "Insister : je reste, point final"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Consentimiento por necesidad",
+              "fr": "Consentement par nécessité"
+            }
+          },
+          {
+            "texto": {
+              "es": "Dejarme convencer: ir a la ciudad",
+              "fr": "Me laisser convaincre : partir en ville"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Elección razonada",
+              "fr": "Choix raisonné"
+            }
+          }
+        ]
+      }
+    },
+    "n5": {
+      "escena": {
+        "titulo": {
+          "es": "La promesa",
+          "fr": "La promesse"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "papa",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Papá Marc",
+              "fr": "Papa Marc"
+            }
+          },
+          {
+            "id": "promesa",
+            "tipo": "corazon",
+            "pos": [
+              0.5,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Promesa",
+              "fr": "Promesse"
+            }
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.88,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "23:59",
+              "fr": "23 h 59"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "papa"
+          },
+          {
+            "t": 1.4,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 2.4,
+            "accion": "dice",
+            "actor": "papa",
+            "texto": {
+              "es": "Prométeme que no nos olvidarás.",
+              "fr": "Promets-moi que tu ne nous oublieras pas."
+            }
+          },
+          {
+            "t": 4.6,
+            "accion": "aparece",
+            "actor": "promesa"
+          },
+          {
+            "t": 5,
+            "accion": "resalta",
+            "actor": "promesa"
+          },
+          {
+            "t": 5.8,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "Una promesa solo vale si puedo cumplirla.",
+              "fr": "Une promesse ne vaut que si je peux la tenir."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "tiembla",
+            "actor": "reloj"
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Sin tiempo: ¿una promesa verdadera o solo buenas intenciones?",
+              "fr": "Plus de temps : une vraie promesse ou de simples bonnes intentions ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Alma ha decidido hablar claro. Su padre, orgulloso y asustado, le pide una promesa. Ella sabe que las buenas intenciones no bastan.",
+        "fr": "Alma a décidé de parler franchement. Son père, fier et inquiet, lui demande une promesse. Elle sait que les bonnes intentions ne suffisent pas."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué prometes?",
+          "fr": "Que promets-tu ?"
+        },
+        "tiempo_seg": 10,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Prometer solo lo que cumpliré",
+              "fr": "Ne promettre que ce que je tiendrai"
+            },
+            "a": "f5",
+            "postura": {
+              "es": "Ley moral propia (Kant)",
+              "fr": "Loi morale personnelle (Kant)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Prometer todo… ya veremos",
+              "fr": "Tout promettre… on verra bien"
+            },
+            "a": "f4",
+            "postura": {
+              "es": "Buena intención sin acto",
+              "fr": "Bonne intention sans acte"
+            }
+          }
+        ]
+      }
+    },
+    "f1": {
+      "escena": {
+        "titulo": {
+          "es": "Gana el reloj",
+          "fr": "L'horloge l'emporte"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.35,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.88,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "00:00",
+              "fr": "00 h 00"
+            }
+          },
+          {
+            "id": "beca",
+            "tipo": "estrella",
+            "pos": [
+              0.15,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "La beca",
+              "fr": "La bourse"
+            }
+          },
+          {
+            "id": "taller",
+            "tipo": "engranaje",
+            "pos": [
+              0.82,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "El taller",
+              "fr": "L'usine"
+            }
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.58,
+              0.78
+            ]
+          },
+          {
+            "id": "destino",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.5,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "El Destino",
+              "fr": "Le Destin"
+            },
+            "escala": 1.2
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "beca"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 2,
+            "accion": "tiembla",
+            "actor": "reloj"
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "taller"
+          },
+          {
+            "t": 3.6,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 4.2,
+            "accion": "une",
+            "de": "alma",
+            "a": "taller",
+            "nota": {
+              "es": "habitus",
+              "fr": "habitus"
+            }
+          },
+          {
+            "t": 5.4,
+            "accion": "dice",
+            "actor": "alma",
+            "texto": {
+              "es": "Mañana empiezo en el taller…",
+              "fr": "Demain, je commence à l'usine…"
+            }
+          },
+          {
+            "t": 7,
+            "accion": "desaparece",
+            "actor": "beca"
+          },
+          {
+            "t": 7.4,
+            "accion": "aparece",
+            "actor": "destino"
+          },
+          {
+            "t": 8,
+            "accion": "dice",
+            "actor": "destino",
+            "texto": {
+              "es": "Te lo dije.",
+              "fr": "Je te l'avais dit."
+            }
+          },
+          {
+            "t": 10.2,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Nadie la obligó, pero ella tampoco eligió: el destino decidió por omisión.",
+              "fr": "Personne ne l'a forcée, mais elle n'a pas choisi : le destin a décidé par défaut."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Pasa la medianoche. El plazo vence sin que Alma envíe la carta. Mañana, su nombre estará en la lista del taller.",
+        "fr": "Minuit passe. Le délai expire sans qu'Alma envoie la lettre. Demain, son nom sera sur la liste de l'usine."
+      },
+      "final": {
+        "id": "f1",
+        "titulo": {
+          "es": "Gana el reloj",
+          "fr": "L'horloge l'emporte"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Alma no eligió: dejó que decidieran por ella, ya fuera por resignación fatalista o por indecisión. Bourdieu muestra que lo que parece una elección libre suele ser consentimiento a lo heredado (el habitus de clase); y para Descartes no elegir sigue siendo una elección, la del grado más bajo de libertad.",
+          "fr": "Alma n'a pas choisi : elle a laissé décider à sa place, par résignation fataliste ou par indécision. Bourdieu montre que ce qui ressemble à un libre choix est souvent un consentement à l'héritage reçu (l'habitus de classe) ; et pour Descartes, ne pas choisir reste un choix, celui du plus bas degré de liberté."
+        },
+        "filosofo": "bourdieu",
+        "cita": {
+          "texto": "habitus de classes",
+          "pagina_pdf": 259
+        },
+        "pagina_pdf": 259,
+        "reflexion": {
+          "es": "¿Cuántas de tus elecciones son realmente tuyas y cuántas te las dejaron hechas? ¿Se puede ser libre cuando solo se consiente?",
+          "fr": "Combien de tes choix sont vraiment les tiens, et combien t'ont été laissés tout faits ? Peut-on être libre quand on ne fait que consentir ?"
+        }
+      }
+    },
+    "f2": {
+      "escena": {
+        "titulo": {
+          "es": "La carta en llamas",
+          "fr": "La lettre en flammes"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.28,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "theo",
+            "tipo": "monigote",
+            "pos": [
+              0.72,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Théo",
+              "fr": "Théo"
+            }
+          },
+          {
+            "id": "beca",
+            "tipo": "estrella",
+            "pos": [
+              0.5,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "La carta",
+              "fr": "La lettre"
+            }
+          },
+          {
+            "id": "fuego",
+            "tipo": "fuego",
+            "pos": [
+              0.5,
+              0.72
+            ]
+          },
+          {
+            "id": "duda",
+            "tipo": "interrogacion",
+            "pos": [
+              0.28,
+              0.4
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "theo"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "beca"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "fuego"
+          },
+          {
+            "t": 2.6,
+            "accion": "tiembla",
+            "actor": "beca"
+          },
+          {
+            "t": 3.6,
+            "accion": "desaparece",
+            "actor": "beca"
+          },
+          {
+            "t": 4.4,
+            "accion": "tiembla",
+            "actor": "alma"
+          },
+          {
+            "t": 5,
+            "accion": "dice",
+            "actor": "alma",
+            "texto": {
+              "es": "¿Por qué lo hice?",
+              "fr": "Pourquoi l'ai-je fait ?"
+            }
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "duda"
+          },
+          {
+            "t": 6.6,
+            "accion": "dice",
+            "actor": "theo",
+            "texto": {
+              "es": "Da igual. ¡Eres libre!",
+              "fr": "Peu importe. Tu es libre !"
+            }
+          },
+          {
+            "t": 8.6,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "No lo sé. Y eso me da miedo.",
+              "fr": "Je ne sais pas. Et cela me fait peur."
+            }
+          },
+          {
+            "t": 10.8,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Quemó su futuro para probar su libertad… sin saber por qué.",
+              "fr": "Elle a brûlé son avenir pour prouver sa liberté… sans savoir pourquoi."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La carta se convierte en ceniza. Alma buscaba sentirse libre; solo siente un vacío que no sabe explicar.",
+        "fr": "La lettre devient cendre. Alma voulait se sentir libre ; elle ne ressent qu'un vide qu'elle ne sait pas expliquer."
+      },
+      "final": {
+        "id": "f2",
+        "titulo": {
+          "es": "La carta en llamas",
+          "fr": "La lettre en flammes"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "El acto gratuito pretende probar la libertad actuando sin razón, pero revela lo contrario: Alma no sabe por qué actúa y es impotente ante su propio impulso. Todo acto tiene una causa, conocida o inconsciente; es más libre quien la conoce y la asume con lucidez (Gide, Les caves du Vatican).",
+          "fr": "L'acte gratuit prétend prouver la liberté en agissant sans raison, mais il révèle l'inverse : Alma ne sait pas pourquoi elle agit et reste impuissante face à sa propre pulsion. Tout acte a une cause, connue ou inconsciente ; on est d'autant plus libre qu'on la connaît et qu'on l'assume lucidement (Gide, Les caves du Vatican)."
+        },
+        "filosofo": "gide",
+        "cita": {
+          "texto": "Tout acte est d’autant plus libre que le sujet agissant en a conscience et l’assume lucidement.",
+          "pagina_pdf": 262
+        },
+        "pagina_pdf": 261,
+        "reflexion": {
+          "es": "¿Rebelarse contra todo es lo mismo que ser libre? ¿Qué diferencia hay entre un impulso y una decisión que uno comprende?",
+          "fr": "Se rebeller contre tout, est-ce être libre ? Quelle différence y a-t-il entre une impulsion et une décision que l'on comprend ?"
+        }
+      }
+    },
+    "f3": {
+      "escena": {
+        "titulo": {
+          "es": "La calma del taller",
+          "fr": "Le calme de l'usine"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "juicio",
+            "tipo": "corazon",
+            "pos": [
+              0.5,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Mi juicio",
+              "fr": "Mon jugement"
+            }
+          },
+          {
+            "id": "beca",
+            "tipo": "estrella",
+            "pos": [
+              0.15,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "La beca",
+              "fr": "La bourse"
+            }
+          },
+          {
+            "id": "taller",
+            "tipo": "engranaje",
+            "pos": [
+              0.85,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "El taller",
+              "fr": "L'usine"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "taller"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "beca"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "juicio"
+          },
+          {
+            "t": 2.6,
+            "accion": "resalta",
+            "actor": "juicio"
+          },
+          {
+            "t": 3.6,
+            "accion": "dice",
+            "actor": "alma",
+            "texto": {
+              "es": "Nada puede quitarme mi juicio.",
+              "fr": "Rien ne peut m'enlever mon jugement."
+            }
+          },
+          {
+            "t": 5.8,
+            "accion": "desaparece",
+            "actor": "beca"
+          },
+          {
+            "t": 7,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "¿Y si esta calma es solo una forma de rendirme?",
+              "fr": "Et si ce calme n'était qu'une façon de me rendre ?"
+            }
+          },
+          {
+            "t": 9,
+            "accion": "tiembla",
+            "actor": "taller"
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Libre por dentro, quieta por fuera: ¿sabiduría o renuncia?",
+              "fr": "Libre au-dedans, immobile au-dehors : sagesse ou renoncement ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Alma se queda en el taller con una serenidad firme. Nadie le quitará su juicio, pero la estrella de la beca se apaga y su vida sigue igual.",
+        "fr": "Alma reste à l'usine avec une sérénité ferme. Personne ne lui prendra son jugement, mais l'étoile de la bourse s'éteint et sa vie reste la même."
+      },
+      "final": {
+        "id": "f3",
+        "titulo": {
+          "es": "La calma del taller",
+          "fr": "Le calme de l'usine"
+        },
+        "tipo": "ambiguo",
+        "idea": {
+          "es": "Para Épictète es libre quien no desea lo que no depende de él: su juicio ninguna traba puede encadenarlo. Alma conquista la paz, pero el mundo no cambia. El curso lo matiza: desear sin cesar lo que falta es una servidumbre, pero la lucidez consiste en asumir lo que uno es, no en renunciar a todo.",
+          "fr": "Pour Épictète, est libre celui qui ne désire rien de ce qui lui est étranger : aucune entrave ne peut enchaîner son jugement. Alma conquiert la paix, mais le monde ne change pas. Le cours nuance : désirer sans cesse ce qui manque est une servitude, mais la lucidité consiste à assumer ce que l'on est, non à renoncer à tout."
+        },
+        "filosofo": "epictete",
+        "cita": {
+          "texto": "Celui qui ne désire rien de ce qui lui est étranger",
+          "pagina_pdf": 267
+        },
+        "pagina_pdf": 267,
+        "reflexion": {
+          "es": "¿Es la serenidad una forma superior de libertad o una manera elegante de resignarse? ¿Aceptar lo que no depende de mí impide luchar por cambiarlo?",
+          "fr": "La sérénité est-elle une forme supérieure de liberté ou une manière élégante de se résigner ? Accepter ce qui ne dépend pas de moi empêche-t-il de lutter pour le changer ?"
+        }
+      }
+    },
+    "f4": {
+      "escena": {
+        "titulo": {
+          "es": "La bella alma",
+          "fr": "La belle âme"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.25,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "noe",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.84
+            ],
+            "etiqueta": {
+              "es": "Noé",
+              "fr": "Noé"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "casa",
+            "tipo": "casa",
+            "pos": [
+              0.5,
+              0.35
+            ],
+            "etiqueta": {
+              "es": "Casa",
+              "fr": "Maison"
+            }
+          },
+          {
+            "id": "corazon",
+            "tipo": "corazon",
+            "pos": [
+              0.25,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Buenas intenciones",
+              "fr": "Bonnes intentions"
+            }
+          },
+          {
+            "id": "taller",
+            "tipo": "engranaje",
+            "pos": [
+              0.85,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "El taller",
+              "fr": "L'usine"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "noe"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "casa"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "corazon"
+          },
+          {
+            "t": 3,
+            "accion": "mueve",
+            "actor": "alma",
+            "a": [
+              0.1,
+              0.78
+            ],
+            "dur": 3
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "alma",
+            "texto": {
+              "es": "Os escribiré. Seguro.",
+              "fr": "Je vous écrirai. C'est sûr."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "taller"
+          },
+          {
+            "t": 6.4,
+            "accion": "une",
+            "de": "noe",
+            "a": "taller"
+          },
+          {
+            "t": 7.2,
+            "accion": "dice",
+            "actor": "noe",
+            "texto": {
+              "es": "Ya no espero tu carta.",
+              "fr": "Je n'attends plus ta lettre."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "tiembla",
+            "actor": "corazon"
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Buenas intenciones sin actos: eso no es libertad, es una bella alma.",
+              "fr": "Des bonnes intentions sans actes : ce n'est pas la liberté, c'est une belle âme."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Alma se va con la conciencia tranquila y las manos vacías. Noé carga con el taller, y nadie le pide cuentas a ella, ni siquiera ella misma.",
+        "fr": "Alma part la conscience tranquille et les mains vides. Noé hérite de l'usine, et personne ne lui demande de comptes, pas même elle."
+      },
+      "final": {
+        "id": "f4",
+        "titulo": {
+          "es": "La bella alma",
+          "fr": "La belle âme"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Alma se escuda en que «todo estaba determinado» o en buenas intenciones vagas para no responder de nada. Pero sin responsabilidad no hay ni bien ni mal, ni mérito ni falta. Para Kant la libertad se prueba dándose una ley moral y cumpliéndola; la intención buena sin acto es la «belle âme» de Hegel.",
+          "fr": "Alma se réfugie derrière « tout était déterminé » ou de vagues bonnes intentions pour ne répondre de rien. Mais sans responsabilité, il n'y a ni bien ni mal, ni mérite ni faute. Pour Kant, la liberté se prouve en se donnant une loi morale et en la respectant ; l'intention bonne sans acte est la « belle âme » de Hegel."
+        },
+        "filosofo": "kant",
+        "cita": {
+          "texto": "Il n’y aurait donc ni bien ni mal, ni mérite ni faute",
+          "pagina_pdf": 262
+        },
+        "pagina_pdf": 263,
+        "reflexion": {
+          "es": "Si todo estuviera determinado, ¿se podría reprochar algo a alguien? ¿Basta tener buenas intenciones para ser responsable?",
+          "fr": "Si tout était déterminé, pourrait-on reprocher quoi que ce soit à quelqu'un ? Suffit-il d'avoir de bonnes intentions pour être responsable ?"
+        }
+      }
+    },
+    "f5": {
+      "escena": {
+        "titulo": {
+          "es": "La que asume",
+          "fr": "Celle qui assume"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "papa",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Papá Marc",
+              "fr": "Papa Marc"
+            }
+          },
+          {
+            "id": "noe",
+            "tipo": "monigote",
+            "pos": [
+              0.52,
+              0.84
+            ],
+            "etiqueta": {
+              "es": "Noé",
+              "fr": "Noé"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "beca",
+            "tipo": "estrella",
+            "pos": [
+              0.18,
+              0.28
+            ],
+            "etiqueta": {
+              "es": "La beca",
+              "fr": "La bourse"
+            }
+          },
+          {
+            "id": "sol",
+            "tipo": "sol",
+            "pos": [
+              0.85,
+              0.18
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "papa"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "noe"
+          },
+          {
+            "t": 1.8,
+            "accion": "aparece",
+            "actor": "beca"
+          },
+          {
+            "t": 2.4,
+            "accion": "resalta",
+            "actor": "beca"
+          },
+          {
+            "t": 3.2,
+            "accion": "dice",
+            "actor": "alma",
+            "texto": {
+              "es": "Vuelvo cada domingo, y mi beca ayudará en casa.",
+              "fr": "Je rentre chaque dimanche, et ma bourse aidera à la maison."
+            }
+          },
+          {
+            "t": 5.6,
+            "accion": "une",
+            "de": "alma",
+            "a": "papa",
+            "nota": {
+              "es": "promesa",
+              "fr": "promesse"
+            }
+          },
+          {
+            "t": 6.6,
+            "accion": "dice",
+            "actor": "papa",
+            "texto": {
+              "es": "Ve, hija. Que tu palabra sea tu ley.",
+              "fr": "Va, ma fille. Que ta parole soit ta loi."
+            }
+          },
+          {
+            "t": 8.4,
+            "accion": "aparece",
+            "actor": "sol"
+          },
+          {
+            "t": 9,
+            "accion": "salta",
+            "actor": "alma"
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Conoció sus cadenas, eligió con lucidez y se hizo responsable.",
+              "fr": "Elle a connu ses chaînes, choisi avec lucidité et pris ses responsabilités."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Alma envía la carta a las 23:59. Parte con un compromiso que sabe cumplir y sin ocultarse tras sus causas: el camino será duro, pero es suyo.",
+        "fr": "Alma envoie la lettre à 23 h 59. Elle part avec un engagement qu'elle sait tenir, sans se cacher derrière ses causes : la route sera dure, mais elle est la sienne."
+      },
+      "final": {
+        "id": "f5",
+        "titulo": {
+          "es": "La que asume",
+          "fr": "Celle qui assume"
+        },
+        "tipo": "luminoso",
+        "idea": {
+          "es": "Alma no niega las causas que la formaron: las conoce (Spinoza) y, desde ahí, se da una ley propia y la cumple (Kant). No es libre por escapar de todo determinismo, sino por comprenderlo, elegir con lucidez y asumir las consecuencias, incluida la renuncia a lo cómodo. La libertad no es solo un poder: es un uso.",
+          "fr": "Alma ne nie pas les causes qui l'ont façonnée : elle les connaît (Spinoza) et, de là, se donne une loi propre et la respecte (Kant). Elle n'est pas libre parce qu'elle échappe à tout déterminisme, mais parce qu'elle le comprend, choisit avec lucidité et assume les conséquences, y compris le renoncement au confort. La liberté n'est pas seulement un pouvoir : c'est un usage."
+        },
+        "filosofo": "kant",
+        "cita": {
+          "texto": "toute action bonne ou mauvaise doit être pleinement assumée",
+          "pagina_pdf": 262
+        },
+        "pagina_pdf": 262,
+        "reflexion": {
+          "es": "¿Es la libertad la ausencia de cadenas o la capacidad de comprenderlas y responder de lo que hacemos con ellas? ¿Qué te diría esto sobre tu propia elección?",
+          "fr": "La liberté est-elle l'absence de chaînes, ou la capacité de les comprendre et de répondre de ce que l'on en fait ? Que dirait cela de ton propre choix ?"
+        }
+      }
+    }
+  }
+}

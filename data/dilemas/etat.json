@@ -1,0 +1,2655 @@
+{
+  "id": "etat-ile",
+  "capitulo": "etat",
+  "titulo": {
+    "es": "La isla sin ley",
+    "fr": "L’île sans loi"
+  },
+  "premisa": {
+    "es": "Un ferry naufraga y cuarenta supervivientes llegan a una isla desierta con una sola caja de víveres. Alma, ingeniera, ve cómo el miedo los divide. Hay que decidir ahora quién manda, en nombre de qué y a qué precio.",
+    "fr": "Un ferry fait naufrage et quarante survivants gagnent une île déserte avec une seule caisse de vivres. Alma, ingénieure, voit la peur les diviser. Il faut décider maintenant qui commande, au nom de quoi et à quel prix."
+  },
+  "protagonista": "Alma",
+  "inicio": "n1",
+  "nodos": {
+    "n1": {
+      "escena": {
+        "titulo": "La première nuit",
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "nube",
+            "tipo": "nube",
+            "pos": [
+              0.2,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Tormenta",
+              "fr": "Tempête"
+            }
+          },
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.75
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "caja",
+            "tipo": "caja",
+            "pos": [
+              0.5,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Víveres",
+              "fr": "Vivres"
+            }
+          },
+          {
+            "id": "marco",
+            "tipo": "monigote",
+            "pos": [
+              0.85,
+              0.75
+            ],
+            "etiqueta": {
+              "es": "Marco",
+              "fr": "Marco"
+            }
+          },
+          {
+            "id": "miedo",
+            "tipo": "rayo",
+            "pos": [
+              0.55,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Miedo",
+              "fr": "Peur"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "nube"
+          },
+          {
+            "t": 0.4,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "caja"
+          },
+          {
+            "t": 1,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Naufragio. Cuarenta supervivientes y una sola caja de víveres.",
+              "fr": "Naufrage. Quarante survivants et une seule caisse de vivres."
+            }
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "marco"
+          },
+          {
+            "t": 3.4,
+            "accion": "mueve",
+            "actor": "marco",
+            "a": [
+              0.6,
+              0.75
+            ],
+            "dur": 1.5
+          },
+          {
+            "t": 5,
+            "accion": "dice",
+            "actor": "marco",
+            "texto": {
+              "es": "Es mía. Quien quiera comer, que me obedezca.",
+              "fr": "À moi. Qui veut manger m’obéit."
+            }
+          },
+          {
+            "t": 6.5,
+            "accion": "aparece",
+            "actor": "miedo"
+          },
+          {
+            "t": 6.8,
+            "accion": "tiembla",
+            "actor": "alma"
+          },
+          {
+            "t": 7.5,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "Sin ley, gana el más fuerte...",
+              "fr": "Sans loi, le plus fort l’emporte..."
+            }
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Todos se temen entre sí. ¿Quién debe mandar aquí?",
+              "fr": "Tous se craignent. Qui doit commander ici ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "El mar deja a los supervivientes en una playa oscura. Marco, el más fuerte, se ha adueñado de la caja de víveres y el miedo se extiende.",
+        "fr": "La mer jette les survivants sur une plage sombre. Marco, le plus fort, s’est emparé de la caisse de vivres et la peur gagne tout le monde."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo organizas la isla?",
+          "fr": "Comment organises-tu l’île ?"
+        },
+        "tiempo_seg": 15,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Un jefe fuerte que nos proteja a todos",
+              "fr": "Un chef fort qui nous protège tous"
+            },
+            "a": "n2",
+            "postura": {
+              "es": "Contrato de sumisión (Hobbes)",
+              "fr": "Contrat de soumission (Hobbes)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Una asamblea: la ley de todos",
+              "fr": "Une assemblée : la loi de tous"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Contrato de asociación (Rousseau)",
+              "fr": "Contrat d’association (Rousseau)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Tomar el control con astucia",
+              "fr": "Prendre le contrôle par la ruse"
+            },
+            "a": "n4",
+            "postura": {
+              "es": "Amoralidad del político (Maquiavelo)",
+              "fr": "Amoralité du politique (Machiavel)"
+            }
+          }
+        ]
+      }
+    },
+    "n2": {
+      "escena": {
+        "titulo": "Le chef",
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.75
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "marco",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.75
+            ],
+            "etiqueta": {
+              "es": "El Jefe",
+              "fr": "Le Chef"
+            }
+          },
+          {
+            "id": "corona",
+            "tipo": "corona",
+            "pos": [
+              0.7,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Poder absoluto",
+              "fr": "Pouvoir absolu"
+            }
+          },
+          {
+            "id": "paz",
+            "tipo": "corazon",
+            "pos": [
+              0.45,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Paz",
+              "fr": "Paix"
+            }
+          },
+          {
+            "id": "radio",
+            "tipo": "caja",
+            "pos": [
+              0.2,
+              0.45
+            ],
+            "etiqueta": {
+              "es": "Radio",
+              "fr": "Radio"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.4,
+            "accion": "aparece",
+            "actor": "marco"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "corona"
+          },
+          {
+            "t": 1,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Todos lo eligen jefe: Marco protege, pero exige obediencia.",
+              "fr": "Tous l’élisent chef : Marco protège, mais exige l’obéissance."
+            }
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "paz"
+          },
+          {
+            "t": 3.5,
+            "accion": "proyecta",
+            "de": "marco",
+            "a": "paz",
+            "nota": "protección"
+          },
+          {
+            "t": 5,
+            "accion": "dice",
+            "actor": "marco",
+            "texto": {
+              "es": "Obedeced: es por vuestro bien.",
+              "fr": "Obéissez : c’est pour votre bien."
+            }
+          },
+          {
+            "t": 6.5,
+            "accion": "aparece",
+            "actor": "radio"
+          },
+          {
+            "t": 6.8,
+            "accion": "une",
+            "de": "marco",
+            "a": "radio",
+            "nota": "la exige"
+          },
+          {
+            "t": 7.8,
+            "accion": "dice",
+            "actor": "marco",
+            "texto": {
+              "es": "Dame tu radio, Alma. Y no más reuniones.",
+              "fr": "Donne-moi ta radio, Alma. Plus de réunions."
+            }
+          },
+          {
+            "t": 9.3,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "¿La paz a cambio de todo?",
+              "fr": "La paix, en échange de tout ?"
+            }
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Vuelve la paz civil. ¿Cuánta libertad estamos cediendo?",
+              "fr": "La paix civile revient. Combien de liberté cédons-nous ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Elegido por todos, Marco impone la paz: se acabaron los robos y las peleas. Ahora exige la radio de Alma y prohíbe las reuniones.",
+        "fr": "Élu par tous, Marco impose la paix : plus de vols ni de bagarres. Il exige maintenant la radio d’Alma et interdit les réunions."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué respondes al jefe?",
+          "fr": "Que réponds-tu au chef ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Obedecer: la paz vale ese precio",
+              "fr": "Obéir : la paix vaut ce prix"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "La seguridad ante todo (Hobbes)",
+              "fr": "La sécurité avant tout (Hobbes)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Exigir una ley que obligue también al jefe",
+              "fr": "Exiger une loi qui lie aussi le chef"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "No alienar la libertad (Rousseau)",
+              "fr": "Ne pas aliéner sa liberté (Rousseau)"
+            }
+          }
+        ]
+      }
+    },
+    "n3": {
+      "escena": {
+        "titulo": "L’assemblée",
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "fuego",
+            "tipo": "fuego",
+            "pos": [
+              0.5,
+              0.55
+            ],
+            "etiqueta": {
+              "es": "Fuego común",
+              "fr": "Feu commun"
+            }
+          },
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.25,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "theo",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.85
+            ],
+            "etiqueta": {
+              "es": "Théo, el médico",
+              "fr": "Théo, le médecin"
+            }
+          },
+          {
+            "id": "victor",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Victor",
+              "fr": "Victor"
+            }
+          },
+          {
+            "id": "ley",
+            "tipo": "libro",
+            "pos": [
+              0.4,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "La ley de todos",
+              "fr": "La loi de tous"
+            }
+          },
+          {
+            "id": "reservas",
+            "tipo": "caja",
+            "pos": [
+              0.88,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Sus reservas",
+              "fr": "Ses réserves"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "fuego"
+          },
+          {
+            "t": 0.3,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "theo"
+          },
+          {
+            "t": 0.7,
+            "accion": "aparece",
+            "actor": "victor"
+          },
+          {
+            "t": 1,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Junto al fuego todos hablan: se escribirá una ley para todos.",
+              "fr": "Autour du feu, tous parlent : on écrira une loi pour tous."
+            }
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "ley"
+          },
+          {
+            "t": 3.3,
+            "accion": "une",
+            "de": "alma",
+            "a": "ley"
+          },
+          {
+            "t": 3.6,
+            "accion": "une",
+            "de": "theo",
+            "a": "ley"
+          },
+          {
+            "t": 4.3,
+            "accion": "dice",
+            "actor": "theo",
+            "texto": {
+              "es": "Obedeceremos a la ley, no a un hombre.",
+              "fr": "Nous obéirons à la loi, pas à un homme."
+            }
+          },
+          {
+            "t": 6.2,
+            "accion": "aparece",
+            "actor": "reservas"
+          },
+          {
+            "t": 6.4,
+            "accion": "resalta",
+            "actor": "reservas"
+          },
+          {
+            "t": 6.8,
+            "accion": "dice",
+            "actor": "victor",
+            "texto": {
+              "es": "Mis provisiones son mías. La ley no me alcanza.",
+              "fr": "Mes provisions sont à moi. La loi ne me vise pas."
+            }
+          },
+          {
+            "t": 8.6,
+            "accion": "tiembla",
+            "actor": "ley"
+          },
+          {
+            "t": 9,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "Una ley con excepciones no es ley.",
+              "fr": "Une loi à exceptions n’est plus une loi."
+            }
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La ley de todos nace, pero Victor, el rico, se resiste.",
+              "fr": "La loi de tous naît, mais Victor, le riche, résiste."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Alrededor del fuego se redacta una ley común. Pero Victor, que salvó medicinas y víveres de primera clase, se niega a compartirlos.",
+        "fr": "Autour du feu, on rédige une loi commune. Mais Victor, qui a sauvé médicaments et vivres de première classe, refuse de les partager."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces con Victor?",
+          "fr": "Que fais-tu de Victor ?"
+        },
+        "tiempo_seg": 14,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Aplicar la ley a todos, también a él",
+              "fr": "Appliquer la loi à tous, lui compris"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Igualdad ante la ley (Rousseau)",
+              "fr": "Égalité devant la loi (Rousseau)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Dejarle sus privilegios por la paz",
+              "fr": "Lui laisser ses privilèges pour la paix"
+            },
+            "a": "n7",
+            "postura": {
+              "es": "Igualdad meramente formal",
+              "fr": "Égalité purement formelle"
+            }
+          }
+        ]
+      }
+    },
+    "n4": {
+      "escena": {
+        "titulo": "Le secret de l’entrepôt",
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.75
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "caja",
+            "tipo": "caja",
+            "pos": [
+              0.5,
+              0.45
+            ],
+            "etiqueta": {
+              "es": "Reservas casi vacías",
+              "fr": "Réserves presque vides"
+            }
+          },
+          {
+            "id": "theo",
+            "tipo": "monigote",
+            "pos": [
+              0.75,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Théo, el médico",
+              "fr": "Théo, le médecin"
+            }
+          },
+          {
+            "id": "ojo",
+            "tipo": "ojo",
+            "pos": [
+              0.85,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Rumor",
+              "fr": "Rumeur"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.4,
+            "accion": "aparece",
+            "actor": "caja"
+          },
+          {
+            "t": 0.8,
+            "accion": "une",
+            "de": "alma",
+            "a": "caja",
+            "nota": "secreto"
+          },
+          {
+            "t": 1,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Alma guarda la llave del almacén: casi no queda nada, pero nadie lo sabe.",
+              "fr": "Alma garde la clé de l’entrepôt : il ne reste presque rien, mais nul ne le sait."
+            }
+          },
+          {
+            "t": 3.5,
+            "accion": "aparece",
+            "actor": "theo"
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "theo",
+            "texto": {
+              "es": "Díselo, Alma. Merecen la verdad.",
+              "fr": "Dis-le, Alma. Ils méritent la vérité."
+            }
+          },
+          {
+            "t": 5.8,
+            "accion": "dice",
+            "actor": "alma",
+            "texto": {
+              "es": "La verdad los aterraría. La calma los salva.",
+              "fr": "La vérité les affolerait. Le calme les sauve."
+            }
+          },
+          {
+            "t": 7.3,
+            "accion": "aparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 7.6,
+            "accion": "tiembla",
+            "actor": "caja"
+          },
+          {
+            "t": 8.8,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "Un buen jefe sabe cuándo mentir.",
+              "fr": "Un bon chef sait quand mentir."
+            }
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La política mide los resultados, no los principios.",
+              "fr": "La politique se mesure aux résultats, non aux principes."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Alma toma la llave del almacén y reparte la comida con promesas. Théo, el médico, duda: las reservas casi se han agotado y la gente no lo sabe.",
+        "fr": "Alma prend la clé de l’entrepôt et distribue la nourriture à coups de promesses. Théo, le médecin, doute : les réserves sont presque épuisées et personne ne le sait."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Hasta dónde llegas?",
+          "fr": "Jusqu’où vas-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Confesar la verdad ante todos",
+              "fr": "Avouer la vérité devant tous"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Contar con el pueblo soberano",
+              "fr": "Compter avec le peuple souverain"
+            }
+          },
+          {
+            "texto": {
+              "es": "Seguir mintiendo: la calma primero",
+              "fr": "Continuer à mentir : le calme d’abord"
+            },
+            "a": "n8",
+            "postura": {
+              "es": "La política no es la moral (Maquiavelo)",
+              "fr": "La politique n’est pas la morale (Machiavel)"
+            }
+          }
+        ]
+      }
+    },
+    "n5": {
+      "escena": {
+        "titulo": "Les patrouilles",
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "marco",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.75
+            ],
+            "etiqueta": {
+              "es": "El Jefe",
+              "fr": "Le Chef"
+            }
+          },
+          {
+            "id": "ojo",
+            "tipo": "ojo",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Patrullas",
+              "fr": "Patrouilles"
+            }
+          },
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "samir",
+            "tipo": "monigote",
+            "pos": [
+              0.82,
+              0.75
+            ],
+            "etiqueta": {
+              "es": "Samir",
+              "fr": "Samir"
+            }
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.12,
+              0.35
+            ],
+            "etiqueta": {
+              "es": "Toque de queda",
+              "fr": "Couvre-feu"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "marco"
+          },
+          {
+            "t": 0.3,
+            "accion": "aparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.9,
+            "accion": "aparece",
+            "actor": "samir"
+          },
+          {
+            "t": 1,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Pasan las semanas: orden, toque de queda y patrullas en la playa.",
+              "fr": "Les semaines passent : ordre, couvre-feu et patrouilles sur la plage."
+            }
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "samir",
+            "texto": {
+              "es": "Marco se equivoca. Alguien debe decirlo.",
+              "fr": "Marco se trompe. Il faut le dire."
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "proyecta",
+            "de": "ojo",
+            "a": "samir",
+            "nota": "vigilado"
+          },
+          {
+            "t": 6.8,
+            "accion": "dice",
+            "actor": "marco",
+            "texto": {
+              "es": "Alma, ¿qué dice Samir? Ya sabes la regla.",
+              "fr": "Alma, que dit Samir ? Tu connais la règle."
+            }
+          },
+          {
+            "t": 8.3,
+            "accion": "tiembla",
+            "actor": "alma"
+          },
+          {
+            "t": 8.8,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "Si hablo, me protejo. Si callo...",
+              "fr": "Si je parle, je suis à l’abri. Sinon..."
+            }
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Oír, vigilar, delatar: el miedo entra ya en las casas.",
+              "fr": "Écouter, surveiller, dénoncer : la peur entre dans les maisons."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Con Marco hay comida y nadie roba. Pero las patrullas escuchan hasta las conversaciones, y Samir, tu vecino, ha criticado al jefe.",
+        "fr": "Avec Marco, il y a à manger et personne ne vole. Mais les patrouilles écoutent jusqu’aux conversations, et Samir, ton voisin, a critiqué le chef."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces con Samir?",
+          "fr": "Que fais-tu de Samir ?"
+        },
+        "tiempo_seg": 10,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Hablar en público y pedir una ley",
+              "fr": "Parler en public et réclamer une loi"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Recuperar la soberanía del pueblo",
+              "fr": "Reprendre la souveraineté du peuple"
+            }
+          },
+          {
+            "texto": {
+              "es": "Delatarlo para seguir a salvo",
+              "fr": "Le dénoncer pour rester en sécurité"
+            },
+            "a": "f1",
+            "postura": {
+              "es": "Obediencia absoluta al Leviatán",
+              "fr": "Obéissance absolue au Léviathan"
+            }
+          }
+        ]
+      }
+    },
+    "n6": {
+      "escena": {
+        "titulo": "Les naufragés",
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ley",
+            "tipo": "libro",
+            "pos": [
+              0.25,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "La ley de todos",
+              "fr": "La loi de tous"
+            }
+          },
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "marco",
+            "tipo": "monigote",
+            "pos": [
+              0.45,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Marco",
+              "fr": "Marco"
+            }
+          },
+          {
+            "id": "bandera",
+            "tipo": "bandera",
+            "pos": [
+              0.45,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Nuestra isla",
+              "fr": "Notre île"
+            }
+          },
+          {
+            "id": "ext",
+            "tipo": "monigote",
+            "pos": [
+              0.88,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Náufragos extranjeros",
+              "fr": "Naufragés étrangers"
+            }
+          },
+          {
+            "id": "puerta",
+            "tipo": "puerta",
+            "pos": [
+              0.7,
+              0.55
+            ],
+            "etiqueta": {
+              "es": "La playa",
+              "fr": "La plage"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ley"
+          },
+          {
+            "t": 0.3,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "marco"
+          },
+          {
+            "t": 1,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Tiempo después: la ley rige para todos, hasta para Victor, y hay paz.",
+              "fr": "Plus tard : la loi vaut pour tous, même pour Victor, et la paix règne."
+            }
+          },
+          {
+            "t": 3.5,
+            "accion": "aparece",
+            "actor": "bandera"
+          },
+          {
+            "t": 4,
+            "accion": "aparece",
+            "actor": "ext"
+          },
+          {
+            "t": 4.4,
+            "accion": "salta",
+            "actor": "ext"
+          },
+          {
+            "t": 5,
+            "accion": "dice",
+            "actor": "ext",
+            "texto": {
+              "es": "¡Ayuda! Nuestro barco se hundió.",
+              "fr": "À l’aide ! Notre navire a sombré."
+            }
+          },
+          {
+            "t": 6.8,
+            "accion": "dice",
+            "actor": "marco",
+            "texto": {
+              "es": "Son demasiados. Cerremos la playa.",
+              "fr": "Ils sont trop nombreux. Fermons la plage."
+            }
+          },
+          {
+            "t": 8.3,
+            "accion": "aparece",
+            "actor": "puerta"
+          },
+          {
+            "t": 8.6,
+            "accion": "tiembla",
+            "actor": "ext"
+          },
+          {
+            "t": 9.2,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "¿Nosotros contra ellos, o todos juntos?",
+              "fr": "Nous contre eux, ou tous ensemble ?"
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "¿Qué nos hace comunidad: la sangre o una ley común?",
+              "fr": "Qu’est-ce qui nous fait communauté : le sang ou une loi commune ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Hay ley, hay pan y hay paz. Entonces llega una barca a la playa: otros náufragos, de otra lengua y otro país, piden refugio.",
+        "fr": "Il y a une loi, du pain et la paix. Alors une barque touche la plage : d’autres naufragés, d’une autre langue et d’un autre pays, demandent refuge."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Quién tiene derecho a quedarse?",
+          "fr": "Qui a le droit de rester ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Acogerlos bajo la misma ley",
+              "fr": "Les accueillir sous la même loi"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "La nación como asociación (Sieyès)",
+              "fr": "La nation comme association (Sieyès)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Cerrar la playa: nosotros primero",
+              "fr": "Fermer la plage : nous d’abord"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Nación de sangre y miedo al otro",
+              "fr": "Nation du sang et peur de l’autre"
+            }
+          }
+        ]
+      }
+    },
+    "n7": {
+      "escena": {
+        "titulo": "Libres et égaux ?",
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ley",
+            "tipo": "libro",
+            "pos": [
+              0.5,
+              0.15
+            ],
+            "etiqueta": {
+              "es": "Igualdad de derechos",
+              "fr": "Égalité des droits"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "victor",
+            "tipo": "monigote",
+            "pos": [
+              0.22,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Victor",
+              "fr": "Victor"
+            }
+          },
+          {
+            "id": "moneda",
+            "tipo": "moneda",
+            "pos": [
+              0.22,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Agua y semillas",
+              "fr": "Eau et semences"
+            }
+          },
+          {
+            "id": "pobre",
+            "tipo": "monigote",
+            "pos": [
+              0.75,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Los pobres",
+              "fr": "Les pauvres"
+            }
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.75,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Dependencia",
+              "fr": "Dépendance"
+            }
+          },
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.85
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ley"
+          },
+          {
+            "t": 0.3,
+            "accion": "aparece",
+            "actor": "victor"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "pobre"
+          },
+          {
+            "t": 0.9,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 1,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La ley proclama a todos libres e iguales... sobre el papel.",
+              "fr": "La loi proclame tous les hommes libres et égaux... sur le papier."
+            }
+          },
+          {
+            "t": 3.2,
+            "accion": "aparece",
+            "actor": "moneda"
+          },
+          {
+            "t": 3.5,
+            "accion": "une",
+            "de": "victor",
+            "a": "moneda"
+          },
+          {
+            "t": 4,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 4.3,
+            "accion": "une",
+            "de": "pobre",
+            "a": "cadena"
+          },
+          {
+            "t": 5.2,
+            "accion": "dice",
+            "actor": "pobre",
+            "texto": {
+              "es": "Somos ciudadanos, pero tenemos hambre.",
+              "fr": "Nous sommes citoyens, mais nous avons faim."
+            }
+          },
+          {
+            "t": 7.2,
+            "accion": "dice",
+            "actor": "victor",
+            "texto": {
+              "es": "Os doy trabajo... a mi precio.",
+              "fr": "Je vous donne du travail... à mon prix."
+            }
+          },
+          {
+            "t": 8.7,
+            "accion": "tiembla",
+            "actor": "pobre"
+          },
+          {
+            "t": 9.2,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "Iguales ante la ley, desiguales en todo.",
+              "fr": "Égaux devant la loi, inégaux en tout."
+            }
+          },
+          {
+            "t": 10.8,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La igualdad de derechos no ha cambiado las condiciones reales.",
+              "fr": "L’égalité des droits n’a pas changé les conditions réelles."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Pasan los meses y Victor controla el agua, las semillas y las medicinas. Todos son «libres e iguales» ante la ley, pero los pobres trabajan para él por un plato de comida.",
+        "fr": "Les mois passent et Victor contrôle l’eau, les semences et les médicaments. Tous sont « libres et égaux » devant la loi, mais les pauvres travaillent pour lui contre une assiette de nourriture."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo respondes?",
+          "fr": "Comment réagis-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Exigir un reparto real de los recursos",
+              "fr": "Exiger un partage réel des ressources"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Igualdad real, no ilusoria (Marx)",
+              "fr": "Égalité réelle, non illusoire (Marx)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Callar: la ley dice que todos son iguales",
+              "fr": "Se taire : la loi dit que tous sont égaux"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Confiar en la igualdad formal",
+              "fr": "Se fier à l’égalité formelle"
+            }
+          }
+        ]
+      }
+    },
+    "n8": {
+      "escena": {
+        "titulo": "Le mensonge s’effondre",
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "caja",
+            "tipo": "caja",
+            "pos": [
+              0.5,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Almacén vacío",
+              "fr": "Entrepôt vide"
+            }
+          },
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "turba",
+            "tipo": "monigote",
+            "pos": [
+              0.15,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Hambrientos",
+              "fr": "Affamés"
+            }
+          },
+          {
+            "id": "furia",
+            "tipo": "rayo",
+            "pos": [
+              0.25,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Furia",
+              "fr": "Colère"
+            }
+          },
+          {
+            "id": "ext",
+            "tipo": "monigote",
+            "pos": [
+              0.88,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Barca extranjera",
+              "fr": "Barque étrangère"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "caja"
+          },
+          {
+            "t": 0.3,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "turba"
+          },
+          {
+            "t": 1,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El almacén está vacío y la mentira ya no se sostiene.",
+              "fr": "L’entrepôt est vide et le mensonge ne tient plus."
+            }
+          },
+          {
+            "t": 2.5,
+            "accion": "tiembla",
+            "actor": "caja"
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "furia"
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "turba",
+            "texto": {
+              "es": "¡Nos has engañado! ¿Dónde está la comida?",
+              "fr": "Tu nous as trompés ! Où est la nourriture ?"
+            }
+          },
+          {
+            "t": 5.8,
+            "accion": "aparece",
+            "actor": "ext"
+          },
+          {
+            "t": 6.2,
+            "accion": "salta",
+            "actor": "ext"
+          },
+          {
+            "t": 7,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "Una barca extranjera: la culpable ideal.",
+              "fr": "Une barque étrangère : la coupable idéale."
+            }
+          },
+          {
+            "t": 8.8,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Alma puede desviar la furia, aplastarla... o rendir cuentas.",
+              "fr": "Alma peut détourner la colère, l’écraser... ou rendre des comptes."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Las reservas se acaban y el engaño sale a la luz. La multitud grita, y en ese instante llegan náufragos extranjeros a la playa.",
+        "fr": "Les réserves s’épuisent et la tromperie éclate au grand jour. La foule hurle, et c’est alors que des naufragés étrangers touchent la plage."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo conservas el poder?",
+          "fr": "Comment gardes-tu le pouvoir ?"
+        },
+        "tiempo_seg": 10,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Confesar y devolver el poder al pueblo",
+              "fr": "Avouer et rendre le pouvoir au peuple"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "El pueblo es el fundamento del poder",
+              "fr": "Le peuple fonde le pouvoir"
+            }
+          },
+          {
+            "texto": {
+              "es": "Culpar a los extranjeros del hambre",
+              "fr": "Accuser les étrangers de la famine"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Fabricar un enemigo (el zorro)",
+              "fr": "Fabriquer un ennemi (le renard)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Aplastar la revuelta por la fuerza",
+              "fr": "Écraser la révolte par la force"
+            },
+            "a": "f1",
+            "postura": {
+              "es": "La fuerza del león",
+              "fr": "La force du lion"
+            }
+          }
+        ]
+      }
+    },
+    "n9": {
+      "escena": {
+        "titulo": "La cité qui discute",
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "marco",
+            "tipo": "monigote",
+            "pos": [
+              0.18,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Marco",
+              "fr": "Marco"
+            }
+          },
+          {
+            "id": "leila",
+            "tipo": "monigote",
+            "pos": [
+              0.85,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Leïla (recién llegada)",
+              "fr": "Leïla (nouvelle venue)"
+            }
+          },
+          {
+            "id": "rayo",
+            "tipo": "rayo",
+            "pos": [
+              0.5,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Desacuerdo",
+              "fr": "Désaccord"
+            }
+          },
+          {
+            "id": "martillo",
+            "tipo": "martillo",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Unanimidad",
+              "fr": "Unanimité"
+            }
+          },
+          {
+            "id": "flor",
+            "tipo": "flor",
+            "pos": [
+              0.82,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Diferencias",
+              "fr": "Différences"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.4,
+            "accion": "aparece",
+            "actor": "marco"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "leila"
+          },
+          {
+            "t": 1,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Un año después, la isla es una ciudad. Y las discusiones no cesan.",
+              "fr": "Un an plus tard, l’île est une cité. Et les disputes ne cessent pas."
+            }
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "rayo"
+          },
+          {
+            "t": 3.5,
+            "accion": "dice",
+            "actor": "marco",
+            "texto": {
+              "es": "Para mí, la libertad es esto.",
+              "fr": "Pour moi, la liberté, c’est ceci."
+            }
+          },
+          {
+            "t": 5.2,
+            "accion": "dice",
+            "actor": "leila",
+            "texto": {
+              "es": "Y para mí, la igualdad es otra cosa.",
+              "fr": "Et pour moi, l’égalité, c’est autre chose."
+            }
+          },
+          {
+            "t": 7,
+            "accion": "aparece",
+            "actor": "martillo"
+          },
+          {
+            "t": 7.2,
+            "accion": "aparece",
+            "actor": "flor"
+          },
+          {
+            "t": 7.5,
+            "accion": "dice",
+            "actor": "marco",
+            "texto": {
+              "es": "Basta de peleas: prohibamos los desacuerdos.",
+              "fr": "Assez de disputes : interdisons les désaccords."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "tiembla",
+            "actor": "flor"
+          },
+          {
+            "t": 9.5,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "¿Y si la paz total es solo silencio?",
+              "fr": "Et si la paix totale n’était que silence ?"
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Una ciudad sin conflicto es cómoda... ¿pero sigue siendo libre?",
+              "fr": "Une cité sans conflit est confortable... mais est-elle encore libre ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La isla ya es una ciudad con ciudadanos de todos los orígenes. Cansados de discutir, muchos piden una felicidad común y el fin de los desacuerdos.",
+        "fr": "L’île est désormais une cité aux citoyens de toutes origines. Lassés de se disputer, beaucoup réclament un bonheur commun et la fin des désaccords."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo mantienes la libertad?",
+          "fr": "Comment préserves-tu la liberté ?"
+        },
+        "tiempo_seg": 15,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Defender el debate y vigilar al poder",
+              "fr": "Défendre le débat et surveiller le pouvoir"
+            },
+            "a": "f5",
+            "postura": {
+              "es": "Libertad como exigencia ciudadana",
+              "fr": "Liberté comme exigence citoyenne"
+            }
+          },
+          {
+            "texto": {
+              "es": "Prohibir los desacuerdos: felicidad para todos",
+              "fr": "Interdire les désaccords : bonheur pour tous"
+            },
+            "a": "f4",
+            "postura": {
+              "es": "Armonía y uniformidad impuestas",
+              "fr": "Harmonie et uniformité imposées"
+            }
+          }
+        ]
+      }
+    },
+    "f1": {
+      "escena": {
+        "titulo": "L’ordre de la peur",
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "leviatan",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.5,
+              0.38
+            ],
+            "etiqueta": {
+              "es": "El Leviatán",
+              "fr": "Le Léviathan"
+            },
+            "escala": 1.4
+          },
+          {
+            "id": "ojo",
+            "tipo": "ojo",
+            "pos": [
+              0.5,
+              0.1
+            ],
+            "etiqueta": {
+              "es": "Vigilancia",
+              "fr": "Surveillance"
+            }
+          },
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.22,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.78,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Obediencia",
+              "fr": "Obéissance"
+            }
+          },
+          {
+            "id": "nube",
+            "tipo": "nube",
+            "pos": [
+              0.15,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Silencio",
+              "fr": "Silence"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "leviatan"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "nube"
+          },
+          {
+            "t": 1.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La isla está en paz. Nadie roba, nadie habla.",
+              "fr": "L’île est en paix. Personne ne vole, personne ne parle."
+            }
+          },
+          {
+            "t": 3.5,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 4,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 4.4,
+            "accion": "une",
+            "de": "alma",
+            "a": "cadena",
+            "nota": "seguridad a cambio de libertad"
+          },
+          {
+            "t": 5.5,
+            "accion": "tiembla",
+            "actor": "alma"
+          },
+          {
+            "t": 6,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "Ya no obedecemos leyes: obedecemos a un hombre.",
+              "fr": "Nous n’obéissons plus à des lois : à un homme."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "resalta",
+            "actor": "ojo"
+          },
+          {
+            "t": 9,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Cedimos la libertad por seguridad, y perdimos las dos.",
+              "fr": "Nous avons cédé la liberté pour la sécurité, et perdu les deux."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "El orden reina, pero a base de miedo: patrullas, delaciones y silencio. Quien manda ya no responde ante nadie.",
+        "fr": "L’ordre règne, mais par la peur : patrouilles, délations et silence. Celui qui commande ne rend plus de comptes à personne."
+      },
+      "final": {
+        "id": "f1",
+        "titulo": {
+          "es": "El orden del miedo",
+          "fr": "L’ordre de la peur"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Hobbes justifica un poder fuerte y absoluto a cambio de protección, pero cuando el poder depende de un hombre, de su astucia o de su fuerza (como en Maquiavelo) se vuelve arbitrario. Rousseau lo advierte: no se puede alienar la libertad en nombre de la seguridad sin arriesgarse a perder las dos.",
+          "fr": "Hobbes justifie un pouvoir fort et absolu en échange de la protection, mais quand le pouvoir dépend d’un homme, de sa ruse ou de sa force (comme chez Machiavel), il devient arbitraire. Rousseau l’avertit : on ne peut aliéner sa liberté au nom de sa sécurité sans risquer de perdre les deux."
+        },
+        "filosofo": "rousseau",
+        "cita": {
+          "texto": "il n’obéit qu’aux lois, et c’est par la […] force des lois qu’il n’obéit pas aux […] hommes.",
+          "pagina_pdf": 215
+        },
+        "pagina_pdf": 215,
+        "reflexion": {
+          "es": "¿Puede llamarse paz una seguridad sin libertad? ¿Qué frena al poder de quien nos protege? (¿El Estado nos hace libres?)",
+          "fr": "Une sécurité sans liberté peut-elle s’appeler paix ? Qu’est-ce qui limite le pouvoir de celui qui nous protège ? (L’État rend-il libre ?)"
+        }
+      }
+    },
+    "f2": {
+      "escena": {
+        "titulo": "L’égalité sur le papier",
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "ley",
+            "tipo": "libro",
+            "pos": [
+              0.5,
+              0.15
+            ],
+            "etiqueta": {
+              "es": "Igualdad de derechos",
+              "fr": "Égalité des droits"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "victor",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Victor",
+              "fr": "Victor"
+            }
+          },
+          {
+            "id": "moneda",
+            "tipo": "moneda",
+            "pos": [
+              0.2,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Privilegios económicos",
+              "fr": "Privilèges économiques"
+            }
+          },
+          {
+            "id": "pobre",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Los pobres",
+              "fr": "Les pauvres"
+            }
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.8,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Alienación",
+              "fr": "Aliénation"
+            }
+          },
+          {
+            "id": "espejo",
+            "tipo": "espejo",
+            "pos": [
+              0.5,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Ilusión",
+              "fr": "Illusion"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ley"
+          },
+          {
+            "t": 0.3,
+            "accion": "aparece",
+            "actor": "victor"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "moneda"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "pobre"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 1.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La ley dice «iguales». La vida diaria dice lo contrario.",
+              "fr": "La loi dit « égaux ». La vie quotidienne dit le contraire."
+            }
+          },
+          {
+            "t": 3.5,
+            "accion": "aparece",
+            "actor": "espejo"
+          },
+          {
+            "t": 4.2,
+            "accion": "proyecta",
+            "de": "pobre",
+            "a": "victor",
+            "nota": "trabajo"
+          },
+          {
+            "t": 6,
+            "accion": "tiembla",
+            "actor": "espejo"
+          },
+          {
+            "t": 6.5,
+            "accion": "cita",
+            "texto": "« républiques bourgeoises » : l’égalité des droits, une simple mystification"
+          },
+          {
+            "t": 8.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Los privilegios jurídicos se cambiaron por privilegios económicos.",
+              "fr": "Les privilèges juridiques ont été remplacés par des privilèges économiques."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Nadie protestó y la desigualdad creció. Todos tienen los mismos derechos, pero siguen existiendo los que mandan y los que obedecen por hambre.",
+        "fr": "Personne n’a protesté et l’inégalité a grandi. Tous ont les mêmes droits, mais il reste ceux qui commandent et ceux qui obéissent par faim."
+      },
+      "final": {
+        "id": "f2",
+        "titulo": {
+          "es": "La igualdad de papel",
+          "fr": "L’égalité de papier"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Para Marx, el Estado republicano proclama la igualdad de derechos, pero a los privilegios jurídicos del Antiguo Régimen suceden privilegios económicos: es una «universalidad ilusoria» que mantiene la explotación y la alienación.",
+          "fr": "Pour Marx, l’État républicain proclame l’égalité des droits, mais aux privilèges juridiques de l’Ancien Régime se substituent des privilèges économiques : c’est une « universalité illusoire » qui maintient l’exploitation et l’aliénation."
+        },
+        "filosofo": "marx",
+        "cita": {
+          "texto": "républiques bourgeoises",
+          "pagina_pdf": 216
+        },
+        "pagina_pdf": 216,
+        "reflexion": {
+          "es": "¿Basta la igualdad jurídica para ser libre? ¿Qué debería hacer un Estado ante las desigualdades sociales y económicas?",
+          "fr": "L’égalité juridique suffit-elle pour être libre ? Que doit faire un État face aux inégalités sociales et économiques ?"
+        }
+      }
+    },
+    "f3": {
+      "escena": {
+        "titulo": "Nous contre eux",
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "bandera",
+            "tipo": "bandera",
+            "pos": [
+              0.2,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Nuestra isla",
+              "fr": "Notre île"
+            }
+          },
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "puerta",
+            "tipo": "puerta",
+            "pos": [
+              0.55,
+              0.6
+            ],
+            "etiqueta": {
+              "es": "Exclusión",
+              "fr": "Exclusion"
+            }
+          },
+          {
+            "id": "ext",
+            "tipo": "monigote",
+            "pos": [
+              0.88,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Los de fuera",
+              "fr": "Ceux du dehors"
+            }
+          },
+          {
+            "id": "odio",
+            "tipo": "fuego",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Odio",
+              "fr": "Haine"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "bandera"
+          },
+          {
+            "t": 0.4,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "puerta"
+          },
+          {
+            "t": 1.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La playa se cierra. Los de fuera se quedan fuera.",
+              "fr": "La plage se ferme. Ceux du dehors restent dehors."
+            }
+          },
+          {
+            "t": 3.5,
+            "accion": "aparece",
+            "actor": "ext"
+          },
+          {
+            "t": 4,
+            "accion": "tiembla",
+            "actor": "ext"
+          },
+          {
+            "t": 4.8,
+            "accion": "aparece",
+            "actor": "odio"
+          },
+          {
+            "t": 6,
+            "accion": "piensa",
+            "actor": "alma",
+            "texto": {
+              "es": "¿Y si mañana somos nosotros los de fuera?",
+              "fr": "Et si demain, c’étaient nous, ceux du dehors ?"
+            }
+          },
+          {
+            "t": 8,
+            "accion": "desaparece",
+            "actor": "ext"
+          },
+          {
+            "t": 9,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El nacionalismo une por miedo y excluye: el Estado se cierra sobre sí mismo.",
+              "fr": "Le nationalisme unit par peur et exclut : l’État se referme sur lui-même."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La isla se salva a costa de los demás. La unidad se construye contra alguien, y la tolerancia queda fuera de la ley.",
+        "fr": "L’île se sauve aux dépens des autres. L’unité se construit contre quelqu’un, et la tolérance reste hors de la loi."
+      },
+      "final": {
+        "id": "f3",
+        "titulo": {
+          "es": "Nosotros contra ellos",
+          "fr": "Nous contre eux"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Una nación entendida como sangre y miedo al otro conduce a la exclusión y, en el siglo XX, al Estado totalitario. Sieyès propone lo contrario: un cuerpo de asociados bajo una ley común que integra las diferencias. La patria une; el nacionalismo teme.",
+          "fr": "Une nation conçue comme sang et peur de l’autre mène à l’exclusion et, au XXe siècle, à l’État totalitaire. Sieyès propose l’inverse : un corps d’associés sous une loi commune qui intègre les différences. La patrie rassemble ; le nationalisme a peur."
+        },
+        "filosofo": "sieyes",
+        "cita": {
+          "texto": "Le patriotisme, c’est l’amour […] des siens ; le nationalisme, c’est […] la haine des autres.",
+          "pagina_pdf": 213
+        },
+        "pagina_pdf": 213,
+        "reflexion": {
+          "es": "¿Qué da fundamento espiritual a un Estado: el origen común o los valores compartidos? ¿Puede un Estado cerrarse sin dejar de ser libre?",
+          "fr": "Qu’est-ce qui donne un fondement spirituel à un État : l’origine commune ou les valeurs partagées ? Un État peut-il se fermer sans cesser d’être libre ?"
+        }
+      }
+    },
+    "f4": {
+      "escena": {
+        "titulo": "La paix du silence",
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "estado",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.5,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "El Estado-felicidad",
+              "fr": "L’État-bonheur"
+            },
+            "escala": 1.3
+          },
+          {
+            "id": "p1",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Singularidad",
+              "fr": "Singularité"
+            }
+          },
+          {
+            "id": "p2",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.85
+            ],
+            "etiqueta": {
+              "es": "Singularidad",
+              "fr": "Singularité"
+            }
+          },
+          {
+            "id": "p3",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Singularidad",
+              "fr": "Singularité"
+            }
+          },
+          {
+            "id": "flor",
+            "tipo": "flor",
+            "pos": [
+              0.5,
+              0.58
+            ],
+            "etiqueta": {
+              "es": "Diferencias",
+              "fr": "Différences"
+            }
+          },
+          {
+            "id": "puerta",
+            "tipo": "puerta",
+            "pos": [
+              0.85,
+              0.35
+            ],
+            "etiqueta": {
+              "es": "Libertad",
+              "fr": "Liberté"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "estado"
+          },
+          {
+            "t": 0.4,
+            "accion": "aparece",
+            "actor": "p1"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "p2"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "p3"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "flor"
+          },
+          {
+            "t": 1.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Nadie discute, todos sonríen. La ciudad está en calma.",
+              "fr": "Personne ne discute, tous sourient. La cité est calme."
+            }
+          },
+          {
+            "t": 3.5,
+            "accion": "tiembla",
+            "actor": "flor"
+          },
+          {
+            "t": 4.2,
+            "accion": "desaparece",
+            "actor": "flor"
+          },
+          {
+            "t": 4.5,
+            "accion": "etiqueta",
+            "actor": "p1",
+            "texto": {
+              "es": "Uniforme",
+              "fr": "Uniforme"
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "etiqueta",
+            "actor": "p2",
+            "texto": {
+              "es": "Uniforme",
+              "fr": "Uniforme"
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "etiqueta",
+            "actor": "p3",
+            "texto": {
+              "es": "Uniforme",
+              "fr": "Uniforme"
+            }
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "puerta"
+          },
+          {
+            "t": 6.5,
+            "accion": "tiembla",
+            "actor": "puerta"
+          },
+          {
+            "t": 7,
+            "accion": "cita",
+            "texto": "Quand dans un État, vous ne percevez le bruit d’aucun conflit, vous pouvez être sûr que la liberté n’y est pas."
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Una felicidad impuesta uniformiza: la libertad de cada uno queda en peligro.",
+              "fr": "Un bonheur imposé uniformise : la liberté de chacun est en danger."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La ciudad es feliz y silenciosa. Pero las diferencias se aplastan, y quien piensa distinto aprende pronto a callar.",
+        "fr": "La cité est heureuse et silencieuse. Mais les différences sont écrasées, et celui qui pense autrement apprend vite à se taire."
+      },
+      "final": {
+        "id": "f4",
+        "titulo": {
+          "es": "La paz del silencio",
+          "fr": "La paix du silence"
+        },
+        "tipo": "ambiguo",
+        "idea": {
+          "es": "Tocqueville teme que la pasión de la igualdad degenere en igualitarismo: un mundo uniforme donde la mayoría aplasta las diferencias («tyrannie de la majorité»). Montesquieu añade que un Estado sin ningún conflicto es señal de que la libertad no existe, y que la felicidad subjetiva solo interesa a un Estado que quiere regularlo todo.",
+          "fr": "Tocqueville craint que la passion de l’égalité dégénère en égalitarisme : un monde uniforme où la majorité écrase les différences (« tyrannie de la majorité »). Montesquieu ajoute qu’un État sans aucun conflit est le signe que la liberté n’y est pas, et que le bonheur, subjectif, n’intéresse qu’un État qui veut tout régir."
+        },
+        "filosofo": "tocqueville",
+        "cita": {
+          "texto": "tyrannie de la majorité",
+          "pagina_pdf": 224
+        },
+        "pagina_pdf": 224,
+        "reflexion": {
+          "es": "«Lo que hace del Estado un infierno es que el hombre intenta convertirlo en un paraíso» (Hölderlin). ¿Puede un Estado imponer la felicidad sin quitar la libertad?",
+          "fr": "« Ce qui fait de l’État un enfer, c’est que l’homme essaie d’en faire un paradis » (Hölderlin). Un État peut-il imposer le bonheur sans supprimer la liberté ?"
+        }
+      }
+    },
+    "f5": {
+      "escena": {
+        "titulo": "La liberté vigilante",
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ley",
+            "tipo": "libro",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "La ley",
+              "fr": "La loi"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "alma",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Alma",
+              "fr": "Alma"
+            }
+          },
+          {
+            "id": "marco",
+            "tipo": "monigote",
+            "pos": [
+              0.18,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Marco",
+              "fr": "Marco"
+            }
+          },
+          {
+            "id": "leila",
+            "tipo": "monigote",
+            "pos": [
+              0.84,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Leïla",
+              "fr": "Leïla"
+            }
+          },
+          {
+            "id": "rayo",
+            "tipo": "rayo",
+            "pos": [
+              0.5,
+              0.55
+            ],
+            "etiqueta": {
+              "es": "Debate",
+              "fr": "Débat"
+            }
+          },
+          {
+            "id": "puerta",
+            "tipo": "puerta",
+            "pos": [
+              0.84,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Libertad",
+              "fr": "Liberté"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ley"
+          },
+          {
+            "t": 0.3,
+            "accion": "aparece",
+            "actor": "alma"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "marco"
+          },
+          {
+            "t": 0.9,
+            "accion": "aparece",
+            "actor": "leila"
+          },
+          {
+            "t": 1.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La ciudad sigue discutiendo, pero la ley está por encima de cada hombre.",
+              "fr": "La cité continue de débattre, mais la loi est au-dessus de chaque homme."
+            }
+          },
+          {
+            "t": 3.5,
+            "accion": "une",
+            "de": "marco",
+            "a": "ley"
+          },
+          {
+            "t": 3.8,
+            "accion": "une",
+            "de": "leila",
+            "a": "ley"
+          },
+          {
+            "t": 4.1,
+            "accion": "une",
+            "de": "alma",
+            "a": "ley"
+          },
+          {
+            "t": 4.8,
+            "accion": "dice",
+            "actor": "marco",
+            "texto": {
+              "es": "Mi cargo es un servicio, no una propiedad.",
+              "fr": "Ma charge est un service, pas une propriété."
+            }
+          },
+          {
+            "t": 6.5,
+            "accion": "aparece",
+            "actor": "rayo"
+          },
+          {
+            "t": 7,
+            "accion": "aparece",
+            "actor": "puerta"
+          },
+          {
+            "t": 7.4,
+            "accion": "resalta",
+            "actor": "puerta"
+          },
+          {
+            "t": 8,
+            "accion": "cita",
+            "texto": "Quand dans un État, vous ne percevez le bruit d’aucun conflit, vous pouvez être sûr que la liberté n’y est pas."
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La libertad no la regala el Estado: la sostienen ciudadanos vigilantes y exigentes.",
+              "fr": "La liberté n’est pas un don de l’État : des citoyens vigilants et exigeants la maintiennent."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Hay desacuerdos, votaciones y críticas, pero nadie posee el poder: la ley está por encima de quienes la ejercen y los ciudadanos la vigilan.",
+        "fr": "Il y a des désaccords, des votes et des critiques, mais personne ne possède le pouvoir : la loi est au-dessus de ceux qui l’exercent et les citoyens la surveillent."
+      },
+      "final": {
+        "id": "f5",
+        "titulo": {
+          "es": "La libertad vigilante",
+          "fr": "La liberté vigilante"
+        },
+        "tipo": "luminoso",
+        "idea": {
+          "es": "Weber muestra que el Estado es poder institucionalizado: quienes lo ejercen son servidores del pueblo. Montesquieu añade que la divisa republicana es un ideal y una exigencia de los ciudadanos, y que el conflicto alimenta el espíritu democrático. El Estado es siempre perfectible.",
+          "fr": "Weber montre que l’État est un pouvoir institutionnalisé : ceux qui l’exercent sont les serviteurs du peuple. Montesquieu ajoute que la devise républicaine est un idéal et une exigence que les citoyens se donnent, et que le conflit nourrit l’esprit démocratique. L’État est toujours perfectible."
+        },
+        "filosofo": "montesquieu",
+        "cita": {
+          "texto": "Quand dans un État, vous […] ne percevez le bruit d’aucun […] conflit, vous pouvez être sûr […] que la liberté n’y est pas.",
+          "pagina_pdf": 217
+        },
+        "pagina_pdf": 217,
+        "reflexion": {
+          "es": "¿El Estado nos hace libres o lo hacen los ciudadanos que lo vigilan? ¿Qué desacuerdos necesita una democracia para seguir viva?",
+          "fr": "L’État rend-il libre, ou sont-ce les citoyens qui le surveillent ? De quels désaccords une démocratie a-t-elle besoin pour rester vivante ?"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2585 @@
+{
+  "id": "verite-passerelle",
+  "capitulo": "verite",
+  "titulo": {
+    "es": "La grieta del puente",
+    "fr": "La fissure du pont"
+  },
+  "premisa": {
+    "es": "Mara, periodista de un pequeño diario, descubre que la pasarela que se inaugura mañana tiene una grieta que el alcalde conocía. Puede publicarlo, callarlo, dudar de todo o conformarse con lo útil. Cada elección encarna una manera de entender qué es la verdad… y tiene su precio.",
+    "fr": "Mara, journaliste dans un petit quotidien, découvre que la passerelle inaugurée demain présente une fissure que le maire connaissait. Elle peut la publier, la taire, douter de tout ou se contenter de ce qui est utile. Chaque choix incarne une façon de comprendre ce qu’est la vérité… et a son prix."
+  },
+  "protagonista": "Mara",
+  "inicio": "n1",
+  "nodos": {
+    "n1": {
+      "escena": {
+        "titulo": {
+          "es": "La grieta",
+          "fr": "La fissure"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.22,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "libro",
+            "tipo": "libro",
+            "pos": [
+              0.48,
+              0.58
+            ],
+            "etiqueta": {
+              "es": "Informe anónimo",
+              "fr": "Rapport anonyme"
+            },
+            "escala": 1
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Medianoche",
+              "fr": "Minuit"
+            },
+            "escala": 1
+          },
+          {
+            "id": "pilar",
+            "tipo": "piedra",
+            "pos": [
+              0.78,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Pilar de la pasarela",
+              "fr": "Pilier de la passerelle"
+            },
+            "escala": 1
+          },
+          {
+            "id": "grieta",
+            "tipo": "rayo",
+            "pos": [
+              0.78,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Grieta",
+              "fr": "Fissure"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "bandera",
+            "tipo": "bandera",
+            "pos": [
+              0.9,
+              0.28
+            ],
+            "etiqueta": {
+              "es": "Inauguración",
+              "fr": "Inauguration"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 1.6,
+            "accion": "aparece",
+            "actor": "libro"
+          },
+          {
+            "t": 2.6,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "El informe contradice el certificado oficial.",
+              "fr": "Le rapport contredit le certificat officiel."
+            }
+          },
+          {
+            "t": 4.6,
+            "accion": "aparece",
+            "actor": "pilar"
+          },
+          {
+            "t": 5.2,
+            "accion": "aparece",
+            "actor": "grieta"
+          },
+          {
+            "t": 5.8,
+            "accion": "tiembla",
+            "actor": "grieta"
+          },
+          {
+            "t": 7,
+            "accion": "aparece",
+            "actor": "bandera"
+          },
+          {
+            "t": 8,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Mañana medio pueblo cruzará ese puente.",
+              "fr": "Demain, la moitié de la ville traversera ce pont."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Una grieta oculta, una fiesta mañana y una sola periodista que lo sabe.",
+              "fr": "Une fissure cachée, une fête demain et une seule journaliste qui le sait."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara, periodista de La Gazette, recibe un informe anónimo: el pilar de la pasarela nueva está agrietado. Mañana el alcalde la inaugura.",
+        "fr": "Mara, journaliste à La Gazette, reçoit un rapport anonyme : le pilier de la passerelle neuve est fissuré. Demain, le maire l’inaugure."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces con esta verdad?",
+          "fr": "Que fais-tu de cette vérité ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Publicarlo esta misma noche",
+              "fr": "Le publier cette nuit même"
+            },
+            "a": "n2",
+            "postura": {
+              "es": "Sacar la verdad a la luz",
+              "fr": "Mettre la vérité en lumière"
+            }
+          },
+          {
+            "texto": {
+              "es": "Comprobar cada dato antes de nada",
+              "fr": "Vérifier chaque donnée avant tout"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Duda y verificación",
+              "fr": "Doute et vérification"
+            }
+          },
+          {
+            "texto": {
+              "es": "Ir a hablar con el alcalde",
+              "fr": "Aller parler au maire"
+            },
+            "a": "n4",
+            "postura": {
+              "es": "Verdad negociada",
+              "fr": "Vérité négociée"
+            }
+          }
+        ]
+      }
+    },
+    "n2": {
+      "escena": {
+        "titulo": {
+          "es": "Portada al amanecer",
+          "fr": "Une à l’aube"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "portada",
+            "tipo": "libro",
+            "pos": [
+              0.42,
+              0.6
+            ],
+            "etiqueta": {
+              "es": "La Gazette: portada",
+              "fr": "La Gazette : la une"
+            },
+            "escala": 1
+          },
+          {
+            "id": "alcalde",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "El alcalde",
+              "fr": "Le maire"
+            },
+            "escala": 1
+          },
+          {
+            "id": "nube",
+            "tipo": "nube",
+            "pos": [
+              0.55,
+              0.24
+            ],
+            "etiqueta": {
+              "es": "Rumores",
+              "fr": "Rumeurs"
+            },
+            "escala": 1.2
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "portada"
+          },
+          {
+            "t": 1.4,
+            "accion": "resalta",
+            "actor": "portada"
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "alcalde"
+          },
+          {
+            "t": 3.8,
+            "accion": "dice",
+            "actor": "alcalde",
+            "texto": {
+              "es": "¡Es solo la opinión de una periodista!",
+              "fr": "Ce n’est que l’opinion d’une journaliste !"
+            }
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "nube"
+          },
+          {
+            "t": 6.5,
+            "accion": "proyecta",
+            "de": "alcalde",
+            "a": "nube",
+            "nota": {
+              "es": "Duda",
+              "fr": "Doute"
+            }
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Nadie quiere oír lo que rompe la fiesta.",
+              "fr": "Personne ne veut entendre ce qui brise la fête."
+            }
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Amanece: la portada grita la verdad y el alcalde la llama «opinión».",
+              "fr": "L’aube se lève : la une crie la vérité et le maire la traite d’« opinion »."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La portada sale al amanecer. Ante las cámaras, el alcalde responde que es una simple opinión y que el pueblo no debe asustarse.",
+        "fr": "La une sort à l’aube. Devant les caméras, le maire répond que ce n’est qu’une opinion et que la ville ne doit pas s’alarmer."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo defiendes lo que publicaste?",
+          "fr": "Comment défends-tu ce que tu as publié ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Gritar la verdad en la plaza, contra todos",
+              "fr": "Crier la vérité sur la place, contre tous"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Amar la verdad contra todos",
+              "fr": "Aimer la vérité contre tous"
+            }
+          },
+          {
+            "texto": {
+              "es": "Publicar también la versión del alcalde",
+              "fr": "Publier aussi la version du maire"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Todas las opiniones valen",
+              "fr": "Toutes les opinions se valent"
+            }
+          }
+        ]
+      }
+    },
+    "n3": {
+      "escena": {
+        "titulo": {
+          "es": "Medir la grieta",
+          "fr": "Mesurer la fissure"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.18,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "teo",
+            "tipo": "monigote",
+            "pos": [
+              0.36,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Téo",
+              "fr": "Téo"
+            },
+            "escala": 1
+          },
+          {
+            "id": "pilar",
+            "tipo": "piedra",
+            "pos": [
+              0.78,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Pilar de la pasarela",
+              "fr": "Pilier de la passerelle"
+            },
+            "escala": 1
+          },
+          {
+            "id": "grieta",
+            "tipo": "rayo",
+            "pos": [
+              0.78,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Grieta",
+              "fr": "Fissure"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "duda",
+            "tipo": "interrogacion",
+            "pos": [
+              0.52,
+              0.3
+            ],
+            "escala": 1.2
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "teo"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "pilar"
+          },
+          {
+            "t": 1.6,
+            "accion": "aparece",
+            "actor": "grieta"
+          },
+          {
+            "t": 3,
+            "accion": "dice",
+            "actor": "teo",
+            "texto": {
+              "es": "Mide tú misma: la grieta crece cada día.",
+              "fr": "Mesure toi-même : la fissure grandit chaque jour."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "resalta",
+            "actor": "grieta"
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "duda"
+          },
+          {
+            "t": 6.8,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "¿Y si el aparato falla? ¿Y si el informe miente?",
+              "fr": "Et si l’appareil se trompait ? Et si le rapport mentait ?"
+            }
+          },
+          {
+            "t": 9,
+            "accion": "tiembla",
+            "actor": "duda"
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Junto al pilar, Mara descubre que ver no siempre basta para estar segura.",
+              "fr": "Près du pilier, Mara découvre que voir ne suffit pas toujours pour être sûre."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Con Téo, el ingeniero que filtró el informe, mides la grieta. Crece… pero ¿cuánta certeza necesitas antes de hablar?",
+        "fr": "Avec Téo, l’ingénieur qui a fait fuiter le rapport, tu mesures la fissure. Elle grandit… mais quelle certitude te faut-il avant de parler ?"
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué criterio de verdad sigues?",
+          "fr": "Quel critère de vérité suis-tu ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "No publicar sin certeza absoluta",
+              "fr": "Ne rien publier sans certitude absolue"
+            },
+            "a": "n7",
+            "postura": {
+              "es": "Evidencia y duda metódica",
+              "fr": "Évidence et doute méthodique"
+            }
+          },
+          {
+            "texto": {
+              "es": "Sopesar lo más verosímil con expertos",
+              "fr": "Peser le plus vraisemblable avec des experts"
+            },
+            "a": "n8",
+            "postura": {
+              "es": "Escepticismo y verosimilitud",
+              "fr": "Scepticisme et vraisemblance"
+            }
+          },
+          {
+            "texto": {
+              "es": "Mis ojos no se equivocan: publicar ya",
+              "fr": "Mes yeux ne se trompent pas : publier"
+            },
+            "a": "n2",
+            "postura": {
+              "es": "Los sentidos no se equivocan",
+              "fr": "Les sens ne se trompent jamais"
+            }
+          }
+        ]
+      }
+    },
+    "n4": {
+      "escena": {
+        "titulo": {
+          "es": "El pacto del alcalde",
+          "fr": "Le pacte du maire"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.18,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "alcalde",
+            "tipo": "monigote",
+            "pos": [
+              0.76,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "El alcalde",
+              "fr": "Le maire"
+            },
+            "escala": 1
+          },
+          {
+            "id": "corona",
+            "tipo": "corona",
+            "pos": [
+              0.76,
+              0.46
+            ],
+            "escala": 1
+          },
+          {
+            "id": "moneda",
+            "tipo": "moneda",
+            "pos": [
+              0.48,
+              0.34
+            ],
+            "etiqueta": {
+              "es": "Turismo y empleos",
+              "fr": "Tourisme et emplois"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "alcalde"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "corona"
+          },
+          {
+            "t": 1.6,
+            "accion": "resalta",
+            "actor": "corona"
+          },
+          {
+            "t": 2.6,
+            "accion": "dice",
+            "actor": "alcalde",
+            "texto": {
+              "es": "La verdad es lo que sirve al pueblo, Mara.",
+              "fr": "La vérité, c’est ce qui sert la ville, Mara."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "moneda"
+          },
+          {
+            "t": 5.5,
+            "accion": "proyecta",
+            "de": "alcalde",
+            "a": "mara",
+            "nota": {
+              "es": "Presión",
+              "fr": "Pression"
+            }
+          },
+          {
+            "t": 7,
+            "accion": "dice",
+            "actor": "alcalde",
+            "texto": {
+              "es": "Tres días. Después lo reparo todo, lo juro.",
+              "fr": "Trois jours. Ensuite je répare tout, je le jure."
+            }
+          },
+          {
+            "t": 9.2,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Suena razonable… demasiado razonable.",
+              "fr": "Ça paraît raisonnable… trop raisonnable."
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El alcalde no niega la grieta: ofrece una verdad cómoda, útil y con fecha de caducidad.",
+              "fr": "Le maire ne nie pas la fissure : il offre une vérité commode, utile et périssable."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "El alcalde te recibe sonriendo. Conoce la grieta y propone un pacto: silencio hasta pasada la fiesta, y después repararla.",
+        "fr": "Le maire te reçoit en souriant. Il connaît la fissure et propose un pacte : le silence jusqu’après la fête, puis la réparation."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Aceptas su pacto?",
+          "fr": "Acceptes-tu son pacte ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Aceptar: el pueblo necesita esta fiesta",
+              "fr": "Accepter : la ville a besoin de cette fête"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Verdad útil (pragmatismo)",
+              "fr": "Vérité utile (pragmatisme)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Rechazar y comprobarlo yo misma",
+              "fr": "Refuser et vérifier moi-même"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Duda y verificación",
+              "fr": "Doute et vérification"
+            }
+          },
+          {
+            "texto": {
+              "es": "«Cada cual su verdad»: publicar ambas",
+              "fr": "« À chacun sa vérité » : publier les deux"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Relativismo (Protágoras)",
+              "fr": "Relativisme (Protagoras)"
+            }
+          }
+        ]
+      }
+    },
+    "n5": {
+      "escena": {
+        "titulo": {
+          "es": "Día de inauguración",
+          "fr": "Jour d’inauguration"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "bandera",
+            "tipo": "bandera",
+            "pos": [
+              0.5,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Inauguración",
+              "fr": "Inauguration"
+            },
+            "escala": 1
+          },
+          {
+            "id": "alcalde",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "El alcalde",
+              "fr": "Le maire"
+            },
+            "escala": 1
+          },
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.18,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "pilar",
+            "tipo": "piedra",
+            "pos": [
+              0.86,
+              0.66
+            ],
+            "etiqueta": {
+              "es": "Pilar de la pasarela",
+              "fr": "Pilier de la passerelle"
+            },
+            "escala": 1
+          },
+          {
+            "id": "grieta",
+            "tipo": "rayo",
+            "pos": [
+              0.86,
+              0.46
+            ],
+            "etiqueta": {
+              "es": "Grieta",
+              "fr": "Fissure"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.2,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "10:00",
+              "fr": "10 h 00"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "bandera"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "alcalde"
+          },
+          {
+            "t": 1.4,
+            "accion": "dice",
+            "actor": "alcalde",
+            "texto": {
+              "es": "¡Hoy cruzamos juntos hacia el futuro!",
+              "fr": "Aujourd’hui, nous traversons ensemble vers l’avenir !"
+            }
+          },
+          {
+            "t": 3.4,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 4.4,
+            "accion": "aparece",
+            "actor": "pilar"
+          },
+          {
+            "t": 4.8,
+            "accion": "aparece",
+            "actor": "grieta"
+          },
+          {
+            "t": 5.4,
+            "accion": "tiembla",
+            "actor": "grieta"
+          },
+          {
+            "t": 6.4,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 7.2,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Cada segundo que callo, la grieta sigue ahí.",
+              "fr": "Chaque seconde de silence, la fissure est toujours là."
+            }
+          },
+          {
+            "t": 10.6,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Suenan las trompetas. Mara aún puede hablar, pero cada segundo cuesta más.",
+              "fr": "Les trompettes sonnent. Mara peut encore parler, mais chaque seconde coûte plus cher."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Día de la inauguración. La plaza canta y el alcalde sostiene las tijeras sobre la cinta. Es tu última oportunidad.",
+        "fr": "Jour d’inauguration. La place chante et le maire tient les ciseaux au-dessus du ruban. C’est ta dernière chance."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Hablas o te quedas callada?",
+          "fr": "Parles-tu ou te tais-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Cruzar la multitud y detener la ceremonia",
+              "fr": "Fendre la foule et arrêter la cérémonie"
+            },
+            "a": "n10",
+            "postura": {
+              "es": "Verdad contra la fiesta",
+              "fr": "La vérité contre la fête"
+            }
+          },
+          {
+            "texto": {
+              "es": "Callar: la fiesta consuela a todos",
+              "fr": "Se taire : la fête console tout le monde"
+            },
+            "a": "f1",
+            "postura": {
+              "es": "Verdad útil (James, Pascal)",
+              "fr": "Vérité utile (James, Pascal)"
+            }
+          }
+        ]
+      }
+    },
+    "n6": {
+      "escena": {
+        "titulo": {
+          "es": "Dos verdades",
+          "fr": "Deux vérités"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.16,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "vA",
+            "tipo": "libro",
+            "pos": [
+              0.4,
+              0.58
+            ],
+            "etiqueta": {
+              "es": "«Es seguro»",
+              "fr": "« Il est sûr »"
+            },
+            "escala": 1
+          },
+          {
+            "id": "vB",
+            "tipo": "libro",
+            "pos": [
+              0.62,
+              0.58
+            ],
+            "etiqueta": {
+              "es": "«Está agrietado»",
+              "fr": "« Il est fissuré »"
+            },
+            "escala": 1
+          },
+          {
+            "id": "vecino",
+            "tipo": "monigote",
+            "pos": [
+              0.86,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Un vecino",
+              "fr": "Un voisin"
+            },
+            "escala": 1
+          },
+          {
+            "id": "nube",
+            "tipo": "nube",
+            "pos": [
+              0.52,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Confusión",
+              "fr": "Confusion"
+            },
+            "escala": 1.2
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "vA"
+          },
+          {
+            "t": 1.6,
+            "accion": "aparece",
+            "actor": "vB"
+          },
+          {
+            "t": 2.6,
+            "accion": "une",
+            "de": "vA",
+            "a": "vB",
+            "nota": {
+              "es": "Ambas valen",
+              "fr": "Les deux valent"
+            }
+          },
+          {
+            "t": 4,
+            "accion": "aparece",
+            "actor": "vecino"
+          },
+          {
+            "t": 4.6,
+            "accion": "dice",
+            "actor": "vecino",
+            "texto": {
+              "es": "Yo creo lo que me da la gana.",
+              "fr": "Moi, je crois ce qui me chante."
+            }
+          },
+          {
+            "t": 6.6,
+            "accion": "aparece",
+            "actor": "nube"
+          },
+          {
+            "t": 7.4,
+            "accion": "tiembla",
+            "actor": "vA"
+          },
+          {
+            "t": 9,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "¿Seguro y no seguro a la vez? Algo no cuadra.",
+              "fr": "Sûr et pas sûr à la fois ? Quelque chose cloche."
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Dos titulares opuestos, un solo puente: no pueden ser verdad los dos.",
+              "fr": "Deux titres opposés, un seul pont : ils ne peuvent pas être vrais tous les deux."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La Gazette publica dos versiones: «el puente es seguro» y «el puente está agrietado». El pueblo discute sin fin y cada cual se queda con la suya.",
+        "fr": "La Gazette publie deux versions : « le pont est sûr » et « le pont est fissuré ». La ville se dispute sans fin et chacun garde la sienne."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué sostienes?",
+          "fr": "Que soutiens-tu ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Exigir coherencia: no pueden ser ambas",
+              "fr": "Exiger la cohérence : pas les deux"
+            },
+            "a": "n8",
+            "postura": {
+              "es": "No contradicción (Aristóteles)",
+              "fr": "Non-contradiction (Aristote)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Dejar que cada cual elija su verdad",
+              "fr": "Laisser chacun choisir sa vérité"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "El hombre, medida de todo",
+              "fr": "L’homme, mesure de toutes choses"
+            }
+          }
+        ]
+      }
+    },
+    "n7": {
+      "escena": {
+        "titulo": {
+          "es": "La duda metódica",
+          "fr": "Le doute méthodique"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "cerebro",
+            "tipo": "cerebro",
+            "pos": [
+              0.5,
+              0.42
+            ],
+            "etiqueta": {
+              "es": "Duda",
+              "fr": "Doute"
+            },
+            "escala": 1.1
+          },
+          {
+            "id": "ojo",
+            "tipo": "ojo",
+            "pos": [
+              0.8,
+              0.45
+            ],
+            "etiqueta": {
+              "es": "Mis ojos",
+              "fr": "Mes yeux"
+            },
+            "escala": 1
+          },
+          {
+            "id": "bombilla",
+            "tipo": "bombilla",
+            "pos": [
+              0.5,
+              0.16
+            ],
+            "etiqueta": {
+              "es": "Lo claro y distinto",
+              "fr": "Le clair et distinct"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "cerebro"
+          },
+          {
+            "t": 1.8,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Dudo de mis ojos, de los datos, del informe…",
+              "fr": "Je doute de mes yeux, des données, du rapport…"
+            }
+          },
+          {
+            "t": 4.4,
+            "accion": "aparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 5,
+            "accion": "une",
+            "de": "cerebro",
+            "a": "ojo",
+            "nota": {
+              "es": "¿Fiable?",
+              "fr": "Fiable ?"
+            }
+          },
+          {
+            "t": 5.8,
+            "accion": "tiembla",
+            "actor": "ojo"
+          },
+          {
+            "t": 7.2,
+            "accion": "aparece",
+            "actor": "bombilla"
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Solo lo claro y distinto resiste a la duda.",
+              "fr": "Seul le clair et distinct résiste au doute."
+            }
+          },
+          {
+            "t": 10.4,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Mara aplica la duda metódica: solo aceptará lo que no admita ninguna sospecha.",
+              "fr": "Mara applique le doute méthodique : elle n’acceptera que ce qui exclut tout soupçon."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Pasas la noche dudando de todo, incluso de tus propios ojos. Quieres una evidencia que no admita réplica. Falta poco para el alba.",
+        "fr": "Tu passes la nuit à douter de tout, même de tes propres yeux. Tu veux une évidence sans réplique. L’aube approche."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Hasta dónde llevas la duda?",
+          "fr": "Jusqu’où pousses-tu le doute ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Seguir dudando hasta la evidencia absoluta",
+              "fr": "Douter jusqu’à l’évidence absolue"
+            },
+            "a": "n11",
+            "postura": {
+              "es": "Duda metódica (Descartes)",
+              "fr": "Doute méthodique (Descartes)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Basta: me quedo con lo más verosímil",
+              "fr": "Assez : je retiens le plus vraisemblable"
+            },
+            "a": "n8",
+            "postura": {
+              "es": "Verosimilitud (Leibniz)",
+              "fr": "Vraisemblance (Leibniz)"
+            }
+          }
+        ]
+      }
+    },
+    "n8": {
+      "escena": {
+        "titulo": {
+          "es": "Pesar las razones",
+          "fr": "Peser les raisons"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.18,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "teo",
+            "tipo": "monigote",
+            "pos": [
+              0.38,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Téo",
+              "fr": "Téo"
+            },
+            "escala": 1
+          },
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.66,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Grados de probabilidad",
+              "fr": "Degrés de probabilité"
+            },
+            "escala": 1.1
+          },
+          {
+            "id": "ojo",
+            "tipo": "ojo",
+            "pos": [
+              0.88,
+              0.3
+            ],
+            "escala": 0.9
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "teo"
+          },
+          {
+            "t": 1.4,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 2.4,
+            "accion": "dice",
+            "actor": "teo",
+            "texto": {
+              "es": "Tres expertos: lo más probable es que ceda.",
+              "fr": "Trois experts : il est très probable qu’il cède."
+            }
+          },
+          {
+            "t": 4.6,
+            "accion": "proyecta",
+            "de": "teo",
+            "a": "balanza",
+            "nota": {
+              "es": "Razones",
+              "fr": "Raisons"
+            }
+          },
+          {
+            "t": 6,
+            "accion": "tiembla",
+            "actor": "balanza"
+          },
+          {
+            "t": 7,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "No tengo certeza, pero sí buenas razones.",
+              "fr": "Je n’ai pas de certitude, mais de bonnes raisons."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "aparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 9.4,
+            "accion": "resalta",
+            "actor": "ojo"
+          },
+          {
+            "t": 10.6,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Sin certeza absoluta, unas tesis valen más que otras: Mara pesa lo verosímil.",
+              "fr": "Sans certitude absolue, certaines thèses valent mieux que d’autres : Mara pèse le vraisemblable."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "No puedes probar con certeza que el pilar caerá. Pero tres expertos coinciden: es mucho más probable que ceda a que aguante.",
+        "fr": "Tu ne peux pas prouver avec certitude que le pilier tombera. Mais trois experts s’accordent : il est bien plus probable qu’il cède qu’il tienne."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Actúas sin certeza absoluta?",
+          "fr": "Agis-tu sans certitude absolue ?"
+        },
+        "tiempo_seg": 15,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Publicar mi duda honesta y pedir cerrarlo",
+              "fr": "Publier mon doute et demander la fermeture"
+            },
+            "a": "f5",
+            "postura": {
+              "es": "Escepticismo que actúa",
+              "fr": "Scepticisme qui agit"
+            }
+          },
+          {
+            "texto": {
+              "es": "Sin certeza, mejor no decir nada",
+              "fr": "Sans certitude, mieux vaut ne rien dire"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Duda que paraliza",
+              "fr": "Doute qui paralyse"
+            }
+          }
+        ]
+      }
+    },
+    "n10": {
+      "escena": {
+        "titulo": {
+          "es": "Detener la ceremonia",
+          "fr": "Arrêter la cérémonie"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.16,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "alcalde",
+            "tipo": "monigote",
+            "pos": [
+              0.78,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "El alcalde",
+              "fr": "Le maire"
+            },
+            "escala": 1
+          },
+          {
+            "id": "vecina",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.74
+            ],
+            "etiqueta": {
+              "es": "Una vecina",
+              "fr": "Une voisine"
+            },
+            "escala": 1
+          },
+          {
+            "id": "lia",
+            "tipo": "monigote",
+            "pos": [
+              0.36,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Lía",
+              "fr": "Lia"
+            },
+            "escala": 0.7
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "alcalde"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1.4,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "¡Detengan la ceremonia! ¡El pilar está agrietado!",
+              "fr": "Arrêtez la cérémonie ! Le pilier est fissuré !"
+            }
+          },
+          {
+            "t": 3.6,
+            "accion": "aparece",
+            "actor": "vecina"
+          },
+          {
+            "t": 4.2,
+            "accion": "dice",
+            "actor": "vecina",
+            "texto": {
+              "es": "¿Con qué pruebas? Hoy es día de fiesta.",
+              "fr": "Quelles preuves ? Aujourd’hui, c’est la fête."
+            }
+          },
+          {
+            "t": 6.2,
+            "accion": "aparece",
+            "actor": "lia"
+          },
+          {
+            "t": 6.6,
+            "accion": "salta",
+            "actor": "lia"
+          },
+          {
+            "t": 7.4,
+            "accion": "dice",
+            "actor": "alcalde",
+            "texto": {
+              "es": "Una opinión no es un hecho. ¡Música!",
+              "fr": "Une opinion n’est pas un fait. Musique !"
+            }
+          },
+          {
+            "t": 9.6,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 10.6,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Entre aplausos y murmullos, la verdad choca con el deseo de creer en la fiesta.",
+              "fr": "Entre applaudissements et murmures, la vérité heurte l’envie de croire à la fête."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Atraviesas la multitud. El alcalde te llama alarmista y la gente duda: nadie quiere que el día más feliz del año se estropee.",
+        "fr": "Tu fends la foule. Le maire te traite d’alarmiste et les gens hésitent : personne ne veut gâcher le plus beau jour de l’année."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo convences al pueblo?",
+          "fr": "Comment convaincre la ville ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Pedir que todos miren la grieta con sus ojos",
+              "fr": "Demander à tous de regarder la fissure"
+            },
+            "a": "f5",
+            "postura": {
+              "es": "Buscar la verdad entre todos",
+              "fr": "Chercher la vérité ensemble"
+            }
+          },
+          {
+            "texto": {
+              "es": "Gritar la verdad contra todos",
+              "fr": "Crier la vérité contre tous"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Amar la verdad contra todos",
+              "fr": "Aimer la vérité contre tous"
+            }
+          }
+        ]
+      }
+    },
+    "n11": {
+      "escena": {
+        "titulo": {
+          "es": "Una evidencia sin sombra",
+          "fr": "Une évidence sans ombre"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.16,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "teo",
+            "tipo": "monigote",
+            "pos": [
+              0.34,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Téo",
+              "fr": "Téo"
+            },
+            "escala": 1
+          },
+          {
+            "id": "medidas",
+            "tipo": "libro",
+            "pos": [
+              0.52,
+              0.62
+            ],
+            "etiqueta": {
+              "es": "Dos mediciones",
+              "fr": "Deux mesures"
+            },
+            "escala": 1
+          },
+          {
+            "id": "bombilla",
+            "tipo": "bombilla",
+            "pos": [
+              0.52,
+              0.24
+            ],
+            "etiqueta": {
+              "es": "Evidencia",
+              "fr": "Évidence"
+            },
+            "escala": 1.1
+          },
+          {
+            "id": "alcalde",
+            "tipo": "monigote",
+            "pos": [
+              0.86,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "El alcalde",
+              "fr": "Le maire"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "teo"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "medidas"
+          },
+          {
+            "t": 2,
+            "accion": "dice",
+            "actor": "teo",
+            "texto": {
+              "es": "Dos aparatos distintos, la misma cifra.",
+              "fr": "Deux appareils différents, le même chiffre."
+            }
+          },
+          {
+            "t": 4.2,
+            "accion": "aparece",
+            "actor": "bombilla"
+          },
+          {
+            "t": 4.6,
+            "accion": "resalta",
+            "actor": "bombilla"
+          },
+          {
+            "t": 5.4,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Esta vez lo veo claro y distinto.",
+              "fr": "Cette fois, je le vois clairement et distinctement."
+            }
+          },
+          {
+            "t": 7.4,
+            "accion": "aparece",
+            "actor": "alcalde"
+          },
+          {
+            "t": 8,
+            "accion": "dice",
+            "actor": "alcalde",
+            "texto": {
+              "es": "Tu certeza es solo tuya. Calla y reparo todo.",
+              "fr": "Ta certitude n’est qu’à toi. Tais-toi, je répare tout."
+            }
+          },
+          {
+            "t": 10.6,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Por fin una evidencia que resiste toda duda… pero el alcalde ofrece un pacto.",
+              "fr": "Enfin une évidence qui résiste à tout doute… mais le maire propose un pacte."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Al alba, dos mediciones independientes dan la misma cifra. Tienes tu evidencia. Pero a las nueve el alcalde te intercepta.",
+        "fr": "À l’aube, deux mesures indépendantes donnent le même chiffre. Tu tiens ton évidence. Mais à neuf heures, le maire t’intercepte."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces con tu certeza?",
+          "fr": "Que fais-tu de ta certitude ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Imponer la evidencia: «no hay discusión»",
+              "fr": "Imposer l’évidence : « pas de discussion »"
+            },
+            "a": "f4",
+            "postura": {
+              "es": "Evidencia cartesiana",
+              "fr": "Évidence cartésienne"
+            }
+          },
+          {
+            "texto": {
+              "es": "Aceptar el trato del alcalde",
+              "fr": "Accepter le marché du maire"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Verdad útil",
+              "fr": "Vérité utile"
+            }
+          }
+        ]
+      }
+    },
+    "f1": {
+      "escena": {
+        "titulo": {
+          "es": "El silencio que consuela",
+          "fr": "Le silence qui console"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "bandera",
+            "tipo": "bandera",
+            "pos": [
+              0.5,
+              0.26
+            ],
+            "etiqueta": {
+              "es": "Fiesta",
+              "fr": "Fête"
+            },
+            "escala": 1
+          },
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "pilar",
+            "tipo": "piedra",
+            "pos": [
+              0.8,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Pilar de la pasarela",
+              "fr": "Pilier de la passerelle"
+            },
+            "escala": 1
+          },
+          {
+            "id": "grieta",
+            "tipo": "rayo",
+            "pos": [
+              0.8,
+              0.48
+            ],
+            "etiqueta": {
+              "es": "Grieta",
+              "fr": "Fissure"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "nube",
+            "tipo": "nube",
+            "pos": [
+              0.5,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Polvo",
+              "fr": "Poussière"
+            },
+            "escala": 1.3
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "bandera"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1.6,
+            "accion": "aparece",
+            "actor": "pilar"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "grieta"
+          },
+          {
+            "t": 3,
+            "accion": "cita",
+            "texto": "posséder des pensées vraies, c’est, à proprement parler, posséder de précieux instruments pour l’action"
+          },
+          {
+            "t": 6,
+            "accion": "tiembla",
+            "actor": "pilar"
+          },
+          {
+            "t": 7.6,
+            "accion": "desaparece",
+            "actor": "pilar"
+          },
+          {
+            "t": 8.2,
+            "accion": "aparece",
+            "actor": "nube"
+          },
+          {
+            "t": 9.2,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Mi silencio también cruzó ese puente.",
+              "fr": "Mon silence a lui aussi traversé ce pont."
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La mentira útil duró una tarde: la realidad fue la que verificó la idea.",
+              "fr": "Le mensonge utile a duré un après-midi : c’est le réel qui a vérifié l’idée."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Esa tarde la pasarela cede con decenas de personas encima. Hay heridos, y entre ellos Téo. La idea «útil» fue puesta a prueba… y falló.",
+        "fr": "Cet après-midi-là, la passerelle cède sous des dizaines de personnes. Il y a des blessés, dont Téo. L’idée « utile » a été mise à l’épreuve… et elle a échoué."
+      },
+      "final": {
+        "id": "f1",
+        "titulo": {
+          "es": "La utilidad que se derrumba",
+          "fr": "L’utilité qui s’effondre"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Para el pragmatismo de James, una idea se juzga por sus consecuencias y se verifica en el uso. Mara eligió el silencio porque consolaba, como Pascal justifica una creencia por lo que reconforta; pero la consecuencia real desmintió esa «utilidad»: consolar hoy no es servir a todas las necesidades humanas mañana.",
+          "fr": "Pour le pragmatisme de James, une idée se juge à ses conséquences et se vérifie à l’usage. Mara a choisi le silence parce qu’il consolait, comme Pascal justifie une croyance par ce qu’elle réconforte ; mais la conséquence réelle a démenti cette « utilité » : consoler aujourd’hui n’est pas satisfaire l’ensemble des besoins humains demain."
+        },
+        "filosofo": "james",
+        "cita": {
+          "texto": "posséder des pensées vraies, c’est, à proprement parler, posséder de précieux instruments pour l’action",
+          "pagina_pdf": 188
+        },
+        "pagina_pdf": 188,
+        "reflexion": {
+          "es": "Si lo verdadero es lo que satisface el conjunto de nuestras necesidades, ¿quién decide qué consecuencias cuentan y a qué plazo? ¿Es verdadero lo que solo consuela?",
+          "fr": "Si le vrai est ce qui satisfait l’ensemble de nos besoins, qui décide des conséquences qui comptent et à quel terme ? Ce qui ne fait que consoler est-il vrai ?"
+        }
+      }
+    },
+    "f2": {
+      "escena": {
+        "titulo": {
+          "es": "Todo es igual de cierto",
+          "fr": "Tout se vaut"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.18,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "vA",
+            "tipo": "libro",
+            "pos": [
+              0.4,
+              0.56
+            ],
+            "etiqueta": {
+              "es": "«Es seguro»",
+              "fr": "« Il est sûr »"
+            },
+            "escala": 1
+          },
+          {
+            "id": "vB",
+            "tipo": "libro",
+            "pos": [
+              0.62,
+              0.56
+            ],
+            "etiqueta": {
+              "es": "«Está agrietado»",
+              "fr": "« Il est fissuré »"
+            },
+            "escala": 1
+          },
+          {
+            "id": "nube",
+            "tipo": "nube",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Todo mezclado",
+              "fr": "Tout mélangé"
+            },
+            "escala": 1.4
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.86,
+              0.62
+            ],
+            "etiqueta": {
+              "es": "Semanas después",
+              "fr": "Des semaines plus tard"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "vA"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "vB"
+          },
+          {
+            "t": 2,
+            "accion": "cita",
+            "texto": "l’homme est la mesure de toutes choses"
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "nube"
+          },
+          {
+            "t": 5.6,
+            "accion": "tiembla",
+            "actor": "vA"
+          },
+          {
+            "t": 7,
+            "accion": "desaparece",
+            "actor": "vA"
+          },
+          {
+            "t": 8,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 9,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Un puente no discute: aguanta o no aguanta.",
+              "fr": "Un pont ne discute pas : il tient ou il ne tient pas."
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Si todo vale, nada se puede afirmar: la verdad desaparece y la grieta sigue creciendo.",
+              "fr": "Si tout se vaut, plus rien ne s’affirme : la vérité disparaît et la fissure continue de grandir."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Cada cual cree su versión y nadie actúa. La Gazette pierde su crédito, culpan a Téo, y la pasarela sigue abierta mientras la grieta crece sin que nadie pueda probar nada.",
+        "fr": "Chacun croit sa version et personne n’agit. La Gazette perd sa crédibilité, on accuse Téo, et la passerelle reste ouverte pendant que la fissure grandit sans que personne ne puisse rien prouver."
+      },
+      "final": {
+        "id": "f2",
+        "titulo": {
+          "es": "Cuando todo se confunde",
+          "fr": "Quand tout se confond"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Con Protágoras («el hombre es la medida de todas las cosas») dos opiniones contrarias serían igual de verdaderas, y el concepto de verdad perdería su lugar. Aristóteles responde con el principio de no contradicción: lo mismo no puede ser y no ser a la vez bajo el mismo aspecto; no todas las opiniones valen. Sin ese marco, ningún discurso puede ser reconocido como verdadero.",
+          "fr": "Avec Protagoras (« l’homme est la mesure de toutes choses »), deux opinions contraires seraient également vraies et le concept de vérité n’aurait plus lieu d’être. Aristote répond par le principe de non-contradiction : une même chose ne peut être et ne pas être en même temps sous le même rapport ; toutes les opinions ne se valent pas. Sans ce cadre, aucun discours ne peut être reconnu comme vrai."
+        },
+        "filosofo": "aristote",
+        "cita": {
+          "texto": "il est impossible que le même attribut appartienne et n’appartienne pas en même temps au même sujet et sous le même rapport",
+          "pagina_pdf": 185
+        },
+        "pagina_pdf": 185,
+        "reflexion": {
+          "es": "¿Una opinión es legítima solo porque nace de mi percepción o de mi deseo? ¿Qué distingue una opinión de un saber que puede ser refutado?",
+          "fr": "Une opinion est-elle légitime du seul fait qu’elle naît de ma perception ou de mon désir ? Qu’est-ce qui distingue une opinion d’un savoir qui peut être réfuté ?"
+        }
+      }
+    },
+    "f3": {
+      "escena": {
+        "titulo": {
+          "es": "La que volvió a la caverna",
+          "fr": "Celle qui est revenue dans la caverne"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 14,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "plaza",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.62,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "El pueblo",
+              "fr": "La ville"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "espejo",
+            "tipo": "espejo",
+            "pos": [
+              0.88,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Apariencias",
+              "fr": "Apparences"
+            },
+            "escala": 1
+          },
+          {
+            "id": "lia",
+            "tipo": "monigote",
+            "pos": [
+              0.45,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Lía",
+              "fr": "Lia"
+            },
+            "escala": 0.7
+          },
+          {
+            "id": "pilar",
+            "tipo": "piedra",
+            "pos": [
+              0.88,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Pilar de la pasarela",
+              "fr": "Pilier de la passerelle"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "plaza"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "espejo"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 2,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "¡Vivís entre sombras! ¡Mirad el pilar!",
+              "fr": "Vous vivez parmi des ombres ! Regardez le pilier !"
+            }
+          },
+          {
+            "t": 4.6,
+            "accion": "etiqueta",
+            "actor": "mara",
+            "texto": {
+              "es": "La loca",
+              "fr": "La folle"
+            }
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "lia"
+          },
+          {
+            "t": 6.4,
+            "accion": "aparece",
+            "actor": "pilar"
+          },
+          {
+            "t": 7,
+            "accion": "mueve",
+            "actor": "lia",
+            "a": [
+              0.78,
+              0.76
+            ],
+            "dur": 2
+          },
+          {
+            "t": 9.6,
+            "accion": "cita",
+            "texto": "Celle qui buvait, à chaque fois oubliait tout le passé."
+          },
+          {
+            "t": 11.4,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La verdad se dice contra todos, pero el olvido es más fuerte que la verdad.",
+              "fr": "La vérité se dit contre tous, mais l’oubli est plus fort que la vérité."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Te llaman alarmista, luego loca. Solo una niña, Lía, se acerca a mirar el pilar con sus propios ojos. La pasarela se cierra días después, en silencio, y el pueblo pronto olvida quién avisó.",
+        "fr": "On te traite d’alarmiste, puis de folle. Seule une petite fille, Lia, s’approche pour regarder le pilier de ses propres yeux. La passerelle ferme quelques jours plus tard, en silence, et la ville oublie vite qui l’avait prévenue."
+      },
+      "final": {
+        "id": "f3",
+        "titulo": {
+          "es": "La prisionera que no fue creída",
+          "fr": "La prisonnière qu’on n’a pas crue"
+        },
+        "tipo": "ambiguo",
+        "idea": {
+          "es": "Platón distingue el ser del parecer: la verdad exige apartar la mirada de las apariencias, aunque, como el prisionero liberado de la caverna, quien regresa a decirlo no sea creído y pase por loco. Amar la verdad contra todos es posible porque todos, sea cual sea su estatuto, pueden buscarla (Lía); pero el Léthé, el olvido, amenaza siempre con borrarla.",
+          "fr": "Platon distingue l’être du paraître : la vérité exige de détourner le regard des apparences, même si, comme le prisonnier libéré de la caverne, celui qui revient la dire n’est pas cru et passe pour un fou. Aimer la vérité contre tous est possible parce que tous, quel que soit leur statut, peuvent la chercher (Lia) ; mais le Léthé, l’oubli, menace toujours de l’effacer."
+        },
+        "filosofo": "platon",
+        "cita": {
+          "texto": "Celle qui buvait, à chaque fois oubliait tout le passé.",
+          "pagina_pdf": 183
+        },
+        "pagina_pdf": 183,
+        "reflexion": {
+          "es": "¿Hay que amar la verdad aunque nadie la crea? ¿Cuál es el precio de decirla sin cuidar cómo es recibida?",
+          "fr": "Faut-il aimer la vérité même si personne n’y croit ? Quel est le prix de la dire sans se soucier de la façon dont elle est reçue ?"
+        }
+      }
+    },
+    "f4": {
+      "escena": {
+        "titulo": {
+          "es": "La certeza solitaria",
+          "fr": "La certitude solitaire"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.74
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "bombilla",
+            "tipo": "bombilla",
+            "pos": [
+              0.5,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Cogito",
+              "fr": "Cogito"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "pilar",
+            "tipo": "piedra",
+            "pos": [
+              0.82,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Pasarela cerrada",
+              "fr": "Passerelle fermée"
+            },
+            "escala": 1
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.82,
+              0.5
+            ],
+            "escala": 1
+          },
+          {
+            "id": "teo",
+            "tipo": "monigote",
+            "pos": [
+              0.55,
+              0.76
+            ],
+            "etiqueta": {
+              "es": "Téo",
+              "fr": "Téo"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "bombilla"
+          },
+          {
+            "t": 1,
+            "accion": "resalta",
+            "actor": "bombilla"
+          },
+          {
+            "t": 2,
+            "accion": "cita",
+            "texto": "je suis, j’existe, est nécessairement vraie"
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "pilar"
+          },
+          {
+            "t": 5.4,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 6.6,
+            "accion": "aparece",
+            "actor": "teo"
+          },
+          {
+            "t": 7.4,
+            "accion": "tiembla",
+            "actor": "teo"
+          },
+          {
+            "t": 8.4,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Tenía razón… pero me costó la noche y a Téo.",
+              "fr": "J’avais raison… mais ça m’a coûté la nuit, et Téo."
+            }
+          },
+          {
+            "t": 10.8,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La evidencia salvó el puente, pero no convenció ni consoló: tener razón no basta.",
+              "fr": "L’évidence a sauvé le pont, mais n’a ni convaincu ni consolé : avoir raison ne suffit pas."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Muestras tus mediciones y la pasarela se cierra a tiempo. Pero el pueblo pierde su fiesta, el alcalde te acusa de soberbia y Téo es despedido. Tu certeza fue exacta; tu manera, fría.",
+        "fr": "Tu montres tes mesures et la passerelle est fermée à temps. Mais la ville perd sa fête, le maire t’accuse d’orgueil et Téo est renvoyé. Ta certitude était exacte ; ta manière, froide."
+      },
+      "final": {
+        "id": "f4",
+        "titulo": {
+          "es": "La evidencia sin nadie",
+          "fr": "L’évidence sans personne"
+        },
+        "tipo": "ambiguo",
+        "idea": {
+          "es": "Descartes sitúa el criterio de lo verdadero en la evidencia de las ideas claras y distintas: es verdadero lo que excluye toda duda, y la primera verdad es el cogito. Mara conquista esa certeza y salva el puente, pero el cours deja ver su límite práctico: una evidencia pensada en soledad llega tarde y no basta para persuadir a los demás.",
+          "fr": "Descartes situe le critère du vrai dans l’évidence des idées claires et distinctes : est vrai ce dont l’évidence exclut tout doute, et la première vérité est le cogito. Mara conquiert cette certitude et sauve le pont, mais le coût pratique apparaît : une évidence pensée dans la solitude arrive tard et ne suffit pas à persuader les autres."
+        },
+        "filosofo": "descartes",
+        "cita": {
+          "texto": "je suis, j’existe, est nécessairement vraie",
+          "pagina_pdf": 187
+        },
+        "pagina_pdf": 187,
+        "reflexion": {
+          "es": "¿Puede exigirse una certeza absoluta antes de actuar? ¿Qué se pierde mientras se espera la evidencia perfecta?",
+          "fr": "Peut-on exiger une certitude absolue avant d’agir ? Que perd-on pendant qu’on attend l’évidence parfaite ?"
+        }
+      }
+    },
+    "f5": {
+      "escena": {
+        "titulo": {
+          "es": "Buscar sin poseer",
+          "fr": "Chercher sans posséder"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.5,
+              0.42
+            ],
+            "etiqueta": {
+              "es": "Lo que sé / lo que no sé",
+              "fr": "Ce que je sais / ce que j’ignore"
+            },
+            "escala": 1.1
+          },
+          {
+            "id": "pueblo",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.74
+            ],
+            "etiqueta": {
+              "es": "Los vecinos",
+              "fr": "Les voisins"
+            },
+            "escala": 1
+          },
+          {
+            "id": "ojo",
+            "tipo": "ojo",
+            "pos": [
+              0.8,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Mirar juntos",
+              "fr": "Regarder ensemble"
+            },
+            "escala": 1
+          },
+          {
+            "id": "sol",
+            "tipo": "sol",
+            "pos": [
+              0.14,
+              0.2
+            ],
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "sol"
+          },
+          {
+            "t": 0.4,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 2.2,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "No lo sé todo. Pero esto es lo más probable.",
+              "fr": "Je ne sais pas tout. Mais voici le plus probable."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "pueblo"
+          },
+          {
+            "t": 5.4,
+            "accion": "aparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 6,
+            "accion": "une",
+            "de": "pueblo",
+            "a": "ojo",
+            "nota": {
+              "es": "Verificar",
+              "fr": "Vérifier"
+            }
+          },
+          {
+            "t": 7.2,
+            "accion": "resalta",
+            "actor": "balanza"
+          },
+          {
+            "t": 9,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Cerramos por precaución… y seguimos buscando.",
+              "fr": "Fermons par précaution… et continuons de chercher."
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Dudar de la teoría no impide actuar: Mara cierra el puente y sigue buscando.",
+              "fr": "Douter de la théorie n’empêche pas d’agir : Mara ferme le pont et continue de chercher."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Publicas lo que sabes, lo que no sabes y por qué cierras por precaución. Otros inspectores confirman el fallo: el pilar se repara y la pasarela reabre. Desde entonces, cada artículo de Mara dice qué se sabe y qué no.",
+        "fr": "Tu publies ce que tu sais, ce que tu ignores et pourquoi tu fermes par précaution. D’autres inspecteurs confirment le défaut : le pilier est réparé et la passerelle rouvre. Depuis, chaque article de Mara dit ce qu’on sait et ce qu’on ignore."
+      },
+      "final": {
+        "id": "f5",
+        "titulo": {
+          "es": "La búsqueda que no se detiene",
+          "fr": "La quête qui ne s’arrête pas"
+        },
+        "tipo": "luminoso",
+        "idea": {
+          "es": "El escéptico (Montaigne) no encuentra un criterio suficientemente fuerte para afirmar una verdad teórica, pero no es relativista ni perezoso: reserva su juicio, sabe que unas tesis son mejores que otras y sigue buscando. Su duda no concierne a la praxis, por eso Mara puede actuar por precaución. Lo que cuenta es la manera de buscar la verdad más que su posesión.",
+          "fr": "Le sceptique (Montaigne) ne trouve aucun critère assez fort pour affirmer une vérité théorique, mais il n’est ni relativiste ni paresseux : il réserve son jugement, sait que certaines thèses valent mieux que d’autres et continue de chercher. Son doute ne concerne pas la praxis, d’où la possibilité pour Mara d’agir par précaution. Ce qui compte, c’est la manière de chercher la vérité plus que sa possession."
+        },
+        "filosofo": "montaigne",
+        "pagina_pdf": 187,
+        "reflexion": {
+          "es": "¿Hay que amar la verdad o amar más bien la búsqueda de la verdad? ¿Es necesario amar la verdad para buscarla?",
+          "fr": "Faut-il aimer la vérité ou plutôt aimer la recherche de la vérité ? Est-il nécessaire d’aimer la vérité pour la rechercher ?"
+        }
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@
 (function () {
   'use strict';
   const $ = (s, r = document) => r.querySelector(s), S = State;
-  const views = ['select', 'map', 'tracker', 'disertacion', 'reperes'];
+  const views = ['select', 'map', 'tracker', 'dilemas', 'disertacion', 'reperes'];
   let cur = { view: 'select' };
 
   /* ---------- fondo de estrellas (2D, ligero) ---------- */
@@ -51,6 +51,7 @@
       });
     }
     else if (view === 'tracker') { show('tracker'); crumbs(['Repaso']); UI.renderTracker($('#view-tracker')); }
+    else if (view === 'dilemas') { show('dilemas'); crumbs([L('Dilemas', 'Dilemmes')]); Dilemas.renderList($('#view-dilemas')); if (id) Dilemas.play(id); }
     else if (view === 'disertacion') { show('disertacion'); crumbs(['Disertación']); UI.renderDisert($('#view-disertacion'), id); }
     else if (view === 'reperes') { show('reperes'); crumbs(['Repères']); UI.renderReperes($('#view-reperes')); }
     history.replaceState(null, '', '#' + [view, id, sub].filter(Boolean).join('/'));
@@ -61,12 +62,33 @@
     $('#chap-side').innerHTML = `<div class="n" style="color:var(--muted);font-size:11px;letter-spacing:.14em">NOCIÓN ${cap.numero} / 17 · pp. ${cap.paginas.inicio}-${cap.paginas.fin}</div>
       <h2 style="color:${col}">${esc(cap.titulo)}</h2><div class="sub">${esc(cap.titulo_es)} · dominio <b>${S.chapterMastery(cap.id)}%</b></div>
       <p>${esc(cap.resumen)}</p>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px"><button class="btn sm primary" id="s-quiz">Quiz del capítulo</button><button class="btn sm" id="s-dis">Disertación</button></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px"><button class="btn sm primary" id="s-quiz">Quiz del capítulo</button><button class="btn sm" id="s-dis">Disertación</button>${S.DILEMAS.some(d => d.capitulo === cap.id) ? '<button class="btn sm" id="s-dil">Dilema 🎮</button>' : ''}</div>
       <h4>Los 5 puntos incontournables</h4><ol>${cap.puntos_incontournables.map(x => `<li>${esc(x)}</li>`).join('')}</ol>
       <h4>Nociones clave</h4><div class="chips">${cap.nociones_clave.map(x => `<span class="chip">${esc(x)}</span>`).join('')}</div>
       <h4>Problemáticas tipo bac</h4>${cap.problematicas_bac.map(x => `<button class="prob" data-d="1">${esc(x)}</button>`).join('')}`;
     $('#s-quiz').onclick = () => UI.startQuiz({ cap }); $('#s-dis').onclick = () => go('disertacion', cap.id);
+    const bd = $('#s-dil'); if (bd) bd.onclick = () => { const d = S.DILEMAS.find(x => x.capitulo === cap.id); go('dilemas', d.id); };
     $('#chap-side').querySelectorAll('[data-d]').forEach(b => b.onclick = () => go('disertacion', cap.id));
+  }
+
+  /* ---------- idioma ES / FR ---------- */
+  function paintLang() { document.querySelectorAll('#lang button').forEach(b => b.classList.toggle('on', b.dataset.l === S.lang)); I18N.setLang(S.lang); }
+  function setLang(l) {
+    if (l === 'fr' && !S.hasFR) return;
+    S.setAjuste('lang', l); paintLang(); Select.setCaps(S.COURS.capitulos); rerender();
+  }
+
+  /* ---------- barras laterales redimensionables ---------- */
+  function resizable(handle, varName, getW, min, max, fromRight, key, def) {
+    const root = document.documentElement;
+    try { const v = +localStorage.getItem(key); if (v) root.style.setProperty(varName, v + 'px'); } catch (e) {}
+    handle.addEventListener('pointerdown', e => {
+      e.preventDefault(); handle.setPointerCapture(e.pointerId); document.body.classList.add('resizing'); handle.classList.add('drag');
+      const move = ev => { const w = fromRight ? innerWidth - ev.clientX : ev.clientX; const v = Math.max(min, Math.min(max(), w)); root.style.setProperty(varName, Math.round(v) + 'px'); };
+      const up = () => { handle.removeEventListener('pointermove', move); handle.removeEventListener('pointerup', up); document.body.classList.remove('resizing'); handle.classList.remove('drag'); try { localStorage.setItem(key, parseInt(getComputedStyle(root).getPropertyValue(varName))); } catch (e) {} };
+      handle.addEventListener('pointermove', move); handle.addEventListener('pointerup', up);
+    });
+    handle.addEventListener('dblclick', () => { root.style.setProperty(varName, def + 'px'); try { localStorage.removeItem(key); } catch (e) {} });
   }
 
   function rerender() { paintXP(); document.body.classList.toggle('reduce', S.P.ajustes.reducirMov); loopStars(); go(cur.view, cur.id, cur.sub); }
@@ -81,10 +103,15 @@
       onEnter: cap => go('map', cap.id),
       onHover: cap => { if (!cap) return hover.hidden = true; hover.hidden = false; hover.style.borderColor = capColor(cap); hover.innerHTML = `<h3 style="color:${capColor(cap)}">${cap.titulo}</h3><p>${cap.filosofos.slice(0, 6).map(f => f.nombre).join(' · ')}${cap.filosofos.length > 6 ? ' …' : ''}</p>`; Sfx && Sfx(520, 700, .08); },
     });
+    resizable($('#side-resizer'), '--side-w', null, 240, () => innerWidth * 0.62, false, 'philo-side-w', 320);
+    resizable($('#ficha-resizer'), '--ficha-w', null, 340, () => innerWidth * 0.92, true, 'philo-ficha-w', 520);
+    document.querySelectorAll('#lang button').forEach(b => b.onclick = () => setLang(b.dataset.l));
+    if (!S.hasFR) document.querySelector('#lang [data-l="fr"]').disabled = true;
+    I18N.start(); paintLang();
     $('#btn-home').onclick = () => go('select'); $('#btn-settings').onclick = () => UI.openSettings();
     document.querySelectorAll('.tab').forEach(t => t.onclick = () => go(t.dataset.go));
     const [v, id, sub] = location.hash.slice(1).split('/'); views.includes(v) && v !== 'select' ? go(v, id, sub) : go('select');
   }
-  window.App = { go, rerender };
+  window.App = { go, rerender, setLang };
   addEventListener('DOMContentLoaded', boot);
 })();

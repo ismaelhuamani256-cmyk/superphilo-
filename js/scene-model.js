@@ -12,6 +12,8 @@
 (function (global) {
   'use strict';
 
+  // textos bilingües {es,fr} → string según el idioma activo (los guiones normales ya son strings)
+  const tx = v => (v && typeof v === 'object') ? (v[(global.State && global.State.lang) || 'es'] || v.es || '') : v;
   const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
   const easeInOut = p => p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2;
   const easeOutBack = p => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(p - 1, 3) + c1 * Math.pow(p - 1, 2); };
@@ -21,7 +23,7 @@
       this.script = script || { actores: [], pasos: [] };
       this.actors = new Map();
       (this.script.actores || []).forEach(a => this.actors.set(a.id, {
-        id: a.id, tipo: a.tipo, escala: a.escala || 1, label0: a.etiqueta || '', pos0: a.pos || [0.5, 0.5],
+        id: a.id, tipo: a.tipo, escala: a.escala || 1, label0: tx(a.etiqueta) || '', pos0: a.pos || [0.5, 0.5],
         appear: [], disappear: [], moves: [], labels: [], hl: [], shake: [], jump: [],
       }));
       this.bubbles = []; this.flows = []; this.links = []; this.quotes = []; this.subs = [];
@@ -48,17 +50,17 @@
             cur.set(A.id, p.a.slice()); lastMoveEnd.set(A.id, t0 + dur);
             break;
           }
-          case 'etiqueta': A && A.labels.push({ t: p.t, text: p.texto }); break;
+          case 'etiqueta': A && A.labels.push({ t: p.t, text: tx(p.texto) }); break;
           case 'resalta': A && A.hl.push([p.t, p.t + 1.8]); break;
           case 'tiembla': A && A.shake.push([p.t, p.t + 1.4]); break;
           case 'salta': A && A.jump.push([p.t, p.t + 0.9]); break;
           case 'dice': case 'piensa':
-            this.bubbles.push({ actor: p.actor, text: p.texto, kind: p.accion, t0: p.t, t1: p.t + Math.max(2.6, (p.texto || '').length * 0.075) });
+            this.bubbles.push({ actor: p.actor, text: tx(p.texto), kind: p.accion, t0: p.t, t1: p.t + Math.max(2.6, (tx(p.texto) || '').length * 0.075) });
             break;
-          case 'proyecta': this.flows.push({ de: p.de, a: p.a, nota: p.nota || '', t0: p.t, t1: p.t + 2.6 }); break;
-          case 'une': this.links.push({ de: p.de, a: p.a, nota: p.nota || '', t0: p.t }); break;
-          case 'cita': this.quotes.push({ text: p.texto, t0: p.t, t1: p.t + Math.max(5, (p.texto || '').length * 0.06) }); break;
-          case 'subtitulo': this.subs.push({ text: p.texto, t0: p.t, t1: p.t + Math.max(4.5, (p.texto || '').length * 0.06) }); break;
+          case 'proyecta': this.flows.push({ de: p.de, a: p.a, nota: tx(p.nota) || '', t0: p.t, t1: p.t + 2.6 }); break;
+          case 'une': this.links.push({ de: p.de, a: p.a, nota: tx(p.nota) || '', t0: p.t }); break;
+          case 'cita': this.quotes.push({ text: tx(p.texto), t0: p.t, t1: p.t + Math.max(5, (tx(p.texto) || '').length * 0.06) }); break;
+          case 'subtitulo': this.subs.push({ text: tx(p.texto), t0: p.t, t1: p.t + Math.max(4.5, (tx(p.texto) || '').length * 0.06) }); break;
         }
       });
       // un subtítulo dura hasta que llega el siguiente
@@ -102,7 +104,7 @@
         t, actors, bubbles, flows, links,
         quote: q ? { text: q.text, p: clamp((t - q.t0) / 0.5, 0, 1), out: clamp((q.t1 - t) / 0.4, 0, 1) } : null,
         subtitle: s ? { text: s.text, p: clamp((t - s.t0) / 0.3, 0, 1) } : null,
-        titulo: this.script.titulo || '',
+        titulo: tx(this.script.titulo) || '',
       };
     }
 

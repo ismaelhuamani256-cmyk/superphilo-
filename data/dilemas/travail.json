@@ -1,0 +1,2728 @@
+{
+  "id": "travail-horloge-mara",
+  "capitulo": "travail",
+  "titulo": {
+    "es": "El reloj de Mara",
+    "fr": "L’horloge de Mara"
+  },
+  "premisa": {
+    "es": "Mara lleva ocho años repitiendo el mismo gesto en la cadena de una fábrica de relojes. Hoy su jefe le ofrece un ascenso, su amigo Tomás le propone resistir y ella sueña con otra manera de trabajar. Cada decisión revela qué es el trabajo: liberación, alienación, vacío o realización.",
+    "fr": "Mara répète le même geste depuis huit ans sur la chaîne d’une fabrique d’horloges. Aujourd’hui, son chef lui propose une promotion, son ami Tomás l’invite à résister et elle rêve d’une autre façon de travailler. Chaque choix révèle ce qu’est le travail : libération, aliénation, vide ou épanouissement."
+  },
+  "protagonista": "Mara",
+  "inicio": "n1",
+  "nodos": {
+    "n1": {
+      "escena": {
+        "titulo": {
+          "es": "La cadena de Cadran",
+          "fr": "La chaîne de Cadran"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "cadena",
+            "tipo": "engranaje",
+            "pos": [
+              0.12,
+              0.45
+            ],
+            "etiqueta": {
+              "es": "La cadena",
+              "fr": "La chaîne"
+            },
+            "escala": 1
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.5,
+              0.22
+            ],
+            "etiqueta": {
+              "es": "",
+              "fr": ""
+            },
+            "escala": 1
+          },
+          {
+            "id": "vargas",
+            "tipo": "monigote",
+            "pos": [
+              0.82,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 2,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Un gesto. Cien veces. Otra vez.",
+              "fr": "Un geste. Cent fois. Encore."
+            }
+          },
+          {
+            "t": 3.5,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 4.5,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 5.5,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "Mara, te quiero de supervisora.",
+              "fr": "Mara, je te veux cheffe d’équipe."
+            }
+          },
+          {
+            "t": 7.5,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "¿Y si no soy sólo un engranaje?",
+              "fr": "Et si je n’étais pas qu’un rouage ?"
+            }
+          },
+          {
+            "t": 9,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ocho años en la cadena. Hoy todo puede cambiar.",
+              "fr": "Huit ans sur la chaîne. Aujourd’hui, tout peut changer."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Fábrica Cadran, fin de turno. Mara repite el mismo gesto desde hace ocho años. Vargas, el jefe, le hace una oferta.",
+        "fr": "Fabrique Cadran, fin de service. Mara répète le même geste depuis huit ans. Vargas, le chef, lui fait une proposition."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué decides?",
+          "fr": "Que décides-tu ?"
+        },
+        "tiempo_seg": 15,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Aceptar el ascenso",
+              "fr": "Accepter la promotion"
+            },
+            "a": "n2",
+            "postura": {
+              "es": "Éxito y rentabilidad",
+              "fr": "Réussite et rentabilité"
+            }
+          },
+          {
+            "texto": {
+              "es": "Reunirme con Tomás y resistir",
+              "fr": "Rejoindre Tomás et résister"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Lucha colectiva",
+              "fr": "Lutte collective"
+            }
+          },
+          {
+            "texto": {
+              "es": "Proponer otra forma de trabajar",
+              "fr": "Proposer une autre façon de travailler"
+            },
+            "a": "n8",
+            "postura": {
+              "es": "Reinventar el oficio",
+              "fr": "Réinventer le métier"
+            }
+          },
+          {
+            "texto": {
+              "es": "Desconectar: me tomo unos días",
+              "fr": "Décrocher : je prends quelques jours"
+            },
+            "a": "n10",
+            "postura": {
+              "es": "Huir al ocio",
+              "fr": "Fuir dans les loisirs"
+            }
+          }
+        ]
+      }
+    },
+    "n2": {
+      "escena": {
+        "titulo": {
+          "es": "La supervisora",
+          "fr": "La cheffe d’équipe"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.5,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Cronómetro",
+              "fr": "Chronomètre"
+            },
+            "escala": 1
+          },
+          {
+            "id": "ivan",
+            "tipo": "monigote",
+            "pos": [
+              0.65,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Iván",
+              "fr": "Ivan"
+            },
+            "escala": 1
+          },
+          {
+            "id": "vargas",
+            "tipo": "monigote",
+            "pos": [
+              0.88,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 1,
+            "accion": "etiqueta",
+            "actor": "mara",
+            "texto": {
+              "es": "Supervisora",
+              "fr": "Cheffe d’équipe"
+            }
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "ivan"
+          },
+          {
+            "t": 2.5,
+            "accion": "tiembla",
+            "actor": "ivan"
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "Un 20 % más rápido. Iván es el más lento.",
+              "fr": "20 % plus vite. Ivan est le plus lent."
+            }
+          },
+          {
+            "t": 6.5,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Ya no toco las piezas: sólo vigilo el reloj",
+              "fr": "Je ne touche plus les pièces : je surveille l’horloge"
+            }
+          },
+          {
+            "t": 8,
+            "accion": "resalta",
+            "actor": "reloj"
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Mara manda, pero ha perdido el contacto con la materia.",
+              "fr": "Mara commande, mais elle a perdu le contact avec la matière."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara es supervisora. Vargas exige más velocidad y señala a Iván, que tiene un hijo enfermo y no da abasto.",
+        "fr": "Mara est cheffe d’équipe. Vargas exige plus de cadence et désigne Ivan, dont le fils est malade et qui n’arrive plus à suivre."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Vargas espera tu respuesta.",
+          "fr": "Vargas attend ta réponse."
+        },
+        "tiempo_seg": 14,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Defender el ritmo humano ante Vargas",
+              "fr": "Défendre le rythme humain face à Vargas"
+            },
+            "a": "n4",
+            "postura": {
+              "es": "Dignidad del trabajador",
+              "fr": "Dignité du travailleur"
+            }
+          },
+          {
+            "texto": {
+              "es": "Exigir el ritmo y despedir a Iván",
+              "fr": "Imposer la cadence et renvoyer Ivan"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Eficacia ante todo",
+              "fr": "L’efficacité avant tout"
+            }
+          }
+        ]
+      }
+    },
+    "n3": {
+      "escena": {
+        "titulo": {
+          "es": "El sueldo que crece",
+          "fr": "Le salaire qui grimpe"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "tesoro",
+            "tipo": "moneda",
+            "pos": [
+              0.82,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Más",
+              "fr": "Plus"
+            },
+            "escala": 1.8
+          },
+          {
+            "id": "casa",
+            "tipo": "casa",
+            "pos": [
+              0.12,
+              0.62
+            ],
+            "etiqueta": {
+              "es": "Casa vacía",
+              "fr": "Maison vide"
+            },
+            "escala": 1
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.45,
+              0.85
+            ],
+            "etiqueta": {
+              "es": "",
+              "fr": ""
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "tesoro"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "casa"
+          },
+          {
+            "t": 2,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Más sueldo, más coche, más de todo",
+              "fr": "Plus de salaire, plus de voiture, plus de tout"
+            }
+          },
+          {
+            "t": 4,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 4.5,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 6,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Doble sueldo, ninguna tarde libre. ¿Y mi vida?",
+              "fr": "Salaire doublé, aucun soir libre. Et ma vie ?"
+            }
+          },
+          {
+            "t": 8,
+            "accion": "resalta",
+            "actor": "tesoro"
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El dinero deja de ser un medio y se vuelve un fin.",
+              "fr": "L’argent cesse d’être un moyen : il devient une fin."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Iván ya no está. Mara sigue subiendo: ahora la dirección le ofrece el doble de sueldo… y ninguna tarde libre.",
+        "fr": "Ivan n’est plus là. Mara continue de grimper : la direction lui offre maintenant le double… et plus aucun soir de libre."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces?",
+          "fr": "Que fais-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Volver a la cadena, aunque gane menos",
+              "fr": "Retourner sur la chaîne, même pour moins"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Volver al trabajo concreto",
+              "fr": "Revenir au travail concret"
+            }
+          },
+          {
+            "texto": {
+              "es": "Aceptar la dirección y el doble de sueldo",
+              "fr": "Accepter la direction et le double du salaire"
+            },
+            "a": "f1",
+            "postura": {
+              "es": "Acumular riqueza",
+              "fr": "Accumuler les richesses"
+            }
+          }
+        ]
+      }
+    },
+    "n4": {
+      "escena": {
+        "titulo": {
+          "es": "Frente a Vargas",
+          "fr": "Face à Vargas"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "ivan",
+            "tipo": "monigote",
+            "pos": [
+              0.12,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Iván",
+              "fr": "Ivan"
+            },
+            "escala": 1
+          },
+          {
+            "id": "vargas",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.82,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            },
+            "escala": 1.4
+          },
+          {
+            "id": "engranaje",
+            "tipo": "engranaje",
+            "pos": [
+              0.55,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Rentabilidad",
+              "fr": "Rentabilité"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "ivan"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 2,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Iván no es una cifra: es una persona",
+              "fr": "Ivan n’est pas un chiffre : c’est une personne"
+            }
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "Los hombres se cambian como piezas.",
+              "fr": "Les hommes se remplacent comme des pièces."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "engranaje"
+          },
+          {
+            "t": 6.5,
+            "accion": "proyecta",
+            "de": "vargas",
+            "a": "ivan",
+            "nota": {
+              "es": "Coste",
+              "fr": "Coût"
+            }
+          },
+          {
+            "t": 7.5,
+            "accion": "tiembla",
+            "actor": "ivan"
+          },
+          {
+            "t": 9,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Para Vargas, el trabajador es una fuerza de trabajo intercambiable.",
+              "fr": "Pour Vargas, le travailleur est une force de travail interchangeable."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Vargas no cede: si Iván no se va, se irá otro… o la propia Mara.",
+        "fr": "Vargas ne cède pas : si Ivan ne part pas, un autre partira… ou Mara elle-même."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Hasta dónde llegas?",
+          "fr": "Jusqu’où vas-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Plantarme: o condiciones dignas o me voy",
+              "fr": "Me dresser : conditions dignes ou je pars"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Rebelión individual",
+              "fr": "Révolte individuelle"
+            }
+          },
+          {
+            "texto": {
+              "es": "Ceder y firmar el despido de Iván",
+              "fr": "Céder et signer le renvoi d’Ivan"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Sumisión por miedo",
+              "fr": "Soumission par peur"
+            }
+          }
+        ]
+      }
+    },
+    "n5": {
+      "escena": {
+        "titulo": {
+          "es": "La asamblea del comedor",
+          "fr": "L’assemblée de la cantine"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "tomas",
+            "tipo": "monigote",
+            "pos": [
+              0.6,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Tomás",
+              "fr": "Tomás"
+            },
+            "escala": 1
+          },
+          {
+            "id": "bandera",
+            "tipo": "bandera",
+            "pos": [
+              0.85,
+              0.45
+            ],
+            "etiqueta": {
+              "es": "Huelga",
+              "fr": "Grève"
+            },
+            "escala": 1
+          },
+          {
+            "id": "ojo",
+            "tipo": "ojo",
+            "pos": [
+              0.45,
+              0.15
+            ],
+            "etiqueta": {
+              "es": "Vargas vigila",
+              "fr": "Vargas surveille"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "tomas"
+          },
+          {
+            "t": 1.5,
+            "accion": "dice",
+            "actor": "tomas",
+            "texto": {
+              "es": "Nos exprimen: hay que parar la cadena.",
+              "fr": "On nous presse : il faut arrêter la chaîne."
+            }
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "bandera"
+          },
+          {
+            "t": 4,
+            "accion": "aparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 5,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 5.5,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Si paramos, ¿quién paga el alquiler?",
+              "fr": "Si on s’arrête, qui paie le loyer ?"
+            }
+          },
+          {
+            "t": 7.5,
+            "accion": "resalta",
+            "actor": "ojo"
+          },
+          {
+            "t": 9,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Cada hora de trabajo enriquece a otros. ¿Parar o negociar?",
+              "fr": "Chaque heure de travail enrichit d’autres. S’arrêter ou négocier ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "En el comedor, Tomás reúne a los compañeros. Vargas lo ve todo desde su despacho acristalado.",
+        "fr": "À la cantine, Tomás réunit les collègues. Vargas observe tout depuis son bureau vitré."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Tomás te mira.",
+          "fr": "Tomás te regarde."
+        },
+        "tiempo_seg": 14,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Votar la huelga: parar la cadena",
+              "fr": "Voter la grève : arrêter la chaîne"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Acción colectiva",
+              "fr": "Action collective"
+            }
+          },
+          {
+            "texto": {
+              "es": "Negociar antes con Vargas",
+              "fr": "Négocier d’abord avec Vargas"
+            },
+            "a": "n7",
+            "postura": {
+              "es": "Reformar desde dentro",
+              "fr": "Réformer de l’intérieur"
+            }
+          }
+        ]
+      }
+    },
+    "n6": {
+      "escena": {
+        "titulo": {
+          "es": "Tercer día de huelga",
+          "fr": "Troisième jour de grève"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "tomas",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Tomás",
+              "fr": "Tomás"
+            },
+            "escala": 1
+          },
+          {
+            "id": "cadena",
+            "tipo": "engranaje",
+            "pos": [
+              0.12,
+              0.45
+            ],
+            "etiqueta": {
+              "es": "Cadena parada",
+              "fr": "Chaîne à l’arrêt"
+            },
+            "escala": 1
+          },
+          {
+            "id": "vargas",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.85,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            },
+            "escala": 1.4
+          },
+          {
+            "id": "robots",
+            "tipo": "engranaje",
+            "pos": [
+              0.68,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Robots",
+              "fr": "Robots"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.3,
+            "accion": "aparece",
+            "actor": "tomas"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 2,
+            "accion": "dice",
+            "actor": "tomas",
+            "texto": {
+              "es": "¡La cadena está parada!",
+              "fr": "La chaîne est à l’arrêt !"
+            }
+          },
+          {
+            "t": 3.5,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 4.5,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "O volvéis, o compro robots y os sustituyo.",
+              "fr": "Reprenez, ou j’achète des robots pour vous remplacer."
+            }
+          },
+          {
+            "t": 6.5,
+            "accion": "aparece",
+            "actor": "robots"
+          },
+          {
+            "t": 7.5,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 8.5,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "¿Aguantamos… o aceptamos algo?",
+              "fr": "On tient bon… ou on accepte un compromis ?"
+            }
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Tras tres días de paro, la cadena está detenida… y también los sueldos.",
+              "fr": "Après trois jours, la chaîne est à l’arrêt… et les salaires aussi."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Tercer día de huelga. Vargas amenaza con sustituirlos por máquinas y el grupo empieza a dudar.",
+        "fr": "Troisième jour de grève. Vargas menace de les remplacer par des machines et le groupe commence à douter."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Todos esperan tu voto.",
+          "fr": "Tout le monde attend ton vote."
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Mantener el paro hasta el final",
+              "fr": "Tenir la grève jusqu’au bout"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Resistir hasta el final",
+              "fr": "Tenir jusqu’au bout"
+            }
+          },
+          {
+            "texto": {
+              "es": "Aceptar el acuerdo parcial",
+              "fr": "Accepter l’accord partiel"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Compromiso realista",
+              "fr": "Compromis réaliste"
+            }
+          }
+        ]
+      }
+    },
+    "n7": {
+      "escena": {
+        "titulo": {
+          "es": "La oferta de Vargas",
+          "fr": "L’offre de Vargas"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "vargas",
+            "tipo": "monigote",
+            "pos": [
+              0.72,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            },
+            "escala": 1
+          },
+          {
+            "id": "corona",
+            "tipo": "corona",
+            "pos": [
+              0.72,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Puesto de jefa",
+              "fr": "Poste de cheffe"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 1.5,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Pido menos ritmo y pausas pagadas.",
+              "fr": "Je demande moins de cadence et des pauses payées."
+            }
+          },
+          {
+            "t": 3.5,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "Si sabes tanto, supervisa tú. Con más sueldo.",
+              "fr": "Si tu sais tout, encadre. Avec un meilleur salaire."
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "corona"
+          },
+          {
+            "t": 6,
+            "accion": "resalta",
+            "actor": "corona"
+          },
+          {
+            "t": 7,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "¿Trampa u oportunidad?",
+              "fr": "Piège ou occasion ?"
+            }
+          },
+          {
+            "t": 8.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Vargas no cede nada: propone a Mara cambiar de bando.",
+              "fr": "Vargas ne cède rien : il propose à Mara de changer de camp."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara pide mejoras. Vargas, astuto, le devuelve el ascenso: que sea ella quien imponga el ritmo.",
+        "fr": "Mara demande des améliorations. Vargas, rusé, lui renvoie la promotion : c’est elle qui imposera la cadence."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué respondes?",
+          "fr": "Que réponds-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Volver a la cadena con mis compañeros",
+              "fr": "Revenir sur la chaîne avec mes collègues"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Solidaridad obrera",
+              "fr": "Solidarité ouvrière"
+            }
+          },
+          {
+            "texto": {
+              "es": "Aceptar el puesto para cambiar desde dentro",
+              "fr": "Accepter le poste pour changer de l’intérieur"
+            },
+            "a": "n2",
+            "postura": {
+              "es": "Cambiar el sistema desde dentro",
+              "fr": "Changer le système de l’intérieur"
+            }
+          }
+        ]
+      }
+    },
+    "n8": {
+      "escena": {
+        "titulo": {
+          "es": "El taller del abuelo",
+          "fr": "L’atelier de grand-père"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "casa",
+            "tipo": "casa",
+            "pos": [
+              0.12,
+              0.55
+            ],
+            "etiqueta": {
+              "es": "Taller del abuelo",
+              "fr": "Atelier de grand-père"
+            },
+            "escala": 1
+          },
+          {
+            "id": "idea",
+            "tipo": "bombilla",
+            "pos": [
+              0.3,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "",
+              "fr": ""
+            },
+            "escala": 1
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.62,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Un reloj entero",
+              "fr": "Une horloge entière"
+            },
+            "escala": 1
+          },
+          {
+            "id": "vargas",
+            "tipo": "monigote",
+            "pos": [
+              0.88,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "casa"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "idea"
+          },
+          {
+            "t": 2.5,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Mi abuelo hacía un reloj de principio a fin",
+              "fr": "Mon grand-père faisait une horloge de A à Z"
+            }
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 5.5,
+            "accion": "proyecta",
+            "de": "idea",
+            "a": "reloj",
+            "nota": {
+              "es": "Una obra",
+              "fr": "Une œuvre"
+            }
+          },
+          {
+            "t": 7,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 8,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "Tonterías: cada uno su pieza. Es más rentable.",
+              "fr": "Absurde : chacun sa pièce. C’est plus rentable."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Mara sueña con un trabajo con sentido: crear una obra entera.",
+              "fr": "Mara rêve d’un travail qui a du sens : créer une œuvre entière."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara recuerda el taller de su abuelo, relojero: cada reloj era una obra entera. Se lo propone a Vargas, que se burla.",
+        "fr": "Mara se souvient de l’atelier de son grand-père, horloger : chaque horloge était une œuvre entière. Elle en parle à Vargas, qui se moque."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo defiendes tu idea?",
+          "fr": "Comment défends-tu ton idée ?"
+        },
+        "tiempo_seg": 14,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Probarla en secreto, tras el turno",
+              "fr": "L’essayer en secret, après le service"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Crear una obra",
+              "fr": "Créer une œuvre"
+            }
+          },
+          {
+            "texto": {
+              "es": "Llevarla a la asamblea de Tomás",
+              "fr": "La porter à l’assemblée de Tomás"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Convencer al colectivo",
+              "fr": "Convaincre le collectif"
+            }
+          }
+        ]
+      }
+    },
+    "n9": {
+      "escena": {
+        "titulo": {
+          "es": "Taller de noche",
+          "fr": "Atelier de nuit"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "ivan",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Iván",
+              "fr": "Ivan"
+            },
+            "escala": 1
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.4,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Nuestro reloj",
+              "fr": "Notre horloge"
+            },
+            "escala": 1
+          },
+          {
+            "id": "placer",
+            "tipo": "corazon",
+            "pos": [
+              0.4,
+              0.15
+            ],
+            "etiqueta": {
+              "es": "Placer",
+              "fr": "Plaisir"
+            },
+            "escala": 1
+          },
+          {
+            "id": "vargas",
+            "tipo": "monigote",
+            "pos": [
+              0.9,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.3,
+            "accion": "aparece",
+            "actor": "ivan"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 1.5,
+            "accion": "une",
+            "de": "mara",
+            "a": "reloj",
+            "nota": {
+              "es": "Obra",
+              "fr": "Œuvre"
+            }
+          },
+          {
+            "t": 2.5,
+            "accion": "salta",
+            "actor": "mara"
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "placer"
+          },
+          {
+            "t": 3.5,
+            "accion": "dice",
+            "actor": "ivan",
+            "texto": {
+              "es": "Hacía años que no disfrutaba trabajando.",
+              "fr": "Des années que je n’aimais plus travailler."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 6.5,
+            "accion": "tiembla",
+            "actor": "ivan"
+          },
+          {
+            "t": 7.5,
+            "accion": "dice",
+            "actor": "vargas",
+            "texto": {
+              "es": "¿Qué es esto?",
+              "fr": "C’est quoi, ça ?"
+            }
+          },
+          {
+            "t": 9,
+            "accion": "resalta",
+            "actor": "reloj"
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Trabajar con placer: una obra entera, de principio a fin.",
+              "fr": "Travailler avec plaisir : une œuvre entière, de bout en bout."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "De noche, Mara e Iván montan un reloj completo. Hay risas, cuidado, orgullo… hasta que aparece Vargas.",
+        "fr": "La nuit, Mara et Ivan montent une horloge complète. Des rires, du soin, de la fierté… jusqu’à l’arrivée de Vargas."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Vargas mira el reloj.",
+          "fr": "Vargas regarde l’horloge."
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Mostrarle el reloj y proponer talleres",
+              "fr": "Lui montrer l’horloge et proposer des ateliers"
+            },
+            "a": "f4",
+            "postura": {
+              "es": "Reconciliar trabajo y placer",
+              "fr": "Réconcilier travail et plaisir"
+            }
+          },
+          {
+            "texto": {
+              "es": "Venderle la idea a cambio de un ascenso",
+              "fr": "Lui vendre l’idée contre une promotion"
+            },
+            "a": "n2",
+            "postura": {
+              "es": "Cambiar la obra por un puesto",
+              "fr": "Troquer l’œuvre contre un poste"
+            }
+          }
+        ]
+      }
+    },
+    "n10": {
+      "escena": {
+        "titulo": {
+          "es": "El fin de semana libre",
+          "fr": "Le week-end libre"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "publi",
+            "tipo": "nube",
+            "pos": [
+              0.72,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Publicidad",
+              "fr": "Publicité"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "moneda",
+            "tipo": "moneda",
+            "pos": [
+              0.82,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Comprar",
+              "fr": "Acheter"
+            },
+            "escala": 1
+          },
+          {
+            "id": "lunes",
+            "tipo": "reloj",
+            "pos": [
+              0.12,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Lunes 8:00",
+              "fr": "Lundi 8 h"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.5,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Por fin libre. Este fin de semana es mío.",
+              "fr": "Enfin libre. Ce week-end est à moi."
+            }
+          },
+          {
+            "t": 2.5,
+            "accion": "aparece",
+            "actor": "publi"
+          },
+          {
+            "t": 3,
+            "accion": "proyecta",
+            "de": "publi",
+            "a": "mara",
+            "nota": {
+              "es": "Deseos dictados",
+              "fr": "Désirs dictés"
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "aparece",
+            "actor": "moneda"
+          },
+          {
+            "t": 5.5,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Quiero lo que todos quieren…",
+              "fr": "Je veux ce que tout le monde veut…"
+            }
+          },
+          {
+            "t": 7.5,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 8,
+            "accion": "aparece",
+            "actor": "lunes"
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El ocio promete libertad, pero trae reglas y deseos prefabricados.",
+              "fr": "Le loisir promet la liberté, mais il apporte règles et désirs préfabriqués."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara se toma el fin de semana: centro comercial, partido, series. Todo está ya pensado para ella.",
+        "fr": "Mara prend son week-end : centre commercial, match, séries. Tout est déjà pensé pour elle."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo pasas el domingo?",
+          "fr": "Comment passes-tu le dimanche ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Apagar el móvil e irme a leer al parque",
+              "fr": "Éteindre mon téléphone et lire au parc"
+            },
+            "a": "n11",
+            "postura": {
+              "es": "Ocio libre (otium)",
+              "fr": "Loisir libre (otium)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Seguir el flujo: comprar y consumir",
+              "fr": "Suivre le flux : acheter et consommer"
+            },
+            "a": "f5",
+            "postura": {
+              "es": "Ocio de consumo",
+              "fr": "Loisir de consommation"
+            }
+          }
+        ]
+      }
+    },
+    "n11": {
+      "escena": {
+        "titulo": {
+          "es": "Bajo el árbol",
+          "fr": "Sous l’arbre"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.45,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "arbol",
+            "tipo": "arbol",
+            "pos": [
+              0.78,
+              0.55
+            ],
+            "etiqueta": {
+              "es": "",
+              "fr": ""
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "libro",
+            "tipo": "libro",
+            "pos": [
+              0.55,
+              0.52
+            ],
+            "etiqueta": {
+              "es": "Libro del abuelo",
+              "fr": "Livre de grand-père"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "sol",
+            "tipo": "sol",
+            "pos": [
+              0.7,
+              0.14
+            ],
+            "etiqueta": {
+              "es": "Otium",
+              "fr": "Otium"
+            },
+            "escala": 1
+          },
+          {
+            "id": "tomas",
+            "tipo": "monigote",
+            "pos": [
+              0.12,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Tomás",
+              "fr": "Tomás"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "arbol"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "sol"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "libro"
+          },
+          {
+            "t": 2.5,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "No hago nada… y por fin pienso.",
+              "fr": "Je ne fais rien… et enfin je pense."
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "resalta",
+            "actor": "libro"
+          },
+          {
+            "t": 5.5,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 6.5,
+            "accion": "aparece",
+            "actor": "tomas"
+          },
+          {
+            "t": 7.5,
+            "accion": "dice",
+            "actor": "tomas",
+            "texto": {
+              "es": "¡Mara! Mañana empieza la huelga.",
+              "fr": "Mara ! La grève commence demain."
+            }
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El ocio libre da tiempo para pensar… pero el lunes la fábrica sigue ahí.",
+              "fr": "Le vrai loisir donne le temps de penser… mais lundi, l’usine est toujours là."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "En el parque, lejos del ruido, Mara descubre que pensar también es una forma de ser libre. Pero Tomás la ha encontrado.",
+        "fr": "Au parc, loin du bruit, Mara découvre que penser est aussi une façon d’être libre. Mais Tomás l’a retrouvée."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces con este tiempo ganado?",
+          "fr": "Que fais-tu de ce temps gagné ?"
+        },
+        "tiempo_seg": 14,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Volver con una idea: reinventar el oficio",
+              "fr": "Revenir avec une idée : réinventer le métier"
+            },
+            "a": "n8",
+            "postura": {
+              "es": "Pensar para actuar",
+              "fr": "Penser pour agir"
+            }
+          },
+          {
+            "texto": {
+              "es": "Apoyar la huelga de Tomás",
+              "fr": "Soutenir la grève de Tomás"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Solidaridad",
+              "fr": "Solidarité"
+            }
+          }
+        ]
+      }
+    },
+    "f1": {
+      "escena": {
+        "titulo": {
+          "es": "Siempre más",
+          "fr": "Toujours plus"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "casa",
+            "tipo": "casa",
+            "pos": [
+              0.12,
+              0.62
+            ],
+            "etiqueta": {
+              "es": "Casa vacía",
+              "fr": "Maison vide"
+            },
+            "escala": 1
+          },
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.35,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Directora",
+              "fr": "Directrice"
+            },
+            "escala": 1
+          },
+          {
+            "id": "tesoro",
+            "tipo": "moneda",
+            "pos": [
+              0.82,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "",
+              "fr": ""
+            },
+            "escala": 1.8
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.15,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "",
+              "fr": ""
+            },
+            "escala": 1
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.55,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "",
+              "fr": ""
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "casa"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "tesoro"
+          },
+          {
+            "t": 2.5,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 3.5,
+            "accion": "mueve",
+            "actor": "mara",
+            "a": [
+              0.62,
+              0.72
+            ],
+            "dur": 2
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 5.5,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 6.5,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Más dinero. Más trabajo. ¿Para qué?",
+              "fr": "Plus d’argent. Plus de travail. Pour quoi ?"
+            }
+          },
+          {
+            "t": 8,
+            "accion": "desaparece",
+            "actor": "casa"
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Mara lo tiene todo… salvo tiempo para vivir.",
+              "fr": "Mara a tout… sauf du temps pour vivre."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Pasan los años entre reuniones y cifras. Mara es rica, respetada… y ya no sabe para qué trabaja.",
+        "fr": "Les années passent entre réunions et chiffres. Mara est riche, respectée… et ne sait plus pourquoi elle travaille."
+      },
+      "final": {
+        "id": "f1",
+        "titulo": {
+          "es": "Siempre más",
+          "fr": "Toujours plus"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Mara acumula dinero y trabajo sin límite sin saber qué hacer con ellos: el dinero deja de ser un medio y se vuelve un fin (la «mala chrématistique» de Aristóteles). Nietzsche denuncia esta moral del trabajo, que mueve a trabajar sólo por interés y esconde el miedo a lo individual y a la independencia.",
+          "fr": "Mara accumule argent et travail sans limite, sans savoir qu’en faire : l’argent cesse d’être un moyen et devient une fin (la « mauvaise chrématistique » d’Aristote). Nietzsche dénonce cette morale du travail, qui pousse à travailler par seul intérêt et cache la peur de l’individuel et de l’indépendance."
+        },
+        "filosofo": "nietzsche",
+        "cita": {
+          "texto": "toujours plus d’argent, toujours plus de labeur",
+          "pagina_pdf": 102
+        },
+        "pagina_pdf": 102,
+        "reflexion": {
+          "es": "¿Trabajamos para vivir o vivimos para trabajar? ¿Qué distingue una necesidad real de un deseo de «siempre más»? (¿Libera el trabajo o aliena?)",
+          "fr": "Travaille-t-on pour vivre ou vit-on pour travailler ? Qu’est-ce qui distingue un besoin réel d’un désir de « toujours plus » ? (Le travail est-il libérateur ou aliénant ?)"
+        }
+      }
+    },
+    "f2": {
+      "escena": {
+        "titulo": {
+          "es": "La pieza intercambiable",
+          "fr": "La pièce interchangeable"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "puerta",
+            "tipo": "puerta",
+            "pos": [
+              0.08,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Salida",
+              "fr": "Sortie"
+            },
+            "escala": 1
+          },
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "engranaje",
+            "tipo": "engranaje",
+            "pos": [
+              0.62,
+              0.45
+            ],
+            "etiqueta": {
+              "es": "La cadena sigue",
+              "fr": "La chaîne continue"
+            },
+            "escala": 1
+          },
+          {
+            "id": "vargas",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.88,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Vargas",
+              "fr": "Vargas"
+            },
+            "escala": 1.3
+          },
+          {
+            "id": "beneficio",
+            "tipo": "moneda",
+            "pos": [
+              0.85,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Beneficio",
+              "fr": "Profit"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "engranaje"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "vargas"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "beneficio"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "puerta"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 3,
+            "accion": "mueve",
+            "actor": "mara",
+            "a": [
+              0.1,
+              0.72
+            ],
+            "dur": 2
+          },
+          {
+            "t": 4.5,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 5.5,
+            "accion": "desaparece",
+            "actor": "mara"
+          },
+          {
+            "t": 6,
+            "accion": "etiqueta",
+            "actor": "engranaje",
+            "texto": {
+              "es": "Nueva máquina",
+              "fr": "Nouvelle machine"
+            }
+          },
+          {
+            "t": 6.5,
+            "accion": "proyecta",
+            "de": "engranaje",
+            "a": "beneficio",
+            "nota": {
+              "es": "Beneficio",
+              "fr": "Profit"
+            }
+          },
+          {
+            "t": 8.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La cadena no se detiene: Mara era una fuerza de trabajo más.",
+              "fr": "La chaîne ne s’arrête pas : Mara n’était qu’une force de travail parmi d’autres."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara cruza la puerta con la cabeza alta. Al día siguiente, otras manos —o una máquina— ocupan su lugar.",
+        "fr": "Mara franchit la porte la tête haute. Le lendemain, d’autres mains — ou une machine — prennent sa place."
+      },
+      "final": {
+        "id": "f2",
+        "titulo": {
+          "es": "La pieza intercambiable",
+          "fr": "La pièce interchangeable"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Para Marx, en la organización capitalista ya no se intercambian sólo objetos sino trabajadores: la fuerza de trabajo tiene un valor de cambio que el capitalista explota. Mara, que concibe y siente su trabajo, es tratada como una pieza reemplazable. La crítica marxista no apunta a la naturaleza del trabajo sino a lo que ha llegado a ser históricamente.",
+          "fr": "Pour Marx, dans l’organisation capitaliste, on n’échange plus seulement des objets mais des travailleurs : la force de travail a une valeur d’échange que le capitaliste exploite. Mara, qui conçoit et ressent son travail, est traitée comme une pièce remplaçable. La critique marxiste ne vise pas la nature du travail mais ce qu’il est devenu historiquement."
+        },
+        "filosofo": "marx",
+        "cita": {
+          "texto": "le plus mauvais architecte de l’abeille la plus experte",
+          "pagina_pdf": 99
+        },
+        "pagina_pdf": 102,
+        "reflexion": {
+          "es": "Si el hombre concibe su obra antes de hacerla, ¿qué debería cambiar para que lo producido vuelva al trabajador? ¿Puede una resistencia aislada cambiar la organización del trabajo?",
+          "fr": "Si l’homme conçoit son œuvre avant de la faire, que faudrait-il changer pour que le produit revienne au travailleur ? Une résistance isolée peut-elle changer l’organisation du travail ?"
+        }
+      }
+    },
+    "f3": {
+      "escena": {
+        "titulo": {
+          "es": "La primera imagen de libertad",
+          "fr": "La première image de la liberté"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "cadena",
+            "tipo": "engranaje",
+            "pos": [
+              0.12,
+              0.45
+            ],
+            "etiqueta": {
+              "es": "La cadena",
+              "fr": "La chaîne"
+            },
+            "escala": 1
+          },
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.35,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "materia",
+            "tipo": "piedra",
+            "pos": [
+              0.6,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "La materia",
+              "fr": "La matière"
+            },
+            "escala": 1
+          },
+          {
+            "id": "forma",
+            "tipo": "caja",
+            "pos": [
+              0.6,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Forma",
+              "fr": "Forme"
+            },
+            "escala": 1
+          },
+          {
+            "id": "libertad",
+            "tipo": "estrella",
+            "pos": [
+              0.5,
+              0.14
+            ],
+            "etiqueta": {
+              "es": "Libertad concreta",
+              "fr": "Liberté concrète"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1.5,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Sigue la cadena… pero domino la pieza.",
+              "fr": "La chaîne continue… mais je maîtrise la pièce."
+            }
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "materia"
+          },
+          {
+            "t": 4,
+            "accion": "proyecta",
+            "de": "mara",
+            "a": "materia",
+            "nota": {
+              "es": "Reglas universales",
+              "fr": "Règles universelles"
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "forma"
+          },
+          {
+            "t": 6,
+            "accion": "salta",
+            "actor": "mara"
+          },
+          {
+            "t": 7,
+            "accion": "aparece",
+            "actor": "libertad"
+          },
+          {
+            "t": 8,
+            "accion": "resalta",
+            "actor": "libertad"
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Una libertad pequeña y concreta, aun bajo la explotación.",
+              "fr": "Une liberté petite et concrète, même sous l’exploitation."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara vuelve a la cadena, sin ascensos ni gloria. Pero su gesto ya no depende del humor de un jefe: depende de la materia.",
+        "fr": "Mara retourne sur la chaîne, sans promotion ni gloire. Mais son geste ne dépend plus de l’humeur d’un chef : il dépend de la matière."
+      },
+      "final": {
+        "id": "f3",
+        "titulo": {
+          "es": "La primera imagen de libertad",
+          "fr": "La première image de la liberté"
+        },
+        "tipo": "ambiguo",
+        "idea": {
+          "es": "Sartre reconoce que el obrero de la cadena es casi un objeto, pero el trabajo ofrece «una amorce de libération concrète»: niega el orden caprichoso del amo y da maestría sobre las cosas. No es la libertad plena —el trabajo es impuesto y el producto se lo llevan—, pero es un germen de libertad, en la línea de Hegel.",
+          "fr": "Sartre reconnaît que l’ouvrier à la chaîne n’est presque plus qu’un objet, mais le travail offre « une amorce de libération concrète » : il nie l’ordre capricieux du maître et donne la maîtrise sur les choses. Ce n’est pas la liberté pleine — le travail est imposé et le produit est volé —, mais c’est un germe de liberté, dans la lignée de Hegel."
+        },
+        "filosofo": "sartre",
+        "cita": {
+          "texto": "c’est le déterminisme de la matière qui lui offre la première image de sa liberté",
+          "pagina_pdf": 108
+        },
+        "pagina_pdf": 108,
+        "reflexion": {
+          "es": "¿Basta con dominar la materia para decir que el trabajo libera, si el producto no te pertenece? ¿Qué falta para pasar de un germen de libertad a una libertad real? (Le travail rend-il libre ?)",
+          "fr": "Suffit-il de maîtriser la matière pour dire que le travail libère, si le produit ne t’appartient pas ? Que manque-t-il pour passer d’un germe de liberté à une liberté réelle ? (Le travail rend-il libre ?)"
+        }
+      }
+    },
+    "f4": {
+      "escena": {
+        "titulo": {
+          "es": "Mejor trabajar para mejor vivir",
+          "fr": "Mieux travailler pour mieux vivre"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "ivan",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Iván",
+              "fr": "Ivan"
+            },
+            "escala": 1
+          },
+          {
+            "id": "tomas",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Tomás",
+              "fr": "Tomás"
+            },
+            "escala": 1
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.5,
+              0.42
+            ],
+            "etiqueta": {
+              "es": "Nuestro reloj",
+              "fr": "Notre horloge"
+            },
+            "escala": 1
+          },
+          {
+            "id": "flor",
+            "tipo": "flor",
+            "pos": [
+              0.5,
+              0.18
+            ],
+            "etiqueta": {
+              "es": "Plenitud",
+              "fr": "Épanouissement"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.3,
+            "accion": "aparece",
+            "actor": "ivan"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "tomas"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 2,
+            "accion": "une",
+            "de": "mara",
+            "a": "reloj",
+            "nota": {
+              "es": "Obra",
+              "fr": "Œuvre"
+            }
+          },
+          {
+            "t": 3,
+            "accion": "salta",
+            "actor": "mara"
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "ivan",
+            "texto": {
+              "es": "Vuelvo a casa cansado… y contento.",
+              "fr": "Je rentre fatigué… et content."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "flor"
+          },
+          {
+            "t": 7,
+            "accion": "cita",
+            "texto": "mieux travailler pour mieux vivre"
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Un taller donde el esfuerzo tiene sentido y placer.",
+              "fr": "Un atelier où l’effort a du sens et du plaisir."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Vargas acepta probar los talleres: relojes completos, equipos que deciden. La calidad sube… y la gente sonríe.",
+        "fr": "Vargas accepte d’essayer les ateliers : des horloges complètes, des équipes qui décident. La qualité monte… et les gens sourient."
+      },
+      "final": {
+        "id": "f4",
+        "titulo": {
+          "es": "Mejor trabajar para mejor vivir",
+          "fr": "Mieux travailler pour mieux vivre"
+        },
+        "tipo": "luminoso",
+        "idea": {
+          "es": "Para Jouvenel, el trabajo no se rechaza por ser impuesto, sino porque se reduce a rentabilidad y elimina el placer. Mara lo reorganiza para que el esfuerzo se acepte como condición de un placer más duradero: reconcilia trabajo y placer, deseo y producción, y vuelve a hacer una obra entera, como querían Hegel y el oficio artesano.",
+          "fr": "Pour Jouvenel, on ne rejette pas le travail parce qu’il est imposé, mais parce qu’il est réduit à sa rentabilité, qui élimine le plaisir. Mara le réorganise pour que l’effort soit accepté comme condition d’un plaisir plus durable : elle réconcilie travail et plaisir, désir et production, et refait une œuvre entière, comme le voulait Hegel et comme le font les artisans."
+        },
+        "filosofo": "jouvenel",
+        "cita": {
+          "texto": "mieux travailler pour mieux vivre",
+          "pagina_pdf": 104
+        },
+        "pagina_pdf": 104,
+        "reflexion": {
+          "es": "¿Es posible generalizar este modelo más allá de un taller piloto, o sólo el artesano puede hacer todavía «obras»? ¿Cómo revalorizar el trabajo sin volverlo una nueva obligación?",
+          "fr": "Ce modèle est-il généralisable au-delà d’un atelier pilote, ou n’y a-t-il plus que les artisans pour faire encore des « œuvres » ? Comment revaloriser le travail sans en faire une nouvelle obligation ?"
+        }
+      }
+    },
+    "f5": {
+      "escena": {
+        "titulo": {
+          "es": "El ocio programado",
+          "fr": "Le loisir programmé"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.4,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara",
+              "fr": "Mara"
+            },
+            "escala": 1
+          },
+          {
+            "id": "publi",
+            "tipo": "nube",
+            "pos": [
+              0.75,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Publicidad",
+              "fr": "Publicité"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "ojo",
+            "tipo": "ojo",
+            "pos": [
+              0.4,
+              0.12
+            ],
+            "etiqueta": {
+              "es": "Control",
+              "fr": "Contrôle"
+            },
+            "escala": 1
+          },
+          {
+            "id": "moneda",
+            "tipo": "moneda",
+            "pos": [
+              0.82,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "",
+              "fr": ""
+            },
+            "escala": 1
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.4,
+              0.84
+            ],
+            "etiqueta": {
+              "es": "",
+              "fr": ""
+            },
+            "escala": 1
+          },
+          {
+            "id": "lunes",
+            "tipo": "reloj",
+            "pos": [
+              0.12,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Lunes 8:00",
+              "fr": "Lundi 8 h"
+            },
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "publi"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 2.5,
+            "accion": "proyecta",
+            "de": "publi",
+            "a": "mara",
+            "nota": {
+              "es": "Deseos dictados",
+              "fr": "Désirs dictés"
+            }
+          },
+          {
+            "t": 3.5,
+            "accion": "aparece",
+            "actor": "moneda"
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 5.5,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 6.5,
+            "accion": "aparece",
+            "actor": "lunes"
+          },
+          {
+            "t": 7.5,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Estoy más cansada que el viernes.",
+              "fr": "Je suis plus fatiguée que vendredi."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "resalta",
+            "actor": "ojo"
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El fin de semana imitó al trabajo: reglas, consumo y control.",
+              "fr": "Le week-end a imité le travail : règles, consommation et contrôle."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "El domingo por la noche, Mara tiene el bolsillo vacío y la cabeza vacía. Ha obedecido sin darse cuenta.",
+        "fr": "Dimanche soir, Mara a le portefeuille vide et la tête vide. Elle a obéi sans s’en rendre compte."
+      },
+      "final": {
+        "id": "f5",
+        "titulo": {
+          "es": "El ocio programado",
+          "fr": "Le loisir programmé"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Mara creyó escapar del trabajo, pero sus ocios estaban hechos a su medida: reglas, uniformidad, publicidad y consumo. Para Marcuse, los ocios socializados del siglo XX son «nuevas formas de control de los individuos» que refuerzan la alienación en vez de superarla.",
+          "fr": "Mara a cru échapper au travail, mais ses loisirs étaient faits sur mesure : règles, uniformité, publicité et consommation. Pour Marcuse, les loisirs socialisés du XXe siècle sont de « nouvelles formes de contrôle des individus » qui renforcent l’aliénation au lieu de la dépasser."
+        },
+        "filosofo": "marcuse",
+        "cita": {
+          "texto": "nouvelles formes de contrôle des individus",
+          "pagina_pdf": 103
+        },
+        "pagina_pdf": 103,
+        "reflexion": {
+          "es": "¿Cómo distinguir un ocio libre (el otium de Séneca) de un ocio que simplemente prolonga el trabajo? (Les loisirs nous libèrent-ils du travail ?)",
+          "fr": "Comment distinguer un loisir libre (l’otium de Sénèque) d’un loisir qui prolonge simplement le travail ? (Les loisirs nous libèrent-ils du travail ?)"
+        }
+      }
+    }
+  }
+}

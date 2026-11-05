@@ -76,15 +76,17 @@
       x.fillStyle = '#f3ecd8'; x.font = '700 64px "Cormorant Garamond", serif';
       const words = c.titulo.split(' '); let lines = [], cur = ''; words.forEach(w => { const t = cur ? cur + ' ' + w : w; if (x.measureText(t).width > 420 && cur) { lines.push(cur); cur = w; } else cur = t; }); lines.push(cur);
       lines.forEach((l, i) => x.fillText(l, W / 2, 300 + i * 66));
-      x.fillStyle = '#9a9db5'; x.font = 'italic 500 30px "Cormorant Garamond", serif'; x.fillText(c.titulo_es, W / 2, 300 + lines.length * 66 + 8);
+      if (State.lang !== 'fr') { x.fillStyle = '#9a9db5'; x.font = 'italic 500 30px "Cormorant Garamond", serif'; x.fillText(c.titulo_es, W / 2, 300 + lines.length * 66 + 8); }
       // pie: nº de filósofos y dominio
-      x.font = '400 22px Inter, sans-serif'; x.fillStyle = '#c9c6b8'; x.fillText(`${c.filosofos.length} filósofos · ${c.conceptos.length} conceptos`, W / 2, 606);
+      x.font = '400 22px Inter, sans-serif'; x.fillStyle = '#c9c6b8'; x.fillText(`${c.filosofos.length} ${L('filósofos', 'philosophes')} · ${c.conceptos.length} ${L('conceptos', 'concepts')}`, W / 2, 606);
       x.fillStyle = 'rgba(255,255,255,.12)'; x.beginPath(); x.roundRect(70, 630, 372, 14, 7); x.fill();
       if (m > 0) { x.fillStyle = col; x.beginPath(); x.roundRect(70, 630, Math.max(14, 372 * m / 100), 14, 7); x.fill(); }
-      x.fillStyle = '#9a9db5'; x.font = '400 18px Inter, sans-serif'; x.fillText(m ? `dominio ${m}%` : 'sin empezar', W / 2, 670);
+      x.fillStyle = '#9a9db5'; x.font = '400 18px Inter, sans-serif'; x.fillText(m ? `${L('dominio', 'maîtrise')} ${m}%` : L('sin empezar', 'pas commencé'), W / 2, 670);
     },
+    /** Cambia la lista de capítulos (al cambiar de idioma) y repinta las tarjetas. */
+    setCaps(caps) { this.caps = caps; if (this.cards) this.cards.forEach(g => g.userData.mastery = -1); this.refresh(); },
     refresh() {
-      if (!this.inited) return;
+      if (!this.inited || !this.cards) return;
       this.cards.forEach((g, i) => { const m = State.chapterMastery(this.caps[i].id); if (m !== g.userData.mastery) { g.userData.mastery = m; this.paintCard(g.userData.tex.image, this.caps[i]); g.userData.tex.needsUpdate = true; } });
     },
 
@@ -184,7 +186,7 @@
     fallback() {
       const fb = document.getElementById('gl-fallback'); document.getElementById('gl').hidden = true; fb.hidden = false; fb.className = 'page grid';
       fb.style.cssText = 'position:absolute;inset:100px 0 0 0;overflow:auto;padding:20px 5vw';
-      fb.innerHTML = this.caps.map(c => `<button class="card" style="--accent:${capColor(c)};text-align:left" data-id="${c.id}"><div class="n">${String(c.numero).padStart(2, '0')}</div><h3>${c.titulo}</h3><div style="color:var(--muted);font-size:13px">${c.titulo_es} · ${c.filosofos.length} filósofos</div></button>`).join('');
+      fb.innerHTML = this.caps.map(c => `<button class="card" style="--accent:${capColor(c)};text-align:left" data-id="${c.id}"><div class="n">${String(c.numero).padStart(2, '0')}</div><h3>${c.titulo}</h3><div style="color:var(--muted);font-size:13px">${c.titulo_es} · ${c.filosofos.length} ${L('filósofos','philosophes')}</div></button>`).join('');
       fb.onclick = e => { const b = e.target.closest('[data-id]'); if (b) this.onEnter(State.byCap[b.dataset.id]); };
       this.inited = true; this.start = () => {}; this.stop = () => {}; this.refresh = () => {};
     },

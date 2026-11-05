@@ -1,0 +1,2495 @@
+{
+ "id": "justice",
+ "numero": 14,
+ "titulo": "La justice",
+ "titulo_es": "La justicia",
+ "resumen": "La justice est d'abord une institution qui dit le droit (jus dicere) et, en tant qu'art du partage, elle maintient la paix civile dans un monde de conflits. Le droit (légalité, législation externe) doit être distingué de la morale (législation interne) et du pouvoir politique grâce à la séparation des pouvoirs. Il existe plusieurs fondements du droit (Platon, Lumières, Rousseau, Épicure, Calliclès, Marx) et deux types d'égalité : proportionnelle (distributive) et indistincte (commutative). Reste la question finale : un idéal de justice morale peut-il orienter le droit positif ?",
+ "paginas": {
+  "inicio": 226,
+  "fin": 239
+ },
+ "puntos_incontournables": [
+  "La justice, en tant qu'art du partage, maintient sans violence la paix civile : si elle est bien appliquée, personne ne se sent lésé (cohésion sociale).",
+  "Dans un régime démocratique, le droit ne doit pas dominer les autres pouvoirs ni se confondre avec la morale : principe de la séparation des pouvoirs (séparation des pouvoirs).",
+  "Un citoyen qui respecte la loi est traité équitablement par la justice, qui respecte ses droits naturels ou lui en attribue (équité).",
+  "Le choix d'une égalité proportionnelle ou indistincte entraîne des causes et des conséquences morales et politiques (égalité proportionnelle / indistincte).",
+  "La justice morale n'est pas la justice légale : il y a de bonnes raisons de penser qu'aucune justice morale ne peut servir le droit et, en même temps, que sans elle le droit n'aurait aucune valeur pour s'orienter (légalité / légitimité)."
+ ],
+ "nociones_clave": [
+  "justice",
+  "droit",
+  "loi",
+  "équité",
+  "séparation des pouvoirs",
+  "droit subjectif",
+  "droit objectif (positif)",
+  "justice distributive",
+  "justice commutative",
+  "égalité proportionnelle",
+  "égalité indistincte",
+  "légalité",
+  "légitimité",
+  "jurisprudence",
+  "contrat social",
+  "droit de classe",
+  "coutume"
+ ],
+ "problematicas_bac": [
+  "Le respect de la légalité est-il toujours juste ?",
+  "Quel type d'égalité est le plus juste ?",
+  "Y a-t-il un idéal de justice morale pouvant orienter le droit ?",
+  "Le droit est-il garant de la cohésion sociale ?"
+ ],
+ "conceptos": [
+  {
+   "id": "justice-institution",
+   "nombre": "La justice comme institution (jus dicere)",
+   "definicion": "Institution qui dit le droit, l'applique et sanctionne les infractions ; arbitre indépendant qui introduit une norme extérieure aux faits et donne à chacun le sien pour maintenir la paix civile.",
+   "pagina_pdf": 227,
+   "autores": [
+    "kant",
+    "alain"
+   ]
+  },
+  {
+   "id": "separation-pouvoirs",
+   "nombre": "Séparation des pouvoirs",
+   "definicion": "La justice dit la loi mais ne l'élabore pas (elle est votée par les parlementaires) ; elle est extérieure au pouvoir politique, qu'elle peut contrôler, ce qui évite l'arbitraire des gouvernants.",
+   "pagina_pdf": 228,
+   "autores": []
+  },
+  {
+   "id": "droit-et-morale",
+   "nombre": "Droit et morale",
+   "definicion": "Le droit suppose une législation externe et exige la conformité extérieure de l'acte, avec l'appui de la force publique ; la morale suppose une législation interne : l'individu s'oblige lui-même par devoir.",
+   "pagina_pdf": 228,
+   "autores": [
+    "kant"
+   ]
+  },
+  {
+   "id": "fondements-droit",
+   "nombre": "Los fundamentos del derecho",
+   "definicion": "Critères de légitimité du droit : norme transcendante (Platon), raison humaine (Lumières), volonté générale (Rousseau), paix civile (Épicure), nature (Calliclès) ou intérêt d'une classe (Marx).",
+   "pagina_pdf": 229,
+   "autores": [
+    "platon",
+    "rousseau",
+    "epicure",
+    "callicles",
+    "marx"
+   ]
+  },
+  {
+   "id": "droit-subjectif-objectif",
+   "nombre": "Droit subjectif et droit objectif",
+   "definicion": "Le droit subjectif (naturel) désigne les prérogatives que tout homme possède (santé, éducation, logement) ; le droit objectif ou positif est celui qu'énonce la loi et qui change selon les époques. Les premiers précèdent et orientent les seconds.",
+   "pagina_pdf": 230,
+   "autores": []
+  },
+  {
+   "id": "justice-distributive",
+   "nombre": "Justice distributive (égalité proportionnelle)",
+   "definicion": "Elle donne à chacun selon sa condition ou son mérite, dans la même proportion : à chacun ce qui lui est dû, mais pas la même chose à tous. Elle accepte une inégalité légitime par nature.",
+   "pagina_pdf": 230,
+   "autores": [
+    "aristote"
+   ]
+  },
+  {
+   "id": "justice-commutative",
+   "nombre": "Justice commutative (égalité indistincte)",
+   "definicion": "Chacun est égal par nature à chacun : les différences naturelles ne justifient pas des inégalités politiques ou sociales. Elle repose sur l'appartenance à l'humanité et sur la paix sociale.",
+   "pagina_pdf": 231,
+   "autores": [
+    "hobbes",
+    "kant"
+   ]
+  },
+  {
+   "id": "legalite-legitimite",
+   "nombre": "Légalité et légitimité",
+   "definicion": "Deux sens de « juste » : ce qui est conforme à la légalité (respect du droit positif) et ce qui est conforme à la légitimité (ce que l'on estime bon pour répartir les droits). Leur désaccord est un problème de conscience.",
+   "pagina_pdf": 238,
+   "autores": [
+    "bergson",
+    "pascal"
+   ]
+  }
+ ],
+ "filosofos": [
+  {
+   "id": "aristote",
+   "nombre": "Aristote",
+   "epoca": "IVe siècle av. J.-C.",
+   "tesis_principal": "Est injuste celui qui enfreint la loi et veut avoir plus sans respecter l'égalité ; le citoyen juste respecte les lois et le partage des biens. La justice comme vertu recherche une société d'égaux et répartit avec proportionnalité.",
+   "ideas_clave": [
+    "Injuste : celui qui contrevient à la loi et veut avoir plus (injuste / égalité)",
+    "Diké, dikaion, dikaionsunê : la justice comme vertu, liée à la morale",
+    "Justice distributive : donner selon la condition ou le mérite, dans une proportion égale (égalité proportionnelle)",
+    "Équité : la norme n'est pas mathématique, elle requiert une délibération sur les cas particuliers (équité)",
+    "Il appelle « commutative » la justice de l'égalité indistincte (justice commutative)"
+   ],
+   "citas": [
+    {
+     "texto": "Apparaît comme injuste celui qui contrevient à la loi et celui qui cherche à avoir plus et ne respecte pas l’égalité.",
+     "idioma": "fr",
+     "obra": "Éthique à Nicomaque",
+     "pagina_pdf": 228
+    }
+   ],
+   "debate_con": [
+    "hobbes",
+    "callicles"
+   ],
+   "como_usarlo_en_disertacion": "Utile dans la première partie de « Le respect de la légalité est-il toujours juste ? » (respecter la loi est par principe juste) et dans « Quel type d'égalité est le plus juste ? » pour défendre l'égalité proportionnelle selon le mérite.",
+   "escena_sugerida": "Un cupide rompt l'équilibre de la balance ; le citoyen juste respecte la loi et reçoit ce qui lui revient.",
+   "pagina_pdf": 228,
+   "escena": {
+    "titulo": "Aristote : le citoyen juste respecte la loi et l'égalité",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "balanza",
+      "tipo": "balanza",
+      "pos": [
+       0.5,
+       0.45
+      ],
+      "etiqueta": "La justice",
+      "escala": 1.2
+     },
+     {
+      "id": "moneda",
+      "tipo": "moneda",
+      "pos": [
+       0.5,
+       0.82
+      ],
+      "etiqueta": "Les biens"
+     },
+     {
+      "id": "codicioso",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.72
+      ],
+      "etiqueta": "Le cupide"
+     },
+     {
+      "id": "justo",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.72
+      ],
+      "etiqueta": "Le citoyen juste"
+     },
+     {
+      "id": "ley",
+      "tipo": "libro",
+      "pos": [
+       0.5,
+       0.15
+      ],
+      "etiqueta": "La loi"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "balanza"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Pour Aristote, la justice est une vertu : répartir les biens avec égalité."
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "moneda"
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "codicioso"
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "justo"
+     },
+     {
+      "t": 6,
+      "accion": "mueve",
+      "actor": "codicioso",
+      "a": [
+       0.4,
+       0.8
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 8,
+      "accion": "dice",
+      "actor": "codicioso",
+      "texto": "Je veux plus que les autres !"
+     },
+     {
+      "t": 9,
+      "accion": "tiembla",
+      "actor": "balanza"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "Est injuste celui qui enfreint la loi et veut avoir plus : il rompt l'égalité."
+     },
+     {
+      "t": 12,
+      "accion": "aparece",
+      "actor": "ley"
+     },
+     {
+      "t": 13,
+      "accion": "cita",
+      "texto": "Apparaît comme injuste celui qui contrevient à la loi et celui qui cherche à avoir plus et ne respecte pas l'égalité."
+     },
+     {
+      "t": 16,
+      "accion": "mueve",
+      "actor": "codicioso",
+      "a": [
+       0.15,
+       0.72
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 17,
+      "accion": "une",
+      "de": "justo",
+      "a": "ley",
+      "nota": "respecte"
+     },
+     {
+      "t": 18,
+      "accion": "dice",
+      "actor": "justo",
+      "texto": "Je respecte la loi et ma part."
+     },
+     {
+      "t": 20,
+      "accion": "resalta",
+      "actor": "balanza"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Justice distributive : à chacun selon sa condition ou son mérite, dans une proportion égale."
+     },
+     {
+      "t": 24,
+      "accion": "subtitulo",
+      "texto": "Le citoyen juste respecte la loi et ne cherche pas plus que ce qui lui revient."
+     }
+    ]
+   }
+  },
+  {
+   "id": "platon",
+   "nombre": "Platon",
+   "epoca": "Ve-IVe siècle av. J.-C.",
+   "tesis_principal": "La justice en soi, contemplée dans le monde des Idées, est un idéal parfait et universel qui doit guider l'organisation de la cité. Avec l'anneau de Gygès, Platon se demande si nous obéissons aux lois par vertu ou par lâcheté et par peur du châtiment.",
+   "ideas_clave": [
+    "La justice en soi dans le monde des Idées : norme transcendante (norme transcendante)",
+    "Anneau de Gygès (qui rend invisible) : pourquoi obéissons-nous aux lois ?",
+    "Nous obéissons souvent par lâcheté, puérilité ou peur des sanctions",
+    "Rarement par volonté de dépasser l'intérêt particulier",
+    "Gorgias : vaut-il mieux commettre ou subir une injustice ? (Socrate)"
+   ],
+   "citas": [],
+   "debate_con": [
+    "pascal",
+    "marx",
+    "callicles"
+   ],
+   "como_usarlo_en_disertacion": "Dans la deuxième partie de « Le respect de la légalité est-il toujours juste ? » (la justice doit se conformer à un ordre transcendant) ou pour montrer que l'obéissance à la loi ne prouve ni un désir d'égalité ni une bonne disposition morale.",
+   "escena_sugerida": "Gygès devient invisible grâce à l'anneau et plus aucun regard ne le retient : obéissait-il par vertu ou par peur ?",
+   "pagina_pdf": 231,
+   "escena": {
+    "titulo": "Platon : l'anneau de Gygès, pourquoi obéit-on aux lois ?",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "gyges",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.7
+      ],
+      "etiqueta": "Gygès"
+     },
+     {
+      "id": "ojo",
+      "tipo": "ojo",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Le regard des autres"
+     },
+     {
+      "id": "leyes",
+      "tipo": "libro",
+      "pos": [
+       0.5,
+       0.7
+      ],
+      "etiqueta": "Les lois"
+     },
+     {
+      "id": "anillo",
+      "tipo": "estrella",
+      "pos": [
+       0.2,
+       0.4
+      ],
+      "etiqueta": "L'anneau"
+     },
+     {
+      "id": "tesoro",
+      "tipo": "caja",
+      "pos": [
+       0.8,
+       0.75
+      ],
+      "etiqueta": "Le trésor"
+     },
+     {
+      "id": "duda",
+      "tipo": "interrogacion",
+      "pos": [
+       0.8,
+       0.3
+      ]
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "gyges"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "leyes"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Gygès respecte les lois tant que les autres le voient et qu'il peut être puni."
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "ojo"
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "tesoro"
+     },
+     {
+      "t": 6,
+      "accion": "dice",
+      "actor": "gyges",
+      "texto": "Je n'y touche pas : on me surveille."
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "anillo"
+     },
+     {
+      "t": 9,
+      "accion": "une",
+      "de": "anillo",
+      "a": "gyges",
+      "nota": "le rend invisible"
+     },
+     {
+      "t": 10,
+      "accion": "desaparece",
+      "actor": "ojo"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "Avec l'anneau, il devient invisible : plus personne ne le voit ni ne peut le sanctionner."
+     },
+     {
+      "t": 13,
+      "accion": "mueve",
+      "actor": "gyges",
+      "a": [
+       0.7,
+       0.75
+      ],
+      "dur": 2
+     },
+     {
+      "t": 15,
+      "accion": "tiembla",
+      "actor": "tesoro"
+     },
+     {
+      "t": 16,
+      "accion": "aparece",
+      "actor": "duda"
+     },
+     {
+      "t": 17,
+      "accion": "piensa",
+      "actor": "gyges",
+      "texto": "Était-ce de la vertu ou seulement la peur du châtiment ?"
+     },
+     {
+      "t": 19,
+      "accion": "resalta",
+      "actor": "leyes"
+     },
+     {
+      "t": 20,
+      "accion": "subtitulo",
+      "texto": "Platon soupçonne : nous obéissons souvent par lâcheté ou par peur des sanctions."
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "Obéir à la loi ne prouve pas un désir de justice : seul celui qui dépasse son intérêt est juste."
+     }
+    ]
+   }
+  },
+  {
+   "id": "kant",
+   "nombre": "Emmanuel Kant",
+   "epoca": "XVIIIe siècle",
+   "tesis_principal": "Les relations humaines sont conflictuelles à cause de l'« insociable sociabilité » des hommes, ruse de la nature pour développer toutes les potentialités humaines ; le droit est nécessaire pour les ordonner. L'impératif pratique kantien exprime l'égalité indistincte, et la morale est une législation interne qui agit par devoir.",
+   "ideas_clave": [
+    "Insociable sociabilité : l'histoire est celle de la violence, non de la raison (insociable sociabilité)",
+    "C'est la ruse de la nature pour développer les potentialités humaines",
+    "C'est pourquoi il faut une institution régulatrice : la justice",
+    "La morale : législation interne, l'individu agit par devoir",
+    "L'impératif pratique kantien se rapproche de l'égalité indistincte (impératif pratique)"
+   ],
+   "citas": [
+    {
+     "texto": "l’insociable sociabilité",
+     "idioma": "fr",
+     "obra": "cours, 1. a.",
+     "pagina_pdf": 226
+    }
+   ],
+   "debate_con": [
+    "hobbes",
+    "callicles"
+   ],
+   "como_usarlo_en_disertacion": "Pour justifier, dans une première partie, pourquoi le droit est nécessaire (conflit entre les hommes), et, dans la troisième partie, pour défendre que l'égalité indistincte, proche de l'impératif kantien, donne un ordre juste et accepté.",
+   "escena_sugerida": "Deux hommes s'attirent et se heurtent ; la nature se sert du conflit pour faire fleurir leurs potentialités et le droit les ordonne.",
+   "pagina_pdf": 226,
+   "escena": {
+    "titulo": "Kant : l'insociable sociabilité et la nécessité du droit",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "a",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.7
+      ],
+      "etiqueta": "Homme A"
+     },
+     {
+      "id": "b",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.7
+      ],
+      "etiqueta": "Homme B"
+     },
+     {
+      "id": "rayo",
+      "tipo": "rayo",
+      "pos": [
+       0.5,
+       0.6
+      ],
+      "etiqueta": "Conflit"
+     },
+     {
+      "id": "naturaleza",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "La nature"
+     },
+     {
+      "id": "flor",
+      "tipo": "flor",
+      "pos": [
+       0.5,
+       0.85
+      ],
+      "etiqueta": "Potentialités humaines"
+     },
+     {
+      "id": "balanza",
+      "tipo": "balanza",
+      "pos": [
+       0.5,
+       0.45
+      ],
+      "etiqueta": "Le droit"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "a"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "b"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Les hommes cherchent à vivre ensemble, mais ils se rejettent aussi."
+     },
+     {
+      "t": 4,
+      "accion": "mueve",
+      "actor": "a",
+      "a": [
+       0.4,
+       0.7
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 4,
+      "accion": "mueve",
+      "actor": "b",
+      "a": [
+       0.6,
+       0.7
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "rayo"
+     },
+     {
+      "t": 6.5,
+      "accion": "tiembla",
+      "actor": "a"
+     },
+     {
+      "t": 6.5,
+      "accion": "tiembla",
+      "actor": "b"
+     },
+     {
+      "t": 8,
+      "accion": "cita",
+      "texto": "l'insociable sociabilité"
+     },
+     {
+      "t": 9,
+      "accion": "subtitulo",
+      "texto": "Cette « insociable sociabilité » fait de l'histoire celle de la violence."
+     },
+     {
+      "t": 12,
+      "accion": "aparece",
+      "actor": "naturaleza"
+     },
+     {
+      "t": 13,
+      "accion": "proyecta",
+      "de": "naturaleza",
+      "a": "rayo",
+      "nota": "ruse"
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "flor"
+     },
+     {
+      "t": 16,
+      "accion": "subtitulo",
+      "texto": "C'est la ruse de la nature pour développer toutes les potentialités humaines."
+     },
+     {
+      "t": 19,
+      "accion": "desaparece",
+      "actor": "rayo"
+     },
+     {
+      "t": 19.5,
+      "accion": "aparece",
+      "actor": "balanza"
+     },
+     {
+      "t": 21,
+      "accion": "resalta",
+      "actor": "balanza"
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "Pour ordonner ces conflits, il faut l'institution de la justice."
+     }
+    ]
+   }
+  },
+  {
+   "id": "alain",
+   "nombre": "Alain",
+   "epoca": "XXe siècle",
+   "tesis_principal": "L'acte juridique essentiel consiste à renoncer solennellement à défendre son droit par la force : le juge, arbitre indépendant, donne à chacun le sien et sa parole vaut parce que tous reconnaissent son rôle d'arbitre.",
+   "ideas_clave": [
+    "Renoncer à la force pour faire valoir son propre droit (renoncer à la force)",
+    "Le juge est un arbitre indépendant, étranger au conflit (juge arbitre)",
+    "Il introduit une norme extérieure aux faits",
+    "Sa parole a du pouvoir grâce à la reconnaissance de tous, non par magie ni par volonté divine",
+    "Le droit est un art du partage et de la paix civile"
+   ],
+   "citas": [
+    {
+     "texto": "L’acte juridique essentiel consiste en […] ceci que l’on renonce solennellement à […] soutenir son droit par la force.",
+     "idioma": "fr",
+     "obra": "Propos, avril 1923",
+     "pagina_pdf": 226
+    }
+   ],
+   "debate_con": [
+    "callicles"
+   ],
+   "como_usarlo_en_disertacion": "Pour montrer que la justice comme institution remplace la violence par l'arbitrage (première partie d'un plan sur le droit et la cohésion sociale). Contraste avec la thèse de Calliclès sur la loi du plus fort.",
+   "escena_sugerida": "Deux plaideurs abandonnent le marteau de la force et acceptent le juge arbitre avec sa balance.",
+   "pagina_pdf": 226,
+   "escena": {
+    "titulo": "Alain : renoncer à la force devant le juge",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "a",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.7
+      ],
+      "etiqueta": "Plaideur A"
+     },
+     {
+      "id": "b",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.7
+      ],
+      "etiqueta": "Plaideur B"
+     },
+     {
+      "id": "fuerza",
+      "tipo": "martillo",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": "La force"
+     },
+     {
+      "id": "juez",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.3
+      ],
+      "etiqueta": "Le juge"
+     },
+     {
+      "id": "balanza",
+      "tipo": "balanza",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "etiqueta": "Norme extérieure"
+     },
+     {
+      "id": "paz",
+      "tipo": "flor",
+      "pos": [
+       0.5,
+       0.88
+      ],
+      "etiqueta": "Paix civile"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "a"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "b"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "fuerza"
+     },
+     {
+      "t": 2,
+      "accion": "dice",
+      "actor": "a",
+      "texto": "C'est à moi !"
+     },
+     {
+      "t": 3.5,
+      "accion": "dice",
+      "actor": "b",
+      "texto": "Non, c'est à moi !"
+     },
+     {
+      "t": 4.5,
+      "accion": "tiembla",
+      "actor": "fuerza"
+     },
+     {
+      "t": 5,
+      "accion": "subtitulo",
+      "texto": "Deux personnes se disputent quelque chose et la tentation est de trancher par la force."
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "juez"
+     },
+     {
+      "t": 9,
+      "accion": "aparece",
+      "actor": "balanza"
+     },
+     {
+      "t": 10,
+      "accion": "desaparece",
+      "actor": "fuerza"
+     },
+     {
+      "t": 11,
+      "accion": "cita",
+      "texto": "L'acte juridique essentiel consiste en ceci que l'on renonce solennellement à soutenir son droit par la force."
+     },
+     {
+      "t": 14,
+      "accion": "subtitulo",
+      "texto": "Tous deux renoncent à la force et acceptent un juge arbitre, étranger au conflit."
+     },
+     {
+      "t": 17,
+      "accion": "une",
+      "de": "juez",
+      "a": "balanza",
+      "nota": "norme extérieure"
+     },
+     {
+      "t": 19,
+      "accion": "aparece",
+      "actor": "paz"
+     },
+     {
+      "t": 20,
+      "accion": "resalta",
+      "actor": "juez"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Sa parole vaut parce que tous reconnaissent son rôle d'arbitre, non par magie."
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "Ainsi le droit donne à chacun le sien et garantit la paix civile."
+     }
+    ]
+   }
+  },
+  {
+   "id": "callicles",
+   "nombre": "Calliclès",
+   "epoca": "Ve siècle av. J.-C. (sophiste)",
+   "tesis_principal": "Selon le sophiste Calliclès, la nature fonde toute justice : il est naturel de se soumettre au plus fort, qui dicte sa loi. Le juste, c'est la domination du puissant sur le faible.",
+   "ideas_clave": [
+    "La nature comme fondement de la justice (la nature)",
+    "Il est naturel de se soumettre au plus fort qui dicte sa loi",
+    "Le juste, c'est la domination du puissant sur le faible (domination du puissant)",
+    "La supériorité du fort est admise"
+   ],
+   "citas": [
+    {
+     "texto": "La nature […] nous montre […] que la marque du juste, c’est la domination du puissant sur le faible et sa supériorité admise.",
+     "idioma": "fr",
+     "obra": "cours, 1. c. (sophiste Calliclès)",
+     "pagina_pdf": 228
+    }
+   ],
+   "debate_con": [
+    "alain",
+    "rousseau",
+    "platon"
+   ],
+   "como_usarlo_en_disertacion": "Comme position que l'on rejette ou que l'on met en contraste : utile pour poser un fondement naturaliste du droit (le plus fort) face au contrat social de Rousseau ou au renoncement à la force d'Alain.",
+   "escena_sugerida": "Un fort couronné domine un faible, avec la nature pour témoin, et le faible accepte sa loi.",
+   "pagina_pdf": 228,
+   "escena": {
+    "titulo": "Calliclès : la loi du plus fort comme justice naturelle",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "sol",
+      "tipo": "sol",
+      "pos": [
+       0.5,
+       0.12
+      ],
+      "etiqueta": "La nature"
+     },
+     {
+      "id": "fuerte",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.7
+      ],
+      "etiqueta": "Le puissant",
+      "escala": 1.5
+     },
+     {
+      "id": "debil",
+      "tipo": "monigote",
+      "pos": [
+       0.75,
+       0.75
+      ],
+      "etiqueta": "Le faible",
+      "escala": 0.7
+     },
+     {
+      "id": "corona",
+      "tipo": "corona",
+      "pos": [
+       0.25,
+       0.42
+      ]
+     },
+     {
+      "id": "cadena",
+      "tipo": "cadena",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": "Soumission"
+     },
+     {
+      "id": "ley",
+      "tipo": "libro",
+      "pos": [
+       0.25,
+       0.9
+      ],
+      "etiqueta": "Sa loi"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "sol"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Calliclès, sophiste, demande à la nature ce qui est juste."
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "fuerte"
+     },
+     {
+      "t": 3.5,
+      "accion": "aparece",
+      "actor": "debil"
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "corona"
+     },
+     {
+      "t": 6,
+      "accion": "dice",
+      "actor": "fuerte",
+      "texto": "Je suis plus fort : c'est moi qui commande."
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "ley"
+     },
+     {
+      "t": 9,
+      "accion": "proyecta",
+      "de": "ley",
+      "a": "debil",
+      "nota": "s'impose"
+     },
+     {
+      "t": 11,
+      "accion": "aparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 12,
+      "accion": "tiembla",
+      "actor": "debil"
+     },
+     {
+      "t": 13,
+      "accion": "subtitulo",
+      "texto": "Pour lui, il est naturel que le faible se soumette au plus fort, qui dicte sa loi."
+     },
+     {
+      "t": 16,
+      "accion": "resalta",
+      "actor": "sol"
+     },
+     {
+      "t": 17,
+      "accion": "cita",
+      "texto": "La nature nous montre que la marque du juste, c'est la domination du puissant sur le faible et sa supériorité admise."
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Pour Calliclès, la nature fonde la justice : le juste, c'est la domination du puissant."
+     }
+    ]
+   }
+  },
+  {
+   "id": "epicure",
+   "nombre": "Épicure",
+   "epoca": "IVe-IIIe siècle av. J.-C.",
+   "tesis_principal": "Le fondement du droit est la paix civile : chaque individu a intérêt à respecter les règles juridiques s'il veut jouir de sécurité et de tranquillité dans une société apaisée.",
+   "ideas_clave": [
+    "Le droit se fonde sur la paix civile (la paix civile)",
+    "Il est de l'intérêt de chaque individu de respecter les règles juridiques",
+    "On recherche la sécurité et la tranquillité",
+    "Une société apaisée profite à tous"
+   ],
+   "citas": [],
+   "debate_con": [
+    "callicles",
+    "rousseau"
+   ],
+   "como_usarlo_en_disertacion": "Pour justifier que la loi est juste parce qu'elle assure la paix et l'ordre (première partie de « Le respect de la légalité est-il toujours juste ? »), avec un argument d'intérêt bien entendu.",
+   "escena_sugerida": "Sans règles, l'individu vit inquiet sous un nuage ; avec des règles, il obtient la sécurité chez lui.",
+   "pagina_pdf": 228,
+   "escena": {
+    "titulo": "Épicure : respeter les règles pour vivre en paix",
+    "estilo": "monigotes",
+    "duracion_seg": 22,
+    "actores": [
+     {
+      "id": "hombre",
+      "tipo": "monigote",
+      "pos": [
+       0.3,
+       0.7
+      ],
+      "etiqueta": "L'individu"
+     },
+     {
+      "id": "nube",
+      "tipo": "nube",
+      "pos": [
+       0.3,
+       0.2
+      ],
+      "etiqueta": "Insécurité"
+     },
+     {
+      "id": "reglas",
+      "tipo": "libro",
+      "pos": [
+       0.65,
+       0.7
+      ],
+      "etiqueta": "Les règles"
+     },
+     {
+      "id": "casa",
+      "tipo": "casa",
+      "pos": [
+       0.85,
+       0.65
+      ],
+      "etiqueta": "Sécurité"
+     },
+     {
+      "id": "flor",
+      "tipo": "flor",
+      "pos": [
+       0.85,
+       0.88
+      ],
+      "etiqueta": "Tranquillité"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "hombre"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "nube"
+     },
+     {
+      "t": 2,
+      "accion": "tiembla",
+      "actor": "hombre"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Sans règles communes, l'individu vit inquiet et en insécurité."
+     },
+     {
+      "t": 6,
+      "accion": "piensa",
+      "actor": "hombre",
+      "texto": "Qu'est-ce qui me convient pour vivre tranquille ?"
+     },
+     {
+      "t": 9,
+      "accion": "aparece",
+      "actor": "reglas"
+     },
+     {
+      "t": 10,
+      "accion": "mueve",
+      "actor": "hombre",
+      "a": [
+       0.55,
+       0.7
+      ],
+      "dur": 2
+     },
+     {
+      "t": 12,
+      "accion": "une",
+      "de": "hombre",
+      "a": "reglas",
+      "nota": "les respecte"
+     },
+     {
+      "t": 13,
+      "accion": "desaparece",
+      "actor": "nube"
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "casa"
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "flor"
+     },
+     {
+      "t": 16,
+      "accion": "subtitulo",
+      "texto": "Respecter les règles lui procure sécurité et tranquillité dans une société apaisée."
+     },
+     {
+      "t": 19,
+      "accion": "resalta",
+      "actor": "casa"
+     },
+     {
+      "t": 20,
+      "accion": "subtitulo",
+      "texto": "Pour Épicure, le droit se fonde sur la paix civile et sur l'intérêt de chacun."
+     }
+    ]
+   }
+  },
+  {
+   "id": "rousseau",
+   "nombre": "Jean-Jacques Rousseau",
+   "epoca": "XVIIIe siècle",
+   "tesis_principal": "Les règles juridiques expriment la volonté générale, à laquelle tout citoyen participe par le contrat social ; leurs causes et leurs effets sont la liberté et l'égalité. Les droits sont mieux protégés que par la force, qui peut être renversée.",
+   "ideas_clave": [
+    "Volonté générale (volonté générale)",
+    "Contrat social entre les membres de la communauté (contrat social)",
+    "Causes et effets du contrat : liberté et égalité",
+    "Les droits protègent mieux que la force, qu'une autre force supérieure peut renverser"
+   ],
+   "citas": [],
+   "debate_con": [
+    "callicles",
+    "marx",
+    "epicure"
+   ],
+   "como_usarlo_en_disertacion": "Pour fonder le droit sur la volonté générale (partie sur la légitimité du droit) et pour l'opposer à la loi du plus fort de Calliclès ; Marx le cite comme précédent lorsqu'il dévoile que le droit protège des intérêts.",
+   "escena_sugerida": "Plusieurs citoyens s'unissent dans un contrat et forment la volonté générale ; la force de l'un est renversée, le droit demeure.",
+   "pagina_pdf": 228,
+   "escena": {
+    "titulo": "Rousseau : le contrat social et la volonté générale",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "c1",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.75
+      ],
+      "etiqueta": "Citoyen"
+     },
+     {
+      "id": "c2",
+      "tipo": "monigote",
+      "pos": [
+       0.4,
+       0.8
+      ],
+      "etiqueta": "Citoyen"
+     },
+     {
+      "id": "c3",
+      "tipo": "monigote",
+      "pos": [
+       0.65,
+       0.75
+      ],
+      "etiqueta": "Citoyen"
+     },
+     {
+      "id": "contrato",
+      "tipo": "libro",
+      "pos": [
+       0.4,
+       0.45
+      ],
+      "etiqueta": "Contrat social"
+     },
+     {
+      "id": "general",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.85,
+       0.35
+      ],
+      "etiqueta": "Volonté générale"
+     },
+     {
+      "id": "balanza",
+      "tipo": "balanza",
+      "pos": [
+       0.85,
+       0.75
+      ],
+      "etiqueta": "Liberté et égalité"
+     },
+     {
+      "id": "fuerza",
+      "tipo": "martillo",
+      "pos": [
+       0.15,
+       0.3
+      ],
+      "etiqueta": "La force"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "c1"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "c2"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "c3"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Des individus séparés, sans règles communes, ne comptent que sur la force."
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "fuerza"
+     },
+     {
+      "t": 5,
+      "accion": "tiembla",
+      "actor": "fuerza"
+     },
+     {
+      "t": 6,
+      "accion": "dice",
+      "actor": "c2",
+      "texto": "Une force plus grande la renversera."
+     },
+     {
+      "t": 8,
+      "accion": "desaparece",
+      "actor": "fuerza"
+     },
+     {
+      "t": 9,
+      "accion": "aparece",
+      "actor": "contrato"
+     },
+     {
+      "t": 10,
+      "accion": "une",
+      "de": "c1",
+      "a": "contrato"
+     },
+     {
+      "t": 10.5,
+      "accion": "une",
+      "de": "c2",
+      "a": "contrato"
+     },
+     {
+      "t": 11,
+      "accion": "une",
+      "de": "c3",
+      "a": "contrato"
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "Par le contrat social, tous participent aux règles communes."
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "general"
+     },
+     {
+      "t": 16,
+      "accion": "proyecta",
+      "de": "contrato",
+      "a": "general",
+      "nota": "volonté générale"
+     },
+     {
+      "t": 18,
+      "accion": "aparece",
+      "actor": "balanza"
+     },
+     {
+      "t": 19,
+      "accion": "resalta",
+      "actor": "balanza"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Les règles expriment la volonté générale ; leurs causes et leurs effets : liberté et égalité."
+     }
+    ]
+   }
+  },
+  {
+   "id": "marx",
+   "nombre": "Karl Marx",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "Le droit positif n'a pas de légitimité universelle : c'est un droit de classe qui sert les intérêts de la classe économique dominante. Son apparence de neutralité fait croire que les lois sont dictées dans l'intérêt général : une illusion vitale qui maintient la cohésion sociale.",
+   "ideas_clave": [
+    "Tout droit est un droit de classe (droit de classe)",
+    "Les droits sont des intérêts protégés économiquement",
+    "Apparence de neutralité : on croit que la loi sert l'intérêt général",
+    "Illusion vitale qui maintient la cohésion sociale et la classe dominante en position de force",
+    "Les exigences de justice morale ne se situent pas au niveau du droit"
+   ],
+   "citas": [],
+   "debate_con": [
+    "platon",
+    "rousseau"
+   ],
+   "como_usarlo_en_disertacion": "Dans la deuxième partie d'une dialectique sur la légalité, pour critiquer l'idée que le droit positif soit toujours juste, et dans « La justice morale doit-elle orienter le droit ? » comme position qui nie la justice morale au sein du droit.",
+   "escena_sugerida": "La classe dominante fait une loi d'apparence neutre qui protège ses intérêts ; la classe dominée croit qu'elle est celle de tous.",
+   "pagina_pdf": 231,
+   "escena": {
+    "titulo": "Marx : le droit, expression des intérêts de la classe dominante",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "dominante",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.7
+      ],
+      "etiqueta": "Classe dominante"
+     },
+     {
+      "id": "corona",
+      "tipo": "corona",
+      "pos": [
+       0.15,
+       0.45
+      ]
+     },
+     {
+      "id": "moneda",
+      "tipo": "moneda",
+      "pos": [
+       0.3,
+       0.3
+      ],
+      "etiqueta": "Intérêts économiques"
+     },
+     {
+      "id": "ley",
+      "tipo": "libro",
+      "pos": [
+       0.5,
+       0.55
+      ],
+      "etiqueta": "Le droit"
+     },
+     {
+      "id": "balanza",
+      "tipo": "balanza",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Apparence neutre"
+     },
+     {
+      "id": "dominada",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.75
+      ],
+      "etiqueta": "Classe dominée"
+     },
+     {
+      "id": "bombilla",
+      "tipo": "bombilla",
+      "pos": [
+       0.85,
+       0.4
+      ]
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "dominante"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "corona"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "moneda"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Pour Marx, les intérêts économiques de la classe dominante façonnent le droit."
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "ley"
+     },
+     {
+      "t": 6,
+      "accion": "proyecta",
+      "de": "moneda",
+      "a": "ley",
+      "nota": "ses intérêts"
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "balanza"
+     },
+     {
+      "t": 9,
+      "accion": "subtitulo",
+      "texto": "La loi se présente comme neutre, comme si elle servait l'intérêt général."
+     },
+     {
+      "t": 12,
+      "accion": "aparece",
+      "actor": "dominada"
+     },
+     {
+      "t": 13,
+      "accion": "piensa",
+      "actor": "dominada",
+      "texto": "La loi est la même pour tous, non ?"
+     },
+     {
+      "t": 15,
+      "accion": "tiembla",
+      "actor": "balanza"
+     },
+     {
+      "t": 16,
+      "accion": "resalta",
+      "actor": "dominante"
+     },
+     {
+      "t": 17,
+      "accion": "subtitulo",
+      "texto": "Cette illusion vitale maintient la cohésion sociale et la classe dominante à sa place."
+     },
+     {
+      "t": 20,
+      "accion": "aparece",
+      "actor": "bombilla"
+     },
+     {
+      "t": 21,
+      "accion": "dice",
+      "actor": "dominada",
+      "texto": "C'est un droit de classe."
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "Le droit positif n'est pas universel : il ne protège que les intérêts d'une classe."
+     }
+    ]
+   }
+  },
+  {
+   "id": "pascal",
+   "nombre": "Blaise Pascal",
+   "epoca": "XVIIe siècle",
+   "tesis_principal": "Il n'existe pas de concept universel de justice morale : en observant les valeurs et les droits des différents pays, on ne peut la définir. La coutume fait toute l'équité par cette seule raison qu'elle est reçue ; les droits sont le résultat de l'histoire.",
+   "ideas_clave": [
+    "Impossibilité de définir la justice morale par l'observation des pays (comme Montaigne)",
+    "La coutume fait l'équité (la coutume)",
+    "Les conceptions juridiques sont le résultat de l'histoire et de l'évolution politique",
+    "Exemple : droit anglo-saxon et droit français, deux cultures européennes aux procédures différentes"
+   ],
+   "citas": [
+    {
+     "texto": "la coutume fait toute l’équité",
+     "idioma": "fr",
+     "obra": "Les Pensées",
+     "pagina_pdf": 230
+    }
+   ],
+   "debate_con": [
+    "platon",
+    "bergson"
+   ],
+   "como_usarlo_en_disertacion": "Pour soutenir qu'il n'existe pas d'idéal universel de justice morale pour orienter le droit (première thèse de la partie 4 du cours) et que la légitimité d'une loi dépend de ses valeurs nationales et historiques.",
+   "escena_sugerida": "Pascal compare deux pays aux lois différentes et conclut que c'est la coutume qui rend juste.",
+   "pagina_pdf": 230,
+   "escena": {
+    "titulo": "Pascal : la coutume fait l'équité",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "pascal",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": "Pascal"
+     },
+     {
+      "id": "paisA",
+      "tipo": "bandera",
+      "pos": [
+       0.15,
+       0.45
+      ],
+      "etiqueta": "Pays A"
+     },
+     {
+      "id": "leyA",
+      "tipo": "libro",
+      "pos": [
+       0.15,
+       0.75
+      ],
+      "etiqueta": "Loi A"
+     },
+     {
+      "id": "paisB",
+      "tipo": "bandera",
+      "pos": [
+       0.85,
+       0.45
+      ],
+      "etiqueta": "Pays B"
+     },
+     {
+      "id": "leyB",
+      "tipo": "libro",
+      "pos": [
+       0.85,
+       0.75
+      ],
+      "etiqueta": "Loi B"
+     },
+     {
+      "id": "duda",
+      "tipo": "interrogacion",
+      "pos": [
+       0.5,
+       0.35
+      ]
+     },
+     {
+      "id": "reloj",
+      "tipo": "reloj",
+      "pos": [
+       0.5,
+       0.12
+      ],
+      "etiqueta": "L'histoire"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "pascal"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "paisA"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "leyA"
+     },
+     {
+      "t": 2,
+      "accion": "aparece",
+      "actor": "paisB"
+     },
+     {
+      "t": 2.5,
+      "accion": "aparece",
+      "actor": "leyB"
+     },
+     {
+      "t": 3.5,
+      "accion": "subtitulo",
+      "texto": "Pascal observe les valeurs et les droits de différents pays."
+     },
+     {
+      "t": 6,
+      "accion": "piensa",
+      "actor": "pascal",
+      "texto": "Où est la justice morale universelle ?"
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "duda"
+     },
+     {
+      "t": 9,
+      "accion": "tiembla",
+      "actor": "leyA"
+     },
+     {
+      "t": 9.5,
+      "accion": "tiembla",
+      "actor": "leyB"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "Les lois diffèrent : on ne peut définir une justice morale par l'observation."
+     },
+     {
+      "t": 13,
+      "accion": "aparece",
+      "actor": "reloj"
+     },
+     {
+      "t": 14,
+      "accion": "proyecta",
+      "de": "reloj",
+      "a": "leyA",
+      "nota": "histoire et tradition"
+     },
+     {
+      "t": 14.5,
+      "accion": "proyecta",
+      "de": "reloj",
+      "a": "leyB"
+     },
+     {
+      "t": 16,
+      "accion": "cita",
+      "texto": "la coutume fait toute l'équité par cette seule raison qu'elle est reçue"
+     },
+     {
+      "t": 19,
+      "accion": "subtitulo",
+      "texto": "Les lois sont le fruit de l'histoire et de l'évolution politique de chaque pays."
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "Il n'y a pas d'idéal universel de justice morale pour orienter le droit."
+     }
+    ]
+   }
+  },
+  {
+   "id": "hobbes",
+   "nombre": "Thomas Hobbes",
+   "epoca": "XVIIe siècle",
+   "tesis_principal": "Dans la justice « commutative », chacun doit être considéré comme égal par nature à chacun. Les inégalités naturelles de dons et de talents ne sont pas niées, mais elles ne justifient pas des inégalités politiques ou sociales.",
+   "ideas_clave": [
+    "Que chacun soit considéré comme égal par nature à chacun (égalité indistincte)",
+    "On ne cache pas les inégalités naturelles de talents et de compétences",
+    "Elles ne servent pas de prétexte à des inégalités politiques ou sociales",
+    "Valeurs qui la soutiennent : appartenance à l'humanité et paix sociale"
+   ],
+   "citas": [
+    {
+     "texto": "Que chacun soit considéré comme égal par nature à chacun",
+     "idioma": "fr",
+     "obra": "Du citoyen, III",
+     "pagina_pdf": 230
+    }
+   ],
+   "debate_con": [
+    "aristote",
+    "kant"
+   ],
+   "como_usarlo_en_disertacion": "Pour défendre l'égalité indistincte face à la proportionnelle dans « Quel type d'égalité est le plus juste ? » : dignité commune de tout homme, raison et liberté non déterminées par les origines, et paix sociale.",
+   "escena_sugerida": "Trois personnes aux talents différents sont placées sur une balance de niveau : les différences ne justifient pas l'inégalité.",
+   "pagina_pdf": 230,
+   "escena": {
+    "titulo": "Hobbes : égaux par nature malgré les différences",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "fuerte",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.7
+      ],
+      "etiqueta": "Fort",
+      "escala": 1.4
+     },
+     {
+      "id": "sabio",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.72
+      ],
+      "etiqueta": "Savant"
+     },
+     {
+      "id": "debil",
+      "tipo": "monigote",
+      "pos": [
+       0.8,
+       0.74
+      ],
+      "etiqueta": "Modeste",
+      "escala": 0.7
+     },
+     {
+      "id": "balanza",
+      "tipo": "balanza",
+      "pos": [
+       0.5,
+       0.35
+      ],
+      "etiqueta": "Égalité par nature",
+      "escala": 1.3
+     },
+     {
+      "id": "cerebro",
+      "tipo": "cerebro",
+      "pos": [
+       0.5,
+       0.52
+      ]
+     },
+     {
+      "id": "fuego",
+      "tipo": "fuego",
+      "pos": [
+       0.9,
+       0.3
+      ],
+      "etiqueta": "Révolte"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "fuerte"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "sabio"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "debil"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Les hommes diffèrent par leurs dons, leurs talents et leurs capacités physiques ou intellectuelles."
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "cerebro"
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "balanza"
+     },
+     {
+      "t": 7,
+      "accion": "resalta",
+      "actor": "balanza"
+     },
+     {
+      "t": 8,
+      "accion": "cita",
+      "texto": "Que chacun soit considéré comme égal par nature à chacun"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "Hobbes ne nie pas ces différences : il ne s'en sert pas comme prétexte à l'inégalité politique."
+     },
+     {
+      "t": 14,
+      "accion": "une",
+      "de": "balanza",
+      "a": "fuerte"
+     },
+     {
+      "t": 14.5,
+      "accion": "une",
+      "de": "balanza",
+      "a": "sabio"
+     },
+     {
+      "t": 15,
+      "accion": "une",
+      "de": "balanza",
+      "a": "debil"
+     },
+     {
+      "t": 17,
+      "accion": "aparece",
+      "actor": "fuego"
+     },
+     {
+      "t": 18,
+      "accion": "tiembla",
+      "actor": "fuego"
+     },
+     {
+      "t": 19,
+      "accion": "subtitulo",
+      "texto": "Si les critères de mérite ne convainquent pas tout le monde, des révoltes éclatent."
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "L'égalité indistincte repose sur l'humanité commune et sur la paix sociale."
+     }
+    ]
+   }
+  },
+  {
+   "id": "bergson",
+   "nombre": "Henri Bergson",
+   "epoca": "XXe siècle",
+   "tesis_principal": "La justice moderne, celle des « droits de l'homme », évoque l'absolu et non la mesure de la balance antique : elle vise la réalisation de la personnalité et de l'humanité. Cette réalisation passe par les lois et le consentement de la société, mais elle est toujours initiée par quelqu'un.",
+   "ideas_clave": [
+    "Justice antique : équilibres provisoires comme la balance (mesure)",
+    "Justice moderne : droits de l'homme, incommensurabilité et absolu",
+    "Elle procède par créations successives, chacune étant une réalisation plus complète de l'humanité",
+    "Elle n'est possible que par les lois et le consentement de la société",
+    "Un idéal doit orienter le droit : « l'élan a toujours été donné par quelqu'un »"
+   ],
+   "citas": [
+    {
+     "texto": "C’est un bond en avant, qui ne s’exécute que si la société s’est décidée à tenter une expérience",
+     "idioma": "fr",
+     "obra": "Les Deux Sources de la morale et de la religion, 1932",
+     "pagina_pdf": 235
+    }
+   ],
+   "debate_con": [
+    "pascal",
+    "marx"
+   ],
+   "como_usarlo_en_disertacion": "Dans la troisième partie de « Le respect de la légalité est-il toujours juste ? » ou dans « La justice morale doit-elle orienter le droit ? » pour défendre qu'un idéal d'humanité oriente et justifie en dernière instance le droit.",
+   "escena_sugerida": "Un novateur convainc la société de faire un bond en avant et d'ouvrir la porte d'une loi nouvelle vers plus d'humanité.",
+   "pagina_pdf": 235,
+   "escena": {
+    "titulo": "Bergson : la justice comme bond en avant de l'humanité",
+    "estilo": "monigotes",
+    "duracion_seg": 27,
+    "actores": [
+     {
+      "id": "balanza",
+      "tipo": "balanza",
+      "pos": [
+       0.15,
+       0.3
+      ],
+      "etiqueta": "Justice antique"
+     },
+     {
+      "id": "estrella",
+      "tipo": "estrella",
+      "pos": [
+       0.85,
+       0.15
+      ],
+      "etiqueta": "Droits de l'homme"
+     },
+     {
+      "id": "innovador",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.75
+      ],
+      "etiqueta": "Quelqu'un"
+     },
+     {
+      "id": "bombilla",
+      "tipo": "bombilla",
+      "pos": [
+       0.25,
+       0.5
+      ]
+     },
+     {
+      "id": "sociedad",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "etiqueta": "La société"
+     },
+     {
+      "id": "duda",
+      "tipo": "interrogacion",
+      "pos": [
+       0.6,
+       0.25
+      ]
+     },
+     {
+      "id": "puerta",
+      "tipo": "puerta",
+      "pos": [
+       0.88,
+       0.7
+      ],
+      "etiqueta": "Nouvelle loi"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "balanza"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "La justice antique était une balance : équilibres provisoires, de rapport et de mesure."
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "estrella"
+     },
+     {
+      "t": 5,
+      "accion": "subtitulo",
+      "texto": "La nôtre, celle des droits de l'homme, évoque l'absolu : réaliser l'humanité."
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "sociedad"
+     },
+     {
+      "t": 9,
+      "accion": "aparece",
+      "actor": "innovador"
+     },
+     {
+      "t": 10,
+      "accion": "aparece",
+      "actor": "bombilla"
+     },
+     {
+      "t": 11,
+      "accion": "dice",
+      "actor": "innovador",
+      "texto": "Il faut aller plus loin !"
+     },
+     {
+      "t": 13,
+      "accion": "aparece",
+      "actor": "duda"
+     },
+     {
+      "t": 14,
+      "accion": "piensa",
+      "actor": "sociedad",
+      "texto": "Devons-nous tenter l'expérience ?"
+     },
+     {
+      "t": 16,
+      "accion": "subtitulo",
+      "texto": "Cela ne se fait pas tout seul : quelqu'un convainc ou secoue la société pour qu'elle consente."
+     },
+     {
+      "t": 19,
+      "accion": "proyecta",
+      "de": "innovador",
+      "a": "sociedad",
+      "nota": "la convainc"
+     },
+     {
+      "t": 20,
+      "accion": "cita",
+      "texto": "C'est un bond en avant, qui ne s'exécute que si la société s'est décidée à tenter une expérience"
+     },
+     {
+      "t": 22,
+      "accion": "aparece",
+      "actor": "puerta"
+     },
+     {
+      "t": 23,
+      "accion": "salta",
+      "actor": "sociedad"
+     },
+     {
+      "t": 24,
+      "accion": "subtitulo",
+      "texto": "Par de nouvelles lois, un idéal moral oriente le droit vers plus d'humanité."
+     }
+    ]
+   }
+  }
+ ],
+ "relaciones": [
+  {
+   "de": "aristote",
+   "a": "hobbes",
+   "tipo": "se opone",
+   "nota": "Égalité proportionnelle selon le mérite face à l'égalité indistincte de tous par nature."
+  },
+  {
+   "de": "rousseau",
+   "a": "marx",
+   "tipo": "influye",
+   "nota": "Rousseau a montré que les droits protègent mieux que la force ; Marx le reprend en y voyant des intérêts protégés."
+  },
+  {
+   "de": "callicles",
+   "a": "rousseau",
+   "tipo": "se opone",
+   "nota": "Loi du plus fort face au contrat social et à la volonté générale."
+  },
+  {
+   "de": "alain",
+   "a": "callicles",
+   "tipo": "se opone",
+   "nota": "Renoncer à la force devant un arbitre face à la justice comme domination du puissant."
+  },
+  {
+   "de": "platon",
+   "a": "marx",
+   "tipo": "se opone",
+   "nota": "Justice en soi transcendante face au droit comme expression d'une classe."
+  },
+  {
+   "de": "pascal",
+   "a": "platon",
+   "tipo": "se opone",
+   "nota": "La coutume fait l'équité face à une justice universelle contemplée dans les Idées."
+  },
+  {
+   "de": "bergson",
+   "a": "pascal",
+   "tipo": "se opone",
+   "nota": "Un idéal moral doit orienter le droit face à l'absence de justice morale universelle."
+  },
+  {
+   "de": "kant",
+   "a": "hobbes",
+   "tipo": "complementa",
+   "nota": "L'impératif pratique kantien exprime l'égalité indistincte que formule Hobbes."
+  },
+  {
+   "de": "epicure",
+   "a": "rousseau",
+   "tipo": "complementa",
+   "nota": "Tous deux fondent le droit sur la paix et sur l'intérêt commun de ceux qui le respectent."
+  },
+  {
+   "de": "kant",
+   "a": "alain",
+   "tipo": "complementa",
+   "nota": "Du conflit de l'insociable sociabilité à l'arbitrage qui remplace la force."
+  },
+  {
+   "de": "platon",
+   "a": "bergson",
+   "tipo": "complementa",
+   "nota": "Tous deux pensent qu'un idéal moral doit guider la légalité."
+  },
+  {
+   "de": "fondements-droit",
+   "a": "marx",
+   "tipo": "complementa",
+   "nota": "L'intérêt de classe est l'un des fondements possibles du droit."
+  }
+ ],
+ "quiz": [
+  {
+   "pregunta": "Qui parle de « l'insociable sociabilité » ?",
+   "opciones": [
+    "Bergson",
+    "Kant",
+    "Aristote",
+    "Alain"
+   ],
+   "correcta": 1,
+   "explicacion": "Le cours cite Kant : l'« insociable sociabilité » explique que les relations humaines sont conflictuelles et que l'histoire est celle de la violence.",
+   "filosofo": "kant",
+   "pagina_pdf": 226
+  },
+  {
+   "pregunta": "Qui fait la loi dans notre société ?",
+   "opciones": [
+    "Les juges",
+    "Les policiers",
+    "Les parlementaires",
+    "Les avocats"
+   ],
+   "correcta": 2,
+   "explicacion": "La justice dit le droit mais ne l'élabore pas : en démocratie, ce sont les parlementaires qui votent les lois.",
+   "filosofo": null,
+   "pagina_pdf": 227
+  },
+  {
+   "pregunta": "À travers le mythe de l'anneau de Gygès, sur quelle notion Platon s'interroge-t-il ?",
+   "opciones": [
+    "Les causes de l'obéissance",
+    "La légitimité de la justice",
+    "L'origine de l'égalité des droits",
+    "La puissance du roi"
+   ],
+   "correcta": 0,
+   "explicacion": "Platon s'interroge sur les causes réelles de l'obéissance aux lois : lâcheté, puérilité ou peur des sanctions.",
+   "filosofo": "platon",
+   "pagina_pdf": 231
+  },
+  {
+   "pregunta": "Quel philosophe fait référence à la notion de droit de classe ?",
+   "opciones": [
+    "Hobbes",
+    "Épicure",
+    "Marx",
+    "Kant"
+   ],
+   "correcta": 2,
+   "explicacion": "Pour Marx, tout droit est un droit de classe dont le contenu sert les intérêts de la classe économique dominante.",
+   "filosofo": "marx",
+   "pagina_pdf": 231
+  },
+  {
+   "pregunta": "Les droits subjectifs se distinguent ... :",
+   "opciones": [
+    "des lois",
+    "de la force",
+    "des droits objectifs",
+    "des devoirs moraux"
+   ],
+   "correcta": 2,
+   "explicacion": "Le droit subjectif (naturel) se distingue du droit objectif ou positif, celui qu'énonce la loi et qui change selon les époques.",
+   "filosofo": null,
+   "pagina_pdf": 233
+  },
+  {
+   "pregunta": "Quel est le symbole de la justice ?",
+   "opciones": [
+    "Le sabre",
+    "La balance",
+    "Le chêne",
+    "Le glaive et le feu"
+   ],
+   "correcta": 1,
+   "explicacion": "Le cours indique que tous s'accordent à dire que l'égalité est le symbole de la justice (la balance).",
+   "filosofo": null,
+   "pagina_pdf": 229
+  },
+  {
+   "pregunta": "La justice distributive se distingue de ... :",
+   "opciones": [
+    "la force des faibles",
+    "la domination des forts",
+    "la justice commutative",
+    "la justice divine"
+   ],
+   "correcta": 2,
+   "explicacion": "La justice distributive (égalité proportionnelle) se distingue de la commutative, qui repose sur l'égalité indistincte.",
+   "filosofo": "aristote",
+   "pagina_pdf": 233
+  },
+  {
+   "pregunta": "Outre la paix sociale, qu'est-ce qui justifie l'égalité indistincte ?",
+   "opciones": [
+    "L'égale dignité des hommes",
+    "La nature",
+    "Le bon sens",
+    "Le mérite"
+   ],
+   "correcta": 0,
+   "explicacion": "L'égalité indistincte repose sur l'appartenance de tout être humain à l'humanité (égale dignité) et sur la paix sociale.",
+   "filosofo": "hobbes",
+   "pagina_pdf": 230
+  },
+  {
+   "pregunta": "Qu'est-ce qui justifie le droit des hommes selon Pascal ?",
+   "opciones": [
+    "L'autorité politique",
+    "La morale",
+    "La coutume",
+    "La raison universelle"
+   ],
+   "correcta": 2,
+   "explicacion": "Pour Pascal, « la coutume fait toute l'équité par cette seule raison qu'elle est reçue ».",
+   "filosofo": "pascal",
+   "pagina_pdf": 230
+  },
+  {
+   "pregunta": "L'anneau de Gygès permet de ... :",
+   "opciones": [
+    "mieux voir",
+    "devenir invisible",
+    "tout connaître",
+    "voyager dans le temps"
+   ],
+   "correcta": 1,
+   "explicacion": "L'anneau de Gygès permet de devenir invisible, ce qui pose la question de savoir si nous obéissons aux lois par vertu ou par peur du châtiment.",
+   "filosofo": "platon",
+   "pagina_pdf": 231
+  },
+  {
+   "pregunta": "Quelle est la différence entre le droit et la morale ?",
+   "opciones": [
+    "Le droit suppose une législation interne, la morale une législation externe",
+    "Le droit suppose une législation externe, la morale une législation interne",
+    "Les deux supposent une législation externe",
+    "Le droit s'appuie sur l'intention, la morale sur la conformité extérieure"
+   ],
+   "correcta": 1,
+   "explicacion": "Le droit exige une conformité extérieure et s'appuie sur la force publique ; la morale est une législation interne dans laquelle l'individu agit par devoir.",
+   "filosofo": null,
+   "pagina_pdf": 228
+  },
+  {
+   "pregunta": "Pour Épicure, pourquoi chacun a-t-il intérêt à respecter les règles juridiques ?",
+   "opciones": [
+    "Pour imiter la justice contemplée dans les Idées",
+    "Pour servir la classe dominante",
+    "Pour jouir de la sécurité et de la tranquillité dans une société apaisée",
+    "Pour obéir à la volonté d'un souverain"
+   ],
+   "correcta": 2,
+   "explicacion": "Le cours présente la paix civile comme fondement du droit selon Épicure : respecter les règles procure sécurité et tranquillité.",
+   "filosofo": "epicure",
+   "pagina_pdf": 228
+  },
+  {
+   "pregunta": "Comment Aristote appelle-t-il la justice fondée sur l'égalité indistincte ?",
+   "opciones": [
+    "Distributive",
+    "Commutative",
+    "Proportionnelle",
+    "Légale"
+   ],
+   "correcta": 1,
+   "explicacion": "Le cours dit que cette justice est appelée « commutative » par Aristote ; la distributive est celle de l'égalité proportionnelle.",
+   "filosofo": "aristote",
+   "pagina_pdf": 230
+  }
+ ],
+ "preguntas_abiertas": [
+  {
+   "enunciado": "Quelle différence faut-il faire entre le droit et la morale ?",
+   "puntos_clave": [
+    "Droit : législation externe au sujet, obligation extérieure (exemple du code de la route) qui s'impose qu'on le veuille ou non",
+    "La conformité extérieure de l'acte suffit ; l'intention morale ne joue aucun rôle et ne peut être évaluée par la justice",
+    "Le droit s'appuie légitimement sur la force publique et sur la sanction des infractions",
+    "Morale : législation interne, l'individu s'oblige lui-même à bien agir sans contrainte extérieure, par devoir (Kant)",
+    "Le droit ne doit pas être confondu avec la morale dans un régime démocratique"
+   ],
+   "filosofos": [
+    "kant"
+   ],
+   "pagina_pdf": 227
+  },
+  {
+   "enunciado": "Distinguez la justice distributive et la justice commutative.",
+   "puntos_clave": [
+    "Distributive (égalité proportionnelle) : donner à chacun selon sa condition ou son mérite, dans la même proportion (Aristote)",
+    "Elle part du fait que les hommes ne sont pas tous égaux : on doit à chacun ce qui lui revient, mais pas la même chose",
+    "Commutative (égalité indistincte) : chacun est égal par nature à chacun (Hobbes)",
+    "Les différences naturelles ne justifient pas d'inégalités politiques ou sociales ; valeurs : humanité commune et paix sociale",
+    "Exemple des salaires : mérite, œuvre, besoin, rang, diplôme ? Le marché tranche dans le capitalisme"
+   ],
+   "filosofos": [
+    "aristote",
+    "hobbes"
+   ],
+   "pagina_pdf": 230
+  },
+  {
+   "enunciado": "Pourquoi obéit-on aux lois ? Que nous apprend l'allégorie de l'anneau de Gygès ?",
+   "puntos_clave": [
+    "Anneau de Gygès (qui permet de devenir invisible) chez Platon",
+    "Il interroge les causes réelles de l'obéissance aux lois",
+    "Souvent lâcheté, puérilité ou peur des sanctions, rarement volonté de dépasser les intérêts particuliers",
+    "Nous acceptons que chacun ait le sien surtout pour ne pas être lésés, non par l'impératif kantien ni par la dignité de tous",
+    "Écho à la formule de Victor Hugo : « Égalité, traduction en langue politique du mot envie »"
+   ],
+   "filosofos": [
+    "platon",
+    "kant"
+   ],
+   "pagina_pdf": 231
+  },
+  {
+   "enunciado": "Selon Bergson, quelle relation y a-t-il entre le droit et l'idéal moral de justice ?",
+   "puntos_clave": [
+    "Thème : la difficile relation entre le droit et l'idéal moral de justice",
+    "Thèse : la justice conçue comme réalisation de l'humanité",
+    "Le droit réglemente la vie sociale (fin intrinsèque : maintenir la société) ; l'exigence de justice vise le bien de l'homme en tant qu'homme (fin extrinsèque)",
+    "Justice antique (balance, mesure) face à justice moderne (droits de l'homme, absolu)",
+    "Il se situe en 4. b. : l'idéal doit orienter le droit, qui le rend possible par des lois acceptées par la société"
+   ],
+   "filosofos": [
+    "bergson"
+   ],
+   "pagina_pdf": 237
+  }
+ ],
+ "disertaciones": [
+  {
+   "sujeto": "Le respect de la légalité est-il toujours juste ?",
+   "tipo_plan": "dialectique",
+   "problematica": "Sans légalité, pas de justice possible, mais toutes les lois n'expriment pas des valeurs universelles et une loi applicable à tous n'est pas pour autant juste. Il faut se demander si nous devons dépasser la seule légalité et chercher l'équilibre entre principes personnels et loi.",
+   "plan": [
+    {
+     "parte": "I. La loi assure la paix sociale, donc elle est juste et justifiée",
+     "idea": "Si la loi doit seulement assurer l'ordre et la paix, son respect est toujours juste : elle dépasse les points de vue particuliers et engendre de la cohésion.",
+     "autores": [
+      "aristote",
+      "epicure",
+      "alain"
+     ],
+     "ejemplo": "Aristote : est injuste celui qui contrevient à la loi et veut avoir plus."
+    },
+    {
+     "parte": "II. La justice d'un pays doit se conformer à ses valeurs",
+     "idea": "Si la pratique juridique doit suivre un ordre transcendant ou une idée de l'homme, le respect des lois n'est juste que si le droit positif se conforme à ces valeurs.",
+     "autores": [
+      "platon",
+      "marx",
+      "pascal"
+     ],
+     "ejemplo": "Marx : le droit est un droit de classe ; Platon et l'anneau de Gygès : nous obéissons par peur."
+    },
+    {
+     "parte": "III. Agir toujours selon sa propre conscience",
+     "idea": "La légalité repose sur une conception de l'homme que chacun doit respecter en conscience ; exceptionnellement, une loi peut être refusée au nom de valeurs universelles.",
+     "autores": [
+      "bergson",
+      "kant"
+     ],
+     "ejemplo": "Thoreau et la désobéissance civile ou Antigone, qui se rebelle contre une loi qu'elle juge injuste (ruse du cours)."
+    }
+   ],
+   "pagina_pdf": 236
+  },
+  {
+   "sujeto": "Quel type d'égalité est le plus juste ?",
+   "tipo_plan": "dialectique",
+   "problematica": "Tous s'accordent à dire que l'égalité est le symbole de la justice, mais l'égalité proportionnelle (selon le mérite ou la condition) et l'égalité indistincte s'affrontent. Il faut voir laquelle est la plus légitime et la plus stable pour garantir la cohésion sociale.",
+   "plan": [
+    {
+     "parte": "I. L'égalité proportionnelle : à chacun selon sa condition ou son mérite",
+     "idea": "La justice distributive reconnaît que les hommes ne sont pas tous égaux et répartit dans la même proportion, avec une équité qui tient compte des situations particulières.",
+     "autores": [
+      "aristote"
+     ],
+     "ejemplo": "L'équité : appliquer la même loi à tous produirait paradoxalement de nouvelles inégalités (droits subjectifs et objectifs)."
+    },
+    {
+     "parte": "II. Les limites de l'égalité proportionnelle",
+     "idea": "Elle est rarement acceptée : il n'y a jamais unanimité sur les critères (mérite, œuvres, besoins, rang, diplômes) et les révoltes le prouvent.",
+     "autores": [
+      "hobbes",
+      "marx"
+     ],
+     "ejemplo": "Les salaires : quels critères pour un salaire juste ? Le marché tranche dans le capitalisme."
+    },
+    {
+     "parte": "III. L'égalité indistincte comme fondement stable de la légalité",
+     "idea": "Chaque humain appartient à l'humanité et ses capacités de choisir, de raisonner et d'être libre ne dépendent pas de l'origine ; le contenu, plus proche de l'impératif kantien, satisfait le plus grand nombre.",
+     "autores": [
+      "hobbes",
+      "kant",
+      "rousseau"
+     ],
+     "ejemplo": "Hobbes : « Que chacun soit considéré comme égal par nature à chacun »."
+    }
+   ],
+   "pagina_pdf": 230
+  },
+  {
+   "sujeto": "La justice morale doit-elle orienter le droit ?",
+   "tipo_plan": "dialectique",
+   "problematica": "Le droit se distingue de la morale, et la justice morale ne semble pas universelle ; pourtant, sans idéal de justice, le droit pourrait manquer de valeur pour s'orienter. Il s'agit de savoir si un idéal moral doit orienter la légalité.",
+   "plan": [
+    {
+     "parte": "I. Il n'y a pas d'idéal de justice morale pour orienter le droit",
+     "idea": "La justice morale n'est pas un concept universel ; l'obéissance à la loi ne prouve pas un désir d'égalité et le droit peut être un droit de classe.",
+     "autores": [
+      "pascal",
+      "platon",
+      "marx"
+     ],
+     "ejemplo": "Pascal : la coutume fait l'équité ; droit anglo-saxon et droit français."
+    },
+    {
+     "parte": "II. Un idéal de justice morale doit orienter la justice légale",
+     "idea": "L'égalité est une composante de la justice morale et un critère de la légalité ; un droit qui satisfait le plus grand nombre est plus stable et mieux accepté.",
+     "autores": [
+      "kant",
+      "rousseau",
+      "bergson"
+     ],
+     "ejemplo": "Bergson : la justice comme réalisation de l'humanité, « bond en avant » qui passe par les lois."
+    },
+    {
+     "parte": "III. Dépassement : légalité et légitimité",
+     "idea": "Deux sens du juste : conforme à la légalité ou à la légitimité. La justice n'est pas la simple application d'une règle, elle suppose une délibération sur les situations particulières.",
+     "autores": [
+      "aristote",
+      "bergson"
+     ],
+     "ejemplo": "L'équité aristotélicienne : la norme n'est pas mathématique, elle requiert une délibération."
+    }
+   ],
+   "pagina_pdf": 238
+  }
+ ]
+}
