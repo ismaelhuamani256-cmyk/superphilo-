@@ -16,15 +16,15 @@
     const n = nodes.length; let s = 12345; const rnd = () => (s = (s * 16807) % 2147483647) / 2147483647;
     nodes.forEach((d, i) => { const a = i / n * Math.PI * 2; d.x = W / 2 + Math.cos(a) * W * 0.3 + (rnd() - .5) * 30; d.y = H / 2 + Math.sin(a) * H * 0.3 + (rnd() - .5) * 30; d.vx = d.vy = 0; });
     const idx = Object.fromEntries(nodes.map((d, i) => [d.id, i]));
-    const L = Math.min(W, H) * 0.24, pad = 70;
-    for (let it = 0; it < 420; it++) {
-      const cool = 1 - it / 420;
+    const L = Math.min(W, H) * 0.3, pad = 80;
+    for (let it = 0; it < 520; it++) {
+      const cool = 1 - it / 520;
       for (let i = 0; i < n; i++) for (let j = i + 1; j < n; j++) {
-        let dx = nodes[j].x - nodes[i].x, dy = nodes[j].y - nodes[i].y, d2 = dx * dx + dy * dy + 0.01, d = Math.sqrt(d2), f = 5200 / d2;
+        let dx = nodes[j].x - nodes[i].x, dy = nodes[j].y - nodes[i].y, d2 = dx * dx + dy * dy + 0.01, d = Math.sqrt(d2), f = 21000 / d2 + (d < 130 ? (130 - d) * 0.35 : 0);
         dx /= d; dy /= d; nodes[i].vx -= dx * f; nodes[i].vy -= dy * f; nodes[j].vx += dx * f; nodes[j].vy += dy * f;
       }
       edges.forEach(e => { const a = nodes[idx[e.de]], b = nodes[idx[e.a]]; if (!a || !b) return; let dx = b.x - a.x, dy = b.y - a.y, d = Math.sqrt(dx * dx + dy * dy) + 0.01, f = (d - L) * 0.012 * (e.w || 1); dx /= d; dy /= d; a.vx += dx * f * d * 0.1; a.vy += dy * f * d * 0.1; b.vx -= dx * f * d * 0.1; b.vy -= dy * f * d * 0.1; });
-      nodes.forEach(d => { d.vx += (W / 2 - d.x) * 0.004; d.vy += (H / 2 - d.y) * 0.004; d.x += Math.max(-14, Math.min(14, d.vx)) * cool; d.y += Math.max(-14, Math.min(14, d.vy)) * cool; d.vx *= 0.6; d.vy *= 0.6; d.x = Math.max(pad, Math.min(W - pad, d.x)); d.y = Math.max(pad, Math.min(H - pad, d.y)); });
+      nodes.forEach(d => { d.vx += (W / 2 - d.x) * 0.0022; d.vy += (H / 2 - d.y) * 0.0026; d.x += Math.max(-14, Math.min(14, d.vx)) * cool; d.y += Math.max(-14, Math.min(14, d.vy)) * cool; d.vx *= 0.6; d.vy *= 0.6; d.x = Math.max(pad, Math.min(W - pad, d.x)); d.y = Math.max(pad, Math.min(H - pad - 25, d.y)); });
     }
   }
 
