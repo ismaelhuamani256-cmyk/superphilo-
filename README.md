@@ -19,8 +19,15 @@ Sin Node también funciona: abre `index.html` con doble clic (el progreso se gua
 | **Ficha** | Tesis, ideas clave, citas **literales con página del PDF**, con quién debate, cómo usarlo en la disertación. Botones **▶ Ver escena** y **Ponme a prueba**. |
 | **Escenas** | 155 mini-películas (una por autor) generadas por un motor fijo a partir de guiones JSON. Estilos: Monigotes (cuaderno), Cómic, Lego y PS2. |
 | **Repaso** | Quiz de opción múltiple (los QCM de tu libro + extras), preguntas abiertas con autoevaluación guiada por pauta, "repasar mis fallos", XP, niveles y estados *visto → practicado → dominado*. Exportar / importar respaldo. |
+| **Dilemas** | 10 mini-videojuegos de decisiones estilo *Detroit: Become Human* en monigotes: eliges, la historia se ramifica (con cronómetro opcional) y llegas a finales trágicos, ambiguos o luminosos que revelan la idea y el autor del cours. Incluye el mapa de decisiones (flowchart) con los finales que has descubierto. |
 | **Disertación** | Planes por sujeto armados solo con autores del cours + el método de la dissertation y de l'explication de texte de tu libro. |
 | **Repères** | Glosario de repères y cronología de autores del final del libro, con buscador. |
+
+## Idioma ES / FR
+El botón **ES | FR** de la barra superior cambia la interfaz **y todo el contenido** (resúmenes, fichas, escenas, quizzes, disertaciones, repères, dilemas). Citas y términos clave siempre van en francés (idioma original del libro). La versión francesa vive en `data/fr/` (se genera con `tools/fr-extract.js` + `tools/fr-merge.js`).
+
+## Barras laterales
+La barra del capítulo (izquierda) y la ficha (derecha) se **arrastran por su borde** para cambiar el ancho (doble clic = restablecer; el ancho se recuerda). La ficha tiene además un botón ⤢ para ampliarla.
 
 ## Fidelidad al cours
 - Todo sale de las páginas de tu PDF; cada dato lleva su `pagina_pdf` (la página del libro = página PDF − 1).
@@ -35,6 +42,8 @@ server.js            servidor sin dependencias (solo 127.0.0.1) + guarda data/pr
 data/cours.json|js   contenido ensamblado (lo lee la app)
 data/capitulos/      un JSON por noción (editable a mano)
 data/extras.json     método, repères, cronología
+data/fr/             versión francesa de todo lo anterior
+data/dilemas/        novelas interactivas (esquema en tools/ESQUEMA_DILEMA.md)
 tools/               build.js (ensambla), validar.js (esquema + citas), ESQUEMA_CAPITULO.md
 ```
 Si editas un capítulo a mano: `node tools/validar.js data/capitulos/NN-id.json` y luego `node tools/build.js` (o reinicia `server.js`, que ensambla al arrancar).
