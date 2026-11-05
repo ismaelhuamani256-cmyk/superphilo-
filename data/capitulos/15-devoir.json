@@ -1,0 +1,599 @@
+{
+  "id": "devoir",
+  "numero": 15,
+  "titulo": "Le devoir",
+  "titulo_es": "El deber",
+  "resumen": "El deber suele percibirse como una obligación sufrida bajo coacción, pero el capítulo muestra que puede ser otra cosa: interdictos fundadores de toda sociedad (asesinato, incesto), obligación social de dar, recibir y devolver, obediencia a las leyes legítimas de un Estado democrático, y sobre todo deber moral kantiano, el único verdaderamente libre y universal. También advierte contra el deber convertido en obediencia ciega (Eichmann, la «banalidad del mal»).",
+  "paginas": { "inicio": 240, "fin": 255 },
+  "puntos_incontournables": [
+    "Los interdictos originarios (les interdits originels): el asesinato y el incesto son los dos interdictos fundadores de nuestras sociedades.",
+    "El deber de dar, recibir y devolver (le don, le contre-don): las sociedades «primitivas» se imponían deberes sociopolíticos simbólicos pero obligatorios que comprometen a toda la comunidad.",
+    "La «banalidad del mal» (Arendt): obedecer ciegamente a las órdenes puede ser dramático, como muestra Adolf Eichmann.",
+    "El deber de respetar las leyes de los Estados democráticos (Hobbes, Rousseau): permiten vivir en seguridad y con igualdad de derechos.",
+    "El imperativo categórico kantiano (l’impératif catégorique): cuando no se apoya en ningún interés, el deber adquiere un valor moral y universal."
+  ],
+  "nociones_clave": ["devoir", "interdit", "meurtre", "inceste", "prohibition de l’inceste", "altérité", "fait social total", "potlatch", "don et contre-don", "banalité du mal", "désobéissance civile", "état de nature", "loi morale", "impératif catégorique", "impératif hypothétique", "maxime", "noumène", "déontologie", "agir par devoir / conformément au devoir"],
+  "problematicas_bac": [
+    "Le devoir est-il libérateur ?",
+    "Peut-on être certain d’accomplir son devoir de manière vraiment désintéressée ?",
+    "Faire son devoir, est-ce obéir ?",
+    "L’accomplissement du devoir moral rend-il heureux ?"
+  ],
+  "conceptos": [
+    { "id": "interdits-originels", "nombre": "Interdits originels (meurtre et inceste)", "definicion": "El asesinato y el incesto son los dos interdictos fundadores de nuestras sociedades; imponen un deber universal que da su forma a la cultura.", "pagina_pdf": 241, "autores": ["freud", "durkheim", "levi-strauss"] },
+    { "id": "don-contre-don", "nombre": "Dar, recibir y devolver", "definicion": "Triple obligación social de las sociedades arcaicas (potlatch): el don, su aceptación y su devolución sostienen el rango y la paz entre clanes.", "pagina_pdf": 243, "autores": ["mauss"] },
+    { "id": "banalite-du-mal", "nombre": "Banalité du mal", "definicion": "Obedecer ciegamente a las órdenes como un deber absoluto desresponsabiliza al individuo y permite cometer crímenes sintiéndose un simple funcionario que cumple su trabajo.", "pagina_pdf": 244, "autores": ["arendt"] },
+    { "id": "obeissance-aux-lois", "nombre": "Obediencia a las leyes legítimas", "definicion": "En un Estado democrático la ley protege la vida y la igualdad de todos, y por eso su respeto es un deber legítimo; la desobediencia civil no es un derecho reconocido pero puede justificarse por valores superiores.", "pagina_pdf": 245, "autores": ["hobbes", "rousseau", "thoreau"] },
+    { "id": "imperatif-categorique", "nombre": "Impératif catégorique", "definicion": "Ley moral de la razón que obliga sin condición y es universalizable («Agis uniquement d’après la maxime…»); se opone al imperativo hipotético, utilitario («si quiero X, debo hacer Y»).", "pagina_pdf": 246, "autores": ["kant"] },
+    { "id": "par-devoir", "nombre": "Acto por deber vs conforme al deber", "definicion": "Sólo el acto hecho por deber, es decir por respeto a la ley moral que la razón se da a sí misma, es moral y libre; el acto meramente conforme al deber, impuesto desde fuera, no lo es.", "pagina_pdf": 246, "autores": ["kant"] },
+    { "id": "devoir-bonheur", "nombre": "Deber moral y felicidad", "definicion": "La maldad es incompatible con la felicidad (Aristóteles); la buena voluntad nos hace dignos de ser felices (Kant), aunque la felicidad dependa también de las circunstancias.", "pagina_pdf": 255, "autores": ["aristote", "kant"] }
+  ],
+  "filosofos": [
+    {
+      "id": "freud",
+      "nombre": "Sigmund Freud",
+      "epoca": "siglos XIX-XX",
+      "tesis_principal": "El asesinato y el incesto son los dos interdictos fundadores de nuestras sociedades y de los derechos en que se apoyan.",
+      "ideas_clave": [
+        "Dos interdictos fundadores: el meurtre y la prohibición del inceste",
+        "La psicoanálisis muestra que las primeras atracciones sexuales se dirigen a los parientes cercanos (complexe d’Œdipe)",
+        "Estos interdictos no son naturales: son la base de la cultura y del deber universal"
+      ],
+      "citas": [],
+      "debate_con": [],
+      "como_usarlo_en_disertacion": "Sirve en una primera parte sobre el origen del deber: antes de las leyes escritas, hay interdictos que fundan toda sociedad. Útil para sujetos que contrapongan deber, naturaleza y cultura.",
+      "escena_sugerida": "Un individuo con pulsiones choca con dos puertas prohibidas; de esas prohibiciones nace la casa de la cultura.",
+      "pagina_pdf": 241,
+      "escena": {
+        "titulo": "Freud : deux interdits fondateurs",
+        "estilo": "monigotes",
+        "duracion_seg": 24,
+        "actores": [
+          { "id": "humano", "tipo": "monigote", "pos": [0.2, 0.7], "etiqueta": "L’individu", "escala": 1 },
+          { "id": "pulsion", "tipo": "fuego", "pos": [0.2, 0.4], "etiqueta": "Pulsions", "escala": 1 },
+          { "id": "sociedad", "tipo": "silueta_grande", "pos": [0.8, 0.55], "etiqueta": "La société", "escala": 1.3 },
+          { "id": "meurtre", "tipo": "puerta", "pos": [0.45, 0.6], "etiqueta": "Meurtre", "escala": 1 },
+          { "id": "inceste", "tipo": "puerta", "pos": [0.6, 0.6], "etiqueta": "Inceste", "escala": 1 },
+          { "id": "cultura", "tipo": "casa", "pos": [0.5, 0.25], "etiqueta": "La culture", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "humano" },
+          { "t": 1, "accion": "aparece", "actor": "pulsion" },
+          { "t": 2, "accion": "subtitulo", "texto": "Según Freud, la sociedad descansa sobre dos interdictos fundadores." },
+          { "t": 4, "accion": "piensa", "actor": "humano", "texto": "Mis deseos no tienen límite..." },
+          { "t": 6, "accion": "aparece", "actor": "sociedad" },
+          { "t": 7, "accion": "aparece", "actor": "meurtre" },
+          { "t": 8, "accion": "dice", "actor": "sociedad", "texto": "Prohibido matar." },
+          { "t": 10, "accion": "mueve", "actor": "humano", "a": [0.38, 0.7], "dur": 1.5 },
+          { "t": 11, "accion": "tiembla", "actor": "pulsion" },
+          { "t": 13, "accion": "aparece", "actor": "inceste" },
+          { "t": 14, "accion": "dice", "actor": "sociedad", "texto": "Y también el incesto." },
+          { "t": 15, "accion": "subtitulo", "texto": "El asesinato y el incesto: los dos límites que ninguna sociedad puede dejar caer." },
+          { "t": 18, "accion": "resalta", "actor": "meurtre" },
+          { "t": 19, "accion": "resalta", "actor": "inceste" },
+          { "t": 20, "accion": "aparece", "actor": "cultura" },
+          { "t": 21, "accion": "une", "de": "sociedad", "a": "cultura", "nota": "fondement" },
+          { "t": 22, "accion": "subtitulo", "texto": "Sobre estas prohibiciones se levantan la cultura y los derechos: son deberes universales." }
+        ]
+      }
+    },
+    {
+      "id": "durkheim",
+      "nombre": "Émile Durkheim",
+      "epoca": "siglos XIX-XX",
+      "tesis_principal": "La prohibición moderna del homicidio proviene del respeto religioso a la persona humana, heredado del cristianismo; el asesinato es un crimen contra la humanidad entera.",
+      "ideas_clave": [
+        "Griegos y romanos: la vida humana no era un absoluto (sanción variable, el esclavo o el extranjero no valían nada)",
+        "El cristianismo hace de la persona humana un objeto de respeto sagrado (respect religieux)",
+        "El meurtre no es sólo una infracción legal como el robo: es un crimen contra la humanidad"
+      ],
+      "citas": [
+        { "texto": "ce qui fait que l’homicide est aujourd’hui prohibé sous la menace des peines les plus fortes dont disposent nos codes, c’est que la personne humaine est l’objet d’un respect religieux qui, jadis, s’attachait à tout autres choses", "idioma": "fr", "obra": "Leçons de sociologie", "pagina_pdf": 241 }
+      ],
+      "debate_con": ["freud"],
+      "como_usarlo_en_disertacion": "Para mostrar que el deber de no matar tiene una historia: no es evidente ni universal desde siempre. Útil en un argumento sobre el origen cultural y religioso de nuestros deberes.",
+      "escena_sugerida": "Un ciudadano paga una multa por matar a un esclavo; con el cristianismo la persona se vuelve sagrada.",
+      "pagina_pdf": 241,
+      "escena": {
+        "titulo": "Durkheim : de l’amende au respect sacré de la personne",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "ciudadano", "tipo": "monigote", "pos": [0.2, 0.7], "etiqueta": "Citoyen grec", "escala": 1 },
+          { "id": "esclavo", "tipo": "monigote", "pos": [0.5, 0.7], "etiqueta": "L’esclave", "escala": 0.8 },
+          { "id": "multa", "tipo": "moneda", "pos": [0.35, 0.4], "etiqueta": "Amende", "escala": 1 },
+          { "id": "cristianismo", "tipo": "libro", "pos": [0.8, 0.3], "etiqueta": "Christianisme", "escala": 1 },
+          { "id": "persona", "tipo": "corona", "pos": [0.5, 0.35], "etiqueta": "Personne sacrée", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "ciudadano" },
+          { "t": 1, "accion": "aparece", "actor": "esclavo" },
+          { "t": 2, "accion": "subtitulo", "texto": "En Grecia y Roma matar se castigaba según el valor de la víctima." },
+          { "t": 4, "accion": "aparece", "actor": "multa" },
+          { "t": 5, "accion": "dice", "actor": "ciudadano", "texto": "Pago una multa y asunto cerrado." },
+          { "t": 7, "accion": "tiembla", "actor": "esclavo" },
+          { "t": 8, "accion": "piensa", "actor": "esclavo", "texto": "Mi vida no vale nada ante la ley." },
+          { "t": 10, "accion": "subtitulo", "texto": "La vida humana no era un absoluto: el esclavo o el extranjero no contaban." },
+          { "t": 13, "accion": "desaparece", "actor": "multa" },
+          { "t": 14, "accion": "aparece", "actor": "cristianismo" },
+          { "t": 15, "accion": "proyecta", "de": "cristianismo", "a": "esclavo", "nota": "dignité" },
+          { "t": 17, "accion": "aparece", "actor": "persona" },
+          { "t": 18, "accion": "une", "de": "esclavo", "a": "persona" },
+          { "t": 19, "accion": "salta", "actor": "esclavo" },
+          { "t": 20, "accion": "cita", "texto": "la personne humaine est l’objet d’un respect religieux" },
+          { "t": 22, "accion": "subtitulo", "texto": "Con el cristianismo la persona es sagrada: matar es un crimen contra toda la humanidad." }
+        ]
+      }
+    },
+    {
+      "id": "levi-strauss",
+      "nombre": "Claude Lévi-Strauss",
+      "epoca": "siglo XX",
+      "tesis_principal": "La prohibición del incesto no es natural ni biológica: es una regla social que obliga a dar mujeres a otros grupos y así permite el paso de la naturaleza a la cultura.",
+      "ideas_clave": [
+        "Las normas especifican una cultura; la prohibición del incesto es universal (naturaleza) pero con contenido variable (cultura)",
+        "No es un problema psicológico ni biológico (los «primitivos» no conocían la genética): es un fait social primordial",
+        "Fundamenta el intercambio y el matrimonio y abre cada grupo a la altérité",
+        "El incesto rompe la lógica de la filiación y la identidad personal"
+      ],
+      "citas": [
+        { "texto": "obligeant à donner mère, sœur ou fille à autrui", "idioma": "fr", "obra": "Les structures élémentaires de la parenté", "pagina_pdf": 242 }
+      ],
+      "debate_con": ["freud"],
+      "como_usarlo_en_disertacion": "Para sostener que el deber es construcción cultural y apertura al otro, no instinto. Sirve en la parte sobre el deber como condición de supervivencia y de lazo del grupo.",
+      "escena_sugerida": "Una familia cerrada con una puerta prohibida: la hija es entregada a otro grupo y se crea una alianza.",
+      "pagina_pdf": 242,
+      "escena": {
+        "titulo": "Lévi-Strauss : l’interdit de l’inceste ouvre le groupe",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "casa_a", "tipo": "casa", "pos": [0.2, 0.55], "etiqueta": "Famille A", "escala": 1.2 },
+          { "id": "casa_b", "tipo": "casa", "pos": [0.8, 0.55], "etiqueta": "Famille B", "escala": 1.2 },
+          { "id": "hija", "tipo": "monigote", "pos": [0.3, 0.8], "etiqueta": "La fille", "escala": 0.9 },
+          { "id": "puerta", "tipo": "puerta", "pos": [0.45, 0.45], "etiqueta": "Inceste interdit", "escala": 1 },
+          { "id": "arbol", "tipo": "arbol", "pos": [0.5, 0.15], "etiqueta": "Nature", "escala": 0.8 },
+          { "id": "libro", "tipo": "libro", "pos": [0.5, 0.15], "etiqueta": "Culture", "escala": 0.8 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "casa_a" },
+          { "t": 1, "accion": "aparece", "actor": "hija" },
+          { "t": 2, "accion": "subtitulo", "texto": "Un grupo podría cerrarse sobre sí mismo, bajo la dominación de la familia." },
+          { "t": 4, "accion": "piensa", "actor": "hija", "texto": "¿Me quedo siempre dentro de mi familia?" },
+          { "t": 6, "accion": "aparece", "actor": "puerta" },
+          { "t": 7, "accion": "resalta", "actor": "puerta" },
+          { "t": 8, "accion": "subtitulo", "texto": "La prohibición no es instinto ni genética: es una regla social que obliga a dar." },
+          { "t": 11, "accion": "aparece", "actor": "casa_b" },
+          { "t": 12, "accion": "cita", "texto": "obligeant à donner mère, sœur ou fille à autrui" },
+          { "t": 14, "accion": "mueve", "actor": "hija", "a": [0.75, 0.8], "dur": 3 },
+          { "t": 17, "accion": "une", "de": "casa_a", "a": "casa_b", "nota": "échange" },
+          { "t": 18, "accion": "salta", "actor": "hija" },
+          { "t": 19, "accion": "aparece", "actor": "arbol" },
+          { "t": 20, "accion": "desaparece", "actor": "arbol" },
+          { "t": 21, "accion": "aparece", "actor": "libro" },
+          { "t": 22, "accion": "subtitulo", "texto": "El intercambio abre cada grupo al otro: así se pasa de la naturaleza a la cultura." }
+        ]
+      }
+    },
+    {
+      "id": "mauss",
+      "nombre": "Marcel Mauss",
+      "epoca": "siglos XIX-XX",
+      "tesis_principal": "El intercambio de dones en las sociedades arcaicas es un «fait social total» regido por un triple deber obligatorio: dar, recibir y devolver.",
+      "ideas_clave": [
+        "Fait social total: dimensión social, religiosa, mágica, económica, jurídica y moral a la vez",
+        "Sistema de prestaciones y contraprestaciones entre clanes y tribus, no un deber personal",
+        "El potlatch: el jefe debe dar para conservar su autoridad; rechazar o no devolver lleva a la guerra",
+        "Triple deber: donner, accepter de recevoir, rendre; lo que se da es una parte de uno mismo"
+      ],
+      "citas": [
+        { "texto": "un chef doit donner des potlatch, pour lui-même, pour son fils, son gendre ou sa fille, pour ses morts", "idioma": "fr", "obra": "Sociologie et anthropologie", "pagina_pdf": 243 }
+      ],
+      "debate_con": ["levi-strauss"],
+      "como_usarlo_en_disertacion": "Para ilustrar que el deber es ante todo social y colectivo, anterior a la ley escrita, y que se funda en la reciprocidad. Útil en una primera parte sobre el deber como obligación sociopolítica.",
+      "escena_sugerida": "Dos jefes se intercambian dones: quien no devuelve pierde su rango y se desata el conflicto.",
+      "pagina_pdf": 243,
+      "escena": {
+        "titulo": "Mauss : donner, recevoir, rendre",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          { "id": "jefe_a", "tipo": "monigote", "pos": [0.15, 0.7], "etiqueta": "Chef A", "escala": 1.1 },
+          { "id": "jefe_b", "tipo": "monigote", "pos": [0.85, 0.7], "etiqueta": "Chef B", "escala": 1.1 },
+          { "id": "don", "tipo": "caja", "pos": [0.3, 0.7], "etiqueta": "Le don", "escala": 1 },
+          { "id": "contre_don", "tipo": "caja", "pos": [0.7, 0.7], "etiqueta": "Le contre-don", "escala": 1.3 },
+          { "id": "fiesta", "tipo": "fuego", "pos": [0.5, 0.3], "etiqueta": "Potlatch", "escala": 1 },
+          { "id": "guerra", "tipo": "rayo", "pos": [0.5, 0.55], "etiqueta": "Guerre", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "jefe_a" },
+          { "t": 1, "accion": "aparece", "actor": "jefe_b" },
+          { "t": 2, "accion": "aparece", "actor": "fiesta" },
+          { "t": 3, "accion": "subtitulo", "texto": "En el potlatch, un jefe debe dar para conservar su autoridad." },
+          { "t": 5, "accion": "aparece", "actor": "don" },
+          { "t": 6, "accion": "proyecta", "de": "jefe_a", "a": "jefe_b", "nota": "donner" },
+          { "t": 8, "accion": "dice", "actor": "jefe_b", "texto": "No puedo rechazarlo: debo recibir." },
+          { "t": 10, "accion": "subtitulo", "texto": "Recibir no es menos obligatorio: rechazar un don es rechazar el vínculo." },
+          { "t": 13, "accion": "piensa", "actor": "jefe_b", "texto": "Si no devuelvo, pierdo mi rango." },
+          { "t": 15, "accion": "aparece", "actor": "contre_don" },
+          { "t": 16, "accion": "proyecta", "de": "jefe_b", "a": "jefe_a", "nota": "rendre" },
+          { "t": 18, "accion": "une", "de": "jefe_a", "a": "jefe_b", "nota": "alliance" },
+          { "t": 19, "accion": "cita", "texto": "un chef doit donner des potlatch, pour lui-même, pour son fils, son gendre ou sa fille, pour ses morts" },
+          { "t": 21, "accion": "aparece", "actor": "guerra" },
+          { "t": 22, "accion": "tiembla", "actor": "guerra" },
+          { "t": 23, "accion": "subtitulo", "texto": "Fallar en el triple deber (dar, recibir, devolver) trae guerra y pérdida de la libertad." }
+        ]
+      }
+    },
+    {
+      "id": "arendt",
+      "nombre": "Hannah Arendt",
+      "epoca": "siglo XX",
+      "tesis_principal": "Obedecer ciegamente como un deber absoluto suprime la pregunta por el fin de los actos: Eichmann aparece como un burócrata banal que cometió crímenes «cumpliendo su deber» (la banalité du mal).",
+      "ideas_clave": [
+        "En el juicio de Eichmann (1961, Jerusalén) constata la mediocridad del personaje",
+        "La obediencia convertida en deber absoluto engendra ausencia de interrogación sobre el fin",
+        "El grupo prevalece sobre el individuo: déresponsabilisation, reparto de tareas, nunca ver a las víctimas (los «tueurs du bureau»)",
+        "La banalidad del mal no es la del Mal, sino la del hombre común que comete un crimen creyendo cumplir su deber (tesis discutible según el cours)"
+      ],
+      "citas": [
+        { "texto": "Il avait accompli ce qu’il […] citoyen respectueux de la loi", "idioma": "fr", "obra": "Eichmann à Jérusalem : Rapport sur la banalité du mal, 1963", "pagina_pdf": 244 }
+      ],
+      "debate_con": ["kant"],
+      "como_usarlo_en_disertacion": "Imprescindible para el límite del deber: obedecer no basta para ser moral. Útil en una segunda parte que muestre que el deber puede ser pervertido y alienar la libertad de conciencia.",
+      "escena_sugerida": "Eichmann, un engranaje del régimen, repite «solo cumplí mi deber» mientras Arendt observa.",
+      "pagina_pdf": 244,
+      "escena": {
+        "titulo": "Arendt : la banalité du mal",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          { "id": "regimen", "tipo": "silueta_grande", "pos": [0.8, 0.5], "etiqueta": "Le régime", "escala": 1.4 },
+          { "id": "ordenes", "tipo": "libro", "pos": [0.55, 0.35], "etiqueta": "Ordres", "escala": 1 },
+          { "id": "eichmann", "tipo": "monigote", "pos": [0.3, 0.7], "etiqueta": "Eichmann", "escala": 1 },
+          { "id": "rouage", "tipo": "engranaje", "pos": [0.3, 0.4], "etiqueta": "Rouage", "escala": 1 },
+          { "id": "arendt", "tipo": "monigote", "pos": [0.08, 0.75], "etiqueta": "Arendt", "escala": 1 },
+          { "id": "victimas", "tipo": "nube", "pos": [0.65, 0.8], "etiqueta": "Victimes (jamais vues)", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "regimen" },
+          { "t": 1, "accion": "aparece", "actor": "ordenes" },
+          { "t": 2, "accion": "aparece", "actor": "eichmann" },
+          { "t": 3, "accion": "proyecta", "de": "regimen", "a": "ordenes", "nota": "autorité" },
+          { "t": 4, "accion": "proyecta", "de": "ordenes", "a": "eichmann" },
+          { "t": 5, "accion": "subtitulo", "texto": "En Jerusalén, 1961: Eichmann afirma haber obedecido y hecho su deber." },
+          { "t": 8, "accion": "dice", "actor": "eichmann", "texto": "Solo cumplí con mi deber." },
+          { "t": 10, "accion": "aparece", "actor": "rouage" },
+          { "t": 11, "accion": "une", "de": "eichmann", "a": "rouage" },
+          { "t": 12, "accion": "aparece", "actor": "victimas" },
+          { "t": 13, "accion": "tiembla", "actor": "victimas" },
+          { "t": 14, "accion": "piensa", "actor": "eichmann", "texto": "No veo víctimas, solo expedientes." },
+          { "t": 16, "accion": "aparece", "actor": "arendt" },
+          { "t": 17, "accion": "piensa", "actor": "arendt", "texto": "No es un monstruo: nunca se interrogó." },
+          { "t": 19, "accion": "resalta", "actor": "eichmann" },
+          { "t": 20, "accion": "cita", "texto": "Il avait accompli ce qu’il considérait comme son devoir de citoyen respectueux de la loi" },
+          { "t": 23, "accion": "subtitulo", "texto": "La banalidad del mal: obedecer sin pensar, bajo pretexto de cumplir el deber." }
+        ]
+      }
+    },
+    {
+      "id": "hobbes",
+      "nombre": "Thomas Hobbes",
+      "epoca": "siglo XVII",
+      "tesis_principal": "Respetar las leyes de un Estado se legitima porque protege la vida y la seguridad de todos, sacándonos del estado de naturaleza, que es una guerra de todos contra todos; si el Estado no cumple esa protección, la rebelión se justifica.",
+      "ideas_clave": [
+        "État de nature: «état de guerre de chacun contre chacun», el hombre es «un loup pour l’homme» (fórmula de Plaute)",
+        "Con el Estado se pierde la independencia natural pero se gana seguridad e igualdad ante la ley",
+        "El respeto de las leyes legítimas es un deber en un Estado democrático",
+        "Si el Estado privilegia sus propios intereses en vez de proteger la vida, la rebeldía queda justificada"
+      ],
+      "citas": [
+        { "texto": "état de guerre de chacun contre chacun", "idioma": "fr", "obra": "Léviathan", "pagina_pdf": 245 }
+      ],
+      "debate_con": ["thoreau", "rousseau"],
+      "como_usarlo_en_disertacion": "Para fundar el deber de obedecer la ley civil en la seguridad y la paz social. En una segunda parte sirve para explicar por qué la desobediencia parece intolerable y cuándo deja de serlo.",
+      "escena_sugerida": "Lobos humanos en guerra de todos contra todos; aparece el Estado que protege y a cambio exige obediencia.",
+      "pagina_pdf": 245,
+      "escena": {
+        "titulo": "Hobbes : de la guerre de tous à l’État protecteur",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "h1", "tipo": "monigote", "pos": [0.2, 0.7], "etiqueta": "L’homme", "escala": 1 },
+          { "id": "h2", "tipo": "monigote", "pos": [0.5, 0.7], "etiqueta": "L’homme", "escala": 1 },
+          { "id": "guerra", "tipo": "rayo", "pos": [0.35, 0.45], "etiqueta": "Guerre de tous", "escala": 1.2 },
+          { "id": "leviatan", "tipo": "silueta_grande", "pos": [0.82, 0.5], "etiqueta": "L’État", "escala": 1.4 },
+          { "id": "ley", "tipo": "libro", "pos": [0.6, 0.25], "etiqueta": "Les lois", "escala": 1 },
+          { "id": "casa", "tipo": "casa", "pos": [0.35, 0.25], "etiqueta": "Sécurité", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "h1" },
+          { "t": 1, "accion": "aparece", "actor": "h2" },
+          { "t": 2, "accion": "aparece", "actor": "guerra" },
+          { "t": 3, "accion": "tiembla", "actor": "guerra" },
+          { "t": 4, "accion": "subtitulo", "texto": "En el estado de naturaleza reina la guerra de cada uno contra cada uno." },
+          { "t": 6, "accion": "piensa", "actor": "h1", "texto": "El hombre es un lobo para el hombre." },
+          { "t": 8, "accion": "cita", "texto": "état de guerre de chacun contre chacun" },
+          { "t": 10, "accion": "aparece", "actor": "leviatan" },
+          { "t": 11, "accion": "desaparece", "actor": "guerra" },
+          { "t": 12, "accion": "aparece", "actor": "ley" },
+          { "t": 13, "accion": "proyecta", "de": "leviatan", "a": "ley" },
+          { "t": 14, "accion": "dice", "actor": "h2", "texto": "Cedo mi independencia a cambio de seguridad." },
+          { "t": 16, "accion": "aparece", "actor": "casa" },
+          { "t": 17, "accion": "une", "de": "leviatan", "a": "casa", "nota": "protège" },
+          { "t": 18, "accion": "subtitulo", "texto": "Perdemos la independencia natural, pero ganamos seguridad e igualdad ante la ley." },
+          { "t": 21, "accion": "tiembla", "actor": "leviatan" },
+          { "t": 22, "accion": "subtitulo", "texto": "Si el Estado deja de proteger la vida de sus ciudadanos, la rebelión se justifica." }
+        ]
+      }
+    },
+    {
+      "id": "rousseau",
+      "nombre": "Jean-Jacques Rousseau",
+      "epoca": "siglo XVIII",
+      "tesis_principal": "La ley, votada democráticamente, libera a los hombres de las relaciones de fuerza: obedecerla es un deber que hace a todos libres e iguales en derechos.",
+      "ideas_clave": [
+        "La loi libère les hommes des rapports de force",
+        "Los ciudadanos viven libremente en el marco de leyes votadas por representantes elegidos por sufragio universal",
+        "Es deber de cada uno, sin excepción, respetar la ley igualitaria",
+        "Se permanece libre en derechos mientras se cumplen los deberes (obedecer las leyes)"
+      ],
+      "citas": [],
+      "debate_con": ["arendt", "kant"],
+      "como_usarlo_en_disertacion": "Para la primera parte de «Le devoir est-il libérateur ?»: el deber de obedecer la ley civil libera al ciudadano de la fuerza arbitraria. Siempre con el contrapunto de Arendt (la ley pervertida).",
+      "escena_sugerida": "El más fuerte encadena al débil hasta que una ley igual para todos rompe la cadena.",
+      "pagina_pdf": 245,
+      "escena": {
+        "titulo": "Rousseau : la loi libère des rapports de force",
+        "estilo": "monigotes",
+        "duracion_seg": 24,
+        "actores": [
+          { "id": "fuerte", "tipo": "monigote", "pos": [0.2, 0.7], "etiqueta": "Le plus fort", "escala": 1.4 },
+          { "id": "debil", "tipo": "monigote", "pos": [0.6, 0.7], "etiqueta": "Le plus faible", "escala": 0.8 },
+          { "id": "cadena", "tipo": "cadena", "pos": [0.4, 0.7], "etiqueta": "Force", "escala": 1 },
+          { "id": "ley", "tipo": "libro", "pos": [0.8, 0.3], "etiqueta": "Loi votée", "escala": 1.2 },
+          { "id": "balanza", "tipo": "balanza", "pos": [0.5, 0.3], "etiqueta": "Égalité", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "fuerte" },
+          { "t": 1, "accion": "aparece", "actor": "debil" },
+          { "t": 2, "accion": "aparece", "actor": "cadena" },
+          { "t": 3, "accion": "une", "de": "fuerte", "a": "debil", "nota": "domination" },
+          { "t": 4, "accion": "subtitulo", "texto": "Sin ley, mandan las relaciones de fuerza: el débil depende del más fuerte." },
+          { "t": 7, "accion": "tiembla", "actor": "debil" },
+          { "t": 8, "accion": "dice", "actor": "debil", "texto": "No soy libre: me domina el más fuerte." },
+          { "t": 11, "accion": "aparece", "actor": "ley" },
+          { "t": 12, "accion": "subtitulo", "texto": "Los ciudadanos votan leyes por representantes elegidos democráticamente." },
+          { "t": 15, "accion": "aparece", "actor": "balanza" },
+          { "t": 16, "accion": "proyecta", "de": "ley", "a": "fuerte", "nota": "égale pour tous" },
+          { "t": 17, "accion": "proyecta", "de": "ley", "a": "debil" },
+          { "t": 18, "accion": "desaparece", "actor": "cadena" },
+          { "t": 19, "accion": "salta", "actor": "debil" },
+          { "t": 20, "accion": "dice", "actor": "fuerte", "texto": "La ley también me obliga a mí." },
+          { "t": 22, "accion": "subtitulo", "texto": "Obedecer una ley igual para todos libera de la fuerza: el deber civil hace libres." }
+        ]
+      }
+    },
+    {
+      "id": "thoreau",
+      "nombre": "Henry David Thoreau",
+      "epoca": "siglo XIX",
+      "tesis_principal": "La desobediencia civil, teorizada por Thoreau, no es un derecho reconocido en un sistema democrático, pero puede justificarse por valores que se estiman superiores a la ley.",
+      "ideas_clave": [
+        "Principe de désobéissance civile, teorizado por el filósofo americano",
+        "No es un derecho reconocido en democracia",
+        "Puede justificarse por valores superiores (ejemplo de Antigone, que entierra a su hermano contra la decisión del soberano)",
+        "Tensión entre el deber de obedecer al Estado legítimo y el deber hacia valores superiores"
+      ],
+      "citas": [],
+      "debate_con": ["hobbes"],
+      "como_usarlo_en_disertacion": "Para matizar el deber de obedecer la ley civil: en una segunda parte, mostrar que existen casos límite donde se invoca un deber superior. Se cita con Antigone como ejemplo de cultura general.",
+      "escena_sugerida": "Antigone desafía al soberano para enterrar a su hermano: un valor superior frente a la ley civil.",
+      "pagina_pdf": 245,
+      "escena": {
+        "titulo": "Thoreau : la désobéissance civile",
+        "estilo": "monigotes",
+        "duracion_seg": 24,
+        "actores": [
+          { "id": "soberano", "tipo": "silueta_grande", "pos": [0.8, 0.5], "etiqueta": "Le souverain", "escala": 1.3 },
+          { "id": "decreto", "tipo": "libro", "pos": [0.55, 0.3], "etiqueta": "Loi civile", "escala": 1 },
+          { "id": "antigona", "tipo": "monigote", "pos": [0.2, 0.7], "etiqueta": "Antigone", "escala": 1 },
+          { "id": "hermano", "tipo": "piedra", "pos": [0.35, 0.8], "etiqueta": "Son frère", "escala": 1 },
+          { "id": "valores", "tipo": "corazon", "pos": [0.2, 0.3], "etiqueta": "Valeurs supérieures", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "soberano" },
+          { "t": 1, "accion": "aparece", "actor": "decreto" },
+          { "t": 2, "accion": "subtitulo", "texto": "Un soberano prohíbe dar sepultura digna al hermano de Antigone." },
+          { "t": 4, "accion": "aparece", "actor": "antigona" },
+          { "t": 5, "accion": "aparece", "actor": "hermano" },
+          { "t": 6, "accion": "proyecta", "de": "decreto", "a": "antigona", "nota": "interdit" },
+          { "t": 8, "accion": "tiembla", "actor": "antigona" },
+          { "t": 9, "accion": "aparece", "actor": "valores" },
+          { "t": 10, "accion": "une", "de": "antigona", "a": "valores" },
+          { "t": 11, "accion": "dice", "actor": "antigona", "texto": "Mi deber es enterrarlo, aunque desobedezca." },
+          { "t": 13, "accion": "mueve", "actor": "antigona", "a": [0.35, 0.7], "dur": 2 },
+          { "t": 15, "accion": "resalta", "actor": "valores" },
+          { "t": 16, "accion": "subtitulo", "texto": "Thoreau teoriza la desobediencia civil en nombre de valores superiores." },
+          { "t": 19, "accion": "tiembla", "actor": "decreto" },
+          { "t": 20, "accion": "subtitulo", "texto": "No es un derecho reconocido en democracia, pero puede justificarse por esos valores." }
+        ]
+      }
+    },
+    {
+      "id": "kant",
+      "nombre": "Emmanuel Kant",
+      "epoca": "siglo XVIII",
+      "tesis_principal": "Sólo el deber que la razón se da a sí misma, sin ningún interés, es verdaderamente moral y libre: el imperativo categórico, universalizable y sin condición, frente al imperativo hipotético, meramente utilitario.",
+      "ideas_clave": [
+        "Obéir librement à la loi morale: la razón es autora de sus principios; el sujeto es autor y actor de su deber",
+        "Por su dimensión noumenal el hombre es libre; por su cuerpo está sometido al determinismo",
+        "Impératif catégorique («tu dois», universalizable) vs impératif hypothétique («si je veux…, alors je dois…»)",
+        "Distinción entre un acto conforme al deber (impuesto desde fuera) y un acto por deber (moral)",
+        "Maxime: principio subjetivo que debe poder volverse ley universal; «la majesté du devoir» es independencia respecto a todo determinismo"
+      ],
+      "citas": [
+        { "texto": "Il faut que la raison se considère elle-même comme l’auteur de ses principes, à l’exclusion de toute influence étrangère", "idioma": "fr", "obra": "Fondements de la métaphysique des mœurs", "pagina_pdf": 245 },
+        { "texto": "Agis uniquement d’après la maxime qui fait que tu peux vouloir en même temps qu’elle devienne une loi universelle", "idioma": "fr", "obra": "Fondements de la métaphysique des mœurs", "pagina_pdf": 246 },
+        { "texto": "la bonne volonté paraît constituer la condition indispensable même de ce qui nous rend digne d’être heureux", "idioma": "fr", "obra": "Fondements de la métaphysique des mœurs", "pagina_pdf": 255 }
+      ],
+      "debate_con": ["arendt", "aristote"],
+      "como_usarlo_en_disertacion": "Eje del tercer momento de «Le devoir est-il libérateur ?»: el deber moral es libre porque el sujeto es su propio legislador. También sirve para criticar el deber interesado u obediente.",
+      "escena_sugerida": "Un alumno que trabaja por la nota (hipotético) frente a quien actúa por una ley que podría valer para todos (categórico).",
+      "pagina_pdf": 246,
+      "escena": {
+        "titulo": "Kant : agir par devoir, librement",
+        "estilo": "monigotes",
+        "duracion_seg": 27,
+        "actores": [
+          { "id": "alumno", "tipo": "monigote", "pos": [0.2, 0.7], "etiqueta": "Si je veux une bonne note", "escala": 1 },
+          { "id": "nota", "tipo": "moneda", "pos": [0.2, 0.35], "etiqueta": "Récompense", "escala": 1 },
+          { "id": "sujeto", "tipo": "monigote", "pos": [0.75, 0.7], "etiqueta": "Le sujet moral", "escala": 1 },
+          { "id": "razon", "tipo": "cerebro", "pos": [0.75, 0.35], "etiqueta": "Raison", "escala": 1 },
+          { "id": "ley", "tipo": "estrella", "pos": [0.5, 0.2], "etiqueta": "Loi morale universelle", "escala": 1.2 },
+          { "id": "cadena", "tipo": "cadena", "pos": [0.75, 0.55], "etiqueta": "Déterminisme", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "alumno" },
+          { "t": 1, "accion": "aparece", "actor": "nota" },
+          { "t": 2, "accion": "piensa", "actor": "alumno", "texto": "Si quiero buena nota, debo trabajar." },
+          { "t": 3, "accion": "une", "de": "alumno", "a": "nota", "nota": "intérêt" },
+          { "t": 5, "accion": "subtitulo", "texto": "Imperativo hipotético: «si quiero X, debo Y». Es un cálculo, no una moral." },
+          { "t": 9, "accion": "aparece", "actor": "sujeto" },
+          { "t": 10, "accion": "aparece", "actor": "cadena" },
+          { "t": 11, "accion": "tiembla", "actor": "cadena" },
+          { "t": 12, "accion": "aparece", "actor": "razon" },
+          { "t": 13, "accion": "proyecta", "de": "razon", "a": "sujeto", "nota": "autonomie" },
+          { "t": 14, "accion": "desaparece", "actor": "cadena" },
+          { "t": 15, "accion": "aparece", "actor": "ley" },
+          { "t": 16, "accion": "une", "de": "razon", "a": "ley" },
+          { "t": 17, "accion": "dice", "actor": "sujeto", "texto": "Debo, y todo hombre debería hacer lo mismo." },
+          { "t": 19, "accion": "cita", "texto": "Agis uniquement d’après la maxime qui fait que tu peux vouloir en même temps qu’elle devienne une loi universelle" },
+          { "t": 22, "accion": "salta", "actor": "sujeto" },
+          { "t": 23, "accion": "subtitulo", "texto": "Actuar por deber es obedecer una ley que uno mismo se da: es la mayor libertad humana." }
+        ]
+      }
+    },
+    {
+      "id": "aristote",
+      "nombre": "Aristote",
+      "epoca": "siglo IV a. C.",
+      "tesis_principal": "En el texto del Éthique à Nicomaque, el hombre malvado huye de sí mismo, vive desgarrado y arrepentido y no puede ser feliz; hay que huir de la perversidad y esforzarse por ser honesto, para ser amigo de uno mismo y de los demás.",
+      "ideas_clave": [
+        "El «méchant» busca la compañía de otros para olvidar sus propias acciones (fuite de soi)",
+        "No tiene en sí nada amable: no siente afecto por sí mismo, su alma está desgarrada y llena de regrets",
+        "La maldad es voluntaria: hay que ser consciente de ella para apartarse y obrar según principios morales",
+        "La maldad es incompatible con la felicidad: «le bonheur est une activité de l’âme conforme à la vertu»"
+      ],
+      "citas": [
+        { "texto": "nous devons fuir la perversité de toutes nos forces et essayer d’être d’honnêtes gens", "idioma": "fr", "obra": "Éthique à Nicomaque, Livre IX", "pagina_pdf": 251 },
+        { "texto": "le bonheur est une activité de l’âme conforme à la vertu", "idioma": "fr", "obra": "Éthique à Nicomaque", "pagina_pdf": 255 }
+      ],
+      "debate_con": ["kant"],
+      "como_usarlo_en_disertacion": "Para sujetos que vinculan deber y felicidad: muestra que obrar mal arruina la relación con uno mismo. Se contrasta con Kant (merecer la felicidad por la buena voluntad).",
+      "escena_sugerida": "El malvado huye del espejo y de sí mismo hacia la multitud; el honesto es amigo de sí mismo.",
+      "pagina_pdf": 250,
+      "escena": {
+        "titulo": "Aristote : le méchant fuit sa propre conscience",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          { "id": "malo", "tipo": "monigote", "pos": [0.35, 0.7], "etiqueta": "Le méchant", "escala": 1 },
+          { "id": "espejo", "tipo": "espejo", "pos": [0.15, 0.55], "etiqueta": "Soi-même", "escala": 1 },
+          { "id": "multitud", "tipo": "monigote", "pos": [0.85, 0.7], "etiqueta": "Compagnons", "escala": 1 },
+          { "id": "remordimiento", "tipo": "nube", "pos": [0.35, 0.35], "etiqueta": "Regrets", "escala": 1 },
+          { "id": "honesto", "tipo": "monigote", "pos": [0.5, 0.7], "etiqueta": "L’honnête homme", "escala": 1 },
+          { "id": "flor", "tipo": "flor", "pos": [0.5, 0.35], "etiqueta": "Bonheur", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "malo" },
+          { "t": 1, "accion": "aparece", "actor": "espejo" },
+          { "t": 2, "accion": "aparece", "actor": "multitud" },
+          { "t": 3, "accion": "subtitulo", "texto": "El malvado busca compañía para no quedarse a solas consigo mismo." },
+          { "t": 5, "accion": "mueve", "actor": "malo", "a": [0.7, 0.7], "dur": 2 },
+          { "t": 7, "accion": "piensa", "actor": "malo", "texto": "Con otros puedo olvidar lo que hice." },
+          { "t": 10, "accion": "mueve", "actor": "malo", "a": [0.3, 0.7], "dur": 1.5 },
+          { "t": 11, "accion": "aparece", "actor": "remordimiento" },
+          { "t": 12, "accion": "tiembla", "actor": "malo" },
+          { "t": 13, "accion": "subtitulo", "texto": "Solo, su alma queda desgarrada: no encuentra nada amable en sí y vive lleno de regrets." },
+          { "t": 17, "accion": "desaparece", "actor": "remordimiento" },
+          { "t": 18, "accion": "aparece", "actor": "honesto" },
+          { "t": 19, "accion": "une", "de": "honesto", "a": "espejo", "nota": "ami de soi" },
+          { "t": 20, "accion": "une", "de": "honesto", "a": "multitud", "nota": "ami des autres" },
+          { "t": 21, "accion": "aparece", "actor": "flor" },
+          { "t": 22, "accion": "cita", "texto": "le bonheur est une activité de l’âme conforme à la vertu" },
+          { "t": 24, "accion": "subtitulo", "texto": "Huir de la perversidad y ser honesto: así se es amigo de uno mismo y de los demás." }
+        ]
+      }
+    }
+  ],
+  "relaciones": [
+    { "de": "freud", "a": "levi-strauss", "tipo": "influye", "nota": "Ambos hacen de la prohibición del incesto un fundamento de la sociedad; Lévi-Strauss la explica como paso de la naturaleza a la cultura." },
+    { "de": "durkheim", "a": "freud", "tipo": "complementa", "nota": "Durkheim explica la historia religiosa del interdicto del asesinato, el otro interdicto fundador de Freud." },
+    { "de": "mauss", "a": "levi-strauss", "tipo": "complementa", "nota": "Ambos ven en el intercambio (don, mujeres) la base del lazo social y de la supervivencia del grupo." },
+    { "de": "mauss", "a": "don-contre-don", "tipo": "influye", "nota": "Mauss describe el triple deber dar-recibir-devolver como fait social total." },
+    { "de": "arendt", "a": "kant", "tipo": "se opone", "nota": "La obediencia ciega de Eichmann como deber absoluto contrasta con la autonomía de la razón que se da su propia ley." },
+    { "de": "arendt", "a": "rousseau", "tipo": "se opone", "nota": "Frente a la ley que libera (Rousseau), Arendt muestra cómo la obediencia a órdenes presentadas como leyes desresponsabiliza." },
+    { "de": "hobbes", "a": "rousseau", "tipo": "complementa", "nota": "Ambos justifican el deber de obedecer la ley civil en un Estado legítimo que protege y libera." },
+    { "de": "hobbes", "a": "thoreau", "tipo": "se opone", "nota": "Hobbes legitima la obediencia al Estado protector; Thoreau defiende la desobediencia civil en nombre de valores superiores." },
+    { "de": "rousseau", "a": "kant", "tipo": "se opone", "nota": "El deber civil de obedecer la ley (Rousseau) sigue siendo un deber de origen social; Kant exige un deber moral desinteresado y autolegislado." },
+    { "de": "kant", "a": "aristote", "tipo": "complementa", "nota": "Aristóteles liga la maldad al desgarro y la infelicidad; Kant vincula la buena voluntad con ser digno de la felicidad." },
+    { "de": "kant", "a": "imperatif-categorique", "tipo": "influye", "nota": "Kant formula el imperativo categórico como ley moral universal." },
+    { "de": "arendt", "a": "banalite-du-mal", "tipo": "influye", "nota": "Arendt acuña la expresión a partir del juicio de Eichmann." }
+  ],
+  "quiz": [
+    { "pregunta": "Qui a fait du respect de l’interdit du meurtre et de l’inceste les deux devoirs fondateurs de nos sociétés ?", "opciones": ["Nietzsche", "Freud", "Kant", "Durkheim"], "correcta": 1, "explicacion": "Según el cours, el asesinato y el incesto son, para Freud, los dos interdictos fundadores de nuestras sociedades.", "filosofo": "freud", "pagina_pdf": 241 },
+    { "pregunta": "Que permet la prohibition de l’inceste selon Claude Lévi-Strauss ?", "opciones": ["L’accès au bonheur pour tous", "D’échapper à la domination familiale", "Le passage de la nature vers la culture", "De respecter les lois de la génétique"], "correcta": 2, "explicacion": "Lévi-Strauss muestra la importancia de esta prohibición como única manera de favorecer el paso de la naturaleza a la cultura (corrigés: 2 c).", "filosofo": "levi-strauss", "pagina_pdf": 242 },
+    { "pregunta": "Selon Marcel Mauss, le système de dons réciproques est…", "opciones": ["un fait social total", "un impératif économique", "une obligation juridique", "un devoir militaire"], "correcta": 0, "explicacion": "Mauss presenta el intercambio de dones como un «fait social total» a la vez social, religioso, mágico, económico, jurídico y moral (corrigés: 3 a).", "filosofo": "mauss", "pagina_pdf": 243 },
+    { "pregunta": "Qu’est-ce qu’un potlatch ?", "opciones": ["Un repas organisé", "Un devoir militaire", "Une cérémonie de distribution de richesses", "Un contrat de mariage"], "correcta": 2, "explicacion": "El potlatch designa ceremonias ostentosas de distribución de riquezas (palabra chinook que significa «acción de dar») (corrigés: 4 c).", "filosofo": "mauss", "pagina_pdf": 243 },
+    { "pregunta": "Aux yeux de Hannah Arendt, Eichmann est…", "opciones": ["un soldat ignorant", "un bureaucrate banal", "un assassin pervers", "un idéologue convaincu"], "correcta": 1, "explicacion": "Arendt lo presenta como un «bureaucrate banal», un simple engranaje de la máquina administrativa que cumple su deber (corrigés: 5 b).", "filosofo": "arendt", "pagina_pdf": 244 },
+    { "pregunta": "Quel auteur a été le premier à écrire que « l’homme est loup pour l’homme » ?", "opciones": ["Aristote", "Kant", "Plaute", "Hobbes"], "correcta": 2, "explicacion": "El cours atribuye la fórmula «un loup pour l’homme» al autor latino Plaute, que Hobbes retoma para el estado de naturaleza (corrigés: 6 c).", "filosofo": "hobbes", "pagina_pdf": 245 },
+    { "pregunta": "Quelle est, selon Hobbes, la première raison justifiant la création d’un État ?", "opciones": ["Le bonheur du plus grand nombre", "La sécurité de tous", "La liberté pour chacun", "La suppression de l’inégalité"], "correcta": 1, "explicacion": "Según Hobbes el Estado se legitima porque preserva la vida y la seguridad de todos los ciudadanos (corrigés: 7 b).", "filosofo": "hobbes", "pagina_pdf": 245 },
+    { "pregunta": "Quel philosophe a théorisé la désobéissance civile ?", "opciones": ["Rousseau", "Hobbes", "Thoreau", "Kant"], "correcta": 2, "explicacion": "El cours atribuye la teoría de la desobediencia civil al filósofo americano Henry David Thoreau (corrigés: 8 c).", "filosofo": "thoreau", "pagina_pdf": 245 },
+    { "pregunta": "Qu’est-ce qu’un principe subjectif d’action ?", "opciones": ["Une maxime personnelle", "Une règle imposée", "Un ordre donné", "Une loi civile"], "correcta": 0, "explicacion": "La maxime es un principio subjetivo y personal que uno se impone a sí mismo y que debe poder universalizarse (corrigés: 9 a).", "filosofo": "kant", "pagina_pdf": 248 },
+    { "pregunta": "De quelle notion se distingue un impératif hypothétique ?", "opciones": ["D’un désir immédiat", "D’un souhait", "D’un impératif catégorique", "D’une maxime"], "correcta": 2, "explicacion": "El imperativo hipotético (interesado: «si quiero eso, debo hacer eso») se distingue del imperativo categórico, el único realmente moral y universalizable (corrigés: 10 c).", "filosofo": "kant", "pagina_pdf": 248 },
+    { "pregunta": "Selon Durkheim, pourquoi l’homicide est-il aujourd’hui prohibé sous la menace des peines les plus fortes ?", "opciones": ["Parce que la personne humaine est l’objet d’un respect religieux", "Parce que les Grecs l’avaient déjà décidé", "Parce qu’il remet en cause l’ordre politique romain", "Parce qu’il est contraire aux lois de la génétique"], "correcta": 0, "explicacion": "Durkheim sostiene que hoy el homicidio se castiga con las penas más fuertes porque la persona humana es objeto de un respeto religioso, heredado del cristianismo.", "filosofo": "durkheim", "pagina_pdf": 241 },
+    { "pregunta": "Dans l’exemple du cours, « si je veux avoir une bonne note, alors il me faut travailler » est un exemple d’…", "opciones": ["impératif catégorique", "impératif hypothétique", "maxime universelle", "devoir moral kantien"], "correcta": 1, "explicacion": "El cours lo da como ejemplo de imperativo hipotético: relaciona un fin deseado con el medio necesario, sin nada de desinteresado ni moral.", "filosofo": "kant", "pagina_pdf": 246 }
+  ],
+  "preguntas_abiertas": [
+    { "enunciado": "Pourquoi le meurtre et l’inceste sont-ils considérés comme les deux interdits fondateurs de nos sociétés ?", "puntos_clave": ["Freud: son los dos interdictos fundadores de las sociedades y de los derechos en que se apoyan", "Durkheim: el interdicto del homicidio proviene del respeto religioso a la persona humana heredado del cristianismo; Grecia y Roma no lo consideraban un absoluto", "El meurtre es un crimen contra la humanidad entera, no sólo una infracción legal como el robo", "Lévi-Strauss: la prohibición del incesto no es natural; obliga al intercambio y permite pasar de la naturaleza a la cultura y abrirse a la altérité", "El incesto rompe la filiación y la identidad personal, fundada en la construcción familiar"], "filosofos": ["freud", "durkheim", "levi-strauss"], "pagina_pdf": 241 },
+    { "enunciado": "Pourquoi le devoir d’obéir aux ordres peut-il devenir dangereux ? Appuyez-vous sur Hannah Arendt.", "puntos_clave": ["Juicio de Eichmann (1961): afirma haber hecho su deber obedeciendo órdenes", "Obediencia convertida en deber absoluto: ausencia de interrogación sobre el fin de los actos", "Déresponsabilisation: el grupo prevalece, reparto de tareas, rouage administratif, nunca ver a las víctimas", "«La banalité du mal»: la banalidad de quien comete un crimen creyendo cumplir su deber, no la del Mal (tesis discutible por lo que Eichmann sabía y su función)", "Contraste con Kant: el deber moral exige autonomía y universalidad"], "filosofos": ["arendt", "kant"], "pagina_pdf": 244 },
+    { "enunciado": "Quelle différence Kant établit-il entre un impératif hypothétique et un impératif catégorique ?", "puntos_clave": ["Imperativo hipotético: «si quiero X, debo Y», relación medio-fin interesada, sin valor moral (ejemplo de la nota)", "Imperativo categórico: «tu dois», obliga sin condición y es universalizable", "Fórmula: «Agis uniquement d’après la maxime qui fait que tu peux vouloir en même temps qu’elle devienne une loi universelle»", "Distinción entre acto conforme al deber y acto por deber: sólo el segundo es moral y libre", "El sujeto es a la vez autor y actor de la ley; por su dimensión noumenal es libre del determinismo (la «majesté du devoir»)"], "filosofos": ["kant"], "pagina_pdf": 246 },
+    { "enunciado": "Pourquoi le respect des lois d’un État démocratique est-il un devoir légitime, et quelles sont les limites de ce devoir ?", "puntos_clave": ["Hobbes: el estado de naturaleza es una guerra de todos contra todos; el Estado asegura la vida y seguridad de todos", "Se pierde la independencia natural, se gana seguridad e igualdad ante la ley", "Rousseau: la ley libera de las relaciones de fuerza, votada democráticamente por representantes elegidos", "Límite: si el Estado vulnera la protección de la vida privilegiando sus intereses, la rebelión se justifica (Hobbes)", "Thoreau: la desobediencia civil no es un derecho reconocido pero puede justificarse por valores superiores (ejemplo de Antigone)"], "filosofos": ["hobbes", "rousseau", "thoreau"], "pagina_pdf": 245 }
+  ],
+  "disertaciones": [
+    {
+      "sujeto": "Le devoir est-il libérateur ?",
+      "tipo_plan": "progressif",
+      "problematica": "El deber evoca coacción y obediencia, pero ¿puede ser también una forma de libertad? Según su naturaleza (ley civil, obediencia a órdenes, ley moral) el deber libera o aliena; hay que distinguir qué deber está en juego.",
+      "plan": [
+        { "parte": "I. Le devoir d’obéir à la loi civile libère les citoyens des rapports de force", "idea": "Respetar la ley igualitaria permite vivir libremente en el marco de derechos de todos y escapar de la fuerza.", "autores": ["rousseau", "hobbes"], "ejemplo": "Los ciudadanos viven libres en el marco de leyes votadas por representantes elegidos por sufragio universal." },
+        { "parte": "II. Respecter son devoir peut s’accompagner d’une déresponsabilisation", "idea": "Si la ley se pone al servicio de un poder que no busca el bien común, el deber se vuelve obediencia pasiva y abandono de la libertad de conciencia.", "autores": ["arendt"], "ejemplo": "El criminal nazi Adolf Eichmann, que se esconde tras haber hecho su deber." },
+        { "parte": "III. Le devoir moral est libérateur par principe", "idea": "El sujeto es autor y actor de una ley universal que se da a sí mismo; actuar por deber eleva su humanidad.", "autores": ["kant"], "ejemplo": "La diferencia entre un acto conforme al deber y un acto por deber; el imperativo categórico." }
+      ],
+      "pagina_pdf": 251
+    },
+    {
+      "sujeto": "Faire son devoir, est-ce obéir ?",
+      "tipo_plan": "dialectique",
+      "problematica": "Cumplir el deber parece consistir en obedecer a una instancia superior. Pero obedecer puede ser ciego y la desobediencia puede ser un deber superior; sólo el deber moral autónomo parece escapar de la simple obediencia.",
+      "plan": [
+        { "parte": "I. Oui : el deber es una obligación social y política que se obedece", "idea": "Dar, recibir y devolver o respetar la ley democrática son obligaciones que se imponen a todos para preservar la paz y la seguridad.", "autores": ["mauss", "hobbes", "rousseau"], "ejemplo": "El potlatch obliga al jefe; el código de circulación se justifica por el valor de la vida." },
+        { "parte": "II. Non : obedecer ciegamente puede ser un crimen y a veces el deber exige desobedecer", "idea": "La obediencia convertida en deber absoluto suprime la responsabilidad; la desobediencia civil puede justificarse por valores superiores.", "autores": ["arendt", "thoreau"], "ejemplo": "Eichmann «no hizo más que su deber»; Antigone entierra a su hermano." },
+        { "parte": "III. Dépassement : hacer su deber es obedecer a la propia razón", "idea": "Sólo el imperativo categórico, que el sujeto se da a sí mismo y que es universalizable, es un deber moral y libre.", "autores": ["kant"], "ejemplo": "Acto por deber frente a acto conforme al deber." }
+      ],
+      "pagina_pdf": 244
+    },
+    {
+      "sujeto": "L’accomplissement du devoir rend-il heureux ?",
+      "tipo_plan": "dialectique",
+      "problematica": "Si la maldad aparta de la felicidad, ¿basta el bien para ser feliz? El deber moral lleva a la dignidad, pero la felicidad depende también de circunstancias que no dependen de nosotros.",
+      "plan": [
+        { "parte": "I. Le mal est incompatible avec le bonheur", "idea": "El malvado, desgarrado y lleno de regrets, no puede estimarse ni ser feliz; hay que huir de la perversidad y ser honesto.", "autores": ["aristote"], "ejemplo": "El texto del Éthique à Nicomaque, Livre IX, sobre el méchant que se huye a sí mismo." },
+        { "parte": "II. Mais faire son devoir ne suffit pas nécessairement à rendre heureux", "idea": "El contentamiento moral del deber cumplido puede no bastar; queda una parte de azar y de condiciones sociales y políticas.", "autores": ["kant"], "ejemplo": "Kant: lo mejor que podemos hacer es hacernos dignos de la felicidad." },
+        { "parte": "III. Le mérite : la bonne volonté dépend entièrement de nous", "idea": "La buena voluntad y el esfuerzo cotidiano son lo que nos pertenece; la virtud sería el primer paso hacia la felicidad, sin contradecir a Aristóteles.", "autores": ["kant", "aristote"], "ejemplo": "«le bonheur est une activité de l’âme conforme à la vertu»" }
+      ],
+      "pagina_pdf": 255
+    }
+  ]
+}

@@ -1,0 +1,907 @@
+{
+  "id": "raison",
+  "numero": 12,
+  "titulo": "La raison",
+  "titulo_es": "La razón",
+  "resumen": "La razón es la capacidad de juzgar bien y de ordenar el pensamiento para comprender el mundo, liberándonos del miedo y de la superstición. El capítulo presenta el método cartesiana, los atributos de un conocimiento racional (objetividad, universalidad, control intersubjetivo, autocrítica) y sus formas (técnica, científica, filosófica, moral). Por último, confronta el racionalismo absoluto (Hegel, Spinoza) con las advertencias de Pascal sobre el corazón y la intuición.",
+  "paginas": { "inicio": 196, "fin": 209 },
+  "puntos_incontournables": [
+    "El uso de la razón (Kant): todos tenemos capacidad de pensar, pero no todos la usamos igual, por pereza o cobardía, preferimos las ilusiones tranquilizadoras",
+    "La razón y lo real, dos elementos a distinguir (Descartes): la razón juzga la calidad de las cosas, pero no hay que reducir lo real a lo que percibimos",
+    "El método cartesiano (méthode): sin método que estructure el pensamiento no hay razonamiento coherente; los preceptos guían la búsqueda de la verdad sobre bases sólidas",
+    "El dominio de los afectos por la razón (Spinoza): enfrentar afectos con afectos más potentes para alcanzar la sabiduría y el equilibrio de las emociones",
+    "Confiar en la intuición (Pascal): contra una razón omnipotente, la intuición y el corazón son también fuente de verdad (cœur)"
+  ],
+  "nociones_clave": [
+    "raison",
+    "rationalité",
+    "méthode",
+    "bon sens",
+    "évidence",
+    "analyse",
+    "objectivité",
+    "universalité",
+    "contrôle intersubjectif",
+    "rationalité technique",
+    "rationalité scientifique",
+    "scientisme",
+    "rationalisme ouvert",
+    "rationalisme absolu",
+    "rationnel / raisonnable",
+    "dogmatisme",
+    "affects",
+    "intuition"
+  ],
+  "problematicas_bac": [
+    "La raison peut-elle se remettre elle-même en cause ?",
+    "Pour quelles raisons pouvons-nous affirmer que la thèse de Nietzsche est paradoxale ?",
+    "Une démarche rationnelle n’a-t-elle pas tendance à se donner toujours raison en s’enfermant dans sa propre cohérence ou logique ?",
+    "Une raison trop sûre de ses productions ne devient-elle pas nécessairement dogmatique ?",
+    "Comment faire en sorte que la raison ne devienne pas folle et dangereuse ?"
+  ],
+  "conceptos": [
+    {
+      "id": "bon-sens",
+      "nombre": "Raison et bon sens",
+      "definicion": "La razón es «la puissance de bien juger et de discerner le vrai d'avec le faux»; coincide con el buen sentido, repartido por igual, aunque no todos sabemos usarlo bien.",
+      "pagina_pdf": 197,
+      "autores": ["descartes"]
+    },
+    {
+      "id": "objectivite-intersubjectivite",
+      "nombre": "Objectivité et contrôle intersubjectif",
+      "definicion": "Todo conocimiento racional exige descentrarse de la propia subjetividad, apoyarse en métodos reconocidos universalmente y someterse a una verificación compartida por todos.",
+      "pagina_pdf": 198,
+      "autores": ["descartes"]
+    },
+    {
+      "id": "rationalite-technique",
+      "nombre": "Rationalité technique et scientifique",
+      "definicion": "La técnica usa medios de forma calculada en vista de un fin y su criterio es la eficacia; la ciencia se somete a la objetividad y a la lógica, y trata porciones delimitadas de lo real.",
+      "pagina_pdf": 200,
+      "autores": ["popper"]
+    },
+    {
+      "id": "rationnel-raisonnable",
+      "nombre": "Rationnel et raisonnable",
+      "definicion": "Lo racional concierne al conocimiento y lo razonable a la acción humana: ser razonable es superar los propios intereses y actuar de forma desinteresada según principios universales.",
+      "pagina_pdf": 201,
+      "autores": ["kant"]
+    },
+    {
+      "id": "scientisme",
+      "nombre": "Scientisme et dogmatisme",
+      "definicion": "El cientificismo es una fe ciega en la ciencia: ideología peligrosa que, segura de sí misma, rehúsa cuestionarse y descarta otros enfoques.",
+      "pagina_pdf": 200,
+      "autores": ["bachelard"]
+    },
+    {
+      "id": "rationalisme-ouvert",
+      "nombre": "Rationalisme ouvert",
+      "definicion": "Racionalismo no dogmático, capaz de autocrítica: la razón nunca está fijada, está siempre en devenir y se reinventa en cada avance.",
+      "pagina_pdf": 200,
+      "autores": ["bachelard", "kant"]
+    },
+    {
+      "id": "rationalisme-absolu",
+      "nombre": "Rationalisme absolu",
+      "definicion": "Concepción totalizante para la que lo real es racional; resulta reductora porque el deseo, la imaginación o los límites de la medida física no siguen un orden puramente racional.",
+      "pagina_pdf": 201,
+      "autores": ["hegel", "spinoza"]
+    }
+  ],
+  "filosofos": [
+    {
+      "id": "descartes",
+      "nombre": "René Descartes",
+      "epoca": "siglo XVII",
+      "tesis_principal": "La razón, o buen sentido, está igualmente repartida entre los hombres, pero no todos saben usarla; por eso hace falta un método de cuatro preceptos para evitar el error y alcanzar la verdad por uno mismo.",
+      "ideas_clave": [
+        "Razón = poder de bien juzgar y distinguir lo verdadero de lo falso (bon sens)",
+        "Distinguir inteligibilidad y verdad: coherencia, eficacia o consenso no son criterios de verdad",
+        "Principio de evidencia: no admitir nada que no sea indudable, «clair» y «distinct» (évidence)",
+        "Principios de análisis, de orden y de revisión: dividir, ir de lo simple a lo complejo y revisar todo",
+        "Metáfora del camino (hodos): ir despacio por el buen camino vale más que correr y extraviarse"
+      ],
+      "citas": [
+        {
+          "texto": "la puissance de bien juger et de discerner le vrai d’avec le faux",
+          "idioma": "fr",
+          "obra": "Discours de la Méthode",
+          "pagina_pdf": 197
+        },
+        {
+          "texto": "Ne recevoir aucune chose pour vraie qui ne soit indubitable",
+          "idioma": "fr",
+          "obra": "Discours de la Méthode",
+          "pagina_pdf": 198
+        },
+        {
+          "texto": "Diviser les difficultés en autant de parcelles qu’il se pourrait et qu’il serait requis pour les mieux résoudre",
+          "idioma": "fr",
+          "obra": "Discours de la Méthode",
+          "pagina_pdf": 199
+        }
+      ],
+      "debate_con": ["pascal", "lucrece"],
+      "como_usarlo_en_disertacion": "Úsalo en la primera parte de un plan sobre la razón y la verdad: la razón, bien guiada por un método, produce certezas objetivas. Sirve también para definir la razón (bon sens) y para mostrar que el desear la verdad no equivale a poseerla.",
+      "escena_sugerida": "Un hombre que corre hacia la verdad se pierde; recupera el rumbo avanzando despacio con los cuatro preceptos.",
+      "pagina_pdf": 197,
+      "escena": {
+        "titulo": "Descartes : la méthode, ou le droit chemin",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "hombre", "tipo": "monigote", "pos": [0.12, 0.75], "etiqueta": "L'homme", "escala": 1 },
+          { "id": "verdad", "tipo": "estrella", "pos": [0.88, 0.3], "etiqueta": "Le vrai", "escala": 1.2 },
+          { "id": "nube", "tipo": "nube", "pos": [0.5, 0.7], "etiqueta": "Précipitation", "escala": 1 },
+          { "id": "metodo", "tipo": "libro", "pos": [0.3, 0.22], "etiqueta": "Méthode : 4 préceptes", "escala": 1 },
+          { "id": "cadena", "tipo": "cadena", "pos": [0.55, 0.55], "etiqueta": "Évidence, analyse, ordre, revue", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "hombre" },
+          { "t": 0.5, "accion": "subtitulo", "texto": "Descartes: la razón está en todos, pero no todos sabemos usarla bien." },
+          { "t": 2, "accion": "aparece", "actor": "verdad" },
+          { "t": 3, "accion": "mueve", "actor": "hombre", "a": [0.5, 0.45], "dur": 1.5 },
+          { "t": 3.5, "accion": "dice", "actor": "hombre", "texto": "¡Corro hacia la verdad!" },
+          { "t": 5, "accion": "aparece", "actor": "nube" },
+          { "t": 5.5, "accion": "tiembla", "actor": "hombre" },
+          { "t": 6, "accion": "piensa", "actor": "hombre", "texto": "Con la prisa me he extraviado..." },
+          { "t": 7, "accion": "subtitulo", "texto": "La precipitación y la presunción nos alejan del buen camino." },
+          { "t": 9, "accion": "desaparece", "actor": "nube" },
+          { "t": 9.5, "accion": "aparece", "actor": "metodo" },
+          { "t": 10.5, "accion": "cita", "texto": "Ne recevoir aucune chose pour vraie qui ne soit indubitable" },
+          { "t": 12.5, "accion": "mueve", "actor": "hombre", "a": [0.3, 0.72], "dur": 1 },
+          { "t": 13, "accion": "aparece", "actor": "cadena" },
+          { "t": 13.5, "accion": "subtitulo", "texto": "Cuatro preceptos de gran sencillez: evidencia, análisis, orden y revisión." },
+          { "t": 15, "accion": "mueve", "actor": "hombre", "a": [0.78, 0.45], "dur": 6 },
+          { "t": 16, "accion": "dice", "actor": "hombre", "texto": "Avanzo despacio, paso a paso." },
+          { "t": 21.5, "accion": "une", "de": "hombre", "a": "verdad", "nota": "droit chemin" },
+          { "t": 22, "accion": "resalta", "actor": "verdad" },
+          { "t": 22.5, "accion": "subtitulo", "texto": "Quien camina despacio por el buen camino llega más lejos que quien corre y se aleja." }
+        ]
+      }
+    },
+    {
+      "id": "kant",
+      "nombre": "Emmanuel Kant",
+      "epoca": "siglo XVIII",
+      "tesis_principal": "La capacidad de pensar es de todos, pero la pereza y la cobardía nos hacen preferir las ilusiones tranquilizadoras; el hombre muestra su dignidad cuando usa la razón de forma desinteresada, dándose principios universales de acción.",
+      "ideas_clave": [
+        "Pensar es inherente al hombre, pero se usa de forma desigual: por pereza o por cobardía",
+        "Es más cómodo vivir con ilusiones que cuestionarse y usar la razón",
+        "Uso utilitario de la razón: satisfacer necesidades y buscar la felicidad por instinto",
+        "La razón exige universalidad y desinterés (rationnel / raisonnable)",
+        "El hombre se distingue del animal no por su inteligencia sino por darse principios de valor universal; razón abierta y crítica que se somete a su propio tribunal"
+      ],
+      "citas": [],
+      "debate_con": ["nietzsche", "bachelard"],
+      "como_usarlo_en_disertacion": "Útil en la parte sobre la razón moral (¿qué es ser razonable?) y en la parte final sobre una razón crítica que se juzga a sí misma. Permite argumentar que la dignidad humana descansa en principios universales y no en el cálculo del interés.",
+      "escena_sugerida": "Un hombre cómodo en su casa de ilusiones descubre que su razón puede dejar el cálculo del interés y darse principios universales.",
+      "pagina_pdf": 201,
+      "escena": {
+        "titulo": "Kant : de la paresse à la raison désintéressée",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "hombre", "tipo": "monigote", "pos": [0.3, 0.75], "etiqueta": "L'homme", "escala": 1 },
+          { "id": "casa", "tipo": "casa", "pos": [0.15, 0.4], "etiqueta": "Illusions rassurantes", "escala": 1.2 },
+          { "id": "razon", "tipo": "cerebro", "pos": [0.5, 0.3], "etiqueta": "Raison", "escala": 1 },
+          { "id": "moneda", "tipo": "moneda", "pos": [0.85, 0.72], "etiqueta": "Besoins, bonheur", "escala": 1 },
+          { "id": "balanza", "tipo": "balanza", "pos": [0.8, 0.3], "etiqueta": "Principes universels", "escala": 1.2 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "hombre" },
+          { "t": 0.5, "accion": "aparece", "actor": "casa" },
+          { "t": 1, "accion": "subtitulo", "texto": "Kant: todos podemos pensar, pero la pereza y la cobardía nos encierran en ilusiones." },
+          { "t": 2.5, "accion": "piensa", "actor": "hombre", "texto": "Qué cómodo es no cuestionarse nada..." },
+          { "t": 5, "accion": "aparece", "actor": "razon" },
+          { "t": 5.5, "accion": "une", "de": "hombre", "a": "razon", "nota": "capacidad de pensar" },
+          { "t": 7, "accion": "dice", "actor": "hombre", "texto": "Pensar da trabajo... y algo de miedo." },
+          { "t": 9, "accion": "subtitulo", "texto": "Y a veces la razón se usa solo para satisfacer necesidades y alcanzar la felicidad." },
+          { "t": 10, "accion": "aparece", "actor": "moneda" },
+          { "t": 11, "accion": "proyecta", "de": "razon", "a": "moneda", "nota": "calcul utilitaire" },
+          { "t": 13, "accion": "piensa", "actor": "hombre", "texto": "¿Solo sirvo para calcular mi interés?" },
+          { "t": 14.5, "accion": "tiembla", "actor": "moneda" },
+          { "t": 15.5, "accion": "desaparece", "actor": "moneda" },
+          { "t": 16, "accion": "aparece", "actor": "balanza" },
+          { "t": 17, "accion": "proyecta", "de": "razon", "a": "balanza", "nota": "désintéressé" },
+          { "t": 18.5, "accion": "resalta", "actor": "balanza" },
+          { "t": 19, "accion": "salta", "actor": "hombre" },
+          { "t": 19.5, "accion": "dice", "actor": "hombre", "texto": "Me doy principios válidos para todos." },
+          { "t": 22, "accion": "subtitulo", "texto": "La dignidad humana: superar el interés propio y darse principios de valor universal." }
+        ]
+      }
+    },
+    {
+      "id": "spinoza",
+      "nombre": "Baruch Spinoza",
+      "epoca": "siglo XVII",
+      "tesis_principal": "Los afectos negativos que padecemos pasivamente restringen nuestra libertad; la razón nos permite dominarlos oponiéndoles afectos positivos más potentes, hasta alcanzar la sabiduría y la felicidad.",
+      "ideas_clave": [
+        "En la Éthique, aplica una lógica matemática a la libertad, lo divino y los afectos (affects)",
+        "Los afectos contrarios a la razón, sufridos de modo pasivo, limitan nuestra libertad (livre IV)",
+        "Un afecto se vence con otro afecto más potente (por ejemplo, el temor de herir al ser amado frente a los celos)",
+        "Proceso de racionalización de los afectos: hallar la justa medida",
+        "Meta: una nueva definición del hombre sabio, que accede a la felicidad controlando sus pasiones"
+      ],
+      "citas": [],
+      "debate_con": ["pascal", "hegel"],
+      "como_usarlo_en_disertacion": "Úsalo en sujetos sobre razón y pasiones o sobre la libertad: muestra que la razón no suprime los sentimientos, sino que los ordena. Buen contrapunto con Pascal (razón y corazón) y con el racionalismo absoluto de Hegel.",
+      "escena_sugerida": "Los celos arden en un hombre pasivo; la razón le hace tomar conciencia del daño y un afecto más fuerte los apaga.",
+      "pagina_pdf": 202,
+      "escena": {
+        "titulo": "Spinoza : vaincre un affect par un affect plus fort",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "hombre", "tipo": "monigote", "pos": [0.5, 0.78], "etiqueta": "L'homme", "escala": 1 },
+          { "id": "celos", "tipo": "fuego", "pos": [0.2, 0.45], "etiqueta": "Jalousie", "escala": 1.2 },
+          { "id": "razon", "tipo": "cerebro", "pos": [0.5, 0.22], "etiqueta": "Raison", "escala": 1 },
+          { "id": "temor", "tipo": "corazon", "pos": [0.82, 0.45], "etiqueta": "Crainte de blesser l'être aimé", "escala": 1.2 },
+          { "id": "balanza", "tipo": "balanza", "pos": [0.15, 0.78], "etiqueta": "Juste mesure", "escala": 1 },
+          { "id": "flor", "tipo": "flor", "pos": [0.88, 0.8], "etiqueta": "Sagesse", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "hombre" },
+          { "t": 0.5, "accion": "aparece", "actor": "celos" },
+          { "t": 1, "accion": "subtitulo", "texto": "Spinoza: los afectos nos dominan cuando los padecemos de forma pasiva y limitan nuestra libertad." },
+          { "t": 2.5, "accion": "proyecta", "de": "celos", "a": "hombre", "nota": "passif" },
+          { "t": 3.5, "accion": "tiembla", "actor": "hombre" },
+          { "t": 4.5, "accion": "dice", "actor": "hombre", "texto": "¡No puedo controlar mis celos!" },
+          { "t": 7, "accion": "aparece", "actor": "razon" },
+          { "t": 7.5, "accion": "subtitulo", "texto": "La razón no los suprime: opone a un afecto negativo otro positivo aún más potente." },
+          { "t": 9, "accion": "aparece", "actor": "temor" },
+          { "t": 10, "accion": "proyecta", "de": "razon", "a": "temor", "nota": "prise de conscience" },
+          { "t": 11.5, "accion": "piensa", "actor": "hombre", "texto": "Hago daño a quien amo, y es irracional." },
+          { "t": 13.5, "accion": "resalta", "actor": "temor" },
+          { "t": 14, "accion": "proyecta", "de": "temor", "a": "celos", "nota": "plus puissant" },
+          { "t": 15.5, "accion": "desaparece", "actor": "celos" },
+          { "t": 16, "accion": "subtitulo", "texto": "Así se racionalizan los afectos y se encuentra la justa medida." },
+          { "t": 17.5, "accion": "aparece", "actor": "balanza" },
+          { "t": 18.5, "accion": "aparece", "actor": "flor" },
+          { "t": 19.5, "accion": "salta", "actor": "hombre" },
+          { "t": 21, "accion": "subtitulo", "texto": "Controlar las pasiones con la razón conduce al equilibrio, a la sabiduría y a la felicidad." }
+        ]
+      }
+    },
+    {
+      "id": "pascal",
+      "nombre": "Blaise Pascal",
+      "epoca": "siglo XVII",
+      "tesis_principal": "La razón no es la única fuente de verdad: los primeros principios y las verdades inefables se conocen por el corazón y la intuición. Hay que evitar dos excesos, el escepticismo perezoso y el orgullo de una razón omnipotente.",
+      "ideas_clave": [
+        "Matemático y físico, convencido de las virtudes de la razón, pero crítico de una razón orgullosa («superbe»)",
+        "Conocemos la verdad por la razón y también por el corazón (cœur)",
+        "Los primeros principios se conocen por el corazón: el razonamiento es incapaz de combatirlos",
+        "Rechaza a la vez la pereza del escepticismo y el orgullo estoico de la razón",
+        "Aceptar con humildad el origen misterioso, incluso divino, de la verdad y conservar una parte de intuición"
+      ],
+      "citas": [
+        {
+          "texto": "Le cœur a ses raisons que la raison ne connaît pas.",
+          "idioma": "fr",
+          "obra": "Pensées",
+          "pagina_pdf": 202
+        },
+        {
+          "texto": "nous connaissons la vérité non seulement par la raison, mais encore par le cœur",
+          "idioma": "fr",
+          "obra": "Pensées",
+          "pagina_pdf": 202
+        },
+        {
+          "texto": "Deux excès : exclure la raison, n’admettre que la raison",
+          "idioma": "fr",
+          "obra": "Pensées",
+          "pagina_pdf": 209
+        }
+      ],
+      "debate_con": ["spinoza", "hegel", "descartes"],
+      "como_usarlo_en_disertacion": "Úsalo en la segunda o tercera parte para mostrar los límites de la razón (¿se puede conocer solo por la razón?). Su fórmula de los «deux excès» sirve de conclusión equilibrada: reconocer el valor de la razón sin sacralizarla.",
+      "escena_sugerida": "Una razón coronada por el orgullo no puede alcanzar los primeros principios; el corazón sí, y ambos se reconcilian.",
+      "pagina_pdf": 202,
+      "escena": {
+        "titulo": "Pascal : le cœur et la raison",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          { "id": "razon", "tipo": "cerebro", "pos": [0.22, 0.6], "etiqueta": "Raison", "escala": 1.2 },
+          { "id": "corona", "tipo": "corona", "pos": [0.22, 0.35], "etiqueta": "Orgueil", "escala": 1 },
+          { "id": "principios", "tipo": "estrella", "pos": [0.5, 0.18], "etiqueta": "Premiers principes", "escala": 1.2 },
+          { "id": "corazon", "tipo": "corazon", "pos": [0.78, 0.6], "etiqueta": "Cœur, intuition", "escala": 1.2 },
+          { "id": "balanza", "tipo": "balanza", "pos": [0.5, 0.82], "etiqueta": "Deux excès", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "razon" },
+          { "t": 0.5, "accion": "aparece", "actor": "corona" },
+          { "t": 1, "accion": "subtitulo", "texto": "Pascal: la razón vale mucho, pero se vuelve orgullosa si pretende ser la única fuente de verdad." },
+          { "t": 2.5, "accion": "dice", "actor": "razon", "texto": "¡Solo yo conduzco a la verdad!" },
+          { "t": 4.5, "accion": "aparece", "actor": "principios" },
+          { "t": 5.5, "accion": "proyecta", "de": "razon", "a": "principios", "nota": "raisonnement" },
+          { "t": 6.5, "accion": "tiembla", "actor": "razon" },
+          { "t": 7.5, "accion": "piensa", "actor": "razon", "texto": "No logro ni demostrarlo ni refutarlo..." },
+          { "t": 9, "accion": "subtitulo", "texto": "Los primeros principios no se alcanzan con un simple encadenamiento de razonamientos." },
+          { "t": 10.5, "accion": "aparece", "actor": "corazon" },
+          { "t": 11.5, "accion": "proyecta", "de": "corazon", "a": "principios", "nota": "connaissance" },
+          { "t": 12.5, "accion": "cita", "texto": "Le cœur a ses raisons que la raison ne connaît pas." },
+          { "t": 14.5, "accion": "desaparece", "actor": "corona" },
+          { "t": 15, "accion": "une", "de": "razon", "a": "corazon", "nota": "humilité" },
+          { "t": 16, "accion": "subtitulo", "texto": "Hay que aceptar con humildad el origen misterioso de la verdad y escuchar la intuición." },
+          { "t": 18, "accion": "aparece", "actor": "balanza" },
+          { "t": 19, "accion": "cita", "texto": "Deux excès : exclure la raison, n’admettre que la raison" },
+          { "t": 22, "accion": "subtitulo", "texto": "Ni escepticismo perezoso ni razón omnipotente: el equilibrio entre razón e intuición." }
+        ]
+      }
+    },
+    {
+      "id": "hegel",
+      "nombre": "Georg Wilhelm Friedrich Hegel",
+      "epoca": "siglo XIX",
+      "tesis_principal": "Para el racionalismo absoluto, la realidad está regida por un orden racional que el hombre descubre progresivamente; lo que parece irracional (azar, desorden, pasiones) solo lo es en apariencia. El cours juzga esta visión totalizante discutible.",
+      "ideas_clave": [
+        "Racionalismo absoluto: apología de la razón (rationalisme absolu)",
+        "Todo lo real es racional y todo lo racional es real",
+        "La inteligibilidad racional refleja el orden del mundo",
+        "Azar, desorden y pasiones serían irracionales solo en apariencia",
+        "Crítica del cours: el deseo, la imaginación o el límite de precisión de Heisenberg escapan a un orden puramente racional"
+      ],
+      "citas": [
+        {
+          "texto": "tout ce qui est réel est rationnel et tout ce qui est rationnel est réel",
+          "idioma": "fr",
+          "obra": "",
+          "pagina_pdf": 201
+        }
+      ],
+      "debate_con": ["pascal", "spinoza", "popper"],
+      "como_usarlo_en_disertacion": "Úsalo como posición que se discute: ejemplo de racionalismo absoluto, para luego mostrar sus límites con Pascal (intuición) o con la apertura crítica de Bachelard. Aparece en las partes que cuestionan que la razón lo explique todo.",
+      "escena_sugerida": "El azar y las pasiones parecen caos hasta que la razón los ordena; luego surgen el deseo y la imaginación, que no encajan.",
+      "pagina_pdf": 201,
+      "escena": {
+        "titulo": "Hegel : tout le réel est rationnel",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "real", "tipo": "silueta_grande", "pos": [0.5, 0.4], "etiqueta": "Le réel", "escala": 1.5 },
+          { "id": "azar", "tipo": "nube", "pos": [0.14, 0.2], "etiqueta": "Hasard, désordre", "escala": 1 },
+          { "id": "pasiones", "tipo": "fuego", "pos": [0.86, 0.2], "etiqueta": "Passions", "escala": 1 },
+          { "id": "hombre", "tipo": "monigote", "pos": [0.15, 0.85], "etiqueta": "L'homme", "escala": 1 },
+          { "id": "razon", "tipo": "cerebro", "pos": [0.5, 0.78], "etiqueta": "Raison", "escala": 1 },
+          { "id": "duda", "tipo": "interrogacion", "pos": [0.86, 0.78], "etiqueta": "Désir, imagination", "escala": 1.2 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "real" },
+          { "t": 0.5, "accion": "subtitulo", "texto": "Hegel: la realidad está regida por un orden racional que el hombre va descubriendo." },
+          { "t": 2, "accion": "aparece", "actor": "azar" },
+          { "t": 2.5, "accion": "aparece", "actor": "pasiones" },
+          { "t": 3, "accion": "tiembla", "actor": "azar" },
+          { "t": 3.5, "accion": "tiembla", "actor": "pasiones" },
+          { "t": 4, "accion": "aparece", "actor": "hombre" },
+          { "t": 5, "accion": "dice", "actor": "hombre", "texto": "Todo esto parece irracional..." },
+          { "t": 7, "accion": "aparece", "actor": "razon" },
+          { "t": 8, "accion": "proyecta", "de": "razon", "a": "azar", "nota": "ordre" },
+          { "t": 8.5, "accion": "proyecta", "de": "razon", "a": "pasiones", "nota": "ordre" },
+          { "t": 10, "accion": "resalta", "actor": "real" },
+          { "t": 10.5, "accion": "cita", "texto": "tout ce qui est réel est rationnel et tout ce qui est rationnel est réel" },
+          { "t": 13, "accion": "desaparece", "actor": "azar" },
+          { "t": 13.2, "accion": "desaparece", "actor": "pasiones" },
+          { "t": 14, "accion": "subtitulo", "texto": "Lo irracional sería solo aparente: la razón humana refleja el orden del mundo." },
+          { "t": 16.5, "accion": "aparece", "actor": "duda" },
+          { "t": 17.5, "accion": "tiembla", "actor": "duda" },
+          { "t": 18.5, "accion": "dice", "actor": "hombre", "texto": "¿Y el deseo y la imaginación? ¿Cabe todo?" },
+          { "t": 21, "accion": "subtitulo", "texto": "El cours juzga discutable este racionalismo absoluto: no todo en la existencia sigue un orden racional." }
+        ]
+      }
+    },
+    {
+      "id": "nietzsche",
+      "nombre": "Friedrich Nietzsche",
+      "epoca": "siglo XIX",
+      "tesis_principal": "Conocer no responde a un deseo desinteresado de verdad, sino a un miedo: queremos reducir lo extraño a lo familiar para recuperar la seguridad. Esa tesis es paradójica frente a la tradición griega, para la que la razón nace del rechazo de las certezas cómodas.",
+      "ideas_clave": [
+        "Lo que el pueblo (y los filósofos) llaman conocer es reducir lo extraño a algo ya conocido",
+        "Nuestro besoin de connaître sería nuestro besoin de familier",
+        "El instinto del miedo nos ordenaría conocer; el placer de conocer sería la volupté de la sécurité retrouvée",
+        "Un saber al servicio de lo cotidiano y de nuevas certezas, no un deseo de saber universal",
+        "Convencer no es lo mismo que ser verdadero: la coherencia o el consenso no son criterios de verdad"
+      ],
+      "citas": [
+        {
+          "texto": "une chose qui convainc n’est pas vraie pour autant, elle est seulement convaincante",
+          "idioma": "fr",
+          "obra": "",
+          "pagina_pdf": 197
+        },
+        {
+          "texto": "Ne serait-ce pas l’instinct de la peur qui nous commanderait de connaître ?",
+          "idioma": "fr",
+          "obra": "Le gai savoir",
+          "pagina_pdf": 206
+        }
+      ],
+      "debate_con": ["lucrece", "descartes"],
+      "como_usarlo_en_disertacion": "Úsalo como objeción radical al ideal racional de verdad: sospecha de que el deseo de saber esconde una necesidad psicológica de seguridad. Encaja en partes críticas sobre la razón y en explicaciones de texto sobre el conocimiento.",
+      "escena_sugerida": "Un hombre asustado por lo extraño lo reduce a lo conocido y siente alivio: ¿conocer es solo miedo?",
+      "pagina_pdf": 206,
+      "escena": {
+        "titulo": "Nietzsche : connaître pour ne plus avoir peur",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "hombre", "tipo": "monigote", "pos": [0.3, 0.75], "etiqueta": "Le philosophe", "escala": 1 },
+          { "id": "extrano", "tipo": "interrogacion", "pos": [0.8, 0.3], "etiqueta": "L'étranger", "escala": 1.4 },
+          { "id": "casa", "tipo": "casa", "pos": [0.18, 0.3], "etiqueta": "Le familier", "escala": 1.2 },
+          { "id": "seguridad", "tipo": "corazon", "pos": [0.55, 0.8], "etiqueta": "Sécurité retrouvée", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "hombre" },
+          { "t": 0.5, "accion": "subtitulo", "texto": "Nietzsche: ¿qué buscamos de verdad cuando queremos conocer?" },
+          { "t": 2, "accion": "aparece", "actor": "extrano" },
+          { "t": 3, "accion": "tiembla", "actor": "hombre" },
+          { "t": 3.5, "accion": "dice", "actor": "hombre", "texto": "Lo extraño me inquieta..." },
+          { "t": 5, "accion": "mueve", "actor": "extrano", "a": [0.55, 0.4], "dur": 1.5 },
+          { "t": 6.5, "accion": "aparece", "actor": "casa" },
+          { "t": 7, "accion": "subtitulo", "texto": "Conocer sería ramener lo extraño a lo ya conocido, a lo habitual: un «besoin de familier»." },
+          { "t": 8.5, "accion": "proyecta", "de": "extrano", "a": "casa", "nota": "ramener au connu" },
+          { "t": 10.5, "accion": "desaparece", "actor": "extrano" },
+          { "t": 11, "accion": "aparece", "actor": "seguridad" },
+          { "t": 11.5, "accion": "salta", "actor": "hombre" },
+          { "t": 12, "accion": "piensa", "actor": "hombre", "texto": "Qué alivio... ¿era solo miedo?" },
+          { "t": 14, "accion": "cita", "texto": "Ne serait-ce pas l’instinct de la peur qui nous commanderait de connaître ?" },
+          { "t": 17, "accion": "subtitulo", "texto": "Para los griegos la razón nace de rechazar las ilusiones tranquilizadoras; para Nietzsche, del miedo." },
+          { "t": 20.5, "accion": "resalta", "actor": "seguridad" },
+          { "t": 21, "accion": "subtitulo", "texto": "Paradoja: el saber no sería desinteresado, sino un consuelo psicológico." }
+        ]
+      }
+    },
+    {
+      "id": "bachelard",
+      "nombre": "Gaston Bachelard",
+      "epoca": "siglo XX",
+      "tesis_principal": "La ciencia progresa porque se cuestiona sin cesar: frente al cientificismo dogmático, propone un «rationalisme ouvert», no dogmático y capaz de autocrítica, siempre en devenir.",
+      "ideas_clave": [
+        "El cientificismo (fe ciega en la ciencia) es una ideología peligrosa y absurda que rechaza toda otra vía",
+        "La razón debe hacer sin cesar su autocrítica, corregirse y ajustarse (autocritique)",
+        "Rationalisme ouvert: no dogmático, capaz de autocrítica",
+        "La razón nunca está fija; se reinventa en cada avance",
+        "Así escapa a la sacralización de sus propias producciones"
+      ],
+      "citas": [
+        {
+          "texto": "rationalisme ouvert",
+          "idioma": "fr",
+          "obra": "",
+          "pagina_pdf": 200
+        }
+      ],
+      "debate_con": ["popper", "kant"],
+      "como_usarlo_en_disertacion": "Es la clave de la tercera parte de un plan sobre los límites de la razón: una razón abierta que se cuestiona evita el dogmatismo. Úsalo con Kant (razón crítica) para responder a «¿puede la razón ponerse en cuestión?».",
+      "escena_sugerida": "Una caja cerrada (cientificismo) se abre en puerta cuando el sabio acepta que la experiencia contradiga su hipótesis.",
+      "pagina_pdf": 200,
+      "escena": {
+        "titulo": "Bachelard : du scientisme au rationalisme ouvert",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "caja", "tipo": "caja", "pos": [0.22, 0.5], "etiqueta": "Scientisme", "escala": 1.3 },
+          { "id": "sabio", "tipo": "monigote", "pos": [0.55, 0.8], "etiqueta": "Le savant", "escala": 1 },
+          { "id": "hipotesis", "tipo": "bombilla", "pos": [0.55, 0.3], "etiqueta": "Hypothèse", "escala": 1 },
+          { "id": "experiencia", "tipo": "rayo", "pos": [0.85, 0.3], "etiqueta": "Expérience contraire", "escala": 1 },
+          { "id": "puerta", "tipo": "puerta", "pos": [0.22, 0.5], "etiqueta": "Rationalisme ouvert", "escala": 1.3 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "caja" },
+          { "t": 0.5, "accion": "subtitulo", "texto": "Bachelard: una ciencia que se cree infalible se encierra en un dogma." },
+          { "t": 2, "accion": "dice", "actor": "caja", "texto": "Tengo razón: nada que revisar." },
+          { "t": 4, "accion": "aparece", "actor": "sabio" },
+          { "t": 4.5, "accion": "aparece", "actor": "hipotesis" },
+          { "t": 5.5, "accion": "une", "de": "sabio", "a": "hipotesis" },
+          { "t": 6.5, "accion": "subtitulo", "texto": "La verdadera ciencia expone sus hipótesis a la experiencia y acepta ser contradicha." },
+          { "t": 8, "accion": "aparece", "actor": "experiencia" },
+          { "t": 8.5, "accion": "proyecta", "de": "experiencia", "a": "hipotesis" },
+          { "t": 9.5, "accion": "tiembla", "actor": "hipotesis" },
+          { "t": 10.5, "accion": "dice", "actor": "sabio", "texto": "Me equivoqué: corrijo mi hipótesis." },
+          { "t": 12, "accion": "etiqueta", "actor": "hipotesis", "texto": "Hypothèse corrigée" },
+          { "t": 12.5, "accion": "desaparece", "actor": "caja" },
+          { "t": 13, "accion": "aparece", "actor": "puerta" },
+          { "t": 14, "accion": "cita", "texto": "rationalisme ouvert" },
+          { "t": 16, "accion": "subtitulo", "texto": "Una razón no dogmática y capaz de autocrítica: el «rationalisme ouvert»." },
+          { "t": 18, "accion": "resalta", "actor": "puerta" },
+          { "t": 18.5, "accion": "salta", "actor": "sabio" },
+          { "t": 21, "accion": "subtitulo", "texto": "La razón está siempre en devenir y se reinventa en cada avance, sin sacralizar sus productos." }
+        ]
+      }
+    },
+    {
+      "id": "popper",
+      "nombre": "Karl Popper",
+      "epoca": "siglo XX",
+      "tesis_principal": "La racionalidad científica se limita a porciones delimitadas de la realidad y no pretende una concepción global del mundo, a diferencia de la ideología, siempre globalizante e incluso totalitaria.",
+      "ideas_clave": [
+        "La ciencia es una disciplina del pensamiento sometida a la objetividad y a los principios lógicos (rationalité scientifique)",
+        "Se apoya en demostraciones experimentales que pueden hacer cambiar la hipótesis de partida",
+        "Trata porciones delimitadas de lo real y no una visión global del mundo",
+        "Contraste con las teorías conspirativas: se apartan de toda racionalidad y de los argumentos contrarios",
+        "La ideología es globalizante, incluso totalitaria (idéologie)"
+      ],
+      "citas": [],
+      "debate_con": ["hegel", "bachelard"],
+      "como_usarlo_en_disertacion": "Úsalo para distinguir ciencia de ideología o de teoría conspirativa y para mostrar que una razón científica sana acepta ser refutada. Sirve en la primera parte (certezas objetivas) y en la crítica del cientificismo.",
+      "escena_sugerida": "El científico corrige su hipótesis ante la experiencia mientras una ideología gigante lo explica todo y rechaza objeciones.",
+      "pagina_pdf": 200,
+      "escena": {
+        "titulo": "Popper : science modeste, idéologie totalisante",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "cientifico", "tipo": "monigote", "pos": [0.15, 0.78], "etiqueta": "Le scientifique", "escala": 1 },
+          { "id": "porcion", "tipo": "caja", "pos": [0.4, 0.5], "etiqueta": "Portion délimitée du réel", "escala": 1 },
+          { "id": "hipotesis", "tipo": "bombilla", "pos": [0.4, 0.2], "etiqueta": "Hypothèse", "escala": 1 },
+          { "id": "ideologia", "tipo": "silueta_grande", "pos": [0.82, 0.5], "etiqueta": "Idéologie", "escala": 1.6 },
+          { "id": "objecion", "tipo": "rayo", "pos": [0.62, 0.25], "etiqueta": "Argument contraire", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "cientifico" },
+          { "t": 0.5, "accion": "subtitulo", "texto": "Popper: la ciencia estudia porciones delimitadas de la realidad, no el mundo entero." },
+          { "t": 2, "accion": "aparece", "actor": "porcion" },
+          { "t": 2.5, "accion": "resalta", "actor": "porcion" },
+          { "t": 3.5, "accion": "aparece", "actor": "hipotesis" },
+          { "t": 4.5, "accion": "proyecta", "de": "cientifico", "a": "porcion", "nota": "expérience" },
+          { "t": 6, "accion": "tiembla", "actor": "hipotesis" },
+          { "t": 6.5, "accion": "etiqueta", "actor": "hipotesis", "texto": "Hypothèse modifiée" },
+          { "t": 7, "accion": "dice", "actor": "cientifico", "texto": "La experiencia me contradice: la corrijo." },
+          { "t": 9, "accion": "subtitulo", "texto": "Se apoya en demostraciones experimentales y acepta cambiar su hipótesis de partida." },
+          { "t": 11, "accion": "aparece", "actor": "ideologia" },
+          { "t": 12, "accion": "dice", "actor": "ideologia", "texto": "¡Yo lo explico TODO!" },
+          { "t": 14, "accion": "aparece", "actor": "objecion" },
+          { "t": 14.5, "accion": "proyecta", "de": "objecion", "a": "ideologia" },
+          { "t": 15.5, "accion": "tiembla", "actor": "ideologia" },
+          { "t": 16, "accion": "dice", "actor": "ideologia", "texto": "No admito objeciones." },
+          { "t": 17.5, "accion": "desaparece", "actor": "objecion" },
+          { "t": 18, "accion": "subtitulo", "texto": "La ideología (y las teorías conspirativas) es globalizante, incluso totalitaria, y rechaza lo contrario." },
+          { "t": 21, "accion": "resalta", "actor": "cientifico" },
+          { "t": 22, "accion": "subtitulo", "texto": "La racionalidad científica es humilde y revisable; la ideología pretende una visión global." }
+        ]
+      }
+    },
+    {
+      "id": "lucrece",
+      "nombre": "Lucrecio",
+      "epoca": "siglo I a. C.",
+      "tesis_principal": "La razón aparta al hombre de una relación angustiada con el mundo y de toda forma de superstición: la ignorancia engendra temor, y solo el saber nos permite actuar sin padecer pasivamente la realidad.",
+      "ideas_clave": [
+        "La razón permite ordenar el pensamiento y comprender el mundo con más justeza",
+        "Aleja de la angustia y de la superstición (superstition)",
+        "Sin ella, el hombre adopta una actitud pasiva que le lleva a sufrir y temer la realidad",
+        "Actuar racionalmente es saber cómo, por qué y en nombre de qué actuamos",
+        "La ignorancia engendra temor y superstición, y el deseo de saber nace de no poder aceptar no comprender"
+      ],
+      "citas": [],
+      "debate_con": ["nietzsche", "descartes"],
+      "como_usarlo_en_disertacion": "Úsalo en la primera parte, para mostrar que la razón libera del miedo y de las ilusiones tranquilizadoras. Es el contrapunto clásico de la tesis de Nietzsche sobre el miedo como motor del conocimiento.",
+      "escena_sugerida": "Un hombre atenazado por el miedo a lo que ignora recupera la serenidad cuando la razón disipa la superstición.",
+      "pagina_pdf": 197,
+      "escena": {
+        "titulo": "Lucrèce : la raison contre la peur et la superstition",
+        "estilo": "monigotes",
+        "duracion_seg": 24,
+        "actores": [
+          { "id": "hombre", "tipo": "monigote", "pos": [0.5, 0.8], "etiqueta": "L'homme", "escala": 1 },
+          { "id": "ignorancia", "tipo": "nube", "pos": [0.5, 0.25], "etiqueta": "Ignorance", "escala": 1.4 },
+          { "id": "supersticion", "tipo": "silueta_grande", "pos": [0.85, 0.45], "etiqueta": "Superstition", "escala": 1.2 },
+          { "id": "razon", "tipo": "sol", "pos": [0.15, 0.2], "etiqueta": "Raison", "escala": 1.2 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "hombre" },
+          { "t": 0.5, "accion": "subtitulo", "texto": "Lucrecio: lo que no comprendemos nos da miedo y nos empuja a la superstición." },
+          { "t": 2, "accion": "aparece", "actor": "ignorancia" },
+          { "t": 3, "accion": "tiembla", "actor": "hombre" },
+          { "t": 3.5, "accion": "dice", "actor": "hombre", "texto": "No entiendo nada... tengo miedo." },
+          { "t": 5.5, "accion": "aparece", "actor": "supersticion" },
+          { "t": 6, "accion": "proyecta", "de": "ignorancia", "a": "hombre", "nota": "crainte" },
+          { "t": 8, "accion": "piensa", "actor": "hombre", "texto": "Solo puedo temer y padecer." },
+          { "t": 9.5, "accion": "subtitulo", "texto": "Preso de una actitud pasiva, el hombre sufre y teme la realidad." },
+          { "t": 11.5, "accion": "aparece", "actor": "razon" },
+          { "t": 12.5, "accion": "proyecta", "de": "razon", "a": "ignorancia", "nota": "lumière" },
+          { "t": 14, "accion": "desaparece", "actor": "ignorancia" },
+          { "t": 14.3, "accion": "desaparece", "actor": "supersticion" },
+          { "t": 15, "accion": "mueve", "actor": "hombre", "a": [0.5, 0.55], "dur": 1.5 },
+          { "t": 16, "accion": "dice", "actor": "hombre", "texto": "Sé cómo, por qué y en nombre de qué actúo." },
+          { "t": 18, "accion": "resalta", "actor": "razon" },
+          { "t": 19, "accion": "subtitulo", "texto": "La razón libera de la angustia y de la superstición, y permite actuar sabiendo por qué." }
+        ]
+      }
+    }
+  ],
+  "relaciones": [
+    { "de": "descartes", "a": "pascal", "tipo": "se opone", "nota": "Descartes confía en un método racional; Pascal pide no olvidar el corazón y la intuición." },
+    { "de": "spinoza", "a": "pascal", "tipo": "se opone", "nota": "Spinoza ve la razón como camino a la sabiduría; Pascal tempera una razón orgullosa." },
+    { "de": "hegel", "a": "pascal", "tipo": "se opone", "nota": "Pascal cuestiona la omnipotencia de la razón que defiende el racionalismo absoluto." },
+    { "de": "spinoza", "a": "hegel", "tipo": "complementa", "nota": "Dominar los afectos con la razón apoya la idea de que lo irracional es solo aparente." },
+    { "de": "lucrece", "a": "nietzsche", "tipo": "se opone", "nota": "Para Lucrecio la razón vence el miedo; para Nietzsche el miedo mueve el deseo de conocer." },
+    { "de": "lucrece", "a": "descartes", "tipo": "complementa", "nota": "Ambos conciben la razón como camino que aleja de la superstición y de las ilusiones." },
+    { "de": "kant", "a": "bachelard", "tipo": "complementa", "nota": "Razón crítica que se juzga a sí misma y rationalisme ouvert van en el mismo sentido." },
+    { "de": "bachelard", "a": "popper", "tipo": "complementa", "nota": "Ambos defienden una racionalidad científica revisable, ajena al dogma." },
+    { "de": "popper", "a": "hegel", "tipo": "se opone", "nota": "La ciencia trata porciones de lo real, no una concepción global como el racionalismo absoluto." },
+    { "de": "bachelard", "a": "scientisme", "tipo": "se opone", "nota": "El rationalisme ouvert se opone a la fe ciega en la ciencia." },
+    { "de": "kant", "a": "rationnel-raisonnable", "tipo": "influye", "nota": "Ser razonable es darse principios universales y actuar de forma desinteresada." },
+    { "de": "descartes", "a": "bon-sens", "tipo": "influye", "nota": "Define la razón como bon sens, bien repartido, que debe guiarse con un método." }
+  ],
+  "quiz": [
+    {
+      "pregunta": "Selon Kant, pour quelles raisons les hommes n’usent pas de manière appropriée de leur raison ?",
+      "opciones": [
+        "Parce qu’ils veulent seulement satisfaire leurs besoins.",
+        "Parce qu’ils vivent dans l’oisiveté.",
+        "Parce qu’ils manquent de courage.",
+        "Parce qu’ils ne possèdent pas la même raison."
+      ],
+      "correcta": 2,
+      "explicacion": "Según el cours, Kant dice que no usamos la razón por pereza o, más profundamente, por cobardía: es más fácil vivir con ilusiones tranquilizadoras (el libro, QCM 1, da como respuesta oficial la falta de coraje).",
+      "filosofo": "kant",
+      "pagina_pdf": 196
+    },
+    {
+      "pregunta": "Quel philosophe a évoqué le concept de « rationalisme ouvert » ?",
+      "opciones": ["Pascal.", "Bachelard.", "Descartes.", "Hegel."],
+      "correcta": 1,
+      "explicacion": "Es Bachelard quien propone un «rationalisme ouvert», no dogmático y capaz de autocrítica.",
+      "filosofo": "bachelard",
+      "pagina_pdf": 200
+    },
+    {
+      "pregunta": "Il ne faut pas confondre exigence ou désir de vérité avec …",
+      "opciones": [
+        "le fait de posséder la vérité.",
+        "la négation de la vérité.",
+        "l’affirmation de la vérité.",
+        "la méthode scientifique."
+      ],
+      "correcta": 0,
+      "explicacion": "El cours distingue el deseo o exigencia de verdad (cualidad subjetiva legítima) de la existencia o posesión de la verdad.",
+      "filosofo": null,
+      "pagina_pdf": 197
+    },
+    {
+      "pregunta": "Quel est le premier précepte de la méthode cartésienne ?",
+      "opciones": [
+        "Le principe de vérité.",
+        "Le principe d’évidence.",
+        "Le principe de raison.",
+        "Le principe d’analyse."
+      ],
+      "correcta": 1,
+      "explicacion": "D'abord, il y a le principe d’évidence: «Ne recevoir aucune chose pour vraie qui ne soit indubitable».",
+      "filosofo": "descartes",
+      "pagina_pdf": 198
+    },
+    {
+      "pregunta": "Quel est le critère déterminant de la rationalité technique ?",
+      "opciones": ["La rentabilité.", "La nécessité.", "L’efficacité.", "L’universalité."],
+      "correcta": 2,
+      "explicacion": "La racionalidad técnica usa medios de forma calculada para un fin; su criterio determinante es la eficacia.",
+      "filosofo": null,
+      "pagina_pdf": 200
+    },
+    {
+      "pregunta": "Selon Spinoza, quelle composante humaine doit être apaisée par la raison ?",
+      "opciones": ["La mélancolie.", "Les affects ou passions.", "L’imagination.", "La mémoire."],
+      "correcta": 1,
+      "explicacion": "Spinoza propone dominar los afectos o pasiones con la razón, oponiéndoles afectos más potentes, para llegar a la sabiduría.",
+      "filosofo": "spinoza",
+      "pagina_pdf": 202
+    },
+    {
+      "pregunta": "À quoi le scientisme correspond-t-il ?",
+      "opciones": [
+        "Un type particulier de preuve.",
+        "Un désir de vérité.",
+        "Une foi aveugle en la science.",
+        "Une méthode d’autocritique."
+      ],
+      "correcta": 2,
+      "explicacion": "El cientificismo es una fe ciega en la ciencia: ideología peligrosa que rehúsa cuestionarse.",
+      "filosofo": "bachelard",
+      "pagina_pdf": 200
+    },
+    {
+      "pregunta": "La rationalité prétend à l’objectivité et à …",
+      "opciones": ["l’universalité.", "la vérité.", "l’efficacité.", "la subjectivité."],
+      "correcta": 0,
+      "explicacion": "Toda racionalidad pretende objetividad y debe aspirar a la universalidad, apoyándose en métodos reconocidos por todos.",
+      "filosofo": null,
+      "pagina_pdf": 198
+    },
+    {
+      "pregunta": "Pascal préconise à l’homme de tempérer l’orgueil de la raison, en faisant aussi confiance à …",
+      "opciones": ["son amour-propre.", "sa foi.", "son cœur.", "son expérience."],
+      "correcta": 2,
+      "explicacion": "Pascal: «Le cœur a ses raisons que la raison ne connaît pas»; la intuición y el corazón también dan acceso a la verdad.",
+      "filosofo": "pascal",
+      "pagina_pdf": 202
+    },
+    {
+      "pregunta": "Socrate affirme : « je sais que … »",
+      "opciones": [
+        "je peux savoir.",
+        "je saurai tout en cherchant.",
+        "je ne sais rien.",
+        "je sais tout."
+      ],
+      "correcta": 2,
+      "explicacion": "«Je sais que je ne sais rien»: esta confesión de ignorancia tiene valor intelectual y expresa su exigencia de verdad.",
+      "filosofo": null,
+      "pagina_pdf": 198
+    },
+    {
+      "pregunta": "Quel principe cartésien consiste à « diviser les difficultés en autant de parcelles qu’il se pourrait » ?",
+      "opciones": [
+        "Le principe d’évidence.",
+        "Le principe d’ordre.",
+        "Le principe de révision.",
+        "Le principe d’analyse."
+      ],
+      "correcta": 3,
+      "explicacion": "Es el principio de análisis: descomponer el todo en elementos más simples y examinar cómo se combinan.",
+      "filosofo": "descartes",
+      "pagina_pdf": 199
+    },
+    {
+      "pregunta": "Que dit Hegel du réel et du rationnel ?",
+      "opciones": [
+        "Que le réel est toujours irrationnel.",
+        "Que tout ce qui est réel est rationnel et réciproquement.",
+        "Que seule l’intuition atteint le réel.",
+        "Que le rationnel se réduit à l’efficacité."
+      ],
+      "correcta": 1,
+      "explicacion": "Hegel: «tout ce qui est réel est rationnel et tout ce qui est rationnel est réel»; es el racionalismo absoluto, que el cours juzga discutable.",
+      "filosofo": "hegel",
+      "pagina_pdf": 201
+    },
+    {
+      "pregunta": "Selon le cours, quelle différence y a-t-il entre « rationnel » et « raisonnable » ?",
+      "opciones": [
+        "Le rationnel concerne l’action, le raisonnable la connaissance.",
+        "Le rationnel concerne la connaissance, le raisonnable l’action humaine.",
+        "Ils désignent exactement la même chose.",
+        "Le rationnel est technique, le raisonnable est scientifique."
+      ],
+      "correcta": 1,
+      "explicacion": "El vocabulario del cours: lo racional atañe al ámbito del conocimiento y lo razonable a la acción humana; en ambos interviene la razón.",
+      "filosofo": null,
+      "pagina_pdf": 203
+    }
+  ],
+  "preguntas_abiertas": [
+    {
+      "enunciado": "Pour quelles raisons pouvons-nous affirmer que la thèse de Nietzsche est paradoxale ?",
+      "puntos_clave": [
+        "Nietzsche: los hombres, incluidos los filósofos, quieren conocer para tranquilizarse (besoin de familier), guiados por el miedo",
+        "Conocer = reducir lo extraño a lo ya conocido y recuperar la seguridad",
+        "Paradoja frente a los filósofos de la Grecia antigua: la razón nace del rechazo de las certezas frileuses y de las ilusiones tranquilizadoras",
+        "Lucrecio: se quiere saber porque no se acepta no comprender ni la superstición engendrada por la ignorancia",
+        "Para Nietzsche, el saber no es desinteresado sino que responde a un consuelo psicológico y a nuevas certezas"
+      ],
+      "filosofos": ["nietzsche", "lucrece"],
+      "pagina_pdf": 209
+    },
+    {
+      "enunciado": "La raison peut-elle se remettre elle-même en cause ?",
+      "puntos_clave": [
+        "I. La razón produce certezas objetivas gracias a métodos reconocidos, y acepta la confrontación con la realidad y el fracaso de sus hipótesis",
+        "II. Una razón demasiado segura se vuelve dogmática (cientificismo, pseudociencias, violencia de la razón, Éric Weil)",
+        "III. Rationalisme ouvert de Bachelard y razón crítica de Kant que se somete a su propio tribunal",
+        "Distinguir el cómo (ciencia) del porqué (metafísica) para evitar el dogmatismo, sin caer en el irracionalismo",
+        "Conclusión con Pascal: «Deux excès: exclure la raison, n’admettre que la raison»"
+      ],
+      "filosofos": ["bachelard", "kant", "pascal"],
+      "pagina_pdf": 207
+    },
+    {
+      "enunciado": "Quels sont les quatre préceptes de la méthode cartésienne et pourquoi sont-ils nécessaires ?",
+      "puntos_clave": [
+        "Descartes: la razón (bon sens) está en todos pero no todos sabemos usarla; el método evita el error",
+        "Principe d’évidence: no admitir como verdadero lo que no sea indudable, «clair» y «distinct»",
+        "Principe d’analyse: dividir las dificultades en tantas parcelas como sea necesario",
+        "Principe d’ordre: conducir los pensamientos de lo simple a lo complejo",
+        "Principe de révision: hacer revisiones generales para no omitir nada, como una cadena de razonamiento cuyos eslabones se verifican"
+      ],
+      "filosofos": ["descartes"],
+      "pagina_pdf": 199
+    },
+    {
+      "enunciado": "Pascal et Spinoza : quelle place accorder à la raison face aux sentiments ?",
+      "puntos_clave": [
+        "Spinoza: la razón puede dominar los afectos oponiendo afectos positivos más potentes (ejemplo: celos y temor de herir al ser amado)",
+        "Objetivo spinozista: sabiduría, justa medida y felicidad por el control de las pasiones",
+        "Pascal: la razón no es la única fuente de verdad; el corazón conoce los primeros principios",
+        "Pascal rechaza el escepticismo perezoso y el orgullo de la razón «superbe»",
+        "Matiz: el racionalismo absoluto (Hegel) es discutible porque deseo e imaginación no siguen un orden puramente racional"
+      ],
+      "filosofos": ["spinoza", "pascal", "hegel"],
+      "pagina_pdf": 201
+    }
+  ],
+  "disertaciones": [
+    {
+      "sujeto": "La raison peut-elle se remettre elle-même en cause ?",
+      "tipo_plan": "dialectique",
+      "problematica": "Una razón que se apoya en métodos rigurosos parece garantizar certezas, pero ¿no corre el riesgo de encerrarse en su propia coherencia y volverse dogmática? Se trata de ver si puede concebirse una razón abierta a sí misma.",
+      "plan": [
+        {
+          "parte": "I. Grâce à une démarche rationnelle, nous pouvons parvenir à des certitudes objectives",
+          "idea": "La razón se apoya en métodos justificados y compartidos; la ciencia avanza confrontándose con la realidad y aceptando que sus hipótesis sean refutadas. La razón es escuela de sabiduría (contra el hubris).",
+          "autores": ["descartes", "popper"],
+          "ejemplo": "La ciencia como punto culminante de la razón; el principio de realidad (Freud) y el fracaso de hipótesis contrariadas por experimentos."
+        },
+        {
+          "parte": "II. Lorsque la raison devient trop sûre d’elle-même, elle se transforme en une tyrannie dogmatique",
+          "idea": "La razón tiende a legitimarse a sí misma: el cientificismo y el racionalismo dogmático justifican su deseo de dominación y pueden cautionar la violencia.",
+          "autores": ["bachelard", "hegel"],
+          "ejemplo": "La frenología y los métodos de medida de la inteligencia en el siglo XIX; el colonialismo; «il y a une violence dans la raison, au nom de la raison, par la raison» (Éric Weil)."
+        },
+        {
+          "parte": "III. Préférer un « rationalisme ouvert », dans lequel la raison ne cesse de se remettre en cause",
+          "idea": "Una razón crítica, que se somete a su tribunal y acepta sus límites, evita el dogma sin caer en el irracionalismo. Se distingue el cómo (ciencia) del porqué (metafísica).",
+          "autores": ["kant", "bachelard", "pascal"],
+          "ejemplo": "Bachelard y su «rationalisme ouvert»; Hubert Reeves sobre cómo y por qué; Pascal: «Deux excès : exclure la raison, n’admettre que la raison»."
+        }
+      ],
+      "pagina_pdf": 207
+    },
+    {
+      "sujeto": "Faut-il se fier uniquement à la raison pour atteindre la vérité ?",
+      "tipo_plan": "dialectique",
+      "problematica": "La razón parece la vía más fiable hacia la verdad, pero el corazón y la intuición pueden dar acceso a verdades que el razonamiento no explica. ¿Hasta dónde puede llegar una razón que se cree omnipotente?",
+      "plan": [
+        {
+          "parte": "I. La raison, guidée par une méthode, conduit au vrai",
+          "idea": "La razón, bien juzgada con un método (evidencia, análisis, orden, revisión), permite distinguir lo verdadero de lo falso y liberarse de la superstición.",
+          "autores": ["descartes", "lucrece"],
+          "ejemplo": "Los cuatro preceptos del Discours de la Méthode; la razón que aleja de la superstición engendrada por la ignorancia."
+        },
+        {
+          "parte": "II. Mais le rationalisme absolu est réducteur",
+          "idea": "Afirmar que todo lo real es racional ignora el deseo, la imaginación y los límites de la medida; la razón no agota la verdad.",
+          "autores": ["hegel", "pascal"],
+          "ejemplo": "Hegel: «tout ce qui est réel est rationnel…»; límite de precisión de Heisenberg; Pascal: el corazón conoce los primeros principios."
+        },
+        {
+          "parte": "III. Une raison ouverte et lucide, attentive à ses limites",
+          "idea": "Hay que evitar los dos excesos, mantener la distancia crítica y el rationalisme ouvert, sin rechazar la razón.",
+          "autores": ["pascal", "bachelard"],
+          "ejemplo": "«Deux excès : exclure la raison, n’admettre que la raison»; la ciencia que progresa cuestionándose."
+        }
+      ],
+      "pagina_pdf": 202
+    },
+    {
+      "sujeto": "Peut-on maîtriser ses passions par la raison ?",
+      "tipo_plan": "progressif",
+      "problematica": "Las pasiones parecen opuestas a la razón y limitar nuestra libertad. Se trata de ver si la razón puede dominarlas, en qué condiciones, y si no corre el riesgo de menospreciar la parte del corazón.",
+      "plan": [
+        {
+          "parte": "I. Les affects limitent notre liberté",
+          "idea": "Los afectos sufridos de forma pasiva y contrarios a la razón restringen nuestra libertad; la razón es ante todo capacidad de juzgar y ordenar.",
+          "autores": ["spinoza", "kant"],
+          "ejemplo": "Los celos enfermizos descritos por Spinoza en la Éthique (livre IV)."
+        },
+        {
+          "parte": "II. La raison peut rationaliser les affects",
+          "idea": "Oponer afectos más potentes y tomar conciencia de la irracionalidad de un sentimiento permite encontrar la justa medida y acceder a la felicidad.",
+          "autores": ["spinoza", "kant"],
+          "ejemplo": "El temor de herir al ser amado que libera de los celos."
+        },
+        {
+          "parte": "III. Sans oublier les limites de la raison",
+          "idea": "La razón no basta para todo: el desear y la intuición tienen su parte, y una razón orgullosa o puramente calculadora empobrece la existencia.",
+          "autores": ["pascal", "hegel"],
+          "ejemplo": "Pascal: «nous connaissons la vérité non seulement par la raison, mais encore par le cœur»."
+        }
+      ],
+      "pagina_pdf": 202
+    }
+  ]
+}

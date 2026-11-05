@@ -1,0 +1,611 @@
+{
+  "id": "langage",
+  "numero": 4,
+  "titulo": "Le langage",
+  "titulo_es": "El lenguaje",
+  "resumen": "El lenguaje no es un simple instrumento de comunicación: es un hecho social estructurado en doble articulación (Saussure), propio del hombre frente a la mera comunicación animal (Benveniste) y fruto de una convención. Se discute si traduce bien nuestro pensamiento (Bergson, Leibniz) o si, al contrario, no hay pensamiento sin lenguaje (Hegel). Finalmente, el lenguaje es poder: la retórica de los sofistas puede dominar, mientras que el diálogo socrático lo pone al servicio de la verdad.",
+  "paginas": { "inicio": 84, "fin": 97 },
+  "puntos_incontournables": [
+    "El lenguaje como medio de pensar el mundo: no es un simple instrumento de comunicación, da sentido al mundo y a la humanidad; la pobreza del lenguaje es testigo de la pobreza del pensamiento (Cours, 2. a.)",
+    "El nacimiento de la lingüística: Saussure muestra que el lenguaje se estructura en doble articulación (monèmes y phonèmes), válida para todas las lenguas (Cours, 1. b.)",
+    "El lenguaje es un hecho social: enfoque sincrónico y no diacrónico; la lengua es un código social y la palabra (parole) depende de la psicología individual (Cours, 1. a.)",
+    "La retórica: puede ser medio de dominación y mentira, pero es impotente ante un interlocutor lúcido y puede incluso servir a la verdad (Cours, 3. a.)",
+    "El lenguaje y la verdad: el diálogo socrático (maïeutique) busca la verdad, no persuadir ni dominar (Cours, 4.)"
+  ],
+  "nociones_clave": ["langage", "langue", "parole", "fait social", "double articulation", "monème", "phonème", "signe", "signal", "métalangage", "ineffable", "psittacisme", "caractéristique universelle", "rhétorique", "maïeutique", "aporie", "jeu de langage", "signifié", "signifiant"],
+  "problematicas_bac": [
+    "Le langage peut-il servir à masquer sa pensée ?",
+    "Le langage traduit-il parfaitement notre pensée ?",
+    "Le langage humain provient-il d'une convention ?",
+    "Le langage est-il nécessaire à la recherche de la vérité et du pouvoir ?",
+    "Un langage privé est-il possible ?"
+  ],
+  "conceptos": [
+    { "id": "fait-social", "nombre": "Le langage comme fait social", "definicion": "Con Saussure la lengua deja de ser un organismo vivo y pasa a estudiarse como un sistema de relaciones en un momento dado; la lengua (código) es un producto social y la parole depende de la psicología individual.", "pagina_pdf": 85, "autores": ["saussure"] },
+    { "id": "double-articulation", "nombre": "Double articulation", "definicion": "Rasgo del lenguaje humano: primera articulación en monèmes (unidades con forma vocal y sentido) y segunda en phonèmes (unos pocos sonidos básicos). Es común a todas las lenguas.", "pagina_pdf": 85, "autores": ["saussure"] },
+    { "id": "signal-signe", "nombre": "Signal et signe", "definicion": "El signo lingüístico es arbitrario y convencional; el señal de las abejas es indescomponible, no vale por otra cosa y provoca una conducta determinada. Los animales comunican, pero no poseen lenguaje.", "pagina_pdf": 86, "autores": ["benveniste"] },
+    { "id": "ineffable", "nombre": "L'ineffable", "definicion": "Lo que el lenguaje no puede expresar porque es siempre demasiado general: nuestra vida interior y nuestras emociones (Bergson).", "pagina_pdf": 87, "autores": ["bergson"] },
+    { "id": "psittacisme", "nombre": "Psittacisme", "definicion": "Mal uso del lenguaje que consiste en emplear palabras sin vincularlas a ideas claras, como un loro (del griego psittakos).", "pagina_pdf": 87, "autores": ["leibniz"] },
+    { "id": "rhetorique", "nombre": "La rhétorique", "definicion": "Arte de bien hablar y de persuadir con sutileza. Técnica neutra: puede servir al engaño y la demagogia o ser aliada de la verdad según las intenciones del locutor y la lucidez del interlocutor.", "pagina_pdf": 89, "autores": ["platon", "montaigne"] },
+    { "id": "maieutique", "nombre": "La maïeutique socratique", "definicion": "Arte de hacer 'dar a luz' las verdades que el interlocutor lleva dentro, mediante preguntas que muestran la incoherencia de sus tesis hasta llegar, a veces, a la aporía.", "pagina_pdf": 90, "autores": ["socrate"] },
+    { "id": "jeu-de-langage", "nombre": "Jeu de langage", "definicion": "Para Wittgenstein, el lenguaje es una actividad social con usos innumerables; las palabras solo tienen sentido dentro de reglas y de un contexto, por lo que un lenguaje privado es imposible.", "pagina_pdf": 94, "autores": ["wittgenstein"] }
+  ],
+  "filosofos": [
+    {
+      "id": "saussure",
+      "nombre": "Ferdinand de Saussure",
+      "epoca": "siglos XIX-XX",
+      "tesis_principal": "La lingüística es una ciencia que estudia la lengua como un sistema social de relaciones en un momento dado (enfoque sincrónico), estructurado en doble articulación de monèmes y phonèmes.",
+      "ideas_clave": [
+        "La lengua ya no es un organismo vivo (siglo XIX) sino un sistema de relaciones (modelo sociológico en lugar de biológico)",
+        "El lenguaje es un hecho social (fait social): la lengua es un código social, la parole depende de la psicología individual",
+        "Enfoque sincrónico y no diacrónico: se ignora el origen de las lenguas",
+        "Doble articulación: monèmes (unidades con forma vocal y sentido) y phonèmes (el francés contiene 34)",
+        "Signo arbitrario y convencional; signifiant (imagen acústica) y signifié (concepto)"
+      ],
+      "citas": [],
+      "debate_con": ["benveniste", "wittgenstein"],
+      "como_usarlo_en_disertacion": "Útil para sujetos del tipo '¿Es el lenguaje un simple instrumento de comunicación?' o 'El lenguaje es una convención': aporta la idea de la lengua como patrimonio común y social. Sirve en la primera parte para mostrar que el lenguaje es objeto de ciencia y estructura compartida.",
+      "escena_sugerida": "La lengua deja de ser un árbol vivo y pasa a ser un sistema social de engranajes; la palabra individual bebe de ese código común.",
+      "pagina_pdf": 85,
+      "escena": {
+        "titulo": "Saussure : la langue, un fait social",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          { "id": "organismo", "tipo": "arbol", "pos": [0.8, 0.3], "etiqueta": "Organisme vivant (XIXe)", "escala": 1 },
+          { "id": "saussure", "tipo": "monigote", "pos": [0.15, 0.7], "etiqueta": "Saussure", "escala": 1 },
+          { "id": "sistema", "tipo": "engranaje", "pos": [0.5, 0.3], "etiqueta": "Système", "escala": 1 },
+          { "id": "sociedad", "tipo": "silueta_grande", "pos": [0.5, 0.72], "etiqueta": "Société", "escala": 1.3 },
+          { "id": "hablante", "tipo": "monigote", "pos": [0.85, 0.75], "etiqueta": "La parole", "escala": 1 },
+          { "id": "monemas", "tipo": "caja", "pos": [0.2, 0.3], "etiqueta": "Monèmes", "escala": 0.8 },
+          { "id": "fonemas", "tipo": "caja", "pos": [0.35, 0.3], "etiqueta": "Phonèmes", "escala": 0.8 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "organismo" },
+          { "t": 1, "accion": "subtitulo", "texto": "En el siglo XIX la lengua se veía como un organismo vivo que evoluciona." },
+          { "t": 4, "accion": "aparece", "actor": "saussure" },
+          { "t": 5, "accion": "dice", "actor": "saussure", "texto": "Estudiemos el estado del sistema, no su origen." },
+          { "t": 7, "accion": "desaparece", "actor": "organismo" },
+          { "t": 7.5, "accion": "aparece", "actor": "sistema" },
+          { "t": 9, "accion": "subtitulo", "texto": "Saussure cambia el modelo biológico por uno sociológico: la lengua es un sistema de relaciones." },
+          { "t": 12, "accion": "aparece", "actor": "sociedad" },
+          { "t": 12.5, "accion": "etiqueta", "actor": "sociedad", "texto": "La langue : code social" },
+          { "t": 13, "accion": "aparece", "actor": "hablante" },
+          { "t": 14, "accion": "proyecta", "de": "sociedad", "a": "hablante", "nota": "répertoire" },
+          { "t": 16, "accion": "piensa", "actor": "hablante", "texto": "Hasta mi frase más íntima ya es social." },
+          { "t": 18, "accion": "subtitulo", "texto": "La parole es individual; la lengua es el patrimonio común que la hace comprensible." },
+          { "t": 20, "accion": "aparece", "actor": "monemas" },
+          { "t": 21, "accion": "aparece", "actor": "fonemas" },
+          { "t": 22, "accion": "une", "de": "monemas", "a": "fonemas", "nota": "double articulation" },
+          { "t": 24, "accion": "subtitulo", "texto": "Todas las lenguas comparten la doble articulación: monèmes y phonèmes." }
+        ]
+      }
+    },
+    {
+      "id": "benveniste",
+      "nombre": "Émile Benveniste",
+      "epoca": "siglo XX",
+      "tesis_principal": "El lenguaje no es natural y por eso los animales carecen de él: las abejas emiten señales que provocan una conducta, pero solo el hombre posee un lenguaje que puede decomponerse y hacerse metalenguaje.",
+      "ideas_clave": [
+        "Apoyándose en Karl von Frisch, muestra que las abejas no dialogan: emiten señales (danzas que indican dirección y distancia del polen)",
+        "El señal (signal) provoca una conducta determinada; no es un signo lingüístico que valga por otra cosa",
+        "El mensaje de las abejas es indescomponible y sin ambigüedad (como un semáforo en rojo); una palabra puede ser ambigua",
+        "El lenguaje humano puede hacerse métalangage y analizarse gracias a la doble articulación",
+        "Los animales comunican, pero nada permite afirmar que posean un lenguaje que exprese un pensamiento"
+      ],
+      "citas": [
+        { "texto": "Appliquée au monde […] animal, la notion de langage […] n’a cours que par un abus […] de termes.", "idioma": "fr", "obra": "Problèmes de linguistique générale", "pagina_pdf": 86 }
+      ],
+      "debate_con": ["saussure"],
+      "como_usarlo_en_disertacion": "Imprescindible en sujetos sobre la diferencia entre el hombre y el animal o sobre si el lenguaje es un simple medio de comunicación. Se usa en una primera parte para mostrar que comunicar no es hablar.",
+      "escena_sugerida": "Una abeja baila y otra vuela al polen (señal sin ambigüedad); el hombre, en cambio, juega con sentidos múltiples y metalenguaje.",
+      "pagina_pdf": 86,
+      "escena": {
+        "titulo": "Benveniste : les abeilles communiquent, elles ne parlent pas",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "abeja1", "tipo": "estrella", "pos": [0.15, 0.6], "etiqueta": "Abeille", "escala": 0.8 },
+          { "id": "abeja2", "tipo": "estrella", "pos": [0.4, 0.6], "etiqueta": "Abeille", "escala": 0.8 },
+          { "id": "polen", "tipo": "flor", "pos": [0.85, 0.7], "etiqueta": "Pollen", "escala": 1 },
+          { "id": "humano", "tipo": "monigote", "pos": [0.6, 0.3], "etiqueta": "L'homme", "escala": 1 },
+          { "id": "ambiguo", "tipo": "interrogacion", "pos": [0.8, 0.2], "etiqueta": "Plusieurs sens", "escala": 1 },
+          { "id": "curso", "tipo": "libro", "pos": [0.35, 0.25], "etiqueta": "Métalangage", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "polen" },
+          { "t": 1, "accion": "aparece", "actor": "abeja1" },
+          { "t": 2, "accion": "aparece", "actor": "abeja2" },
+          { "t": 3, "accion": "subtitulo", "texto": "Una abeja descubre polen y baila para indicar su dirección y su distancia." },
+          { "t": 4, "accion": "salta", "actor": "abeja1" },
+          { "t": 5, "accion": "proyecta", "de": "abeja1", "a": "abeja2", "nota": "signal" },
+          { "t": 7, "accion": "mueve", "actor": "abeja2", "a": [0.75, 0.6], "dur": 3 },
+          { "t": 10, "accion": "une", "de": "abeja2", "a": "polen", "nota": "conduite déterminée" },
+          { "t": 11, "accion": "subtitulo", "texto": "El señal es indescomponible, no tiene ambigüedad y provoca una conducta, como un semáforo." },
+          { "t": 14, "accion": "aparece", "actor": "humano" },
+          { "t": 15, "accion": "aparece", "actor": "ambiguo" },
+          { "t": 16, "accion": "dice", "actor": "humano", "texto": "Una palabra puede tener varios sentidos." },
+          { "t": 18, "accion": "aparece", "actor": "curso" },
+          { "t": 19, "accion": "proyecta", "de": "humano", "a": "curso", "nota": "le langage parle du langage" },
+          { "t": 21, "accion": "cita", "texto": "Appliquée au monde animal, la notion de langage n’a cours que par un abus de termes." },
+          { "t": 24, "accion": "subtitulo", "texto": "Los animales comunican; solo el hombre tiene un lenguaje capaz de metalenguaje." }
+        ]
+      }
+    },
+    {
+      "id": "platon",
+      "nombre": "Platon",
+      "epoca": "siglos V-IV a. C.",
+      "tesis_principal": "La retórica de los sofistas persuade sin apelar a la razón y debe excluirse de la vida moral y política: solo la verdad basta para convencer. Además, en el Cratyle se interroga si las palabras tienen una relación natural con las cosas o proceden de una convención.",
+      "ideas_clave": [
+        "Cratyle: ¿los nombres expresan la naturaleza de las cosas (las Idées) o son una convención humana de significación?",
+        "La pensée es un diálogo interior y silencioso del alma consigo misma (Sophiste)",
+        "La retórica es 'ouvrière de persuasion': confunde lo verosímil con la verdad",
+        "Persuader: traversar de parte a parte al interlocutor sin apelar a su razón, tratándolo como un receptáculo pasivo",
+        "En política, el rhéteur se hace démagogue: abusa del pueblo atizando sus malas inclinaciones"
+      ],
+      "citas": [
+        { "texto": "La pensée est un […] dialogue intérieur et […] silencieux de l’âme avec […] elle-même.", "idioma": "fr", "obra": "Sophiste", "pagina_pdf": 89 },
+        { "texto": "ouvrière de persuasion", "idioma": "fr", "pagina_pdf": 89 }
+      ],
+      "debate_con": ["montaigne", "socrate"],
+      "como_usarlo_en_disertacion": "Para sujetos sobre el poder del lenguaje, la manipulación o la política: opone la retórica sofista (persuadir) a la búsqueda de la verdad. También sirve en 'el lenguaje es una convención' con el Cratyle.",
+      "escena_sugerida": "El sofista lanza palabras al pueblo esquivando la razón; Platón opone la verdad que sí se dirige a la razón.",
+      "pagina_pdf": 89,
+      "escena": {
+        "titulo": "Platon : la rhétorique, ouvrière de persuasion",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          { "id": "sofista", "tipo": "monigote", "pos": [0.15, 0.72], "etiqueta": "Le sophiste", "escala": 1 },
+          { "id": "palabras", "tipo": "nube", "pos": [0.3, 0.38], "etiqueta": "Rhétorique", "escala": 1 },
+          { "id": "pueblo", "tipo": "monigote", "pos": [0.7, 0.72], "etiqueta": "Le peuple", "escala": 1 },
+          { "id": "razon", "tipo": "cerebro", "pos": [0.7, 0.4], "etiqueta": "Raison", "escala": 0.9 },
+          { "id": "platon", "tipo": "monigote", "pos": [0.45, 0.8], "etiqueta": "Platon", "escala": 1 },
+          { "id": "verdad", "tipo": "sol", "pos": [0.5, 0.15], "etiqueta": "Vérité", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "sofista" },
+          { "t": 1, "accion": "aparece", "actor": "pueblo" },
+          { "t": 1.5, "accion": "aparece", "actor": "razon" },
+          { "t": 3, "accion": "subtitulo", "texto": "El sofista domina el arte de hablar bien para convencer al pueblo." },
+          { "t": 4, "accion": "aparece", "actor": "palabras" },
+          { "t": 5, "accion": "dice", "actor": "sofista", "texto": "¡Te daré lo que quieres oír!" },
+          { "t": 7, "accion": "proyecta", "de": "palabras", "a": "pueblo", "nota": "persuader" },
+          { "t": 9, "accion": "tiembla", "actor": "pueblo" },
+          { "t": 10, "accion": "subtitulo", "texto": "Persuadir es atravesar al otro de parte a parte, sin pasar por su razón." },
+          { "t": 13, "accion": "piensa", "actor": "pueblo", "texto": "Suena convincente... aunque no sé por qué." },
+          { "t": 15, "accion": "aparece", "actor": "platon" },
+          { "t": 16, "accion": "dice", "actor": "platon", "texto": "Solo la verdad basta para convencer." },
+          { "t": 18, "accion": "aparece", "actor": "verdad" },
+          { "t": 19, "accion": "proyecta", "de": "verdad", "a": "razon", "nota": "convaincre" },
+          { "t": 21, "accion": "resalta", "actor": "razon" },
+          { "t": 22, "accion": "cita", "texto": "ouvrière de persuasion" },
+          { "t": 24, "accion": "subtitulo", "texto": "Para Platón la retórica confunde lo verosímil con la verdad y debe excluirse de la vida política." }
+        ]
+      }
+    },
+    {
+      "id": "socrate",
+      "nombre": "Socrate",
+      "epoca": "siglo V a. C.",
+      "tesis_principal": "El diálogo socrático no busca poseer sino buscar la verdad: mediante preguntas (qu'est-ce que ?) hace que el interlocutor dé a luz verdades que lleva dentro y descubra su ignorancia, en lugar de usar el lenguaje como poder para engañar.",
+      "ideas_clave": [
+        "Interrogación de esencia: ¿qu'est-ce que... ? Hay que apartar prejuicios y certezas no interrogadas",
+        "Maïeutique: arte de hacer 'dar a luz' los espíritus, como su madre hacía con las mujeres",
+        "Las preguntas siguen la lógica de las respuestas y señalan su incoherencia: la debilidad de la argumentación lleva al interlocutor a contradecirse",
+        "Aporie: el diálogo llega a un callejón sin salida y todos toman conciencia de su ignorancia",
+        "Condición del diálogo: honestidad intelectual y aceptación de reglas"
+      ],
+      "citas": [],
+      "debate_con": ["platon", "montaigne"],
+      "como_usarlo_en_disertacion": "En la parte que muestra el buen uso del lenguaje: contra la rhétorique de los sofistas, el diálogo socrático pone el lenguaje al servicio de la verdad. Útil en sujetos sobre la verdad, el diálogo o la ignorancia.",
+      "escena_sugerida": "Sócrates pregunta, el interlocutor se contradice, llegan a la aporía y descubren su ignorancia; surge la luz de la búsqueda.",
+      "pagina_pdf": 90,
+      "escena": {
+        "titulo": "Socrate : la maïeutique, accoucher les esprits",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          { "id": "socrates", "tipo": "monigote", "pos": [0.2, 0.72], "etiqueta": "Socrate", "escala": 1 },
+          { "id": "interlocutor", "tipo": "monigote", "pos": [0.75, 0.72], "etiqueta": "L'interlocuteur", "escala": 1 },
+          { "id": "pregunta", "tipo": "interrogacion", "pos": [0.2, 0.35], "etiqueta": "Qu'est-ce que... ?", "escala": 1 },
+          { "id": "certeza", "tipo": "caja", "pos": [0.75, 0.4], "etiqueta": "Certitude", "escala": 0.9 },
+          { "id": "aporia", "tipo": "rayo", "pos": [0.5, 0.45], "etiqueta": "Aporie", "escala": 1 },
+          { "id": "verdad", "tipo": "bombilla", "pos": [0.5, 0.15], "etiqueta": "Vérité cherchée", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "socrates" },
+          { "t": 1, "accion": "aparece", "actor": "interlocutor" },
+          { "t": 2, "accion": "aparece", "actor": "certeza" },
+          { "t": 3, "accion": "dice", "actor": "interlocutor", "texto": "Yo sé perfectamente lo que es la justicia." },
+          { "t": 5, "accion": "subtitulo", "texto": "El interlocutor llega con certezas que nunca ha interrogado." },
+          { "t": 7, "accion": "aparece", "actor": "pregunta" },
+          { "t": 8, "accion": "dice", "actor": "socrates", "texto": "Veamos: ¿qué es exactamente eso?" },
+          { "t": 10, "accion": "proyecta", "de": "pregunta", "a": "certeza", "nota": "interrogation d'essence" },
+          { "t": 12, "accion": "tiembla", "actor": "certeza" },
+          { "t": 13, "accion": "dice", "actor": "interlocutor", "texto": "Pero entonces... me contradigo." },
+          { "t": 15, "accion": "subtitulo", "texto": "Las preguntas siguen la lógica de sus respuestas y revelan la incoherencia de su tesis." },
+          { "t": 17, "accion": "aparece", "actor": "aporia" },
+          { "t": 18, "accion": "piensa", "actor": "socrates", "texto": "Yo tampoco tengo argumentos suficientes." },
+          { "t": 20, "accion": "desaparece", "actor": "certeza" },
+          { "t": 21, "accion": "aparece", "actor": "verdad" },
+          { "t": 22, "accion": "une", "de": "socrates", "a": "interlocutor", "nota": "recherche commune" },
+          { "t": 24, "accion": "subtitulo", "texto": "Ambos reconocen su ignorancia: mejor que una certeza sin fundamento; el lenguaje busca la verdad." }
+        ]
+      }
+    },
+    {
+      "id": "bergson",
+      "nombre": "Henri Bergson",
+      "epoca": "siglos XIX-XX",
+      "tesis_principal": "El lenguaje, adaptado a la práctica y siempre demasiado general, traduce mal nuestra vida interior: existe un ineffable, objeto de intuición, que las palabras deforman. Sin embargo, el lenguaje es también un instrumento de liberación.",
+      "ideas_clave": [
+        "Hay un más allá del lenguaje, un ineffable: lo que el lenguaje no puede expresar porque es siempre demasiado general",
+        "Las palabras son aún menos fieles a las emociones, sobre todo a los sufrimientos, que no se comparten",
+        "El problema es no cuestionar las ideas hechas que entrega el lenguaje común, reflejo de la sociedad y sus prejuicios",
+        "No se trata de rechazar el lenguaje usual sino de superar su fijeza y su carácter automático",
+        "El lenguaje ha sido el instrumento por excelencia de liberación, pese al automatismo que luego inflige al pensamiento"
+      ],
+      "citas": [
+        { "texto": "Nous échouons à traduire entièrement ce que notre âme ressent.", "idioma": "fr", "obra": "Essai sur les données immédiates de la conscience", "pagina_pdf": 87 },
+        { "texto": "le langage a été l’instrument par excellence de libération, en dépit de l’automatisme qu’il inflige ultérieurement à la pensée", "idioma": "fr", "obra": "Mélanges", "pagina_pdf": 97 }
+      ],
+      "debate_con": ["hegel", "wittgenstein"],
+      "como_usarlo_en_disertacion": "Pilar de la tesis 'el lenguaje traduce mal el pensamiento': útil en la primera parte de '¿Traduce el lenguaje perfectamente nuestro pensamiento?'. Contrastar luego con Hegel (no hay pensamiento sin lenguaje) o con Wittgenstein.",
+      "escena_sugerida": "Una persona intenta traducir una emoción en palabras genéricas; lo que llega al otro es una idea hecha y lo ineffable queda intacto.",
+      "pagina_pdf": 87,
+      "escena": {
+        "titulo": "Bergson : l'ineffable que les mots déforment",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "persona", "tipo": "monigote", "pos": [0.15, 0.72], "etiqueta": "Moi", "escala": 1 },
+          { "id": "emocion", "tipo": "corazon", "pos": [0.15, 0.35], "etiqueta": "Ce que je ressens", "escala": 1 },
+          { "id": "palabras", "tipo": "libro", "pos": [0.5, 0.65], "etiqueta": "Les mots", "escala": 1 },
+          { "id": "otro", "tipo": "monigote", "pos": [0.85, 0.72], "etiqueta": "Autrui", "escala": 1 },
+          { "id": "ineffable", "tipo": "estrella", "pos": [0.5, 0.2], "etiqueta": "L'ineffable", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "persona" },
+          { "t": 1, "accion": "aparece", "actor": "emocion" },
+          { "t": 2, "accion": "subtitulo", "texto": "Sentimos algo intenso y singular en nuestro interior." },
+          { "t": 4, "accion": "aparece", "actor": "palabras" },
+          { "t": 5, "accion": "aparece", "actor": "otro" },
+          { "t": 6, "accion": "proyecta", "de": "emocion", "a": "palabras", "nota": "traduire" },
+          { "t": 8, "accion": "etiqueta", "actor": "palabras", "texto": "Mots trop généraux" },
+          { "t": 9, "accion": "proyecta", "de": "palabras", "a": "otro", "nota": "idée toute faite" },
+          { "t": 11, "accion": "piensa", "actor": "otro", "texto": "Entiendo más o menos lo que dices." },
+          { "t": 13, "accion": "dice", "actor": "persona", "texto": "No es eso... no logro decirlo." },
+          { "t": 15, "accion": "subtitulo", "texto": "Las palabras son útiles para la práctica, pero siempre demasiado generales para lo íntimo." },
+          { "t": 18, "accion": "aparece", "actor": "ineffable" },
+          { "t": 19, "accion": "resalta", "actor": "ineffable" },
+          { "t": 20, "accion": "une", "de": "emocion", "a": "ineffable", "nota": "intuition" },
+          { "t": 21, "accion": "cita", "texto": "Nous échouons à traduire entièrement ce que notre âme ressent." },
+          { "t": 24, "accion": "subtitulo", "texto": "Más allá de las palabras hay algo que el lenguaje no puede expresar: lo ineffable." }
+        ]
+      }
+    },
+    {
+      "id": "leibniz",
+      "nombre": "Gottfried Wilhelm Leibniz",
+      "epoca": "siglos XVII-XVIII",
+      "tesis_principal": "El lenguaje ordinario es un obstáculo mayor para la verdad por sus palabras ambiguas e inadecuadas; propone sustituirlo por una 'caractéristique universelle', un lenguaje logico-matemático de signos, aunque este no puede reemplazar al lenguaje ordinario.",
+      "ideas_clave": [
+        "Palabras ambiguas, rara vez apropiadas y poco conformes a la gramática inducen errores frecuentes",
+        "Psittacisme: emplear una palabra sin vincularla a ideas claras, como un loro (psittakos)",
+        "Uso de palabras imprecisas o inadecuadas y de neologismos sin saber qué significan",
+        "Caractéristique universelle: lenguaje logico-matemático que sustituye a las lenguas naturales",
+        "Límite: sin contexto ni referencia individual, si sustituyo 'chat' por una letra no sé de qué gato se trata"
+      ],
+      "citas": [
+        { "texto": "il faut ramener le désordre rhétorique de la parole usuelle aux signes communs de la rigueur logique", "idioma": "fr", "obra": "Nouveaux essais sur l’entendement humain", "pagina_pdf": 88 }
+      ],
+      "debate_con": ["bergson", "hegel"],
+      "como_usarlo_en_disertacion": "Apoya la tesis de que el lenguaje ordinario traduce mal el pensamiento y oscurece la verdad. Sirve en la primera parte, y su límite (el lenguaje informático carece de contexto) permite abrir la segunda parte.",
+      "escena_sugerida": "Un malentendido por una palabra ambigua; Leibniz propone signos lógicos, pero al sustituir 'gato' por una letra se pierde el gato concreto.",
+      "pagina_pdf": 87,
+      "escena": {
+        "titulo": "Leibniz : du désordre des mots à la caractéristique universelle",
+        "estilo": "monigotes",
+        "duracion_seg": 27,
+        "actores": [
+          { "id": "hablante", "tipo": "monigote", "pos": [0.12, 0.72], "etiqueta": "Locuteur", "escala": 1 },
+          { "id": "palabra", "tipo": "nube", "pos": [0.3, 0.35], "etiqueta": "Mot ambigu", "escala": 1 },
+          { "id": "oyente", "tipo": "monigote", "pos": [0.5, 0.72], "etiqueta": "Interlocuteur", "escala": 1 },
+          { "id": "error", "tipo": "rayo", "pos": [0.42, 0.45], "etiqueta": "Méprise", "escala": 0.9 },
+          { "id": "leibniz", "tipo": "monigote", "pos": [0.88, 0.72], "etiqueta": "Leibniz", "escala": 1 },
+          { "id": "signos", "tipo": "engranaje", "pos": [0.85, 0.35], "etiqueta": "Caractéristique universelle", "escala": 1 },
+          { "id": "gato", "tipo": "interrogacion", "pos": [0.65, 0.3], "etiqueta": "Quel chat ?", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "hablante" },
+          { "t": 1, "accion": "aparece", "actor": "oyente" },
+          { "t": 2, "accion": "aparece", "actor": "palabra" },
+          { "t": 3, "accion": "proyecta", "de": "hablante", "a": "palabra" },
+          { "t": 4, "accion": "proyecta", "de": "palabra", "a": "oyente", "nota": "sens différent" },
+          { "t": 6, "accion": "aparece", "actor": "error" },
+          { "t": 6.5, "accion": "tiembla", "actor": "oyente" },
+          { "t": 7, "accion": "subtitulo", "texto": "Las palabras ambiguas o mal usadas producen malentendidos y errores frecuentes." },
+          { "t": 10, "accion": "piensa", "actor": "hablante", "texto": "Uso la palabra sin tener una idea clara... como un loro." },
+          { "t": 12, "accion": "aparece", "actor": "leibniz" },
+          { "t": 13, "accion": "dice", "actor": "leibniz", "texto": "Sustituyamos las palabras por signos lógicos." },
+          { "t": 15, "accion": "aparece", "actor": "signos" },
+          { "t": 16, "accion": "cita", "texto": "il faut ramener le désordre rhétorique de la parole usuelle aux signes communs de la rigueur logique" },
+          { "t": 19, "accion": "subtitulo", "texto": "Leibniz sueña una 'caractéristique universelle' logico-matemática que reemplace a las lenguas naturales." },
+          { "t": 22, "accion": "aparece", "actor": "gato" },
+          { "t": 23, "accion": "tiembla", "actor": "signos" },
+          { "t": 24, "accion": "piensa", "actor": "oyente", "texto": "Si 'chat' es una letra, ¿de qué gato hablamos?" },
+          { "t": 26, "accion": "subtitulo", "texto": "Sin contexto ni referencia individual, un lenguaje formal no puede reemplazar al lenguaje ordinario." }
+        ]
+      }
+    },
+    {
+      "id": "hegel",
+      "nombre": "Georg Wilhelm Friedrich Hegel",
+      "epoca": "siglos XVIII-XIX",
+      "tesis_principal": "El lenguaje no se limita a traducir un pensamiento ya constituido: es la condición de posibilidad de su surgimiento. No hay pensamiento sin lenguaje; lo ineffable es solo lo flojo, impreciso o insuficiente.",
+      "ideas_clave": [
+        "El lenguaje hace advenir el pensamiento, no solo lo transmite",
+        "Toda pensée, incluso no expresada, supone un lenguaje para advenir",
+        "Lo ineffable es solo lo vago e insuficiente: cuando no encontramos las palabras, la idea aún está en estado de esbozo",
+        "Solo las palabras determinan, estructuran y forman el pensamiento y lo hacen acceder a la conciencia",
+        "Eco de Boileau: lo que se concibe bien se enuncia claramente"
+      ],
+      "citas": [
+        { "texto": "c’est dans les mots que nous pensons", "idioma": "fr", "pagina_pdf": 89 }
+      ],
+      "debate_con": ["bergson", "leibniz"],
+      "como_usarlo_en_disertacion": "Para la tesis 'no hay pensamiento sin lenguaje', opuesta a Bergson. Úsalo en la segunda o tercera parte de '¿Traduce el lenguaje nuestro pensamiento?' para superar la idea de un pensamiento previo a las palabras.",
+      "escena_sugerida": "Una idea flotante y borrosa toma forma al encontrar las palabras y se convierte en pensamiento claro, consciente.",
+      "pagina_pdf": 89,
+      "escena": {
+        "titulo": "Hegel : c'est dans les mots que nous pensons",
+        "estilo": "monigotes",
+        "duracion_seg": 24,
+        "actores": [
+          { "id": "persona", "tipo": "monigote", "pos": [0.15, 0.72], "etiqueta": "Moi", "escala": 1 },
+          { "id": "esbozo", "tipo": "nube", "pos": [0.15, 0.35], "etiqueta": "Ébauche floue", "escala": 1 },
+          { "id": "palabras", "tipo": "libro", "pos": [0.5, 0.65], "etiqueta": "Les mots", "escala": 1 },
+          { "id": "idea", "tipo": "bombilla", "pos": [0.85, 0.35], "etiqueta": "Pensée claire", "escala": 1 },
+          { "id": "conciencia", "tipo": "ojo", "pos": [0.85, 0.72], "etiqueta": "Conscience", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "persona" },
+          { "t": 1, "accion": "aparece", "actor": "esbozo" },
+          { "t": 2, "accion": "piensa", "actor": "persona", "texto": "Tengo una idea pero no encuentro las palabras." },
+          { "t": 4, "accion": "subtitulo", "texto": "Creemos que el pensamiento existe completo antes de las palabras y solo falta expresarlo." },
+          { "t": 8, "accion": "aparece", "actor": "palabras" },
+          { "t": 9, "accion": "proyecta", "de": "palabras", "a": "esbozo", "nota": "déterminer, structurer" },
+          { "t": 11, "accion": "resalta", "actor": "esbozo" },
+          { "t": 12, "accion": "desaparece", "actor": "esbozo" },
+          { "t": 13, "accion": "aparece", "actor": "idea" },
+          { "t": 14, "accion": "proyecta", "de": "palabras", "a": "idea" },
+          { "t": 16, "accion": "aparece", "actor": "conciencia" },
+          { "t": 17, "accion": "une", "de": "idea", "a": "conciencia", "nota": "objet de réflexion" },
+          { "t": 19, "accion": "cita", "texto": "c’est dans les mots que nous pensons" },
+          { "t": 22, "accion": "subtitulo", "texto": "Sin palabras el pensamiento es solo un esbozo: el lenguaje lo forma y lo hace consciente." }
+        ]
+      }
+    },
+    {
+      "id": "wittgenstein",
+      "nombre": "Ludwig Wittgenstein",
+      "epoca": "siglo XX",
+      "tesis_principal": "El lenguaje es una actividad esencialmente social con una multiplicidad de usos (jeux de langage): las palabras solo tienen sentido dentro de reglas y de un contexto, por lo que un lenguaje privado y una intimidad incomunicable son ilusorios.",
+      "ideas_clave": [
+        "Hay innumerables tipos de frases y usos de los signos; esa diversidad cambia: nacen nuevos jeux de langage y otros caen en el olvido",
+        "El hablar el lenguaje forma parte de una actividad o de una forma de vida (jeu de langage)",
+        "Ejemplos: mandar, describir, hacer hipótesis, contar un chiste, traducir, saludar, rezar",
+        "Un lenguaje privado sería incomprensible para todos y sin criterio objetivo no se podría corregir ningún error",
+        "Fuera de los jeux de langage no hay significaciones posibles: se cuestiona la idea de una intimidad subjetiva fuera de toda relación"
+      ],
+      "citas": [
+        { "texto": "de nouveaux jeux de langage naissent, pourrions-nous dire", "idioma": "fr", "obra": "Investigations philosophiques, § 23", "pagina_pdf": 94 }
+      ],
+      "debate_con": ["bergson", "saussure"],
+      "como_usarlo_en_disertacion": "Para sujetos sobre el lenguaje y lo social, la intimidad o la posibilidad de un lenguaje privado. Permite criticar la idea de Bergson de un ineffable interior fuera del lenguaje.",
+      "escena_sugerida": "Varios jugadores usan el lenguaje con reglas (mandar, saludar); un hablante aislado inventa su propio lenguaje y nadie puede corregirlo ni entenderlo.",
+      "pagina_pdf": 94,
+      "escena": {
+        "titulo": "Wittgenstein : les jeux de langage et l'impossible langage privé",
+        "estilo": "monigotes",
+        "duracion_seg": 27,
+        "actores": [
+          { "id": "a", "tipo": "monigote", "pos": [0.12, 0.72], "etiqueta": "Joueur A", "escala": 1 },
+          { "id": "b", "tipo": "monigote", "pos": [0.42, 0.72], "etiqueta": "Joueur B", "escala": 1 },
+          { "id": "reglas", "tipo": "libro", "pos": [0.27, 0.3], "etiqueta": "Règles du jeu", "escala": 1 },
+          { "id": "privado", "tipo": "monigote", "pos": [0.85, 0.72], "etiqueta": "Langage privé ?", "escala": 1 },
+          { "id": "muro", "tipo": "puerta", "pos": [0.7, 0.4], "etiqueta": "Monde clos", "escala": 1 },
+          { "id": "duda", "tipo": "interrogacion", "pos": [0.88, 0.3], "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "a" },
+          { "t": 1, "accion": "aparece", "actor": "b" },
+          { "t": 2, "accion": "dice", "actor": "a", "texto": "¡Tráeme eso!" },
+          { "t": 3.5, "accion": "dice", "actor": "b", "texto": "Aquí tienes. ¡Gracias a ti!" },
+          { "t": 5, "accion": "dice", "actor": "a", "texto": "Cuéntame lo que pasó." },
+          { "t": 7, "accion": "subtitulo", "texto": "Mandar, describir, contar, saludar, rezar: innumerables usos, cada uno un 'jeu de langage'." },
+          { "t": 10, "accion": "aparece", "actor": "reglas" },
+          { "t": 11, "accion": "une", "de": "a", "a": "reglas", "nota": "règles et contexte" },
+          { "t": 12, "accion": "une", "de": "b", "a": "reglas" },
+          { "t": 13, "accion": "cita", "texto": "de nouveaux jeux de langage naissent, pourrions-nous dire" },
+          { "t": 16, "accion": "aparece", "actor": "privado" },
+          { "t": 17, "accion": "aparece", "actor": "muro" },
+          { "t": 18, "accion": "dice", "actor": "privado", "texto": "Llamo S a esta sensación mía." },
+          { "t": 20, "accion": "aparece", "actor": "duda" },
+          { "t": 21, "accion": "piensa", "actor": "privado", "texto": "¿Uso bien mi regla? Nadie puede corregirme." },
+          { "t": 23, "accion": "tiembla", "actor": "muro" },
+          { "t": 25, "accion": "subtitulo", "texto": "Sin reglas compartidas no hay significado: un lenguaje puramente privado es imposible." }
+        ]
+      }
+    },
+    {
+      "id": "montaigne",
+      "nombre": "Michel de Montaigne",
+      "epoca": "siglo XVI",
+      "tesis_principal": "La retórica es una técnica neutra que puede ser buena o mala según las intenciones del locutor y la lucidez del interlocutor: es a la vez el más viejo enemigo y el más viejo aliado de la filosofía.",
+      "ideas_clave": [
+        "La retórica puede apuntar al engaño y al mentira, pero entonces hay una derrota del espíritu crítico del interlocutor",
+        "Puede usarse con prudencia, guiada por la verdad",
+        "Es aliada de la filosofía si hablar con elocuencia permite decir la verdad",
+        "No hay democracia sin retórica y sin buen uso de la palabra",
+        "El poder del lenguaje procede también del poder que se reconoce a quien habla"
+      ],
+      "citas": [
+        { "texto": "la […] rhétorique est le plus vieil ennemi et le plus vieil allié […] de la philosophie", "idioma": "fr", "obra": "Essais", "pagina_pdf": 90 }
+      ],
+      "debate_con": ["platon", "socrate"],
+      "como_usarlo_en_disertacion": "Para matizar a Platón en sujetos sobre el poder del lenguaje o la manipulación: la retórica no es mala en sí misma. Ideal para la tercera parte de un plan dialéctico.",
+      "escena_sugerida": "Un martillo neutro (la retórica) en manos del demagogo engaña al pueblo, pero ante un ojo lúcido es impotente; en manos del filósofo hace accesible la verdad.",
+      "pagina_pdf": 90,
+      "escena": {
+        "titulo": "Montaigne : la rhétorique, ennemi et allié de la philosophie",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "retorica", "tipo": "martillo", "pos": [0.5, 0.45], "etiqueta": "Rhétorique", "escala": 1.2 },
+          { "id": "demagogo", "tipo": "monigote", "pos": [0.15, 0.72], "etiqueta": "Le démagogue", "escala": 1 },
+          { "id": "lucido", "tipo": "ojo", "pos": [0.3, 0.3], "etiqueta": "Lucidité", "escala": 1 },
+          { "id": "filosofo", "tipo": "monigote", "pos": [0.85, 0.72], "etiqueta": "Le philosophe", "escala": 1 },
+          { "id": "verdad", "tipo": "libro", "pos": [0.85, 0.3], "etiqueta": "Vérité", "escala": 1 },
+          { "id": "montaigne", "tipo": "monigote", "pos": [0.5, 0.82], "etiqueta": "Montaigne", "escala": 0.9 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "retorica" },
+          { "t": 1, "accion": "subtitulo", "texto": "La retórica es una técnica neutra: todo depende de quién la maneja." },
+          { "t": 4, "accion": "aparece", "actor": "demagogo" },
+          { "t": 5, "accion": "mueve", "actor": "demagogo", "a": [0.35, 0.72], "dur": 2 },
+          { "t": 7, "accion": "une", "de": "demagogo", "a": "retorica", "nota": "tromperie" },
+          { "t": 8, "accion": "dice", "actor": "demagogo", "texto": "Engañaré al pueblo con bellas palabras." },
+          { "t": 10, "accion": "aparece", "actor": "lucido" },
+          { "t": 11, "accion": "proyecta", "de": "lucido", "a": "demagogo", "nota": "esprit critique" },
+          { "t": 13, "accion": "tiembla", "actor": "demagogo" },
+          { "t": 14, "accion": "subtitulo", "texto": "Ante un interlocutor lúcido y avisado, la retórica del engaño resulta impotente." },
+          { "t": 17, "accion": "aparece", "actor": "filosofo" },
+          { "t": 18, "accion": "aparece", "actor": "verdad" },
+          { "t": 19, "accion": "proyecta", "de": "retorica", "a": "verdad", "nota": "éloquence" },
+          { "t": 21, "accion": "aparece", "actor": "montaigne" },
+          { "t": 22, "accion": "cita", "texto": "la rhétorique est le plus vieil ennemi et le plus vieil allié de la philosophie" },
+          { "t": 24, "accion": "subtitulo", "texto": "Mal usada engaña; guiada por la verdad, la retórica se vuelve aliada de la filosofía." }
+        ]
+      }
+    }
+  ],
+  "relaciones": [
+    { "de": "saussure", "a": "benveniste", "tipo": "complementa", "nota": "Ambos son lingüistas: Saussure estructura el lenguaje humano y Benveniste lo distingue de la comunicación animal." },
+    { "de": "benveniste", "a": "signal-signe", "tipo": "influye", "nota": "Benveniste construye la distinción entre señal animal y signo lingüístico." },
+    { "de": "saussure", "a": "fait-social", "tipo": "influye", "nota": "Saussure convierte el lenguaje en un hecho social." },
+    { "de": "saussure", "a": "double-articulation", "tipo": "influye", "nota": "Saussure muestra la estructura en monèmes y phonèmes." },
+    { "de": "bergson", "a": "hegel", "tipo": "se opone", "nota": "Bergson defiende un ineffable más allá de las palabras; Hegel sostiene que se piensa en las palabras." },
+    { "de": "leibniz", "a": "bergson", "tipo": "se opone", "nota": "Leibniz quiere sustituir la lengua usual por signos lógicos; Bergson reprocha al lenguaje su generalidad y su fijeza." },
+    { "de": "platon", "a": "montaigne", "tipo": "se opone", "nota": "Platón excluye la retórica; Montaigne la ve como enemigo y aliado de la filosofía." },
+    { "de": "socrate", "a": "platon", "tipo": "influye", "nota": "El diálogo socrático encarna la búsqueda de la verdad que Platón opone a la retórica sofista." },
+    { "de": "socrate", "a": "maieutique", "tipo": "complementa", "nota": "La maïeutique es el método del diálogo socrático." },
+    { "de": "wittgenstein", "a": "bergson", "tipo": "se opone", "nota": "Wittgenstein rechaza un ineffable subjetivo fuera de toda relación social; Bergson lo defiende." },
+    { "de": "wittgenstein", "a": "jeu-de-langage", "tipo": "influye", "nota": "Wittgenstein formula la noción de jeu de langage." },
+    { "de": "leibniz", "a": "psittacisme", "tipo": "complementa", "nota": "Leibniz denuncia el psittacisme como mal uso del lenguaje." }
+  ],
+  "quiz": [
+    { "pregunta": "Quel penseur est le précurseur de la linguistique moderne ?", "opciones": ["Benveniste", "Saussure", "Chomsky", "Bergson"], "correcta": 1, "explicacion": "Según el cours (QCM 1, corrigé b), es Saussure quien concibe la lingüística y la doble articulación.", "filosofo": "saussure", "pagina_pdf": 93 },
+    { "pregunta": "L'approche linguistique du langage est ... :", "opciones": ["diachronique", "synthétique", "synchronique", "génétique"], "correcta": 2, "explicacion": "El enfoque nuevo es sincrónico y no diacrónico: estudia el lenguaje actual, no su evolución (QCM 2, corrigé c).", "filosofo": "saussure", "pagina_pdf": 93 },
+    { "pregunta": "Selon la double articulation, de quoi le langage est-il constitué ?", "opciones": ["D'allèles seulement", "De monèmes et de phonèmes", "D'images et de sons seulement", "De signaux et de bruits"], "correcta": 1, "explicacion": "La primera articulación son los monèmes y la segunda los phonèmes (QCM 3: a. y c.).", "filosofo": "saussure", "pagina_pdf": 85 },
+    { "pregunta": "Pour communiquer, les abeilles émettent des ... :", "opciones": ["signes", "bruits", "signaux", "mots"], "correcta": 2, "explicacion": "Benveniste, a partir de Karl von Frisch, muestra que las abejas emiten señales que provocan una conducta determinada (QCM 4, corrigé c).", "filosofo": "benveniste", "pagina_pdf": 86 },
+    { "pregunta": "Selon Bergson, le langage exprime mal notre ... :", "opciones": ["vie intérieure", "raison", "intimité sociale", "mémoire"], "correcta": 0, "explicacion": "Bergson sostiene que existe un ineffable, objeto de intuición, que las palabras deforman: nuestra vida interior (QCM 5, corrigé a).", "filosofo": "bergson", "pagina_pdf": 87 },
+    { "pregunta": "Qui a affirmé « c'est dans les mots que nous pensons » ?", "opciones": ["Bergson", "Chomsky", "Hegel", "Leibniz"], "correcta": 2, "explicacion": "Es Hegel: el lenguaje es la condición de posibilidad del surgimiento del pensamiento (QCM 6, corrigé c).", "filosofo": "hegel", "pagina_pdf": 89 },
+    { "pregunta": "Pour Platon, la rhétorique est ouvrière de ... :", "opciones": ["conviction", "persuasion", "soumission", "vérité"], "correcta": 1, "explicacion": "Platón la define como « ouvrière de persuasion »: confunde lo verosímil con la verdad (QCM 7, corrigé b).", "filosofo": "platon", "pagina_pdf": 89 },
+    { "pregunta": "Que signifie le verbe « persuader » ?", "opciones": ["Appeler la raison", "Toucher la sensibilité", "Traverser de part en part", "Démontrer rigoureusement"], "correcta": 2, "explicacion": "Por su etimología, persuadir es atravesar al interlocutor de parte a parte sin apelar a su razón (QCM 8, corrigé c).", "filosofo": "platon", "pagina_pdf": 89 },
+    { "pregunta": "En voulant définir les grands principes, le dialogue socratique est ... :", "opciones": ["une interrogation sur l'essence", "une démonstration approfondie", "une vaine recherche", "une persuasion rhétorique"], "correcta": 0, "explicacion": "El diálogo socrático se basa en una interrogación de esencia: ¿qu'est-ce que ? (QCM 9, corrigé a).", "filosofo": "socrate", "pagina_pdf": 90 },
+    { "pregunta": "La rhétorique est l'art de ... :", "opciones": ["mentir", "tromper", "bien parler", "réfuter"], "correcta": 2, "explicacion": "La retórica es el arte de la elocuencia, de bien hablar y de persuadir con sutileza (QCM 10, corrigé c).", "filosofo": null, "pagina_pdf": 89 },
+    { "pregunta": "Comment Leibniz appelle-t-il le défaut qui consiste à employer des mots sans les rattacher à des idées claires ?", "opciones": ["Un néologisme", "Un psittacisme", "Une aporie", "Un métalangage"], "correcta": 1, "explicacion": "El cours explica que este defecto se llama psittacisme, del griego psittakos, loro.", "filosofo": "leibniz", "pagina_pdf": 87 },
+    { "pregunta": "Que propose Leibniz pour remédier aux défauts du langage ordinaire ?", "opciones": ["Un retour à la poésie", "Une caractéristique universelle logico-mathématique", "Le silence", "Une rhétorique plus subtile"], "correcta": 1, "explicacion": "Leibniz propone una « caractéristique universelle » que pueda sustituir a todas las lenguas naturales con signos logico-matemáticos.", "filosofo": "leibniz", "pagina_pdf": 88 },
+    { "pregunta": "Que désigne Wittgenstein par « jeu de langage » ?", "opciones": ["Un langage privé et intérieur", "Le fait que parler fait partie d'une activité ou d'une forme de vie", "Un jeu de mots poétique", "Un système de signaux animaux"], "correcta": 1, "explicacion": "El texto precisa que « jeu de langage » hace resaltar que el hablar forma parte de una actividad o forma de vida; de ahí la imposibilidad de un lenguaje privado.", "filosofo": "wittgenstein", "pagina_pdf": 94 }
+  ],
+  "preguntas_abiertas": [
+    {
+      "enunciado": "Le langage peut-il servir à masquer sa pensée ? Rédigez l'introduction en soulignant l'aspect paradoxal de la question.",
+      "puntos_clave": [
+        "Explicar la paradoja: parece sorprendente preguntar si es posible algo que constatamos cada día, como el mentira",
+        "Definir el mentira: hacer creer que se piensa lo que se dice y no decir lo que se piensa",
+        "Formular la problemática: para que el lenguaje oculte eficazmente el pensamiento, ¿no hay que reforzar la creencia implícita de que no sirve para ocultarlo?",
+        "Mencionar que el mentira es un homenaje a la verdad",
+        "Anunciar un plan en tres tiempos: condiciones objetivas del mentira, razones de no limitarse a callar y debilidad del mentiroso",
+        "Opcional: conectar con la retórica sofista usada por los políticos"
+      ],
+      "filosofos": ["platon", "montaigne"],
+      "pagina_pdf": 96
+    },
+    {
+      "enunciado": "Le langage traduit-il parfaitement notre pensée ?",
+      "puntos_clave": [
+        "Bergson: existe un ineffable que el lenguaje, demasiado general, no puede expresar; falla con la vida interior y las emociones",
+        "Leibniz: el lenguaje ordinario es ambiguo y fuente de errores; propone la caractéristique universelle",
+        "Matiz: la ambigüedad de las palabras es una riqueza (inventiva, libertad, poesía)",
+        "Hegel: no hay pensamiento sin lenguaje, lo ineffable es solo lo impreciso",
+        "Conclusión: el lenguaje no es un simple traductor, forma y estructura el pensamiento"
+      ],
+      "filosofos": ["bergson", "leibniz", "hegel"],
+      "pagina_pdf": 87
+    },
+    {
+      "enunciado": "Pourquoi peut-on dire que les animaux communiquent mais ne parlent pas ?",
+      "puntos_clave": [
+        "Benveniste a partir de Karl von Frisch y las abejas: no dialogan, emiten señales (dirección y distancia del polen)",
+        "El señal provoca una conducta determinada y es parte del mundo físico, sin ambigüedad ni posibilidad de descomposición",
+        "El lenguaje humano tiene doble articulación (monèmes y phonèmes) y puede analizarse y hacerse métalangage",
+        "El signo es arbitrario y convencional, el señal no (Vocabulaire: signe et signal)",
+        "El lenguaje no es natural: los loros tienen los mismos órganos y no pueden 'hablar a propósito' (Descartes)"
+      ],
+      "filosofos": ["benveniste", "saussure"],
+      "pagina_pdf": 86
+    },
+    {
+      "enunciado": "Comparez la rhétorique des sophistes et le dialogue socratique : le langage peut-il être mis au service de la vérité ?",
+      "puntos_clave": [
+        "Platón: la rhétorique es ouvrière de persuasion, no apela a la razón y degenera en demagogia",
+        "Socrate: el diálogo busca la verdad, interroga la esencia y practica la maïeutique",
+        "Aporie: reconocer la ignorancia es preferible a una certeza sin fundamento",
+        "Montaigne: la rhétorique es el más viejo enemigo y aliado de la filosofía; técnica neutra",
+        "Matiz: no hay democracia sin rhétorique, el poder del lenguaje depende también de la lucidez del interlocutor"
+      ],
+      "filosofos": ["platon", "socrate", "montaigne"],
+      "pagina_pdf": 90
+    }
+  ],
+  "disertaciones": [
+    {
+      "sujeto": "Le langage peut-il servir à masquer sa pensée ?",
+      "tipo_plan": "dialectique",
+      "problematica": "Es paradójico preguntar si el lenguaje puede ocultar el pensamiento cuando el mentira lo prueba a diario. Pero para ocultar su pensamiento, hay que reforzar la creencia de que el lenguaje no sirve para ocultarlo.",
+      "plan": [
+        { "parte": "I. El mentira, homenaje a la verdad", "idea": "Mentir es hacer creer que el lenguaje no oculta el pensamiento; el mentira supone la confianza en la verdad del lenguaje.", "autores": ["platon"], "ejemplo": "El mentira consiste en hacer creer que se piensa lo que se dice y en no decir lo que se piensa (corrigé del cours)." },
+        { "parte": "II. La positividad de la ruse", "idea": "Si bastara con ocultar el pensamiento, bastaría con callar: se usa el lenguaje para decir otra cosa, con fines de poder y persuasión.", "autores": ["platon", "montaigne"], "ejemplo": "La retórica de los sofistas al servicio de los políticos (cours, p. 94-96)." },
+        { "parte": "III. La fragilidad del menteur", "idea": "El fondo de engaño es índice de debilidad: ante un interlocutor lúcido, la retórica del engaño es impotente; el diálogo socrático busca la verdad.", "autores": ["socrate", "montaigne"], "ejemplo": "La retórica puede apuntar a la tromperie, pero entonces hay una derrota del espíritu crítico; el diálogo socrático conduce a la aporie." }
+      ],
+      "pagina_pdf": 96
+    },
+    {
+      "sujeto": "Le langage traduit-il parfaitement notre pensée ?",
+      "tipo_plan": "dialectique",
+      "problematica": "El lenguaje parece el vehículo natural del pensamiento, pero la experiencia de no encontrar las palabras sugiere lo contrario. ¿Es el lenguaje un traductor imperfecto o la condición misma del pensamiento?",
+      "plan": [
+        { "parte": "I. El lenguaje traduce mal nuestra interioridad", "idea": "Bergson: un ineffable que las palabras deforman; Leibniz: el lenguaje ordinario es ambiguo y fuente de error.", "autores": ["bergson", "leibniz"], "ejemplo": "Leibniz propone la caractéristique universelle; Bergson muestra que las palabras fallan con las emociones." },
+        { "parte": "II. La imperfección del lenguaje es también riqueza", "idea": "La ambigüedad de las palabras es condición de la sociabilidad (La Rochefoucauld), de la inventiva y de la libertad; un lenguaje logico-matemático no puede sustituir al lenguaje ordinario por su falta de contexto.", "autores": ["leibniz"], "ejemplo": "Si se sustituye 'chat' por una letra, no se sabe de qué gato se trata (cours, p. 88)." },
+        { "parte": "III. No hay pensamiento sin lenguaje", "idea": "Hegel: el lenguaje no traduce un pensamiento ya hecho, hace advenir el pensamiento; lo ineffable es solo lo impreciso.", "autores": ["hegel", "bergson"], "ejemplo": "Cuando no se encuentran las palabras, el pensamiento está aún en estado de ébauche (cours, p. 89)." }
+      ],
+      "pagina_pdf": 87
+    },
+    {
+      "sujeto": "Le langage est-il un simple outil de communication ?",
+      "tipo_plan": "progressif",
+      "problematica": "Se suele pensar que hablar es transmitir informaciones, pero el cours muestra que el lenguaje es social, estructurado y constitutivo del pensamiento. ¿Qué lo distingue de la comunicación animal y de un instrumento neutro?",
+      "plan": [
+        { "parte": "I. Comunicar no es hablar", "idea": "Los animales emiten señales; el lenguaje humano tiene doble articulación y puede hacerse métalangage.", "autores": ["benveniste", "saussure"], "ejemplo": "Las abejas y la danza que indica dirección y distancia del polen (Karl von Frisch)." },
+        { "parte": "II. El lenguaje es un hecho social con reglas", "idea": "La lengua es un código social y las palabras tienen sentido dentro de jeux de langage con reglas y contexto.", "autores": ["saussure", "wittgenstein"], "ejemplo": "Los múltiples usos del lenguaje: mandar, describir, traducir, saludar, rezar (Wittgenstein, § 23)." },
+        { "parte": "III. El lenguaje da forma al pensamiento y al poder", "idea": "No hay pensamiento sin lenguaje (Hegel), y el lenguaje es poder: retórica sofista frente a la búsqueda socrática de la verdad.", "autores": ["hegel", "platon", "socrate"], "ejemplo": "« c'est dans les mots que nous pensons »; la retórica como ouvrière de persuasion." }
+      ],
+      "pagina_pdf": 85
+    }
+  ]
+}

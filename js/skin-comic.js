@@ -1,0 +1,1 @@
+/* skin comic — pendiente */

@@ -1,0 +1,949 @@
+{
+  "metodo": {
+    "dissertation": [
+      {
+        "paso": 1,
+        "titulo": "Le jour de l'épreuve: leer todos los sujets con asombro",
+        "descripcion": "El día del examen final se elige entre tres sujets (dos de dissertation y un texto). Hay que leer lentamente todos y no olvidar ninguno: serán muy cercanos a los trabajados durante el año, pero la formulación de un sujet cambia su significado y su alcance (un texto conocido puede estar recortado de modo que la thèse general del autor no aparezca clara). Adoptar la «posición de asombro» de Aristóteles, sin prejuicio negativo, y a la vez una cierta «naïveté» (relativa): no plaquer opiniones demasiado cerradas. No elegir según las notas del año ni reducir la elección a un solo tipo de ejercicio: cada sujet es original y la variedad es una oportunidad.",
+        "pagina_pdf": 12
+      },
+      {
+        "paso": 2,
+        "titulo": "Choisir un sujet (choix ferme y objetivo)",
+        "descripcion": "Tras leer atentamente cada sujet (unos 15 minutos), hacer una elección firme y definitiva, sin vueltas atrás que hagan perder tiempo. La elección es subjetiva pero no «affective» ni basada en una historia personal u opiniones cerradas: la filosofía exige superar una opinión válida solo para uno mismo y acceder a una opinión lo más objetiva posible. Debe apoyarse en conocimientos objetivos (culture philosophique): personal (engagement, pasión por la reflexión) y a la vez objetiva, racional y justificada.",
+        "pagina_pdf": 12
+      },
+      {
+        "paso": 3,
+        "titulo": "Comprendre le sujet: analizar la formulación y buscar el mot central",
+        "descripcion": "Anotar en el brouillon todas las ideas, referencias y autores que vengan a la mente, pero sin que sean todavía respuestas a la pregunta (error frecuente: querer responder de inmediato, lo que lleva a un enfoque esquemático o ingenuo). Primero «décortiquer» la pregunta: de ahí salen la problématique y la estructura. Buscar el concepto, palabra o expresión que servirá de fil conducteur: no es el thème (p. ej. la liberté), sino la formulación de la pregunta (¿Faut-il…? ¿À quoi sert…?). Buscar sinónimos, términos próximos y opuestos (servir: útil/inútil, por interés/gratuitamente; falloir: nécessité/contingence, contrainte/indépendance, obligation/valeur; suffire: nécessaire/suffisant), agruparlos: permiten construir al menos las dos primeras partes, quizá las tres. Interrogar lo que el sujet sobreentiende y presupone para evitar el hors-sujet.",
+        "pagina_pdf": 13
+      },
+      {
+        "paso": 4,
+        "titulo": "Élaborer un plan: organizar la reflexión",
+        "descripcion": "No existe un plan oficial o impuesto, solo exigencias de construcción y coherencia del pensamiento. Una reflexión sin organización metódica sería incomprensible y no convencería; una sucesión de ideas yuxtapuestas no constituye una thèse. El tiempo del devoir está limitado a cuatro horas, y la estructura, aunque parezca artificial, lo es menos cuanto más legítimo y justificado es su contenido. El libro presenta los dos tipos de plan más usados (progressif y dialectique); la elección del plan está ligada intrínsecamente al sujet. (El libro no desarrolla un «plan thématique» como tipo aparte.)",
+        "pagina_pdf": 13
+      },
+      {
+        "paso": 5,
+        "titulo": "Le plan dialectique (thèse, antithèse, synthèse)",
+        "descripcion": "El más utilizado; sencillo de presentar, menos de comprender y aplicar. Se elige porque el sujet implica de forma legítima (no artificial) tesis opuestas; si no es posible, preferir el plan progressif. Las dos primeras partes (thèse y antithèse) se oponen y una tercera (synthèse) es necesaria para dépasser esa oposición. La tercera parte no es una unión artificial «noir-blanc-gris»: es una verdadera thèse que resuelve lo estéril de la oposición y solo se vuelve legítima y necesaria tras haber defendido las dos primeras, que se «écroulent» al agotarse. Es la que se considera la mejor y más sólida.",
+        "pagina_pdf": 14
+      },
+      {
+        "paso": 6,
+        "titulo": "Le plan progressif (de lo simple a lo general y a lo universal)",
+        "descripcion": "Se estructura sobre una progresión o profundización de las tesis. 1) Una primera thèse simple, de sentido común, sin ser ingenua. 2) Un enfoque más general que muestra la insuffisance de las relaciones particulares y la necesidad de una visión más global. 3) Paso de lo général a lo universel: elevar la reflexión a una visión universal (de tipo cartésien o kantien), no ligada a una sociedad definida ni a una situación histórica precisa. No es frecuente, pero puede justificarse e imponerse según el sujet.",
+        "pagina_pdf": 14
+      },
+      {
+        "paso": 7,
+        "titulo": "Dégager la problématique",
+        "descripcion": "No confundir la problématique con las questions. Todo sujet implica preguntas desde la primera aproximación (brouillon), pero la problématique es el fil conducteur («fil d'Ariane») que atraviesa el devoir de parte a parte y justifica las distintas thèses: el eje central que da coherencia. Aunque cada parte defienda una tesis distinta u opuesta, todas responden a la misma pregunta esencial, que revela los enjeux del sujet.",
+        "pagina_pdf": 15
+      },
+      {
+        "paso": 8,
+        "titulo": "Structurer l'introduction",
+        "descripcion": "No hay forma impuesta, pero hay un error que evitar: dar ya en la introducción una respuesta a la pregunta (su papel es solo introducir; no revelar la argumentación). La introducción debe mostrar la portée du sujet: qué significa la pregunta, qué implica, cuál es su alcance filosófico. Hay que plantear al menos tres questions (pueden ir al final de la introducción), a las que responderá cada una de las partes. Sin preguntas no hay reflexión filosófica. Distinguir una vraie question (¿Le chat est-il blanc ?) de una simple afirmación interrogativa («On peut se demander si…», que no lleva signo de interrogación).",
+        "pagina_pdf": 15
+      },
+      {
+        "paso": 9,
+        "titulo": "Modelo de introducción del corrigé: accroche, explication du sujet, problématique, annonce du plan",
+        "descripcion": "En el corrigé («Suffit-il d'être différent pour être soi-même ?») la introducción sigue este orden, con etiquetas explícitas: [Accroche] una frase de entrada que plantea el tema (la personalidad fuerte exige afirmar la diferencia) y termina en pregunta; [Explication du sujet] aclara lo que está en juego (diferencia/originalidad no son prueba automática de pensamiento pertinente); [Problématique] formula la pregunta-guía (querer ser diferente, ¿no es manifestar desmesura de orgullo y vacío de espíritu?); [Annonce du plan] anuncia el movimiento de las partes sin dar aún la respuesta, en forma de pregunta final.",
+        "pagina_pdf": 22
+      },
+      {
+        "paso": 10,
+        "titulo": "Structurer la dissertation: número y calidad de las partes",
+        "descripcion": "Una dissertation del bac suele tener tres partes (habitual, no obligatorio). Puede tener más (4 o 5) pero no menos, para evitar un enfoque esquemático «pour-contre» o «oui-non»; el límite real es el tiempo (4 h). Las partes deben tener longitudes iguales, cada thèse llevada hasta el final. La última es la más fundamental (la que no se «écroule», la que debe convencer y el último recuerdo del corrector): hay que cuidarla y esbozarla ya al construir el plan en el brouillon para no improvisarla.",
+        "pagina_pdf": 16
+      },
+      {
+        "paso": 11,
+        "titulo": "Soigner ses transitions",
+        "descripcion": "No se pasa de una parte a otra sin explicación: la transition muestra la necesidad de la thèse que se defenderá en la parte siguiente. Va al final (no entre las partes ni al inicio de una parte) de cada una de las dos primeras partes, en forma de objection a la thèse recién expuesta; la última parte no la necesita. Pueden adoptar la forma de questions-objections a las que se responde en la parte siguiente, lo que hace el devoir más vivo y muestra capacidad de interrogar la propia démarche.",
+        "pagina_pdf": 16
+      },
+      {
+        "paso": 12,
+        "titulo": "Illustrer: exemples et citations",
+        "descripcion": "La reflexión debe ilustrarse con exemples para mostrar que no es una construcción sin lazo con la realidad: pocos (1 o 2 por parte) pero de calidad y claramente relacionados con lo dicho. Un exemple no prueba nada (puede ser invertido por un contre-exemple): solo ilustra. Evitar una sucesión de ejemplos que disimule falta de conocimientos. Las citations no son indispensables ni su ausencia es reprochable; no abusar, no inventarlas ni atribuirlas a un autor dudoso. Una cita no es un argument d'autorité: apoya un argumento y muestra que no se está solo defendiéndolo; integrarla en una frase, indicando entre paréntesis autor y obra.",
+        "pagina_pdf": 16
+      },
+      {
+        "paso": 13,
+        "titulo": "Introduire des références (culturales y filosóficas)",
+        "descripcion": "Un devoir de filosofía es ante todo un ejercicio literario, corregido por personas de cultura clásica (filosófica, literaria, artística, histórica). Evitar referencias técnicas demasiado precisas en un dominio restringido y las referencias a la actualidad política (prudencia: el corrector puede no compartir la opinión; además suele indicar falta de cultura); preferir referencias literarias, filosóficas, históricas o artísticas (p. ej. César o Henri IV; la historia, por la distancia, rebaja las pasiones). Los filósofos son bienvenidos, pero no deformarlos ni usarlos como arguments d'autorité: su pensamiento debe ayudar a profundizar y orientar la propia reflexión, nunca sustituirla ni presentarse como verdad indiscutible. Los cursos son un apoyo legítimo.",
+        "pagina_pdf": 17
+      },
+      {
+        "paso": 14,
+        "titulo": "Donner son avis personnel",
+        "descripcion": "En dissertation y en explication de texte se pide una opinión personal porque la exige la reflexión filosófica misma, no porque tenga interés en sí. Debe apoyarse en conocimientos y cultura para no ser una afirmación gratuita u orgullosa. Desconfiar de un avis tranché (suele indicar un espíritu obtuso); la modestia es la mejor aliada de la prudencia. No poner en primer plano opiniones personales, sobre todo políticas.",
+        "pagina_pdf": 18
+      },
+      {
+        "paso": 15,
+        "titulo": "Conclure (rappel de la démarche)",
+        "descripcion": "La conclusión es una etapa obligada. Empezar indicando que se llega a la conclusión y recordar rápidamente la démarche, es decir las distintas thèses (5-6 líneas como máximo), por ejemplo: «Pour finir, nous pouvons rappeler notre démarche. D'abord, nous avons montré que… Puis… Enfin, nous avons défendu la thèse selon laquelle… ». Este recordatorio muestra el dominio de la démarche, obliga a clarificarla y da al corrector una visión sintética.",
+        "pagina_pdf": 18
+      },
+      {
+        "paso": 16,
+        "titulo": "Importancia de la última parte en la conclusión",
+        "descripcion": "Tras el rappel, se puede cerrar «glosando» la última parte, la que se estima más decisiva, retomando esa thèse con más extensión para responder plenamente a la problématique. Después el devoir está terminado: es inútil añadir una nueva pregunta a modo de ouverture. Un devoir es una respuesta modesta y necesariamente imperfecta; si se termina con una pregunta, o es pertinente (y se reprocha no haberla respondido) o es hors-sujet.",
+        "pagina_pdf": 19
+      },
+      {
+        "paso": 17,
+        "titulo": "Ejemplo desarrollado (corrigé): estructura de las partes",
+        "descripcion": "El corrigé «Suffit-il d'être différent pour être soi-même ?» sigue un plan dialectique con partes (I, II, III), subpartes (a, b) y la etiqueta [Énoncé des arguments] al inicio de cada una. I. Es difícil ser uno mismo en un mundo que busca la uniformización (autrui me enferma en un personnage; hay que tener el coraje de afirmar la originalidad). [Transition] objeción: querer solo probar la diferencia es orgullo y oposición estéril. II. No hay nada menos original que afirmar las diferencias (replegarse y caer en la vulgaridad; el hombre se construye a través de la mirada del otro, «Je est un autre»). [Transition] pregunta: ¿cómo dar contenido a la propia diferencia? III. Ser diferente es ante todo desarrollar un pensamiento original (reconocer todas las diferencias por el ejercicio del pensamiento; el sabio aristotélico, el pensador y el artista como modelos). Cada parte combina argumentos, ejemplos y citas de autores (Sartre, Heidegger, Bourdieu, Montesquieu, Aristóteles…).",
+        "pagina_pdf": 22
+      },
+      {
+        "paso": 18,
+        "titulo": "Ejemplo de conclusión (corrigé)",
+        "descripcion": "Modelo: «Pour finir, nous pouvons rappeler la progression de notre réflexion. D'abord… Puis… Enfin…» (resumen de cada parte), seguido de una glosa de la última thèse que responde a la problématique y de una frase final de respuesta al sujet («il ne suffit pas d'être différent pour être original…»), sin abrir una nueva cuestión.",
+        "pagina_pdf": 29
+      }
+    ],
+    "explication_de_texte": [
+      {
+        "paso": 1,
+        "titulo": "Lectura atenta, repetida y bienveillante",
+        "descripcion": "Primera etapa y la más importante: leer con atención y varias veces para «s'imprégner» del texto y evitar los contresens, captando lo que se dice en filigrana (sens implicite). La lectura debe ser bienveillante: confiar de entrada en el autor; si se detecta una incoherencia, probablemente se debe a una lectura demasiado rápida. Partir del principio de que es un clásico estudiado durante siglos por muchos especialistas: ser modesto y evitar el ridículo.",
+        "pagina_pdf": 30
+      },
+      {
+        "paso": 2,
+        "titulo": "Identificar la estructura argumentativa (étapes del argumento)",
+        "descripcion": "Una última lectura práctica, con lápiz: découper el texto identificando las étapes argumentatives. Los saltos de línea (passages à la ligne) son los primeros repères; además hay que localizar los connecteurs logiques (mais, cependant, et, ou…) que marcan separación, alternativa, oposición o perspectivas distintas. Cuidado: una conjunción no siempre significa cambio de parte o de thèse (a veces solo cumple una función estilística). Los conectores dan al texto una orientación y un sentido; el texto puede ser polémico, argumentatif o démonstratif y se estructura según su tipología. Repérer esta estructura es esencial para comprender y lograr el devoir.",
+        "pagina_pdf": 30
+      },
+      {
+        "paso": 3,
+        "titulo": "Introducción: thème général, thèse y structure del texto",
+        "descripcion": "No hay forma impuesta, pero sí exigencias basadas en el texto. 1) En una frase, el thème général (de qué trata, correspondiente a una noción del programa; puede haber dos temas o su relación, p. ej. la liberté et l'État). 2) Desarrollar más largamente la idea general o la thèse del autor: etapa crucial que muestra la comprensión global (qué justificó a ojos del autor la escritura del texto; a veces no hay thèse sino un problème posé o una difficulté expuesta). 3) Terminar revelando la structure du texte: los momentos (o partes), precisando inicio y fin de cada uno («de […] jusqu'à […]») y resumiendo su contenido; ir a la línea para distinguirlos.",
+        "pagina_pdf": 31
+      },
+      {
+        "paso": 4,
+        "titulo": "Modelo de introducción del corrigé (texto de Aristóteles)",
+        "descripcion": "El corrigé sobre Métaphysique, A, 1 de Aristóteles usa tres etiquetas: [Thème général] (el «art» como saber de lo universal por la comprensión de las causas, aprehensión específicamente humana); [Thèse soutenue par l'auteur] (la comprensión comienza con la experiencia pero no deriva de ella; diferencia de naturaleza, no solo de grado, entre hombre y animal, gracias al juicio universal); [Structure du texte] (tres argumentos: 1. el deseo de conocer, placer desinteresado, causado por las sensaciones; 2. la naturaleza humana no se reduce a la animal en la capacidad de conocer; 3. el grado más alto del conocimiento humano: los juicios universales).",
+        "pagina_pdf": 35
+      },
+      {
+        "paso": 5,
+        "titulo": "Desarrollar la explicación siguiendo los momentos del texto",
+        "descripcion": "La explicación se distingue radicalmente de la dissertation: lo que importa es el texto, que legitima la estructura del devoir (no el enfoque personal). Organizar el devoir según el texto: si hay tres momentos, tres partes. Dejar unas líneas tras la introducción, ir a la línea al final de cada momento y luego pasar a la conclusion critique. Un texto rara vez tiene más de dos o tres partes (límite de 4 h); las partes no tienen por qué tener la misma longitud ni la misma importancia: una sola frase puede ser un momento esencial y analizarse en detalle. El corrector tiene el texto al lado y debe poder seguirlo.",
+        "pagina_pdf": 31
+      },
+      {
+        "paso": 6,
+        "titulo": "Citar el texto con parsimonia",
+        "descripcion": "Se puede citar el texto, de forma sutil, integrando las citas en las propias frases (no deben «tomber comme un cheveu sur la soupe»). No empezar cada frase con una cita ni citar todo el texto: solo extractos (palabras o grupos de palabras) útiles para la explicación y que muestren la comprensión de sus matices. Las citas deben ser breves, nunca una frase entera, y hacerse de forma linéaire, progresiva, igual que la lectura y la explicación.",
+        "pagina_pdf": 32
+      },
+      {
+        "paso": 7,
+        "titulo": "Desarrollo del corrigé: enunciar la idea de cada momento y explicarla",
+        "descripcion": "En el corrigé cada momento se titula con una frase que resume su idea: I. «Nos sensations nous rendent curieux et nous permettent de découvrir la diversité du réel» (el placer solo indica el deseo; distinción entre sensaciones utilitarias y desinteresadas; jerarquía de los sentidos, la vista). II. «Dans l'accès à la connaissance, l'homme est supérieur à l'animal» (papel de la memoria y del oído; imagen y recuerdo no bastan). III. «Le savoir ne peut être justifié simplement par l'empirisme et les sensations» (de la expérience al art por el juicio universal; la inducción, lo particular como universal en puissance). Se completa con comparaciones con otros autores (Platon, Descartes, Hegel, Leibniz) y evitando interpretaciones erróneas (sensualisme, continuidad evolucionista).",
+        "pagina_pdf": 35
+      },
+      {
+        "paso": 8,
+        "titulo": "Conclusion critique (étape cruciale)",
+        "descripcion": "A diferencia de la dissertation, la conclusion es aquí esencial: es una larga réflexion critique sobre la thèse del autor, donde se muestra que se ha comprendido el texto en todo su alcance filosófico y se es capaz de desarrollar una opinión personal, crítica y argumentada. «Critique» en sentido etimológico de discernement, no de oposición: ser lúcido sobre la thèse, destacando su interés filosófico actual o universal.",
+        "pagina_pdf": 32
+      },
+      {
+        "paso": 9,
+        "titulo": "Si hay desacuerdo con el autor: prudencia",
+        "descripcion": "Se puede mostrar desacuerdo y defender una tesis opuesta (independencia de espíritu), pero con prudencia al menos en la forma: antes, estar seguro de haber comprendido todas las sutilezas (el autor es un filósofo cuyo pensamiento ha atravesado los siglos; deformar o simplificar para contradecir es falta de modestia y expone al ridículo). Usar el condicional («On pourrait peut-être objecter ou rétorquer à l'auteur… ») y apoyarse en otros autores, sin oponer artificialmente dos autores esquematizando sus tesis: suele haber perspectivas o concepciones del mundo distintas más que oposiciones radicales.",
+        "pagina_pdf": 32
+      },
+      {
+        "paso": 10,
+        "titulo": "Enjeu del texto en la conclusión del corrigé",
+        "descripcion": "En el corrigé, la conclusion critique resume la originalidad de la thèse (Aristóteles se sitúa entre un enfoque dualista platónico y una tesis sensualista, sin reducirse a la inducción), muestra que el saber empieza en la sensación pero no tira de ella su legitimidad (se fundamenta en el juicio universal, el «art») y señala el intérêt essentiel du texto: el statut de la connaissance, su comienzo y su especificidad irreductible. Se acompaña de referencias (Leibniz respondiendo a Locke: «Rien n'est dans l'entendement qui n'ait été auparavant dans les sens, si ce n'est l'entendement»).",
+        "pagina_pdf": 39
+      },
+      {
+        "paso": 11,
+        "titulo": "Resumen de consejos (En perspectives)",
+        "descripcion": "Savoir-être: mostrarse bienveillant con el autor, humilde ante el texto; si se opone a la tesis, prudencia con el condicional y apoyo en otros filósofos. Savoir-faire: leer atentamente y varias veces; lápiz para découper el texto y dégager su estructura; airear el devoir. Mise en valeur: evitar los contresens, respetar las etapas de la introducción, citar con parsimonia (palabras o grupos de palabras, integradas) y cuidar la conclusion critique.",
+        "pagina_pdf": 33
+      }
+    ],
+    "resumen_dissertation_en_perspectives": {
+      "descripcion": "Recapitulación del libro para la dissertation: situarse en asombro sin prejuicios y abrirse a todo tipo de ejercicios; no elegir por afectos y apoyar la elección en conocimientos objetivos; anotar ideas y referencias en el brouillon y analizar los términos del sujet; no revelar todos los argumentos en la introducción y plantear al menos tres preguntas, una por thèse; privilegiar el plan dialectique (thèse, antithèse, synthèse) para resaltar la última parte; cuidar las transitions; ilustrar con exemples, citas y referencias filosóficas y literarias sin abusar y citando solo autores realmente conocidos; no mostrar opiniones personales, sobre todo políticas; terminar con una conclusion centrada en la última thèse, sin ouverture.",
+      "pagina_pdf": 20
+    }
+  },
+  "cronologia": [
+    {
+      "nombre": "Pythagore",
+      "fechas": "570-500",
+      "epoca": "Grèce antique",
+      "nota_es": "Matemático y geómetra de la Grecia antigua, según la cronología del libro.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Hippocrate",
+      "fechas": "vers 460",
+      "epoca": "Grèce antique",
+      "nota_es": "Médico griego; el libro lo sitúa hacia el 460 en el contexto cultural de la Grecia antigua.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Socrate",
+      "fechas": "470-399",
+      "epoca": "Grèce antique",
+      "nota_es": "Filósofo griego; en 399, bajo la tiranía de los Treinta, fue condenado a beber la cicuta.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Platon",
+      "fechas": "428-348",
+      "epoca": "Grèce antique",
+      "nota_es": "Filósofo griego; en 387 fundó en Atenas la Académie, escuela filosófica.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Aristote",
+      "fechas": "384-322",
+      "epoca": "Grèce antique",
+      "nota_es": "Filósofo y físico griego, preceptor de Alejandro.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Épicure",
+      "fechas": "341-270",
+      "epoca": "Grèce antique",
+      "nota_es": "Filósofo griego.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Euclide",
+      "fechas": "330-270",
+      "epoca": "Grèce antique",
+      "nota_es": "Geómetra, autor de los Éléments.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Lucrèce",
+      "fechas": "98-55",
+      "epoca": "Empire romain",
+      "nota_es": "Filósofo latino epicúreo.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Cicéron",
+      "fechas": "106-43",
+      "epoca": "Empire romain",
+      "nota_es": "Orador y filósofo latino.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Tite-Live",
+      "fechas": "59 av. J.-C.-17 apr. J.-C.",
+      "epoca": "Empire romain",
+      "nota_es": "Historiador romano.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Sénèque",
+      "fechas": "4 av. J.-C.-65 apr. J.-C.",
+      "epoca": "Empire romain",
+      "nota_es": "Filósofo estoico.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Tacite",
+      "fechas": "55-120",
+      "epoca": "Empire romain",
+      "nota_es": "Historiador romano.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Épictète",
+      "fechas": "50-130",
+      "epoca": "Empire romain",
+      "nota_es": "Filósofo griego estoico.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Marc Aurèle",
+      "fechas": "121-180",
+      "epoca": "Empire romain",
+      "nota_es": "Emperador y filósofo estoico.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Saint Thomas d'Aquin",
+      "fechas": "1225-1275",
+      "epoca": "Moyen Âge",
+      "nota_es": "Teólogo y filósofo italiano.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Guillaume d'Ockham",
+      "fechas": "?-1349 ?",
+      "epoca": "Moyen Âge",
+      "nota_es": "Filósofo inglés.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Machiavel",
+      "fechas": "1429-1527",
+      "epoca": "XVe-XVIe siècle",
+      "nota_es": "Filósofo y pensador político italiano.",
+      "observacion": "Fechas tal como figuran en el libro.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Montaigne",
+      "fechas": "1533-1592",
+      "epoca": "XVe-XVIe siècle",
+      "nota_es": "Filósofo francés.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Bacon",
+      "fechas": "1561-1626",
+      "epoca": "XVe-XVIe siècle",
+      "nota_es": "Filósofo inglés.",
+      "pagina_pdf": 313
+    },
+    {
+      "nombre": "Copernic",
+      "fechas": "1473-1542",
+      "epoca": "XVIe-XVIIe siècle",
+      "nota_es": "Astrónomo polaco; formuló la hipótesis del movimiento de la Tierra y los demás planetas en torno al Sol.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Galilée",
+      "fechas": "1564-1642",
+      "epoca": "XVIe-XVIIe siècle",
+      "nota_es": "Astrónomo y físico italiano; probó el heliocentrismo de Copérnico.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Hobbes",
+      "fechas": "1588-1679",
+      "epoca": "XVIe-XVIIe siècle",
+      "nota_es": "Filósofo inglés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Descartes",
+      "fechas": "1596-1650",
+      "epoca": "XVIe-XVIIe siècle",
+      "nota_es": "Filósofo francés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Pascal",
+      "fechas": "1623-1662",
+      "epoca": "XVIe-XVIIe siècle",
+      "nota_es": "Escritor y filósofo francés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Locke",
+      "fechas": "1632-1662",
+      "epoca": "XVIe-XVIIe siècle",
+      "nota_es": "Filósofo inglés.",
+      "observacion": "Fechas tal como figuran en el libro.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Spinoza",
+      "fechas": "1637-1677",
+      "epoca": "XVIe-XVIIe siècle",
+      "nota_es": "Filósofo holandés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Malebranche",
+      "fechas": "1638-1715",
+      "epoca": "XVIIe-XVIIIe siècle",
+      "nota_es": "Filósofo francés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Newton",
+      "fechas": "1642-1727",
+      "epoca": "XVIIe-XVIIIe siècle",
+      "nota_es": "Físico inglés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Leibniz",
+      "fechas": "1646-1716",
+      "epoca": "XVIIe-XVIIIe siècle",
+      "nota_es": "Filósofo alemán.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Berkeley",
+      "fechas": "1685-1753",
+      "epoca": "XVIIe-XVIIIe siècle",
+      "nota_es": "Obispo y filósofo irlandés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Montesquieu",
+      "fechas": "1689-1755",
+      "epoca": "XVIIe-XVIIIe siècle",
+      "nota_es": "Filósofo francés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Hume",
+      "fechas": "1711-1776",
+      "epoca": "XVIIe-XVIIIe siècle",
+      "nota_es": "Filósofo escocés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Rousseau",
+      "fechas": "1712-1778",
+      "epoca": "XVIIe-XVIIIe siècle",
+      "nota_es": "Escritor y filósofo francés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Diderot",
+      "fechas": "1713-1784",
+      "epoca": "XVIIe-XVIIIe siècle",
+      "nota_es": "Escritor y filósofo francés; el libro sitúa la Encyclopédie en 1751-1768.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Smith",
+      "fechas": "1723-1790",
+      "epoca": "XVIIe-XVIIIe siècle",
+      "nota_es": "Economista inglés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Kant",
+      "fechas": "1724-1804",
+      "epoca": "XVIIIe-XIXe siècle",
+      "nota_es": "Filósofo alemán.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Saint-Simon",
+      "fechas": "1760-1825",
+      "epoca": "XVIIIe-XIXe siècle",
+      "nota_es": "Economista francés, socialista utópico.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Malthus",
+      "fechas": "1766-1834",
+      "epoca": "XVIIIe-XIXe siècle",
+      "nota_es": "Economista inglés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Hegel",
+      "fechas": "1770-1831",
+      "epoca": "XVIIIe-XIXe siècle",
+      "nota_es": "Filósofo alemán.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Fourier",
+      "fechas": "1772-1837",
+      "epoca": "XVIIIe-XIXe siècle",
+      "nota_es": "Socialista utópico francés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Schopenhauer",
+      "fechas": "1780-1860",
+      "epoca": "XVIIIe-XIXe siècle",
+      "nota_es": "Filósofo alemán.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Comte",
+      "fechas": "1798-1857",
+      "epoca": "XVIIIe-XIXe siècle",
+      "nota_es": "Filósofo francés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Darwin",
+      "fechas": "1809-1882",
+      "epoca": "XVIIIe-XIXe siècle",
+      "nota_es": "Biólogo inglés, teórico de la evolución.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Kierkegaard",
+      "fechas": "1813-1855",
+      "epoca": "XVIIIe-XIXe siècle",
+      "nota_es": "Filósofo y teólogo danés.",
+      "pagina_pdf": 314
+    },
+    {
+      "nombre": "Tocqueville",
+      "fechas": "1805-1859",
+      "epoca": "XVIIIe-XIXe siècle",
+      "nota_es": "Teórico (político) francés.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Claude Bernard",
+      "fechas": "1813-1878",
+      "epoca": "XVIIIe-XIXe siècle",
+      "nota_es": "Fisiólogo francés, iniciador de una reflexión sobre el método experimental.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Marx",
+      "fechas": "1818-1883",
+      "epoca": "XVIIIe-XIXe siècle",
+      "nota_es": "Filósofo alemán.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Nietzsche",
+      "fechas": "1844-1900",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Filósofo alemán.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Freud",
+      "fechas": "1856-1939",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Neurólogo austríaco, fundador del psicoanálisis.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Saussure",
+      "fechas": "1857-1913",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Lingüista suizo.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Durkheim",
+      "fechas": "1858-1917",
+      "epoca": "XVIIIe-XIXe siècle",
+      "nota_es": "Sociólogo francés.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Husserl",
+      "fechas": "1859-1938",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Filósofo alemán.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Bergson",
+      "fechas": "1859-1942",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Filósofo francés.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Alain",
+      "fechas": "1868-1951",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Filósofo francés.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Russell",
+      "fechas": "1872-1970",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Matemático y filósofo inglés.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Einstein",
+      "fechas": "1879-1955",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Físico alemán nacionalizado estadounidense, teórico de la relatividad.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Bachelard",
+      "fechas": "1884-1962",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Filósofo francés.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Heidegger",
+      "fechas": "1889-1976",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Filósofo alemán.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Jakobson",
+      "fechas": "1896-1982",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Lingüista ruso.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Lacan",
+      "fechas": "1901-1981",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Psiquiatra y psicoanalista francés.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Popper",
+      "fechas": "1902-1994",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Filósofo austríaco.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Sartre",
+      "fechas": "1905-1980",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Escritor y filósofo francés.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Levinas",
+      "fechas": "1905-1995",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Filósofo nacido en Lituania.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Arendt",
+      "fechas": "1906-1975",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Filósofa y especialista en teoría política.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Merleau-Ponty",
+      "fechas": "1908-1961",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Filósofo francés.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Lévi-Strauss",
+      "fechas": "1908-2009",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Antropólogo y etnólogo francés.",
+      "pagina_pdf": 315
+    },
+    {
+      "nombre": "Foucault",
+      "fechas": "1926-1984",
+      "epoca": "XIXe-XXe siècle",
+      "nota_es": "Filósofo francés.",
+      "pagina_pdf": 315
+    }
+  ],
+  "reperes": [
+    {
+      "termino_fr": "Absolu / Relatif",
+      "terminos": [
+        "Absolu",
+        "Relatif"
+      ],
+      "definicion_es": "Absolu: sin vínculo; lo que existe independientemente de toda condición, fuera de toda relación, lo que no depende de nada. Relatif: lo que implica una relación, un rapport (lo relativo a, lo que tiene que ver con); lo que depende de otra cosa.",
+      "pagina_pdf": 316
+    },
+    {
+      "termino_fr": "Abstrait / Concret",
+      "terminos": [
+        "Abstrait",
+        "Concret"
+      ],
+      "definicion_es": "Abstrait: lo «sacado» o «extraído» de un ser u objeto (una propiedad, una cualidad) mediante una operación intelectual que permite aislarlo, separarlo y considerarlo aparte. Concret: lo que designa un ser u objeto real.",
+      "pagina_pdf": 316
+    },
+    {
+      "termino_fr": "En acte / En puissance",
+      "terminos": [
+        "En acte",
+        "En puissance"
+      ],
+      "definicion_es": "En acte: lo que existe efectivamente, lo que está cumplido o ya realizado. En puissance: virtual o potencialmente; lo que existe como simple posibilidad o virtualidad.",
+      "pagina_pdf": 316
+    },
+    {
+      "termino_fr": "Analyse / Synthèse",
+      "terminos": [
+        "Analyse",
+        "Synthèse"
+      ],
+      "definicion_es": "Analyse: operación intelectual que descompone un objeto en sus elementos constitutivos para llegar a su conocimiento; descomposición de un todo en sus partes; va de lo complejo a lo simple. Synthèse: operación intelectual que reúne en un todo coherente, estructurado y homogéneo diversos elementos; recomposición de un todo a partir de sus partes; va de lo simple a lo complejo.",
+      "pagina_pdf": 316
+    },
+    {
+      "termino_fr": "Concept / Image / Métaphore",
+      "terminos": [
+        "Concept",
+        "Image",
+        "Métaphore"
+      ],
+      "definicion_es": "Concept: idea, abstracción de alcance general que permite profundizar las nociones, diferenciarlas y articularlas entre sí. Image (figura de estilo): sirve de apoyo para expresar una idea nueva o explicitar una idea que las palabras solas no pueden traducir; permite una mejor comprensión de la idea imaginada. Métaphore: figura retórica que designa una realidad con un término que corresponde a otra, por una analogía entre ambas nociones que autoriza la sustitución.",
+      "pagina_pdf": 316
+    },
+    {
+      "termino_fr": "Contingent / Nécessaire",
+      "terminos": [
+        "Contingent",
+        "Nécessaire"
+      ],
+      "definicion_es": "Contingent: lo que puede ser o no ser, ocurrir o no ocurrir (aquello cuyo contrario no implica imposibilidad ni contradicción). Nécessaire: en filosofía, lo que no puede ser de otro modo que como es (aquello cuyo contrario es imposible o implica contradicción); lo inevitable, lo que no puede no producirse (como el resultado o efecto en un proceso físico determinado).",
+      "pagina_pdf": 316
+    },
+    {
+      "termino_fr": "Croire / Savoir",
+      "terminos": [
+        "Croire",
+        "Savoir"
+      ],
+      "definicion_es": "Croire: estimar verdadero o tener algo por cierto a falta de garantías perfectamente seguras y objetivas (lo contrario de «savoir»); las croyances son el conjunto de juicios poco o insuficientemente fundados racionalmente. Savoir: tener algo por verdadero con la garantía objetiva del conocimiento de la cosa (en oposición a «croire»); supone juicios suficientemente fundados racionalmente.",
+      "pagina_pdf": 316
+    },
+    {
+      "termino_fr": "Essentiel / Accidentel",
+      "terminos": [
+        "Essentiel",
+        "Accidentel"
+      ],
+      "definicion_es": "Essentiel: lo que pertenece o se refiere a la esencia, a la naturaleza íntima de una cosa o ser; la esencia es lo que define la naturaleza o el ser de una cosa. Accidentel: lo que puede pertenecer o no a una cosa o ser, sucederle o no sucederle; las modificaciones superficiales o cualidades contingentes de un ser son «accidentelles» o forman sus «accidents» (no en el sentido corriente).",
+      "pagina_pdf": 317
+    },
+    {
+      "termino_fr": "Exemple / Preuve",
+      "terminos": [
+        "Exemple",
+        "Preuve"
+      ],
+      "definicion_es": "Exemple: personas o actos considerados un modelo que puede servir de referencia para una conducta; caso anterior semejante o comparable; citas o ejemplos filosóficos que pueden ilustrar una tesis o un concepto. Preuve: lo que sirve para atestiguar que un fenómeno es verdadero (en ciencia sobre todo); lo que sirve de ejemplos probatorios.",
+      "pagina_pdf": 317
+    },
+    {
+      "termino_fr": "Expliquer / Comprendre",
+      "terminos": [
+        "Expliquer",
+        "Comprendre"
+      ],
+      "definicion_es": "Expliquer: hacer inteligible por el conocimiento de las causas, según un razonamiento causal. Comprendre: hacer inteligible captando el sentido, la significación.",
+      "pagina_pdf": 317
+    },
+    {
+      "termino_fr": "En fait / En droit",
+      "terminos": [
+        "En fait",
+        "En droit"
+      ],
+      "definicion_es": "En fait: lo que es efectivo, conforme a los hechos observados. En droit: lo que es legítimo o conforme a la ley; puede sustituirse por «legítimamente», «legalmente».",
+      "pagina_pdf": 317
+    },
+    {
+      "termino_fr": "Formel / Matériel",
+      "terminos": [
+        "Formel",
+        "Matériel"
+      ],
+      "definicion_es": "Formel: relativo a la forma. Matériel: relativo al contenido, al objeto (a «la materia»). En lógica: lo «formel» se dice de la forma lógica del razonamiento; si el razonamiento es correcto en el plano lógico se dice «válido» (verdad formal, o mejor, validez). La «vérité matérielle» (o verdad sin más) concierne al contenido de un razonamiento; ejemplo del libro: el elefante es más grande que el asno, y este más grande que la golondrina, luego el elefante es más grande que la golondrina.",
+      "pagina_pdf": 317
+    },
+    {
+      "termino_fr": "Genre / Espèce / Individu",
+      "terminos": [
+        "Genre",
+        "Espèce",
+        "Individu"
+      ],
+      "definicion_es": "Genre: división fundada en uno o varios caracteres comunes que reúne un conjunto de seres vivos; concepto de clasificación situado entre la familia y la especie, que agrupa especies muy próximas. Espèce: división fundada en caracteres comunes que reúne seres vivos y permite distinguirlos dentro de un mismo género; los individuos de una misma especie son fecundos entre sí, pero ordinariamente estériles con los de otra especie. Individu: cada espécimen vivo de una especie animal o vegetal; el género animal comprende varias especies, entre ellas la humana. (El libro escribe «Espère» en el título.)",
+      "pagina_pdf": 317
+    },
+    {
+      "termino_fr": "Hypothèse / Conséquence / Conclusion",
+      "terminos": [
+        "Hypothèse",
+        "Conséquence",
+        "Conclusion"
+      ],
+      "definicion_es": "Hypothèse: posibilidad de explicación de un fenómeno (p. ej. científico) que se formula para verificarla mediante la experimentación; en sentido más amplio, una suposición, un intento de explicación. Conséquence: lo que se desprende de un fenómeno o de una proposición. Conclusion: consecuencia que resulta de un razonamiento.",
+      "pagina_pdf": 318
+    },
+    {
+      "termino_fr": "Idéal / Réel",
+      "terminos": [
+        "Idéal",
+        "Réel"
+      ],
+      "definicion_es": "Idéal: modelo de perfección en un ámbito (intelectual, moral, estético) que sirve de patrón o norma para juzgar lo real; en sentido corriente, «lo mejor» y una meta elevada, muy próximo al sentido filosófico: el ideal como modelo de perfección que orienta la acción. Réel: lo que existe efectivamente (y no solo como idea o ideal). Se puede defender, con Platón, un realismo de las ideas: las ideas (morales, matemáticas, etc.) existirían realmente con independencia de los sujetos que las (re)descubren.",
+      "pagina_pdf": 318
+    },
+    {
+      "termino_fr": "Identité / Égalité / Différence",
+      "terminos": [
+        "Identité",
+        "Égalité",
+        "Différence"
+      ],
+      "definicion_es": "Identité: lo que hace que una cosa sea exactamente de la misma naturaleza que otra (en este sentido equivale a la igualdad matemática); conjunto de caracteres permanentes o fundamentales específicos de un individuo o grupo que permiten identificarlo y caracterizarlo. Égalité: relación entre cosas (o cantidades) iguales; principio moral, jurídico y político según el cual todos los hombres, pese a sus diferencias, deben ser considerados iguales en dignidad (igual dignidad o igualdad moral) y en derechos (igualdad civil, política y social). Différence: lo que distingue una cosa o persona de otra; aquello por lo que seres o cosas no son semejantes. Los hombres son desiguales de hecho: diferencias físicas (talla, fuerza), de talentos, de capacidades, de culturas, etc.",
+      "pagina_pdf": 318
+    },
+    {
+      "termino_fr": "Impossible / Possible",
+      "terminos": [
+        "Impossible",
+        "Possible"
+      ],
+      "definicion_es": "Impossible: carácter de lo que contradice el orden lógico o físico. Possible: lo que puede corresponder a la realidad.",
+      "pagina_pdf": 318
+    },
+    {
+      "termino_fr": "Intuitif / Discursif",
+      "terminos": [
+        "Intuitif",
+        "Discursif"
+      ],
+      "definicion_es": "Intuitif: lo que procede de la «intuition», es decir de un conocimiento directo e inmediato, sin ayuda del razonamiento. La intuición «sensible» es la captación directa de lo real o de una verdad por los sentidos (da acceso a las evidencias sensibles); la intuición «rationnelle» o «intellectuelle» es la captación inmediata de lo real o de una verdad por el intelecto o la razón. Discursif: lo que se apoya en el razonamiento, que exige la mediación de un razonamiento para ser establecido o conocido.",
+      "pagina_pdf": 318
+    },
+    {
+      "termino_fr": "Légal / Légitime",
+      "terminos": [
+        "Légal",
+        "Légitime"
+      ],
+      "definicion_es": "Légal: lo conforme a las reglas jurídicas existentes, conforme a la ley o a la «justicia» en el sentido del derecho existente; la legalidad de una acción es su conformidad con la regla jurídica. Légitime: filosóficamente, lo conforme a las exigencias de la idea de justicia, de equidad, de moral y de razón.",
+      "pagina_pdf": 319
+    },
+    {
+      "termino_fr": "Médiat / Immédiat",
+      "terminos": [
+        "Médiat",
+        "Immédiat"
+      ],
+      "definicion_es": "Médiat: lo que es intermediario o supone un intermediario (lo discursivo es mediato). Immédiat: sin intermediario, directamente (lo intuitivo es inmediato).",
+      "pagina_pdf": 319
+    },
+    {
+      "termino_fr": "Objectif / Subjectif / Intersubjectif",
+      "terminos": [
+        "Objectif",
+        "Subjectif",
+        "Intersubjectif"
+      ],
+      "definicion_es": "Objectif: lo que no hace intervenir elementos afectivos o personales en sus juicios, cuyos juicios están fundados «objetivamente»; la ciencia (como conjunto de juicios sobre lo real) es «objetiva» por oposición a las opiniones. Subjectif: lo individual, susceptible de variar según la personalidad de cada uno (no puede valer para todos); un juicio es subjetivo si está influido por la personalidad del sujeto y no del objeto. Intersubjectif: lo relativo a otro; la intersubjetividad supone que los individuos son capaces de tomar en consideración el pensamiento ajeno para integrarlo en su propio juicio.",
+      "pagina_pdf": 319
+    },
+    {
+      "termino_fr": "Obligation / Contrainte",
+      "terminos": [
+        "Obligation",
+        "Contrainte"
+      ],
+      "definicion_es": "Obligation: «lazo» moral o jurídico por el cual una persona está obligada o se siente obligada a hacer o no hacer algo; toma la forma de un «deber» (sinónimo). Contrainte: violencia o presión moral o física ejercida sobre alguien para forzarlo a actuar (o impedírselo). La obligación se opone a la contrainte porque no suprime la libertad, viene de uno mismo (uno se siente obligado): se obedece libremente a la obligación (se podría decidir no obedecer), mientras que se cede a la contrainte, «contraint et forcé» (ya no hay elección).",
+      "pagina_pdf": 319
+    },
+    {
+      "termino_fr": "Origine / Fondement",
+      "terminos": [
+        "Origine",
+        "Fondement"
+      ],
+      "definicion_es": "Origine: lo que está en la fuente, la procedencia de un fenómeno, idea, persona o grupo (el origen de la vida, de una guerra, de un prejuicio). Fondement: en filosofía, la búsqueda del fundamento es la búsqueda del o de los principios (las razones últimas) sobre los que se puede hacer descansar una tesis o teoría.",
+      "pagina_pdf": 319
+    },
+    {
+      "termino_fr": "Persuader / Convaincre",
+      "terminos": [
+        "Persuader",
+        "Convaincre"
+      ],
+      "definicion_es": "Persuader: llevar a alguien a creer, hacer o querer algo no por la razón (o buenas «razones») sino mediante diversos procedimientos de «persuasión» (sofismas, bellas palabras o elocuencia, seducción, etc.). Convaincre: llevar a alguien, mediante un razonamiento, pruebas o una argumentación racional, a reconocer la verdad, la exactitud de un hecho o su necesidad.",
+      "pagina_pdf": 319
+    },
+    {
+      "termino_fr": "Principe / Cause / Fin",
+      "terminos": [
+        "Principe",
+        "Cause",
+        "Fin"
+      ],
+      "definicion_es": "Principe: lo que es primero y fundamento del resto; proposición que sirve de fundamento o punto de partida a un razonamiento («je pars du principe que»). Cause: aquello por lo que una cosa existe o lo que produce algo (causas antecedentes o materiales); aquello por lo que se hace algo, la razón, el motivo. Fin: meta, objetivo hacia el que se tiende, aquello por lo que se hace algo, la razón, el motivo («cause finale»).",
+      "pagina_pdf": 320
+    },
+    {
+      "termino_fr": "Public / Privé",
+      "terminos": [
+        "Public",
+        "Privé"
+      ],
+      "definicion_es": "Public: lo que concierne al pueblo, lo relativo a la nación, al Estado. Privé: propio de cada individuo; el público no tiene lugar en ello ni es admitido.",
+      "pagina_pdf": 320
+    },
+    {
+      "termino_fr": "Ressemblance / Analogie",
+      "terminos": [
+        "Ressemblance",
+        "Analogie"
+      ],
+      "definicion_es": "Ressemblance: relación entre dos o más objetos que tienen ciertos elementos comunes. Analogie: relación de semejanza establecida por la inteligencia o la imaginación entre dos o más objetos diferentes y reconocidos como tales; se apoya en un procedimiento racional que establece una identidad de «relación» entre términos distintos.",
+      "pagina_pdf": 320
+    },
+    {
+      "termino_fr": "Théorie / Pratique",
+      "terminos": [
+        "Théorie",
+        "Pratique"
+      ],
+      "definicion_es": "Théorie: conjunto de proposiciones coherentes ligadas a un ámbito determinado de fenómenos; busca comprender, explicar, interpretar o predecir fenómenos. Pratique: actividades que buscan resultados concretos; aplicación concreta de una teoría.",
+      "pagina_pdf": 320
+    },
+    {
+      "termino_fr": "Transcendant / Immanent",
+      "terminos": [
+        "Transcendant",
+        "Immanent"
+      ],
+      "definicion_es": "Transcendant: lo que sobrepasa un cierto orden de realidades, lo que está más allá del ámbito en que uno se sitúa y es de otra naturaleza, radicalmente exterior (se habla de la trascendencia de Dios para afirmar que no pertenece a nuestro mundo y es de naturaleza totalmente distinta). Para Kant, es lo que está más allá de toda experiencia posible y escapa por tanto a toda verificación empírica. Immanent: lo contenido en un ser, inherente a su naturaleza, que resulta de la naturaleza misma de ese ser.",
+      "pagina_pdf": 320
+    },
+    {
+      "termino_fr": "Universel / Particulier / Général / Singulier",
+      "terminos": [
+        "Universel",
+        "Particulier",
+        "Général",
+        "Singulier"
+      ],
+      "definicion_es": "Universel: lo que vale para todos, en todo lugar y en todo tiempo. Particulier: propio de una persona o cosa, de un solo grupo (un uso particular de un pueblo o de un hombre). Général: lo que se aplica a un conjunto de personas o cosas (ideas generales) o concierne al conjunto de un grupo (interés general, huelga general). Singulier: lo que solo vale para un individuo y uno solo («single»), que se aplica a una sola cosa o persona.",
+      "pagina_pdf": 320
+    },
+    {
+      "termino_fr": "Vrai / Probable / Certain",
+      "terminos": [
+        "Vrai",
+        "Probable",
+        "Certain"
+      ],
+      "definicion_es": "Vrai: lo que está en conformidad con lo real. Probable: lo que tiene la apariencia de la realidad, lo que podemos razonablemente suponer. Certain: lo que posee una realidad efectiva, lo que está asegurado que se producirá.",
+      "pagina_pdf": 320
+    }
+  ]
+}
