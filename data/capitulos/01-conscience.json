@@ -1,0 +1,2139 @@
+{
+  "id": "conscience",
+  "numero": 1,
+  "titulo": "La conscience",
+  "titulo_es": "La conciencia",
+  "resumen": "La conciencia (del latín cum scientia, «acompañado de saber») es la condición de todo conocimiento y de todo acto voluntario: a partir del cogito cartesiano, Husserl la define como intencionalidad abierta al mundo, Kant y Sartre extraen sus consecuencias para la libertad y la responsabilidad, y Hegel muestra que la conciencia de sí se forja en la mirada del otro. Pero la introspección nunca da un conocimiento perfecto de uno mismo, pues la conciencia de sí es siempre retrospectiva y el yo es un acto en devenir.",
+  "paginas": {
+    "inicio": 42,
+    "fin": 55
+  },
+  "puntos_incontournables": [
+    "La conciencia es la condición de todo conocimiento: para Descartes, dudar es pensar y el cogito es una certeza inquebrantable (cogito, ergo sum).",
+    "La conciencia es «intencionalidad» (Husserl): está siempre abierta al mundo y a la realidad, no es un mundo interior cerrado.",
+    "Dar sentido al mundo supone distinguir el yo psicológico (mi experiencia personal) del yo metafísico o trascendental, que es universal; elevar la conciencia hace variar nuestra manera de existir.",
+    "La conciencia es la condición de todo acto voluntario y, por tanto, de la responsabilidad moral, jurídica y política (conscience morale).",
+    "Nunca podemos conocernos perfectamente: la conciencia de sí se construye con la mirada del otro y es siempre retrospectiva (introspection)."
+  ],
+  "nociones_clave": [
+    "conscience",
+    "cogito",
+    "intentionnalité",
+    "conscience spontanée",
+    "conscience réfléchie",
+    "conscientisation",
+    "moi psychologique",
+    "moi métaphysique (transcendantal)",
+    "mauvaise foi",
+    "conscience morale",
+    "introspection",
+    "reconnaissance",
+    "doute méthodique",
+    "alter ego"
+  ],
+  "problematicas_bac": [
+    "Peut-on dire avec Valéry que « la conscience règne mais ne gouverne pas » ?",
+    "Est-il nécessaire de faire l'hypothèse de l'existence d'une autre instance dictant sa loi à la conscience ?",
+    "La conscience permet-elle une parfaite connaissance de soi ?",
+    "Conscience réfléchie rime-t-elle nécessairement avec conscience morale ?"
+  ],
+  "conceptos": [
+    {
+      "id": "conscience-spontanee-reflechie",
+      "nombre": "Conscience spontanée et conscience réfléchie",
+      "definicion": "Dos grados de conciencia: la conciencia directa (spontanée), como al conducir, y la conciencia reflexiva, que se dedobla a modo de espejo para evaluar la acción gracias a un trabajo de conscientisation (verbalización).",
+      "pagina_pdf": 43,
+      "autores": [
+        "husserl"
+      ]
+    },
+    {
+      "id": "cogito",
+      "nombre": "Cogito et doute méthodique",
+      "definicion": "Partiendo de la duda radical se llega a una primera certeza: para dudar hace falta un «yo» que duda. La duda de Descartes es metódica y termina con el cogito; la de Montaigne es escéptica y nunca termina.",
+      "pagina_pdf": 45,
+      "autores": [
+        "descartes"
+      ]
+    },
+    {
+      "id": "intentionnalite",
+      "nombre": "Intentionnalité",
+      "definicion": "La conciencia es siempre conciencia de algo: está en movimiento hacia el exterior, abierta a la variedad ilimitada de lo real, y no es una vida interior fija.",
+      "pagina_pdf": 44,
+      "autores": [
+        "husserl"
+      ]
+    },
+    {
+      "id": "moi-psychologique-metaphysique",
+      "nombre": "Moi psychologique et moi métaphysique (transcendantal)",
+      "definicion": "El yo psicológico (empírico) es personal, cambiante y depende de los orígenes y la cultura; el yo metafísico o trascendental es una capacidad universal de pensar, condición de toda actividad teórica y práctica.",
+      "pagina_pdf": 45,
+      "autores": [
+        "descartes",
+        "kant",
+        "sartre"
+      ]
+    },
+    {
+      "id": "mauvaise-foi",
+      "nombre": "Mauvaise foi",
+      "definicion": "Según Sartre, manera de negar nuestro yo trascendental y nuestra libertad refugiándonos en excusas sociales, familiares o psicológicas, o en un papel social, para no asumir la libertad de elegir.",
+      "pagina_pdf": 46,
+      "autores": [
+        "sartre"
+      ]
+    },
+    {
+      "id": "reconnaissance",
+      "nombre": "Reconnaissance et regard d'autrui",
+      "definicion": "La conciencia de sí no es inmediata: se construye con el juicio del otro. Lo que el ser humano desea sobre todo es ser reconocido como igual y no reducido a objeto (dialéctica del amo y del esclavo).",
+      "pagina_pdf": 47,
+      "autores": [
+        "hegel",
+        "sartre"
+      ]
+    },
+    {
+      "id": "conscience-morale",
+      "nombre": "Conscience morale et responsabilité",
+      "definicion": "Porque tiene conciencia, el ser humano es libre y responsable de sus actos; sin conciencia no habría moral ni derecho. Esta conciencia moral varía con las épocas y culturas.",
+      "pagina_pdf": 44,
+      "autores": [
+        "aristote",
+        "freud"
+      ]
+    },
+    {
+      "id": "introspection",
+      "nombre": "Introspection et limites de la connaissance de soi",
+      "definicion": "La introspección (regarder à l'intérieur) no da una transparencia perfecta: nuestros sentimientos son ambiguos, la conciencia de sí es retrospectiva y el yo es un acto en devenir, no una cosa.",
+      "pagina_pdf": 48,
+      "autores": [
+        "valery"
+      ]
+    }
+  ],
+  "filosofos": [
+    {
+      "id": "descartes",
+      "nombre": "René Descartes",
+      "epoca": "siglo XVII",
+      "tesis_principal": "La conciencia es la condición de todo conocimiento: mediante la duda radical se llega a la certeza de que pienso, pues dudar es pensar (cogito, ergo sum). El yo pensante, yo metafísico, es distinto del cuerpo, aunque en la experiencia ordinaria alma y cuerpo están estrechamente unidos.",
+      "ideas_clave": [
+        "Duda metódica: los sentidos engañan (un bastón en el agua parece roto), por eso se duda de todo hasta hallar una verdad cierta (doute méthodique)",
+        "Dudar, imaginar, afirmar, negar o desear son pensamientos: todo ello es conciencia (âme = pensée)",
+        "El cogito es una evidencia inquebrantable: para dudar hace falta un «yo» que duda",
+        "Distingue el yo psicológico, unido al cuerpo, y el yo metafísico o trascendental, que puede concebirse separado de él (union de l'âme et du corps)",
+        "En la acción no se puede dudar: como los viajeros extraviados en un bosque hay que elegir un camino con firmeza"
+      ],
+      "citas": [
+        {
+          "texto": "que nous percevons immédiatement par nous-même",
+          "idioma": "fr",
+          "obra": "Les principes de la philosophie",
+          "pagina_pdf": 45
+        },
+        {
+          "texto": "ce moi c'est-à-dire l'âme par laquelle je suis ce que je suis est entièrement distincte du corps et qu'encore qu'il ne fût point, elle ne laisserait pas d'être tout ce qu'elle est",
+          "idioma": "fr",
+          "obra": "Discours de la Méthode",
+          "pagina_pdf": 45
+        },
+        {
+          "texto": "la nature m'enseigne par les sentiments de douleur, de faim, de soif que je ne suis pas logé dans mon corps comme un pilote dans son navire",
+          "idioma": "fr",
+          "obra": "Sixième méditation métaphysique",
+          "pagina_pdf": 46
+        }
+      ],
+      "debate_con": [
+        "nietzsche",
+        "kant"
+      ],
+      "como_usarlo_en_disertacion": "Útil en sujetos sobre la conciencia como fundamento del conocimiento y sobre el yo: abre la primera parte (cogito, certeza del pensamiento) y permite matizar con la unión alma-cuerpo y con la necesidad de elegir en la acción (voyageurs égarés).",
+      "escena_sugerida": "Un hombre duda de sus sentidos y descubre que para dudar necesita un «yo» que piensa.",
+      "pagina_pdf": 45,
+      "escena": {
+        "titulo": "Descartes : douter, c'est penser",
+        "estilo": "monigotes",
+        "duracion_seg": 24,
+        "actores": [
+          {
+            "id": "yo",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": "Je",
+            "escala": 1
+          },
+          {
+            "id": "sentidos",
+            "tipo": "nube",
+            "pos": [
+              0.75,
+              0.3
+            ],
+            "etiqueta": "Les sens trompent"
+          },
+          {
+            "id": "duda",
+            "tipo": "interrogacion",
+            "pos": [
+              0.5,
+              0.4
+            ],
+            "etiqueta": "Le doute"
+          },
+          {
+            "id": "cogito",
+            "tipo": "bombilla",
+            "pos": [
+              0.5,
+              0.15
+            ],
+            "etiqueta": "Cogito"
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "yo"
+          },
+          {
+            "t": 0.5,
+            "accion": "subtitulo",
+            "texto": "Descartes busca una verdad absolutamente cierta."
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "sentidos"
+          },
+          {
+            "t": 3,
+            "accion": "piensa",
+            "actor": "yo",
+            "texto": "Un palo en el agua parece roto: los sentidos engañan"
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "duda"
+          },
+          {
+            "t": 5.5,
+            "accion": "tiembla",
+            "actor": "yo"
+          },
+          {
+            "t": 6,
+            "accion": "dice",
+            "actor": "yo",
+            "texto": "Dudo de todo, hasta de lo que veo"
+          },
+          {
+            "t": 7,
+            "accion": "subtitulo",
+            "texto": "Duda radical: todo se pone en cuestión, como método para fundar un saber."
+          },
+          {
+            "t": 10,
+            "accion": "desaparece",
+            "actor": "sentidos"
+          },
+          {
+            "t": 11,
+            "accion": "resalta",
+            "actor": "duda"
+          },
+          {
+            "t": 12,
+            "accion": "piensa",
+            "actor": "yo",
+            "texto": "Para dudar necesito un « yo » que duda"
+          },
+          {
+            "t": 14,
+            "accion": "aparece",
+            "actor": "cogito"
+          },
+          {
+            "t": 14.5,
+            "accion": "une",
+            "de": "duda",
+            "a": "cogito",
+            "nota": "douter = penser"
+          },
+          {
+            "t": 15,
+            "accion": "cita",
+            "texto": "Cogito, ergo sum"
+          },
+          {
+            "t": 18,
+            "accion": "salta",
+            "actor": "yo"
+          },
+          {
+            "t": 19,
+            "accion": "subtitulo",
+            "texto": "Dudar es pensar: la conciencia es la primera certeza, inquebrantable."
+          },
+          {
+            "t": 23,
+            "accion": "subtitulo",
+            "texto": "Sin conciencia que piensa, no hay acceso posible al conocimiento."
+          }
+        ]
+      }
+    },
+    {
+      "id": "husserl",
+      "nombre": "Edmund Husserl",
+      "epoca": "siglos XIX-XX",
+      "tesis_principal": "La conciencia es «intencionalidad»: siempre está abierta al mundo y es conciencia de algo, por lo que no constituye un mundo interior cerrado. Su singularidad reside en la manera propia de captar los objetos del mundo, y la intersubjetividad es un dato fundamental de la experiencia.",
+      "ideas_clave": [
+        "Toda conciencia es conciencia de algo (intentionnalité)",
+        "La conciencia es un flujo constante sin contenido predefinido ni vida interior fija",
+        "Está abierta a la variedad ilimitada de lo real; lo que distingue las conciencias es su manera singular de captar los objetos (el artista, el promotor inmobiliario y el campesino miran la misma naturaleza de modo distinto)",
+        "La conciencia distingue al ser humano de una simple cosa",
+        "La intersubjetividad (relación entre conciencias) es fundamental: no hay conciencia de sí ni del mundo sin los otros"
+      ],
+      "citas": [
+        {
+          "texto": "Toute conscience est […] conscience de quelque […] chose.",
+          "idioma": "fr",
+          "obra": "Méditations cartésiennes",
+          "pagina_pdf": 43
+        }
+      ],
+      "debate_con": [
+        "descartes",
+        "sartre"
+      ],
+      "como_usarlo_en_disertacion": "Para sujetos que oponen la conciencia como interioridad a la conciencia abierta al mundo: sirve para refutar la idea de un 'mundo interior' cerrado y para hablar de la diversidad de miradas sobre lo real. También útil para la dimensión intersubjetiva (cuarta parte del cours).",
+      "escena_sugerida": "Una conciencia deja su caja interior y se proyecta hacia el árbol; tres miradas distintas sobre la misma realidad.",
+      "pagina_pdf": 44,
+      "escena": {
+        "titulo": "Husserl : la conscience est intentionnalité",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          {
+            "id": "ojo",
+            "tipo": "ojo",
+            "pos": [
+              0.2,
+              0.6
+            ],
+            "etiqueta": "Conscience"
+          },
+          {
+            "id": "caja",
+            "tipo": "caja",
+            "pos": [
+              0.2,
+              0.25
+            ],
+            "etiqueta": "Monde intérieur"
+          },
+          {
+            "id": "arbol",
+            "tipo": "arbol",
+            "pos": [
+              0.8,
+              0.55
+            ],
+            "etiqueta": "La nature"
+          },
+          {
+            "id": "artista",
+            "tipo": "monigote",
+            "pos": [
+              0.4,
+              0.85
+            ],
+            "etiqueta": "L'artiste",
+            "escala": 0.8
+          },
+          {
+            "id": "promotor",
+            "tipo": "monigote",
+            "pos": [
+              0.65,
+              0.85
+            ],
+            "etiqueta": "Le promoteur",
+            "escala": 0.8
+          },
+          {
+            "id": "moneda",
+            "tipo": "moneda",
+            "pos": [
+              0.65,
+              0.35
+            ],
+            "etiqueta": "Terrain à vendre",
+            "escala": 0.8
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 0.5,
+            "accion": "subtitulo",
+            "texto": "A menudo se cree que la conciencia es un mundo interior cerrado."
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "caja"
+          },
+          {
+            "t": 3,
+            "accion": "une",
+            "de": "ojo",
+            "a": "caja",
+            "nota": "intériorité figée"
+          },
+          {
+            "t": 5,
+            "accion": "tiembla",
+            "actor": "caja"
+          },
+          {
+            "t": 6,
+            "accion": "desaparece",
+            "actor": "caja"
+          },
+          {
+            "t": 6.5,
+            "accion": "subtitulo",
+            "texto": "Husserl: la conciencia nunca está replegada sobre sí misma."
+          },
+          {
+            "t": 9,
+            "accion": "aparece",
+            "actor": "arbol"
+          },
+          {
+            "t": 10,
+            "accion": "proyecta",
+            "de": "ojo",
+            "a": "arbol",
+            "nota": "intentionnalité"
+          },
+          {
+            "t": 11,
+            "accion": "cita",
+            "texto": "Toute conscience est conscience de quelque chose."
+          },
+          {
+            "t": 14,
+            "accion": "aparece",
+            "actor": "artista"
+          },
+          {
+            "t": 14.5,
+            "accion": "aparece",
+            "actor": "promotor"
+          },
+          {
+            "t": 15,
+            "accion": "piensa",
+            "actor": "artista",
+            "texto": "Qué belleza de paisaje"
+          },
+          {
+            "t": 16.5,
+            "accion": "aparece",
+            "actor": "moneda"
+          },
+          {
+            "t": 17,
+            "accion": "piensa",
+            "actor": "promotor",
+            "texto": "Un buen terreno para construir"
+          },
+          {
+            "t": 20,
+            "accion": "subtitulo",
+            "texto": "La misma realidad, miradas distintas: eso es lo que singulariza a cada conciencia."
+          },
+          {
+            "t": 23,
+            "accion": "resalta",
+            "actor": "ojo"
+          },
+          {
+            "t": 24,
+            "accion": "subtitulo",
+            "texto": "La conciencia está en movimiento hacia el exterior, abierta a lo real sin límite."
+          }
+        ]
+      }
+    },
+    {
+      "id": "kant",
+      "nombre": "Emmanuel Kant",
+      "epoca": "siglo XVIII",
+      "tesis_principal": "El «yo» pensante es un principio y no un resultado: tener conciencia de actuar por uno mismo prueba una libertad absoluta (espontaneidad trascendental), condición de toda moralidad y responsabilidad. El yo trascendental es una capacidad universal de pensar, condición a priori de toda actividad teórica y práctica.",
+      "ideas_clave": [
+        "Es trascendental lo que trasciende los orígenes individuales y hace posible a priori nuestra manera de estar en el mundo (moi transcendantal)",
+        "La conciencia es una actividad de síntesis que unifica la diversidad infinita del mundo",
+        "El «Je» prueba que actúo por mí mismo: soy un principio y no un resultado (sujet qui agit / qui pâtit)",
+        "Argumento por el absurdo: si no fuera libre, no podría decir «yo lo hago» sino «siento en mí una gana suscitada por otro»",
+        "La libertad trascendental no se puede conocer, pero es racionalmente necesaria; es condición de toda moralidad porque implica la responsabilidad de quien actúa"
+      ],
+      "citas": [
+        {
+          "texto": "Est transcendantal dans le sujet ce qui transcende les origines individuelles et rend possible a priori sa manière d'être au […] monde.",
+          "idioma": "fr",
+          "obra": "Critique de la raison pure",
+          "pagina_pdf": 45
+        },
+        {
+          "texto": "Le « Je » prouve que j'agis par moi-même, que je suis un principe et non un résultat.",
+          "idioma": "fr",
+          "obra": "Leçons de métaphysique",
+          "pagina_pdf": 52
+        },
+        {
+          "texto": "ou bien le mot je est employé à contresens ou bien je suis libre",
+          "idioma": "fr",
+          "obra": "Leçons de métaphysique",
+          "pagina_pdf": 52
+        }
+      ],
+      "debate_con": [
+        "sartre",
+        "descartes"
+      ],
+      "como_usarlo_en_disertacion": "Ideal para sujetos sobre conciencia y libertad o responsabilidad (¿somos libres porque somos conscientes?). Se emplea en la parte en que se demuestra que la conciencia es condición de la libertad y de la conciencia moral, con el argumento por el absurdo del texto de Kant.",
+      "escena_sugerida": "Un hombre atado a una cadena que, si fuera real, le impediría decir «yo lo hago»; la prueba por el absurdo de su libertad.",
+      "pagina_pdf": 52,
+      "escena": {
+        "titulo": "Kant : le « Je » prouve ma liberté",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          {
+            "id": "yo",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": "Le « Je »"
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.65,
+              0.65
+            ],
+            "etiqueta": "Détermination extérieure"
+          },
+          {
+            "id": "libertad",
+            "tipo": "estrella",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": "Liberté transcendantale"
+          },
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.8,
+              0.25
+            ],
+            "etiqueta": "Responsabilité"
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "yo"
+          },
+          {
+            "t": 0.5,
+            "accion": "subtitulo",
+            "texto": "Kant: ¿qué prueba que soy libre?"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 3,
+            "accion": "une",
+            "de": "cadena",
+            "a": "yo",
+            "nota": "hypothèse : je ne suis pas libre"
+          },
+          {
+            "t": 4,
+            "accion": "piensa",
+            "actor": "yo",
+            "texto": "Sentiría una gana que otro suscitó en mí"
+          },
+          {
+            "t": 6,
+            "accion": "subtitulo",
+            "texto": "Hipótesis absurda: si no fuera libre, no podría decir «yo lo hago»."
+          },
+          {
+            "t": 9,
+            "accion": "tiembla",
+            "actor": "yo"
+          },
+          {
+            "t": 10,
+            "accion": "dice",
+            "actor": "yo",
+            "texto": "¡Pero yo digo: lo hago!"
+          },
+          {
+            "t": 11,
+            "accion": "desaparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 12,
+            "accion": "cita",
+            "texto": "ou bien le mot je est employé à contresens ou bien je suis libre"
+          },
+          {
+            "t": 14,
+            "accion": "aparece",
+            "actor": "libertad"
+          },
+          {
+            "t": 15,
+            "accion": "proyecta",
+            "de": "yo",
+            "a": "libertad",
+            "nota": "principe, non résultat"
+          },
+          {
+            "t": 16,
+            "accion": "subtitulo",
+            "texto": "El « yo » es principio y no resultado: actúa por sí mismo, con espontaneidad absoluta."
+          },
+          {
+            "t": 19,
+            "accion": "salta",
+            "actor": "yo"
+          },
+          {
+            "t": 20,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 21,
+            "accion": "une",
+            "de": "libertad",
+            "a": "balanza",
+            "nota": "condition de la moralité"
+          },
+          {
+            "t": 23,
+            "accion": "subtitulo",
+            "texto": "Sin esa libertad no habría conciencia moral: quien actúa es responsable."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sartre",
+      "nombre": "Jean-Paul Sartre",
+      "epoca": "siglo XX",
+      "tesis_principal": "Nuestro yo psicológico nos encierra y tranquiliza, pero oculta el yo trascendental, es decir, nuestra libertad radical de reinventar la vida. Por angustia, muchos se refugian en la mauvaise foi, en excusas y papeles sociales, en lugar de asumirse como autores de su propia vida.",
+      "ideas_clave": [
+        "El yo psicológico es fruto de la historia personal y nos encierra en un pequeño mundo tranquilizador",
+        "El yo trascendental es la capacidad de cambiar y reinventar la vida: una libertad absoluta que da vértigo y angustia",
+        "Mauvaise foi: mentira a uno mismo; se buscan excusas sociales, familiares o psicológicas y se juega un papel social",
+        "No decidir es decidir no hacer nada: elección del miedo y de la debilidad (según la corrección de la disertación)",
+        "El antisemitismo es una elección libre y total de uno mismo; el juicio sobre el otro da sentido a nuestra humanidad"
+      ],
+      "citas": [
+        {
+          "texto": "un choix libre et total de soi-même, une attitude globale que l'on adopte non seulement vis-à-vis des juifs, mais des hommes en général",
+          "idioma": "fr",
+          "obra": "Réflexions sur la question juive",
+          "pagina_pdf": 47
+        }
+      ],
+      "debate_con": [
+        "kant",
+        "hegel",
+        "descartes"
+      ],
+      "como_usarlo_en_disertacion": "Se emplea en las partes sobre las consecuencias existenciales de la conciencia: libertad como carga, mala fe y responsabilidad, y en la tercera parte de un plan sobre la conciencia que 'gobierna' mediante decisiones (no decidir es ya un elegir).",
+      "escena_sugerida": "Un hombre ante una puerta abierta (su libertad) que se esconde tras excusas hasta reconocerse autor de su vida.",
+      "pagina_pdf": 46,
+      "escena": {
+        "titulo": "Sartre : la mauvaise foi, fuir sa liberté",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          {
+            "id": "yo",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": "Moi psychologique"
+          },
+          {
+            "id": "casa",
+            "tipo": "casa",
+            "pos": [
+              0.15,
+              0.35
+            ],
+            "etiqueta": "Mon petit monde"
+          },
+          {
+            "id": "puerta",
+            "tipo": "puerta",
+            "pos": [
+              0.8,
+              0.5
+            ],
+            "etiqueta": "Ma liberté"
+          },
+          {
+            "id": "angustia",
+            "tipo": "nube",
+            "pos": [
+              0.6,
+              0.2
+            ],
+            "etiqueta": "Angoisse"
+          },
+          {
+            "id": "excusas",
+            "tipo": "caja",
+            "pos": [
+              0.5,
+              0.82
+            ],
+            "etiqueta": "Excuses"
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "yo"
+          },
+          {
+            "t": 0.5,
+            "accion": "subtitulo",
+            "texto": "Sartre: mi historia personal me tranquiliza y me encierra."
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "casa"
+          },
+          {
+            "t": 3,
+            "accion": "une",
+            "de": "yo",
+            "a": "casa",
+            "nota": "confort trompeur"
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "puerta"
+          },
+          {
+            "t": 6,
+            "accion": "resalta",
+            "actor": "puerta"
+          },
+          {
+            "t": 7,
+            "accion": "aparece",
+            "actor": "angustia"
+          },
+          {
+            "t": 7.5,
+            "accion": "tiembla",
+            "actor": "yo"
+          },
+          {
+            "t": 8,
+            "accion": "subtitulo",
+            "texto": "Mi yo trascendental: puedo reinventar mi vida. Esa libertad absoluta da vértigo."
+          },
+          {
+            "t": 11,
+            "accion": "dice",
+            "actor": "yo",
+            "texto": "No puedo: mi familia, mi pasado, mi papel…"
+          },
+          {
+            "t": 12.5,
+            "accion": "aparece",
+            "actor": "excusas"
+          },
+          {
+            "t": 13,
+            "accion": "etiqueta",
+            "actor": "excusas",
+            "texto": "Mauvaise foi"
+          },
+          {
+            "t": 14,
+            "accion": "subtitulo",
+            "texto": "Mala fe: esconderse tras excusas sociales, familiares o psicológicas."
+          },
+          {
+            "t": 17,
+            "accion": "desaparece",
+            "actor": "excusas"
+          },
+          {
+            "t": 17.5,
+            "accion": "desaparece",
+            "actor": "angustia"
+          },
+          {
+            "t": 18,
+            "accion": "mueve",
+            "actor": "yo",
+            "a": [
+              0.7,
+              0.65
+            ],
+            "dur": 3
+          },
+          {
+            "t": 20,
+            "accion": "resalta",
+            "actor": "puerta"
+          },
+          {
+            "t": 21,
+            "accion": "dice",
+            "actor": "yo",
+            "texto": "Soy el autor de mi propia vida"
+          },
+          {
+            "t": 23,
+            "accion": "subtitulo",
+            "texto": "La excusa tranquiliza pero es ilusoria: solo asumiendo la libertad soy autor de mi vida."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hegel",
+      "nombre": "Georg Wilhelm Friedrich Hegel",
+      "epoca": "siglo XIX",
+      "tesis_principal": "La conciencia de sí no es inmediata: se construye con el regard de l'autre. Lo que el ser humano desea sobre todo es ser reconocido como igual (dialéctica del amo y del esclavo), y el juicio ajeno influye en la imagen que tenemos de nosotros mismos. La conciencia, además, es lo que eleva al hombre sobre el animal.",
+      "ideas_clave": [
+        "La conciencia de sí se forja gracias a la mirada del otro (Phénoménologie de l'esprit)",
+        "Dialéctica del amo y del esclavo: el hombre quiere ser reconocido como igual y no rebajado u objetivado",
+        "El juicio de otros modela la imagen de uno mismo: llamar a un niño «bon à rien» lo lleva a creerlo y a comportarse así",
+        "La conciencia puede elevar la humanidad o rebajarla encerrándola en identidades predefinidas",
+        "Lo que eleva al hombre sobre el animal es la conciencia de ser un animal"
+      ],
+      "citas": [
+        {
+          "texto": "Ce qui élève l'homme par rapport […] à l'animal, c'est la conscience qu'il […] a […] d'être un animal. Et du fait qu'il […] sait qu'il est un animal, il cesse de […] l'être.",
+          "idioma": "fr",
+          "obra": "",
+          "pagina_pdf": 44
+        }
+      ],
+      "debate_con": [
+        "sartre",
+        "freud"
+      ],
+      "como_usarlo_en_disertacion": "Para sujetos sobre la conciencia de sí, el otro y el reconocimiento: demuestra que no nos conocemos solos, sino por el reconocimiento ajeno. Útil también para diferenciar al hombre del animal gracias a la conciencia.",
+      "escena_sugerida": "Un niño rebajado por el juicio de otro recupera su imagen cuando es reconocido como igual.",
+      "pagina_pdf": 47,
+      "escena": {
+        "titulo": "Hegel : la conscience de soi passe par autrui",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          {
+            "id": "nino",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": "L'enfant",
+            "escala": 0.8
+          },
+          {
+            "id": "otro",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.78,
+              0.45
+            ],
+            "etiqueta": "Autrui"
+          },
+          {
+            "id": "espejo",
+            "tipo": "espejo",
+            "pos": [
+              0.5,
+              0.3
+            ],
+            "etiqueta": "Image de soi"
+          },
+          {
+            "id": "reconocimiento",
+            "tipo": "corazon",
+            "pos": [
+              0.5,
+              0.12
+            ],
+            "etiqueta": "Reconnaissance"
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "nino"
+          },
+          {
+            "t": 0.5,
+            "accion": "subtitulo",
+            "texto": "Hegel: la conciencia de sí no es inmediata, se construye con la mirada del otro."
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "otro"
+          },
+          {
+            "t": 3.5,
+            "accion": "aparece",
+            "actor": "espejo"
+          },
+          {
+            "t": 4.5,
+            "accion": "dice",
+            "actor": "otro",
+            "texto": "¡Eres un bueno para nada!"
+          },
+          {
+            "t": 5.5,
+            "accion": "proyecta",
+            "de": "otro",
+            "a": "nino",
+            "nota": "bon à rien"
+          },
+          {
+            "t": 6.5,
+            "accion": "tiembla",
+            "actor": "nino"
+          },
+          {
+            "t": 7.5,
+            "accion": "piensa",
+            "actor": "nino",
+            "texto": "Quizá tiene razón…"
+          },
+          {
+            "t": 8.5,
+            "accion": "etiqueta",
+            "actor": "espejo",
+            "texto": "Image abaissée"
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": "El juicio ajeno modifica la imagen que tenemos de nosotros mismos."
+          },
+          {
+            "t": 13,
+            "accion": "etiqueta",
+            "actor": "otro",
+            "texto": "L'égal"
+          },
+          {
+            "t": 14,
+            "accion": "mueve",
+            "actor": "otro",
+            "a": [
+              0.6,
+              0.62
+            ],
+            "dur": 2
+          },
+          {
+            "t": 15.5,
+            "accion": "dice",
+            "actor": "otro",
+            "texto": "Te reconozco como mi igual"
+          },
+          {
+            "t": 16.5,
+            "accion": "etiqueta",
+            "actor": "espejo",
+            "texto": "Image juste"
+          },
+          {
+            "t": 17,
+            "accion": "salta",
+            "actor": "nino"
+          },
+          {
+            "t": 18,
+            "accion": "aparece",
+            "actor": "reconocimiento"
+          },
+          {
+            "t": 19,
+            "accion": "subtitulo",
+            "texto": "Amo y esclavo: el ser humano desea ante todo ser reconocido como igual, no como objeto."
+          },
+          {
+            "t": 23,
+            "accion": "cita",
+            "texto": "Ce qui élève l'homme par rapport à l'animal, c'est la conscience qu'il a d'être un animal."
+          },
+          {
+            "t": 25,
+            "accion": "subtitulo",
+            "texto": "La conciencia, formada con los demás, es lo que eleva al hombre."
+          }
+        ]
+      }
+    },
+    {
+      "id": "aristote",
+      "nombre": "Aristote",
+      "epoca": "siglo IV a.C.",
+      "tesis_principal": "Quien no actúa bajo coacción ni por ignorancia total de la consecuencia negativa debe asumir plena responsabilidad de su acto, aunque no haya elegido la situación. La conciencia del acto (su desarrollo y su fin) implica la responsabilidad del sujeto.",
+      "ideas_clave": [
+        "Son involuntarios los actos cumplidos por coacción (contrainte) o por ignorancia (ignorance)",
+        "Quien actúa sin coacción ni ignorancia total asume entera responsabilidad",
+        "La conciencia de un acto, de su desarrollo y de su finalidad, implica la responsabilidad del sujeto",
+        "Somos responsables porque poseemos libre albedrío (libre arbitre)",
+        "El alma es principio del pensamiento y abre a la libertad y a la moralidad (Vocabulaire: âme et conscience)"
+      ],
+      "citas": [
+        {
+          "texto": "Sont involontaires les actes […] accomplis par contrainte ou par […] ignorance.",
+          "idioma": "fr",
+          "obra": "Éthique à Nicomaque",
+          "pagina_pdf": 47
+        }
+      ],
+      "debate_con": [
+        "sartre",
+        "freud"
+      ],
+      "como_usarlo_en_disertacion": "Para sujetos sobre conciencia, responsabilidad y libertad: fundamenta que la responsabilidad moral supone conciencia del acto. Útil para distinguir acto voluntario e involuntario en la parte dedicada a la conciencia moral.",
+      "escena_sugerida": "Un hombre bajo coacción o ignorancia no responde de su acto, pero si sabe lo que hace asume la balanza de la responsabilidad.",
+      "pagina_pdf": 47,
+      "escena": {
+        "titulo": "Aristote : conscience et responsabilité",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          {
+            "id": "yo",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": "Le sujet"
+          },
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.8,
+              0.25
+            ],
+            "etiqueta": "Responsabilité"
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.55,
+              0.75
+            ],
+            "etiqueta": "Contrainte"
+          },
+          {
+            "id": "ignorancia",
+            "tipo": "nube",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": "Ignorance totale"
+          },
+          {
+            "id": "ojo",
+            "tipo": "ojo",
+            "pos": [
+              0.5,
+              0.45
+            ],
+            "etiqueta": "Conscience de l'acte"
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "yo"
+          },
+          {
+            "t": 0.5,
+            "accion": "subtitulo",
+            "texto": "Aristóteles: ¿cuándo somos responsables de lo que hacemos?"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 3.5,
+            "accion": "une",
+            "de": "cadena",
+            "a": "yo"
+          },
+          {
+            "t": 4.5,
+            "accion": "dice",
+            "actor": "yo",
+            "texto": "Me obligaron, yo no lo elegí"
+          },
+          {
+            "t": 6.5,
+            "accion": "aparece",
+            "actor": "ignorancia"
+          },
+          {
+            "t": 7.5,
+            "accion": "piensa",
+            "actor": "yo",
+            "texto": "No sabía las consecuencias de mi acto"
+          },
+          {
+            "t": 9,
+            "accion": "subtitulo",
+            "texto": "Un acto cumplido por coacción o por ignorancia total es involuntario."
+          },
+          {
+            "t": 12,
+            "accion": "cita",
+            "texto": "Sont involontaires les actes accomplis par contrainte ou par ignorance."
+          },
+          {
+            "t": 14,
+            "accion": "desaparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 14.2,
+            "accion": "desaparece",
+            "actor": "ignorancia"
+          },
+          {
+            "t": 15,
+            "accion": "aparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 15.5,
+            "accion": "une",
+            "de": "yo",
+            "a": "ojo"
+          },
+          {
+            "t": 16.5,
+            "accion": "dice",
+            "actor": "yo",
+            "texto": "Sé lo que hago y para qué: lo asumo"
+          },
+          {
+            "t": 18.5,
+            "accion": "proyecta",
+            "de": "ojo",
+            "a": "balanza",
+            "nota": "responsabilité entière"
+          },
+          {
+            "t": 20,
+            "accion": "resalta",
+            "actor": "balanza"
+          },
+          {
+            "t": 21,
+            "accion": "subtitulo",
+            "texto": "Conocer el desarrollo y el fin del acto implica la responsabilidad del sujeto."
+          },
+          {
+            "t": 24,
+            "accion": "subtitulo",
+            "texto": "Sin conciencia del acto, no hay responsabilidad moral."
+          }
+        ]
+      }
+    },
+    {
+      "id": "freud",
+      "nombre": "Sigmund Freud",
+      "epoca": "siglos XIX-XX",
+      "tesis_principal": "Freud observa que en ciertas especies animales existe una organización psíquica análoga a la humana, en particular el surmoi (superyó), censura interior que forma parte de la conciencia moral desde el punto de vista psicoanalítico. Cabe suponer así rudimentos de conciencia moral en algunos animales, sin que sea semejante a la del hombre.",
+      "ideas_clave": [
+        "El mundo animal ignora las prescripciones de la moral",
+        "El surmoi es una censura interior (censure intérieure), constitutiva de la conciencia moral desde la óptica psicoanalítica",
+        "Algunas especies tendrían los rudimentos de una conciencia moral, distinta de la humana",
+        "Para el hombre, la consecuencia y la intención son esenciales, pues su conciencia compromete toda su humanidad",
+        "La noción de inconscient (mencionada en la corrección) muestra el desfase entre la identidad reflexiva del yo y la identidad real"
+      ],
+      "citas": [],
+      "debate_con": [
+        "hegel",
+        "aristote"
+      ],
+      "como_usarlo_en_disertacion": "Para matizar la conciencia moral y la frontera hombre-animal en un tema sobre responsabilidad, y como apoyo de la parte que cuestiona la transparencia de la conciencia (límites de la introspección, noción de inconsciente).",
+      "escena_sugerida": "El animal ignora la moral, pero el superyó revela una organización psíquica análoga a la humana.",
+      "pagina_pdf": 44,
+      "escena": {
+        "titulo": "Freud : le surmoi, une censure intérieure",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          {
+            "id": "animal",
+            "tipo": "monigote",
+            "pos": [
+              0.72,
+              0.7
+            ],
+            "etiqueta": "L'animal",
+            "escala": 0.8
+          },
+          {
+            "id": "proceso",
+            "tipo": "balanza",
+            "pos": [
+              0.8,
+              0.3
+            ],
+            "etiqueta": "Procès ?"
+          },
+          {
+            "id": "duda",
+            "tipo": "interrogacion",
+            "pos": [
+              0.62,
+              0.3
+            ]
+          },
+          {
+            "id": "humano",
+            "tipo": "monigote",
+            "pos": [
+              0.25,
+              0.7
+            ],
+            "etiqueta": "L'homme"
+          },
+          {
+            "id": "surmoi",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.45,
+              0.28
+            ],
+            "etiqueta": "Surmoi"
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "animal"
+          },
+          {
+            "t": 0.5,
+            "accion": "subtitulo",
+            "texto": "Se piensa que el animal ignora por completo las prescripciones de la moral."
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "proceso"
+          },
+          {
+            "t": 3.5,
+            "accion": "aparece",
+            "actor": "duda"
+          },
+          {
+            "t": 4.5,
+            "accion": "tiembla",
+            "actor": "proceso"
+          },
+          {
+            "t": 5,
+            "accion": "subtitulo",
+            "texto": "¿Qué sentido tendría un proceso contra un animal?"
+          },
+          {
+            "t": 8,
+            "accion": "aparece",
+            "actor": "humano"
+          },
+          {
+            "t": 9,
+            "accion": "aparece",
+            "actor": "surmoi"
+          },
+          {
+            "t": 10,
+            "accion": "une",
+            "de": "surmoi",
+            "a": "humano",
+            "nota": "censure intérieure"
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": "Freud: el superyó es una censura interior, parte de la conciencia moral."
+          },
+          {
+            "t": 14.5,
+            "accion": "proyecta",
+            "de": "surmoi",
+            "a": "animal",
+            "nota": "organisation analogue"
+          },
+          {
+            "t": 15.5,
+            "accion": "resalta",
+            "actor": "animal"
+          },
+          {
+            "t": 16.5,
+            "accion": "piensa",
+            "actor": "animal",
+            "texto": "¿Tengo algo parecido a un superyó?"
+          },
+          {
+            "t": 19,
+            "accion": "subtitulo",
+            "texto": "Algunas especies tendrían rudimentos de conciencia moral, no idéntica a la humana."
+          },
+          {
+            "t": 22,
+            "accion": "desaparece",
+            "actor": "duda"
+          },
+          {
+            "t": 22.5,
+            "accion": "resalta",
+            "actor": "humano"
+          },
+          {
+            "t": 23,
+            "accion": "dice",
+            "actor": "humano",
+            "texto": "Mi conciencia compromete toda mi humanidad"
+          },
+          {
+            "t": 25,
+            "accion": "subtitulo",
+            "texto": "Para el hombre, intención y consecuencia son esenciales."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nietzsche",
+      "nombre": "Friedrich Nietzsche",
+      "epoca": "siglo XIX",
+      "tesis_principal": "Las ciencias humanas muestran la interacción continua entre conciencia y cuerpo (enfermedades psicosomáticas, efecto placebo): para Nietzsche, el verdadero cogito es un cogito corporal. Esto contrasta con la imagen cartesiana de una conciencia separable del cuerpo.",
+      "ideas_clave": [
+        "Interacción continua entre conciencia y cuerpo: maladies psychosomatiques, effet placebo",
+        "«Le vrai cogito est un cogito corporel»",
+        "Crítica implícita a la separación cartesiana de alma y cuerpo",
+        "El cerebro aparece como sede casi incuestionable de la conciencia (conocimientos fisiológicos)"
+      ],
+      "citas": [
+        {
+          "texto": "le vrai cogito est un cogito corporel",
+          "idioma": "fr",
+          "obra": "",
+          "pagina_pdf": 46
+        }
+      ],
+      "debate_con": [
+        "descartes"
+      ],
+      "como_usarlo_en_disertacion": "Para objetar la tesis de una conciencia independiente del cuerpo en una parte crítica del plan (por ejemplo sobre el cogito o el yo). Se complementa con Descartes, que él mismo reconoce la unión alma-cuerpo.",
+      "escena_sugerida": "Una conciencia flotante cree ser independiente del cuerpo, pero placebo y dolor la desmienten.",
+      "pagina_pdf": 46,
+      "escena": {
+        "titulo": "Nietzsche : le vrai cogito est un cogito corporel",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          {
+            "id": "cuerpo",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.7
+            ],
+            "etiqueta": "Le corps"
+          },
+          {
+            "id": "mente",
+            "tipo": "cerebro",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": "Conscience"
+          },
+          {
+            "id": "placebo",
+            "tipo": "caja",
+            "pos": [
+              0.18,
+              0.5
+            ],
+            "etiqueta": "Effet placebo"
+          },
+          {
+            "id": "dolor",
+            "tipo": "fuego",
+            "pos": [
+              0.82,
+              0.6
+            ],
+            "etiqueta": "Douleur, faim"
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "cuerpo"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "mente"
+          },
+          {
+            "t": 1,
+            "accion": "subtitulo",
+            "texto": "Se imagina la conciencia separada del cuerpo, como un piloto en su barco."
+          },
+          {
+            "t": 4,
+            "accion": "mueve",
+            "actor": "mente",
+            "a": [
+              0.5,
+              0.1
+            ],
+            "dur": 2
+          },
+          {
+            "t": 5,
+            "accion": "piensa",
+            "actor": "mente",
+            "texto": "Soy independiente del cuerpo"
+          },
+          {
+            "t": 7,
+            "accion": "aparece",
+            "actor": "placebo"
+          },
+          {
+            "t": 8,
+            "accion": "proyecta",
+            "de": "placebo",
+            "a": "cuerpo",
+            "nota": "interaction"
+          },
+          {
+            "t": 9,
+            "accion": "aparece",
+            "actor": "dolor"
+          },
+          {
+            "t": 10,
+            "accion": "proyecta",
+            "de": "dolor",
+            "a": "cuerpo"
+          },
+          {
+            "t": 11,
+            "accion": "tiembla",
+            "actor": "cuerpo"
+          },
+          {
+            "t": 12,
+            "accion": "proyecta",
+            "de": "cuerpo",
+            "a": "mente",
+            "nota": "maladies psychosomatiques"
+          },
+          {
+            "t": 13,
+            "accion": "tiembla",
+            "actor": "mente"
+          },
+          {
+            "t": 14,
+            "accion": "subtitulo",
+            "texto": "Las ciencias humanas muestran una interacción continua entre conciencia y cuerpo."
+          },
+          {
+            "t": 17,
+            "accion": "mueve",
+            "actor": "mente",
+            "a": [
+              0.5,
+              0.35
+            ],
+            "dur": 2
+          },
+          {
+            "t": 18.5,
+            "accion": "une",
+            "de": "mente",
+            "a": "cuerpo"
+          },
+          {
+            "t": 19,
+            "accion": "cita",
+            "texto": "le vrai cogito est un cogito corporel"
+          },
+          {
+            "t": 21,
+            "accion": "etiqueta",
+            "actor": "mente",
+            "texto": "Cogito corporel"
+          },
+          {
+            "t": 22,
+            "accion": "resalta",
+            "actor": "cuerpo"
+          },
+          {
+            "t": 23,
+            "accion": "subtitulo",
+            "texto": "Nietzsche: la conciencia no es un piloto independiente, es inseparable del cuerpo."
+          }
+        ]
+      }
+    },
+    {
+      "id": "valery",
+      "nombre": "Paul Valéry",
+      "epoca": "siglos XIX-XX",
+      "tesis_principal": "Valéry compara la conciencia con un monarca constitucional: «la conscience règne mais ne gouverne pas». Sería una instancia que acompaña la conducta sin dirigirla, lo que invita a preguntarse si otra instancia (la noción de inconscient) dicta su ley a la conciencia.",
+      "ideas_clave": [
+        "Metáfora política: la conciencia reina (es constitutiva del hombre) pero no gobierna (monarchie constitutionnelle)",
+        "La conciencia decide, pero no siempre domina las razones verdaderas de sus elecciones",
+        "Concepción opuesta a la conciencia como interioridad y condición de la libertad: advierte contra las ilusiones de una conciencia introspectiva que se conocería perfectamente",
+        "La corrección matiza: se puede aceptar una conciencia seconde pero no secondaire; comprender lo que se impone permite controlarlo"
+      ],
+      "citas": [
+        {
+          "texto": "la conscience règne mais ne gouverne pas",
+          "idioma": "fr",
+          "obra": "",
+          "pagina_pdf": 52
+        }
+      ],
+      "debate_con": [
+        "kant",
+        "sartre",
+        "descartes"
+      ],
+      "como_usarlo_en_disertacion": "Es el sujeto del libro: sirve para plantear la primera parte (conciencia de poder limitado), y para discutir después con Sartre y Kant que la conciencia gobierna mediante decisiones.",
+      "escena_sugerida": "Un rey con corona que anuncia decisiones tomadas por otra instancia, hasta que se reconoce su autonomía.",
+      "pagina_pdf": 52,
+      "escena": {
+        "titulo": "Valéry : la conscience règne mais ne gouverne pas",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          {
+            "id": "rey",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": "La conscience"
+          },
+          {
+            "id": "corona",
+            "tipo": "corona",
+            "pos": [
+              0.3,
+              0.45
+            ]
+          },
+          {
+            "id": "poder",
+            "tipo": "engranaje",
+            "pos": [
+              0.78,
+              0.3
+            ],
+            "etiqueta": "Autre instance"
+          },
+          {
+            "id": "decisiones",
+            "tipo": "caja",
+            "pos": [
+              0.75,
+              0.72
+            ],
+            "etiqueta": "Décisions"
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "rey"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "corona"
+          },
+          {
+            "t": 1.5,
+            "accion": "subtitulo",
+            "texto": "Valéry usa una metáfora política: la conciencia sería un monarca constitucional."
+          },
+          {
+            "t": 4.5,
+            "accion": "aparece",
+            "actor": "poder"
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "decisiones"
+          },
+          {
+            "t": 6.5,
+            "accion": "proyecta",
+            "de": "poder",
+            "a": "decisiones"
+          },
+          {
+            "t": 7.5,
+            "accion": "proyecta",
+            "de": "decisiones",
+            "a": "rey",
+            "nota": "porte-parole"
+          },
+          {
+            "t": 8.5,
+            "accion": "dice",
+            "actor": "rey",
+            "texto": "Solo anuncio decisiones que no tomé"
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": "Reina pero no gobierna: acompaña la conducta sin guiarla."
+          },
+          {
+            "t": 14,
+            "accion": "resalta",
+            "actor": "poder"
+          },
+          {
+            "t": 15,
+            "accion": "cita",
+            "texto": "la conscience règne mais ne gouverne pas"
+          },
+          {
+            "t": 17,
+            "accion": "tiembla",
+            "actor": "rey"
+          },
+          {
+            "t": 18,
+            "accion": "piensa",
+            "actor": "rey",
+            "texto": "Pero decido, elijo, tomo la iniciativa…"
+          },
+          {
+            "t": 20,
+            "accion": "resalta",
+            "actor": "corona"
+          },
+          {
+            "t": 21,
+            "accion": "subtitulo",
+            "texto": "Comprender lo que se impone permite controlarlo: la conciencia decide de verdad."
+          },
+          {
+            "t": 25,
+            "accion": "subtitulo",
+            "texto": "Hay una conciencia seconde, pero no secondaire: cierta autonomía permanece."
+          }
+        ]
+      }
+    }
+  ],
+  "relaciones": [
+    {
+      "de": "descartes",
+      "a": "husserl",
+      "tipo": "influye",
+      "nota": "Husserl hereda el cogito cartesiano (Méditations cartésiennes) pero lo abre al mundo como intencionalidad."
+    },
+    {
+      "de": "descartes",
+      "a": "kant",
+      "tipo": "influye",
+      "nota": "La distinción cartesiana entre yo psicológico y yo metafísico se prolonga en el yo trascendental kantiano."
+    },
+    {
+      "de": "descartes",
+      "a": "sartre",
+      "tipo": "influye",
+      "nota": "Sartre extrae las consecuencias existenciales de las distinciones cartesianas del yo."
+    },
+    {
+      "de": "kant",
+      "a": "sartre",
+      "tipo": "complementa",
+      "nota": "Ambos vinculan conciencia y libertad absoluta, que implica responsabilidad."
+    },
+    {
+      "de": "nietzsche",
+      "a": "descartes",
+      "tipo": "se opone",
+      "nota": "El verdadero cogito es un cogito corporal frente a la conciencia separada del cuerpo."
+    },
+    {
+      "de": "hegel",
+      "a": "sartre",
+      "tipo": "complementa",
+      "nota": "Ambos muestran que el juicio y la mirada del otro configuran la conciencia de uno mismo."
+    },
+    {
+      "de": "aristote",
+      "a": "kant",
+      "tipo": "complementa",
+      "nota": "Responsabilidad ligada al acto voluntario y consciente, y a la libertad como condición de la moralidad."
+    },
+    {
+      "de": "valery",
+      "a": "kant",
+      "tipo": "se opone",
+      "nota": "Frente a un yo libre y principio de sus actos, la conciencia reinaría pero no gobernaría."
+    },
+    {
+      "de": "freud",
+      "a": "aristote",
+      "tipo": "complementa",
+      "nota": "El superyó como censura interior se vincula a la conciencia moral y a la responsabilidad."
+    },
+    {
+      "de": "husserl",
+      "a": "intentionnalite",
+      "tipo": "influye",
+      "nota": "Husserl formula la conciencia como intencionalidad."
+    },
+    {
+      "de": "sartre",
+      "a": "mauvaise-foi",
+      "tipo": "influye",
+      "nota": "Sartre invoca la mala fe para negar el yo trascendental."
+    },
+    {
+      "de": "descartes",
+      "a": "cogito",
+      "tipo": "influye",
+      "nota": "Descartes establece el cogito a partir de la duda."
+    }
+  ],
+  "quiz": [
+    {
+      "pregunta": "Qu'est-ce que la conscience (étymologie : cum scientia) ?",
+      "opciones": [
+        "Un objet",
+        "Un savoir accompagné d'une expérience directe du monde",
+        "Un instinct",
+        "Une illusion"
+      ],
+      "correcta": 1,
+      "explicacion": "El corrigé acepta «un savoir» y «une expérience»: cum scientia significa «accompagné de savoir» y permite la experiencia directa del mundo.",
+      "filosofo": null,
+      "pagina_pdf": 42
+    },
+    {
+      "pregunta": "Douter, c'est ... :",
+      "opciones": [
+        "rêver",
+        "croire",
+        "oublier",
+        "penser"
+      ],
+      "correcta": 3,
+      "explicacion": "Para Descartes, dudar implica un «je» que duda: douter, c'est penser, y de ahí surge la certeza del cogito.",
+      "filosofo": "descartes",
+      "pagina_pdf": 45
+    },
+    {
+      "pregunta": "Selon Husserl, la conscience est ... :",
+      "opciones": [
+        "détermination",
+        "intériorité",
+        "intentionnalité",
+        "habitude"
+      ],
+      "correcta": 2,
+      "explicacion": "Para Husserl, toda conciencia es conciencia de algo: es «intentionnalité», siempre abierta al mundo.",
+      "filosofo": "husserl",
+      "pagina_pdf": 44
+    },
+    {
+      "pregunta": "Quelles sont les deux formes d'application de la conscience ?",
+      "opciones": [
+        "Scientifique et littéraire",
+        "Culturelle et sociale",
+        "Individuelle et collective",
+        "Théorique et pratique"
+      ],
+      "correcta": 3,
+      "explicacion": "El yo metafísico o trascendental es condición necesaria de toda actividad teórica y práctica (corrigé del QCM: c).",
+      "filosofo": "kant",
+      "pagina_pdf": 45
+    },
+    {
+      "pregunta": "La conscience nous permet de ... :",
+      "opciones": [
+        "supprimer nos émotions",
+        "accepter notre destin",
+        "faire varier nos manières d'exister",
+        "ignorer le monde"
+      ],
+      "correcta": 2,
+      "explicacion": "Según el cours, elevar nuestra conciencia nos lleva a hacer variar nuestra manera de existir (corrigé: b).",
+      "filosofo": null,
+      "pagina_pdf": 42
+    },
+    {
+      "pregunta": "Lorsque Descartes dit « cogito, ergo sum », le « je » est-il :",
+      "opciones": [
+        "psychologique (ou empirique)",
+        "personnel",
+        "social",
+        "métaphysique (ou transcendantal)"
+      ],
+      "correcta": 3,
+      "explicacion": "El cogito no es una simple certeza psicológica sino de orden metafísico: el yo trascendental es universal (corrigé: b).",
+      "filosofo": "descartes",
+      "pagina_pdf": 45
+    },
+    {
+      "pregunta": "La « mauvaise foi » sartrienne est-elle :",
+      "opciones": [
+        "un mensonge fait à soi-même",
+        "un refus de croire",
+        "un mensonge fait aux autres",
+        "une erreur de jugement"
+      ],
+      "correcta": 0,
+      "explicacion": "Para Sartre la mauvaise foi es negar el propio yo trascendental y la libertad con excusas, un engaño a uno mismo (corrigé: a).",
+      "filosofo": "sartre",
+      "pagina_pdf": 46
+    },
+    {
+      "pregunta": "Sur le plan pratique, à quoi la conscience oblige-t-elle ?",
+      "opciones": [
+        "À rester neutre",
+        "À ne rien faire",
+        "À douter toujours",
+        "À choisir"
+      ],
+      "correcta": 3,
+      "explicacion": "Si en el plano teórico se puede permanecer escéptico, en la acción hay que elegir, como los viajeros perdidos en el bosque de Descartes (corrigé: c).",
+      "filosofo": "descartes",
+      "pagina_pdf": 47
+    },
+    {
+      "pregunta": "Les jugements d'autrui nous permettent de ... :",
+      "opciones": [
+        "mieux nous aimer",
+        "réfléchir",
+        "prendre conscience de nous-même",
+        "oublier notre passé"
+      ],
+      "correcta": 2,
+      "explicacion": "La conciencia de sí se construye por la mirada del otro (Hegel, maître et esclave); el juicio ajeno influye en la imagen que tenemos de nosotros (corrigé: a).",
+      "filosofo": "hegel",
+      "pagina_pdf": 47
+    },
+    {
+      "pregunta": "Quelle différence entre le doute de Descartes et celui de Montaigne ?",
+      "opciones": [
+        "Les deux sont sceptiques et sans fin",
+        "Celui de Descartes est méthodique et prend fin avec le cogito ; celui de Montaigne est sceptique et ne prend jamais fin",
+        "Celui de Descartes est sceptique et celui de Montaigne méthodique",
+        "Aucune, les deux se limitent à la pratique"
+      ],
+      "correcta": 1,
+      "explicacion": "Según «Pour réussir le jour J!»: el doute cartesiano es radical pero metódico y concluye con el cogito; el de Montaigne no encuentra criterio de certeza y nunca termina.",
+      "filosofo": "descartes",
+      "pagina_pdf": 50
+    },
+    {
+      "pregunta": "Que signifie la formule de Valéry « la conscience règne mais ne gouverne pas » ?",
+      "opciones": [
+        "La conscience est un tyran absolu",
+        "La conscience est comparable à un monarque constitutionnel qui accompagne la conduite sans la guider",
+        "La conscience est supprimée par la loi",
+        "La conscience gouverne toujours ses désirs"
+      ],
+      "correcta": 1,
+      "explicacion": "El corrigé explica que Valéry usa una metáfora política: como un monarca constitucional, la conciencia acompaña nuestra conducta pero no la guía.",
+      "filosofo": "valery",
+      "pagina_pdf": 53
+    },
+    {
+      "pregunta": "Selon Aristote, quels actes sont involontaires ?",
+      "opciones": [
+        "Ceux accomplis par contrainte ou par ignorance",
+        "Ceux que l'on regrette",
+        "Ceux que l'on n'avait pas prévus",
+        "Ceux que la loi interdit"
+      ],
+      "correcta": 0,
+      "explicacion": "Aristóteles: «Sont involontaires les actes accomplis par contrainte ou par ignorance»; en los demás casos el sujeto asume su responsabilidad.",
+      "filosofo": "aristote",
+      "pagina_pdf": 47
+    },
+    {
+      "pregunta": "Pourquoi la connaissance de soi par introspection n'est-elle jamais parfaite ?",
+      "opciones": [
+        "Parce que nous manquons de mémoire",
+        "Parce que la conscience de soi est rétrospective et que le moi est un acte toujours en devenir",
+        "Parce que l'introspection est interdite",
+        "Parce que les autres nous connaissent mieux"
+      ],
+      "correcta": 1,
+      "explicacion": "El cours señala la ambigüedad de nuestros sentimientos, que la conciencia de sí es siempre retrospectiva y que el yo no es una cosa sino un acto en devenir.",
+      "filosofo": null,
+      "pagina_pdf": 48
+    }
+  ],
+  "preguntas_abiertas": [
+    {
+      "enunciado": "Peut-on dire avec Valéry que « la conscience règne mais ne gouverne pas » ?",
+      "puntos_clave": [
+        "Explicar la metáfora política: monarquía constitucional, conciencia que acompaña sin guiar",
+        "I. Poder limitado de la conciencia: no domina siempre las razones de sus elecciones; otra instancia (inconscient) podría dictar su ley",
+        "II. Comprender lo que se impone (no elegimos nacer ni ser lo que somos) para intentar controlar sus efectos",
+        "III. La conciencia gobierna al decidir: Sartre (ne pas décider, c'est décider) y Descartes (necesidad de elegir en la acción)",
+        "Conclusión: cierta autonomía de la conciencia; una conciencia seconde, no secondaire"
+      ],
+      "filosofos": [
+        "valery",
+        "sartre",
+        "descartes"
+      ],
+      "pagina_pdf": 53
+    },
+    {
+      "enunciado": "La conscience permet-elle une parfaite connaissance de soi ?",
+      "puntos_clave": [
+        "Presentar la ilusión de transparencia de la introspección (sujeto y objeto del conocimiento)",
+        "Ambigüedad de los sentimientos: tomar el odio por amor, ejemplo de Le nœud de vipères de Mauriac",
+        "La conciencia de sí es retrospectiva: la introspección alcanza el recuerdo, no el estado vivido",
+        "El yo no es una cosa sino un acto en devenir, y se chosifie al querer captarlo",
+        "La mirada del otro (Hegel) y el yo trascendental oculto por la mauvaise foi (Sartre) matizan la idea de autotransparencia"
+      ],
+      "filosofos": [
+        "hegel",
+        "sartre"
+      ],
+      "pagina_pdf": 48
+    },
+    {
+      "enunciado": "Expliquez la thèse de Kant : « Le « Je » prouve que j'agis par moi-même, que je suis un principe et non un résultat. »",
+      "puntos_clave": [
+        "Tesis: al decir «je», el hombre se pone como origen de su acción; el cogito es comienzo absoluto, marca de libertad",
+        "Oposición principio / resultado y sujeto que pâtit / sujeto que agit; principe interne de l'activité frente a détermination extérieure",
+        "Libertad positiva como espontaneidad absoluta, frente a una libertad negativa dependiente de estímulos",
+        "Argumento por el absurdo: si no soy libre, no puedo decir «je le fais»; sin embargo lo digo, luego soy libre",
+        "La libertad trascendental es condición de la moralidad: implica la responsabilidad de quien actúa"
+      ],
+      "filosofos": [
+        "kant"
+      ],
+      "pagina_pdf": 55
+    },
+    {
+      "enunciado": "Conscience réfléchie rime-t-elle nécessairement avec conscience morale ?",
+      "puntos_clave": [
+        "Diferenciar conciencia espontánea y reflexiva (conscientisation)",
+        "Límites: la ley francesa exime de responsabilidad penal si hay trastorno psíquico; la conciencia moral varía según épocas y culturas",
+        "Aristóteles: sin coacción ni ignorancia total, el sujeto es responsable; la conciencia del acto implica responsabilidad",
+        "Freud: el surmoi como censura interior; posibles rudimentos de conciencia moral en el animal",
+        "Hegel: lo que eleva al hombre sobre el animal es la conciencia de ser un animal"
+      ],
+      "filosofos": [
+        "aristote",
+        "freud",
+        "hegel"
+      ],
+      "pagina_pdf": 44
+    }
+  ],
+  "disertaciones": [
+    {
+      "sujeto": "Peut-on dire avec Valéry que « la conscience règne mais ne gouverne pas » ?",
+      "tipo_plan": "dialectique",
+      "problematica": "Valéry compara la conciencia con un monarca constitucional que acompaña la conducta sin guiarla. Hay que preguntarse si es necesario suponer otra instancia que dicte su ley a la conciencia, o si ésta conserva una verdadera autonomía de decisión.",
+      "plan": [
+        {
+          "parte": "I. La conscience : une instance au pouvoir limité",
+          "idea": "La conciencia reina como constitutiva del hombre, pero puede ser un representante «fantoche» de un poder que se le escapa: decide sin dominar siempre las razones de sus elecciones.",
+          "autores": [
+            "valery"
+          ],
+          "ejemplo": "La monarquía constitucional, y la noción de inconscient que muestra el desfase entre identidad reflexiva y real."
+        },
+        {
+          "parte": "II. Comprendre ce qui s'impose à soi pour tenter d'en contrôler les effets",
+          "idea": "No elegimos nacer ni nuestro carácter o educación; podemos asumir lo que somos y renovar la tradición recibida, recuperando indirectamente cierto control.",
+          "autores": [
+            "valery"
+          ],
+          "ejemplo": "Aceptar una tradición cultural renovándola y haciéndola vivir a nuestra manera."
+        },
+        {
+          "parte": "III. La prise de décision, preuve d'une gouvernance de la conscience",
+          "idea": "La conciencia toma decisiones sin cesar, es activa y selectiva; no decidir es ya elegir. En la acción la conciencia está sola y no puede esconderse tras excusas.",
+          "autores": [
+            "sartre",
+            "descartes"
+          ],
+          "ejemplo": "Los viajeros extraviados en el bosque (Descartes) y la elección de no hacer nada como elección de miedo (Sartre)."
+        }
+      ],
+      "pagina_pdf": 53
+    },
+    {
+      "sujeto": "La conscience permet-elle une parfaite connaissance de soi ?",
+      "tipo_plan": "dialectique",
+      "problematica": "La introspección parece dar un acceso transparente a uno mismo, siendo sujeto y objeto del conocimiento. Hay que ver si la conciencia basta para conocerse perfectamente o si otros factores se lo impiden.",
+      "plan": [
+        {
+          "parte": "I. L'illusion de la transparence : la conscience comme connaissance de soi",
+          "idea": "Gracias a la conciencia, el hombre parece poder volverse sobre sí mismo para comprender sus decisiones y pasiones; el cogito es una evidencia inquebrantable.",
+          "autores": [
+            "descartes"
+          ],
+          "ejemplo": "El cogito: la certeza inmediata de que pienso."
+        },
+        {
+          "parte": "II. Les limites de l'introspection",
+          "idea": "Los sentimientos son ambiguos, la conciencia de sí es retrospectiva y el yo es un acto en devenir que se chosifie al querer captarlo; además la mauvaise foi oculta nuestra libertad.",
+          "autores": [
+            "sartre"
+          ],
+          "ejemplo": "Le nœud de vipères de Mauriac, el viejo que cree ser odiado y descubre que puede amar."
+        },
+        {
+          "parte": "III. Autrui et la construction de la conscience de soi",
+          "idea": "La conciencia de sí es una construcción progresiva en la que el regard d'autrui interviene: sólo somos reconocidos y nos conocemos en la intersubjetividad.",
+          "autores": [
+            "hegel",
+            "husserl"
+          ],
+          "ejemplo": "El niño calificado de «bon à rien» y la dialéctica del amo y del esclavo."
+        }
+      ],
+      "pagina_pdf": 48
+    },
+    {
+      "sujeto": "La conscience est-elle la condition de la liberté et de la responsabilité ?",
+      "tipo_plan": "progressif",
+      "problematica": "Sin conciencia no habría moral ni derecho. Hay que mostrar que la conciencia es condición de la libertad y de la responsabilidad, pero también que puede ser negada o evitada, y que tiene límites (psicológicos, biológicos).",
+      "plan": [
+        {
+          "parte": "I. La conscience, condition de l'acte volontaire",
+          "idea": "El acto voluntario supone conciencia de su desarrollo y de su fin; quien no actúa bajo coacción ni ignorancia total es responsable.",
+          "autores": [
+            "aristote"
+          ],
+          "ejemplo": "La ley de 1992: no es penalmente responsable quien sufre un trastorno que abolió su discernimiento."
+        },
+        {
+          "parte": "II. Le « Je » libre et sa responsabilité",
+          "idea": "El «Je» pensante prueba que actúo por mí mismo: la libertad trascendental es condición de la moralidad. La conciencia nos abre a la libertad.",
+          "autores": [
+            "kant",
+            "descartes"
+          ],
+          "ejemplo": "El argumento por el absurdo de Kant: sin libertad no podría decir «je le fais»."
+        },
+        {
+          "parte": "III. Fuir ou assumer sa liberté",
+          "idea": "La libertad radical da vértigo y se evita mediante la mauvaise foi; pero ante el choix inevitable la conciencia debe asumir la responsabilidad fundamental.",
+          "autores": [
+            "sartre"
+          ],
+          "ejemplo": "El individuo que se esconde tras excusas sociales, familiares o psicológicas."
+        }
+      ],
+      "pagina_pdf": 46
+    }
+  ]
+}

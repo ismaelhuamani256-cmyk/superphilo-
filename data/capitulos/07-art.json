@@ -1,0 +1,631 @@
+{
+  "id": "art",
+  "numero": 7,
+  "titulo": "L'art",
+  "titulo_es": "El arte",
+  "resumen": "El capítulo se pregunta si el arte es una imitación de la naturaleza (Platón y Aristóteles), una creación espiritual que transfigura lo real y nos enseña a mirar (Hegel, Bergson, Klee), qué tiene de singular el placer y el juicio estético (Kant) y qué relación guarda el arte con la moral: no tiene finalidad moralizadora, pero eleva la humanidad.",
+  "paginas": { "inicio": 126, "fin": 139 },
+  "puntos_incontournables": [
+    "El concepto de mímesis: los griegos distinguían la imitación (mimèsis) de la copia de la naturaleza, que es siempre, en el mejor de los casos, mediocre porque priva al objeto imitado de sus propiedades vivas.",
+    "El arte como medio de aportar una mirada singular sobre el mundo: es el espejo de la conciencia humana, una exteriorización de la mirada del artista.",
+    "El placer estético: descansa en el acuerdo de todas nuestras facultades (sensibilidad, imaginación, razón) sin que ninguna domine ni excluya a las otras.",
+    "Evaluar las obras de arte: el juicio estético no es tan objetivo como un juicio científico, pero tiene cierta universalidad; se cultiva y se desarrolla en contacto con las obras.",
+    "El arte es amoral: si no tiene en cuenta la moral, permite sin embargo elevar nuestra humanidad y aumentar nuestra conciencia moral (art et morale)."
+  ],
+  "nociones_clave": ["mimèsis", "simulacre", "imitation créatrice", "précision / exactitude", "plaisir esthétique", "jugement de goût", "l'agréable et le Beau", "moralisme", "figuratif et abstrait", "chef-d'œuvre"],
+  "problematicas_bac": [
+    "Dans le domaine esthétique, est-il légitime de dire : « À chacun son goût » ?",
+    "L'art est-il une imitation de la nature ?",
+    "Un jugement de goût peut-il prétendre à l'universalité ?",
+    "L'art doit-il être au service de la morale ?"
+  ],
+  "conceptos": [
+    {
+      "id": "mimesis",
+      "nombre": "Mimèsis (imitation)",
+      "definicion": "Imitar no es copiar: para Platón es un simulacro de la apariencia del modelo; para Aristóteles, un modo de conocer y de restituir la vida de la naturaleza (imitación creadora).",
+      "pagina_pdf": 127,
+      "autores": ["platon", "aristote", "ricoeur"]
+    },
+    {
+      "id": "precision-exactitude",
+      "nombre": "Précision et exactitude",
+      "definicion": "La precisión es el trabajo que borra sus propias huellas hasta que la obra parece natural; la exactitud sería la copia fiel de la naturaleza. El gran artista busca la primera, no la segunda (ejemplo: la Odalisque de Ingres).",
+      "pagina_pdf": 128,
+      "autores": ["aristote"]
+    },
+    {
+      "id": "genie-chef-oeuvre",
+      "nombre": "Génie et chef-d'œuvre",
+      "definicion": "Desde el siglo XVII el artista es un genio con capacidades naturales fuera de lo común. Una obra se vuelve obra maestra cuando adquiere valor universal y supera su época y su lugar de creación.",
+      "pagina_pdf": 127,
+      "autores": []
+    },
+    {
+      "id": "plaisir-esthetique",
+      "nombre": "Plaisir esthétique",
+      "definicion": "Placer que nace del libre juego y del acuerdo de todas nuestras facultades; a diferencia del conocimiento, no bride la imaginación ni busca ninguna utilidad.",
+      "pagina_pdf": 130,
+      "autores": ["kant", "hegel"]
+    },
+    {
+      "id": "agreable-beau",
+      "nombre": "L'agréable et le Beau",
+      "definicion": "Lo agradable satisface el placer de los sentidos y vale solo para uno mismo; lo Bello intenta superar el placer sensual para juzgar el valor estético de una obra.",
+      "pagina_pdf": 134,
+      "autores": ["kant"]
+    },
+    {
+      "id": "jugement-de-gout",
+      "nombre": "Jugement de goût",
+      "definicion": "Juicio personal que pretende la universalidad como ideal (no como unanimidad de hecho); no se demuestra, solo se muestra, y se forma con cultura y frecuentación de las obras.",
+      "pagina_pdf": 131,
+      "autores": ["kant"]
+    },
+    {
+      "id": "art-et-morale",
+      "nombre": "L'art et la morale (moralisme)",
+      "definicion": "El arte no tiene finalidad moralizadora ni ideológica (el moralismo afirma dogmáticamente principios), pero una obra es un símbolo de moralidad pues supone una humanidad capaz de desprenderse del instinto animal.",
+      "pagina_pdf": 132,
+      "autores": ["kant"]
+    }
+  ],
+  "filosofos": [
+    {
+      "id": "platon",
+      "nombre": "Platon",
+      "epoca": "siglo IV a. C.",
+      "tesis_principal": "El arte imitativo es un simulacro: copia la apariencia y no la realidad, por lo que está lejos de la verdad y el pintor es un falsificador de lo real.",
+      "ideas_clave": [
+        "La pintura imita la apariencia, no la realidad (mimèsis comme simulacre)",
+        "La naturaleza es la mayor de las artistas, representación de la perfección",
+        "El resultado del pintor es un moindre-être: existe, pero no alcanza la esencia del objeto",
+        "El pintor puede reproducir un lit, pero nunca dominará el arte del menuisier"
+      ],
+      "citas": [
+        { "texto": "Quel but se propose la peinture relativement à chaque objet ? Est-ce de représenter ce qui est tel qu’il est, ou ce qui paraît tel qu’il paraît ; est-ce l’imitation de l’apparence ou de la réalité ?", "idioma": "fr", "obra": "République, livre X", "pagina_pdf": 127 },
+        { "texto": "l’art d’imiter est donc bien éloigné du vrai", "idioma": "fr", "obra": "République, livre X", "pagina_pdf": 127 }
+      ],
+      "debate_con": ["aristote"],
+      "como_usarlo_en_disertacion": "Úsalo como tesis de partida en un sujeto sobre si el arte imita la naturaleza: la imitación aleja de la verdad. Sirve para abrir la primera parte de un plan dialéctico, antes de la rehabilitación aristotélica.",
+      "escena_sugerida": "La Idea del lecho, el carpintero que lo fabrica y el pintor que solo copia su apariencia.",
+      "pagina_pdf": 127,
+      "escena": {
+        "titulo": "Platon : l'art, simulacre éloigné du vrai",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          { "id": "idea", "tipo": "estrella", "pos": [0.5, 0.15], "etiqueta": "Le lit parfait", "escala": 1.2 },
+          { "id": "menuisier", "tipo": "monigote", "pos": [0.2, 0.7], "etiqueta": "Le menuisier", "escala": 1 },
+          { "id": "lit", "tipo": "caja", "pos": [0.4, 0.7], "etiqueta": "Un lit", "escala": 1 },
+          { "id": "peintre", "tipo": "monigote", "pos": [0.8, 0.7], "etiqueta": "Le peintre", "escala": 1 },
+          { "id": "tableau", "tipo": "espejo", "pos": [0.62, 0.7], "etiqueta": "Une image", "escala": 1 },
+          { "id": "socrate", "tipo": "interrogacion", "pos": [0.5, 0.45], "etiqueta": "Apparence ou réalité ?", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "idea" },
+          { "t": 1, "accion": "subtitulo", "texto": "Para Platón, la naturaleza es la gran artista y encarna la perfección." },
+          { "t": 3, "accion": "aparece", "actor": "menuisier" },
+          { "t": 4, "accion": "proyecta", "de": "idea", "a": "menuisier", "nota": "modelo" },
+          { "t": 5.5, "accion": "aparece", "actor": "lit" },
+          { "t": 7, "accion": "subtitulo", "texto": "El artesano fabrica un lecho mirando el modelo perfecto." },
+          { "t": 9, "accion": "aparece", "actor": "peintre" },
+          { "t": 10.5, "accion": "aparece", "actor": "tableau" },
+          { "t": 11.5, "accion": "proyecta", "de": "lit", "a": "tableau", "nota": "apparence" },
+          { "t": 13, "accion": "piensa", "actor": "peintre", "texto": "Je ne copie que ce qui paraît..." },
+          { "t": 15, "accion": "subtitulo", "texto": "El pintor no domina el oficio: solo copia la apariencia del lecho." },
+          { "t": 17, "accion": "aparece", "actor": "socrate" },
+          { "t": 18, "accion": "cita", "texto": "l’art d’imiter est donc bien éloigné du vrai" },
+          { "t": 20, "accion": "tiembla", "actor": "tableau" },
+          { "t": 22, "accion": "etiqueta", "actor": "tableau", "texto": "Moindre-être" },
+          { "t": 24, "accion": "subtitulo", "texto": "La imitación es un simulacro: no alcanza la esencia y el pintor falsea lo real." }
+        ]
+      }
+    },
+    {
+      "id": "aristote",
+      "nombre": "Aristote",
+      "epoca": "siglo IV a. C.",
+      "tesis_principal": "La mímesis es inherente a la naturaleza humana y vía de conocimiento; el artista no copia con exactitud sino que busca restituir la perfección viva de la naturaleza.",
+      "ideas_clave": [
+        "Imitar es propio del ser humano desde la infancia (la mimèsis comme apprentissage)",
+        "La imitación conserva y transmite el movimiento de la vida",
+        "Precisión no es exactitud: el gran artista borra las huellas de su trabajo (précision)",
+        "Una copia fija la naturaleza como una foto de identidad; el arte la restituye viva"
+      ],
+      "citas": [
+        { "texto": "le fait d’imiter est inhérent à la nature humaine dès l’enfance", "idioma": "fr", "obra": "Poétique", "pagina_pdf": 128 },
+        { "texto": "tout le monde goûte les imitations", "idioma": "fr", "obra": "Poétique", "pagina_pdf": 128 }
+      ],
+      "debate_con": ["platon"],
+      "como_usarlo_en_disertacion": "Úsalo en la segunda parte para rehabilitar la imitación frente a Platón: imitar es conocer y crear. La distinción precisión/exactitud (Ingres, la bailarina) da un ejemplo concreto.",
+      "escena_sugerida": "Un niño aprende imitando; una bailarina que danza sin esfuerzo aparente, como un árbol que crece.",
+      "pagina_pdf": 128,
+      "escena": {
+        "titulo": "Aristote : imiter, c'est apprendre et recréer la vie",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          { "id": "enfant", "tipo": "monigote", "pos": [0.2, 0.7], "etiqueta": "L'enfant", "escala": 0.7 },
+          { "id": "adulte", "tipo": "monigote", "pos": [0.4, 0.7], "etiqueta": "Le modèle", "escala": 1 },
+          { "id": "danseuse", "tipo": "monigote", "pos": [0.65, 0.7], "etiqueta": "La danseuse", "escala": 1 },
+          { "id": "arbre", "tipo": "arbol", "pos": [0.85, 0.65], "etiqueta": "La nature", "escala": 1 },
+          { "id": "photo", "tipo": "caja", "pos": [0.5, 0.25], "etiqueta": "Photo d'identité", "escala": 0.8 },
+          { "id": "ampoule", "tipo": "bombilla", "pos": [0.2, 0.4], "etiqueta": "Connaître", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "adulte" },
+          { "t": 1, "accion": "aparece", "actor": "enfant" },
+          { "t": 2, "accion": "subtitulo", "texto": "Para Aristóteles, imitar es propio del ser humano desde la infancia." },
+          { "t": 4, "accion": "mueve", "actor": "enfant", "a": [0.32, 0.7], "dur": 1.5 },
+          { "t": 6, "accion": "aparece", "actor": "ampoule" },
+          { "t": 6.5, "accion": "proyecta", "de": "adulte", "a": "ampoule", "nota": "imitation" },
+          { "t": 8, "accion": "cita", "texto": "tout le monde goûte les imitations" },
+          { "t": 10, "accion": "subtitulo", "texto": "Imitar no es una falta: es el primer camino del conocimiento." },
+          { "t": 13, "accion": "aparece", "actor": "arbre" },
+          { "t": 14, "accion": "aparece", "actor": "danseuse" },
+          { "t": 15, "accion": "une", "de": "danseuse", "a": "arbre", "nota": "même aisance" },
+          { "t": 16, "accion": "salta", "actor": "danseuse" },
+          { "t": 18, "accion": "subtitulo", "texto": "La gran bailarina no deja ver el esfuerzo, como el árbol que crece sin que lo notemos." },
+          { "t": 21, "accion": "aparece", "actor": "photo" },
+          { "t": 22, "accion": "tiembla", "actor": "photo" },
+          { "t": 23, "accion": "dice", "actor": "danseuse", "texto": "Une copie fige ; l'art garde la vie !" },
+          { "t": 25, "accion": "subtitulo", "texto": "El arte busca la precisión de la naturaleza viva, no la exactitud de una copia congelada." }
+        ]
+      }
+    },
+    {
+      "id": "ricoeur",
+      "nombre": "Paul Ricœur",
+      "epoca": "siglo XX",
+      "tesis_principal": "Traducir mimèsis por imitación exige entender lo contrario de un calco de lo real: es una imitación creadora.",
+      "ideas_clave": [
+        "Mimèsis no es el decalque de un réel préexistant",
+        "Hay que hablar de imitation créatrice",
+        "Esta visión ha influido a pintores y escultores hasta el siglo XX"
+      ],
+      "citas": [
+        { "texto": "Si nous continuons à traduire mimèsis par imitation, il faut entendre tout le contraire du décalque d’un réel préexistant et parler d’imitation créatrice.", "idioma": "fr", "pagina_pdf": 128 }
+      ],
+      "debate_con": ["platon"],
+      "como_usarlo_en_disertacion": "Úsalo como apoyo moderno de Aristóteles en la parte que defiende que imitar es crear. Permite matizar que la mimesis no es copia servil.",
+      "escena_sugerida": "Un calco sobre un molde frente a una obra viva que se crea al imitar.",
+      "pagina_pdf": 128,
+      "escena": {
+        "titulo": "Ricœur : la mimèsis comme imitation créatrice",
+        "estilo": "monigotes",
+        "duracion_seg": 22,
+        "actores": [
+          { "id": "reel", "tipo": "casa", "pos": [0.2, 0.6], "etiqueta": "Le réel", "escala": 1 },
+          { "id": "decalque", "tipo": "caja", "pos": [0.5, 0.3], "etiqueta": "Décalque", "escala": 0.9 },
+          { "id": "artiste", "tipo": "monigote", "pos": [0.5, 0.75], "etiqueta": "L'artiste", "escala": 1 },
+          { "id": "oeuvre", "tipo": "flor", "pos": [0.8, 0.6], "etiqueta": "Imitation créatrice", "escala": 1.2 },
+          { "id": "idee", "tipo": "bombilla", "pos": [0.65, 0.4], "etiqueta": "Créer", "escala": 0.9 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "reel" },
+          { "t": 1, "accion": "aparece", "actor": "decalque" },
+          { "t": 2, "accion": "proyecta", "de": "reel", "a": "decalque", "nota": "calque" },
+          { "t": 3.5, "accion": "subtitulo", "texto": "Si imitar fuera calcar un real ya existente, la obra no añadiría nada." },
+          { "t": 6, "accion": "tiembla", "actor": "decalque" },
+          { "t": 7, "accion": "desaparece", "actor": "decalque" },
+          { "t": 8, "accion": "aparece", "actor": "artiste" },
+          { "t": 9.5, "accion": "aparece", "actor": "idee" },
+          { "t": 10, "accion": "proyecta", "de": "reel", "a": "artiste", "nota": "regard" },
+          { "t": 12, "accion": "cita", "texto": "il faut entendre tout le contraire du décalque d’un réel préexistant et parler d’imitation créatrice." },
+          { "t": 14, "accion": "aparece", "actor": "oeuvre" },
+          { "t": 14.5, "accion": "proyecta", "de": "artiste", "a": "oeuvre", "nota": "création" },
+          { "t": 17, "accion": "resalta", "actor": "oeuvre" },
+          { "t": 19, "accion": "subtitulo", "texto": "Para Ricœur la mímesis es una imitación creadora: nace de la realidad pero la reinventa." }
+        ]
+      }
+    },
+    {
+      "id": "hegel",
+      "nombre": "Georg Wilhelm Friedrich Hegel",
+      "epoca": "siglo XIX",
+      "tesis_principal": "El arte utiliza la apariencia para despertar el sentimiento de algo más elevado: en la obra la conciencia se exterioriza y se contempla a sí misma; incluso el arte más realista transfigura lo real.",
+      "ideas_clave": [
+        "En un cuadro vemos lo que el espíritu del artista quiso pintar, no la naturaleza simplemente copiada",
+        "L'art le plus réaliste est toujours transfiguratif: la obra es espejo de las pasiones e ideas del artista",
+        "El interés de una gran obra es la originalidad y penetración de su mirada, no el egocentrismo",
+        "El arte es el domingo de la vida: nos aleja de las contingencias cotidianas y laboriosas"
+      ],
+      "citas": [
+        { "texto": "Dans l’œuvre d’art, la conscience […] s’extériorise et s’offre à sa propre […] contemplation.", "idioma": "fr", "obra": "Esthétique", "pagina_pdf": 129 },
+        { "texto": "l’art est le dimanche de la vie", "idioma": "fr", "pagina_pdf": 130 }
+      ],
+      "debate_con": ["platon", "bergson"],
+      "como_usarlo_en_disertacion": "Úsalo cuando el sujeto pregunte si el arte es mera copia o si revela algo del espíritu y del mundo (el arte como exteriorización de la conciencia). Funciona como respuesta a Platón en la parte central del plan.",
+      "escena_sugerida": "Un artista que se mira en su obra como en un espejo, y un domingo que libera del trabajo.",
+      "pagina_pdf": 129,
+      "escena": {
+        "titulo": "Hegel : dans l'œuvre, la conscience se contemple",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          { "id": "artiste", "tipo": "monigote", "pos": [0.2, 0.7], "etiqueta": "L'artiste", "escala": 1 },
+          { "id": "esprit", "tipo": "cerebro", "pos": [0.2, 0.35], "etiqueta": "Sa conscience", "escala": 1 },
+          { "id": "oeuvre", "tipo": "espejo", "pos": [0.55, 0.55], "etiqueta": "L'œuvre", "escala": 1.3 },
+          { "id": "nature", "tipo": "arbol", "pos": [0.85, 0.7], "etiqueta": "La nature", "escala": 1 },
+          { "id": "travail", "tipo": "engranaje", "pos": [0.85, 0.25], "etiqueta": "Le quotidien", "escala": 1 },
+          { "id": "dimanche", "tipo": "sol", "pos": [0.55, 0.15], "etiqueta": "Le dimanche de la vie", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "nature" },
+          { "t": 1, "accion": "aparece", "actor": "artiste" },
+          { "t": 2, "accion": "aparece", "actor": "esprit" },
+          { "t": 3, "accion": "subtitulo", "texto": "El artista no se limita a copiar la naturaleza: la ve con su espíritu." },
+          { "t": 5, "accion": "proyecta", "de": "nature", "a": "esprit", "nota": "regard" },
+          { "t": 7, "accion": "aparece", "actor": "oeuvre" },
+          { "t": 8, "accion": "proyecta", "de": "esprit", "a": "oeuvre", "nota": "extériorisation" },
+          { "t": 10, "accion": "cita", "texto": "Dans l’œuvre d’art, la conscience s’extériorise et s’offre à sa propre contemplation." },
+          { "t": 13, "accion": "resalta", "actor": "oeuvre" },
+          { "t": 14, "accion": "subtitulo", "texto": "Incluso el arte más realista transfigura: la obra es el espejo de la conciencia." },
+          { "t": 17, "accion": "aparece", "actor": "travail" },
+          { "t": 18, "accion": "tiembla", "actor": "travail" },
+          { "t": 19.5, "accion": "aparece", "actor": "dimanche" },
+          { "t": 20.5, "accion": "desaparece", "actor": "travail" },
+          { "t": 22, "accion": "dice", "actor": "artiste", "texto": "L'art, c'est le dimanche de la vie." },
+          { "t": 24, "accion": "subtitulo", "texto": "El arte nos libera de lo utilitario y nos eleva hacia algo más alto." }
+        ]
+      }
+    },
+    {
+      "id": "bergson",
+      "nombre": "Henri Bergson",
+      "epoca": "siglo XIX-XX",
+      "tesis_principal": "Los artistas poseen una intuición creadora, una mirada ingenua y fundadora que revela la vida en su riqueza infinita y nos ayuda a ver lo que el afán cotidiano nos oculta.",
+      "ideas_clave": [
+        "El arte hace salir los sedimentos olvidados del mundo, mirada naïve, enfantin, primitif",
+        "Abre el mundo y cuestiona nuestras incertidumbres: ninguna explicación definitiva",
+        "Los artistas son médiateurs que nos hacen mirar de otra manera",
+        "Los impresionistas revelaron la variedad infinita de los colores de la naturaleza"
+      ],
+      "citas": [
+        { "texto": "la connaissance intuitive de la vie", "idioma": "fr", "obra": "L’évolution créatrice", "pagina_pdf": 129 }
+      ],
+      "debate_con": ["hegel", "klee"],
+      "como_usarlo_en_disertacion": "Úsalo para defender que el arte no es solo imitación sino apertura de la mirada y conocimiento intuitivo de la vida. Buen ejemplo: los impresionistas y los colores de la naturaleza.",
+      "escena_sugerida": "Un paseante apresurado que no ve nada hasta que un artista le abre los ojos a los colores del mundo.",
+      "pagina_pdf": 129,
+      "escena": {
+        "titulo": "Bergson : l'artiste révèle la vie que l'on ne voit plus",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          { "id": "passant", "tipo": "monigote", "pos": [0.15, 0.7], "etiqueta": "Le passant pressé", "escala": 1 },
+          { "id": "reloj", "tipo": "reloj", "pos": [0.15, 0.3], "etiqueta": "Affairement", "escala": 1 },
+          { "id": "artiste", "tipo": "monigote", "pos": [0.55, 0.7], "etiqueta": "L'artiste", "escala": 1 },
+          { "id": "ojo", "tipo": "ojo", "pos": [0.55, 0.35], "etiqueta": "Regard naïf", "escala": 1 },
+          { "id": "paysage", "tipo": "arbol", "pos": [0.88, 0.65], "etiqueta": "La nature", "escala": 1.2 },
+          { "id": "couleurs", "tipo": "flor", "pos": [0.88, 0.3], "etiqueta": "Variété infinie", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "passant" },
+          { "t": 1, "accion": "aparece", "actor": "reloj" },
+          { "t": 2, "accion": "tiembla", "actor": "reloj" },
+          { "t": 3, "accion": "subtitulo", "texto": "Absorbidos por lo cotidiano, casi no miramos lo que nos rodea." },
+          { "t": 5, "accion": "aparece", "actor": "paysage" },
+          { "t": 6, "accion": "piensa", "actor": "passant", "texto": "Un arbre... et alors ?" },
+          { "t": 8, "accion": "aparece", "actor": "artiste" },
+          { "t": 9, "accion": "aparece", "actor": "ojo" },
+          { "t": 10, "accion": "proyecta", "de": "ojo", "a": "paysage", "nota": "intuition" },
+          { "t": 12, "accion": "cita", "texto": "la connaissance intuitive de la vie" },
+          { "t": 14, "accion": "aparece", "actor": "couleurs" },
+          { "t": 15, "accion": "resalta", "actor": "couleurs" },
+          { "t": 16, "accion": "subtitulo", "texto": "El artista, con mirada ingenua, hace surgir la variedad infinita del mundo." },
+          { "t": 19, "accion": "une", "de": "artiste", "a": "passant", "nota": "médiateur" },
+          { "t": 21, "accion": "desaparece", "actor": "reloj" },
+          { "t": 22, "accion": "salta", "actor": "passant" },
+          { "t": 23, "accion": "subtitulo", "texto": "Los artistas son mediadores que nos enseñan a mirar de otra manera, sin respuesta única." }
+        ]
+      }
+    },
+    {
+      "id": "klee",
+      "nombre": "Paul Klee",
+      "epoca": "siglo XX",
+      "tesis_principal": "El arte no reproduce lo visible: lo hace visible, es decir, revela lo que no se percibe a simple vista.",
+      "ideas_clave": [
+        "El arte no es reproducción sino revelación (rendre visible)",
+        "El gran artista va más allá de las apariencias engañosas",
+        "Pone en evidencia la ilusión o falsedad de los valores sociales, como en el cine de Jean Renoir"
+      ],
+      "citas": [
+        { "texto": "L’art ne reproduit pas […] le visible, il rend visible.", "idioma": "fr", "obra": "Théorie de l’art moderne", "pagina_pdf": 130 }
+      ],
+      "debate_con": ["platon", "bergson"],
+      "como_usarlo_en_disertacion": "Úsalo como fórmula breve y contundente contra la idea de que el arte es copia: sirve de ejemplo de apertura o de transición hacia la tesis de que el arte revela el mundo.",
+      "escena_sugerida": "Un cuadro que no repite el paisaje sino que hace aparecer lo invisible.",
+      "pagina_pdf": 130,
+      "escena": {
+        "titulo": "Klee : l'art rend visible",
+        "estilo": "monigotes",
+        "duracion_seg": 22,
+        "actores": [
+          { "id": "spectateur", "tipo": "monigote", "pos": [0.15, 0.7], "etiqueta": "Le spectateur", "escala": 1 },
+          { "id": "nuage", "tipo": "nube", "pos": [0.5, 0.25], "etiqueta": "Apparences", "escala": 1.3 },
+          { "id": "artiste", "tipo": "monigote", "pos": [0.5, 0.75], "etiqueta": "Klee", "escala": 1 },
+          { "id": "ojo", "tipo": "ojo", "pos": [0.85, 0.5], "etiqueta": "Le invisible", "escala": 1 },
+          { "id": "ampoule", "tipo": "bombilla", "pos": [0.85, 0.25], "etiqueta": "Rendre visible", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "spectateur" },
+          { "t": 1, "accion": "aparece", "actor": "nuage" },
+          { "t": 2, "accion": "subtitulo", "texto": "Las apariencias cubren la realidad, y el espectador solo ve la superficie." },
+          { "t": 4, "accion": "piensa", "actor": "spectateur", "texto": "Je ne vois que ce qui est évident..." },
+          { "t": 7, "accion": "aparece", "actor": "artiste" },
+          { "t": 8, "accion": "proyecta", "de": "artiste", "a": "nuage", "nota": "regard" },
+          { "t": 10, "accion": "tiembla", "actor": "nuage" },
+          { "t": 11, "accion": "aparece", "actor": "ojo" },
+          { "t": 12, "accion": "cita", "texto": "L’art ne reproduit pas le visible, il rend visible." },
+          { "t": 14, "accion": "desaparece", "actor": "nuage" },
+          { "t": 15, "accion": "aparece", "actor": "ampoule" },
+          { "t": 16, "accion": "resalta", "actor": "ojo" },
+          { "t": 17, "accion": "mueve", "actor": "spectateur", "a": [0.4, 0.7], "dur": 2 },
+          { "t": 19, "accion": "salta", "actor": "spectateur" },
+          { "t": 20, "accion": "subtitulo", "texto": "El arte no repite lo visible: lo hace aparecer y nos acerca a la realidad." }
+        ]
+      }
+    },
+    {
+      "id": "kant",
+      "nombre": "Emmanuel Kant",
+      "epoca": "siglo XVIII",
+      "tesis_principal": "El placer estético nace del libre juego de nuestras facultades; el juicio de gusto, desinteresado y distinto de lo agradable, es personal pero pretende la universalidad como ideal, y se educa.",
+      "ideas_clave": [
+        "El placer estético es el libre jeu de nos facultés y unifica sensibilidad, imaginación y razón",
+        "Distinguir lo Bello de lo agradable: la calidad de una obra no se mide por la emoción (l'agréable et le Beau)",
+        "El juicio de gusto prétend à l'universalité como ideal, no como unanimidad; no se demuestra, se muestra",
+        "Para juzgar hay que ser indiferente a la existencia del objeto (ejemplo del palais)",
+        "El gusto se forma con cultura; el arte no sirve a la moral pero simboliza la moralidad"
+      ],
+      "citas": [
+        { "texto": "libre jeu de nos facultés", "idioma": "fr", "obra": "Critique de la faculté de juger", "pagina_pdf": 130 },
+        { "texto": "Le goût reste encore barbare", "idioma": "fr", "obra": "Critique de la faculté de juger", "pagina_pdf": 130 },
+        { "texto": "il n’existe pas de jugement esthétique qui pourrait légitimement prétendre à l’assentiment de tous", "idioma": "fr", "obra": "Critique de la faculté de juger", "pagina_pdf": 131 }
+      ],
+      "debate_con": ["hegel", "platon"],
+      "como_usarlo_en_disertacion": "Úsalo en sujetos sobre el gusto, el juicio estético o la belleza (p. ej. «À chacun son goût») para pasar de «lo agradable es subjetivo» a «el juicio de gusto pretende la universalidad y se educa». También en el arte y la moral.",
+      "escena_sugerida": "Un espectador al que gusta o no un palacio: aprende a separar placer, interés y juicio sobre la forma.",
+      "pagina_pdf": 130,
+      "escena": {
+        "titulo": "Kant : le jugement de goût et le palais",
+        "estilo": "monigotes",
+        "duracion_seg": 28,
+        "actores": [
+          { "id": "juge", "tipo": "monigote", "pos": [0.15, 0.7], "etiqueta": "Celui qui juge", "escala": 1 },
+          { "id": "palais", "tipo": "casa", "pos": [0.55, 0.65], "etiqueta": "Le palais", "escala": 1.5 },
+          { "id": "interet", "tipo": "moneda", "pos": [0.3, 0.25], "etiqueta": "Intérêt, utilité", "escala": 1 },
+          { "id": "emotion", "tipo": "corazon", "pos": [0.55, 0.2], "etiqueta": "Émotion, agréable", "escala": 1 },
+          { "id": "facultes", "tipo": "cerebro", "pos": [0.15, 0.4], "etiqueta": "Libre jeu des facultés", "escala": 1 },
+          { "id": "universel", "tipo": "balanza", "pos": [0.88, 0.45], "etiqueta": "Universalité", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "juge" },
+          { "t": 1, "accion": "aparece", "actor": "palais" },
+          { "t": 2, "accion": "subtitulo", "texto": "Kant propone juzgar si un palacio es bello. Muchas razones aparecen primero." },
+          { "t": 4, "accion": "aparece", "actor": "interet" },
+          { "t": 5, "accion": "aparece", "actor": "emotion" },
+          { "t": 6, "accion": "dice", "actor": "juge", "texto": "Il est inutile, il coûte cher au peuple..." },
+          { "t": 8, "accion": "proyecta", "de": "palais", "a": "interet", "nota": "existence" },
+          { "t": 10, "accion": "subtitulo", "texto": "Pero eso es utilidad o política, no belleza; tampoco basta que emocione o agrade." },
+          { "t": 13, "accion": "desaparece", "actor": "interet" },
+          { "t": 14, "accion": "desaparece", "actor": "emotion" },
+          { "t": 15, "accion": "aparece", "actor": "facultes" },
+          { "t": 16, "accion": "une", "de": "facultes", "a": "palais", "nota": "seulement la forme" },
+          { "t": 18, "accion": "cita", "texto": "libre jeu de nos facultés" },
+          { "t": 20, "accion": "resalta", "actor": "facultes" },
+          { "t": 21, "accion": "subtitulo", "texto": "El placer estético nace del libre juego y acuerdo de todas nuestras facultades." },
+          { "t": 24, "accion": "aparece", "actor": "universel" },
+          { "t": 25, "accion": "proyecta", "de": "juge", "a": "universel", "nota": "prétention" },
+          { "t": 26.5, "accion": "subtitulo", "texto": "El juicio de gusto pretende ser universal como ideal, y exige educación del gusto." }
+        ]
+      }
+    }
+  ],
+  "relaciones": [
+    { "de": "platon", "a": "aristote", "tipo": "se opone", "nota": "Platón ve la mímesis como simulacro alejado de la verdad; Aristóteles la rehabilita como conocimiento." },
+    { "de": "aristote", "a": "ricoeur", "tipo": "influye", "nota": "Ricœur prolonga a Aristóteles hablando de imitación creadora." },
+    { "de": "platon", "a": "mimesis", "tipo": "complementa", "nota": "Define la mímesis como simulacro de la apariencia." },
+    { "de": "aristote", "a": "precision-exactitude", "tipo": "complementa", "nota": "El artista busca la precisión viva de la naturaleza, no su exactitud." },
+    { "de": "hegel", "a": "platon", "tipo": "se opone", "nota": "Para Hegel el arte usa la apariencia para elevar la conciencia, no solo para engañar." },
+    { "de": "hegel", "a": "bergson", "tipo": "complementa", "nota": "Ambos ven en el artista una mirada singular que revela el mundo." },
+    { "de": "bergson", "a": "klee", "tipo": "complementa", "nota": "El arte revela la vida (Bergson) y hace visible lo invisible (Klee)." },
+    { "de": "kant", "a": "plaisir-esthetique", "tipo": "influye", "nota": "Define el placer estético como libre juego de las facultades." },
+    { "de": "kant", "a": "agreable-beau", "tipo": "complementa", "nota": "Distingue lo agradable de lo Bello." },
+    { "de": "kant", "a": "jugement-de-gout", "tipo": "influye", "nota": "El juicio de gusto es personal pero pretende la universalidad." },
+    { "de": "kant", "a": "art-et-morale", "tipo": "complementa", "nota": "El arte no sirve a la moral pero simboliza la moralidad." }
+  ],
+  "quiz": [
+    {
+      "pregunta": "Les Grecs distinguaient l'imitation et ... :",
+      "opciones": ["l'imagination", "la copie", "la mémoire", "la science"],
+      "correcta": 1,
+      "explicacion": "Los griegos distinguían la mimèsis (imitación) de la copia de la naturaleza, siempre en el mejor de los casos mediocre.",
+      "filosofo": null,
+      "pagina_pdf": 126
+    },
+    {
+      "pregunta": "Pour Hegel, l'œuvre d'art permet à la conscience de ... :",
+      "opciones": ["vivre", "se réaliser", "s'extérioriser", "se taire"],
+      "correcta": 2,
+      "explicacion": "Hegel: «Dans l’œuvre d’art, la conscience s’extériorise et s’offre à sa propre contemplation».",
+      "filosofo": "hegel",
+      "pagina_pdf": 129
+    },
+    {
+      "pregunta": "Selon l'artiste Klee, comment l'art rend-t-il le monde ?",
+      "opciones": ["Triste", "Meilleur", "Visible", "Plus simple"],
+      "correcta": 2,
+      "explicacion": "Klee: «L’art ne reproduit pas le visible, il rend visible».",
+      "filosofo": "klee",
+      "pagina_pdf": 130
+    },
+    {
+      "pregunta": "Le plaisir esthétique vient du libre jeu de ... :",
+      "opciones": ["notre imagination", "nos facultés", "notre sensibilité", "notre mémoire"],
+      "correcta": 1,
+      "explicacion": "Según Kant el placer estético proviene del «libre jeu de nos facultés» y de su acuerdo.",
+      "filosofo": "kant",
+      "pagina_pdf": 130
+    },
+    {
+      "pregunta": "Dans le domaine de l'esthétique, que distingue-t-on du Beau ?",
+      "opciones": ["Le complexe", "Le réel", "L'agréable", "Le vrai"],
+      "correcta": 2,
+      "explicacion": "Lo agradable satisface el placer de los sentidos y se limita al gusto individual; lo Bello va más allá del placer sensual.",
+      "filosofo": "kant",
+      "pagina_pdf": 134
+    },
+    {
+      "pregunta": "Un jugement de goût a une prétention à ... :",
+      "opciones": ["la vérité", "l'universalité", "la scientificité", "la démonstration"],
+      "correcta": 1,
+      "explicacion": "El juicio estético es personal pero pretende la universalidad como ideal, no como unanimidad de hecho.",
+      "filosofo": "kant",
+      "pagina_pdf": 131
+    },
+    {
+      "pregunta": "Le plaisir esthétique suppose que l'on distingue la fiction et ... :",
+      "opciones": ["le réel", "la vie", "le rêve", "l'idée"],
+      "correcta": 0,
+      "explicacion": "El placer estético permite distinguir la realidad de una obra de ficción: el juicio supone una distancia con lo real.",
+      "filosofo": "kant",
+      "pagina_pdf": 131
+    },
+    {
+      "pregunta": "Qu'est-ce que le travail de l'artiste n'est pas censé délivrer ?",
+      "opciones": ["Un regard sur le monde", "Un jugement personnel", "Un message", "Une vision complexe"],
+      "correcta": 2,
+      "explicacion": "Los grandes artistas no tienen mensajes que repartir (Fellini: «Pour les messages, il y a la poste !»).",
+      "filosofo": null,
+      "pagina_pdf": 132
+    },
+    {
+      "pregunta": "L'art n'est au service d'aucune ... (choisissez la réponse complète) :",
+      "opciones": ["idée", "idéologie ni morale", "nature", "sensibilité"],
+      "correcta": 1,
+      "explicacion": "El arte no responde a ningún interés utilitario, político o moral: el artista no es propagandista de ninguna ideología ni moral.",
+      "filosofo": null,
+      "pagina_pdf": 132
+    },
+    {
+      "pregunta": "Toute grande œuvre d'art est ... :",
+      "opciones": ["porteuse d'illusions", "un symbole de moralité", "moralisatrice", "une copie exacte"],
+      "correcta": 1,
+      "explicacion": "Aunque el arte no sirva a la moral, una obra es símbolo de moralidad pues implica una humanidad capaz de desprenderse del instinto animal.",
+      "filosofo": null,
+      "pagina_pdf": 132
+    },
+    {
+      "pregunta": "Pour Platon, que produit le peintre qui imite un lit ?",
+      "opciones": ["Une connaissance de l'essence du lit", "Un simulacre de l'apparence", "Un art supérieur à celui du menuisier", "Une imitation créatrice"],
+      "correcta": 1,
+      "explicacion": "Para Platón la mímesis es un simulacro: copia la apariencia, no alcanza la esencia, y el pintor es un faussaire de la réalité.",
+      "filosofo": "platon",
+      "pagina_pdf": 127
+    },
+    {
+      "pregunta": "Pour Aristote, imiter est ... :",
+      "opciones": ["une tromperie", "inhérent à la nature humaine et source de connaissance", "réservé aux artistes", "contraire à la nature"],
+      "correcta": 1,
+      "explicacion": "Aristote: «le fait d’imiter est inhérent à la nature humaine dès l’enfance»; las primeras conocimientos se deben a la imitación.",
+      "filosofo": "aristote",
+      "pagina_pdf": 128
+    },
+    {
+      "pregunta": "Dans l'exemple du palais de Kant, pour juger de sa beauté il faut ... :",
+      "opciones": ["admirer le pouvoir de son propriétaire", "être indifférent à l'existence de l'objet", "tenir compte de son coût", "ressentir une forte émotion"],
+      "correcta": 1,
+      "explicacion": "Kant: un juicio mezclado con el menor interés es partial; para juzgar el gusto hay que ser indiferente a la existencia del objeto y atender solo a su representación.",
+      "filosofo": "kant",
+      "pagina_pdf": 137
+    }
+  ],
+  "preguntas_abiertas": [
+    {
+      "enunciado": "L'art est-il une imitation de la nature ?",
+      "puntos_clave": [
+        "Platón: la mimèsis es un simulacro de la apariencia, lejos de lo verdadero; el pintor es un faussaire",
+        "Aristóteles: imitar es inherente al ser humano y fuente de conocimiento; rehabilita la mimèsis",
+        "Ricœur: imitación creadora, no calco de un real preexistente",
+        "Distinción entre precisión y exactitud (Ingres, la bailarina, el fotógrafo)",
+        "Hegel, Bergson y Klee: el arte transfigura y hace visible, no solo reproduce"
+      ],
+      "filosofos": ["platon", "aristote", "ricoeur", "hegel", "klee"],
+      "pagina_pdf": 127
+    },
+    {
+      "enunciado": "Dans le domaine esthétique, est-il légitime de dire : « À chacun son goût » ?",
+      "puntos_clave": [
+        "De hecho los gustos varían por constitución, sensibilidad y cultura; la diversidad enriquece el arte",
+        "Distinguir lo agradable (personal, no se justifica) de lo Bello (Kant)",
+        "El juicio de gusto pretende la universalidad como ideal, sin unanimidad de hecho",
+        "No se demuestra, se muestra; pero se justifica por una competencia cultural (historia del arte, museos, lecturas)",
+        "Un gusto singular puede ser malo: el gusto se educa y supera los prejuicios"
+      ],
+      "filosofos": ["kant"],
+      "pagina_pdf": 138
+    },
+    {
+      "enunciado": "L'art doit-il être au service de la morale ?",
+      "puntos_clave": [
+        "El arte no tiene finalidad moralizadora ni ideológica: el moralismo empobrece la obra (Fellini)",
+        "El artista no es propagandista; tiene una visión compleja del mundo, no mensajes",
+        "Hölderlin: «À quoi bon les poètes ?»; las obras son bellas, no buenas para algo",
+        "Sin embargo una obra es símbolo de moralidad: implica una humanidad capaz de combatir sus instintos",
+        "El arte eleva así la humanidad y la conciencia moral (Kant)"
+      ],
+      "filosofos": ["kant"],
+      "pagina_pdf": 132
+    },
+    {
+      "enunciado": "Qu'est-ce que le plaisir esthétique et en quoi diffère-t-il de la connaissance ?",
+      "puntos_clave": [
+        "Nace del libre juego de las facultades (sensibilidad, imaginación, razón), sin que una domine (Kant)",
+        "En el conocimiento la imaginación está bridada por la búsqueda de objetividad",
+        "Es lúdico y aleja el espíritu de seriedad, del utilitarismo y de las normas sociales (Hegel: el domingo de la vida)",
+        "No se mide por la emoción ni la excitación: hay que separar belleza y placer sensual"
+      ],
+      "filosofos": ["kant", "hegel"],
+      "pagina_pdf": 130
+    }
+  ],
+  "disertaciones": [
+    {
+      "sujeto": "Dans le domaine esthétique, est-il légitime de dire : « À chacun son goût » ?",
+      "tipo_plan": "dialectique",
+      "problematica": "Los gustos son diversos de hecho y esa diversidad enriquece el arte, pero ¿todos son igualmente justificados? ¿Puede un gusto singular ser malo y puede educarse el juicio estético?",
+      "plan": [
+        { "parte": "I. Sí: los gustos son diversos y personales", "idea": "Lo agradable depende de la personalidad y la historia de cada uno y no exige justificación; la diversidad impide un gusto oficial.", "autores": ["kant"], "ejemplo": "El gusto culinario: se puede preferir los platos simples a los de un gran chef." },
+        { "parte": "II. No: el juicio estético pretende la universalidad", "idea": "El juicio de gusto va más allá del «j'aime» y se distancia de la emoción; se puede juzgar bella una obra que no gusta.", "autores": ["kant"], "ejemplo": "El palacio de Kant: juzgar su belleza exige indiferencia hacia su existencia." },
+        { "parte": "III. El gusto se educa", "idea": "Una competencia basada en historia del arte, lectura y frecuentación de museos permite jerarquizar las obras y superar los prejuicios.", "autores": ["kant"], "ejemplo": "No se puede demostrar la calidad de Giacometti o de Proust, solo mostrarla." }
+      ],
+      "pagina_pdf": 138
+    },
+    {
+      "sujeto": "L'art est-il une imitation de la nature ?",
+      "tipo_plan": "dialectique",
+      "problematica": "Los griegos distinguían la imitación de la copia: ¿es el arte un simulacro alejado de lo verdadero, una imitación que conoce y restituye la vida o una creación que transfigura el mundo?",
+      "plan": [
+        { "parte": "I. El arte como simulacro", "idea": "El pintor solo copia la apariencia y no alcanza la esencia; está lejos de la verdad.", "autores": ["platon"], "ejemplo": "El pintor que representa un lecho sin dominar el oficio del menuisier." },
+        { "parte": "II. Imitar es conocer y crear", "idea": "La imitación es propia del ser humano y restituye la vida de la naturaleza con precisión, no con exactitud.", "autores": ["aristote", "ricoeur"], "ejemplo": "La Odalisque de Ingres con su espalda demasiado larga; la bailarina que parece no esforzarse." },
+        { "parte": "III. El arte transfigura y hace visible", "idea": "La obra es exteriorización de una mirada singular que revela lo que nos pasa desapercibido.", "autores": ["hegel", "bergson", "klee"], "ejemplo": "Los impresionistas y la variedad infinita de los colores de la naturaleza." }
+      ],
+      "pagina_pdf": 127
+    },
+    {
+      "sujeto": "L'art doit-il être au service de la morale ?",
+      "tipo_plan": "progressif",
+      "problematica": "El arte puede parecer indiferente a la moral, y el moralismo lo empobrece; sin embargo, ¿no contribuye a elevar nuestra humanidad?",
+      "plan": [
+        { "parte": "I. El arte no puede ser moralizador", "idea": "El moralismo afirma dogmáticamente principios; el artista no es un propagandista y no tiene mensajes.", "autores": ["kant"], "ejemplo": "Fellini: «Pour les messages, il y a la poste !»." },
+        { "parte": "II. El arte no sirve a ningún interés", "idea": "No responde a un interés utilitario, político o moral: las obras son bellas, no buenas para algo.", "autores": ["kant"], "ejemplo": "La pregunta de Hölderlin «À quoi bon les poètes ?»." },
+        { "parte": "III. Pero eleva la humanidad", "idea": "Una obra es símbolo de moralidad: implica una humanidad capaz de combatir sus instintos y de entrar en acuerdo espiritual con todo ser humano.", "autores": ["kant"], "ejemplo": "El gusto que se eleva gracias al arte frente a lo instintivo." }
+      ],
+      "pagina_pdf": 132
+    }
+  ]
+}

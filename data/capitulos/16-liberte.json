@@ -1,0 +1,1842 @@
+{
+  "id": "liberte",
+  "numero": 16,
+  "titulo": "La liberté",
+  "titulo_es": "La libertad",
+  "resumen": "La libertad es difícil de definir: se conoce por la experiencia, no por una prueba (Descartes). Nuestra voluntad es infinita y nuestro entendimiento limitado, y el libre albedrío nos permite elegir; pero nuestras elecciones parecen estar determinadas por causas sociales (Bourdieu), naturales (Spinoza) o inconscientes (Gide, Freud). El curso muestra que el determinismo no es fatalismo, que todo pensamiento supone la libertad del pensador y que la libertad implica responsabilidad y moral (Kant).",
+  "paginas": {
+    "inicio": 256,
+    "fin": 271
+  },
+  "puntos_incontournables": [
+    "Una voluntad infinita pero un entendimiento limitado (Descartes): este desfase es el origen del error, signo de nuestra libertad extraviada",
+    "Dudo, luego soy libre (Descartes): ninguna manipulación ideológica (malin génie) puede impedir al libre arbitrio dudar de todo",
+    "El determinismo (Bourdieu): nuestras elecciones tienen causas anteriores, sociales o familiares, que ignoramos (habitus de classe)",
+    "El conocimiento de los determinismos permite influir en sus efectos: el determinismo no es el fatalismo (déterminisme / fatalisme)",
+    "La libertad supone una responsabilidad moral (Kant): somos responsables de nuestros actos y podemos darnos leyes morales universales"
+  ],
+  "nociones_clave": [
+    "liberté",
+    "libre arbitre",
+    "volonté",
+    "entendement",
+    "déterminisme",
+    "fatalisme",
+    "contingence",
+    "responsabilité",
+    "aliénation",
+    "acte gratuit",
+    "habitus de classe",
+    "principe de réalité"
+  ],
+  "problematicas_bac": [
+    "La force et la liberté s'opposent-elles nécessairement ?",
+    "Sommes-nous vraiment libres, ou obéissons-nous seulement à des contraintes extérieures ?",
+    "Si tout était déterminé, comment un scientifique pourrait-il justifier l'existence de sa propre théorie ?",
+    "La force sans limite n'est-elle pas d'emblée la négation de la liberté ?",
+    "Une autorité légitime n'a-t-elle pas d'autant plus de force qu'elle exerce une contrainte acceptée ?"
+  ],
+  "conceptos": [
+    {
+      "id": "libre-arbitre",
+      "nombre": "Libre arbitre",
+      "definicion": "Capacidad de decidir y elegir, poder sin límite de desear incluso lo peor; escapa a toda cadena de causalidad y produce un efecto sin más causa que él mismo.",
+      "pagina_pdf": 258,
+      "autores": [
+        "descartes"
+      ]
+    },
+    {
+      "id": "liberte-indifference",
+      "nombre": "Liberté d'indifférence",
+      "definicion": "Estado de quien no se decide por ningún camino: para Descartes es el grado más bajo de la libertad, aunque no elegir sigue siendo una forma de elección.",
+      "pagina_pdf": 259,
+      "autores": [
+        "descartes"
+      ]
+    },
+    {
+      "id": "determinisme",
+      "nombre": "Déterminisme",
+      "definicion": "Relación más o menos necesaria entre una causa y un efecto. En las ciencias exactas es universal; en las humanas, la libertad del hombre lo vuelve imprevisible.",
+      "pagina_pdf": 260,
+      "autores": [
+        "bourdieu",
+        "spinoza"
+      ]
+    },
+    {
+      "id": "fatalisme",
+      "nombre": "Fatalisme",
+      "definicion": "Doctrina según la cual todo lo que ocurre es ineluctable: sufrimos un destino sin conocer su causa y por tanto no podemos cambiarlo.",
+      "pagina_pdf": 260,
+      "autores": []
+    },
+    {
+      "id": "acte-gratuit",
+      "nombre": "Acte gratuit",
+      "definicion": "Acción supuestamente sin razón alguna; el curso muestra que siempre tiene una causa conocida o inconsciente y que revela la impotencia del sujeto para saber por qué actúa.",
+      "pagina_pdf": 261,
+      "autores": [
+        "gide"
+      ]
+    },
+    {
+      "id": "responsabilite",
+      "nombre": "Responsabilité",
+      "definicion": "Asumir los propios actos y sus consecuencias: no hay libertad sin responsabilidad, ni valor moral sin libertad fundadora.",
+      "pagina_pdf": 262,
+      "autores": [
+        "kant"
+      ]
+    },
+    {
+      "id": "principe-realite",
+      "nombre": "Principe de réalité",
+      "definicion": "Lo que creemos una elección libre es a menudo el resultado de un principio de realidad (Freud) que restringe nuestras posibilidades.",
+      "pagina_pdf": 259,
+      "autores": [
+        "freud"
+      ]
+    }
+  ],
+  "filosofos": [
+    {
+      "id": "descartes",
+      "nombre": "René Descartes",
+      "epoca": "siglo XVII",
+      "tesis_principal": "La libertad se conoce por la experiencia y no por una prueba: la voluntad humana es infinita, el entendimiento limitado, y el desfase entre ambos explica el error, que es signo de libertad. Dudar de todo es la forma más pura de ejercerla.",
+      "ideas_clave": [
+        "Voluntad infinita y entendimiento limitado (volonté infinie, entendement limité)",
+        "El error es la prueba negativa de la libertad; el animal, guiado por el instinto, no puede equivocarse",
+        "Je doute donc je suis libre: el malin génie no puede vencer a un espíritu que duda",
+        "El libre arbitrio es un poder de elegir que escapa a la cadena de causas; la liberté d'indifférence es su grado más bajo",
+        "Una voluntad iluminada por la verdad y el Bien da sentido a la libertad"
+      ],
+      "citas": [
+        {
+          "texto": "notre liberté se connaît sans preuve, par la seule expérience que nous en avons",
+          "idioma": "fr",
+          "obra": "Les principes de la philosophie",
+          "pagina_pdf": 257
+        },
+        {
+          "texto": "puisque en effet je l'expérimente si vague et étendue qu'elle n'est renfermée dans aucune borne",
+          "idioma": "fr",
+          "obra": "Méditations métaphysiques (quatrième)",
+          "pagina_pdf": 257
+        }
+      ],
+      "debate_con": [
+        "bourdieu",
+        "spinoza"
+      ],
+      "como_usarlo_en_disertacion": "Úsalo en la primera parte de un sujeto sobre la libertad para afirmar el poder ilimitado de la voluntad y del libre arbitrio (duda, elección). También sirve en una parte final: la voluntad iluminada por la verdad es más libre que la indiferencia.",
+      "escena_sugerida": "Un hombre acosado por un malin génie que lo manipula; al dudar de todo, el genio se desvanece y la libertad queda a salvo.",
+      "pagina_pdf": 257,
+      "escena": {
+        "titulo": "Descartes : je doute donc je suis libre",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          {
+            "id": "hombre",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.75
+            ],
+            "etiqueta": "L'homme",
+            "escala": 1.2
+          },
+          {
+            "id": "cerebro",
+            "tipo": "cerebro",
+            "pos": [
+              0.2,
+              0.45
+            ],
+            "etiqueta": "Entendement limité",
+            "escala": 0.8
+          },
+          {
+            "id": "corazon",
+            "tipo": "corazon",
+            "pos": [
+              0.8,
+              0.45
+            ],
+            "etiqueta": "Volonté infinie",
+            "escala": 1.4
+          },
+          {
+            "id": "genio",
+            "tipo": "nube",
+            "pos": [
+              0.5,
+              0.15
+            ],
+            "etiqueta": "Malin génie",
+            "escala": 1.5
+          },
+          {
+            "id": "duda",
+            "tipo": "interrogacion",
+            "pos": [
+              0.5,
+              0.45
+            ],
+            "etiqueta": "Doute",
+            "escala": 1.2
+          },
+          {
+            "id": "bombilla",
+            "tipo": "bombilla",
+            "pos": [
+              0.5,
+              0.3
+            ],
+            "etiqueta": "Liberté",
+            "escala": 1.2
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "hombre"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "cerebro"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "corazon"
+          },
+          {
+            "t": 2,
+            "accion": "resalta",
+            "actor": "corazon"
+          },
+          {
+            "t": 2.5,
+            "accion": "subtitulo",
+            "texto": "Nuestra voluntad es infinita, pero nuestro entendimiento es limitado."
+          },
+          {
+            "t": 6,
+            "accion": "tiembla",
+            "actor": "cerebro"
+          },
+          {
+            "t": 7,
+            "accion": "subtitulo",
+            "texto": "Ese desfase produce el error: una libertad extraviada, pero libertad."
+          },
+          {
+            "t": 10,
+            "accion": "aparece",
+            "actor": "genio"
+          },
+          {
+            "t": 11,
+            "accion": "proyecta",
+            "de": "genio",
+            "a": "hombre",
+            "nota": "manipulación"
+          },
+          {
+            "t": 12,
+            "accion": "subtitulo",
+            "texto": "Un malin génie imaginario intenta manipular su conciencia."
+          },
+          {
+            "t": 14,
+            "accion": "tiembla",
+            "actor": "hombre"
+          },
+          {
+            "t": 15,
+            "accion": "aparece",
+            "actor": "duda"
+          },
+          {
+            "t": 15.5,
+            "accion": "piensa",
+            "actor": "hombre",
+            "texto": "Je doute de tout..."
+          },
+          {
+            "t": 17,
+            "accion": "cita",
+            "texto": "notre liberté se connaît sans preuve, par la seule expérience que nous en avons"
+          },
+          {
+            "t": 19,
+            "accion": "desaparece",
+            "actor": "genio"
+          },
+          {
+            "t": 20,
+            "accion": "aparece",
+            "actor": "bombilla"
+          },
+          {
+            "t": 21,
+            "accion": "salta",
+            "actor": "hombre"
+          },
+          {
+            "t": 22,
+            "accion": "subtitulo",
+            "texto": "Ninguna manipulación supera a un espíritu que duda: dudar es ejercer la libertad."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bourdieu",
+      "nombre": "Pierre Bourdieu",
+      "epoca": "siglo XX",
+      "tesis_principal": "Nuestras elecciones (estudios, profesión, gustos estéticos) son en apariencia libres pero están determinadas por causas sociales y familiares que ignoramos: los habitus de clase.",
+      "ideas_clave": [
+        "Bajo cada decisión hay una causa anterior: temperamento, educación, origen social (déterminisme social)",
+        "Habitus de classe: una manera de ser y de comportarse interiorizada según la clase social",
+        "También los gustos (música, cine, teatro) serían producto de un determinismo social",
+        "Creemos elegir libremente cuando solo consentimos a lo que ya nos ha sido inculcado"
+      ],
+      "citas": [
+        {
+          "texto": "habitus de classes",
+          "idioma": "fr",
+          "pagina_pdf": 259
+        }
+      ],
+      "debate_con": [
+        "descartes",
+        "kant"
+      ],
+      "como_usarlo_en_disertacion": "Úsalo en la antítesis de un sujeto sobre la libertad: el argumento de que la libertad es ilusoria porque nuestras elecciones están determinadas socialmente. Conviene después matizarlo con la idea de que conocer el determinismo permite influir en él.",
+      "escena_sugerida": "Un joven cree elegir su carrera, pero hilos invisibles de su clase social y su familia lo empujan.",
+      "pagina_pdf": 259,
+      "escena": {
+        "titulo": "Bourdieu : des choix sous influence",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          {
+            "id": "joven",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.7
+            ],
+            "etiqueta": "L'individu",
+            "escala": 1.2
+          },
+          {
+            "id": "puerta1",
+            "tipo": "puerta",
+            "pos": [
+              0.2,
+              0.3
+            ],
+            "etiqueta": "Études",
+            "escala": 1
+          },
+          {
+            "id": "puerta2",
+            "tipo": "puerta",
+            "pos": [
+              0.8,
+              0.3
+            ],
+            "etiqueta": "Profession",
+            "escala": 1
+          },
+          {
+            "id": "casa",
+            "tipo": "casa",
+            "pos": [
+              0.15,
+              0.75
+            ],
+            "etiqueta": "Origine familiale",
+            "escala": 1
+          },
+          {
+            "id": "clase",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.85,
+              0.7
+            ],
+            "etiqueta": "Classe sociale",
+            "escala": 1.3
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.5,
+              0.5
+            ],
+            "etiqueta": "Habitus",
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "joven"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "puerta1"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "puerta2"
+          },
+          {
+            "t": 2.5,
+            "accion": "piensa",
+            "actor": "joven",
+            "texto": "Je choisis librement mon avenir."
+          },
+          {
+            "t": 4,
+            "accion": "subtitulo",
+            "texto": "Creemos elegir estudios y profesión en total libertad."
+          },
+          {
+            "t": 7,
+            "accion": "aparece",
+            "actor": "casa"
+          },
+          {
+            "t": 7.5,
+            "accion": "aparece",
+            "actor": "clase"
+          },
+          {
+            "t": 8.5,
+            "accion": "proyecta",
+            "de": "casa",
+            "a": "joven",
+            "nota": "éducation"
+          },
+          {
+            "t": 9.5,
+            "accion": "proyecta",
+            "de": "clase",
+            "a": "joven",
+            "nota": "habitus"
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": "Pero origen familiar y clase social actúan sin que lo sepamos."
+          },
+          {
+            "t": 13,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 14,
+            "accion": "une",
+            "de": "joven",
+            "a": "puerta1",
+            "nota": "choix 'libre'"
+          },
+          {
+            "t": 15,
+            "accion": "tiembla",
+            "actor": "joven"
+          },
+          {
+            "t": 16,
+            "accion": "cita",
+            "texto": "habitus de classes"
+          },
+          {
+            "t": 18,
+            "accion": "subtitulo",
+            "texto": "Son los habitus de clase: una manera de ser interiorizada."
+          },
+          {
+            "t": 21,
+            "accion": "resalta",
+            "actor": "cadena"
+          },
+          {
+            "t": 23,
+            "accion": "subtitulo",
+            "texto": "Nuestras elecciones, incluso los gustos, serían un producto del determinismo social."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spinoza",
+      "nombre": "Baruch Spinoza",
+      "epoca": "siglo XVII",
+      "tesis_principal": "El hombre se cree libre por orgullo, como si fuera un imperio dentro de un imperio, cuando está sometido a las leyes de la naturaleza; la verdadera libertad consiste en comprender los determinismos y sus causas.",
+      "ideas_clave": [
+        "El hombre se cree en la naturaleza como un empire dans un empire, con una voluntad todopoderosa",
+        "Consentir por necesidad o por debilidad no es elegir racionalmente",
+        "La libertad vanagloriada por todos es solo conciencia de los apetitos e ignorancia de sus causas",
+        "La verdadera libertad pasa por comprender los determinismos existentes mediante la razón"
+      ],
+      "citas": [
+        {
+          "texto": "dans la nature comme un empire dans un empire",
+          "idioma": "fr",
+          "obra": "Éthique, III",
+          "pagina_pdf": 259
+        },
+        {
+          "texto": "Telle est cette liberté humaine que tous se vantent de posséder et qui consiste en cela seul que les hommes ont conscience de leurs appétits et ignorent les causes qui les déterminent",
+          "idioma": "fr",
+          "obra": "Lettre n°58 à Schuller",
+          "pagina_pdf": 271
+        }
+      ],
+      "debate_con": [
+        "descartes",
+        "gide"
+      ],
+      "como_usarlo_en_disertacion": "Úsalo como contrapunto a Descartes: la voluntad no es un poder absoluto. Sirve en la segunda o tercera parte para mostrar que la libertad auténtica nace de comprender las causas que nos determinan.",
+      "escena_sugerida": "Un hombre orgulloso se cree un pequeño imperio dentro de la naturaleza hasta que las leyes naturales lo rodean; comprender las causas lo libera.",
+      "pagina_pdf": 259,
+      "escena": {
+        "titulo": "Spinoza : un empire dans un empire",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          {
+            "id": "hombre",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.7
+            ],
+            "etiqueta": "L'homme",
+            "escala": 1.2
+          },
+          {
+            "id": "corona",
+            "tipo": "corona",
+            "pos": [
+              0.5,
+              0.45
+            ],
+            "etiqueta": "Orgueil",
+            "escala": 1
+          },
+          {
+            "id": "nat",
+            "tipo": "arbol",
+            "pos": [
+              0.15,
+              0.6
+            ],
+            "etiqueta": "Nature",
+            "escala": 1.4
+          },
+          {
+            "id": "sol",
+            "tipo": "sol",
+            "pos": [
+              0.85,
+              0.2
+            ],
+            "etiqueta": "Lois naturelles",
+            "escala": 1.2
+          },
+          {
+            "id": "piedra",
+            "tipo": "piedra",
+            "pos": [
+              0.85,
+              0.75
+            ],
+            "etiqueta": "Causes",
+            "escala": 1
+          },
+          {
+            "id": "luz",
+            "tipo": "bombilla",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": "Compréhension",
+            "escala": 1.2
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "hombre"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "corona"
+          },
+          {
+            "t": 2,
+            "accion": "dice",
+            "actor": "hombre",
+            "texto": "Ma volonté est toute-puissante !"
+          },
+          {
+            "t": 4,
+            "accion": "subtitulo",
+            "texto": "El hombre se cree un imperio dentro de otro imperio."
+          },
+          {
+            "t": 6,
+            "accion": "cita",
+            "texto": "dans la nature comme un empire dans un empire"
+          },
+          {
+            "t": 9,
+            "accion": "aparece",
+            "actor": "nat"
+          },
+          {
+            "t": 9.5,
+            "accion": "aparece",
+            "actor": "sol"
+          },
+          {
+            "t": 10.5,
+            "accion": "proyecta",
+            "de": "sol",
+            "a": "hombre",
+            "nota": "lois de la nature"
+          },
+          {
+            "t": 11.5,
+            "accion": "tiembla",
+            "actor": "corona"
+          },
+          {
+            "t": 12,
+            "accion": "desaparece",
+            "actor": "corona"
+          },
+          {
+            "t": 13,
+            "accion": "subtitulo",
+            "texto": "Pero está sometido a las leyes universales de la naturaleza."
+          },
+          {
+            "t": 16,
+            "accion": "aparece",
+            "actor": "piedra"
+          },
+          {
+            "t": 17,
+            "accion": "piensa",
+            "actor": "hombre",
+            "texto": "Ignoro las causes qui me déterminent..."
+          },
+          {
+            "t": 19,
+            "accion": "aparece",
+            "actor": "luz"
+          },
+          {
+            "t": 20,
+            "accion": "une",
+            "de": "hombre",
+            "a": "piedra",
+            "nota": "comprendre"
+          },
+          {
+            "t": 21,
+            "accion": "salta",
+            "actor": "hombre"
+          },
+          {
+            "t": 22,
+            "accion": "subtitulo",
+            "texto": "La verdadera libertad es comprender los determinismos, no ignorarlos."
+          }
+        ]
+      }
+    },
+    {
+      "id": "kant",
+      "nombre": "Immanuel Kant",
+      "epoca": "siglo XVIII",
+      "tesis_principal": "El hombre es libre porque puede darse y respetar una ley moral: se desprende de sus instintos y actúa según máximas racionales. Sin libertad no hay valor moral posible, y la libertad exige pasar de la buena intención al acto.",
+      "ideas_clave": [
+        "La libertad implica la responsabilidad (responsabilité): sin ella no hay ni mérito ni falta",
+        "El hombre crea principios morales y los respeta: así se aparta de su naturaleza e instintos",
+        "Nunca hay certeza de que un acto sea puramente moral y desinteresado: exige lucidez ante uno mismo",
+        "La buena intención debe pasar al acto para no quedar en «belle âme» (Hegel)",
+        "Es toda la vida la que debe ser buena, no una sola acción moral"
+      ],
+      "citas": [],
+      "debate_con": [
+        "bourdieu",
+        "gide"
+      ],
+      "como_usarlo_en_disertacion": "Úsalo en sujetos sobre libertad y moral o responsabilidad: si todo estuviera determinado, desaparecería toda moral y toda justicia. Sirve de conclusión para superar el determinismo.",
+      "escena_sugerida": "Un hombre entre sus instintos y una ley moral: elige seguir la ley y pasa de la buena intención al acto, mientras la balanza de la responsabilidad se equilibra.",
+      "pagina_pdf": 261,
+      "escena": {
+        "titulo": "Kant : liberté, loi morale et responsabilité",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          {
+            "id": "hombre",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.72
+            ],
+            "etiqueta": "L'homme",
+            "escala": 1.2
+          },
+          {
+            "id": "instinto",
+            "tipo": "fuego",
+            "pos": [
+              0.15,
+              0.6
+            ],
+            "etiqueta": "Instincts",
+            "escala": 1.2
+          },
+          {
+            "id": "ley",
+            "tipo": "libro",
+            "pos": [
+              0.85,
+              0.5
+            ],
+            "etiqueta": "Loi morale",
+            "escala": 1.3
+          },
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.5,
+              0.25
+            ],
+            "etiqueta": "Responsabilité",
+            "escala": 1.2
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.3,
+              0.72
+            ],
+            "etiqueta": "Déterminisme",
+            "escala": 1
+          },
+          {
+            "id": "corazon",
+            "tipo": "corazon",
+            "pos": [
+              0.5,
+              0.5
+            ],
+            "etiqueta": "Bonne intention",
+            "escala": 1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "hombre"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "instinto"
+          },
+          {
+            "t": 1.5,
+            "accion": "proyecta",
+            "de": "instinto",
+            "a": "hombre",
+            "nota": "pulsions"
+          },
+          {
+            "t": 3,
+            "accion": "subtitulo",
+            "texto": "Si todo estuviera determinado, no habría ni bien ni mal, ni mérito ni falta."
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 7,
+            "accion": "tiembla",
+            "actor": "hombre"
+          },
+          {
+            "t": 8,
+            "accion": "aparece",
+            "actor": "ley"
+          },
+          {
+            "t": 9,
+            "accion": "resalta",
+            "actor": "ley"
+          },
+          {
+            "t": 10,
+            "accion": "dice",
+            "actor": "hombre",
+            "texto": "Je me fixe moi-même ma loi."
+          },
+          {
+            "t": 11,
+            "accion": "desaparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 12,
+            "accion": "mueve",
+            "actor": "hombre",
+            "a": [
+              0.7,
+              0.6
+            ],
+            "dur": 2
+          },
+          {
+            "t": 13,
+            "accion": "subtitulo",
+            "texto": "El hombre se desprende de sus instintos al darse una ley moral racional."
+          },
+          {
+            "t": 16,
+            "accion": "desaparece",
+            "actor": "instinto"
+          },
+          {
+            "t": 16.5,
+            "accion": "aparece",
+            "actor": "corazon"
+          },
+          {
+            "t": 17.5,
+            "accion": "une",
+            "de": "corazon",
+            "a": "hombre",
+            "nota": "acte"
+          },
+          {
+            "t": 18.5,
+            "accion": "subtitulo",
+            "texto": "La buena intención debe hacerse acto, o queda en «belle âme»."
+          },
+          {
+            "t": 21,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 22,
+            "accion": "resalta",
+            "actor": "balanza"
+          },
+          {
+            "t": 23,
+            "accion": "subtitulo",
+            "texto": "Ser libre es ser responsable: asumir ante la ley toda una vida buena."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gide",
+      "nombre": "André Gide",
+      "epoca": "siglo XX",
+      "tesis_principal": "El acto gratuito que Gide pone en valor en Les caves du Vatican no prueba la libertad: aparenta no tener razón pero siempre tiene una causa, consciente o inconsciente. Un acto es tanto más libre cuanto más lo asume lúcidamente quien lo realiza.",
+      "ideas_clave": [
+        "Acte gratuit: acción sin razón aparente, realizada por una voluntad desorientada",
+        "El personaje mata a un anciano para probarse que es libre, pero solo revela su impotencia para saber por qué actúa",
+        "Siempre existen causas inconscientes o desconocidas (un psiquiatra las buscaría)",
+        "Aucun acte n'est « gratuit »: es más libre quien lo asume con lucidez"
+      ],
+      "citas": [],
+      "debate_con": [
+        "spinoza",
+        "kant"
+      ],
+      "como_usarlo_en_disertacion": "Úsalo como ejemplo literario para mostrar que querer probar la libertad con un acto sin razón es una ilusión. Encaja en una parte sobre las causas inconscientes de la acción y sobre la lucidez como condición de la libertad.",
+      "escena_sugerida": "Un hombre quiere probar su libertad con un acto sin razón; un psiquiatra revela la causa oculta que lo empujaba.",
+      "pagina_pdf": 260,
+      "escena": {
+        "titulo": "Gide : l'acte gratuit n'existe pas",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          {
+            "id": "heroe",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": "Le personnage",
+            "escala": 1.2
+          },
+          {
+            "id": "viejo",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.7
+            ],
+            "etiqueta": "Le vieillard",
+            "escala": 1
+          },
+          {
+            "id": "duda",
+            "tipo": "interrogacion",
+            "pos": [
+              0.3,
+              0.35
+            ],
+            "etiqueta": "Pourquoi ?",
+            "escala": 1.2
+          },
+          {
+            "id": "psi",
+            "tipo": "monigote",
+            "pos": [
+              0.9,
+              0.35
+            ],
+            "etiqueta": "Le psychiatre",
+            "escala": 1
+          },
+          {
+            "id": "cerebro",
+            "tipo": "cerebro",
+            "pos": [
+              0.5,
+              0.3
+            ],
+            "etiqueta": "Cause inconsciente",
+            "escala": 1.2
+          },
+          {
+            "id": "luz",
+            "tipo": "bombilla",
+            "pos": [
+              0.3,
+              0.2
+            ],
+            "etiqueta": "Lucidité",
+            "escala": 1.1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "heroe"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "viejo"
+          },
+          {
+            "t": 2,
+            "accion": "dice",
+            "actor": "heroe",
+            "texto": "Un acte sans raison prouvera ma liberté."
+          },
+          {
+            "t": 4,
+            "accion": "subtitulo",
+            "texto": "En Les caves du Vatican, un hombre busca probar su libertad con un acto gratuito."
+          },
+          {
+            "t": 7,
+            "accion": "mueve",
+            "actor": "heroe",
+            "a": [
+              0.6,
+              0.7
+            ],
+            "dur": 2
+          },
+          {
+            "t": 9,
+            "accion": "tiembla",
+            "actor": "viejo"
+          },
+          {
+            "t": 10,
+            "accion": "desaparece",
+            "actor": "viejo"
+          },
+          {
+            "t": 11,
+            "accion": "aparece",
+            "actor": "duda"
+          },
+          {
+            "t": 12,
+            "accion": "piensa",
+            "actor": "heroe",
+            "texto": "Pourquoi l'ai-je fait ?"
+          },
+          {
+            "t": 13,
+            "accion": "subtitulo",
+            "texto": "Mata a un anciano, pero no sabe por qué actúa: eso revela su impotencia."
+          },
+          {
+            "t": 16,
+            "accion": "aparece",
+            "actor": "psi"
+          },
+          {
+            "t": 17,
+            "accion": "aparece",
+            "actor": "cerebro"
+          },
+          {
+            "t": 18,
+            "accion": "proyecta",
+            "de": "cerebro",
+            "a": "heroe",
+            "nota": "désir caché"
+          },
+          {
+            "t": 19,
+            "accion": "subtitulo",
+            "texto": "Todo psiquiatra buscaría la causa inconsciente de ese gesto."
+          },
+          {
+            "t": 21,
+            "accion": "aparece",
+            "actor": "luz"
+          },
+          {
+            "t": 22,
+            "accion": "resalta",
+            "actor": "luz"
+          },
+          {
+            "t": 23,
+            "accion": "subtitulo",
+            "texto": "Ningún acto es gratuito: es más libre quien lo asume con lucidez."
+          }
+        ]
+      }
+    },
+    {
+      "id": "epictete",
+      "nombre": "Épictète",
+      "epoca": "siglo I-II (estoicismo)",
+      "tesis_principal": "Es libre quien no desea nada de lo que le es ajeno, es decir, lo que no depende de nosotros (cuerpo, fortuna); desear lo ajeno nos esclaviza. La libertad es un asunto de juicio propio.",
+      "ideas_clave": [
+        "Es libre quien no está sometido a ninguna traba; es esclavo quien puede ser contrariado o constreñido",
+        "Nos son ajenas las cosas que no dependen de nosotros: el cuerpo, los miembros, la fortuna",
+        "Desear lo ajeno lleva a la dependencia total de las cosas y de los seres (aliénation)",
+        "Frente a la libertad entendida como poseer (l'avoir), la libertad estoica es asumir lo que se es (l'être)",
+        "Todo depende de mi juicio sobre las cosas, que solo me pertenece a mí"
+      ],
+      "citas": [
+        {
+          "texto": "L'homme qui n'est soumis à aucune entrave est libre, lui qui a toutes choses sous la main, à son gré.",
+          "idioma": "fr",
+          "obra": "Manuel",
+          "pagina_pdf": 267
+        },
+        {
+          "texto": "Celui qui ne désire rien de ce qui lui est étranger",
+          "idioma": "fr",
+          "obra": "Manuel",
+          "pagina_pdf": 267
+        }
+      ],
+      "debate_con": [
+        "descartes",
+        "spinoza"
+      ],
+      "como_usarlo_en_disertacion": "Úsalo para cuestionar la idea moderna de libertad como poder de obtener todo lo que se desea (opuesto a Descartes, «maître et possesseur»). Sirve en una parte sobre la libertad como dominio del deseo y del juicio.",
+      "escena_sugerida": "Un hombre persigue cosas que no dependen de él y queda encadenado; al renunciar a desear lo ajeno se libera.",
+      "pagina_pdf": 267,
+      "escena": {
+        "titulo": "Épictète : ne rien désirer d'étranger",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          {
+            "id": "hombre",
+            "tipo": "monigote",
+            "pos": [
+              0.4,
+              0.7
+            ],
+            "etiqueta": "L'homme",
+            "escala": 1.2
+          },
+          {
+            "id": "moneda",
+            "tipo": "moneda",
+            "pos": [
+              0.85,
+              0.3
+            ],
+            "etiqueta": "Fortune",
+            "escala": 1.1
+          },
+          {
+            "id": "corazon",
+            "tipo": "corazon",
+            "pos": [
+              0.15,
+              0.3
+            ],
+            "etiqueta": "Désir",
+            "escala": 1
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.65,
+              0.65
+            ],
+            "etiqueta": "Esclavage",
+            "escala": 1.2
+          },
+          {
+            "id": "cerebro",
+            "tipo": "cerebro",
+            "pos": [
+              0.5,
+              0.3
+            ],
+            "etiqueta": "Mon jugement",
+            "escala": 1.2
+          },
+          {
+            "id": "puerta",
+            "tipo": "puerta",
+            "pos": [
+              0.85,
+              0.75
+            ],
+            "etiqueta": "Liberté",
+            "escala": 1.1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "hombre"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "moneda"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "corazon"
+          },
+          {
+            "t": 3,
+            "accion": "proyecta",
+            "de": "corazon",
+            "a": "moneda",
+            "nota": "je veux !"
+          },
+          {
+            "t": 4,
+            "accion": "subtitulo",
+            "texto": "Quien desea lo que no depende de él, se ata a eso: fortuna, cuerpo, posesiones."
+          },
+          {
+            "t": 8,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 9,
+            "accion": "une",
+            "de": "hombre",
+            "a": "moneda",
+            "nota": "dépendance"
+          },
+          {
+            "t": 10,
+            "accion": "tiembla",
+            "actor": "hombre"
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": "Esa dependencia es una forma de esclavitud, una fuga de sí mismo."
+          },
+          {
+            "t": 14,
+            "accion": "cita",
+            "texto": "Celui qui ne désire rien de ce qui lui est étranger"
+          },
+          {
+            "t": 17,
+            "accion": "desaparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 17.5,
+            "accion": "desaparece",
+            "actor": "moneda"
+          },
+          {
+            "t": 18,
+            "accion": "aparece",
+            "actor": "cerebro"
+          },
+          {
+            "t": 19,
+            "accion": "dice",
+            "actor": "hombre",
+            "texto": "Tout dépend de mon jugement."
+          },
+          {
+            "t": 20,
+            "accion": "aparece",
+            "actor": "puerta"
+          },
+          {
+            "t": 21,
+            "accion": "mueve",
+            "actor": "hombre",
+            "a": [
+              0.8,
+              0.72
+            ],
+            "dur": 2
+          },
+          {
+            "t": 23,
+            "accion": "subtitulo",
+            "texto": "La libertad no es obtener más, sino asumir plenamente lo que uno es."
+          }
+        ]
+      }
+    },
+    {
+      "id": "rousseau",
+      "nombre": "Jean-Jacques Rousseau",
+      "epoca": "siglo XVIII",
+      "tesis_principal": "La fuerza y la libertad son contradictorias: la fuerza solo funda el poder del más fuerte y no un derecho legítimo, que no puede perecer cuando la fuerza cesa. Tampoco hay que confundir libertad e independencia: la verdadera libertad no rechaza la obediencia.",
+      "ideas_clave": [
+        "La fuerza no funda ningún derecho: se soporta mientras dura, no se respeta",
+        "Obedecer por fuerza no es obedecer por deber (devoir)",
+        "No hay que confundir liberté e indépendance: la verdadera libertad no rechaza la obediencia",
+        "Un derecho que muere cuando la fuerza cesa no es un derecho"
+      ],
+      "citas": [
+        {
+          "texto": "or qu'est-ce qu'un droit qui périt quand la force cesse ? S'il faut obéir par force on n'a pas besoin d'obéir par devoir, et si l'on n'est plus forcé d'obéir on n'y est plus obligé",
+          "idioma": "fr",
+          "obra": "Du contrat social",
+          "pagina_pdf": 269
+        }
+      ],
+      "debate_con": [
+        "kant"
+      ],
+      "como_usarlo_en_disertacion": "Úsalo en el sujeto «La force et la liberté s'opposent-elles nécessairement ?» tanto para la parte sobre la responsabilidad y la obediencia como para la parte que opone fuerza y derecho legítimo.",
+      "escena_sugerida": "Un gigante que se impone por la fuerza pierde su derecho en cuanto la fuerza cesa, mientras el ciudadano obedece a la ley por deber.",
+      "pagina_pdf": 269,
+      "escena": {
+        "titulo": "Rousseau : la force ne fait pas le droit",
+        "estilo": "monigotes",
+        "duracion_seg": 24,
+        "actores": [
+          {
+            "id": "fuerte",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.25,
+              0.6
+            ],
+            "etiqueta": "Le plus fort",
+            "escala": 1.5
+          },
+          {
+            "id": "ciudadano",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.72
+            ],
+            "etiqueta": "Le citoyen",
+            "escala": 1.1
+          },
+          {
+            "id": "martillo",
+            "tipo": "martillo",
+            "pos": [
+              0.25,
+              0.25
+            ],
+            "etiqueta": "Force",
+            "escala": 1.1
+          },
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.5,
+              0.3
+            ],
+            "etiqueta": "Droit",
+            "escala": 1.2
+          },
+          {
+            "id": "libro",
+            "tipo": "libro",
+            "pos": [
+              0.85,
+              0.35
+            ],
+            "etiqueta": "Loi / devoir",
+            "escala": 1.1
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "fuerte"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "ciudadano"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "martillo"
+          },
+          {
+            "t": 3,
+            "accion": "proyecta",
+            "de": "martillo",
+            "a": "ciudadano",
+            "nota": "contrainte"
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "ciudadano",
+            "texto": "J'obéis... parce que je suis forcé."
+          },
+          {
+            "t": 5,
+            "accion": "subtitulo",
+            "texto": "Obedecer por fuerza no es obedecer por deber: solo se soporta el poder del más fuerte."
+          },
+          {
+            "t": 10,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 11,
+            "accion": "une",
+            "de": "fuerte",
+            "a": "balanza",
+            "nota": "droit ?"
+          },
+          {
+            "t": 12,
+            "accion": "cita",
+            "texto": "or qu'est-ce qu'un droit qui périt quand la force cesse ?"
+          },
+          {
+            "t": 14,
+            "accion": "tiembla",
+            "actor": "fuerte"
+          },
+          {
+            "t": 15,
+            "accion": "desaparece",
+            "actor": "martillo"
+          },
+          {
+            "t": 16,
+            "accion": "desaparece",
+            "actor": "fuerte"
+          },
+          {
+            "t": 17,
+            "accion": "subtitulo",
+            "texto": "Cuando la fuerza cesa, el supuesto derecho desaparece con ella."
+          },
+          {
+            "t": 19,
+            "accion": "aparece",
+            "actor": "libro"
+          },
+          {
+            "t": 20,
+            "accion": "mueve",
+            "actor": "ciudadano",
+            "a": [
+              0.8,
+              0.72
+            ],
+            "dur": 1.5
+          },
+          {
+            "t": 21,
+            "accion": "dice",
+            "actor": "ciudadano",
+            "texto": "J'obéis à la loi par devoir."
+          },
+          {
+            "t": 22,
+            "accion": "subtitulo",
+            "texto": "La verdadera libertad no es independencia: no rechaza la obediencia a la ley."
+          }
+        ]
+      }
+    }
+  ],
+  "relaciones": [
+    {
+      "de": "descartes",
+      "a": "bourdieu",
+      "tipo": "se opone",
+      "nota": "Descartes defiende un libre arbitrio sin límites; Bourdieu muestra que las elecciones están socialmente determinadas."
+    },
+    {
+      "de": "spinoza",
+      "a": "descartes",
+      "tipo": "se opone",
+      "nota": "Spinoza critica la voluntad todopoderosa, el hombre como imperio dentro de un imperio."
+    },
+    {
+      "de": "descartes",
+      "a": "libre-arbitre",
+      "tipo": "influye",
+      "nota": "Descartes define el libre arbitrio como poder absoluto de decisión."
+    },
+    {
+      "de": "determinisme",
+      "a": "libre-arbitre",
+      "tipo": "se opone",
+      "nota": "El determinismo cuestiona que nuestras elecciones sean realmente libres."
+    },
+    {
+      "de": "bourdieu",
+      "a": "determinisme",
+      "tipo": "complementa",
+      "nota": "Los habitus de clase son un ejemplo de determinismo social."
+    },
+    {
+      "de": "kant",
+      "a": "descartes",
+      "tipo": "complementa",
+      "nota": "Kant da a la libertad su sentido moral: la ley que el hombre se da a sí mismo."
+    },
+    {
+      "de": "kant",
+      "a": "responsabilite",
+      "tipo": "influye",
+      "nota": "Sin libertad no hay responsabilidad ni valor moral."
+    },
+    {
+      "de": "gide",
+      "a": "spinoza",
+      "tipo": "se opone",
+      "nota": "El acto gratuito pretende no tener causa; Spinoza recuerda que la libertad ignora las causas que nos determinan."
+    },
+    {
+      "de": "gide",
+      "a": "acte-gratuit",
+      "tipo": "influye",
+      "nota": "Gide pone en valor el acto gratuito en su novela."
+    },
+    {
+      "de": "epictete",
+      "a": "spinoza",
+      "tipo": "complementa",
+      "nota": "Ambos entienden la libertad como lucidez ante lo que depende o no de nosotros."
+    },
+    {
+      "de": "epictete",
+      "a": "descartes",
+      "tipo": "se opone",
+      "nota": "Frente al ideal de volverse «maître et possesseur» de la realidad, Epicteto pide no desear lo ajeno."
+    },
+    {
+      "de": "rousseau",
+      "a": "kant",
+      "tipo": "complementa",
+      "nota": "Para ambos la libertad no es ausencia de obediencia sino obediencia a una ley legítima."
+    }
+  ],
+  "quiz": [
+    {
+      "pregunta": "Selon Descartes, comment notre volonté se caractérise-t-elle ?",
+      "opciones": [
+        "Belle",
+        "Infinie",
+        "Indivisible",
+        "Limitée"
+      ],
+      "correcta": 1,
+      "explicacion": "El corrigé acepta «infinie» (e «indivisible»): la voluntad humana no está encerrada en ninguna frontera, a diferencia del entendimiento.",
+      "filosofo": "descartes",
+      "pagina_pdf": 257
+    },
+    {
+      "pregunta": "L'entendement humain est … :",
+      "opciones": [
+        "incompréhensible",
+        "illusoire",
+        "limité",
+        "infini"
+      ],
+      "correcta": 2,
+      "explicacion": "El hombre posee un «entendement limité»: no puede saberlo todo sobre sí mismo ni sobre el mundo.",
+      "filosofo": "descartes",
+      "pagina_pdf": 257
+    },
+    {
+      "pregunta": "Dans la pratique, ne pas choisir est … :",
+      "opciones": [
+        "un choix",
+        "un plaisir",
+        "possible",
+        "une preuve d'ignorance"
+      ],
+      "correcta": 0,
+      "explicacion": "Preferir la ausencia de elección sigue siendo una elección: es la liberté d'indifférence, el grado más bajo de libertad.",
+      "filosofo": "descartes",
+      "pagina_pdf": 258
+    },
+    {
+      "pregunta": "Quel auteur a théorisé le concept d'habitus de classe ?",
+      "opciones": [
+        "Marx",
+        "Aristote",
+        "Bourdieu",
+        "Freud"
+      ],
+      "correcta": 2,
+      "explicacion": "El sociólogo Pierre Bourdieu mostró que nuestras elecciones están ligadas a «habitus de classes».",
+      "filosofo": "bourdieu",
+      "pagina_pdf": 259
+    },
+    {
+      "pregunta": "Selon Spinoza, l'homme se croit dans la nature comme un empire dans … :",
+      "opciones": [
+        "un bocal",
+        "un empire",
+        "une prison",
+        "un royaume"
+      ],
+      "correcta": 1,
+      "explicacion": "Spinoza (Éthique, III): el hombre se cree «dans la nature comme un empire dans un empire», por orgullo.",
+      "filosofo": "spinoza",
+      "pagina_pdf": 259
+    },
+    {
+      "pregunta": "Qu'est-ce qui peut (illusoirement) incarner la perfection du libre arbitre ?",
+      "opciones": [
+        "La soumission",
+        "L'acte gratuit",
+        "L'opposition",
+        "L'obéissance"
+      ],
+      "correcta": 1,
+      "explicacion": "El acto gratuito (Gide) parece encarnar un libre arbitrio perfecto, pero siempre tiene una causa conocida o inconsciente.",
+      "filosofo": "gide",
+      "pagina_pdf": 261
+    },
+    {
+      "pregunta": "Pour que notre volonté avance plus sûrement, elle doit être … :",
+      "opciones": [
+        "accompagnée",
+        "précédée",
+        "éclairée",
+        "contrainte"
+      ],
+      "correcta": 2,
+      "explicacion": "Una voluntad iluminada por la búsqueda de la verdad y del Bien refuerza nuestra libertad.",
+      "filosofo": "descartes",
+      "pagina_pdf": 261
+    },
+    {
+      "pregunta": "Si l'erreur est une preuve de notre liberté, c'est une preuve … :",
+      "opciones": [
+        "négative",
+        "positive",
+        "nécessaire",
+        "absolue"
+      ],
+      "correcta": 0,
+      "explicacion": "El error es solo una prueba negativa de la libertad; hay que preferirle la verdad, un juicio válido.",
+      "filosofo": "descartes",
+      "pagina_pdf": 261
+    },
+    {
+      "pregunta": "Qu'est-ce que la liberté implique nécessairement ?",
+      "opciones": [
+        "L'absence de contraintes",
+        "Le refus de tout principe",
+        "La responsabilité de ses actes",
+        "L'indépendance totale"
+      ],
+      "correcta": 2,
+      "explicacion": "No hay libertad sin responsabilidad: la acción buena o mala debe ser asumida plenamente.",
+      "filosofo": "kant",
+      "pagina_pdf": 262
+    },
+    {
+      "pregunta": "Selon Hegel, qu'est-ce qu'une bonne intention sans acte illustre-t-elle ?",
+      "opciones": [
+        "Une belle âme",
+        "Un caractère lâche",
+        "Un esprit naïf",
+        "Une volonté tenace"
+      ],
+      "correcta": 0,
+      "explicacion": "Sin paso al acto, la libertad queda como la de una «belle âme» (Hegel), con buenos valores pero sin efecto.",
+      "filosofo": "kant",
+      "pagina_pdf": 263
+    },
+    {
+      "pregunta": "Quelle différence y a-t-il entre déterminisme et fatalisme ?",
+      "opciones": [
+        "Aucune, ce sont deux synonymes",
+        "Le déterminisme permet d'agir sur les effets car on connaît la cause",
+        "Le fatalisme suppose la connaissance de la cause",
+        "Le déterminisme interdit toute action"
+      ],
+      "correcta": 1,
+      "explicacion": "El fatalismo implica una consecuencia sin conocimiento de la causa; con un determinismo, conociendo la causa podemos modificar sus efectos.",
+      "filosofo": null,
+      "pagina_pdf": 260
+    },
+    {
+      "pregunta": "Selon Épictète, qui est libre ?",
+      "opciones": [
+        "Celui qui a toutes choses sous la main",
+        "Celui qui désire le plus de biens",
+        "Celui qui ne désire rien de ce qui lui est étranger",
+        "Celui qui est riche"
+      ],
+      "correcta": 2,
+      "explicacion": "Para Epicteto, el cuerpo y la fortuna nos son ajenos: es libre quien no desea nada de lo que le es extraño.",
+      "filosofo": "epictete",
+      "pagina_pdf": 267
+    },
+    {
+      "pregunta": "Pourquoi l'animal n'est-il pas libre selon le cours ?",
+      "opciones": [
+        "Parce qu'il est trop faible",
+        "Parce qu'il suit son instinct et ne peut se tromper",
+        "Parce qu'il n'a pas de volonté infinie",
+        "Parce qu'il vit en société"
+      ],
+      "correcta": 1,
+      "explicacion": "Guiado por el instinto, el animal no puede decidir ir contra él: su perfección natural ilustra su ausencia radical de libertad.",
+      "filosofo": "descartes",
+      "pagina_pdf": 257
+    }
+  ],
+  "preguntas_abiertas": [
+    {
+      "enunciado": "Pourquoi l'erreur est-elle, selon Descartes, le signe de notre liberté ?",
+      "puntos_clave": [
+        "Descartes: voluntad infinita frente a entendimiento limitado",
+        "Todo conocimiento supone un entendimiento que concibe una idea y una voluntad que afirma si es verdadera o falsa",
+        "La voluntad puede rechazar la verdad que el entendimiento presenta: el error es un descuido de la voluntad",
+        "El animal, que sigue su instinto, no puede equivocarse, lo que ilustra su ausencia de libertad",
+        "El error solo es una prueba negativa; hay que preferir la verdad y el juicio válido"
+      ],
+      "filosofos": [
+        "descartes"
+      ],
+      "pagina_pdf": 257
+    },
+    {
+      "enunciado": "Le déterminisme est-il la négation de notre liberté ?",
+      "puntos_clave": [
+        "Bourdieu: nuestras elecciones tienen causas sociales y familiares (habitus de classe) que ignoramos",
+        "Spinoza: el hombre se cree un imperio dentro de un imperio, pero está sometido a las leyes naturales",
+        "El determinismo no es el fatalismo: conocer la causa permite modificar sus efectos",
+        "Todo pensamiento supone la libertad del pensador: si todo estuviera determinado, un científico no podría justificar su teoría (ejemplo de Einstein)",
+        "La verdadera libertad es comprender los determinismos (Spinoza)"
+      ],
+      "filosofos": [
+        "bourdieu",
+        "spinoza"
+      ],
+      "pagina_pdf": 260
+    },
+    {
+      "enunciado": "L'acte gratuit prouve-t-il que nous sommes libres ?",
+      "puntos_clave": [
+        "Definición del acte gratuit: acción sin razón aparente de una voluntad desorientada",
+        "Ejemplo de Gide en Les caves du Vatican: el personaje mata a un anciano para probarse que es libre",
+        "Siempre hay causas inconscientes o desconocidas (un psiquiatra buscaría una cuenta pendiente con sus orígenes)",
+        "Su deseo de probar su libertad es un pretexto inconsciente para resolver un problema existencial",
+        "Un acto es más libre cuanto más el sujeto lo asume con lucidez"
+      ],
+      "filosofos": [
+        "gide"
+      ],
+      "pagina_pdf": 260
+    },
+    {
+      "enunciado": "Peut-on être libre sans être responsable ?",
+      "puntos_clave": [
+        "Kant: la libertad implica la responsabilidad moral",
+        "Sin libertad no habría bien ni mal, ni mérito ni falta: no se podría reprochar nada al que tortura o mata",
+        "Desaparecerían la moral, la justicia, el deber, el derecho, la dignidad y el respeto",
+        "El hombre muestra su libertad al darse y respetar una ley moral universal",
+        "La buena intención debe pasar al acto para no ser una «belle âme» (Hegel)"
+      ],
+      "filosofos": [
+        "kant"
+      ],
+      "pagina_pdf": 261
+    }
+  ],
+  "disertaciones": [
+    {
+      "sujeto": "La force et la liberté s'opposent-elles nécessairement ?",
+      "tipo_plan": "dialectique",
+      "problematica": "Parece que fuerza y libertad se oponen: la violencia y el poder de coacción niegan la libertad. Pero cierta fuerza (la sanción, la autoridad legítima) puede preservar la libertad de todos y ayudar a ser libre. ¿Es posible una autoridad que no necesite la fuerza?",
+      "plan": [
+        {
+          "parte": "I. La liberté porte en elle-même l'idée de responsabilité",
+          "idea": "Un Estado puede obligar legítimamente al que actúa mal a asumir las consecuencias de sus actos; las sanciones sirven para detener el delito, tomar conciencia y reintegrarse en la sociedad. No hay que confundir libertad e independencia.",
+          "autores": [
+            "rousseau"
+          ],
+          "ejemplo": "La privación de libertad no la suprime sino que muestra su carácter frágil e irremplazable."
+        },
+        {
+          "parte": "II. La liberté n'est pas une « chose » que l'on donne, elle suppose une lutte",
+          "idea": "La fuerza y la libertad son contradictorias: la fuerza solo funda el poder del más fuerte, no un derecho legítimo, y un poder basado en la fuerza se vuelve tiránico.",
+          "autores": [
+            "rousseau"
+          ],
+          "ejemplo": "« or qu'est-ce qu'un droit qui périt quand la force cesse ? » (Du contrat social)"
+        },
+        {
+          "parte": "III. La véritable autorité suppose une adhésion, sans user de la force",
+          "idea": "Un poder es más fuerte cuanto menos necesita la fuerza: los ciudadanos le reconocen su autoridad, y la palabra de autoridad es performativa.",
+          "autores": [],
+          "ejemplo": "Benveniste (krainein) y Jullien: no persuadir al otro sino conducirlo a adherir por adelantado."
+        }
+      ],
+      "pagina_pdf": 268
+    },
+    {
+      "sujeto": "Notre liberté est-elle illusoire ?",
+      "tipo_plan": "dialectique",
+      "problematica": "Experimentamos la libertad en cada elección, pero nuestras decisiones parecen producto de causas sociales, naturales o inconscientes. ¿Se puede mantener una libertad real frente a los determinismos?",
+      "plan": [
+        {
+          "parte": "I. Notre liberté ne connaît pas de limites",
+          "idea": "La voluntad es infinita y el libre arbitrio un poder absoluto de decisión; la duda prueba la libertad del espíritu frente a toda manipulación.",
+          "autores": [
+            "descartes"
+          ],
+          "ejemplo": "El malin génie no puede vencer a un espíritu que duda."
+        },
+        {
+          "parte": "II. Nos choix sont déterminés",
+          "idea": "Bajo cada decisión hay causas anteriores: sociales, familiares, naturales o inconscientes, que nos hacen consentir lo que creemos elegir.",
+          "autores": [
+            "bourdieu",
+            "spinoza",
+            "gide"
+          ],
+          "ejemplo": "Los habitus de clase y el acto gratuito que oculta una causa inconsciente."
+        },
+        {
+          "parte": "III. Les déterminismes n'éliminent pas notre liberté",
+          "idea": "El determinismo no es el fatalismo: conocer las causas permite cambiar los efectos, y la libertad se fortalece con una voluntad iluminada.",
+          "autores": [
+            "spinoza",
+            "descartes"
+          ],
+          "ejemplo": "Einstein no sacó su teoría de sus genes: las influencias recibidas lo construyeron; Mozart no habría sido compositor sin enseñanza."
+        }
+      ],
+      "pagina_pdf": 259
+    },
+    {
+      "sujeto": "Peut-on être libre sans être responsable ?",
+      "tipo_plan": "progressif",
+      "problematica": "La libertad parece un simple poder de elegir, pero ¿qué valor tiene si no asumimos sus consecuencias? Se trata de ver si la libertad supone la responsabilidad y la moral.",
+      "plan": [
+        {
+          "parte": "I. La liberté comme pouvoir de choisir",
+          "idea": "El libre arbitrio permite elegir, incluso no elegir, pero la liberté d'indifférence es el grado más bajo de libertad.",
+          "autores": [
+            "descartes"
+          ],
+          "ejemplo": "Los caminantes extraviados en el bosque (Discours de la méthode)."
+        },
+        {
+          "parte": "II. Pas de valeur morale sans liberté fondatrice",
+          "idea": "Si los actos estuvieran determinados, no habría bien ni mal, mérito ni falta; la responsabilidad prueba que somos libres.",
+          "autores": [
+            "kant"
+          ],
+          "ejemplo": "No se podría reprochar nada a quien tortura si estuviera determinado a hacerlo."
+        },
+        {
+          "parte": "III. Une liberté exigeante : passer à l'acte",
+          "idea": "La dificultad de la libertad es su uso: pasar de la buena intención al acto, con lucidez sobre uno mismo, durante toda la vida.",
+          "autores": [
+            "kant",
+            "gide"
+          ],
+          "ejemplo": "La «belle âme» de Hegel; el acto gratuito sin lucidez en Gide."
+        }
+      ],
+      "pagina_pdf": 262
+    }
+  ]
+}

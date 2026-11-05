@@ -1,0 +1,4 @@
+.env
+node_modules/
+data/progreso.json
+data/paginas/

@@ -1,0 +1,571 @@
+{
+  "id": "travail",
+  "numero": 5,
+  "titulo": "Le travail",
+  "titulo_es": "El trabajo",
+  "resumen": "El trabajo es específico del hombre: a diferencia del animal, que obra por instinto, el hombre concibe conscientemente sus fines y transforma el mundo. Puede ser liberador (Hegel), pero también aliena cuando el dinero se vuelve un fin (Aristóteles), cuando es explotación (Marx) o cuando la moral del trabajo y los ocios socializados controlan a los individuos (Nietzsche, Marcuse). Hay que revalorizarlo reconciliándolo con el placer (Jouvenel).",
+  "paginas": { "inicio": 98, "fin": 111 },
+  "puntos_incontournables": [
+    "El hombre se distingue del animal: su trabajo es consciente, reflexivo y perfectible, mientras que la actividad animal es instintiva (conscience, instinct)",
+    "El trabajo es liberador: al transformar la naturaleza y producir obras, el hombre se forma y hace la historia (Hegel, dialéctica del amo y del esclavo)",
+    "De la perversión de las necesidades naturales a la alienación de los trabajadores: la mala crematística (Aristóteles) y la explotación capitalista (Marx) (aliénation)",
+    "Trabajo y ocio, ¿dos ideologías?: la moral del trabajo (Nietzsche), el otium de Séneca y los ocios socializados que refuerzan la alienación (Marcuse)",
+    "Revalorizar el trabajo: reconocimiento social y sentido, reconciliando trabajo y placer: «mejor trabajar para mejor vivir» (Jouvenel)"
+  ],
+  "nociones_clave": ["travail", "aliénation", "chrématistique", "instinct", "conscience", "œuvre", "loisir", "otium", "valeur d'usage", "valeur d'échange", "division du travail", "dialectique du maître et de l'esclave"],
+  "problematicas_bac": [
+    "Le travail rend-il libre ?",
+    "Le travail est-il spécifique à l'homme ?",
+    "Le travail est-il libérateur ou aliénant ?"
+  ],
+  "conceptos": [
+    { "id": "travail-conscient", "nombre": "Travail conscient et perfectible", "definicion": "A diferencia de la actividad instintiva del animal, el trabajo humano se representa un fin, anticipa su resultado y puede transmitirse, cambiarse y mejorarse.", "pagina_pdf": 99, "autores": ["marx"] },
+    { "id": "dialectique-maitre-esclave", "nombre": "Dialectique du maître et de l'esclave", "definicion": "El esclavo, obligado a trabajar y a afrontar lo real, se forma y se libera, mientras el amo, desconectado de la realidad, estanca: el agente de la historia es el esclavo trabajador.", "pagina_pdf": 100, "autores": ["hegel", "sartre"] },
+    { "id": "chrematistique", "nombre": "Chrématistique", "definicion": "«Arte de adquirir riquezas»: buena si satisface necesidades naturales, mala si acumula dinero sin límite como fin en sí.", "pagina_pdf": 101, "autores": ["aristote"] },
+    { "id": "division-travail", "nombre": "Division du travail", "definicion": "Nace de la distinción entre valor de uso y valor de cambio (nadie sabe fabricarlo todo); en el capitalismo vuelve al trabajador inútil para sí mismo e inapto para usar sus capacidades.", "pagina_pdf": 101, "autores": ["aristote", "marx"] },
+    { "id": "alienation", "nombre": "Aliénation", "definicion": "Pérdida o cesión de un derecho o bien natural; por extensión, estado de quien ha perdido la conciencia de lo que sufre y ya no es libre (ej.: la alienación por el trabajo).", "pagina_pdf": 106, "autores": ["marx", "aristote", "nietzsche"] },
+    { "id": "loisir-otium", "nombre": "Loisir grec et otium", "definicion": "Para griegos y romanos el ocio no era ausencia de trabajo sino la actividad de un hombre que obra libremente, sin coacción exterior; reservado a una élite. Séneca opone los otiosi a los occupati.", "pagina_pdf": 104, "autores": ["seneque"] },
+    { "id": "loisirs-socialises", "nombre": "Loisirs socialisés", "definicion": "Los ocios nacidos en el siglo XX (deporte, consumo) se calcan de las reglas del trabajo y uniforman los comportamientos: refuerzan la alienación.", "pagina_pdf": 103, "autores": ["marcuse"] },
+    { "id": "oeuvre", "nombre": "Œuvre", "definicion": "Fin de una actividad, producida de principio a fin sin parcelar las tareas; la parcelación casi ha hecho desaparecer las obras, quizá sólo los artesanos las hacen aún.", "pagina_pdf": 106, "autores": ["hegel"] }
+  ],
+  "filosofos": [
+    {
+      "id": "aristote",
+      "nombre": "Aristote",
+      "epoca": "siglo IV a. C.",
+      "tesis_principal": "La «chrématistique» es buena cuando sirve a las necesidades naturales y mala cuando se acumula dinero como fin en sí; esta perversión de las necesidades aliena a los trabajadores.",
+      "ideas_clave": [
+        "El dinero es un simple medio para adquirir cosas útiles para la supervivencia, no un fin (argent comme moyen)",
+        "Distinción entre valor de uso y valor de cambio, que implica la división del trabajo (valeur d'usage / valeur d'échange)",
+        "El dinero funda la economía: permite intercambiar productos de valor desigual (pan por zapatos, no por una casa)",
+        "La mala crematística perjudica la libertad (dependencia) y pervierte las relaciones sociales"
+      ],
+      "citas": [
+        { "texto": "l’art d’acquérir des richesses", "idioma": "fr", "obra": "", "pagina_pdf": 101 }
+      ],
+      "debate_con": ["marx", "nietzsche"],
+      "como_usarlo_en_disertacion": "Útil en una parte sobre los límites morales del trabajo y del dinero: el trabajo es moral cuando responde a las necesidades vitales, inmoral cuando sólo busca acumular. Sirve de base para pasar a la alienación en Marx.",
+      "escena_sugerida": "Un trabajador intercambia pan y zapatos con dinero; un codicioso acumula monedas y queda encadenado a ellas.",
+      "pagina_pdf": 101,
+      "escena": {
+        "titulo": "Aristote : de la bonne à la mauvaise chrématistique",
+        "estilo": "monigotes",
+        "duracion_seg": 24,
+        "actores": [
+          { "id": "trabajador", "tipo": "monigote", "pos": [0.2, 0.72], "etiqueta": "Le travailleur", "escala": 1 },
+          { "id": "pan", "tipo": "caja", "pos": [0.3, 0.35], "etiqueta": "Pain", "escala": 0.8 },
+          { "id": "zapatos", "tipo": "caja", "pos": [0.5, 0.35], "etiqueta": "Chaussures", "escala": 0.8 },
+          { "id": "dinero", "tipo": "moneda", "pos": [0.4, 0.58], "etiqueta": "Argent (moyen)", "escala": 0.8 },
+          { "id": "avaro", "tipo": "monigote", "pos": [0.78, 0.72], "etiqueta": "Le cupide", "escala": 1 },
+          { "id": "tesoro", "tipo": "moneda", "pos": [0.88, 0.3], "etiqueta": "", "escala": 1.8 },
+          { "id": "cadena", "tipo": "cadena", "pos": [0.8, 0.5], "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "trabajador" },
+          { "t": 1, "accion": "aparece", "actor": "pan" },
+          { "t": 1.5, "accion": "aparece", "actor": "zapatos" },
+          { "t": 3, "accion": "dice", "actor": "trabajador", "texto": "Trabajo para cubrir mis necesidades vitales" },
+          { "t": 4.5, "accion": "aparece", "actor": "dinero" },
+          { "t": 5.5, "accion": "une", "de": "pan", "a": "zapatos", "nota": "Échange" },
+          { "t": 6.5, "accion": "subtitulo", "texto": "Aristóteles: el dinero es un simple medio para intercambiar bienes útiles para la supervivencia." },
+          { "t": 10, "accion": "aparece", "actor": "avaro" },
+          { "t": 10.5, "accion": "aparece", "actor": "tesoro" },
+          { "t": 11.5, "accion": "piensa", "actor": "avaro", "texto": "¡Siempre más dinero!" },
+          { "t": 13, "accion": "etiqueta", "actor": "tesoro", "texto": "Fin en soi ?" },
+          { "t": 14, "accion": "aparece", "actor": "cadena" },
+          { "t": 14.5, "accion": "tiembla", "actor": "avaro" },
+          { "t": 16, "accion": "dice", "actor": "avaro", "texto": "No puedo parar de acumular" },
+          { "t": 17.5, "accion": "resalta", "actor": "tesoro" },
+          { "t": 18.5, "accion": "cita", "texto": "l’art d’acquérir des richesses" },
+          { "t": 21, "accion": "subtitulo", "texto": "La mala chrématistique acumula por acumular: genera dependencia y pervierte las relaciones." }
+        ]
+      }
+    },
+    {
+      "id": "hegel",
+      "nombre": "Hegel",
+      "epoca": "siglo XIX",
+      "tesis_principal": "El trabajo libera: al transformar la naturaleza y producir obras, el hombre se forma a sí mismo y su libertad, que ya no es sólo interior, se vuelve práctica y hace la historia.",
+      "ideas_clave": [
+        "Dialéctica del amo y del esclavo: la muerte como amo supremo separa a quien se somete de quien arriesga su vida (maître / esclave)",
+        "El esclavo, obligado a afrontar lo real, se vuelve paciente, inteligente y se forma al trabajar (se former par le travail)",
+        "El amo, desconectado de lo real, estanca y sufre pasivamente la actividad del esclavo",
+        "El agente de la historia es el esclavo trabajador, no el amo guerrero",
+        "La libertad se vuelve práctica: el hombre produce obras (casas, instituciones, libros) y se convierte en su propio amo"
+      ],
+      "citas": [],
+      "debate_con": ["marx"],
+      "como_usarlo_en_disertacion": "Autor central para defender que el trabajo libera (sujeto «Le travail rend-il libre ?», primera parte). Permite mostrar que la necesidad se convierte en oportunidad de realizar la libertad y de hacer la historia.",
+      "escena_sugerida": "El amo y el esclavo se enfrentan ante la muerte; el esclavo trabaja la materia, crea una obra y se libera mientras el amo se estanca.",
+      "pagina_pdf": 100,
+      "escena": {
+        "titulo": "Hegel : le maître, l'esclave et le travail qui libère",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          { "id": "amo", "tipo": "monigote", "pos": [0.25, 0.7], "etiqueta": "Le maître", "escala": 1 },
+          { "id": "esclavo", "tipo": "monigote", "pos": [0.75, 0.7], "etiqueta": "L'esclave", "escala": 1 },
+          { "id": "muerte", "tipo": "silueta_grande", "pos": [0.5, 0.25], "etiqueta": "La mort", "escala": 1.4 },
+          { "id": "materia", "tipo": "piedra", "pos": [0.75, 0.45], "etiqueta": "La matière", "escala": 1 },
+          { "id": "obra", "tipo": "casa", "pos": [0.9, 0.4], "etiqueta": "Œuvre", "escala": 1 },
+          { "id": "cadena", "tipo": "cadena", "pos": [0.6, 0.7], "escala": 1 },
+          { "id": "corona", "tipo": "corona", "pos": [0.25, 0.45], "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "amo" },
+          { "t": 0.5, "accion": "aparece", "actor": "esclavo" },
+          { "t": 1.5, "accion": "aparece", "actor": "muerte" },
+          { "t": 2.5, "accion": "dice", "actor": "amo", "texto": "Prefiero arriesgar mi vida" },
+          { "t": 3.5, "accion": "tiembla", "actor": "esclavo" },
+          { "t": 4, "accion": "dice", "actor": "esclavo", "texto": "Prefiero someterme antes que morir" },
+          { "t": 5.5, "accion": "subtitulo", "texto": "Hegel: en el origen, relaciones de fuerza; la muerte es el amo supremo." },
+          { "t": 7.5, "accion": "desaparece", "actor": "muerte" },
+          { "t": 8, "accion": "aparece", "actor": "corona" },
+          { "t": 8.5, "accion": "aparece", "actor": "cadena" },
+          { "t": 9.5, "accion": "aparece", "actor": "materia" },
+          { "t": 10.5, "accion": "proyecta", "de": "esclavo", "a": "materia", "nota": "Travail" },
+          { "t": 12, "accion": "piensa", "actor": "esclavo", "texto": "Debo ser paciente, ingenioso y dedicado" },
+          { "t": 13.5, "accion": "subtitulo", "texto": "El esclavo afronta lo real, elabora estrategias y se forma al trabajar." },
+          { "t": 15.5, "accion": "desaparece", "actor": "materia" },
+          { "t": 16, "accion": "aparece", "actor": "obra" },
+          { "t": 16.5, "accion": "salta", "actor": "esclavo" },
+          { "t": 17.5, "accion": "dice", "actor": "amo", "texto": "Yo no hago nada... y dependo de él" },
+          { "t": 19, "accion": "desaparece", "actor": "cadena" },
+          { "t": 19.5, "accion": "mueve", "actor": "esclavo", "a": [0.5, 0.6], "dur": 2 },
+          { "t": 21, "accion": "etiqueta", "actor": "esclavo", "texto": "Son propre maître" },
+          { "t": 22.5, "accion": "subtitulo", "texto": "Al producir obras, el esclavo se libera: su libertad se vuelve práctica y hace la historia." }
+        ]
+      }
+    },
+    {
+      "id": "marx",
+      "nombre": "Karl Marx",
+      "epoca": "siglo XIX",
+      "tesis_principal": "El hombre se distingue del animal porque concibe su trabajo antes de realizarlo; pero en la organización capitalista el trabajo aliena, por la explotación de una clase y la división técnica del trabajo, no por su naturaleza misma.",
+      "ideas_clave": [
+        "El resultado del trabajo preexiste idealmente en la imaginación del trabajador (arquitecto frente a abeja)",
+        "Retoma la lógica de Aristóteles: ya no se intercambian objetos, sino trabajadores (échange des travailleurs)",
+        "La división del trabajo vuelve al hombre inútil para sí mismo, inapto para usar sus capacidades",
+        "El capitalista explota la fuerza de trabajo exigiendo una producción superior al salario (exploitation)",
+        "La explotación acabará cuando lo producido revierta al trabajador; la crítica apunta a lo que el trabajo ha llegado a ser, no a su naturaleza"
+      ],
+      "citas": [
+        { "texto": "Ce qui distingue dès l’abord […] le plus mauvais architecte de l’abeille la plus experte, c’est […] qu’il a construit la cellule dans […] sa tête avant de la construire […] dans la ruche.", "idioma": "fr", "obra": "Le Capital, 1867", "pagina_pdf": 99 }
+      ],
+      "debate_con": ["hegel", "aristote"],
+      "como_usarlo_en_disertacion": "Para el momento crítico del plan: el trabajo no libera cuando sirve a una clase superior que lucra a costa de los trabajadores. También útil al inicio (diferencia hombre/animal) y para distinguir alienación y naturaleza del trabajo.",
+      "escena_sugerida": "El arquitecto planea antes de construir; luego el obrero, reducido a un engranaje, ve su producto ir al capitalista.",
+      "pagina_pdf": 102,
+      "escena": {
+        "titulo": "Marx : du projet conscient à l'aliénation",
+        "estilo": "monigotes",
+        "duracion_seg": 27,
+        "actores": [
+          { "id": "obrero", "tipo": "monigote", "pos": [0.2, 0.72], "etiqueta": "Le travailleur", "escala": 1 },
+          { "id": "plan", "tipo": "cerebro", "pos": [0.2, 0.4], "etiqueta": "Le plan", "escala": 1 },
+          { "id": "casa", "tipo": "casa", "pos": [0.45, 0.65], "etiqueta": "Maison", "escala": 1 },
+          { "id": "abeja", "tipo": "flor", "pos": [0.65, 0.7], "etiqueta": "L'abeille (instinct)", "escala": 0.8 },
+          { "id": "capitalista", "tipo": "silueta_grande", "pos": [0.82, 0.4], "etiqueta": "Le capitaliste", "escala": 1.5 },
+          { "id": "engranaje", "tipo": "engranaje", "pos": [0.35, 0.5], "etiqueta": "Division du travail", "escala": 1 },
+          { "id": "monedas", "tipo": "moneda", "pos": [0.82, 0.75], "etiqueta": "Profit", "escala": 1 },
+          { "id": "producto", "tipo": "caja", "pos": [0.5, 0.45], "etiqueta": "Produit", "escala": 0.9 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "obrero" },
+          { "t": 1, "accion": "aparece", "actor": "abeja" },
+          { "t": 2, "accion": "aparece", "actor": "plan" },
+          { "t": 3, "accion": "piensa", "actor": "obrero", "texto": "Primero lo imagino, luego lo construyo" },
+          { "t": 4.5, "accion": "aparece", "actor": "casa" },
+          { "t": 5, "accion": "proyecta", "de": "plan", "a": "casa", "nota": "Fin anticipé" },
+          { "t": 6, "accion": "cita", "texto": "le plus mauvais architecte de l’abeille la plus experte" },
+          { "t": 7, "accion": "subtitulo", "texto": "Marx: el hombre construye la celda en su cabeza antes de construirla; la abeja sólo sigue su instinto." },
+          { "t": 11, "accion": "desaparece", "actor": "plan" },
+          { "t": 11.5, "accion": "aparece", "actor": "engranaje" },
+          { "t": 12, "accion": "mueve", "actor": "obrero", "a": [0.3, 0.72], "dur": 1 },
+          { "t": 13, "accion": "tiembla", "actor": "obrero" },
+          { "t": 13.5, "accion": "dice", "actor": "obrero", "texto": "Repito un gesto: soy inútil para mí mismo" },
+          { "t": 15.5, "accion": "aparece", "actor": "capitalista" },
+          { "t": 16, "accion": "aparece", "actor": "producto" },
+          { "t": 17, "accion": "proyecta", "de": "obrero", "a": "capitalista", "nota": "Force de travail" },
+          { "t": 18.5, "accion": "aparece", "actor": "monedas" },
+          { "t": 19, "accion": "proyecta", "de": "producto", "a": "monedas", "nota": "Exploitation" },
+          { "t": 20.5, "accion": "subtitulo", "texto": "La división del trabajo y el capitalista que explota la fuerza de trabajo alienan al obrero." },
+          { "t": 24, "accion": "subtitulo", "texto": "No es el trabajo en sí lo que aliena: es lo que ha llegado a ser históricamente." }
+        ]
+      }
+    },
+    {
+      "id": "nietzsche",
+      "nombre": "Friedrich Nietzsche",
+      "epoca": "siglo XIX",
+      "tesis_principal": "La moral del trabajo de las sociedades occidentales hace trabajar sólo por interés y eficacia, sin placer ni plenitud, y esconde el miedo a lo individual y a la independencia de los hombres: el trabajo socializado es la mejor de las policías.",
+      "ideas_clave": [
+        "Se trabaja sólo por dinero, según criterios de eficacia y sumisión (plus-value)",
+        "El vínculo trabajo-dinero conduce al sometimiento: trabajar sin límite para ganar más",
+        "La época no sabe qué hacer de su trabajo y de su dinero, salvo más dinero y más trabajo",
+        "Tras la moral mercantil se oculta el miedo a lo individual y a la independencia (peur de l'individuel)",
+        "El trabajo socializado impone coacciones: «la meilleure des polices»"
+      ],
+      "citas": [
+        { "texto": "la plus laborieuse des époques, la nôtre, ne sait pas quoi faire de son labeur et de son argent, si ce n’est toujours plus d’argent, toujours plus de labeur", "idioma": "fr", "obra": "Le Gai Savoir", "pagina_pdf": 102 }
+      ],
+      "debate_con": ["jouvenel", "seneque"],
+      "como_usarlo_en_disertacion": "Útil para desmontar la idea de que el trabajo es naturalmente bueno: la moral del trabajo es una ideología al servicio del control. Funciona en una parte crítica, junto con Marx, antes de proponer una revalorización.",
+      "escena_sugerida": "Una multitud corre tras monedas y relojes bajo la mirada de un ojo que controla: el trabajo como policía.",
+      "pagina_pdf": 102,
+      "escena": {
+        "titulo": "Nietzsche : le travail, « la meilleure des polices »",
+        "estilo": "monigotes",
+        "duracion_seg": 24,
+        "actores": [
+          { "id": "obrero1", "tipo": "monigote", "pos": [0.2, 0.75], "etiqueta": "", "escala": 1 },
+          { "id": "obrero2", "tipo": "monigote", "pos": [0.4, 0.75], "etiqueta": "", "escala": 1 },
+          { "id": "dinero", "tipo": "moneda", "pos": [0.85, 0.7], "etiqueta": "Argent", "escala": 1.2 },
+          { "id": "reloj", "tipo": "reloj", "pos": [0.5, 0.3], "etiqueta": "Efficacité", "escala": 1 },
+          { "id": "ojo", "tipo": "ojo", "pos": [0.2, 0.2], "etiqueta": "Contrôle", "escala": 1.2 },
+          { "id": "libre", "tipo": "monigote", "pos": [0.62, 0.55], "etiqueta": "L'individu", "escala": 1 },
+          { "id": "cadena", "tipo": "cadena", "pos": [0.62, 0.8], "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "obrero1" },
+          { "t": 0.5, "accion": "aparece", "actor": "obrero2" },
+          { "t": 1.5, "accion": "aparece", "actor": "dinero" },
+          { "t": 2.5, "accion": "aparece", "actor": "reloj" },
+          { "t": 3.5, "accion": "mueve", "actor": "obrero1", "a": [0.55, 0.75], "dur": 2.5 },
+          { "t": 3.5, "accion": "mueve", "actor": "obrero2", "a": [0.7, 0.75], "dur": 3 },
+          { "t": 5, "accion": "subtitulo", "texto": "Nietzsche: se trabaja sólo por dinero, bajo criterios de eficacia y sumisión que quitan el placer." },
+          { "t": 8.5, "accion": "dice", "actor": "obrero1", "texto": "¡Más trabajo para ganar más!" },
+          { "t": 10, "accion": "cita", "texto": "toujours plus d’argent, toujours plus de labeur" },
+          { "t": 12, "accion": "aparece", "actor": "libre" },
+          { "t": 13, "accion": "piensa", "actor": "libre", "texto": "Yo podría ser independiente..." },
+          { "t": 14.5, "accion": "aparece", "actor": "ojo" },
+          { "t": 15, "accion": "aparece", "actor": "cadena" },
+          { "t": 15.5, "accion": "tiembla", "actor": "libre" },
+          { "t": 16.5, "accion": "resalta", "actor": "ojo" },
+          { "t": 17, "accion": "subtitulo", "texto": "Tras la moral del trabajo se esconde el miedo a lo individual y a la independencia." },
+          { "t": 21, "accion": "subtitulo", "texto": "Al imponer coacciones, el trabajo socializado es «la meilleur des polices»." }
+        ]
+      }
+    },
+    {
+      "id": "seneque",
+      "nombre": "Sénèque",
+      "epoca": "siglo I",
+      "tesis_principal": "Los sabios (otiosi) viven apartados de la agitación de los asuntos públicos, haciendo libremente lo que eligen; los occupati, absorbidos por sus ocupaciones y coacciones externas, están alienados y sólo viven para trabajar.",
+      "ideas_clave": [
+        "Elogio de los sabios que viven al margen de los ocupados por los asuntos públicos (éloge des sages)",
+        "Los otiosi no son perezosos: eligen sus actividades y se toman el tiempo necesario (otium, retraite)",
+        "Los occupati están alienados: viven sólo para trabajar, sometidos a coacciones exteriores",
+        "Los otiosi no dependen de nadie, crean lo que desean y conocen el valor relativo de los bienes materiales"
+      ],
+      "citas": [
+        { "texto": "les occupati croient qu’ils ont à faire. Les otiosi, les sages, savent qu’ils ont à être", "idioma": "fr", "obra": "", "pagina_pdf": 103 }
+      ],
+      "debate_con": ["nietzsche", "marcuse"],
+      "como_usarlo_en_disertacion": "Para mostrar que el trabajo absorbe el tiempo de la reflexión, la cultura y la crítica social, y que el verdadero ocio (otium) es actividad libre. Sirve en una parte sobre trabajo y ocio o sobre la libertad como retiro.",
+      "escena_sugerida": "Un ocupado corre entre relojes y engranajes mientras un sabio lee bajo un árbol: «tener que hacer» frente a «tener que ser».",
+      "pagina_pdf": 103,
+      "escena": {
+        "titulo": "Sénèque : occupati et otiosi",
+        "estilo": "monigotes",
+        "duracion_seg": 24,
+        "actores": [
+          { "id": "ocupado", "tipo": "monigote", "pos": [0.2, 0.72], "etiqueta": "Les occupati", "escala": 1 },
+          { "id": "reloj", "tipo": "reloj", "pos": [0.15, 0.3], "etiqueta": "", "escala": 1 },
+          { "id": "engranaje", "tipo": "engranaje", "pos": [0.35, 0.35], "etiqueta": "Affaires publiques", "escala": 1 },
+          { "id": "sabio", "tipo": "monigote", "pos": [0.78, 0.72], "etiqueta": "Les otiosi", "escala": 1 },
+          { "id": "arbol", "tipo": "arbol", "pos": [0.9, 0.55], "etiqueta": "", "escala": 1.2 },
+          { "id": "libro", "tipo": "libro", "pos": [0.65, 0.55], "etiqueta": "", "escala": 0.8 },
+          { "id": "sol", "tipo": "sol", "pos": [0.7, 0.15], "etiqueta": "Otium", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "ocupado" },
+          { "t": 0.5, "accion": "aparece", "actor": "reloj" },
+          { "t": 1, "accion": "aparece", "actor": "engranaje" },
+          { "t": 2, "accion": "dice", "actor": "ocupado", "texto": "¡No tengo tiempo, tengo que hacer!" },
+          { "t": 3.5, "accion": "tiembla", "actor": "ocupado" },
+          { "t": 4, "accion": "subtitulo", "texto": "Séneca: los occupati, absorbidos por sus ocupaciones, viven sólo para trabajar." },
+          { "t": 8, "accion": "aparece", "actor": "arbol" },
+          { "t": 8.5, "accion": "aparece", "actor": "sabio" },
+          { "t": 9.5, "accion": "aparece", "actor": "sol" },
+          { "t": 10.5, "accion": "aparece", "actor": "libro" },
+          { "t": 11.5, "accion": "piensa", "actor": "sabio", "texto": "Hago libremente lo que elijo, sin prisa" },
+          { "t": 13.5, "accion": "subtitulo", "texto": "Los otiosi no son perezosos: eligen sus actividades y se retiran lejos de la agitación." },
+          { "t": 17.5, "accion": "resalta", "actor": "sabio" },
+          { "t": 18, "accion": "cita", "texto": "les occupati croient qu’ils ont à faire. Les otiosi, les sages, savent qu’ils ont à être" },
+          { "t": 21, "accion": "subtitulo", "texto": "Unos creen que tienen que hacer; los sabios saben que tienen que ser." }
+        ]
+      }
+    },
+    {
+      "id": "marcuse",
+      "nombre": "Herbert Marcuse",
+      "epoca": "siglo XX",
+      "tesis_principal": "Los ocios socializados del siglo XX (deporte, consumo) reproducen las reglas del trabajo y uniformizan los comportamientos: son nuevas formas de control de los individuos que refuerzan la alienación.",
+      "ideas_clave": [
+        "El deporte fue primero un divertimento de la clase dirigente y se extendió a las capas inferiores con reglas análogas a las del trabajo",
+        "Los loisirs socialisés suponen uniformizar los comportamientos",
+        "La integración social ya no pasa sólo por el trabajo, sino por las necesidades y deseos del consumidor",
+        "Divertirse, actuar y consumir conforme a la publicidad: «nouvelles formes de contrôle des individus»"
+      ],
+      "citas": [
+        { "texto": "nouvelles formes de contrôle des individus", "idioma": "fr", "obra": "L'homme unidimensionnel", "pagina_pdf": 103 }
+      ],
+      "debate_con": ["seneque", "jouvenel"],
+      "como_usarlo_en_disertacion": "Para responder a la idea de que el ocio nos libera del trabajo: el ocio también puede estar organizado, uniformizado y vinculado al consumo. Útil en la segunda parte de un plan sobre trabajo y ocio, junto con Malraux (usines du rêve).",
+      "escena_sugerida": "Un trabajador sale a divertirse, pero publicidad, reglas deportivas y un ojo de control le dictan qué hacer y qué desear.",
+      "pagina_pdf": 103,
+      "escena": {
+        "titulo": "Marcuse : les loisirs socialisés",
+        "estilo": "monigotes",
+        "duracion_seg": 24,
+        "actores": [
+          { "id": "trabajador", "tipo": "monigote", "pos": [0.2, 0.72], "etiqueta": "Le travailleur", "escala": 1 },
+          { "id": "fabrica", "tipo": "engranaje", "pos": [0.15, 0.3], "etiqueta": "Travail", "escala": 1 },
+          { "id": "casa", "tipo": "casa", "pos": [0.45, 0.6], "etiqueta": "Loisirs ?", "escala": 1 },
+          { "id": "bandera", "tipo": "bandera", "pos": [0.6, 0.35], "etiqueta": "Sport (règles)", "escala": 1 },
+          { "id": "publicidad", "tipo": "nube", "pos": [0.8, 0.25], "etiqueta": "Publicité", "escala": 1.2 },
+          { "id": "moneda", "tipo": "moneda", "pos": [0.8, 0.7], "etiqueta": "Consommer", "escala": 1 },
+          { "id": "ojo", "tipo": "ojo", "pos": [0.5, 0.12], "etiqueta": "Contrôle", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "trabajador" },
+          { "t": 0.5, "accion": "aparece", "actor": "fabrica" },
+          { "t": 2, "accion": "piensa", "actor": "trabajador", "texto": "Por fin, mi tiempo libre" },
+          { "t": 3.5, "accion": "mueve", "actor": "trabajador", "a": [0.45, 0.75], "dur": 2 },
+          { "t": 4, "accion": "aparece", "actor": "casa" },
+          { "t": 5.5, "accion": "subtitulo", "texto": "Marcuse: el ocio parece una liberación del trabajo..." },
+          { "t": 8, "accion": "aparece", "actor": "bandera" },
+          { "t": 8.5, "accion": "une", "de": "fabrica", "a": "bandera", "nota": "Mêmes règles" },
+          { "t": 10, "accion": "aparece", "actor": "publicidad" },
+          { "t": 10.5, "accion": "aparece", "actor": "moneda" },
+          { "t": 11.5, "accion": "proyecta", "de": "publicidad", "a": "trabajador", "nota": "Désirs dictés" },
+          { "t": 13, "accion": "dice", "actor": "trabajador", "texto": "Quiero lo que todos quieren..." },
+          { "t": 14.5, "accion": "aparece", "actor": "ojo" },
+          { "t": 15, "accion": "resalta", "actor": "ojo" },
+          { "t": 16, "accion": "cita", "texto": "nouvelles formes de contrôle des individus" },
+          { "t": 18, "accion": "subtitulo", "texto": "...pero copia las reglas del trabajo y uniformiza comportamientos, deseos y consumo." },
+          { "t": 21.5, "accion": "subtitulo", "texto": "Los ocios socializados refuerzan la alienación en vez de superarla." }
+        ]
+      }
+    },
+    {
+      "id": "jouvenel",
+      "nombre": "Bertrand de Jouvenel",
+      "epoca": "siglo XX",
+      "tesis_principal": "El rechazo del trabajo no viene de su carácter impuesto sino de su reducción a rentabilidad, que elimina el placer; hay que organizarlo para que el desarrollo de sí y el placer tengan un lugar, reconciliando trabajo y placer.",
+      "ideas_clave": [
+        "Paradoja: el trabajo es una necesidad vital, pero el hombre lo vive como alienación y prefiere el ocio",
+        "El carácter impuesto no explica el rechazo: comer o respirar también son necesarios y no se viven como alienantes",
+        "La causa real es la reducción a rentabilidad (rationalisation, efficacité), que elimina el placer",
+        "Cambiar la relación con el trabajo: «mieux travailler pour mieux vivre», para perfeccionar la humanidad del trabajador"
+      ],
+      "citas": [
+        { "texto": "mieux travailler pour mieux vivre", "idioma": "fr", "obra": "", "pagina_pdf": 104 }
+      ],
+      "debate_con": ["nietzsche", "marcuse"],
+      "como_usarlo_en_disertacion": "Ideal para la última parte de un plan: superar la oposición trabajo/ocio dando sentido al trabajo (reconocimiento social, placer, epanouissement). Sirve de salida a las críticas de Marx y Nietzsche.",
+      "escena_sugerida": "Un trabajador aburrido añora el ocio hasta que la rentabilidad deja de devorar el placer y su trabajo florece.",
+      "pagina_pdf": 104,
+      "escena": {
+        "titulo": "Jouvenel : réconcilier travail et plaisir",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "trabajador", "tipo": "monigote", "pos": [0.25, 0.72], "etiqueta": "Le travailleur", "escala": 1 },
+          { "id": "aburrimiento", "tipo": "nube", "pos": [0.25, 0.35], "etiqueta": "Ennui", "escala": 1 },
+          { "id": "ocio", "tipo": "casa", "pos": [0.85, 0.65], "etiqueta": "Loisir", "escala": 1 },
+          { "id": "motor", "tipo": "engranaje", "pos": [0.5, 0.5], "etiqueta": "Rentabilité", "escala": 1.2 },
+          { "id": "placer", "tipo": "corazon", "pos": [0.5, 0.25], "etiqueta": "Plaisir", "escala": 1 },
+          { "id": "flor", "tipo": "flor", "pos": [0.25, 0.5], "etiqueta": "Épanouissement", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "trabajador" },
+          { "t": 1, "accion": "aparece", "actor": "aburrimiento" },
+          { "t": 2, "accion": "aparece", "actor": "ocio" },
+          { "t": 3, "accion": "dice", "actor": "trabajador", "texto": "Sólo espero el ocio o la jubilación" },
+          { "t": 4.5, "accion": "subtitulo", "texto": "Jouvenel: queremos ser reconocidos por el trabajo, pero la mayoría se aburre y sufre." },
+          { "t": 8, "accion": "aparece", "actor": "motor" },
+          { "t": 8.5, "accion": "aparece", "actor": "placer" },
+          { "t": 9.5, "accion": "piensa", "actor": "trabajador", "texto": "¿Es porque me lo imponen?" },
+          { "t": 11, "accion": "proyecta", "de": "placer", "a": "motor", "nota": "Éliminé" },
+          { "t": 12.5, "accion": "tiembla", "actor": "placer" },
+          { "t": 13, "accion": "subtitulo", "texto": "No es lo impuesto: es la rentabilidad, que elimina el placer y lo traslada al ocio." },
+          { "t": 16.5, "accion": "desaparece", "actor": "motor" },
+          { "t": 17, "accion": "desaparece", "actor": "aburrimiento" },
+          { "t": 17.5, "accion": "une", "de": "trabajador", "a": "placer", "nota": "Travail + plaisir" },
+          { "t": 18.5, "accion": "aparece", "actor": "flor" },
+          { "t": 19, "accion": "salta", "actor": "trabajador" },
+          { "t": 20, "accion": "cita", "texto": "mieux travailler pour mieux vivre" },
+          { "t": 22, "accion": "subtitulo", "texto": "Reconciliar trabajo y placer: el esfuerzo se acepta y eleva la humanidad del trabajador." }
+        ]
+      }
+    },
+    {
+      "id": "sartre",
+      "nombre": "Jean-Paul Sartre",
+      "epoca": "siglo XX",
+      "tesis_principal": "Incluso en los casos extremos de trabajo en cadena, el trabajo ofrece un germen de liberación concreta: niega el orden caprichoso del amo y da dominio sobre las cosas, de modo que el determinismo de la materia da la primera imagen de la libertad.",
+      "ideas_clave": [
+        "El obrero se vuelve el hombre de una sola operación, casi un objeto: no basta con invocar una libertad interior de pensar (liberté intérieure)",
+        "El trabajo es negación del orden contingente y caprichoso del amo (ordre du maître)",
+        "El oprimido ya no debe agradar al amo ni adivinar su humor; el trabajo le impone la materia",
+        "El trabajador se capta como posibilidad de variar la forma de un objeto según reglas universales (déterminisme de la matière)",
+        "Perspectiva política de inspiración marxista, pero con fondo filosófico heredado de Hegel"
+      ],
+      "citas": [
+        { "texto": "c’est le déterminisme de la matière qui lui offre la première image de sa liberté", "idioma": "fr", "obra": "Matérialisme et révolution, in Situation III, 1949", "pagina_pdf": 108 }
+      ],
+      "debate_con": ["hegel", "marx"],
+      "como_usarlo_en_disertacion": "Para matizar la oposición alienación/liberación: incluso el trabajo más duro contiene un germen de libertad concreta. Muy útil en la tercera parte del tema «Le travail rend-il libre ?», con Hegel como fondo.",
+      "escena_sugerida": "Un obrero de la cadena de montaje, sin amo caprichoso que descifrar, domina la materia y descubre una primera imagen de libertad.",
+      "pagina_pdf": 108,
+      "escena": {
+        "titulo": "Sartre : la matière, première image de la liberté",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "obrero", "tipo": "monigote", "pos": [0.3, 0.72], "etiqueta": "L'ouvrier", "escala": 1 },
+          { "id": "cadena", "tipo": "engranaje", "pos": [0.15, 0.45], "etiqueta": "Chaîne de montage", "escala": 1 },
+          { "id": "jefe", "tipo": "silueta_grande", "pos": [0.85, 0.35], "etiqueta": "Le maître", "escala": 1.4 },
+          { "id": "humor", "tipo": "interrogacion", "pos": [0.85, 0.7], "etiqueta": "Son humeur ?", "escala": 1 },
+          { "id": "materia", "tipo": "piedra", "pos": [0.55, 0.72], "etiqueta": "La matière", "escala": 1 },
+          { "id": "forma", "tipo": "caja", "pos": [0.55, 0.4], "etiqueta": "Forme", "escala": 1 },
+          { "id": "libertad", "tipo": "estrella", "pos": [0.5, 0.15], "etiqueta": "Liberté concrète", "escala": 1 }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "obrero" },
+          { "t": 0.5, "accion": "aparece", "actor": "cadena" },
+          { "t": 1.5, "accion": "tiembla", "actor": "obrero" },
+          { "t": 2, "accion": "dice", "actor": "obrero", "texto": "Repito cien veces la misma operación" },
+          { "t": 3.5, "accion": "subtitulo", "texto": "Sartre: el obrero de la cadena es casi un objeto; no puede pensar con calma." },
+          { "t": 7, "accion": "aparece", "actor": "jefe" },
+          { "t": 7.5, "accion": "aparece", "actor": "humor" },
+          { "t": 8.5, "accion": "dice", "actor": "obrero", "texto": "Antes: adivinar el humor del amo" },
+          { "t": 10, "accion": "desaparece", "actor": "humor" },
+          { "t": 10.5, "accion": "aparece", "actor": "materia" },
+          { "t": 11, "accion": "subtitulo", "texto": "Pero el trabajo niega el orden caprichoso del amo: ahora el obrero se enfrenta a la materia." },
+          { "t": 14, "accion": "proyecta", "de": "obrero", "a": "materia", "nota": "Règles universelles" },
+          { "t": 15.5, "accion": "aparece", "actor": "forma" },
+          { "t": 16, "accion": "salta", "actor": "obrero" },
+          { "t": 17, "accion": "aparece", "actor": "libertad" },
+          { "t": 18, "accion": "cita", "texto": "c’est le déterminisme de la matière qui lui offre la première image de sa liberté" },
+          { "t": 21, "accion": "subtitulo", "texto": "Dominar la materia es una primera liberación concreta, aun bajo explotación." }
+        ]
+      }
+    }
+  ],
+  "relaciones": [
+    { "de": "aristote", "a": "marx", "tipo": "influye", "nota": "Marx se apropia la lógica de Aristóteles y la aplica a los trabajadores en la organización capitalista." },
+    { "de": "hegel", "a": "marx", "tipo": "complementa", "nota": "Ambos ven en el trabajo un aspecto creador y libertador; Marx añade la crítica de la explotación." },
+    { "de": "hegel", "a": "sartre", "tipo": "influye", "nota": "El fondo filosófico que piensa el trabajo como libertador es heredado de Hegel." },
+    { "de": "marx", "a": "sartre", "tipo": "influye", "nota": "La perspectiva política del texto de Sartre es de inspiración marxista." },
+    { "de": "marx", "a": "hegel", "tipo": "se opone", "nota": "Frente a la libertad del trabajo, Marx subraya la alienación por explotación y organización técnica." },
+    { "de": "nietzsche", "a": "jouvenel", "tipo": "se opone", "nota": "Nietzsche denuncia la moral del trabajo; Jouvenel propone revalorizarlo reconciliándolo con el placer." },
+    { "de": "seneque", "a": "marcuse", "tipo": "complementa", "nota": "Séneca valora el ocio libre; Marcuse muestra que los ocios socializados pueden alienar." },
+    { "de": "marcuse", "a": "jouvenel", "tipo": "complementa", "nota": "Ambos ven que el placer se desplaza al ocio y que éste puede ser controlado; Jouvenel busca devolverlo al trabajo." },
+    { "de": "aristote", "a": "chrematistique", "tipo": "influye", "nota": "Aristóteles distingue la buena y la mala crematística." },
+    { "de": "hegel", "a": "dialectique-maitre-esclave", "tipo": "influye", "nota": "Hegel ilustra con esta dialéctica cómo la creación de obras libera a los hombres." },
+    { "de": "marx", "a": "alienation", "tipo": "influye", "nota": "Para Marx la alienación nace de la explotación y de la organización técnica del trabajo." },
+    { "de": "marcuse", "a": "loisirs-socialises", "tipo": "influye", "nota": "Marcuse analiza los ocios socializados como nuevas formas de control." }
+  ],
+  "quiz": [
+    { "pregunta": "Par son travail, qu’est-ce que l’homme crée ?", "opciones": ["La nature.", "Le monde.", "Des fins.", "Des instincts."], "correcta": 2, "explicacion": "Por su trabajo el hombre no recibe sus fines del exterior sino que los crea él mismo, y transforma la naturaleza según sus ideas.", "filosofo": "marx", "pagina_pdf": 99 },
+    { "pregunta": "Les activités animales sont … :", "opciones": ["méthodiques.", "conscientes.", "instinctives.", "perfectibles."], "correcta": 2, "explicacion": "Aunque el castor o la abeja construyan, todo reposa en el instinto, mientras que el trabajo humano es consciente, reflexivo y voluntario.", "filosofo": "marx", "pagina_pdf": 99 },
+    { "pregunta": "Dans la Bible, quelle forme prend le travail ?", "opciones": ["D’un plaisir.", "D’une malédiction.", "D’une occupation.", "D’une récompense."], "correcta": 1, "explicacion": "Tras la transgresión del interdicto, aparece la maldición divina y el trabajo como condena: Adán debe ganarse el pan con el sudor de su frente.", "filosofo": null, "pagina_pdf": 100 },
+    { "pregunta": "Par son travail, l’esclave … :", "opciones": ["se transforme.", "se libère.", "s’humilie.", "se transforme et se libère."], "correcta": 3, "explicacion": "Según Hegel, el esclavo se forma y se transforma a sí mismo trabajando, y así se libera de su servidumbre (el corrigé acepta a. y b.).", "filosofo": "hegel", "pagina_pdf": 101 },
+    { "pregunta": "En produisant des œuvres, l’homme participe à … :", "opciones": ["son bonheur.", "son histoire.", "son rêve.", "sa fortune."], "correcta": 1, "explicacion": "Al producir obras (casas, instituciones, libros) el hombre deja de sufrir pasivamente la naturaleza y participa activamente en su historia.", "filosofo": "hegel", "pagina_pdf": 101 },
+    { "pregunta": "Selon Aristote, il y a une bonne et une mauvaise … :", "opciones": ["production.", "économie.", "chrématistique.", "politique."], "correcta": 2, "explicacion": "La chrématistique, arte de adquirir riquezas, es buena si satisface necesidades naturales y mala si acumula riqueza por la riqueza.", "filosofo": "aristote", "pagina_pdf": 101 },
+    { "pregunta": "Quel philosophe a théorisé l’exploitation de l’homme par l’homme ?", "opciones": ["Hegel.", "Marx.", "Nietzsche.", "Aristote."], "correcta": 1, "explicacion": "Marx ve la alienación en la explotación de los hombres por una clase superior; ésta acabará cuando el trabajador reciba la totalidad de lo que produce.", "filosofo": "marx", "pagina_pdf": 102 },
+    { "pregunta": "Selon Nietzsche, le travail dans nos sociétés est … :", "opciones": ["utile.", "libérateur.", "la meilleure des polices.", "un loisir."], "correcta": 2, "explicacion": "Tras la moral mercantil del trabajo se oculta el miedo a lo individual: el trabajo socializado impone coacciones y es «la meilleur des polices».", "filosofo": "nietzsche", "pagina_pdf": 102 },
+    { "pregunta": "Qu’impliquent les loisirs socialisés ?", "opciones": ["Des comportements uniformes.", "Le sens de la solidarité.", "De l’humilité.", "Une liberté totale."], "correcta": 0, "explicacion": "Los ocios socializados imponen reglas y estructuras análogas a las del trabajo y suponen una uniformización de los comportamientos (Marcuse).", "filosofo": "marcuse", "pagina_pdf": 103 },
+    { "pregunta": "Selon Jouvenel, pour quelle raison faut-il travailler ?", "opciones": ["Pour gagner plus.", "Pour avoir plus de loisirs.", "Pour mieux vivre.", "Pour être plus efficace."], "correcta": 2, "explicacion": "Jouvenel propone «mieux travailler pour mieux vivre»: que el trabajador, amando su trabajo, perfeccione su humanidad.", "filosofo": "jouvenel", "pagina_pdf": 104 },
+    { "pregunta": "Pour Sénèque, qui sont les « otiosi » ?", "opciones": ["Des paresseux inertes.", "Des sages qui choisissent librement leurs activités.", "Des esclaves de l'État.", "Des marchands avides."], "correcta": 1, "explicacion": "Los otiosi no son perezosos: eligen sus actividades, viven felices en el otium y no dependen de nadie, a diferencia de los occupati alienados.", "filosofo": "seneque", "pagina_pdf": 103 },
+    { "pregunta": "Quelle distinction Aristote établit-il pour fonder l'échange et la division du travail ?", "opciones": ["Entre maître et esclave.", "Entre valeur d'usage et valeur d'échange.", "Entre loisir et travail.", "Entre instinct et conscience."], "correcta": 1, "explicacion": "Al distinguir valor de uso y valor de cambio, Aristóteles muestra que hay división del trabajo (nadie sabe fabricarlo todo) y que el dinero es necesario para los intercambios.", "filosofo": "aristote", "pagina_pdf": 101 }
+  ],
+  "preguntas_abiertas": [
+    {
+      "enunciado": "En quoi le travail est-il spécifique à l'homme ?",
+      "puntos_clave": [
+        "El trabajo humano es consciente, reflexivo y voluntario; el animal obra por instinto (castor, abeja, nido)",
+        "El hombre se representa un fin y organiza sus acciones según esa representación (Marx: el arquitecto y la abeja)",
+        "No se sufre la naturaleza sino que la transformamos a nuestra imagen y construimos el mundo en que viviremos",
+        "El trabajo es perfectible: el saber hacer se transmite, cambia y se mejora; las técnicas hacen aparecer y desaparecer profesiones",
+        "Evitar el antropomorfismo: no atribuir intenciones humanas a los animales"
+      ],
+      "filosofos": ["marx"],
+      "pagina_pdf": 99
+    },
+    {
+      "enunciado": "Expliquez comment, selon Hegel, le travail libère l'homme.",
+      "puntos_clave": [
+        "Punto de partida: la maldición bíblica y la dialéctica del amo y del esclavo; los rapports de force y la muerte como amo supremo",
+        "El esclavo debe afrontar lo real y elaborar estrategias: se vuelve paciente, inteligente, dedicado y se forma",
+        "El amo pierde contacto con lo real, estanca y sufre pasivamente la actividad del esclavo",
+        "El agente de la historia es el esclavo trabajador, no el amo guerrero",
+        "La libertad deja de ser sólo interior para volverse práctica: produce obras y participa en su historia"
+      ],
+      "filosofos": ["hegel"],
+      "pagina_pdf": 101
+    },
+    {
+      "enunciado": "Pourquoi le travail peut-il être aliénant ?",
+      "puntos_clave": [
+        "Aristóteles: la mala chrématistique, el dinero como fin en sí, crea dependencia y perversión de las necesidades",
+        "Marx: explotación por una clase superior y organización técnica (división del trabajo); se intercambian trabajadores",
+        "Nietzsche: moral del trabajo por interés y eficacia, miedo a lo individual, trabajo como policía",
+        "Séneca: los occupati, absorbidos por sus ocupaciones, sólo viven para trabajar",
+        "Matiz: la crítica marxista apunta a lo que el trabajo se ha vuelto históricamente, no a su naturaleza"
+      ],
+      "filosofos": ["aristote", "marx", "nietzsche", "seneque"],
+      "pagina_pdf": 102
+    },
+    {
+      "enunciado": "Comment revaloriser le travail ?",
+      "puntos_clave": [
+        "El trabajo da reconocimiento social y sensación de utilidad (mujeres, jubilados)",
+        "Paradoja señalada por Jouvenel: se quiere trabajar para ser reconocido, pero la mayoría se aburre y sufre",
+        "Su rechazo no viene de lo impuesto sino de la reducción a rentabilidad que elimina el placer",
+        "Reconciliar trabajo y placer, deseo y producción: «mieux travailler pour mieux vivre»",
+        "El esfuerzo se acepta como condición de un placer más duradero que aleja el aburrimiento"
+      ],
+      "filosofos": ["jouvenel"],
+      "pagina_pdf": 104
+    }
+  ],
+  "disertaciones": [
+    {
+      "sujeto": "Le travail rend-il libre ?",
+      "tipo_plan": "dialectique",
+      "problematica": "El trabajo es una necesidad vital que puede ser la ocasión de realizar la libertad (obras, historia), pero también instituye rapports de pouvoir y sometimiento. Hay que preguntarse bajo qué condiciones el trabajo es libre: cuando es elegido y no impuesto.",
+      "plan": [
+        { "parte": "I. El trabajo, condición de supervivencia y de libertad", "idea": "El trabajo es necesidad vital, pero permite al hombre imprimir su espíritu en lo real, formarse y hacer la historia mediante obras.", "autores": ["hegel", "sartre"], "ejemplo": "Dialéctica del amo y del esclavo; el obrero que domina la materia." },
+        { "parte": "II. El trabajo supone relaciones jerárquicas de dominación", "idea": "El trabajo relaciona a los hombres y establece relaciones de poder: se reduce la fuerza de trabajo a un coste y se explota al trabajador.", "autores": ["marx", "aristote", "nietzsche"], "ejemplo": "Taylor y los métodos de management; la cólera de Breton contra el sometimiento." },
+        { "parte": "III. Elegir el propio trabajo eleva las cualidades y el papel social", "idea": "No es el trabajo mismo lo que aliena sino la miseria que obliga a aceptar cualquier condición; un trabajo elegido y apasionado se vuelve vida feliz y libre.", "autores": ["jouvenel", "seneque"], "ejemplo": "Para los griegos, la cultura era privilegio de los hombres de ocio; Alain: «le propre du travail, c'est d'être forcé»." }
+      ],
+      "pagina_pdf": 109
+    },
+    {
+      "sujeto": "Travailler, est-ce s'aliéner ?",
+      "tipo_plan": "progressif",
+      "problematica": "Si trabajar es una necesidad y el trabajo distingue al hombre del animal, ¿por qué se vive como alienación? Se trata de ver qué lo hace aliénante (dinero, explotación, moral del trabajo) y cómo puede devolvérsele sentido.",
+      "plan": [
+        { "parte": "I. El trabajo, actividad consciente propia del hombre", "idea": "El hombre concibe sus fines y transforma el mundo; trabajar no es alienarse por naturaleza.", "autores": ["marx", "hegel"], "ejemplo": "El arquitecto y la abeja; el esclavo que se forma al trabajar." },
+        { "parte": "II. Pero el trabajo se vuelve aliénante", "idea": "La perversión de las necesidades (mala crematística), la explotación y la división del trabajo, y la moral del trabajo hacen del trabajador un medio.", "autores": ["aristote", "marx", "nietzsche"], "ejemplo": "El cupido que acumula dinero por el dinero; Chaplin, Les temps modernes." },
+        { "parte": "III. Dar sentido al trabajo", "idea": "Reconciliar trabajo y placer para que el esfuerzo no se viva como alienante y eleve la humanidad del trabajador.", "autores": ["jouvenel"], "ejemplo": "Reconocimiento social del trabajo; «mieux travailler pour mieux vivre»." }
+      ],
+      "pagina_pdf": 102
+    },
+    {
+      "sujeto": "Les loisirs nous libèrent-ils du travail ?",
+      "tipo_plan": "dialectique",
+      "problematica": "Se opone el tiempo de trabajo, que quita tiempo a la cultura y la reflexión, al ocio como libertad. Pero los ocios socializados pueden reproducir las lógicas del trabajo: ¿qué ocio libera realmente?",
+      "plan": [
+        { "parte": "I. El ocio como libertad frente al trabajo", "idea": "El tiempo de trabajo se resta al tiempo para la cultura, la reflexión y la crítica; el otium es actividad libre y elegida.", "autores": ["seneque"], "ejemplo": "Los otiosi y los occupati." },
+        { "parte": "II. Los ocios socializados, nuevas formas de alienación", "idea": "Los ocios modernos replican reglas del trabajo, uniformizan y vinculan al consumo.", "autores": ["marcuse", "nietzsche"], "ejemplo": "El deporte reglado; «usines du rêve» de Malraux." },
+        { "parte": "III. Reconciliar trabajo y ocio", "idea": "En vez de oponerlos, hacer que el trabajo incluya placer y desarrollo de sí.", "autores": ["jouvenel"], "ejemplo": "La satisfacción de Delacroix tras una jornada bien empleada." }
+      ],
+      "pagina_pdf": 103
+    }
+  ]
+}

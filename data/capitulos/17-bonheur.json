@@ -1,0 +1,434 @@
+{
+  "id": "bonheur",
+  "numero": 17,
+  "titulo": "Le bonheur",
+  "titulo_es": "La felicidad",
+  "resumen": "Todos aspiran a la felicidad, pero nadie la define ni la aplica igual. El capítulo recorre la felicidad como soberano bien contemplativo (Aristóteles), como aceptación activa de lo que no depende de nosotros (estoicos), como placer sobrio y ataraxia (Epicuro), como ideal de la imaginación separado de la virtud (Kant) y, por último, la alegría creadora que no se reduce al placer (Bergson). Se cierra con ejercicios sobre la política de la felicidad y sobre pasión y razón en Descartes.",
+  "paginas": { "inicio": 272, "fin": 288 },
+  "puntos_incontournables": [
+    "Soberano bien (souverain bien): una vida de estudio y elevación del espíritu produciría una felicidad perfecta; para Aristóteles es el modelo de vida feliz.",
+    "Estoicismo: distinguir lo que depende de mí (mi juicio, el buen uso de mi razón, mis creencias) de lo que no depende en absoluto de mi voluntad; si fundo mi felicidad en lo primero, puedo ser feliz.",
+    "Epicureísmo: la felicidad sería un placer sobrio, la satisfacción de deseos naturales y necesarios, en busca de armonía con el orden natural (ataraxia).",
+    "Un ideal de la imaginación: para Kant, la felicidad no es más que un ideal de la imaginación y no puede ser una búsqueda absoluta, pues motivos inmorales podrían estar en su origen.",
+    "La fuerza creadora de la alegría (Bergson): quien reinventa sin cesar su vida tiene alegrías inmensas, que puede compartir y que ningún placer mezquino ni interés limita."
+  ],
+  "nociones_clave": ["bonheur", "souverain bien", "eudémonisme", "hédonisme", "vertu", "ataraxie", "phronésis", "représentations", "plaisir", "joie", "élan vital", "loisir (otium)"],
+  "problematicas_bac": [
+    "Le bonheur est-il un but politique ?",
+    "Le bonheur est-il toujours un enfermement ?",
+    "La vertu est-elle une condition au bonheur ?",
+    "Pourquoi les hommes ne sont-ils pas toujours heureux ?",
+    "Dans quelle mesure suivre ses passions peut-il contribuer à rendre notre existence plus heureuse ?"
+  ],
+  "conceptos": [
+    { "id": "souverain-bien", "nombre": "Souverain bien", "definicion": "Bien considerado como absoluto, que no depende de nada más y tiene su valor en sí mismo; si la felicidad lo es, es un estado de bienestar interior que se basta a sí mismo.", "pagina_pdf": 281, "autores": ["aristote"] },
+    { "id": "eudemonisme", "nombre": "Eudémonisme", "definicion": "Doctrina que considera la felicidad como finalidad o valor supremo de la vida; común entre los Antiguos y cuestionada por Kant, para quien el valor moral prima sobre la felicidad.", "pagina_pdf": 281, "autores": ["aristote", "stoiciens", "epicure", "kant"] },
+    { "id": "vertu", "nombre": "Vertu", "definicion": "Para los griegos, el cumplimiento perfecto de la función propia de una cosa o ser; en el hombre, hacer buen uso de su razón para pensar y actuar bien.", "pagina_pdf": 274, "autores": ["stoiciens", "kant"] },
+    { "id": "ce-qui-depend-de-moi", "nombre": "Ce qui dépend de moi", "definicion": "Distinción estoica entre mi juicio y mi asentimiento a las representaciones (que dependen de mí) y todo lo exterior (que no depende de mí).", "pagina_pdf": 275, "autores": ["stoiciens", "descartes"] },
+    { "id": "ataraxie", "nombre": "Ataraxie", "definicion": "Ausencia de turbación del alma, garantizada por la autosuficiencia, la prudencia y la justa medida del placer.", "pagina_pdf": 276, "autores": ["epicure"] },
+    { "id": "joie-creatrice", "nombre": "Joie créatrice", "definicion": "Alegría que nace de ser uno mismo y de crear la propia vida sin límite utilitario; se distingue del placer, que se limita a su objeto y cesa al satisfacerse.", "pagina_pdf": 277, "autores": ["bergson"] },
+    { "id": "bonheur-et-politique", "nombre": "Bonheur et politique", "definicion": "El Estado debe garantizar las libertades y las condiciones materiales de la felicidad sin definirla ni imponerla (corrigé del sujeto de disertación).", "pagina_pdf": 285, "autores": [] }
+  ],
+  "filosofos": [
+    {
+      "id": "aristote",
+      "nombre": "Aristóteles",
+      "epoca": "siglo IV a. C.",
+      "tesis_principal": "Toda actividad humana apunta a la felicidad; la más alta es la del sabio contemplativo, que eleva su espíritu sin buscar dinero, poder ni reconocimiento. Esa vida de la mente es la más propia del hombre.",
+      "ideas_clave": [
+        "Toda la actividad humana apunta a la felicidad (bonheur)",
+        "El sabio contemplativo es modelo espiritual y moral de la felicidad más elevada",
+        "El saber es un absoluto que vale por sí mismo, no por su utilidad",
+        "El ocio del sabio (loisir, otium) necesita una sociedad en orden y en paz",
+        "La felicidad individual supone una parte de suerte (ausencia de obstáculos exteriores)"
+      ],
+      "citas": [
+        { "texto": "Une telle existence, toutefois, pourrait […] être au-dessus de la condition humaine.", "idioma": "fr", "obra": "Éthique à Nicomaque, Livre X", "pagina_pdf": 273 }
+      ],
+      "debate_con": ["kant", "epicure"],
+      "como_usarlo_en_disertacion": "Sirve de primera parte en sujetos sobre la naturaleza de la felicidad o el saber: la felicidad como soberano bien contemplativo. Se contrasta después con Kant (felicidad sujeta a la suerte y separada de la virtud).",
+      "escena_sugerida": "El sabio rechaza dinero y poder y se eleva hacia la contemplación.",
+      "pagina_pdf": 273,
+      "escena": {
+        "titulo": "Aristote : le sage contemplatif",
+        "estilo": "monigotes",
+        "duracion_seg": 24,
+        "actores": [
+          { "id": "sabio", "tipo": "monigote", "pos": [0.5, 0.75], "etiqueta": "Le sage", "escala": 1.2 },
+          { "id": "dinero", "tipo": "moneda", "pos": [0.15, 0.6], "etiqueta": "L'argent" },
+          { "id": "poder", "tipo": "corona", "pos": [0.85, 0.6], "etiqueta": "Le pouvoir" },
+          { "id": "libro", "tipo": "libro", "pos": [0.35, 0.35], "etiqueta": "Le savoir" },
+          { "id": "sol", "tipo": "sol", "pos": [0.5, 0.12], "etiqueta": "La contemplation" },
+          { "id": "dioses", "tipo": "estrella", "pos": [0.75, 0.2], "etiqueta": "Le divin" }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "sabio" },
+          { "t": 1, "accion": "subtitulo", "texto": "Toda actividad humana busca la felicidad. ¿Dónde la pone el sabio?" },
+          { "t": 3, "accion": "aparece", "actor": "dinero" },
+          { "t": 3.5, "accion": "aparece", "actor": "poder" },
+          { "t": 4.5, "accion": "piensa", "actor": "sabio", "texto": "Dinero y poder son intereses exteriores..." },
+          { "t": 7, "accion": "desaparece", "actor": "dinero" },
+          { "t": 7, "accion": "desaparece", "actor": "poder" },
+          { "t": 8, "accion": "subtitulo", "texto": "No persigue dinero, poder ni reconocimiento social, ni usa su inteligencia para dominar." },
+          { "t": 10, "accion": "aparece", "actor": "libro" },
+          { "t": 11, "accion": "mueve", "actor": "sabio", "a": [0.4, 0.5], "dur": 2 },
+          { "t": 12, "accion": "une", "de": "sabio", "a": "libro", "nota": "saber desinteresado" },
+          { "t": 13.5, "accion": "dice", "actor": "sabio", "texto": "El saber vale por sí mismo, no por su utilidad." },
+          { "t": 15, "accion": "aparece", "actor": "sol" },
+          { "t": 16, "accion": "mueve", "actor": "sabio", "a": [0.45, 0.3], "dur": 3 },
+          { "t": 16.5, "accion": "resalta", "actor": "sol" },
+          { "t": 18, "accion": "aparece", "actor": "dioses" },
+          { "t": 18.5, "accion": "cita", "texto": "Une telle existence, toutefois, pourrait […] être au-dessus de la condition humaine." },
+          { "t": 20, "accion": "proyecta", "de": "dioses", "a": "sabio", "nota": "casi divino" },
+          { "t": 22, "accion": "subtitulo", "texto": "La vida del espíritu es la felicidad más humana y casi divina: el soberano bien." }
+        ]
+      }
+    },
+    {
+      "id": "stoiciens",
+      "nombre": "Los estoicos",
+      "epoca": "Antigüedad helenística (desde el siglo III a. C.)",
+      "tesis_principal": "La felicidad es una actitud fuerte de la voluntad: desear las cosas tal como son. Bien, mal y felicidad dependen de nuestro juicio, y nadie puede obligarnos a pensar lo que no queremos.",
+      "ideas_clave": [
+        "Distinguir lo que depende de mí (mi juicio) de lo que me es exterior",
+        "Vivir de acuerdo con la naturaleza es consentir con alegría a la racionalidad del mundo, no resignarse",
+        "La virtud (vertu) es usar bien la razón para pensar y actuar; la felicidad acompaña a la virtud en ejercicio",
+        "Las representaciones (représentations) no dependen de mí, pero mi asentimiento es libre",
+        "La independencia del pensamiento es la fuente de la libertad y de la felicidad"
+      ],
+      "citas": [],
+      "debate_con": ["kant", "descartes"],
+      "como_usarlo_en_disertacion": "Útil para mostrar que la felicidad depende de uno mismo (juicio y voluntad) frente a la suerte y las circunstancias. Se puede oponer a Kant, para quien la felicidad depende de condiciones que escapan a la voluntad.",
+      "escena_sugerida": "Bajo una lluvia que no controla, el hombre juzga con su razón y es feliz.",
+      "pagina_pdf": 274,
+      "escena": {
+        "titulo": "Les stoïciens : ce qui dépend de moi",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "humano", "tipo": "monigote", "pos": [0.5, 0.75], "etiqueta": "L'homme", "escala": 1.2 },
+          { "id": "lluvia", "tipo": "nube", "pos": [0.5, 0.15], "etiqueta": "Ce qui ne dépend pas de moi" },
+          { "id": "cadenas", "tipo": "cadena", "pos": [0.2, 0.75], "etiqueta": "Le corps contraint" },
+          { "id": "juicio", "tipo": "cerebro", "pos": [0.78, 0.45], "etiqueta": "Mon jugement" },
+          { "id": "alegria", "tipo": "corazon", "pos": [0.78, 0.75], "etiqueta": "Le bonheur" }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "humano" },
+          { "t": 1, "accion": "aparece", "actor": "lluvia" },
+          { "t": 2, "accion": "subtitulo", "texto": "La lluvia, los acontecimientos: nada de eso depende de mí." },
+          { "t": 3.5, "accion": "proyecta", "de": "lluvia", "a": "humano", "nota": "représentations" },
+          { "t": 5, "accion": "tiembla", "actor": "humano" },
+          { "t": 5.5, "accion": "dice", "actor": "humano", "texto": "¡Qué tiempo tan triste! No puedo hacer nada." },
+          { "t": 8, "accion": "aparece", "actor": "juicio" },
+          { "t": 9, "accion": "resalta", "actor": "juicio" },
+          { "t": 9.5, "accion": "subtitulo", "texto": "Pero mi asentimiento a esas representaciones sí depende de mí: puedo juzgarlas libremente." },
+          { "t": 12, "accion": "piensa", "actor": "humano", "texto": "Acepto lo que llega y lo juzgo con mi razón." },
+          { "t": 14, "accion": "aparece", "actor": "cadenas" },
+          { "t": 15, "accion": "une", "de": "cadenas", "a": "humano", "nota": "el cuerpo puede ser forzado" },
+          { "t": 17, "accion": "dice", "actor": "humano", "texto": "Nadie puede obligarme a no pensar lo que quiero." },
+          { "t": 18.5, "accion": "resalta", "actor": "juicio" },
+          { "t": 20, "accion": "aparece", "actor": "alegria" },
+          { "t": 20.5, "accion": "proyecta", "de": "juicio", "a": "alegria", "nota": "libertad interior" },
+          { "t": 21, "accion": "salta", "actor": "humano" },
+          { "t": 22.5, "accion": "subtitulo", "texto": "Mi felicidad depende de mi juicio, no de causas exteriores: puedo ser feliz bajo la lluvia." }
+        ]
+      }
+    },
+    {
+      "id": "epicure",
+      "nombre": "Epicuro",
+      "epoca": "siglos IV-III a. C.",
+      "tesis_principal": "La filosofía es medicina del alma: nos enseña a usar con prudencia el placer, contentándonos con lo natural y necesario, para alcanzar la ataraxia, ausencia de turbación del alma.",
+      "ideas_clave": [
+        "Nunca es demasiado pronto ni demasiado tarde para filosofar (santé de l'âme)",
+        "La ataraxie es la ausencia de turbaciones del alma",
+        "La prudencia (phronésis) enseña a manejar el placer con mesura",
+        "Autosuficiencia: contentarse con poco (pan y agua) y limitarse a necesidades naturales",
+        "El placer sin exceso da estabilidad al alma, a diferencia del placer efímero e inestable de la concepción platónica"
+      ],
+      "citas": [
+        { "texto": "Quand on est jeune il ne faut pas remettre à philosopher, et quand on est vieux il ne faut pas se lasser de philosopher.", "idioma": "fr", "obra": "Lettre à Ménécée", "pagina_pdf": 276 },
+        { "texto": "lorsqu’il est à nous, nous avons tout, et quand il nous manque, nous faisons tout pour l’avoir", "idioma": "fr", "obra": "Lettre à Ménécée", "pagina_pdf": 275 }
+      ],
+      "debate_con": ["kant", "aristote", "bergson"],
+      "como_usarlo_en_disertacion": "Para sujetos sobre el placer y el deseo: el placer sobrio y natural como camino a la felicidad. Contrastar con la visión de Kant (la felicidad no es fin moral) y con Bergson (la alegría no se reduce al placer).",
+      "escena_sugerida": "El hombre se quema con placeres sin límite y halla calma con la filosofía y la justa medida.",
+      "pagina_pdf": 275,
+      "escena": {
+        "titulo": "Épicure : le plaisir sobre et l'ataraxie",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "hombre", "tipo": "monigote", "pos": [0.45, 0.75], "etiqueta": "L'homme", "escala": 1.2 },
+          { "id": "exceso", "tipo": "fuego", "pos": [0.15, 0.7], "etiqueta": "Plaisirs sans limite" },
+          { "id": "libro", "tipo": "libro", "pos": [0.75, 0.3], "etiqueta": "La philosophie" },
+          { "id": "balanza", "tipo": "balanza", "pos": [0.5, 0.25], "etiqueta": "La juste mesure" },
+          { "id": "pan", "tipo": "casa", "pos": [0.8, 0.72], "etiqueta": "Peu : pain et eau" },
+          { "id": "calma", "tipo": "corazon", "pos": [0.5, 0.45], "etiqueta": "Ataraxie" }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "hombre" },
+          { "t": 1, "accion": "aparece", "actor": "exceso" },
+          { "t": 2, "accion": "subtitulo", "texto": "Los placeres inmediatos y sin límite prometen mucho..." },
+          { "t": 3.5, "accion": "mueve", "actor": "hombre", "a": [0.25, 0.75], "dur": 2 },
+          { "t": 5.5, "accion": "tiembla", "actor": "hombre" },
+          { "t": 6, "accion": "dice", "actor": "hombre", "texto": "Siempre quiero más y mi alma se turba." },
+          { "t": 8.5, "accion": "subtitulo", "texto": "Pero el exceso deja el alma agitada e inestable." },
+          { "t": 10.5, "accion": "desaparece", "actor": "exceso" },
+          { "t": 11, "accion": "aparece", "actor": "libro" },
+          { "t": 12, "accion": "cita", "texto": "Quand on est jeune il ne faut pas remettre à philosopher, et quand on est vieux il ne faut pas se lasser de philosopher." },
+          { "t": 14, "accion": "mueve", "actor": "hombre", "a": [0.55, 0.75], "dur": 2 },
+          { "t": 15, "accion": "aparece", "actor": "balanza" },
+          { "t": 16, "accion": "piensa", "actor": "hombre", "texto": "Prudencia: manejar el placer con la mayor cautela." },
+          { "t": 18, "accion": "aparece", "actor": "pan" },
+          { "t": 18.5, "accion": "dice", "actor": "hombre", "texto": "Me basta con lo natural y necesario." },
+          { "t": 20.5, "accion": "aparece", "actor": "calma" },
+          { "t": 21, "accion": "proyecta", "de": "balanza", "a": "calma", "nota": "absence de troubles" },
+          { "t": 22, "accion": "salta", "actor": "hombre" },
+          { "t": 23, "accion": "subtitulo", "texto": "Contentarse con poco y sin exceso estabiliza el alma: eso es la ataraxia." }
+        ]
+      }
+    },
+    {
+      "id": "kant",
+      "nombre": "Emmanuel Kant",
+      "epoca": "siglo XVIII",
+      "tesis_principal": "La felicidad no es más que un ideal de la imaginación, no de la razón: no se define igual para todos ni depende solo de la voluntad. La virtud, que obedece a la ley moral, no promete felicidad; hay que actuar bien por deber y ser digno de ser feliz.",
+      "ideas_clave": [
+        "Cada uno aspira a algo distinto: la felicidad no puede definirse ni aplicarse de manera idéntica",
+        "La felicidad depende de condiciones y azares que escapan a la voluntad: es un ideal de la imaginación",
+        "La virtud pertenece a la voluntad moral (leyes de la libertad); la felicidad, a las leyes de la naturaleza",
+        "Toda acción primera debe ser moral: el deber precede a la felicidad (crítica del eudemonismo)",
+        "Actuando así se siente cierto contento al sentirse digno de su humanidad"
+      ],
+      "citas": [
+        { "texto": "un idéal, non de la raison mais de l’imagination", "idioma": "fr", "obra": "Fondements de la métaphysique des mœurs", "pagina_pdf": 275 }
+      ],
+      "debate_con": ["aristote", "stoiciens", "epicure"],
+      "como_usarlo_en_disertacion": "Imprescindible para sujetos sobre la relación entre moral y felicidad o sobre si es un fin legítimo: la felicidad no es el fundamento de la moral. Sirve para criticar las concepciones eudemonistas en la segunda parte de un plan dialéctico.",
+      "escena_sugerida": "Dos personas persiguen cada una su felicidad, que se les escapa; la ley moral guía la acción.",
+      "pagina_pdf": 275,
+      "escena": {
+        "titulo": "Kant : un idéal de l'imagination",
+        "estilo": "monigotes",
+        "duracion_seg": 26,
+        "actores": [
+          { "id": "ana", "tipo": "monigote", "pos": [0.2, 0.75], "etiqueta": "Moi" },
+          { "id": "otro", "tipo": "monigote", "pos": [0.8, 0.75], "etiqueta": "L'autre" },
+          { "id": "meta1", "tipo": "estrella", "pos": [0.3, 0.3], "etiqueta": "Mon bonheur" },
+          { "id": "meta2", "tipo": "corona", "pos": [0.7, 0.3], "etiqueta": "Son bonheur" },
+          { "id": "azar", "tipo": "nube", "pos": [0.5, 0.15], "etiqueta": "Les aléas" },
+          { "id": "ley", "tipo": "libro", "pos": [0.5, 0.55], "etiqueta": "La loi morale" },
+          { "id": "dignidad", "tipo": "corazon", "pos": [0.5, 0.85], "etiqueta": "Digne d'être heureux" }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "ana" },
+          { "t": 0, "accion": "aparece", "actor": "otro" },
+          { "t": 1.5, "accion": "aparece", "actor": "meta1" },
+          { "t": 1.5, "accion": "aparece", "actor": "meta2" },
+          { "t": 2.5, "accion": "subtitulo", "texto": "Cada uno aspira a algo distinto: lo que yo deseo nunca es lo que desea el otro." },
+          { "t": 5, "accion": "mueve", "actor": "ana", "a": [0.3, 0.5], "dur": 2 },
+          { "t": 5, "accion": "mueve", "actor": "otro", "a": [0.7, 0.5], "dur": 2 },
+          { "t": 7.5, "accion": "aparece", "actor": "azar" },
+          { "t": 8, "accion": "mueve", "actor": "meta1", "a": [0.15, 0.1], "dur": 2 },
+          { "t": 8, "accion": "mueve", "actor": "meta2", "a": [0.85, 0.1], "dur": 2 },
+          { "t": 9, "accion": "tiembla", "actor": "ana" },
+          { "t": 10, "accion": "subtitulo", "texto": "Los azares de la vida se interponen: casi lo alcanzamos y se nos escapa." },
+          { "t": 12.5, "accion": "cita", "texto": "un idéal, non de la raison mais de l’imagination" },
+          { "t": 15, "accion": "desaparece", "actor": "azar" },
+          { "t": 15.5, "accion": "aparece", "actor": "ley" },
+          { "t": 16.5, "accion": "resalta", "actor": "ley" },
+          { "t": 17, "accion": "dice", "actor": "ley", "texto": "Actúa por deber, no por la felicidad." },
+          { "t": 19, "accion": "mueve", "actor": "ana", "a": [0.4, 0.6], "dur": 2 },
+          { "t": 19, "accion": "mueve", "actor": "otro", "a": [0.6, 0.6], "dur": 2 },
+          { "t": 21, "accion": "aparece", "actor": "dignidad" },
+          { "t": 21.5, "accion": "proyecta", "de": "ley", "a": "dignidad", "nota": "contento" },
+          { "t": 22.5, "accion": "salta", "actor": "ana" },
+          { "t": 24, "accion": "subtitulo", "texto": "Obrar bien no promete felicidad, pero da el contento de ser digno de nuestra humanidad." }
+        ]
+      }
+    },
+    {
+      "id": "bergson",
+      "nombre": "Henri Bergson",
+      "epoca": "siglos XIX-XX",
+      "tesis_principal": "La alegría, más accesible que la felicidad, nace de ser uno mismo y de crear la propia vida sin límite utilitario. No es un simple placer: es una apertura al otro y al mundo que crece al compartirse.",
+      "ideas_clave": [
+        "Bajo la influencia de Spinoza, habla de joie más que de bonheur",
+        "La creación en sentido amplio (no solo artística) engendra la alegría: no necesita justificarse por un provecho inmediato",
+        "Seguir inventando la propia vida es prolongar el élan vital",
+        "No hace falta sustituir la alegría por elogios, honores o dinero (el artista no necesita gloria)",
+        "Los pequeños placeres son mezquinos, cierran y cesan al satisfacerse; el deseo y la alegría se renuevan y se comparten"
+      ],
+      "citas": [
+        { "texto": "se sent au-dessus de la gloire, parce qu’il est créateur, parce qu’il le sait", "idioma": "fr", "obra": "L’Énergie spirituelle", "pagina_pdf": 278 }
+      ],
+      "debate_con": ["epicure", "kant"],
+      "como_usarlo_en_disertacion": "Para distinguir alegría y placer y mostrar que la felicidad no se reduce a satisfacer necesidades: parte final de un plan progresivo sobre qué es una vida lograda. Ejemplo del cours: Van Gogh, que siguió pintando sin vender una sola obra.",
+      "escena_sugerida": "El artista crea sin importarle la gloria ni el dinero; su alegría se comparte.",
+      "pagina_pdf": 277,
+      "escena": {
+        "titulo": "Bergson : la joie créatrice",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "artista", "tipo": "monigote", "pos": [0.45, 0.75], "etiqueta": "Le créateur", "escala": 1.2 },
+          { "id": "obra", "tipo": "flor", "pos": [0.45, 0.45], "etiqueta": "Son œuvre" },
+          { "id": "dinero", "tipo": "moneda", "pos": [0.12, 0.35], "etiqueta": "L'argent" },
+          { "id": "gloria", "tipo": "corona", "pos": [0.88, 0.35], "etiqueta": "Les éloges" },
+          { "id": "placer", "tipo": "caja", "pos": [0.15, 0.75], "etiqueta": "Petit plaisir" },
+          { "id": "elan", "tipo": "sol", "pos": [0.5, 0.12], "etiqueta": "Élan vital" },
+          { "id": "otro", "tipo": "monigote", "pos": [0.82, 0.75], "etiqueta": "Les autres" }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "artista" },
+          { "t": 1, "accion": "aparece", "actor": "placer" },
+          { "t": 2, "accion": "subtitulo", "texto": "El pequeño placer se limita a su objeto y cesa cuando queda satisfecho." },
+          { "t": 4, "accion": "desaparece", "actor": "placer" },
+          { "t": 5, "accion": "aparece", "actor": "elan" },
+          { "t": 5.5, "accion": "proyecta", "de": "elan", "a": "artista", "nota": "élan vital" },
+          { "t": 7, "accion": "aparece", "actor": "obra" },
+          { "t": 7.5, "accion": "une", "de": "artista", "a": "obra", "nota": "crear su vida" },
+          { "t": 8.5, "accion": "subtitulo", "texto": "Crear, inventar la propia vida, es la fuente de la alegría: no se fija límite utilitario." },
+          { "t": 11, "accion": "aparece", "actor": "dinero" },
+          { "t": 11, "accion": "aparece", "actor": "gloria" },
+          { "t": 12, "accion": "dice", "actor": "artista", "texto": "No necesito dinero ni elogios para ser feliz." },
+          { "t": 14, "accion": "cita", "texto": "se sent au-dessus de la gloire, parce qu’il est créateur, parce qu’il le sait" },
+          { "t": 16, "accion": "desaparece", "actor": "dinero" },
+          { "t": 16, "accion": "desaparece", "actor": "gloria" },
+          { "t": 17.5, "accion": "aparece", "actor": "otro" },
+          { "t": 18, "accion": "proyecta", "de": "obra", "a": "otro", "nota": "joie partagée" },
+          { "t": 19.5, "accion": "salta", "actor": "otro" },
+          { "t": 20, "accion": "salta", "actor": "artista" },
+          { "t": 22, "accion": "subtitulo", "texto": "La alegría es creadora: se abre al otro y al mundo, y se intensifica al compartirse." }
+        ]
+      }
+    },
+    {
+      "id": "descartes",
+      "nombre": "René Descartes",
+      "epoca": "siglo XVII",
+      "tesis_principal": "En su «Lettre à Élisabeth», la pasión nos engaña sobre el valor de los bienes; la razón debe examinarlos sin pasión y elegir los mejores. Pero no hay que despreciar las pasiones: sujetas a la razón, pueden resultar útiles.",
+      "ideas_clave": [
+        "La pasión hace creer que ciertas cosas son mejores y más deseables de lo que son; después vienen los arrepentimientos",
+        "El verdadero oficio de la razón es examinar el justo valor de los bienes",
+        "Hay que desear solo lo que depende de nuestra conducta, a la manera estoica",
+        "Los bienes del cuerpo son menores: sin ellos hay manera de ser feliz",
+        "Las pasiones, apaciguadas y sujetas a la razón, pueden ser útiles: un justo medio"
+      ],
+      "citas": [
+        { "texto": "Souvent la passion nous fait croire certaines choses beaucoup meilleures et plus désirables qu’elles ne sont", "idioma": "fr", "obra": "Lettre à Élisabeth, 1er juin 1645", "pagina_pdf": 283 },
+        { "texto": "il suffit qu’on les rende sujettes à la raison", "idioma": "fr", "obra": "Lettre à Élisabeth, 1er juin 1645", "pagina_pdf": 284 }
+      ],
+      "debate_con": ["stoiciens"],
+      "como_usarlo_en_disertacion": "Para sujetos sobre pasión, deseo y razón en la búsqueda de la felicidad. Su justo medio (ni condena radical ni elogio sin reservas de la pasión) matiza la tradición estoica.",
+      "escena_sugerida": "La pasión muestra un bien deslumbrante que decepciona; la razón lo pesa y doma la pasión.",
+      "pagina_pdf": 283,
+      "escena": {
+        "titulo": "Descartes : la raison et les passions",
+        "estilo": "monigotes",
+        "duracion_seg": 25,
+        "actores": [
+          { "id": "hombre", "tipo": "monigote", "pos": [0.4, 0.75], "etiqueta": "L'homme", "escala": 1.2 },
+          { "id": "pasion", "tipo": "fuego", "pos": [0.15, 0.65], "etiqueta": "La passion" },
+          { "id": "bien", "tipo": "estrella", "pos": [0.8, 0.3], "etiqueta": "Un bien désirable ?" },
+          { "id": "pesar", "tipo": "nube", "pos": [0.5, 0.2], "etiqueta": "Regrets" },
+          { "id": "razon", "tipo": "cerebro", "pos": [0.5, 0.35], "etiqueta": "La raison" },
+          { "id": "balanza", "tipo": "balanza", "pos": [0.78, 0.7], "etiqueta": "Juste valeur" }
+        ],
+        "pasos": [
+          { "t": 0, "accion": "aparece", "actor": "hombre" },
+          { "t": 1, "accion": "aparece", "actor": "pasion" },
+          { "t": 1.5, "accion": "aparece", "actor": "bien" },
+          { "t": 2, "accion": "proyecta", "de": "pasion", "a": "bien", "nota": "lo embellece" },
+          { "t": 3, "accion": "resalta", "actor": "bien" },
+          { "t": 3.5, "accion": "subtitulo", "texto": "La pasión nos muestra las cosas mejores y más deseables de lo que son." },
+          { "t": 6, "accion": "mueve", "actor": "hombre", "a": [0.7, 0.45], "dur": 3 },
+          { "t": 9, "accion": "tiembla", "actor": "bien" },
+          { "t": 9.5, "accion": "aparece", "actor": "pesar" },
+          { "t": 10, "accion": "dice", "actor": "hombre", "texto": "Tanto esfuerzo... y ahora veo sus defectos." },
+          { "t": 12, "accion": "subtitulo", "texto": "Al gozarlo, vienen los desdenes, los pesares y los arrepentimientos." },
+          { "t": 14, "accion": "desaparece", "actor": "pesar" },
+          { "t": 14.5, "accion": "aparece", "actor": "razon" },
+          { "t": 15, "accion": "aparece", "actor": "balanza" },
+          { "t": 15.5, "accion": "proyecta", "de": "razon", "a": "balanza", "nota": "examinar sin pasión" },
+          { "t": 17.5, "accion": "piensa", "actor": "hombre", "texto": "Elegiré siempre los mejores bienes." },
+          { "t": 19.5, "accion": "mueve", "actor": "pasion", "a": [0.35, 0.7], "dur": 2 },
+          { "t": 20, "accion": "cita", "texto": "il suffit qu’on les rende sujettes à la raison" },
+          { "t": 21.5, "accion": "une", "de": "razon", "a": "pasion", "nota": "apprivoisée" },
+          { "t": 23, "accion": "subtitulo", "texto": "Las pasiones no se desprecian: sujetas a la razón pueden ser útiles. Un justo medio." }
+        ]
+      }
+    }
+  ],
+  "relaciones": [
+    { "de": "aristote", "a": "stoiciens", "tipo": "complementa", "nota": "Ambos son eudemonistas: la felicidad se funda en el buen uso de la razón." },
+    { "de": "aristote", "a": "epicure", "tipo": "complementa", "nota": "Tres concepciones eudemonistas del bonheur como bien supremo y valor universal." },
+    { "de": "stoiciens", "a": "epicure", "tipo": "complementa", "nota": "Ambos buscan la tranquilidad: aceptar lo que no depende de nosotros / ausencia de turbación del alma." },
+    { "de": "kant", "a": "aristote", "tipo": "se opone", "nota": "Kant cuestiona el eudemonismo: el valor moral prima sobre la felicidad." },
+    { "de": "kant", "a": "stoiciens", "tipo": "se opone", "nota": "Para Kant la felicidad no depende solo de la voluntad, sino de condiciones que escapan a ella." },
+    { "de": "kant", "a": "epicure", "tipo": "se opone", "nota": "La felicidad no puede ser el fundamento de la acción: el deber es primero." },
+    { "de": "stoiciens", "a": "descartes", "tipo": "influye", "nota": "Descartes desea solo lo que depende de nosotros, de inspiración estoica." },
+    { "de": "bergson", "a": "epicure", "tipo": "se opone", "nota": "La alegría creadora no se reduce a un simple placer, aun sobrio." },
+    { "de": "bergson", "a": "aristote", "tipo": "complementa", "nota": "Ambos valoran una actividad que vale por sí misma, sin interés ni utilidad." },
+    { "de": "descartes", "a": "kant", "tipo": "complementa", "nota": "Ambos subordinan el deseo a la razón en la conducta de la vida." },
+    { "de": "aristote", "a": "souverain-bien", "tipo": "influye", "nota": "La vida contemplativa del sabio es el modelo del soberano bien." },
+    { "de": "epicure", "a": "ataraxie", "tipo": "influye", "nota": "El uso prudente del placer garantiza la ataraxia." }
+  ],
+  "quiz": [
+    { "pregunta": "Que faut-il au sage selon Aristote pour exercer son activité ?", "opciones": ["De l’argent.", "Du loisir.", "Du pouvoir.", "De la gloire."], "correcta": 1, "explicacion": "El sabio contemplativo no persigue dinero ni poder; su actividad necesita ocio (loisir), posible en una sociedad en paz.", "filosofo": "aristote", "pagina_pdf": 274 },
+    { "pregunta": "Le sage est un ... :", "opciones": ["contemplatif.", "rêveur.", "décideur.", "militant."], "correcta": 0, "explicacion": "El sabio aristotélico está en la contemplación: sus cualidades intelectuales se traducen en acciones que piensan el mundo.", "filosofo": "aristote", "pagina_pdf": 273 },
+    { "pregunta": "Pour les stoïciens, mon bonheur dépend :", "opciones": ["des conditions matérielles.", "de la chance.", "de moi.", "des autres."], "correcta": 2, "explicacion": "Para los estoicos, mi felicidad depende enteramente de mi juicio y no de causas exteriores.", "filosofo": "stoiciens", "pagina_pdf": 275 },
+    { "pregunta": "Comment les stoïciens appellent-ils ce qui ne dépend pas de moi ?", "opciones": ["L’infortune.", "Les représentations.", "Le manque.", "Les vertus."], "correcta": 1, "explicacion": "Las representaciones (las ideas sobre el mundo, p. ej. el tiempo que hace) no dependen de mí; mi asentimiento sí.", "filosofo": "stoiciens", "pagina_pdf": 275 },
+    { "pregunta": "Comment Épicure nomme-t-il l’absence de trouble ou d’excès ?", "opciones": ["La piété.", "La félicité.", "L’ataraxie.", "L’apathie."], "correcta": 2, "explicacion": "La ataraxia es la ausencia de turbaciones del alma, que garantiza la ausencia de exceso.", "filosofo": "epicure", "pagina_pdf": 276 },
+    { "pregunta": "Quelle est selon Épicure la vertu nécessaire au plaisir quotidien ?", "opciones": ["La prudence.", "La méfiance.", "La patience.", "Le courage."], "correcta": 0, "explicacion": "La filosofía enseña a manejar el placer con la mayor prudencia (phronésis en griego).", "filosofo": "epicure", "pagina_pdf": 276 },
+    { "pregunta": "Pour Kant, le bonheur est un idéal de ... :", "opciones": ["la raison.", "la sensibilité.", "l’imagination.", "la volonté."], "correcta": 2, "explicacion": "Kant lo define como «un idéal, non de la raison mais de l’imagination».", "filosofo": "kant", "pagina_pdf": 276 },
+    { "pregunta": "Selon Kant, il faut être ... :", "opciones": ["content de vivre.", "parfaitement heureux.", "digne d’être heureux.", "chanceux."], "correcta": 2, "explicacion": "Hay que obrar por deber; quien actúa así siente contento al sentirse digno de su humanidad.", "filosofo": "kant", "pagina_pdf": 277 },
+    { "pregunta": "Pour Bergson, la joie accompagne ... :", "opciones": ["la création.", "la quiétude.", "les intérêts.", "le calcul."], "correcta": 0, "explicacion": "Para Bergson la creación, que no se fija límite utilitario, engendra la alegría.", "filosofo": "bergson", "pagina_pdf": 277 },
+    { "pregunta": "Avec quoi ne faut-il pas, selon lui, confondre la joie ?", "opciones": ["La souffrance.", "Le cynisme.", "Le plaisir.", "La création."], "correcta": 2, "explicacion": "El cours opone la joie, creadora y ilimitada, a los pequeños placeres, mezquinos y que cesan al satisfacerse.", "filosofo": "bergson", "pagina_pdf": 278 },
+    { "pregunta": "Quelles trois doctrines le cours qualifie-t-il d’eudémonistes, et que défend l’eudémonisme ?", "opciones": ["Aristote, stoïciens et Épicure : le bonheur comme souverain bien.", "Kant, Bergson et Sartre : le devoir avant tout.", "Descartes, Platon et Nietzsche : la passion comme guide.", "Épicure, Mill et Bentham : l’utilité comme principe."], "correcta": 0, "explicacion": "El eudemonismo hace de la felicidad el fin supremo; Kant lo cuestiona al priorizar el valor moral.", "filosofo": null, "pagina_pdf": 281 },
+    { "pregunta": "Selon le cours, que dit ironiquement Flaubert des conditions du bonheur ?", "opciones": ["Être sage, modeste et généreux.", "Être bête, égoïste et avoir une bonne santé.", "Être riche, puissant et reconnu.", "Être libre, cultivé et amoureux."], "correcta": 1, "explicacion": "Flaubert afirma que hacen falta ser bête, égoïste y tener buena salud; «si la première manque, tout est perdu».", "filosofo": null, "pagina_pdf": 273 },
+    { "pregunta": "Pour Descartes, que doit-on faire des passions ?", "opciones": ["Les mépriser entièrement.", "Les suivre sans réserve.", "Les rendre sujettes à la raison.", "Les ignorer par résignation."], "correcta": 2, "explicacion": "Descartes no las condena: apaciguadas y sujetas a la razón, pueden ser útiles.", "filosofo": "descartes", "pagina_pdf": 284 }
+  ],
+  "preguntas_abiertas": [
+    { "enunciado": "Le bonheur dépend-il de nous ? Appuyez-vous sur les stoïciens et sur Kant.", "puntos_clave": ["Estoicos: distinción entre lo que depende de mí (juicio, asentimiento a las representaciones) y lo exterior", "Para ellos todo depende finalmente de mi juicio, también la felicidad", "Kant: la felicidad depende de condiciones múltiples y aleatorias que escapan a la voluntad", "Ya Aristóteles reconocía una parte de suerte en la felicidad", "Kant: es un ideal de la imaginación, no de la razón"], "filosofos": ["stoiciens", "kant"], "pagina_pdf": 275 },
+    { "enunciado": "La vertu est-elle une condition au bonheur ?", "puntos_clave": ["Estoicos: la felicidad acompaña a la virtud en ejercicio (buen uso de la razón)", "Kant: virtud (leyes de la libertad) y felicidad (leyes de la naturaleza) no tienen vínculo causal", "El deber precede a la felicidad: no buscarla por puro egoísmo («un salaud heureux», Sartre)", "Obrar bien no implica ser desdichado: da contento de ser digno de la humanidad", "Crítica kantiana del eudemonismo"], "filosofos": ["stoiciens", "kant"], "pagina_pdf": 277 },
+    { "enunciado": "Quelle différence faut-il faire entre plaisir et joie ?", "puntos_clave": ["Bergson: la joie naît de la création de sí mismo, sin límite utilitario ni necesidad de justificarse", "El placer mezquino cierra, no se comparte, cesa al satisfacerse y se limita a su objeto", "Ejemplos del cours: el pequeño jefe, el que se enriquece a costa de otros, el amoroso posesivo", "Crítica al cálculo utilitarista de placeres (Bentham)", "Epicuro: placer sobrio y ataraxia; la alegría bergsoniana va más allá del placer"], "filosofos": ["bergson", "epicure"], "pagina_pdf": 278 },
+    { "enunciado": "Dans quelle mesure suivre ses passions peut-il contribuer à rendre notre existence plus heureuse ? (Descartes, Lettre à Élisabeth)", "puntos_clave": ["La pasión engaña: muestra las cosas mejores y más deseables de lo que son", "La razón examina sin pasión el justo valor de los bienes y elige los mejores", "Desear solo lo que depende de nuestra conducta, a la manera estoica", "Matiz: no se condenan las pasiones; sujetas a la razón son útiles", "Justo medio entre la condena radical (Platón) y el elogio sin reservas (Nietzsche), según el corrigé"], "filosofos": ["descartes", "stoiciens"], "pagina_pdf": 287 }
+  ],
+  "disertaciones": [
+    {
+      "sujeto": "Le bonheur est-il un but politique ?",
+      "tipo_plan": "dialectique",
+      "problematica": "El sujeto liga dos temas, felicidad y Estado, y obliga a considerar sus consecuencias. La felicidad parece un fin político justo, pero es subjetiva y su imposición pone en riesgo la libertad. Hay que precisar el papel del Estado.",
+      "plan": [
+        { "parte": "I. Le bonheur pour tous est un but politique louable", "idea": "Derecho a la felicidad: todo hombre debe tener sus necesidades primarias aseguradas; es una obra de justicia social.", "autores": [], "ejemplo": "Saint-Just: «le bonheur [était] une idée neuve en Europe»." },
+        { "parte": "II. Les risques d’une définition politique du bonheur", "idea": "El bonheur es subjetivo y limitado a la vida privada; querer hacer la felicidad de los hombres lleva a imponer una concepción por la fuerza.", "autores": ["kant"], "ejemplo": "Los regímenes totalitarios (corrigé); para Kant cada uno aspira a algo distinto." },
+        { "parte": "III. L’État garant des libertés et des conditions matérielles, sans définir le bonheur", "idea": "El Estado garantiza libertades y condiciones materiales de la felicidad sin ser su fundador ni propagador.", "autores": [], "ejemplo": "La constitución americana contiene la palabra «bonheur» junto a la libertad individual." }
+      ],
+      "pagina_pdf": 285
+    },
+    {
+      "sujeto": "La vertu est-elle une condition au bonheur ?",
+      "tipo_plan": "dialectique",
+      "problematica": "Para los antiguos, virtud y felicidad van unidas; Kant las separa en dos legislaciones. ¿Puede entonces la vertu ser condición sin ser garantía de la felicidad? Se trata de articular deber y contento.",
+      "plan": [
+        { "parte": "I. La vertu accompagne le bonheur chez les Anciens", "idea": "La vertu es el cumplimiento perfecto de la función propia del hombre, el uso de su razón; la felicidad acompaña a la virtud en ejercicio.", "autores": ["stoiciens", "aristote"], "ejemplo": "La vertu de la tierra es su fertilidad; la de una espada, su filo." },
+        { "parte": "II. Kant : la vertu ne promet aucun bonheur", "idea": "Virtud (leyes de la libertad) y felicidad (leyes de la naturaleza) no tienen vínculo causal; el deber es primero y la felicidad, si viene, es suerte.", "autores": ["kant"], "ejemplo": "Sartre: no buscar el bonheur por egoísmo, al riesgo de ser «un salaud heureux»." },
+        { "parte": "III. Un contentement d’être digne de son humanité", "idea": "Ni incompatibles ni idénticas: obrar bien no vuelve infeliz y da el contento de ser digno de la humanidad.", "autores": ["kant"], "ejemplo": "El hombre libre actúa por deber, no por buscar satisfacción." }
+      ],
+      "pagina_pdf": 277
+    },
+    {
+      "sujeto": "Le bonheur est-il toujours un enfermement ?",
+      "tipo_plan": "progressif",
+      "problematica": "Flaubert ironizaba con que ser feliz exige ser «bête, égoïste». ¿Es la felicidad la marca de un hombre que solo se ocupa de sí mismo? Veremos que puede ser ejercicio cotidiano de la inteligencia y alegría creadora abierta al otro.",
+      "plan": [
+        { "parte": "I. Le bonheur comme égoïsme ou plaisir mesquin", "idea": "Los pequeños placeres se limitan a su objeto, son indiferentes a los demás y encierran; el cálculo utilitarista tiene límites.", "autores": ["bergson"], "ejemplo": "El pequeño jefe, el que se enriquece a costa de otros, el amoroso que consume al otro." },
+        { "parte": "II. Le bonheur comme exercice de l’intelligence", "idea": "El sabio contemplativo, «solitaire et solidaire ensemble» (Camus), necesita una sociedad en paz; los estoicos y Epicuro ven la felicidad como ejercicio de la razón.", "autores": ["aristote", "stoiciens", "epicure"], "ejemplo": "El ocio (otium) del sabio sólo florece en una sociedad feliz y pacífica." },
+        { "parte": "III. La joie, ouverture à l’autre", "idea": "La alegría creadora es apertura al otro y al mundo, y se intensifica al compartirse.", "autores": ["bergson"], "ejemplo": "Van Gogh creaba y recreaba su vida en sus obras sin haber vendido ninguna." }
+      ],
+      "pagina_pdf": 273
+    }
+  ]
+}
