@@ -28,6 +28,9 @@ Sin Node también funciona: abre `index.html` con doble clic (el progreso se gua
 | **Disertación** | Planes por sujeto armados solo con autores del cours + el método de la dissertation y de l'explication de texte de tu libro. |
 | **Repères** | Glosario de repères y cronología de autores del final del libro, con buscador. |
 
+## Audios para el celular (segundo plano, sin internet)
+La carpeta `audio/` trae **70 audios .m4a (9 h, ~100 MB)** generados con voz neuronal local (Piper): por noción, el *capítulo completo* (~10-16 min) y las *tesis de los autores* (~2-3 min), en **español y francés**, más los *repères*. Las citas se leen con la voz francesa. Pasan al celular copiando la carpeta (cable / Drive / WhatsApp), descargándolos desde la pestaña **Audio** (`node server.js --lan` y abrir `http://IP-de-la-laptop:3000` desde el celular en el mismo wifi) o desde GitHub; una vez en el celular suenan con la pantalla bloqueada y sin conexión. Se regeneran con `tools/generar-audios.py` (instrucciones dentro del archivo).
+
 ## Idioma ES / FR
 El botón **ES | FR** de la barra superior cambia la interfaz **y todo el contenido** (resúmenes, fichas, escenas, quizzes, disertaciones, repères, dilemas). Citas y términos clave siempre van en francés (idioma original del libro). La versión francesa vive en `data/fr/` (se genera con `tools/fr-extract.js` + `tools/fr-merge.js`).
 
