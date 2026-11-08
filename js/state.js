@@ -13,8 +13,8 @@
   const DILEMAS = global.DILEMAS || [];
 
   const defaults = () => ({
-    version: 1, xp: 0,
-    ajustes: { lang: 'es', idioma: 'bilingue', cronometro: true, narrar: true, sfxEscena: true, vozRate: 1, musica: false, musicaVol: 0.5, vozEs: '', vozFr: '', tarjetasVoz: false, estilo: 'monigotes', reducirMov: matchMedia('(prefers-reduced-motion: reduce)').matches, sonido: false },
+    version: 2, xp: 0,
+    ajustes: { lang: 'es', idioma: 'bilingue', cronometro: true, narrar: true, sfxEscena: true, vozRate: 1, musica: false, musicaVol: 0.5, vozEs: '', vozFr: '', tarjetasVoz: false, estilo: 'monigotes', reducirMov: matchMedia('(prefers-reduced-motion: reduce)').matches, sonido: true },
     fil: {},      // "cap/fil" -> {visto, escena, intentos, aciertos, xp}
     cap: {},      // cap -> {quizIntentos, quizAciertos, mejor}
     abiertas: {}, // "cap#i" -> {veces, mejor}
@@ -36,7 +36,7 @@
     let loaded = null;
     try { const r = await fetch('/api/progreso', { cache: 'no-store' }); if (r.ok) { useServer = true; loaded = await r.json(); } } catch (e) { /* sin servidor */ }
     if (!loaded) { try { loaded = JSON.parse(localStorage.getItem(LS) || 'null'); } catch (e) {} }
-    if (loaded) P = merge(defaults(), loaded);
+    if (loaded) { P = merge(defaults(), loaded); if ((loaded.version || 1) < 2) { P.ajustes.sonido = true; P.version = 2; save(); } }   // v2: los sonidos de interfaz pasan a estar activados por defecto
     emit();
   }
   function save() {

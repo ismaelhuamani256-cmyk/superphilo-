@@ -164,7 +164,8 @@
       final_tragico: () => { tone(220, 110, 1.4, 'sawtooth', 0.06); tone(165, 82, 1.6, 'triangle', 0.07, 0.2); },
       final_luminoso: () => { [523, 659, 784, 1046].forEach((f, i) => tone(f, 0, 0.9, 'sine', 0.06, i * 0.14)); },
     };
-    return { play(k) { if (P().ajustes.sfxEscena === false) return; (K[k] || (() => {}))(); }, ensure() { try { ctx = ctx || new (global.AudioContext || global.webkitAudioContext)(); ctx.resume(); } catch (e) {} } };
+    const UI = { hover: () => tone(520, 700, 0.08, 'sine', 0.04), fly: () => { noise(1.1, 0.06, 200, 3000); tone(180, 520, 1.0, 'sine', 0.05); }, node: () => { tone(440, 660, 0.16, 'triangle', 0.07); tone(880, 0, 0.2, 'sine', 0.03, 0.06); }, edge: () => tone(300, 360, 0.1, 'sine', 0.025), open: () => tone(330, 495, 0.18, 'triangle', 0.05) };
+    return { ui(k) { if (P().ajustes.sonido === false) return; (UI[k] || (() => {}))(); }, play(k) { if (P().ajustes.sfxEscena === false) return; (K[k] || (() => {}))(); }, ensure() { try { ctx = ctx || new (global.AudioContext || global.webkitAudioContext)(); ctx.resume(); } catch (e) {} } };
   })();
 
   /* ================= AUDIO DE LAS ESCENAS: voz + efectos ================= */

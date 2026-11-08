@@ -146,6 +146,7 @@
     _startFly(i) {
       const g = this.cards[i]; this.tmp.setFromMatrixPosition(g.matrixWorld);
       const from = this.camera.position.clone(), to = new THREE.Vector3(this.tmp.x, this.tmp.y + 0.05, this.tmp.z + 2.9);
+      global.Voz && Voz.Sfx2.ui('fly');
       this.fly = { from, to, t0: performance.now(), dur: this.reduced() ? 1 : 1150, i, done: false };
       document.getElementById('fade').classList.add('on');
       setTimeout(() => document.getElementById('fade').classList.add('on'), this.fly.dur - 500);

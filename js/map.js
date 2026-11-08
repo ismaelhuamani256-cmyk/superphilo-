@@ -89,7 +89,7 @@
         }
         // entrada escalonada
         g.animate([{ opacity: 0, transform: `translate(${n.x}px,${n.y}px) scale(.4)` }, { opacity: 1, transform: `translate(${n.x}px,${n.y}px) scale(1)` }], { duration: State.P.ajustes.reducirMov ? 1 : 600, delay: State.P.ajustes.reducirMov ? 0 : i * 45, easing: 'cubic-bezier(.2,.9,.3,1.3)' });
-        const act = () => { this.select(n.id); handlers.onNode && handlers.onNode(n); };
+        const act = () => { global.Voz && Voz.Sfx2.ui('node'); this.select(n.id); handlers.onNode && handlers.onNode(n); };
         g.addEventListener('click', e => { e.stopPropagation(); act(); });
         g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); act(); } });
         g.addEventListener('mouseenter', () => this.hl(n.id)); g.addEventListener('mouseleave', () => this.hl(this.sel));

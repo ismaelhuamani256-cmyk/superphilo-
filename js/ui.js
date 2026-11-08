@@ -251,7 +251,7 @@
       <div class="field"><label>Estilo de escena por defecto</label><div class="seg" id="s-estilo">${STYLE_NAMES.map(([v, n]) => `<button data-v="${v}" class="${a.estilo === v ? 'on' : ''}" ${SceneSkins[v] ? '' : 'disabled style="opacity:.4"'}>${n}</button>`).join('')}</div></div>
       <div class="field"><label>Movimiento y sonido</label>
         <label class="chk"><input type="checkbox" id="s-red" ${a.reducirMov ? 'checked' : ''}><span>Reducir animaciones (menos calor, respeta <code>prefers-reduced-motion</code>)</span></label>
-        <label class="chk"><input type="checkbox" id="s-son" ${a.sonido ? 'checked' : ''}><span>Sonidos suaves (aciertos / fallos)</span></label>
+        <label class="chk"><input type="checkbox" id="s-son" ${a.sonido ? 'checked' : ''}><span>Sonidos de interfaz (carrusel, mapa, aciertos / fallos)</span></label>
         <label class="chk"><input type="checkbox" id="s-cro" ${a.cronometro !== false ? 'checked' : ''}><span>Cronómetro en los dilemas (estilo Detroit)</span></label></div>
       <div class="field"><label>${L('Audio', 'Audio')}</label>
         <label class="chk"><input type="checkbox" id="s-nar" ${a.narrar !== false ? 'checked' : ''}><span>${L('Leer en voz alta los subtítulos y citas de las escenas', 'Lire à voix haute les sous-titres et citations des scènes')}</span></label>

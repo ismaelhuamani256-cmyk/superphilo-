@@ -107,7 +107,7 @@
     const hover = $('#hover-info');
     await Select.init($('#gl'), S.COURS.capitulos, {
       onEnter: cap => go('map', cap.id),
-      onHover: cap => { if (!cap) return hover.hidden = true; hover.hidden = false; hover.style.borderColor = capColor(cap); hover.innerHTML = `<h3 style="color:${capColor(cap)}">${cap.titulo}</h3><p>${cap.filosofos.slice(0, 6).map(f => f.nombre).join(' · ')}${cap.filosofos.length > 6 ? ' …' : ''}</p>`; Sfx && Sfx(520, 700, .08); },
+      onHover: cap => { if (!cap) return hover.hidden = true; hover.hidden = false; hover.style.borderColor = capColor(cap); hover.innerHTML = `<h3 style="color:${capColor(cap)}">${cap.titulo}</h3><p>${cap.filosofos.slice(0, 6).map(f => f.nombre).join(' · ')}${cap.filosofos.length > 6 ? ' …' : ''}</p>`; Voz.Sfx2.ui('hover'); },
     });
     resizable($('#side-resizer'), '--side-w', null, 240, () => innerWidth * 0.62, false, 'philo-side-w', 320);
     resizable($('#ficha-resizer'), '--ficha-w', null, 340, () => innerWidth * 0.92, true, 'philo-ficha-w', 520);

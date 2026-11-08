@@ -46,7 +46,7 @@
     // ajustes
     'Idioma': 'Langue', 'Idioma de la interfaz y del cours': 'Langue de l’interface et du cours', 'Estilo de escena por defecto': 'Style de scène par défaut', 'Movimiento y sonido': 'Mouvement et son',
     'Reducir animaciones (menos calor, respeta prefers-reduced-motion)': 'Réduire les animations (moins de chauffe, respecte prefers-reduced-motion)',
-    'Sonidos suaves (aciertos / fallos)': 'Sons doux (réussites / erreurs)', 'Cronómetro en los dilemas (estilo Detroit)': 'Chronomètre dans les dilemmes (style Detroit)', 'Datos': 'Données', 'Borrar mi progreso': 'Effacer ma progression',
+    'Sonidos suaves (aciertos / fallos)': 'Sons doux (réussites / erreurs)', 'Sonidos de interfaz (carrusel, mapa, aciertos / fallos)': 'Sons d’interface (carrousel, carte, réussites / erreurs)', 'Cronómetro en los dilemas (estilo Detroit)': 'Chronomètre dans les dilemmes (style Detroit)', 'Datos': 'Données', 'Borrar mi progreso': 'Effacer ma progression',
     // dilemas
     'Dilemas: decide y vive las consecuencias': 'Dilemmes : décide et assume les conséquences', 'Jugar': 'Jouer', 'Seguir': 'Continuer', 'Empezar': 'Commencer', 'Saltar escena': 'Passer la scène', 'Ver escena otra vez': 'Revoir la scène',
     'Mapa de decisiones': 'Carte des décisions', 'Otro camino': 'Un autre chemin', 'finales': 'fins', 'Final': 'Fin', 'Trágico': 'Tragique', 'Ambiguo': 'Ambigu', 'Luminoso': 'Lumineux',
