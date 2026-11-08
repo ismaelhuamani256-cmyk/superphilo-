@@ -14,7 +14,7 @@
 
   const defaults = () => ({
     version: 1, xp: 0,
-    ajustes: { lang: 'es', idioma: 'bilingue', cronometro: true, estilo: 'monigotes', reducirMov: matchMedia('(prefers-reduced-motion: reduce)').matches, sonido: false },
+    ajustes: { lang: 'es', idioma: 'bilingue', cronometro: true, narrar: true, sfxEscena: true, vozRate: 1, musica: false, musicaVol: 0.5, vozEs: '', vozFr: '', tarjetasVoz: false, estilo: 'monigotes', reducirMov: matchMedia('(prefers-reduced-motion: reduce)').matches, sonido: false },
     fil: {},      // "cap/fil" -> {visto, escena, intentos, aciertos, xp}
     cap: {},      // cap -> {quizIntentos, quizAciertos, mejor}
     abiertas: {}, // "cap#i" -> {veces, mejor}

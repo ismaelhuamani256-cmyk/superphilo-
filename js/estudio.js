@@ -49,9 +49,10 @@
         <div class="kpis"><div class="kpi"><b>${s.due}</b><span>${L('para repasar hoy', 'à revoir aujourd’hui')}</span></div><div class="kpi"><b>${s.nuevas}</b><span>${L('nuevas', 'nouvelles')}</span></div><div class="kpi"><b>${s.apr}</b><span>${L('bien aprendidas (≥7 días)', 'bien apprises (≥7 jours)')}</span></div><div class="kpi"><b>${s.tot}</b><span>${L('tarjetas en este filtro', 'cartes dans ce filtre')}</span></div></div>
         <div class="field"><label>${L('Capítulo', 'Chapitre')}</label><select id="fc-cap"><option value="all">${L('Todos', 'Tous')}</option>${caps.map(c => `<option value="${c.id}" ${opt.cap === c.id ? 'selected' : ''}>${c.numero}. ${esc(c.titulo)}</option>`).join('')}</select></div>
         <div class="field"><label>${L('Tipos', 'Types')}</label>${Object.entries(TYPES).map(([k, n]) => `<label class="chk" style="display:inline-flex;margin-right:8px"><input type="checkbox" data-t="${k}" ${opt.tipos.has(k) ? 'checked' : ''}><span>${L(n[0], n[1])}</span></label>`).join('')}</div>
-        <button class="btn primary" id="fc-go" ${s.due + Math.min(s.nuevas, opt.nuevas) ? '' : 'disabled'}>${L('Empezar sesión', 'Commencer la session')} (${s.due + Math.min(s.nuevas, opt.nuevas)})</button>`;
+        <label class="chk" style="margin:10px 0"><input type="checkbox" id="fc-voz" ${P().ajustes.tarjetasVoz ? 'checked' : ''}><span>${L('Leer las tarjetas en voz alta automáticamente', 'Lire les cartes à voix haute automatiquement')}</span></label><button class="btn primary" id="fc-go" ${s.due + Math.min(s.nuevas, opt.nuevas) ? '' : 'disabled'}>${L('Empezar sesión', 'Commencer la session')} (${s.due + Math.min(s.nuevas, opt.nuevas)})</button>`;
       $('#fc-cap', root).onchange = e => { opt.cap = e.target.value; home(); };
       root.querySelectorAll('[data-t]').forEach(b => b.onchange = () => { b.checked ? opt.tipos.add(b.dataset.t) : opt.tipos.delete(b.dataset.t); home(); });
+      $('#fc-voz', root).onchange = e => S.setAjuste('tarjetasVoz', e.target.checked);
       $('#fc-go', root).onclick = () => session();
     };
     const session = () => {
@@ -60,11 +61,12 @@
       const next = () => {
         if (!q.length) return done();
         const c = q[0]; let shown = false;
-        root.innerHTML = `<div style="max-width:760px;margin:0 auto"><div class="qtop"><span>${total - q.length + 1}/${total}</span><div class="qprog"><i style="width:${(total - q.length) / total * 100}%"></i></div><button class="btn sm" id="fc-exit">${L('Salir', 'Quitter')}</button></div>
+        root.innerHTML = `<div style="max-width:760px;margin:0 auto"><div class="qtop"><span>${total - q.length + 1}/${total}</span><div class="qprog"><i style="width:${(total - q.length) / total * 100}%"></i></div><button class="speak" id="fc-say" title="${L('Leer en voz alta', 'Lire à voix haute')}">🔊</button><button class="btn sm" id="fc-exit">${L('Salir', 'Quitter')}</button></div>
           <div class="card" id="fc-card" style="min-height:300px;display:grid;place-items:center;text-align:center;cursor:pointer;padding:30px"><div id="fc-face">${c.front}</div></div>
           <div id="fc-act" style="margin-top:14px;text-align:center"><button class="btn primary" id="fc-flip">${L('Mostrar respuesta', 'Montrer la réponse')} <small style="opacity:.6">(Espacio)</small></button></div></div>`;
+        const sayFace = () => { const txt = $('#fc-face', root).textContent; const fr = c.tipo === 'cita' && !shown || c.tipo === 'rep' && !shown; Voz.say(txt, fr ? 'fr' : S.lang); }; $('#fc-say', root).onclick = e => { e.stopPropagation(); sayFace(); }; if (P().ajustes.tarjetasVoz) setTimeout(sayFace, 150);
         const flip = () => {
-          if (shown) return; shown = true; $('#fc-face', root).innerHTML = c.back; $('#fc-card', root).style.borderColor = 'var(--gold)';
+          if (shown) return; shown = true; $('#fc-face', root).innerHTML = c.back; if (P().ajustes.tarjetasVoz) setTimeout(sayFace, 150); $('#fc-card', root).style.borderColor = 'var(--gold)';
           $('#fc-act', root).innerHTML = [[0, L('Otra vez', 'Encore'), 'var(--bad)'], [1, L('Difícil', 'Difficile'), ''], [2, L('Bien', 'Bien'), ''], [3, L('Fácil', 'Facile'), 'var(--ok)']].map(([g, nme, col], i) => `<button class="btn" data-g="${g}" style="margin:0 4px;${col ? 'border-color:' + col : ''}">${i + 1} · ${nme}</button>`).join('');
           root.querySelectorAll('[data-g]').forEach(b => b.onclick = () => answer(+b.dataset.g));
         };
@@ -74,7 +76,7 @@
         addEventListener('keydown', keyH);
       };
       const cleanup = () => { if (keyH) removeEventListener('keydown', keyH); keyH = null; };
-      const done = () => { cleanup(); root.innerHTML = `<div style="text-align:center;padding:50px 0"><div class="bigscore">${good}/${n}</div><p style="color:var(--muted)">${L('Sesión terminada. Vuelve mañana: las tarjetas que fallaste volverán antes.', 'Session terminée. Reviens demain : les cartes ratées reviendront plus tôt.')}</p><button class="btn primary" id="fc-ok">${L('Listo', 'Terminé')}</button></div>`; $('#fc-ok', root).onclick = home; global.__onProgress && global.__onProgress(); };
+      const done = () => { Voz.cancel(); cleanup(); root.innerHTML = `<div style="text-align:center;padding:50px 0"><div class="bigscore">${good}/${n}</div><p style="color:var(--muted)">${L('Sesión terminada. Vuelve mañana: las tarjetas que fallaste volverán antes.', 'Session terminée. Reviens demain : les cartes ratées reviendront plus tôt.')}</p><button class="btn primary" id="fc-ok">${L('Listo', 'Terminé')}</button></div>`; $('#fc-ok', root).onclick = home; global.__onProgress && global.__onProgress(); };
       next();
     };
     home();

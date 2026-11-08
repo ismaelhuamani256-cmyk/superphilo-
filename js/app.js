@@ -4,7 +4,7 @@
 (function () {
   'use strict';
   const $ = (s, r = document) => r.querySelector(s), S = State;
-  const views = ['select', 'map', 'tracker', 'examen', 'tarjetas', 'dilemas', 'autores', 'plan', 'disertacion', 'reperes'];
+  const views = ['select', 'map', 'tracker', 'examen', 'tarjetas', 'dilemas', 'autores', 'plan', 'audio', 'disertacion', 'reperes'];
   let cur = { view: 'select' };
 
   /* ---------- fondo de estrellas (2D, ligero) ---------- */
@@ -43,7 +43,7 @@
     if (view === 'select') { show('select'); crumbs(['Capítulos']); document.getElementById('fade').classList.remove('on'); }
     else if (view === 'map') {
       const cap = S.byCap[id]; if (!cap) return go('select');
-      show('map'); crumbs(['Capítulos', UI.titulo(cap)]); renderSide(cap);
+      Voz.Musica.setRoot(cap.numero); show('map'); crumbs(['Capítulos', UI.titulo(cap)]); renderSide(cap);
       requestAnimationFrame(() => {
         MapView.render(cap, { onNode: n => UI.openFicha(cap, n), onBg: () => UI.closeFicha() });
         document.getElementById('fade').classList.remove('on');
@@ -54,6 +54,7 @@
     else if (view === 'examen') { show('examen'); crumbs([L('Examen', 'Examen')]); Examen.render($('#view-examen'), id); }
     else if (view === 'tarjetas') { show('tarjetas'); crumbs([L('Tarjetas', 'Cartes')]); Estudio.renderCards($('#view-tarjetas'), id); }
     else if (view === 'autores') { show('autores'); crumbs([L('Autores', 'Auteurs')]); Estudio.renderAutores($('#view-autores'), id); }
+    else if (view === 'audio') { show('audio'); crumbs([L('Audio', 'Audio')]); Voz.renderAudio($('#view-audio')); }
     else if (view === 'plan') { show('plan'); crumbs([L('Plan', 'Plan')]); Estudio.renderPlan($('#view-plan')); }
     else if (view === 'dilemas') { show('dilemas'); crumbs([L('Dilemas', 'Dilemmes')]); Dilemas.renderList($('#view-dilemas')); if (id) Dilemas.play(id); }
     else if (view === 'disertacion') { show('disertacion'); crumbs(['Disertación']); UI.renderDisert($('#view-disertacion'), id); }
@@ -66,12 +67,12 @@
     $('#chap-side').innerHTML = `<div class="n" style="color:var(--muted);font-size:11px;letter-spacing:.14em">NOCIÓN ${cap.numero} / 17 · pp. ${cap.paginas.inicio}-${cap.paginas.fin}</div>
       <h2 style="color:${col}">${esc(cap.titulo)}</h2><div class="sub">${esc(cap.titulo_es)} · dominio <b>${S.chapterMastery(cap.id)}%</b></div>
       <p>${esc(cap.resumen)}</p>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px"><button class="btn sm primary" id="s-quiz">Quiz del capítulo</button><button class="btn sm" id="s-dis">Disertación</button><button class="btn sm" id="s-carte">🧠 Carte mentale</button>${S.DILEMAS.some(d => d.capitulo === cap.id) ? '<button class="btn sm" id="s-dil">Dilema 🎮</button>' : ''}</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px"><button class="btn sm primary" id="s-quiz">Quiz del capítulo</button><button class="btn sm" id="s-dis">Disertación</button><button class="btn sm" id="s-carte">🧠 Carte mentale</button><button class="btn sm" id="s-listen">🎧 Escuchar capítulo</button>${S.DILEMAS.some(d => d.capitulo === cap.id) ? '<button class="btn sm" id="s-dil">Dilema 🎮</button>' : ''}</div>
       <h4>Los 5 puntos incontournables</h4><ol>${cap.puntos_incontournables.map(x => `<li>${esc(x)}</li>`).join('')}</ol>
       <h4>Nociones clave</h4><div class="chips">${cap.nociones_clave.map(x => `<span class="chip">${esc(x)}</span>`).join('')}</div>
       <h4>Problemáticas tipo bac</h4>${cap.problematicas_bac.map(x => `<button class="prob" data-d="1">${esc(x)}</button>`).join('')}`;
     $('#s-quiz').onclick = () => UI.startQuiz({ cap }); $('#s-dis').onclick = () => go('disertacion', cap.id);
-    $('#s-carte').onclick = () => Examen.openCarte(cap.id);
+    $('#s-carte').onclick = () => Examen.openCarte(cap.id); $('#s-listen').onclick = () => Voz.playQ(Voz.chapterItems(cap, 'completo'), cap.titulo);
     const bd = $('#s-dil'); if (bd) bd.onclick = () => { const d = S.DILEMAS.find(x => x.capitulo === cap.id); go('dilemas', d.id); };
     $('#chap-side').querySelectorAll('[data-d]').forEach(b => b.onclick = () => go('disertacion', cap.id));
   }
@@ -80,7 +81,7 @@
   function paintLang() { document.querySelectorAll('#lang button').forEach(b => b.classList.toggle('on', b.dataset.l === S.lang)); I18N.setLang(S.lang); }
   function setLang(l) {
     if (l === 'fr' && !S.hasFR) return;
-    S.setAjuste('lang', l); paintLang(); Select.setCaps(S.COURS.capitulos); rerender();
+    Voz.stopQ(); Voz.cancel(); S.setAjuste('lang', l); paintLang(); Select.setCaps(S.COURS.capitulos); rerender();
   }
 
   /* ---------- barras laterales redimensionables ---------- */
@@ -112,7 +113,8 @@
     resizable($('#ficha-resizer'), '--ficha-w', null, 340, () => innerWidth * 0.92, true, 'philo-ficha-w', 520);
     document.querySelectorAll('#lang button').forEach(b => b.onclick = () => setLang(b.dataset.l));
     if (!S.hasFR) document.querySelector('#lang [data-l="fr"]').disabled = true;
-    I18N.start(); paintLang();
+    I18N.start(); paintLang(); Voz.init();
+    if (S.P.ajustes.musica) addEventListener('pointerdown', () => Voz.Musica.start(), { once: true });   // el navegador exige un gesto antes de sonar
     $('#btn-home').onclick = () => go('select'); $('#btn-settings').onclick = () => UI.openSettings();
     document.querySelectorAll('.tab').forEach(t => t.onclick = () => go(t.dataset.go));
     const [v, id, sub] = location.hash.slice(1).split('/'); views.includes(v) && v !== 'select' ? go(v, id, sub) : go('select');

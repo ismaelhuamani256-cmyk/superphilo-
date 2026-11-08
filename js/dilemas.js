@@ -38,7 +38,7 @@
   function play(id, fromNode) {
     const d = S.DILEMAS.find(x => x.id === id); if (!d) return;
     const cap = S.byCap[d.capitulo], pr = prog(id); let cur = fromNode || d.inicio, path = [], player = null, timer = null, keyH = null;
-    const clean = () => { clearInterval(timer); if (player) { player.destroy(); player = null; } if (keyH) removeEventListener('keydown', keyH); };
+    const clean = () => { Voz.cancel(); clearInterval(timer); if (player) { player.destroy(); player = null; } if (keyH) removeEventListener('keydown', keyH); };
     const c = UI.openModal('', false, clean); c.classList.add('game');
     if (cap) c.style.setProperty('--accent', capColor(cap));
 
@@ -55,15 +55,17 @@
       cur = id; const n = d.nodos[id]; pr.visitados[id] = true; S.save();
       c.innerHTML = `<button class="x" aria-label="Cerrar">✕</button><div class="game-head"><h2>${esc(T(d.titulo))}</h2><span class="steps">${path.length + 1}</span></div>
         <div class="player"><canvas id="g-cv"></canvas></div>
-        <div class="ctrls"><button class="btn sm" id="g-skip">${L('Saltar escena', 'Passer la scène')}</button><button class="btn sm" id="g-rep" hidden>↺ ${L('Ver escena otra vez', 'Revoir la scène')}</button></div>
+        <div class="ctrls"><button class="btn sm" id="g-voz" title="Narración">🔊</button><button class="btn sm" id="g-skip">${L('Saltar escena', 'Passer la scène')}</button><button class="btn sm" id="g-rep" hidden>↺ ${L('Ver escena otra vez', 'Revoir la scène')}</button></div>
         <div class="narr">${esc(T(n.narracion))}</div><div id="g-after"></div>`;
       $('.x', c).onclick = UI.closeModal;
       if (player) player.destroy();
-      player = new ScenePlayer($('#g-cv', c), { reduced: P().ajustes.reducirMov, onEnd: () => after(n) });
+      const au = Voz.sceneAudio(() => player && player.model);
+      player = new ScenePlayer($('#g-cv', c), { reduced: P().ajustes.reducirMov, onTime: t => au.tick(t), onEnd: () => after(n) });
+      const pv = () => { $('#g-voz', c).textContent = P().ajustes.narrar ? '🔊' : '🔇'; }; pv(); $('#g-voz', c).onclick = () => { if (!P().ajustes.narrar && Voz.warnIfNoVoice(S.lang)) return; S.setAjuste('narrar', !P().ajustes.narrar); pv(); if (!P().ajustes.narrar) Voz.cancel(); };
       player.resize(); player.load(n.escena, SceneSkins.monigotes);
       document.fonts.load('700 30px Caveat').then(() => player && player.draw());
-      $('#g-skip', c).onclick = () => { player.pause(); player.seek(player.model.duration); after(n); };
-      $('#g-rep', c).onclick = () => { $('#g-after', c).innerHTML = ''; clearInterval(timer); player.restart(); $('#g-rep', c).hidden = true; };
+      $('#g-skip', c).onclick = () => { player.pause(); Voz.cancel(); player.seek(player.model.duration); after(n); };
+      $('#g-rep', c).onclick = () => { $('#g-after', c).innerHTML = ''; clearInterval(timer); au.reset(); player.restart(); $('#g-rep', c).hidden = true; };
       requestAnimationFrame(() => { player.resize(); player.play(); });
     };
 
@@ -73,6 +75,7 @@
       $('#g-skip', c).hidden = true; $('#g-rep', c).hidden = false;
       if (n.final) return ending(n);
       const dec = n.decision, box = $('#g-after', c), secs = (dec.tiempo_seg && P().ajustes.cronometro !== false) ? dec.tiempo_seg : 0;
+      if (P().ajustes.narrar) setTimeout(() => Voz.say(T(dec.pregunta), S.lang, true), 400);
       box.innerHTML = `<div class="decision"><h3>${esc(T(dec.pregunta))}</h3>${secs ? '<div class="timer"><i></i></div>' : ''}<div class="dopts">${dec.opciones.map((o, i) => `<button class="dopt" data-i="${i}"><kbd>${i + 1}</kbd><span>${esc(T(o.texto))}</span></button>`).join('')}</div></div>`;
       const choose = (i, timeout) => {
         clearInterval(timer); if (keyH) { removeEventListener('keydown', keyH); keyH = null; }
@@ -88,7 +91,7 @@
       const f = n.final, first = !pr.finales[f.id]; pr.finales[f.id] = true;
       const fil = cap && f.filosofo ? cap.filosofos.find(x => x.id === f.filosofo) : null; const got = finalesDe(d).filter(x => pr.finales[x.id]).length, tot = finalesDe(d).length;
       if (first) S.addXP(25, L('final descubierto', 'fin découverte')); else S.save();
-      Sfx && Sfx(f.tipo === 'tragico' ? 180 : 700, f.tipo === 'tragico' ? 90 : 1200, 0.5, f.tipo === 'tragico' ? 'sawtooth' : 'sine');
+      Voz.Sfx2.play(f.tipo === 'tragico' ? 'final_tragico' : 'final_luminoso'); if (P().ajustes.narrar) Voz.say(T(f.titulo) + '. ' + T(f.idea), S.lang, true);
       $('#g-after', c).innerHTML = `<div class="ending ${f.tipo}"><span class="badge ${f.tipo}">${L('Final', 'Fin')} ${got}/${tot} · ${tname(f.tipo)}</span><h2>${esc(T(f.titulo))}</h2>
         <h4 style="margin:12px 0 4px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)">${L('Idea filosófica', 'Idée philosophique')}${fil ? ' · ' + esc(fil.nombre) : ''} <span class="pg">p.${f.pagina_pdf}</span></h4><p style="margin:0;line-height:1.6">${esc(T(f.idea))}</p>
         ${f.cita ? `<div class="cita"><q lang="fr">${esc(f.cita.texto)}</q><small>${esc(fil ? fil.nombre : '')} <span class="pg">p.${f.cita.pagina_pdf}</span></small></div>` : ''}
