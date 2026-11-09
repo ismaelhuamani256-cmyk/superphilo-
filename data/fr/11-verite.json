@@ -1,0 +1,2094 @@
+{
+ "id": "verite",
+ "numero": 11,
+ "titulo": "La vérité",
+ "titulo_es": "La verdad",
+ "resumen": "La philosophie naît comme quête de la vérité : Platon la relie à la réminiscence et à la distinction entre l'être et le paraître. Aristote en fixe les conditions formelles (principe de non-contradiction) face au relativisme de Protagoras, et Descartes la situe dans l'évidence du cogito et dans les idées innées. Les sceptiques (Montaigne) doutent de tout critère théorique sans cesser de chercher, et les pragmatistes (James) la définissent par la vérification et par les conséquences des idées.",
+ "paginas": {
+  "inicio": 182,
+  "fin": 195
+ },
+ "puntos_incontournables": [
+  "Le scepticisme (le scepticisme) : aucun critère n'est assez solide pour affirmer une thèse, mais cela n'empêche pas de chercher la vérité.",
+  "Le monde des Idées et celui des apparences (Platon) : toute quête de la vérité suppose de distinguer l'être (l'être) du paraître (le paraître).",
+  "Le principe de non-contradiction (Aristote) : il permet de réfuter un discours incohérent et montre que toute opinion n'est pas vraie.",
+  "Le mythe d'Er le Pamphylien (le mythe d'Er le Pamphylien) : l'oubli du Léthé et la réminiscence comme chemin vers l'aletheia.",
+  "Le pragmatisme (le pragmatisme) : la vérité se définit par les résultats de l'expérimentation et par ses conséquences pour l'homme."
+ ],
+ "nociones_clave": [
+  "vérité",
+  "aletheia",
+  "réminiscence (anamnèse)",
+  "être / paraître",
+  "ontologie",
+  "principe de non-contradiction",
+  "opinion",
+  "phantasiai",
+  "adéquation de la chose et de l’intellect",
+  "évidence",
+  "cogito",
+  "scepticisme",
+  "critère de la vérité",
+  "praxis",
+  "pragmatisme",
+  "vérification",
+  "vraisemblance",
+  "doute et certitude",
+  "préjugé"
+ ],
+ "problematicas_bac": [
+  "Faut-il aimer la vérité ?",
+  "Une opinion n’est-elle pas légitime si elle naît de nos perceptions ?",
+  "Peut-on aimer et rechercher une vérité qu’on ne connaît pas ?",
+  "Le besoin d’identités stables n’est-il pas la vraie cause de cet amour de la vérité ?",
+  "Est-il alors nécessaire d’aimer la vérité pour la rechercher ?"
+ ],
+ "conceptos": [
+  {
+   "id": "reminiscence",
+   "nombre": "Réminiscence (anamnèse)",
+   "definicion": "Processus de « re-souvenir » des connaissances que l'âme a contemplées dans l'au-delà ; l'homme redécouvre des savoirs déjà appris.",
+   "pagina_pdf": 183,
+   "autores": [
+    "platon"
+   ]
+  },
+  {
+   "id": "etre-paraitre",
+   "nombre": "Être et paraître",
+   "definicion": "Toute quête de la vérité distingue le monde changeant des apparences sensibles et le monde immuable des Idées, qui fonde la vérité sur le plan ontologique.",
+   "pagina_pdf": 184,
+   "autores": [
+    "platon"
+   ]
+  },
+  {
+   "id": "non-contradiction",
+   "nombre": "Principe de non-contradiction",
+   "definicion": "Un même attribut ne peut pas appartenir et ne pas appartenir au même sujet, en même temps et sous le même rapport ; il permet de réfuter les discours incohérents.",
+   "pagina_pdf": 185,
+   "autores": [
+    "aristote",
+    "protagoras"
+   ]
+  },
+  {
+   "id": "adequation",
+   "nombre": "Vérité-adéquation",
+   "definicion": "Définition classique : la vérité est l'adéquation de la chose et de l'intellect ; elle ne privilégie ni le matérialisme ni l'idéalisme, mais leur relation.",
+   "pagina_pdf": 186,
+   "autores": [
+    "descartes"
+   ]
+  },
+  {
+   "id": "evidence-cogito",
+   "nombre": "Évidence et cogito",
+   "definicion": "Est vraie la pensée dont l'évidence exclut tout doute ; la première vérité est le cogito, et le critère du vrai ce sont les idées claires et distinctes.",
+   "pagina_pdf": 187,
+   "autores": [
+    "descartes"
+   ]
+  },
+  {
+   "id": "critere-scepticisme",
+   "nombre": "Le critère de la vérité et le doute sceptique",
+   "definicion": "Les sceptiques ne trouvent aucun critère suffisant pour affirmer une thèse, mais continuent de chercher ; leur doute est théorique et n'affecte pas la praxis.",
+   "pagina_pdf": 187,
+   "autores": [
+    "montaigne",
+    "epicure"
+   ]
+  },
+  {
+   "id": "verification-pragmatisme",
+   "nombre": "Vérité pragmatique (vérification)",
+   "definicion": "Le critère de la vérité est la réussite : une idée se définit par ses conséquences expérimentales et se valide progressivement par l'usage.",
+   "pagina_pdf": 188,
+   "autores": [
+    "james",
+    "pascal"
+   ]
+  },
+  {
+   "id": "vraisemblance",
+   "nombre": "Vraisemblance et degrés de certitude",
+   "definicion": "Quand il n'y a pas de certitude absolue, on peut estimer des degrés de probabilité : certaines opinions valent mieux que d'autres sans être démontrées.",
+   "pagina_pdf": 192,
+   "autores": [
+    "leibniz"
+   ]
+  }
+ ],
+ "filosofos": [
+  {
+   "id": "platon",
+   "nombre": "Platon",
+   "epoca": "Ve-IVe siècle av. J.-C.",
+   "tesis_principal": "Toute quête de la vérité exige de distinguer l'être du paraître : il faut se détourner du monde des apparences sensibles pour contempler le monde des Idées, et la vérité s'atteint comme une réminiscence qui triomphe de l'oubli.",
+   "ideas_clave": [
+    "Mythe d'Er le Pamphylien : les âmes boivent du Léthé et oublient ; il faut reconquérir l'aletheia par la réminiscence (réminiscence)",
+    "L'oubli est le déclencheur de la réflexion philosophique, et nous sommes tous égaux devant la quête de la vérité",
+    "Ménon : l'esclave comprend la géométrie ; tous possèdent un savoir intuitif, quelles que soient leur instruction ou leur condition sociale",
+    "Allégorie de la caverne : les prisonniers prennent les ombres pour la réalité ; l'éducation conduit au monde des Idées (être / paraître)",
+    "La vérité est un discours vrai sur l'être, doté d'un fondement ontologique (ontos, être)"
+   ],
+   "citas": [
+    {
+     "texto": "Celle qui buvait, à chaque fois oubliait tout le passé.",
+     "idioma": "fr",
+     "obra": "La République, Livre X (mythe d’Er le Pamphylien)",
+     "pagina_pdf": 183
+    }
+   ],
+   "debate_con": [
+    "aristote",
+    "descartes"
+   ],
+   "como_usarlo_en_disertacion": "À utiliser pour des sujets portant sur l'origine de la quête de la vérité, la différence entre opinion et savoir ou la distinction entre apparence et réalité. Il sert de premier moment (la vérité comme quête de l'être) et de référence pour Descartes (réminiscence, idées innées).",
+   "escena_sugerida": "Un prisonnier enchaîné voit des ombres, se libère, se tourne vers le soleil des Idées et se souvient de ce qu'il savait déjà.",
+   "pagina_pdf": 183,
+   "escena": {
+    "titulo": "Platon : de l'ombre à l'être, la réminiscence",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "prisionero",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.7
+      ],
+      "etiqueta": "Le prisonnier",
+      "escala": 1
+     },
+     {
+      "id": "cadena",
+      "tipo": "cadena",
+      "pos": [
+       0.2,
+       0.85
+      ],
+      "escala": 1
+     },
+     {
+      "id": "sombras",
+      "tipo": "nube",
+      "pos": [
+       0.5,
+       0.4
+      ],
+      "etiqueta": "Ombres sur le mur",
+      "escala": 1
+     },
+     {
+      "id": "lethe",
+      "tipo": "texto",
+      "pos": [
+       0.25,
+       0.12
+      ],
+      "etiqueta": "Léthé : l'oubli",
+      "escala": 1
+     },
+     {
+      "id": "sol",
+      "tipo": "sol",
+      "pos": [
+       0.85,
+       0.25
+      ],
+      "etiqueta": "Monde des Idées (l'être)",
+      "escala": 1.2
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "prisionero"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "sombras"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Platon : les prisonniers de la caverne prennent les ombres pour la réalité (le paraître)."
+     },
+     {
+      "t": 4.5,
+      "accion": "dice",
+      "actor": "prisionero",
+      "texto": "Seul existe ce que je vois sur le mur !"
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "lethe"
+     },
+     {
+      "t": 7.5,
+      "accion": "subtitulo",
+      "texto": "Les âmes boivent du Léthé et oublient : cet oubli éveille le désir de chercher la vérité (aletheia)."
+     },
+     {
+      "t": 10.5,
+      "accion": "aparece",
+      "actor": "sol"
+     },
+     {
+      "t": 11,
+      "accion": "desaparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 12,
+      "accion": "mueve",
+      "actor": "prisionero",
+      "a": [
+       0.7,
+       0.65
+      ],
+      "dur": 3
+     },
+     {
+      "t": 12.5,
+      "accion": "subtitulo",
+      "texto": "L'éducation tourne l'âme vers le monde des Idées, le seul vrai."
+     },
+     {
+      "t": 15.5,
+      "accion": "piensa",
+      "actor": "prisionero",
+      "texto": "Je n'apprends rien de nouveau : je me souviens de ce que je savais déjà !"
+     },
+     {
+      "t": 17.5,
+      "accion": "une",
+      "de": "prisionero",
+      "a": "sol",
+      "nota": "réminiscence"
+     },
+     {
+      "t": 19,
+      "accion": "cita",
+      "texto": "Celle qui buvait, à chaque fois oubliait tout le passé."
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "Chercher la vérité, c'est détourner le regard des apparences et se souvenir de l'être."
+     }
+    ]
+   }
+  },
+  {
+   "id": "aristote",
+   "nombre": "Aristote",
+   "epoca": "IVe siècle av. J.-C.",
+   "tesis_principal": "Une vérité ne peut s'exprimer que dans un cadre formel : le principe de non-contradiction empêche qu'une chose soit et ne soit pas à la fois, et le changement suppose des identités stables. C'est pourquoi toutes les opinions ne sont pas vraies.",
+   "ideas_clave": [
+    "Principe de non-contradiction (principe de non-contradiction) : la vérité ne peut pas être tout et son contraire",
+    "Sans lui, « tout serait confondu avec tout » : il n'y aurait aucune différence entre les êtres et le mot « être » serait superflu",
+    "Être dans le vrai, c'est penser selon la nature des objets ; être dans le faux, c'est penser contre elle",
+    "Le changement suppose la stabilité de l'identité : l'apparence implique l'être qui lui sert de réceptacle",
+    "L'être est la mesure et la condition du vrai, non une opinion singulière"
+   ],
+   "citas": [
+    {
+     "texto": "il est impossible que le même attribut appartienne et n’appartienne pas en même temps au même sujet et sous le même rapport",
+     "idioma": "fr",
+     "obra": "Métaphysique",
+     "pagina_pdf": 185
+    }
+   ],
+   "debate_con": [
+    "protagoras",
+    "epicure"
+   ],
+   "como_usarlo_en_disertacion": "À utiliser dans des sujets sur la légitimité des opinions, le relativisme ou les conditions d'un discours vrai. Il sert à montrer que la cohérence est indispensable à la vérité et à réfuter celui qui soutient que tout se vaut.",
+   "escena_sugerida": "Un relativiste affirme tout et son contraire : un mur, une galère et un homme se fondent dans une confusion jusqu'à ce qu'Aristote apporte le principe de non-contradiction.",
+   "pagina_pdf": 185,
+   "escena": {
+    "titulo": "Aristote : le principe de non-contradiction",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "orador",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.7
+      ],
+      "etiqueta": "Celui qui affirme tout",
+      "escala": 1
+     },
+     {
+      "id": "muro",
+      "tipo": "casa",
+      "pos": [
+       0.4,
+       0.75
+      ],
+      "etiqueta": "Un mur",
+      "escala": 1
+     },
+     {
+      "id": "galera",
+      "tipo": "caja",
+      "pos": [
+       0.65,
+       0.75
+      ],
+      "etiqueta": "Un trirème",
+      "escala": 1
+     },
+     {
+      "id": "duda",
+      "tipo": "interrogacion",
+      "pos": [
+       0.52,
+       0.45
+      ],
+      "escala": 1.2
+     },
+     {
+      "id": "aristote",
+      "tipo": "monigote",
+      "pos": [
+       0.88,
+       0.35
+      ],
+      "etiqueta": "Aristote",
+      "escala": 1
+     },
+     {
+      "id": "balanza",
+      "tipo": "balanza",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Non-contradiction",
+      "escala": 1.2
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "orador"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "muro"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "galera"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": "Si l'on pouvait affirmer tout et son contraire, tout serait confondu avec tout."
+     },
+     {
+      "t": 4,
+      "accion": "dice",
+      "actor": "orador",
+      "texto": "C'est blanc et ce n'est pas blanc à la fois !"
+     },
+     {
+      "t": 6,
+      "accion": "mueve",
+      "actor": "muro",
+      "a": [
+       0.55,
+       0.75
+      ],
+      "dur": 2
+     },
+     {
+      "t": 6,
+      "accion": "mueve",
+      "actor": "galera",
+      "a": [
+       0.55,
+       0.75
+      ],
+      "dur": 2
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "duda"
+     },
+     {
+      "t": 8.2,
+      "accion": "tiembla",
+      "actor": "muro"
+     },
+     {
+      "t": 9,
+      "accion": "subtitulo",
+      "texto": "Un mur, une galère et un homme seraient la même chose : les mots ne diraient plus rien."
+     },
+     {
+      "t": 12.5,
+      "accion": "aparece",
+      "actor": "aristote"
+     },
+     {
+      "t": 13,
+      "accion": "aparece",
+      "actor": "balanza"
+     },
+     {
+      "t": 14,
+      "accion": "desaparece",
+      "actor": "duda"
+     },
+     {
+      "t": 14.2,
+      "accion": "mueve",
+      "actor": "galera",
+      "a": [
+       0.75,
+       0.75
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 14.2,
+      "accion": "mueve",
+      "actor": "muro",
+      "a": [
+       0.4,
+       0.75
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 15.5,
+      "accion": "dice",
+      "actor": "aristote",
+      "texto": "Un attribut ne peut pas être et ne pas être à la fois."
+     },
+     {
+      "t": 17.5,
+      "accion": "cita",
+      "texto": "il est impossible que le même attribut appartienne et n’appartienne pas en même temps au même sujet et sous le même rapport"
+     },
+     {
+      "t": 20,
+      "accion": "resalta",
+      "actor": "balanza"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "La vérité ne peut pas être tout et son contraire : toutes les opinions ne se valent pas."
+     }
+    ]
+   }
+  },
+  {
+   "id": "protagoras",
+   "nombre": "Protagoras",
+   "epoca": "Ve siècle av. J.-C.",
+   "tesis_principal": "Pour le sophiste Protagoras, l'homme est la mesure de toutes choses : toute opinion individuelle serait légitime et ce qui paraît à chacun serait la réalité même. Le cours la présente comme la thèse qui ferait disparaître le concept de vérité.",
+   "ideas_clave": [
+    "« L’homme est la mesure de toutes choses » : toute opinion individuelle est fondamentalement légitime",
+    "Ce qui paraît à chacun est la réalité même",
+    "Deux opinions contraires seraient également vraies",
+    "Conséquence : le concept de vérité n'aurait plus lieu d'être (réfuté par le principe de non-contradiction)"
+   ],
+   "citas": [
+    {
+     "texto": "l’homme est la mesure de toutes choses",
+     "idioma": "fr",
+     "obra": "tesis atribuida al sofista Protagoras",
+     "pagina_pdf": 185
+    }
+   ],
+   "debate_con": [
+    "aristote"
+   ],
+   "como_usarlo_en_disertacion": "À utiliser comme la position relativiste discutée dans des sujets tels que « toute opinion est légitime » ou « y a-t-il une vérité ? ». On l'oppose à Aristote pour montrer que, sans critère commun, il n'y a pas de discours vrai.",
+   "escena_sugerida": "Deux personnes affirment des choses contraires et Protagoras donne raison aux deux ; le mot Vérité s'évanouit.",
+   "pagina_pdf": 185,
+   "escena": {
+    "titulo": "Protagoras : l'homme mesure de toutes choses",
+    "estilo": "monigotes",
+    "duracion_seg": 22,
+    "actores": [
+     {
+      "id": "protag",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.25
+      ],
+      "etiqueta": "Protagoras",
+      "escala": 1
+     },
+     {
+      "id": "m1",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.7
+      ],
+      "etiqueta": "Opinion A",
+      "escala": 1
+     },
+     {
+      "id": "m2",
+      "tipo": "monigote",
+      "pos": [
+       0.8,
+       0.7
+      ],
+      "etiqueta": "Opinion B",
+      "escala": 1
+     },
+     {
+      "id": "galera",
+      "tipo": "caja",
+      "pos": [
+       0.5,
+       0.8
+      ],
+      "etiqueta": "Un trirème",
+      "escala": 1
+     },
+     {
+      "id": "verdad",
+      "tipo": "texto",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "etiqueta": "La vérité",
+      "escala": 1.3
+     },
+     {
+      "id": "duda",
+      "tipo": "interrogacion",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "escala": 1.2
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "protag"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "m1"
+     },
+     {
+      "t": 1.2,
+      "accion": "aparece",
+      "actor": "m2"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": "Le sophiste Protagoras : l'homme est la mesure de toutes choses ; chaque opinion serait légitime."
+     },
+     {
+      "t": 4,
+      "accion": "dice",
+      "actor": "protag",
+      "texto": "Ce qui paraît à chacun est la réalité même."
+     },
+     {
+      "t": 6.5,
+      "accion": "dice",
+      "actor": "m1",
+      "texto": "L'homme n'est pas une galère."
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "galera"
+     },
+     {
+      "t": 8.5,
+      "accion": "dice",
+      "actor": "m2",
+      "texto": "L'homme est une galère !"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "Deux opinions contraires seraient également vraies : la contradiction serait vraie, elle aussi."
+     },
+     {
+      "t": 12.5,
+      "accion": "aparece",
+      "actor": "verdad"
+     },
+     {
+      "t": 13.5,
+      "accion": "tiembla",
+      "actor": "verdad"
+     },
+     {
+      "t": 14.5,
+      "accion": "desaparece",
+      "actor": "verdad"
+     },
+     {
+      "t": 14.7,
+      "accion": "aparece",
+      "actor": "duda"
+     },
+     {
+      "t": 16,
+      "accion": "cita",
+      "texto": "l’homme est la mesure de toutes choses"
+     },
+     {
+      "t": 18.5,
+      "accion": "subtitulo",
+      "texto": "Si tout se vaut, le concept de vérité perd sa place : toute opinion n'est pas légitime."
+     }
+    ]
+   }
+  },
+  {
+   "id": "epicure",
+   "nombre": "Épicure",
+   "epoca": "IVe-IIIe siècle av. J.-C.",
+   "tesis_principal": "Pour Épicure (puis Lucrèce), les sens « ne se trompent jamais » : nos perceptions sont le reflet de la réalité et, de ce fait, une opinion qui en naît ne peut être invalidée par le principe de non-contradiction.",
+   "ideas_clave": [
+    "Nos sens ne se trompent jamais : les perceptions reflètent la réalité",
+    "Les impressions (phantasiai) seraient véridiques",
+    "Sous phantasiai, il inclut des éléments sensoriels et non sensoriels (rêves, visions)",
+    "Témoigner de nos perceptions ne peut être un faux témoignage",
+    "Sa thèse contraste avec le scepticisme : il affirme que toutes les perceptions sont véridiques"
+   ],
+   "citas": [
+    {
+     "texto": "ne se trompent jamais",
+     "idioma": "fr",
+     "obra": "tesis de Épicure y Lucrèce sobre los sentidos",
+     "pagina_pdf": 185
+    }
+   ],
+   "debate_con": [
+    "aristote",
+    "montaigne"
+   ],
+   "como_usarlo_en_disertacion": "À utiliser pour défendre qu'une opinion naît légitimement de la perception (sujets sur la perception, l'opinion, l'expérience). Il sert de contrepoint à Aristote dans la partie qui nuance « toute opinion n'est pas légitime » et au scepticisme de Montaigne.",
+   "escena_sugerida": "Épicure regarde une fleur : l'œil reçoit la perception ; même les rêves sont des impressions, et la balance de la non-contradiction ne peut les invalider.",
+   "pagina_pdf": 185,
+   "escena": {
+    "titulo": "Épicure : les sens ne se trompent jamais",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "epicuro",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.7
+      ],
+      "etiqueta": "Épicure",
+      "escala": 1
+     },
+     {
+      "id": "flor",
+      "tipo": "flor",
+      "pos": [
+       0.85,
+       0.75
+      ],
+      "etiqueta": "La réalité",
+      "escala": 1
+     },
+     {
+      "id": "ojo",
+      "tipo": "ojo",
+      "pos": [
+       0.5,
+       0.55
+      ],
+      "etiqueta": "Les sens",
+      "escala": 1.2
+     },
+     {
+      "id": "sueno",
+      "tipo": "nube",
+      "pos": [
+       0.5,
+       0.15
+      ],
+      "etiqueta": "Rêves, visions",
+      "escala": 1
+     },
+     {
+      "id": "balanza",
+      "tipo": "balanza",
+      "pos": [
+       0.85,
+       0.3
+      ],
+      "etiqueta": "Non-contradiction",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "epicuro"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "flor"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Épicure : nos impressions (phantasiai) seraient véridiques, un reflet de la réalité."
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "ojo"
+     },
+     {
+      "t": 4,
+      "accion": "proyecta",
+      "de": "flor",
+      "a": "ojo",
+      "nota": "perception"
+     },
+     {
+      "t": 5.5,
+      "accion": "dice",
+      "actor": "epicuro",
+      "texto": "Les sens ne se trompent jamais."
+     },
+     {
+      "t": 7.5,
+      "accion": "aparece",
+      "actor": "sueno"
+     },
+     {
+      "t": 8.5,
+      "accion": "proyecta",
+      "de": "sueno",
+      "a": "ojo",
+      "nota": "phantasiai"
+     },
+     {
+      "t": 9,
+      "accion": "subtitulo",
+      "texto": "Les phantasiai incluent le sensoriel et le non sensoriel : aussi les rêves et les visions."
+     },
+     {
+      "t": 12.5,
+      "accion": "piensa",
+      "actor": "epicuro",
+      "texto": "Témoigner de ce que je perçois n'est pas un faux témoignage."
+     },
+     {
+      "t": 14.5,
+      "accion": "aparece",
+      "actor": "balanza"
+     },
+     {
+      "t": 15.5,
+      "accion": "tiembla",
+      "actor": "balanza"
+     },
+     {
+      "t": 16,
+      "accion": "dice",
+      "actor": "balanza",
+      "texto": "Je ne peux pas invalider une opinion née d'une perception."
+     },
+     {
+      "t": 18.5,
+      "accion": "cita",
+      "texto": "ne se trompent jamais"
+     },
+     {
+      "t": 20.5,
+      "accion": "subtitulo",
+      "texto": "Si la perception reflète le réel, une opinion qui en naît ne peut être invalidée (Épicure, puis Lucrèce)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "descartes",
+   "nombre": "René Descartes",
+   "epoca": "XVIIe siècle",
+   "tesis_principal": "La vérité est une idée innée que l'on reconnaît par la « lumière naturelle » : est vrai ce qui se présente avec une évidence qui exclut tout doute. La première vérité, qui résiste au doute le plus radical, est le cogito.",
+   "ideas_clave": [
+    "Définition classique : veritas est adaequatio rei et intellectus (adéquation de la chose et de l’intellect)",
+    "L'intuition est une connaissance rationnelle et immédiate, une re-connaissance, comme la réminiscence platonicienne",
+    "Avant d'apprendre ce qu'est la vérité, nous en avons déjà une connaissance intuitive : la vérité ne peut qu'être re-connue",
+    "Première vérité : le cogito (je pense), qui échappe au doute le plus radical",
+    "Critère du vrai : l'évidence des idées claires et distinctes"
+   ],
+   "citas": [
+    {
+     "texto": "Il ne me semble pas que j’apprenne rien de nouveau, mais plutôt que je me ressouviens de ce que je savais déjà auparavant",
+     "idioma": "fr",
+     "obra": "Cinquième méditation métaphysique",
+     "pagina_pdf": 186
+    },
+    {
+     "texto": "tenir pour constant que cette proposition : je suis, j’existe, est nécessairement vraie, toutes les fois que je la prononce ou que je la conçois en mon esprit",
+     "idioma": "fr",
+     "obra": "Méditations (cogito)",
+     "pagina_pdf": 187
+    }
+   ],
+   "debate_con": [
+    "platon",
+    "montaigne",
+    "james"
+   ],
+   "como_usarlo_en_disertacion": "À utiliser pour des sujets sur le critère de la vérité, la certitude ou le rôle du doute. C'est l'axe du rationalisme dans le plan : doute méthodique, cogito, évidence ; il s'oppose au scepticisme de Montaigne et au critère pragmatiste de James.",
+   "escena_sugerida": "Descartes lance le doute radical, le cogito brille comme une ampoule, et un enfant reconnaît une vérité qu'il portait déjà en lui.",
+   "pagina_pdf": 187,
+   "escena": {
+    "titulo": "Descartes : du doute au cogito, la vérité innée",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "descartes",
+      "tipo": "monigote",
+      "pos": [
+       0.8,
+       0.7
+      ],
+      "etiqueta": "Descartes",
+      "escala": 1
+     },
+     {
+      "id": "duda",
+      "tipo": "nube",
+      "pos": [
+       0.5,
+       0.25
+      ],
+      "etiqueta": "Doute radical",
+      "escala": 1.3
+     },
+     {
+      "id": "cogito",
+      "tipo": "bombilla",
+      "pos": [
+       0.55,
+       0.6
+      ],
+      "etiqueta": "Cogito : je pense",
+      "escala": 1.2
+     },
+     {
+      "id": "nino",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.75
+      ],
+      "etiqueta": "L'enfant",
+      "escala": 0.8
+     },
+     {
+      "id": "razon",
+      "tipo": "cerebro",
+      "pos": [
+       0.15,
+       0.45
+      ],
+      "etiqueta": "Raison",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "descartes"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "duda"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Descartes doute de tout : même si mes pensées étaient des erreurs ou des illusions, quelque chose résiste."
+     },
+     {
+      "t": 3,
+      "accion": "piensa",
+      "actor": "descartes",
+      "texto": "Et si tout n'était qu'illusion ?"
+     },
+     {
+      "t": 4.5,
+      "accion": "tiembla",
+      "actor": "duda"
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "cogito"
+     },
+     {
+      "t": 7,
+      "accion": "resalta",
+      "actor": "cogito"
+     },
+     {
+      "t": 8,
+      "accion": "desaparece",
+      "actor": "duda"
+     },
+     {
+      "t": 8.5,
+      "accion": "dice",
+      "actor": "descartes",
+      "texto": "Je pense, donc je suis : une évidence sans doute possible."
+     },
+     {
+      "t": 10.5,
+      "accion": "subtitulo",
+      "texto": "Le cogito est la première vérité ; le critère du vrai, ce sont les idées claires et distinctes."
+     },
+     {
+      "t": 13.5,
+      "accion": "aparece",
+      "actor": "nino"
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "razon"
+     },
+     {
+      "t": 15,
+      "accion": "une",
+      "de": "nino",
+      "a": "razon",
+      "nota": "lumière naturelle"
+     },
+     {
+      "t": 15.5,
+      "accion": "piensa",
+      "actor": "nino",
+      "texto": "On ne m'enseigne pas la vérité : je la re-connais."
+     },
+     {
+      "t": 17.5,
+      "accion": "cita",
+      "texto": "Il ne me semble pas que j’apprenne rien de nouveau, mais plutôt que je me ressouviens de ce que je savais déjà auparavant"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "La vérité est une idée innée : elle ne s'apprend pas, elle se re-connaît, comme la réminiscence chez Platon."
+     }
+    ]
+   }
+  },
+  {
+   "id": "montaigne",
+   "nombre": "Michel de Montaigne",
+   "epoca": "XVIe siècle",
+   "tesis_principal": "Le sceptique (comme les Grecs, Montaigne ou Hume) ne trouve aucun critère assez solide pour affirmer une vérité théorique, mais il n'est ni relativiste ni paresseux : il suspend son jugement et cherche activement la vérité, qui est plus une manière de penser qu'un objet de pensée.",
+   "ideas_clave": [
+    "Problème du critère : aucun critère ne permet d'affirmer avec certitude une thèse (scepticisme)",
+    "Le doute concerne le domaine théorique, non la praxis : personne ne doute que le pain nourrisse et que la pierre ne nourrisse pas",
+    "Ce n'est pas du relativisme : certaines thèses valent mieux que d'autres sans être définitivement vraies",
+    "Skeptike signifie chercher, observer : le sceptique cherche activement la vérité",
+    "Montaigne redéfinit sans cesse la vérité : ce qui compte, c'est la manière de la chercher plus que sa possession"
+   ],
+   "citas": [],
+   "debate_con": [
+    "descartes",
+    "epicure",
+    "leibniz"
+   ],
+   "como_usarlo_en_disertacion": "À utiliser dans la partie qui met en question la possibilité d'atteindre des certitudes ou qui défend la valeur de la quête face à la possession de la vérité (sujets du type « Faut-il aimer la vérité ? »). Il contraste avec la certitude cartésienne.",
+   "escena_sugerida": "Un dogmatique affirme sa thèse, Montaigne demande le critère et suspend son jugement, mais continue de chercher, l'œil attentif.",
+   "pagina_pdf": 187,
+   "escena": {
+    "titulo": "Montaigne : douter sans cesser de chercher",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "dogmatico",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.7
+      ],
+      "etiqueta": "Le dogmatique",
+      "escala": 1
+     },
+     {
+      "id": "montaigne",
+      "tipo": "monigote",
+      "pos": [
+       0.55,
+       0.7
+      ],
+      "etiqueta": "Montaigne",
+      "escala": 1
+     },
+     {
+      "id": "balanza",
+      "tipo": "balanza",
+      "pos": [
+       0.35,
+       0.3
+      ],
+      "etiqueta": "Critère de vérité ?",
+      "escala": 1.2
+     },
+     {
+      "id": "pan",
+      "tipo": "flor",
+      "pos": [
+       0.78,
+       0.85
+      ],
+      "etiqueta": "Le pain",
+      "escala": 0.8
+     },
+     {
+      "id": "piedra",
+      "tipo": "piedra",
+      "pos": [
+       0.92,
+       0.85
+      ],
+      "etiqueta": "Une pierre",
+      "escala": 0.8
+     },
+     {
+      "id": "teoria",
+      "tipo": "libro",
+      "pos": [
+       0.8,
+       0.35
+      ],
+      "etiqueta": "Théorie",
+      "escala": 1
+     },
+     {
+      "id": "ojo",
+      "tipo": "ojo",
+      "pos": [
+       0.55,
+       0.4
+      ],
+      "etiqueta": "skeptike : chercher",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "dogmatico"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "montaigne"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "balanza"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": "Les sceptiques, des Grecs à Hume en passant par Montaigne, ne trouvent pas de critère assez solide."
+     },
+     {
+      "t": 3.5,
+      "accion": "dice",
+      "actor": "dogmatico",
+      "texto": "Ma thèse est vraie, sans aucun doute !"
+     },
+     {
+      "t": 5,
+      "accion": "tiembla",
+      "actor": "balanza"
+     },
+     {
+      "t": 6,
+      "accion": "dice",
+      "actor": "montaigne",
+      "texto": "Avec quel critère peux-tu l'affirmer ?"
+     },
+     {
+      "t": 8.5,
+      "accion": "aparece",
+      "actor": "pan"
+     },
+     {
+      "t": 8.7,
+      "accion": "aparece",
+      "actor": "piedra"
+     },
+     {
+      "t": 9.5,
+      "accion": "resalta",
+      "actor": "pan"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "Ils doutent des théories, non de l'évident : le pain nourrit, la pierre non. Le doute ne touche pas la praxis."
+     },
+     {
+      "t": 13.5,
+      "accion": "aparece",
+      "actor": "teoria"
+     },
+     {
+      "t": 14.5,
+      "accion": "une",
+      "de": "montaigne",
+      "a": "teoria",
+      "nota": "instrument de recherche"
+     },
+     {
+      "t": 15.5,
+      "accion": "piensa",
+      "actor": "montaigne",
+      "texto": "Je suspends mon jugement, mais je continue de chercher."
+     },
+     {
+      "t": 17.5,
+      "accion": "aparece",
+      "actor": "ojo"
+     },
+     {
+      "t": 18.5,
+      "accion": "resalta",
+      "actor": "ojo"
+     },
+     {
+      "t": 20,
+      "accion": "subtitulo",
+      "texto": "Le sceptique n'est ni paresseux ni relativiste : il cherche activement ; la manière de chercher importe plus que la possession."
+     }
+    ]
+   }
+  },
+  {
+   "id": "james",
+   "nombre": "William James",
+   "epoca": "XIXe-XXe siècle",
+   "tesis_principal": "Pour le pragmatisme, le critère de la vérité est la réussite : une idée se définit par ses conséquences expérimentales et sa vérité se découvre progressivement par l'usage. Les idées vraies sont des instruments pour l'action.",
+   "ideas_clave": [
+    "La vérité se définit par la vérification et la validation des idées (vérification)",
+    "Aucune proposition n'est immédiatement évidente : toute affirmation est une hypothèse",
+    "Il faut risquer nos jugements avant d'en connaître la valeur",
+    "Une idée se définit par ses conséquences expérimentales : l'utilité est le critère",
+    "Le vrai satisfait l'ensemble des besoins humains (conséquences théoriques, affectives, sociales)"
+   ],
+   "citas": [
+    {
+     "texto": "posséder des pensées vraies, c’est, à proprement parler, posséder de précieux instruments pour l’action",
+     "idioma": "fr",
+     "obra": "Le Pragmatisme",
+     "pagina_pdf": 188
+    }
+   ],
+   "debate_con": [
+    "descartes",
+    "pascal"
+   ],
+   "como_usarlo_en_disertacion": "À utiliser pour des sujets sur l'utilité de la vérité, la réussite ou la vérification (par ex. « La vérité est-elle ce qui réussit ? »). Il apporte la conception pragmatique face à la vérité-adéquation classique et à l'évidence cartésienne.",
+   "escena_sugerida": "Une idée est mise à l'épreuve dans un engrenage d'expérience et, si elle produit des résultats, reçoit l'étoile de la vérité.",
+   "pagina_pdf": 188,
+   "escena": {
+    "titulo": "James : la vérité, c'est ce qui se vérifie",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "james",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.75
+      ],
+      "etiqueta": "William James",
+      "escala": 1
+     },
+     {
+      "id": "idea",
+      "tipo": "bombilla",
+      "pos": [
+       0.15,
+       0.5
+      ],
+      "etiqueta": "Une idée",
+      "escala": 1
+     },
+     {
+      "id": "experiencia",
+      "tipo": "engranaje",
+      "pos": [
+       0.45,
+       0.5
+      ],
+      "etiqueta": "Expérience",
+      "escala": 1.2
+     },
+     {
+      "id": "exito",
+      "tipo": "estrella",
+      "pos": [
+       0.8,
+       0.3
+      ],
+      "etiqueta": "Réussite",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "james"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "idea"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Pragmatisme : une idée se définit par ses conséquences expérimentales, non par sa valeur intrinsèque."
+     },
+     {
+      "t": 3.5,
+      "accion": "aparece",
+      "actor": "experiencia"
+     },
+     {
+      "t": 4.5,
+      "accion": "proyecta",
+      "de": "idea",
+      "a": "experiencia",
+      "nota": "on l'essaie"
+     },
+     {
+      "t": 6.5,
+      "accion": "salta",
+      "actor": "experiencia"
+     },
+     {
+      "t": 7.5,
+      "accion": "aparece",
+      "actor": "exito"
+     },
+     {
+      "t": 8.5,
+      "accion": "proyecta",
+      "de": "experiencia",
+      "a": "exito",
+      "nota": "résultats"
+     },
+     {
+      "t": 9.5,
+      "accion": "subtitulo",
+      "texto": "Le critère est la réussite : toute affirmation est une hypothèse dont la vérité se découvre par l'usage."
+     },
+     {
+      "t": 12.5,
+      "accion": "resalta",
+      "actor": "idea"
+     },
+     {
+      "t": 13,
+      "accion": "dice",
+      "actor": "james",
+      "texto": "Une idée vraie est un instrument pour l'action."
+     },
+     {
+      "t": 15.5,
+      "accion": "cita",
+      "texto": "posséder des pensées vraies, c’est, à proprement parler, posséder de précieux instruments pour l’action"
+     },
+     {
+      "t": 18.5,
+      "accion": "piensa",
+      "actor": "james",
+      "texto": "Il faut risquer le jugement avant d'en connaître la valeur."
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "La vérité est vérification et utilité : le vrai satisfait les besoins humains."
+     }
+    ]
+   }
+  },
+  {
+   "id": "pascal",
+   "nombre": "Blaise Pascal",
+   "epoca": "XVIIe siècle",
+   "tesis_principal": "Selon le cours, Pascal soutient que la croyance en l'existence de Dieu se justifie par ses conséquences : une croyance religieuse est vraie si elle console et permet de mieux vivre ; la vérité de Dieu ne se prouve pas, elle s'éprouve.",
+   "ideas_clave": [
+    "La croyance en Dieu se justifie uniquement par ses conséquences",
+    "Une croyance est vraie si elle réconforte et nous permet de mieux vivre",
+    "La vérité de l'existence de Dieu ne se prouve pas mais s'éprouve (elle ne se prouve pas mais s’éprouve)",
+    "Il apporte la richesse de l'expérience et la nécessité de la pratique pour féconder une théorie (valeur prospective de la vérité)"
+   ],
+   "citas": [],
+   "debate_con": [
+    "james",
+    "descartes"
+   ],
+   "como_usarlo_en_disertacion": "À utiliser comme exemple d'application religieuse de la vérité pragmatique, dans des sujets qui croisent vérité et religion ou vérité et utilité. Il complète James dans la partie sur les conséquences d'une croyance.",
+   "escena_sugerida": "Pascal ne peut pas démontrer Dieu, mais la foi console son cœur et lui fait mieux vivre.",
+   "pagina_pdf": 188,
+   "escena": {
+    "titulo": "Pascal : la vérité de Dieu s'éprouve",
+    "estilo": "monigotes",
+    "duracion_seg": 23,
+    "actores": [
+     {
+      "id": "pascal",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.75
+      ],
+      "etiqueta": "Pascal",
+      "escala": 1
+     },
+     {
+      "id": "dios",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.78,
+       0.35
+      ],
+      "etiqueta": "Dieu",
+      "escala": 1.3
+     },
+     {
+      "id": "duda",
+      "tipo": "interrogacion",
+      "pos": [
+       0.5,
+       0.4
+      ],
+      "escala": 1.2
+     },
+     {
+      "id": "consuelo",
+      "tipo": "corazon",
+      "pos": [
+       0.42,
+       0.7
+      ],
+      "etiqueta": "Réconfort",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "pascal"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "dios"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Pascal : la croyance en Dieu se justifie par ses conséquences, non par une preuve."
+     },
+     {
+      "t": 3.5,
+      "accion": "piensa",
+      "actor": "pascal",
+      "texto": "Puis-je démontrer que Dieu existe ?"
+     },
+     {
+      "t": 4.5,
+      "accion": "aparece",
+      "actor": "duda"
+     },
+     {
+      "t": 6,
+      "accion": "tiembla",
+      "actor": "dios"
+     },
+     {
+      "t": 7.5,
+      "accion": "desaparece",
+      "actor": "duda"
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "consuelo"
+     },
+     {
+      "t": 9,
+      "accion": "proyecta",
+      "de": "dios",
+      "a": "consuelo",
+      "nota": "s'éprouve"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "La vérité de Dieu ne se prouve pas : elle s'éprouve (elle ne se prouve pas mais s’éprouve)."
+     },
+     {
+      "t": 13.5,
+      "accion": "dice",
+      "actor": "pascal",
+      "texto": "Si elle me console et me fait mieux vivre, elle est vraie."
+     },
+     {
+      "t": 15.5,
+      "accion": "salta",
+      "actor": "pascal"
+     },
+     {
+      "t": 16.5,
+      "accion": "une",
+      "de": "pascal",
+      "a": "consuelo",
+      "nota": "mieux vivre"
+     },
+     {
+      "t": 18.5,
+      "accion": "subtitulo",
+      "texto": "On retient la richesse de l'expérience et la nécessité de la pratique pour féconder une théorie."
+     }
+    ]
+   }
+  },
+  {
+   "id": "leibniz",
+   "nombre": "Gottfried Wilhelm Leibniz",
+   "epoca": "XVIIe-XVIIIe siècle",
+   "tesis_principal": "Dans le texte des Nouveaux essais, Leibniz soutient que certaines opinions valent mieux que d'autres : l'opinion fondée sur le vraisemblable mérite peut-être le nom de connaissance, et il faudrait développer un art d'estimer les degrés de probabilité.",
+   "ideas_clave": [
+    "L'opinion fondée sur le vraisemblable peut mériter le nom de connaissance",
+    "Quand on ne peut trancher absolument, on détermine le degré de vraisemblance ex datis",
+    "L'autorité des experts contribue à la vraisemblance, mais ne suffit pas (exemple de Copernic)",
+    "Il propose un art d'estimer les vraisemblances : ce que l'on appelle aujourd'hui une épistémologie"
+   ],
+   "citas": [
+    {
+     "texto": "Et lorsque Copernic était presque seul de son opinion, elle était toujours incomparablement plus vraisemblable que celle de tout le reste du genre humain.",
+     "idioma": "fr",
+     "obra": "Nouveaux essais sur l’entendement humain",
+     "pagina_pdf": 192
+    }
+   ],
+   "debate_con": [
+    "montaigne",
+    "descartes"
+   ],
+   "como_usarlo_en_disertacion": "À utiliser dans des sujets sur l'opinion et le savoir, ou sur les degrés de certitude (sciences humaines, histoire). Il sert à nuancer l'opposition entre certitude absolue et opinion : il existe des savoirs probables.",
+   "escena_sugerida": "Copernic, presque seul face à l'humanité, a une opinion plus vraisemblable ; Leibniz propose une balance pour mesurer des degrés de probabilité.",
+   "pagina_pdf": 192,
+   "escena": {
+    "titulo": "Leibniz : l'art d'estimer le vraisemblable",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "leibniz",
+      "tipo": "monigote",
+      "pos": [
+       0.12,
+       0.75
+      ],
+      "etiqueta": "Leibniz",
+      "escala": 1
+     },
+     {
+      "id": "humanidad",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.8,
+       0.45
+      ],
+      "etiqueta": "Le reste du genre humain",
+      "escala": 1.4
+     },
+     {
+      "id": "copernic",
+      "tipo": "monigote",
+      "pos": [
+       0.45,
+       0.75
+      ],
+      "etiqueta": "Copernic",
+      "escala": 1
+     },
+     {
+      "id": "balanza",
+      "tipo": "balanza",
+      "pos": [
+       0.45,
+       0.3
+      ],
+      "etiqueta": "Degrés de probabilité",
+      "escala": 1.2
+     },
+     {
+      "id": "libro",
+      "tipo": "libro",
+      "pos": [
+       0.15,
+       0.4
+      ],
+      "etiqueta": "Épistémologie",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "leibniz"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "humanidad"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "copernic"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": "Leibniz : l'opinion fondée sur le vraisemblable mérite peut-être aussi le nom de connaissance."
+     },
+     {
+      "t": 4,
+      "accion": "dice",
+      "actor": "humanidad",
+      "texto": "Nous sommes nombreux et nous pensons autrement."
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "balanza"
+     },
+     {
+      "t": 7,
+      "accion": "tiembla",
+      "actor": "humanidad"
+     },
+     {
+      "t": 8,
+      "accion": "resalta",
+      "actor": "copernic"
+     },
+     {
+      "t": 8.5,
+      "accion": "subtitulo",
+      "texto": "Si l'on ne peut trancher de façon absolue, on peut déterminer le degré de vraisemblance."
+     },
+     {
+      "t": 11.5,
+      "accion": "dice",
+      "actor": "copernic",
+      "texto": "Je suis presque seul, mais mon opinion est plus vraisemblable."
+     },
+     {
+      "t": 13.5,
+      "accion": "cita",
+      "texto": "elle était toujours incomparablement plus vraisemblable que celle de tout le reste du genre humain"
+     },
+     {
+      "t": 16.5,
+      "accion": "aparece",
+      "actor": "libro"
+     },
+     {
+      "t": 17.5,
+      "accion": "une",
+      "de": "leibniz",
+      "a": "libro",
+      "nota": "épistémologie"
+     },
+     {
+      "t": 19,
+      "accion": "subtitulo",
+      "texto": "L'autorité ne suffit pas : Leibniz propose d'évaluer les degrés de probabilité, aujourd'hui une épistémologie."
+     }
+    ]
+   }
+  }
+ ],
+ "relaciones": [
+  {
+   "de": "platon",
+   "a": "descartes",
+   "tipo": "influye",
+   "nota": "Descartes s'inspire de Platon : la vérité se re-connaît, comme dans la réminiscence."
+  },
+  {
+   "de": "platon",
+   "a": "aristote",
+   "tipo": "influye",
+   "nota": "La distinction entre monde des Idées et perceptions permet d'élaborer le principe de non-contradiction."
+  },
+  {
+   "de": "aristote",
+   "a": "protagoras",
+   "tipo": "se opone",
+   "nota": "Le principe de non-contradiction réfute l'idée que toute opinion est vraie."
+  },
+  {
+   "de": "epicure",
+   "a": "aristote",
+   "tipo": "se opone",
+   "nota": "Pour Épicure, la non-contradiction ne peut pas invalider une opinion née de la perception."
+  },
+  {
+   "de": "descartes",
+   "a": "montaigne",
+   "tipo": "se opone",
+   "nota": "Descartes trouve un critère certain (l'évidence) ; le sceptique n'en trouve aucun."
+  },
+  {
+   "de": "epicure",
+   "a": "montaigne",
+   "tipo": "se opone",
+   "nota": "Montaigne n'est pas relativiste comme Épicure, pour qui toutes les perceptions sont véridiques."
+  },
+  {
+   "de": "james",
+   "a": "descartes",
+   "tipo": "se opone",
+   "nota": "Pour James, le critère est la vérification et la réussite ; pour Descartes, l'évidence intuitive."
+  },
+  {
+   "de": "pascal",
+   "a": "james",
+   "tipo": "complementa",
+   "nota": "Pascal illustre le critère pragmatique : une croyance est vraie par ses conséquences."
+  },
+  {
+   "de": "leibniz",
+   "a": "montaigne",
+   "tipo": "complementa",
+   "nota": "Tous deux admettent que certaines thèses valent mieux que d'autres sans être définitivement vraies."
+  },
+  {
+   "de": "platon",
+   "a": "reminiscence",
+   "tipo": "complementa",
+   "nota": "Le mythe d'Er expose la réminiscence comme voie vers l'aletheia."
+  },
+  {
+   "de": "descartes",
+   "a": "evidence-cogito",
+   "tipo": "complementa",
+   "nota": "Le cogito est la première vérité et le modèle de l'évidence."
+  },
+  {
+   "de": "aristote",
+   "a": "non-contradiction",
+   "tipo": "complementa",
+   "nota": "Aristote formule le principe qui structure le discours vrai."
+  }
+ ],
+ "quiz": [
+  {
+   "pregunta": "Selon Platon, à quoi les âmes réincarnées sont-elles confrontées ?",
+   "opciones": [
+    "À la misère seulement",
+    "À la fatigue du voyage",
+    "À l’oubli, et donc à la recherche de l’aletheia",
+    "À l’absence de toute mémoire"
+   ],
+   "correcta": 2,
+   "explicacion": "Dans le mythe d'Er, les âmes boivent du Léthé et oublient ; l'enjeu est de vaincre l'oubli et de reconquérir l'aletheia (vérité) par la réminiscence.",
+   "filosofo": "platon",
+   "pagina_pdf": 183
+  },
+  {
+   "pregunta": "Comment nomme-t-on l’étude de l’être en tant qu’être ?",
+   "opciones": [
+    "La déontologie",
+    "La théologie",
+    "La logique",
+    "L’ontologie"
+   ],
+   "correcta": 3,
+   "explicacion": "La vérité a un fondement ontologique (ontos, être) : elle est le discours vrai sur l'être au-delà des apparences.",
+   "filosofo": "platon",
+   "pagina_pdf": 184
+  },
+  {
+   "pregunta": "Que faut-il pour que des propriétés changent ?",
+   "opciones": [
+    "Des identités invariables",
+    "Un monde stable",
+    "Un temps arrêté",
+    "Une opinion singulière"
+   ],
+   "correcta": 0,
+   "explicacion": "Selon le cours, le changement suppose la stabilité de l'identité : il faut des sujets ou des objets déterminés par rapport auxquels le changement a un sens.",
+   "filosofo": "aristote",
+   "pagina_pdf": 184
+  },
+  {
+   "pregunta": "Qui a écrit : « L’homme est la mesure de toutes choses » ?",
+   "opciones": [
+    "Socrate",
+    "Montaigne",
+    "Descartes",
+    "Protagoras"
+   ],
+   "correcta": 3,
+   "explicacion": "C'est la thèse du sophiste Protagoras : toute opinion individuelle serait légitime.",
+   "filosofo": "protagoras",
+   "pagina_pdf": 185
+  },
+  {
+   "pregunta": "Quel principe établit la condition formelle de toute pensée vraie ?",
+   "opciones": [
+    "Le principe de non-contradiction",
+    "Le principe suprême",
+    "Le principe hypothétique",
+    "Le principe d’utilité"
+   ],
+   "correcta": 0,
+   "explicacion": "Le principe aristotélicien de non-contradiction réfute les discours incohérents et structure le cadre dans lequel la vérité peut s'exprimer.",
+   "filosofo": "aristote",
+   "pagina_pdf": 185
+  },
+  {
+   "pregunta": "Dans la pensée classique, la vérité est l’adéquation de la chose et de ... :",
+   "opciones": [
+    "la sensibilité",
+    "l’imagination",
+    "la volonté",
+    "l’intellect"
+   ],
+   "correcta": 3,
+   "explicacion": "Définition classique (veritas est adaequatio rei et intellectus) : ni le matérialisme ni l'idéalisme, mais la relation entre la chose et l'intellect.",
+   "filosofo": "descartes",
+   "pagina_pdf": 186
+  },
+  {
+   "pregunta": "Quelle est la première vérité selon Descartes ?",
+   "opciones": [
+    "Dieu",
+    "La réalité",
+    "Le monde sensible",
+    "Le cogito"
+   ],
+   "correcta": 3,
+   "explicacion": "Le cogito (je pense) échappe au doute le plus radical : c'est la première vérité et le modèle de la démonstration rationnelle.",
+   "filosofo": "descartes",
+   "pagina_pdf": 187
+  },
+  {
+   "pregunta": "Le doute de Montaigne est ... :",
+   "opciones": [
+    "méthodique",
+    "psychologique",
+    "sceptique",
+    "pratique"
+   ],
+   "correcta": 2,
+   "explicacion": "Montaigne est un sceptique : il doute des critères théoriques sans renoncer à chercher la vérité (le doute n'affecte pas la praxis).",
+   "filosofo": "montaigne",
+   "pagina_pdf": 187
+  },
+  {
+   "pregunta": "Selon la thèse pragmatiste, la vérité doit être associée à ... :",
+   "opciones": [
+    "la pensée",
+    "la vérification",
+    "la réalité",
+    "l’évidence"
+   ],
+   "correcta": 1,
+   "explicacion": "Pour James, l'essentiel est la vérification et la validation des idées : la vérité se découvre progressivement par l'usage.",
+   "filosofo": "james",
+   "pagina_pdf": 188
+  },
+  {
+   "pregunta": "Quel est le critère de vérité pour les pragmatistes ?",
+   "opciones": [
+    "La cohérence",
+    "L’universalité",
+    "L’évidence",
+    "L’utilité"
+   ],
+   "correcta": 3,
+   "explicacion": "Pour le pragmatisme, l'utilité (la réussite, les effets réels de l'idée) est le critère des valeurs et de la vérité.",
+   "filosofo": "james",
+   "pagina_pdf": 188
+  },
+  {
+   "pregunta": "Quel mythe vient clore le Livre X de La République ?",
+   "opciones": [
+    "Le mythe de la caverne",
+    "Le mythe d’Er le Pamphylien",
+    "Le mythe de l’Amélès",
+    "Le mythe de Ménon"
+   ],
+   "correcta": 1,
+   "explicacion": "Le mythe d'Er le Pamphylien clôt le Livre X ; l'allégorie de la caverne appartient au Livre VII.",
+   "filosofo": "platon",
+   "pagina_pdf": 183
+  },
+  {
+   "pregunta": "Sur quel domaine porte le doute des sceptiques ?",
+   "opciones": [
+    "Sur la praxis, l’action quotidienne",
+    "Sur le domaine théorique, non sur la praxis",
+    "Sur toute chose, y compris l’évident",
+    "Sur les seules perceptions"
+   ],
+   "correcta": 1,
+   "explicacion": "Le doute sceptique ne porte que sur la véracité des théories ; on ne doute pas de l'évident, comme du fait que le pain nourrit et que la pierre non.",
+   "filosofo": "montaigne",
+   "pagina_pdf": 187
+  },
+  {
+   "pregunta": "Que propose Leibniz à la fin du texte des Nouveaux essais ?",
+   "opciones": [
+    "D’abandonner toute opinion",
+    "De s’en remettre à l’autorité des savants",
+    "L’établissement de l’art d’estimer les vérisimilitudes",
+    "De rejeter les sciences démonstratives"
+   ],
+   "correcta": 2,
+   "explicacion": "Leibniz propose l'art d'estimer les vraisemblances, ce que l'on appelle aujourd'hui une épistémologie (corrigé de l'exercice).",
+   "filosofo": "leibniz",
+   "pagina_pdf": 192
+  }
+ ],
+ "preguntas_abiertas": [
+  {
+   "enunciado": "Faut-il aimer la vérité ?",
+   "puntos_clave": [
+    "Oui, envers et contre tous : penser exige de rejeter les illusions ; l'allégorie de la caverne (Platon) et l'ignorance reconnue",
+    "Mais l'amour de la vérité peut être une illusion : besoin d'identités stables et dogmatisme (Aristote, scepticisme)",
+    "Il faut distinguer amour et vérité : la vérité est un accord entre la réalité et l'esprit, l'amour est subjectif",
+    "Ce qui importe, c'est d'aimer la recherche (Socrate, Montaigne) plutôt que la possession orgueilleuse de la vérité",
+    "Les sophistes et les régimes totalitaires (Pravda) utilisent l'amour de la vérité pour imposer leur pouvoir"
+   ],
+   "filosofos": [
+    "platon",
+    "montaigne",
+    "aristote"
+   ],
+   "pagina_pdf": 193
+  },
+  {
+   "enunciado": "Toute opinion est-elle légitime ?",
+   "puntos_clave": [
+    "Protagoras : l'homme est la mesure de toutes choses, toute opinion serait légitime",
+    "Aristote : le principe de non-contradiction montre que la vérité ne peut pas être tout et son contraire",
+    "Nuance : Épicure soutient que les perceptions ne se trompent pas, donc une opinion qui en naît ne s'invalide pas par contradiction",
+    "Leibniz : certaines opinions sont plus vraisemblables que d'autres et l'on peut estimer leurs degrés de probabilité",
+    "Platon : ne pas confondre une opinion subjective avec un savoir objectif et universel"
+   ],
+   "filosofos": [
+    "protagoras",
+    "aristote",
+    "epicure",
+    "leibniz"
+   ],
+   "pagina_pdf": 185
+  },
+  {
+   "enunciado": "Le doute est-il un obstacle ou une condition de la recherche de la vérité ?",
+   "puntos_clave": [
+    "Le doute peut être vu comme une insuffisance : il indique un manque de certitude",
+    "Descartes : le doute remet en question dogmes et préjugés et oblige à chercher des fondements plus solides ; le cogito résiste au doute radical",
+    "Montaigne et les sceptiques : il n'y a pas de critère sûr, mais le sceptique cherche activement et suspend son jugement",
+    "Le doute théorique n'affecte pas la praxis et ne mène pas au relativisme",
+    "Certaines thèses valent mieux que d'autres sans être définitivement vraies (attitude scientifique)"
+   ],
+   "filosofos": [
+    "descartes",
+    "montaigne"
+   ],
+   "pagina_pdf": 190
+  },
+  {
+   "enunciado": "Peut-on définir la vérité par son utilité ?",
+   "puntos_clave": [
+    "James : la vérité se définit par la vérification et les conséquences ; les idées vraies sont des instruments pour l'action",
+    "Toute affirmation est une hypothèse dont la vérité se découvre par l'usage",
+    "Pascal : la croyance en Dieu se justifie par ses conséquences, elle ne se prouve pas mais s'éprouve",
+    "Face à cela, la définition classique (adéquation de la chose et de l’intellect) et l'évidence cartésienne",
+    "Platon : la vérité a un fondement ontologique et ne dépend pas de la réussite"
+   ],
+   "filosofos": [
+    "james",
+    "pascal",
+    "descartes",
+    "platon"
+   ],
+   "pagina_pdf": 188
+  }
+ ],
+ "disertaciones": [
+  {
+   "sujeto": "Faut-il aimer la vérité ?",
+   "tipo_plan": "dialectique",
+   "problematica": "Le verbe « aimer » suppose que la vérité n'est pas neutre, mais qu'elle donne un sens à l'existence. Est-ce un devoir d'aimer la vérité, ou cet amour cache-t-il une illusion ou une volonté de puissance ? Ne faudrait-il pas plutôt aimer la recherche ?",
+   "plan": [
+    {
+     "parte": "I. Il faut aimer la vérité envers et contre tous",
+     "idea": "La pensée exige de rejeter les illusions ; le prisonnier libéré de la caverne n'est pas cru, mais la vérité est universelle.",
+     "autores": [
+      "platon"
+     ],
+     "ejemplo": "Le prisonnier qui retourne dans la caverne et passe pour un fou."
+    },
+    {
+     "parte": "II. L’impossibilité d’accéder à toutes connaissances véritables",
+     "idea": "Les concepts supposent des identités stables qui n'existent pas : l'amour de la vérité serait l'amour d'une illusion vitale ; le sceptique doute de tout critère.",
+     "autores": [
+      "aristote",
+      "montaigne"
+     ],
+     "ejemplo": "Le besoin d'identités stables comme illusion rassurante."
+    },
+    {
+     "parte": "III. Il faut aimer la recherche de la vérité, et non pas seulement la vérité",
+     "idea": "La recherche a une valeur en soi ; l'honnêteté intellectuelle consiste à chercher avec lucidité, non à posséder avec orgueil.",
+     "autores": [
+      "platon",
+      "montaigne"
+     ],
+     "ejemplo": "La réponse de Socrate à Ménon ; les régimes totalitaires et leur journal Pravda."
+    }
+   ],
+   "pagina_pdf": 193
+  },
+  {
+   "sujeto": "Toute opinion est-elle légitime ?",
+   "tipo_plan": "dialectique",
+   "problematica": "Si chacun est la mesure des choses, y a-t-il encore place pour la vérité ? Il faut examiner ce qui fonde une opinion : la cohérence, la perception ou son degré de probabilité.",
+   "plan": [
+    {
+     "parte": "I. Toute opinion semble légitime",
+     "idea": "Protagoras : ce qui paraît à chacun est la réalité ; Épicure : les perceptions ne se trompent pas, donc une opinion qui en naît est légitime.",
+     "autores": [
+      "protagoras",
+      "epicure"
+     ],
+     "ejemplo": "Les sens « ne se trompent jamais » ; les phantasiai des rêves et des visions."
+    },
+    {
+     "parte": "II. Toute opinion n’est pas légitime",
+     "idea": "Le principe de non-contradiction empêche qu'une chose soit et ne soit pas à la fois ; sans lui, un mur, un homme et une galère seraient la même chose.",
+     "autores": [
+      "aristote",
+      "platon"
+     ],
+     "ejemplo": "Le trirème, le mur et l'homme confondus."
+    },
+    {
+     "parte": "III. Des opinions plus ou moins vraisemblables",
+     "idea": "Entre la certitude et l'opinion arbitraire, il existe des degrés de probabilité que l'on peut estimer.",
+     "autores": [
+      "leibniz",
+      "montaigne"
+     ],
+     "ejemplo": "Copernic, presque seul, avec une opinion plus vraisemblable que celle du reste de l'humanité."
+    }
+   ],
+   "pagina_pdf": 185
+  },
+  {
+   "sujeto": "La vérité est-elle ce qui réussit ?",
+   "tipo_plan": "dialectique",
+   "problematica": "Le pragmatisme propose de mesurer la vérité par ses effets, rompant avec la conception classique. La réussite peut-elle être un critère, ou la vérité exige-t-elle l'évidence et un fondement dans l'être ?",
+   "plan": [
+    {
+     "parte": "I. Le critère de la réussite",
+     "idea": "Une idée se définit par ses conséquences expérimentales ; les idées vraies sont des instruments pour l'action ; la foi se justifie par ses effets.",
+     "autores": [
+      "james",
+      "pascal"
+     ],
+     "ejemplo": "L'existence de Dieu qui ne se prouve pas, s'éprouve."
+    },
+    {
+     "parte": "II. La vérité comme évidence et adéquation",
+     "idea": "La vérité classique est l'adéquation entre la chose et l'intellect, et son critère est l'évidence des idées claires et distinctes.",
+     "autores": [
+      "descartes",
+      "platon"
+     ],
+     "ejemplo": "Le cogito comme première vérité qui résiste au doute."
+    },
+    {
+     "parte": "III. Une vérité vérifiée et cherchée",
+     "idea": "La vérité n'est pas seulement possession : elle est vérification progressive et recherche ; le sceptique et le pragmatiste partagent la valorisation de l'expérience et de la pratique.",
+     "autores": [
+      "james",
+      "montaigne"
+     ],
+     "ejemplo": "Toute affirmation comme hypothèse qui se valide par l'usage."
+    }
+   ],
+   "pagina_pdf": 188
+  }
+ ]
+}

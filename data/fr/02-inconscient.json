@@ -1,0 +1,2070 @@
+{
+ "id": "inconscient",
+ "numero": 2,
+ "titulo": "L'inconscient",
+ "titulo_es": "El inconsciente",
+ "resumen": "Avec la fondation de la psychanalyse, Freud forge la notion d'inconscient psychique, même si l'on peut aussi parler d'un inconscient culturel, social et linguistique : de multiples structures conditionnent notre comportement et notre vision du monde. Entre le principe de plaisir et le principe de réalité, et sous l'influence du surmoi, le moi cherche une harmonie impossible ; rêves, actes manqués et névroses révèlent nos désirs les plus profonds. La cure analytique vise la libération par la connaissance de soi, tandis qu'Alain et Sartre critiquent l'hypothèse comme une atteinte à la raison et à la liberté humaines.",
+ "paginas": {
+  "inicio": 56,
+  "fin": 69
+ },
+ "puntos_incontournables": [
+  "Thèse de l'inconscient psychique : Freud soutient que notre psychisme contient un inconscient qui conditionne notre vie (thèse de l'inconscient psychique)",
+  "L'inconscient légitimé par la science : l'hypothèse est nécessaire, légitime et vraie (nécessaire, légitime et vraie)",
+  "L'expression du surmoi : entre les principes de plaisir et de réalité, le moi cherche une harmonie impossible ; rêves, actes manqués et névroses expriment l'inconscient (surmoi)",
+  "La psychanalyse : la cure analytique libère la parole et permet de comprendre les causes du mal-être et d'assumer sa vie sans culpabilité (cure analytique)",
+  "Critique de l'inconscient freudien : Alain et Sartre y voient une remise en cause de la raison et de la liberté humaine (antihumanisme, mauvaise foi)"
+ ],
+ "nociones_clave": [
+  "inconscient",
+  "conscience",
+  "petites perceptions",
+  "idéologie",
+  "inconscient culturel",
+  "principe de plaisir",
+  "principe de réalité",
+  "ça",
+  "moi",
+  "surmoi",
+  "refoulement",
+  "actes manqués",
+  "névrose",
+  "cure analytique",
+  "transfert",
+  "anamnèse",
+  "stade du miroir",
+  "mauvaise foi"
+ ],
+ "problematicas_bac": [
+  "L'hypothèse de l'inconscient rend-elle l'homme irresponsable ?",
+  "L'inconscient n'empêche-t-il alors tout individu d'agir en homme libre et responsable ?",
+  "N'est-ce pas alors à l'instance judiciaire d'apprécier son degré de responsabilité ?",
+  "Une connaissance plus approfondie de notre inconscient ne nous permettra-t-elle pas de tisser plus lucidement des liens entre nos actions ou passions ?"
+ ],
+ "conceptos": [
+  {
+   "id": "petites-perceptions",
+   "nombre": "Petites perceptions",
+   "definicion": "Perceptions si infimes et si nombreuses qu'on ne les perçoit pas distinctement, mais qui, accumulées, nous animent et s'impriment dans la conscience (exemple du mugissement de la mer).",
+   "pagina_pdf": 57,
+   "autores": [
+    "leibniz"
+   ]
+  },
+  {
+   "id": "inconscient-culturel",
+   "nombre": "Inconscient culturel et social",
+   "definicion": "Structures (conditions matérielles, idéologie, langage, coutumes) qui conditionnent à notre insu nos comportements, nos sentiments et notre vision du monde.",
+   "pagina_pdf": 58,
+   "autores": [
+    "marx",
+    "levi-strauss"
+   ]
+  },
+  {
+   "id": "principes-plaisir-realite",
+   "nombre": "Principe de plaisir et principe de réalité",
+   "definicion": "Le psychisme est soumis à la recherche du plaisir et au choc avec une réalité qui limite les désirs ; le moi fait la médiation entre le ça et le monde extérieur.",
+   "pagina_pdf": 59,
+   "autores": [
+    "freud"
+   ]
+  },
+  {
+   "id": "refoulement",
+   "nombre": "Refoulement",
+   "definicion": "Processus par lequel on occulte une émotion, une pensée ou une pulsion que l'on ne veut ou ne peut accepter ; il se manifeste dans les rêves, les actes manqués et les névroses.",
+   "pagina_pdf": 64,
+   "autores": [
+    "freud"
+   ]
+  },
+  {
+   "id": "manifestations-inconscient",
+   "nombre": "Rêves, actes manqués, névroses",
+   "definicion": "Les trois formes par lesquelles s'exprime l'inconscient : satisfactions substitutives du ça, actes manqués pour la conscience mais réussis pour le désir, et troubles émotionnels.",
+   "pagina_pdf": 59,
+   "autores": [
+    "freud"
+   ]
+  },
+  {
+   "id": "cure-analytique",
+   "nombre": "Cure analytique",
+   "definicion": "Thérapie par la parole qui, au moyen de l'anamnèse, de l'association d'idées et du transfert, réduit la distance entre identité apparente et identité réelle.",
+   "pagina_pdf": 60,
+   "autores": [
+    "freud",
+    "lacan"
+   ]
+  },
+  {
+   "id": "mauvaise-foi",
+   "nombre": "Mauvaise foi",
+   "definicion": "Mensonge que l'on se fait à soi-même ; pour Sartre, croire en un déterminisme psychique inconscient en est une forme.",
+   "pagina_pdf": 62,
+   "autores": [
+    "sartre"
+   ]
+  }
+ ],
+ "filosofos": [
+  {
+   "id": "leibniz",
+   "nombre": "Gottfried Wilhelm Leibniz",
+   "epoca": "XVIIe-XVIIIe siècle",
+   "tesis_principal": "Avant Freud, Leibniz montre que nous percevons sans nous en rendre compte : les petites perceptions, infinitésimales et innombrables, nous animent et s'accumulent jusqu'à s'imprimer dans la conscience.",
+   "ideas_clave": [
+    "Les petites perceptions arrivent sans cesse, trop infimes pour être perçues distinctement",
+    "Accumulées, elles laissent une impression dans la conscience",
+    "Exemple du mugissement de la mer : nous percevons inconsciemment chaque gouttelette",
+    "La conscience ne recouvre pas tous les états humains"
+   ],
+   "citas": [],
+   "debate_con": [
+    "freud"
+   ],
+   "como_usarlo_en_disertacion": "Utile dans une première partie sur la conscience comme non souveraine ou sur la connaissance : il montre qu'il existe des phénomènes inconscients sans que ce soit l'inconscient freudien. Il sert à nuancer en rappelant que la notion d'inconscient psychique est propre à Freud.",
+   "escena_sugerida": "Un auditeur face à la mer : le fracas global se décompose en gouttes imperceptibles que l'esprit additionne sans le savoir.",
+   "pagina_pdf": 57,
+   "escena": {
+    "titulo": "Leibniz : les petites perceptions",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "humano",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.7
+      ],
+      "etiqueta": "Celui qui écoute"
+     },
+     {
+      "id": "mar",
+      "tipo": "nube",
+      "pos": [
+       0.65,
+       0.3
+      ],
+      "etiqueta": "Le mugissement de la mer",
+      "escala": 1.4
+     },
+     {
+      "id": "g1",
+      "tipo": "estrella",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": "goutte",
+      "escala": 0.6
+     },
+     {
+      "id": "g2",
+      "tipo": "estrella",
+      "pos": [
+       0.65,
+       0.8
+      ],
+      "etiqueta": "goutte",
+      "escala": 0.6
+     },
+     {
+      "id": "g3",
+      "tipo": "estrella",
+      "pos": [
+       0.8,
+       0.75
+      ],
+      "etiqueta": "goutte",
+      "escala": 0.6
+     },
+     {
+      "id": "mente",
+      "tipo": "cerebro",
+      "pos": [
+       0.2,
+       0.35
+      ],
+      "etiqueta": "Conscience"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "humano"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "mar"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Au bord de la mer, on entend un grand bruit global : le mugissement des vagues."
+     },
+     {
+      "t": 2.5,
+      "accion": "proyecta",
+      "de": "mar",
+      "a": "humano",
+      "nota": "bruit"
+     },
+     {
+      "t": 3.5,
+      "accion": "dice",
+      "actor": "humano",
+      "texto": "Quel beau vacarme !"
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "g1"
+     },
+     {
+      "t": 6.4,
+      "accion": "aparece",
+      "actor": "g2"
+     },
+     {
+      "t": 6.8,
+      "accion": "aparece",
+      "actor": "g3"
+     },
+     {
+      "t": 7,
+      "accion": "subtitulo",
+      "texto": "Mais ce vacarme est fait de gouttelettes, que nous ne percevons pas une à une."
+     },
+     {
+      "t": 9,
+      "accion": "piensa",
+      "actor": "humano",
+      "texto": "Je n'entends aucune goutte isolée..."
+     },
+     {
+      "t": 11,
+      "accion": "aparece",
+      "actor": "mente"
+     },
+     {
+      "t": 12,
+      "accion": "proyecta",
+      "de": "g1",
+      "a": "mente",
+      "nota": "petite perception"
+     },
+     {
+      "t": 12.6,
+      "accion": "proyecta",
+      "de": "g2",
+      "a": "mente"
+     },
+     {
+      "t": 13.2,
+      "accion": "proyecta",
+      "de": "g3",
+      "a": "mente"
+     },
+     {
+      "t": 13.5,
+      "accion": "subtitulo",
+      "texto": "Chaque goutte est perçue inconsciemment : ce sont les petites perceptions."
+     },
+     {
+      "t": 16,
+      "accion": "resalta",
+      "actor": "mente"
+     },
+     {
+      "t": 17.5,
+      "accion": "piensa",
+      "actor": "humano",
+      "texto": "Elles s'accumulent et m'animent sans que je le sache"
+     },
+     {
+      "t": 19,
+      "accion": "une",
+      "de": "mente",
+      "a": "mar",
+      "nota": "le tout est audible"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Le global n'est audible que par la somme de perceptions infimes que la conscience ne distingue pas."
+     }
+    ]
+   }
+  },
+  {
+   "id": "nietzsche",
+   "nombre": "Friedrich Nietzsche",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "Sans parler explicitement d'inconscient, Nietzsche dévoile les causes cachées de la morale : les faibles, incapables d'assumer leur désir de puissance, inventent un autre monde et des règles morales qui expriment leur ressentiment.",
+   "ideas_clave": [
+    "Interrogation sur les causes cachées ou inavouées des principes moraux (Généalogie de la morale)",
+    "Les faibles n'assument pas leur désir de puissance",
+    "Le bien et le mal comme expression de l'hypocrisie et du ressentiment",
+    "Idéal ascétique transcendant qui encadre les désirs des autres",
+    "Un homme malade de lui-même qui ne fait qu'intérioriser ses instincts"
+   ],
+   "citas": [
+    {
+     "texto": "inventé un autre monde pour pouvoir […] calomnier celui-ci et le salir",
+     "idioma": "fr",
+     "obra": "Humain, trop humain",
+     "pagina_pdf": 57
+    },
+    {
+     "texto": "un homme malade de lui-même",
+     "idioma": "fr",
+     "obra": "Généalogie de la morale",
+     "pagina_pdf": 58
+    }
+   ],
+   "debate_con": [
+    "marx"
+   ],
+   "como_usarlo_en_disertacion": "Il intervient dans une partie où l'on montre que nos valeurs morales ont une origine qui nous échappe (domination de la morale). On l'associe à Marx comme exemple de deux formes de domination inconsciente.",
+   "escena_sugerida": "Le faible, qui ne peut assumer son désir, invente un autre monde et des règles pour enchaîner les autres.",
+   "pagina_pdf": 57,
+   "escena": {
+    "titulo": "Nietzsche : la morale, ressentiment des faibles",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "debil",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.7
+      ],
+      "etiqueta": "Le faible"
+     },
+     {
+      "id": "deseo",
+      "tipo": "corona",
+      "pos": [
+       0.2,
+       0.3
+      ],
+      "etiqueta": "Désir de puissance"
+     },
+     {
+      "id": "otro",
+      "tipo": "nube",
+      "pos": [
+       0.55,
+       0.2
+      ],
+      "etiqueta": "Un autre monde",
+      "escala": 1.3
+     },
+     {
+      "id": "mundo",
+      "tipo": "casa",
+      "pos": [
+       0.8,
+       0.7
+      ],
+      "etiqueta": "Ce monde-ci"
+     },
+     {
+      "id": "regla",
+      "tipo": "libro",
+      "pos": [
+       0.55,
+       0.65
+      ],
+      "etiqueta": "Règles morales"
+     },
+     {
+      "id": "fuerte",
+      "tipo": "monigote",
+      "pos": [
+       0.88,
+       0.45
+      ],
+      "etiqueta": "Les autres",
+      "escala": 0.9
+     },
+     {
+      "id": "corazon",
+      "tipo": "corazon",
+      "pos": [
+       0.2,
+       0.55
+      ],
+      "etiqueta": "Malade de lui-même"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "debil"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "deseo"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Le faible désire la puissance, mais n'ose ni ne peut l'assumer ouvertement."
+     },
+     {
+      "t": 3,
+      "accion": "tiembla",
+      "actor": "debil"
+     },
+     {
+      "t": 4,
+      "accion": "piensa",
+      "actor": "debil",
+      "texto": "Je ne peux pas avouer ce que je veux..."
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "otro"
+     },
+     {
+      "t": 7.5,
+      "accion": "aparece",
+      "actor": "mundo"
+     },
+     {
+      "t": 8,
+      "accion": "proyecta",
+      "de": "debil",
+      "a": "otro",
+      "nota": "idéal"
+     },
+     {
+      "t": 8.5,
+      "accion": "subtitulo",
+      "texto": "Alors il « invente un autre monde » pour calomnier celui-ci et le salir."
+     },
+     {
+      "t": 10,
+      "accion": "cita",
+      "texto": "inventé un autre monde pour pouvoir calomnier celui-ci et le salir"
+     },
+     {
+      "t": 13,
+      "accion": "aparece",
+      "actor": "regla"
+     },
+     {
+      "t": 13.5,
+      "accion": "aparece",
+      "actor": "fuerte"
+     },
+     {
+      "t": 14.5,
+      "accion": "proyecta",
+      "de": "regla",
+      "a": "fuerte",
+      "nota": "interdits"
+     },
+     {
+      "t": 15,
+      "accion": "subtitulo",
+      "texto": "Ne pouvant exprimer ses désirs, il restreint ceux des autres par des règles morales."
+     },
+     {
+      "t": 17,
+      "accion": "resalta",
+      "actor": "regla"
+     },
+     {
+      "t": 18,
+      "accion": "dice",
+      "actor": "debil",
+      "texto": "Le bien et le mal : voilà l'idéal !"
+     },
+     {
+      "t": 20.5,
+      "accion": "aparece",
+      "actor": "corazon"
+     },
+     {
+      "t": 21,
+      "accion": "tiembla",
+      "actor": "corazon"
+     },
+     {
+      "t": 21.5,
+      "accion": "subtitulo",
+      "texto": "Bien et mal expriment ressentiment et impuissance : « un homme malade de lui-même »."
+     }
+    ]
+   }
+  },
+  {
+   "id": "marx",
+   "nombre": "Karl Marx",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "Les conditions matérielles conditionnent inconsciemment l'homme, façonnant sa conception du monde et ses relations sociales et morales ; la classe dominante impose des représentations (idéologie, religion) qui font accepter la domination.",
+   "ideas_clave": [
+    "L'être social détermine la conscience (conditions matérielles)",
+    "La classe dominante impose des représentations sociales et politiques",
+    "Idéologie et religion comme instruments de domination",
+    "Acceptation inconsciente des rapports de domination"
+   ],
+   "citas": [
+    {
+     "texto": "Ce n’est donc pas la conscience […] des hommes qui détermine leur être […] c’est inversement leur être social qui […] détermine leur conscience",
+     "idioma": "fr",
+     "obra": "Préface de la Contribution à la critique de l'économie politique",
+     "pagina_pdf": 57
+    }
+   ],
+   "debate_con": [
+    "nietzsche",
+    "levi-strauss"
+   ],
+   "como_usarlo_en_disertacion": "Pour des sujets sur la morale et la politique ou sur la liberté : il montre que nos idées politiques sont conditionnées par des conditions sociales inégales (inconscient social). Il sert dans une partie qui interroge l'autonomie de la conscience.",
+   "escena_sugerida": "Un homme croit penser librement pendant que la classe dominante projette son idéologie dans sa conscience.",
+   "pagina_pdf": 58,
+   "escena": {
+    "titulo": "Marx : l'idéologie qui conditionne",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "obrero",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.7
+      ],
+      "etiqueta": "L'homme"
+     },
+     {
+      "id": "casa",
+      "tipo": "casa",
+      "pos": [
+       0.2,
+       0.9
+      ],
+      "etiqueta": "Conditions matérielles",
+      "escala": 0.8
+     },
+     {
+      "id": "mente",
+      "tipo": "cerebro",
+      "pos": [
+       0.2,
+       0.4
+      ],
+      "etiqueta": "Sa conscience"
+     },
+     {
+      "id": "clase",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.75,
+       0.55
+      ],
+      "etiqueta": "Classe dominante",
+      "escala": 1.5
+     },
+     {
+      "id": "ideo",
+      "tipo": "libro",
+      "pos": [
+       0.5,
+       0.25
+      ],
+      "etiqueta": "Idéologie, religion"
+     },
+     {
+      "id": "cadena",
+      "tipo": "cadena",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": "Domination"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "obrero"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "mente"
+     },
+     {
+      "t": 1,
+      "accion": "piensa",
+      "actor": "obrero",
+      "texto": "Mes idées sont à moi, je pense librement"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": "On croit que la conscience est libre : elle déterminerait notre manière de vivre."
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "casa"
+     },
+     {
+      "t": 6,
+      "accion": "proyecta",
+      "de": "casa",
+      "a": "mente",
+      "nota": "façonne"
+     },
+     {
+      "t": 6.5,
+      "accion": "subtitulo",
+      "texto": "Marx renverse l'idée : ce sont les conditions matérielles qui façonnent notre vision du monde."
+     },
+     {
+      "t": 8,
+      "accion": "cita",
+      "texto": "c’est inversement leur être social qui détermine leur conscience"
+     },
+     {
+      "t": 11.5,
+      "accion": "aparece",
+      "actor": "clase"
+     },
+     {
+      "t": 12,
+      "accion": "aparece",
+      "actor": "ideo"
+     },
+     {
+      "t": 12.5,
+      "accion": "proyecta",
+      "de": "clase",
+      "a": "ideo",
+      "nota": "impose"
+     },
+     {
+      "t": 14,
+      "accion": "proyecta",
+      "de": "ideo",
+      "a": "mente",
+      "nota": "représentations"
+     },
+     {
+      "t": 14,
+      "accion": "subtitulo",
+      "texto": "La classe dominante impose ses représentations sociales et politiques à toute la communauté."
+     },
+     {
+      "t": 17,
+      "accion": "aparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 17.5,
+      "accion": "une",
+      "de": "obrero",
+      "a": "cadena"
+     },
+     {
+      "t": 19,
+      "accion": "dice",
+      "actor": "obrero",
+      "texto": "Cet ordre est naturel, je l'accepte"
+     },
+     {
+      "t": 21,
+      "accion": "tiembla",
+      "actor": "mente"
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "Ainsi, sans le savoir, les dominés acceptent inconsciemment des relations de domination."
+     }
+    ]
+   }
+  },
+  {
+   "id": "levi-strauss",
+   "nombre": "Claude Lévi-Strauss",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Dans le sillage de Saussure et de ses structures inconscientes du langage, Lévi-Strauss montre que chaque homme est structuré par un inconscient culturel qui détermine comportements et sentiments.",
+   "ideas_clave": [
+    "Inconscient culturel qui détermine conduites et sentiments",
+    "Les coutumes sont des normes externes antérieures aux sentiments internes",
+    "Conduites et émotions conditionnées inconsciemment par la culture",
+    "Seules des recherches théoriques et empiriques peuvent en rendre compte"
+   ],
+   "citas": [
+    {
+     "texto": "les coutumes sont des normes externes avant d’engendrer des sentiments internes et ces normes insensibles déterminent les sentiments individuels",
+     "idioma": "fr",
+     "pagina_pdf": 58
+    }
+   ],
+   "debate_con": [
+    "marx",
+    "freud"
+   ],
+   "como_usarlo_en_disertacion": "Dans une partie sur l'existence humaine et la culture : l'inconscient n'est pas seulement individuel mais culturel. Utile pour élargir la notion au-delà de l'inconscient psychique freudien.",
+   "escena_sugerida": "Les coutumes d'une culture précèdent et façonnent les sentiments que nous croyons spontanés.",
+   "pagina_pdf": 58,
+   "escena": {
+    "titulo": "Lévi-Strauss : l'inconscient culturel",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "persona",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.7
+      ],
+      "etiqueta": "Chaque homme"
+     },
+     {
+      "id": "cultura",
+      "tipo": "bandera",
+      "pos": [
+       0.75,
+       0.3
+      ],
+      "etiqueta": "Sa culture"
+     },
+     {
+      "id": "normas",
+      "tipo": "libro",
+      "pos": [
+       0.5,
+       0.3
+      ],
+      "etiqueta": "Coutumes (normes externes)"
+     },
+     {
+      "id": "sent",
+      "tipo": "corazon",
+      "pos": [
+       0.25,
+       0.4
+      ],
+      "etiqueta": "Ses sentiments"
+     },
+     {
+      "id": "invest",
+      "tipo": "ojo",
+      "pos": [
+       0.8,
+       0.75
+      ],
+      "etiqueta": "Recherche"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "persona"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "sent"
+     },
+     {
+      "t": 1,
+      "accion": "piensa",
+      "actor": "persona",
+      "texto": "Mes sentiments viennent de moi seul"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": "Nous pensons que nos sentiments sont purement personnels et spontanés."
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "cultura"
+     },
+     {
+      "t": 5.5,
+      "accion": "aparece",
+      "actor": "normas"
+     },
+     {
+      "t": 6,
+      "accion": "une",
+      "de": "cultura",
+      "a": "normas"
+     },
+     {
+      "t": 6.5,
+      "accion": "subtitulo",
+      "texto": "Mais chaque homme baigne dans une culture, faite de coutumes qui existent avant lui."
+     },
+     {
+      "t": 9,
+      "accion": "proyecta",
+      "de": "normas",
+      "a": "sent",
+      "nota": "conditionnent"
+     },
+     {
+      "t": 10,
+      "accion": "resalta",
+      "actor": "sent"
+     },
+     {
+      "t": 11.5,
+      "accion": "cita",
+      "texto": "les coutumes sont des normes externes avant d’engendrer des sentiments internes"
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "Les normes précèdent les sentiments : conduites et émotions sont conditionnées sans que l'on le sache."
+     },
+     {
+      "t": 15,
+      "accion": "tiembla",
+      "actor": "persona"
+     },
+     {
+      "t": 17,
+      "accion": "aparece",
+      "actor": "invest"
+     },
+     {
+      "t": 17.5,
+      "accion": "resalta",
+      "actor": "invest"
+     },
+     {
+      "t": 18.5,
+      "accion": "dice",
+      "actor": "invest",
+      "texto": "Seule la recherche peut le révéler"
+     },
+     {
+      "t": 20,
+      "accion": "subtitulo",
+      "texto": "Seules des recherches théoriques et empiriques rendent compte de cet inconscient culturel."
+     }
+    ]
+   }
+  },
+  {
+   "id": "freud",
+   "nombre": "Sigmund Freud",
+   "epoca": "XIXe-XXe siècles",
+   "tesis_principal": "Le psychisme est régi par les principes de plaisir et de réalité ; les désirs refoulés dans l'inconscient se manifestent dans les rêves, les actes manqués et les névroses. L'hypothèse est nécessaire, légitime et vraie, et la cure analytique permet de mieux se connaître et de se libérer.",
+   "ideas_clave": [
+    "Troisième blessure narcissique après Galilée et Darwin : la conscience n'est pas souveraine",
+    "Hypothèse nécessaire, légitime et vraie (Métapsychologie)",
+    "Ça, moi et surmoi : le moi fait la médiation entre les pulsions et la réalité",
+    "Refoulement et manifestations : rêves, actes manqués, névroses",
+    "La cure analytique (anamnèse, transfert) comme finalité émancipatrice"
+   ],
+   "citas": [
+    {
+     "texto": "là où était du ça, doit advenir du moi",
+     "idioma": "fr",
+     "pagina_pdf": 60
+    },
+    {
+     "texto": "nous ne demandons pas au patient de dire seulement ce qu’il sait mais de dire ce qu’il ne sait pas",
+     "idioma": "fr",
+     "pagina_pdf": 60
+    },
+    {
+     "texto": "nécessaire, légitime et vrai",
+     "idioma": "fr",
+     "obra": "L'inquiétante étrangeté (cita en el ejercicio)",
+     "pagina_pdf": 66
+    }
+   ],
+   "debate_con": [
+    "alain",
+    "sartre",
+    "lacan",
+    "leibniz"
+   ],
+   "como_usarlo_en_disertacion": "Auteur central : il sert pour des sujets sur la conscience, la connaissance de soi, la liberté ou la responsabilité. On l'utilise pour montrer que l'inconscient limite la souveraineté de la conscience, mais que la cure permet une maîtrise de soi plus lucide.",
+   "escena_sugerida": "Le moi entre le ça, le surmoi et la réalité ; les désirs refoulés reviennent dans les rêves et la cure les fait parler.",
+   "pagina_pdf": 59,
+   "escena": {
+    "titulo": "Freud : le moi entre le ça, le surmoi et la réalité",
+    "estilo": "monigotes",
+    "duracion_seg": 28,
+    "actores": [
+     {
+      "id": "ca",
+      "tipo": "fuego",
+      "pos": [
+       0.15,
+       0.7
+      ],
+      "etiqueta": "Ça : désirs"
+     },
+     {
+      "id": "moi",
+      "tipo": "monigote",
+      "pos": [
+       0.45,
+       0.7
+      ],
+      "etiqueta": "Moi"
+     },
+     {
+      "id": "surmoi",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.5,
+       0.25
+      ],
+      "etiqueta": "Surmoi : interdits",
+      "escala": 1.3
+     },
+     {
+      "id": "realidad",
+      "tipo": "puerta",
+      "pos": [
+       0.85,
+       0.7
+      ],
+      "etiqueta": "Réalité"
+     },
+     {
+      "id": "incons",
+      "tipo": "caja",
+      "pos": [
+       0.15,
+       0.4
+      ],
+      "etiqueta": "Inconscient (refoulé)"
+     },
+     {
+      "id": "sueno",
+      "tipo": "nube",
+      "pos": [
+       0.15,
+       0.15
+      ],
+      "etiqueta": "Rêves, actes manqués"
+     },
+     {
+      "id": "ojo",
+      "tipo": "ojo",
+      "pos": [
+       0.82,
+       0.3
+      ],
+      "etiqueta": "Cure : parole"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "ca"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "moi"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Le ça veut une satisfaction immédiate : le principe de plaisir."
+     },
+     {
+      "t": 2,
+      "accion": "tiembla",
+      "actor": "ca"
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "realidad"
+     },
+     {
+      "t": 4.5,
+      "accion": "aparece",
+      "actor": "surmoi"
+     },
+     {
+      "t": 5,
+      "accion": "mueve",
+      "actor": "moi",
+      "a": [
+       0.6,
+       0.7
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 5.5,
+      "accion": "subtitulo",
+      "texto": "Mais la réalité résiste et le surmoi, censeur intérieur, interdit : le moi doit arbitrer."
+     },
+     {
+      "t": 8,
+      "accion": "dice",
+      "actor": "moi",
+      "texto": "Je cherche un équilibre impossible..."
+     },
+     {
+      "t": 11,
+      "accion": "aparece",
+      "actor": "incons"
+     },
+     {
+      "t": 11.5,
+      "accion": "proyecta",
+      "de": "ca",
+      "a": "incons",
+      "nota": "refoulement"
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "Les désirs impossibles sont refoulés dans l'inconscient, sans disparaître."
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "sueno"
+     },
+     {
+      "t": 15.5,
+      "accion": "proyecta",
+      "de": "incons",
+      "a": "sueno",
+      "nota": "retour"
+     },
+     {
+      "t": 16.5,
+      "accion": "subtitulo",
+      "texto": "Ils reviennent, plus forts, par les rêves, les actes manqués et les névroses."
+     },
+     {
+      "t": 20,
+      "accion": "aparece",
+      "actor": "ojo"
+     },
+     {
+      "t": 20.5,
+      "accion": "proyecta",
+      "de": "ojo",
+      "a": "incons",
+      "nota": "dire ce qu'on ne sait pas"
+     },
+     {
+      "t": 22,
+      "accion": "cita",
+      "texto": "là où était du ça, doit advenir du moi"
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "La cure fait parler l'inconscient pour que le moi assume ses conflits sans culpabilité."
+     }
+    ]
+   }
+  },
+  {
+   "id": "lacan",
+   "nombre": "Jacques Lacan",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Héritier de Freud, Lacan souligne le rôle du langage : l'inconscient est structuré comme un langage et la cure n'opère que par la parole, du stade du miroir à l'accès au symbolique.",
+   "ideas_clave": [
+    "Le petit enfant n'a pas encore de moi structuré ni de mots",
+    "Stade du miroir : l'enfant se voit comme un sujet unique et s'apaise",
+    "Le ça est une parole censurée qu'il faut retrouver",
+    "Le moi n'atteint jamais une maîtrise parfaite de lui-même",
+    "La compréhension de soi n'est possible que dans un rapport langagier à l'autre"
+   ],
+   "citas": [
+    {
+     "texto": "l’inconscient est structuré comme un langage",
+     "idioma": "fr",
+     "obra": "Le Séminaire, Livre XI",
+     "pagina_pdf": 61
+    }
+   ],
+   "debate_con": [
+    "freud"
+   ],
+   "como_usarlo_en_disertacion": "Pour des sujets sur le langage, l'identité ou la connaissance de soi : il apporte l'idée que l'identité se construit dans la parole et dans la relation à l'autre. Il sert dans la partie qui défend une connaissance de soi limitée mais possible.",
+   "escena_sugerida": "L'enfant morcelé s'apaise devant le miroir et découvre dans le langage le sens de son histoire.",
+   "pagina_pdf": 61,
+   "escena": {
+    "titulo": "Lacan : l'inconscient structuré comme un langage",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "nino",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.7
+      ],
+      "etiqueta": "Le petit enfant",
+      "escala": 0.7
+     },
+     {
+      "id": "cuerpo",
+      "tipo": "nube",
+      "pos": [
+       0.25,
+       0.3
+      ],
+      "etiqueta": "Corps morcelé"
+     },
+     {
+      "id": "espejo",
+      "tipo": "espejo",
+      "pos": [
+       0.6,
+       0.55
+      ],
+      "etiqueta": "Stade du miroir"
+     },
+     {
+      "id": "palabra",
+      "tipo": "libro",
+      "pos": [
+       0.85,
+       0.3
+      ],
+      "etiqueta": "Langage"
+     },
+     {
+      "id": "deseo",
+      "tipo": "corazon",
+      "pos": [
+       0.6,
+       0.15
+      ],
+      "etiqueta": "Désirs refoulés"
+     },
+     {
+      "id": "adulto",
+      "tipo": "monigote",
+      "pos": [
+       0.88,
+       0.75
+      ],
+      "etiqueta": "L'autre"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "nino"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "cuerpo"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Le petit enfant n'a pas de moi structuré ni de mots pour dire ce qu'il ressent."
+     },
+     {
+      "t": 2.5,
+      "accion": "tiembla",
+      "actor": "nino"
+     },
+     {
+      "t": 3.5,
+      "accion": "piensa",
+      "actor": "nino",
+      "texto": "Mon corps est en morceaux..."
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "deseo"
+     },
+     {
+      "t": 6.5,
+      "accion": "proyecta",
+      "de": "deseo",
+      "a": "nino",
+      "nota": "angoisse"
+     },
+     {
+      "t": 8.5,
+      "accion": "aparece",
+      "actor": "espejo"
+     },
+     {
+      "t": 9,
+      "accion": "mueve",
+      "actor": "nino",
+      "a": [
+       0.5,
+       0.7
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 9.5,
+      "accion": "subtitulo",
+      "texto": "Devant le miroir, il se voit comme un sujet unique : il s'apaise. Étape décisive."
+     },
+     {
+      "t": 12,
+      "accion": "desaparece",
+      "actor": "cuerpo"
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "palabra"
+     },
+     {
+      "t": 14.5,
+      "accion": "resalta",
+      "actor": "palabra"
+     },
+     {
+      "t": 15,
+      "accion": "cita",
+      "texto": "l’inconscient est structuré comme un langage"
+     },
+     {
+      "t": 15.5,
+      "accion": "subtitulo",
+      "texto": "Le ça est d'abord une parole censurée qu'il faut retrouver pour donner sens à son histoire."
+     },
+     {
+      "t": 19,
+      "accion": "aparece",
+      "actor": "adulto"
+     },
+     {
+      "t": 19.5,
+      "accion": "une",
+      "de": "nino",
+      "a": "adulto",
+      "nota": "parole"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "La cure agit par la parole : on ne se comprend que partiellement, dans le rapport langagier à l'autre."
+     }
+    ]
+   }
+  },
+  {
+   "id": "alain",
+   "nombre": "Alain (Émile Chartier)",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Alain, rationaliste d'inspiration stoïcienne, combat l'hypothèse d'un inconscient caché, idole du corps et des désirs qui sert d'excuse et masque la responsabilité ; pour lui, l'humain, c'est la raison, la volonté et la lucidité.",
+   "ideas_clave": [
+    "L'inconscient comme « tromperie objective »",
+    "Moi fantôme qui servirait d'excuse à l'individu",
+    "Valorisation de la raison, de la volonté et de la lucidité",
+    "Perspective morale proche des Lumières et du stoïcisme",
+    "Sans maîtrise de soi, on perd la capacité de résister à la domination"
+   ],
+   "citas": [
+    {
+     "texto": "tromperie objective",
+     "idioma": "fr",
+     "pagina_pdf": 62
+    },
+    {
+     "texto": "il faut vouloir, il faut choisir, il faut maintenir",
+     "idioma": "fr",
+     "obra": "Propos sur la religion",
+     "pagina_pdf": 62
+    }
+   ],
+   "debate_con": [
+    "freud",
+    "sartre"
+   ],
+   "como_usarlo_en_disertacion": "Pour la partie critique du plan (l'inconscient comme excuse, atteinte à la responsabilité et à la raison). Se combine bien avec Sartre et s'oppose à Freud.",
+   "escena_sugerida": "Un homme s'excuse sur son moi fantôme ; le marteau d'Alain le dissout et ne laisse que la raison et la volonté.",
+   "pagina_pdf": 62,
+   "escena": {
+    "titulo": "Alain : l'inconscient, un moi fantôme",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "hombre",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.7
+      ],
+      "etiqueta": "L'homme"
+     },
+     {
+      "id": "razon",
+      "tipo": "bombilla",
+      "pos": [
+       0.25,
+       0.35
+      ],
+      "etiqueta": "Raison et volonté"
+     },
+     {
+      "id": "fantasma",
+      "tipo": "nube",
+      "pos": [
+       0.65,
+       0.35
+      ],
+      "etiqueta": "Moi fantôme (inconscient)",
+      "escala": 1.3
+     },
+     {
+      "id": "balanza",
+      "tipo": "balanza",
+      "pos": [
+       0.85,
+       0.75
+      ],
+      "etiqueta": "Responsabilité"
+     },
+     {
+      "id": "martillo",
+      "tipo": "martillo",
+      "pos": [
+       0.55,
+       0.75
+      ],
+      "etiqueta": "Critique d'Alain"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "hombre"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "fantasma"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Selon l'hypothèse de l'inconscient, un moi caché nous échapperait et attendrait son heure."
+     },
+     {
+      "t": 3.5,
+      "accion": "dice",
+      "actor": "hombre",
+      "texto": "Ce n'est pas moi, c'est mon inconscient !"
+     },
+     {
+      "t": 4,
+      "accion": "proyecta",
+      "de": "hombre",
+      "a": "fantasma",
+      "nota": "excuse"
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "balanza"
+     },
+     {
+      "t": 7.5,
+      "accion": "tiembla",
+      "actor": "balanza"
+     },
+     {
+      "t": 8,
+      "accion": "subtitulo",
+      "texto": "Alain y voit une « tromperie objective » : la responsabilité de l'être pensant serait masquée."
+     },
+     {
+      "t": 11,
+      "accion": "aparece",
+      "actor": "martillo"
+     },
+     {
+      "t": 11.5,
+      "accion": "mueve",
+      "actor": "martillo",
+      "a": [
+       0.65,
+       0.4
+      ],
+      "dur": 1.2
+     },
+     {
+      "t": 13,
+      "accion": "desaparece",
+      "actor": "fantasma"
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "razon"
+     },
+     {
+      "t": 14.5,
+      "accion": "resalta",
+      "actor": "razon"
+     },
+     {
+      "t": 15,
+      "accion": "cita",
+      "texto": "il faut vouloir, il faut choisir, il faut maintenir"
+     },
+     {
+      "t": 15.5,
+      "accion": "subtitulo",
+      "texto": "Pour Alain, ce sont la raison, la volonté et la lucidité qui font notre humanité."
+     },
+     {
+      "t": 19,
+      "accion": "une",
+      "de": "razon",
+      "a": "hombre"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Sans maîtrise de soi, on se laisse penser à la dérive et l'on ne résiste plus à la domination."
+     }
+    ]
+   }
+  },
+  {
+   "id": "sartre",
+   "nombre": "Jean-Paul Sartre",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Pour Sartre, la notion d'inconscient porte atteinte à la liberté : étant en moi mais sans moi, elle excuserait toutes mes actions ; c'est une forme de mauvaise foi, mensonge fait à soi-même.",
+   "ideas_clave": [
+    "Un inconscient « en moi mais sans moi » ôte toute responsabilité",
+    "Forme de mauvaise foi : mensonge à soi-même",
+    "Faux déterminisme psychique que la conscience prétendrait subir",
+    "La conscience n'est pas le simple résultat de quelque chose d'extérieur à elle"
+   ],
+   "citas": [
+    {
+     "texto": "l’inconscient est la mauvaise foi chosifiée",
+     "idioma": "fr",
+     "obra": "L'Être et le Néant",
+     "pagina_pdf": 62
+    }
+   ],
+   "debate_con": [
+    "freud",
+    "alain"
+   ],
+   "como_usarlo_en_disertacion": "Essentiel dans la première partie du sujet sur la responsabilité : s'il existe des mobiles qui échappent à la volonté, que reste-t-il de la liberté ? On l'emploie aussi pour la critique du déterminisme psychique.",
+   "escena_sugerida": "Le sujet s'excuse sur une boîte inconsciente et le miroir révèle qu'il se ment à lui-même.",
+   "pagina_pdf": 62,
+   "escena": {
+    "titulo": "Sartre : l'inconscient, mauvaise foi chosifiée",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "sujeto",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.7
+      ],
+      "etiqueta": "Ma conscience"
+     },
+     {
+      "id": "cadena",
+      "tipo": "cadena",
+      "pos": [
+       0.55,
+       0.7
+      ],
+      "etiqueta": "Déterminisme psychique"
+     },
+     {
+      "id": "caja",
+      "tipo": "caja",
+      "pos": [
+       0.8,
+       0.3
+      ],
+      "etiqueta": "L'inconscient (une chose ?)"
+     },
+     {
+      "id": "espejo",
+      "tipo": "espejo",
+      "pos": [
+       0.25,
+       0.3
+      ],
+      "etiqueta": "Mensonge à soi-même"
+     },
+     {
+      "id": "balanza",
+      "tipo": "balanza",
+      "pos": [
+       0.8,
+       0.75
+      ],
+      "etiqueta": "Responsabilité"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "sujeto"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "caja"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Sartre : un inconscient en moi mais sans moi excuserait d'emblée toutes mes actions."
+     },
+     {
+      "t": 3,
+      "accion": "dice",
+      "actor": "sujeto",
+      "texto": "Je n'y suis pour rien, je subis !"
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 5.5,
+      "accion": "une",
+      "de": "sujeto",
+      "a": "cadena"
+     },
+     {
+      "t": 6,
+      "accion": "proyecta",
+      "de": "caja",
+      "a": "sujeto",
+      "nota": "cause extérieure"
+     },
+     {
+      "t": 7,
+      "accion": "subtitulo",
+      "texto": "On se persuade d'être soumis à un déterminisme que l'on ne peut que subir."
+     },
+     {
+      "t": 10,
+      "accion": "aparece",
+      "actor": "balanza"
+     },
+     {
+      "t": 10.5,
+      "accion": "tiembla",
+      "actor": "balanza"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "Du coup, toute responsabilité disparaît."
+     },
+     {
+      "t": 13.5,
+      "accion": "aparece",
+      "actor": "espejo"
+     },
+     {
+      "t": 14,
+      "accion": "resalta",
+      "actor": "espejo"
+     },
+     {
+      "t": 15,
+      "accion": "piensa",
+      "actor": "sujeto",
+      "texto": "En fait, je me mens à moi-même..."
+     },
+     {
+      "t": 15.5,
+      "accion": "subtitulo",
+      "texto": "C'est la mauvaise foi : un mensonge fait à soi-même."
+     },
+     {
+      "t": 18,
+      "accion": "cita",
+      "texto": "l’inconscient est la mauvaise foi chosifiée"
+     },
+     {
+      "t": 19.5,
+      "accion": "salta",
+      "actor": "sujeto"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Notre conscience n'est pas le simple résultat de quelque chose d'extérieur à elle."
+     }
+    ]
+   }
+  }
+ ],
+ "relaciones": [
+  {
+   "de": "leibniz",
+   "a": "freud",
+   "tipo": "influye",
+   "nota": "Les petites perceptions annoncent des phénomènes inconscients avant l'inconscient psychique freudien."
+  },
+  {
+   "de": "nietzsche",
+   "a": "marx",
+   "tipo": "complementa",
+   "nota": "Morale et idéologie sont deux formes de domination aux causes cachées."
+  },
+  {
+   "de": "marx",
+   "a": "levi-strauss",
+   "tipo": "complementa",
+   "nota": "Conditions sociales et culture conditionnent inconsciemment conduites et sentiments."
+  },
+  {
+   "de": "levi-strauss",
+   "a": "inconscient-culturel",
+   "tipo": "complementa",
+   "nota": "Il développe l'inconscient culturel des coutumes."
+  },
+  {
+   "de": "freud",
+   "a": "lacan",
+   "tipo": "influye",
+   "nota": "Lacan prolonge Freud avec le rôle du langage et le stade du miroir."
+  },
+  {
+   "de": "alain",
+   "a": "freud",
+   "tipo": "se opone",
+   "nota": "Alain rejette l'inconscient comme idolâtrie du corps et excuse de la responsabilité."
+  },
+  {
+   "de": "sartre",
+   "a": "freud",
+   "tipo": "se opone",
+   "nota": "Sartre voit dans l'inconscient une mauvaise foi qui supprime la liberté."
+  },
+  {
+   "de": "alain",
+   "a": "sartre",
+   "tipo": "complementa",
+   "nota": "Tous deux défendent la raison et la responsabilité face à l'inconscient."
+  },
+  {
+   "de": "freud",
+   "a": "principes-plaisir-realite",
+   "tipo": "complementa",
+   "nota": "Le moi fait la médiation entre le ça et la réalité."
+  },
+  {
+   "de": "freud",
+   "a": "cure-analytique",
+   "tipo": "influye",
+   "nota": "La cure réduit le décalage entre inconscient et conscience."
+  },
+  {
+   "de": "leibniz",
+   "a": "petites-perceptions",
+   "tipo": "complementa",
+   "nota": "Les petites perceptions sont sa notion de perception inconsciente."
+  },
+  {
+   "de": "sartre",
+   "a": "mauvaise-foi",
+   "tipo": "complementa",
+   "nota": "L'inconscient serait la mauvaise foi chosifiée."
+  }
+ ],
+ "quiz": [
+  {
+   "pregunta": "Selon Freud, l'hypothèse de l'inconscient est ... :",
+   "opciones": [
+    "indispensable, scientifique et cohérente",
+    "contestable, fausse et illusoire",
+    "légitime, nécessaire et vraie",
+    "secondaire, rassurante et utile"
+   ],
+   "correcta": 2,
+   "explicacion": "Freud justifie l'hypothèse de l'inconscient psychique en soulignant son caractère nécessaire, légitime et vrai.",
+   "filosofo": "freud",
+   "pagina_pdf": 58
+  },
+  {
+   "pregunta": "Quels sont les deux principes fondamentaux qui font agir l'homme selon Freud ?",
+   "opciones": [
+    "Le principe de plaisir et le principe de réalité",
+    "Le principe de justice et le principe de réalité",
+    "Le principe de plaisir et le principe de justice",
+    "Le principe de raison et le principe de passion"
+   ],
+   "correcta": 0,
+   "explicacion": "Le psychisme humain est soumis au principe de plaisir et au principe de réalité (le QCM du livre admet a. et c.).",
+   "filosofo": "freud",
+   "pagina_pdf": 59
+  },
+  {
+   "pregunta": "Selon C. Lévi-Strauss, il existe un inconscient ... :",
+   "opciones": [
+    "psychique",
+    "culturel",
+    "passionnel",
+    "biologique"
+   ],
+   "correcta": 1,
+   "explicacion": "Lévi-Strauss montre que chaque homme est structuré par un inconscient culturel qui détermine ses comportements et ses sentiments.",
+   "filosofo": "levi-strauss",
+   "pagina_pdf": 58
+  },
+  {
+   "pregunta": "Que permet au patient la thérapie ?",
+   "opciones": [
+    "De s'échapper de la réalité",
+    "D'être heureux",
+    "De mieux se connaître",
+    "De ne plus rien refouler"
+   ],
+   "correcta": 2,
+   "explicacion": "La psychanalyse a pour but une plus grande liberté par une meilleure connaissance de soi.",
+   "filosofo": "freud",
+   "pagina_pdf": 61
+  },
+  {
+   "pregunta": "Comment se manifestent les désirs refoulés ?",
+   "opciones": [
+    "Par la raison, la passion et les émotions",
+    "Par les rêves, les névroses et les actes manqués",
+    "Par la soumission, la haine et la sexualité",
+    "Par la volonté, la mémoire et le langage"
+   ],
+   "correcta": 1,
+   "explicacion": "Notre inconscient se manifeste de trois manières : par les rêves, les actes manqués et les névroses.",
+   "filosofo": "freud",
+   "pagina_pdf": 59
+  },
+  {
+   "pregunta": "Au cours de la thérapie, le patient va se libérer de ... :",
+   "opciones": [
+    "tous ses préjugés",
+    "toutes ses passions",
+    "toute censure",
+    "tous ses souvenirs"
+   ],
+   "correcta": 2,
+   "explicacion": "Le thérapeute aide à contourner la censure du surmoi qui bloquerait l'expression des désirs enfouis.",
+   "filosofo": "freud",
+   "pagina_pdf": 60
+  },
+  {
+   "pregunta": "Comment Freud désigne-t-il l'ensemble des interdits moraux intériorisés depuis la petite enfance ?",
+   "opciones": [
+    "Le surmoi",
+    "Le préconscient",
+    "La libido",
+    "Le ça"
+   ],
+   "correcta": 0,
+   "explicacion": "Le surmoi correspond aux interdits moraux intériorisés depuis l'enfance et transmis par les parents ; il agit comme censeur interne.",
+   "filosofo": "freud",
+   "pagina_pdf": 60
+  },
+  {
+   "pregunta": "La thérapie va réduire l'écart entre l'inconscient et ... :",
+   "opciones": [
+    "la raison",
+    "les passions",
+    "la conscience",
+    "la mémoire"
+   ],
+   "correcta": 2,
+   "explicacion": "Le but de la thérapie est de réduire le décalage entre l'inconscient et la conscience.",
+   "filosofo": "freud",
+   "pagina_pdf": 60
+  },
+  {
+   "pregunta": "Selon Lacan, quel est le premier stade essentiel à la construction d'un enfant ?",
+   "opciones": [
+    "La parole",
+    "Le miroir",
+    "La marche",
+    "L'école"
+   ],
+   "correcta": 1,
+   "explicacion": "Le stade du miroir est décisif : l'enfant s'apaise en se voyant comme sujet unique.",
+   "filosofo": "lacan",
+   "pagina_pdf": 61
+  },
+  {
+   "pregunta": "À quoi Sartre réduit-il l'inconscient psychique ?",
+   "opciones": [
+    "À la liberté",
+    "À la nausée",
+    "À la mauvaise foi",
+    "À l'angoisse"
+   ],
+   "correcta": 2,
+   "explicacion": "Sartre affirme que « l'inconscient est la mauvaise foi chosifiée ».",
+   "filosofo": "sartre",
+   "pagina_pdf": 62
+  },
+  {
+   "pregunta": "Quelle expérience Leibniz utilise-t-il pour illustrer les petites perceptions ?",
+   "opciones": [
+    "Le mugissement de la mer",
+    "Le chant des oiseaux",
+    "L'ombre d'un arbre",
+    "Le battement du cœur"
+   ],
+   "correcta": 0,
+   "explicacion": "Leibniz invite à faire l'expérience du mugissement de la mer : on perçoit inconsciemment chaque gouttelette.",
+   "filosofo": "leibniz",
+   "pagina_pdf": 57
+  },
+  {
+   "pregunta": "Selon Marx, qu'est-ce qui conditionne inconsciemment la conception du monde d'un homme ?",
+   "opciones": [
+    "Ses conditions matérielles",
+    "Sa raison seule",
+    "Sa langue maternelle",
+    "Ses rêves"
+   ],
+   "correcta": 0,
+   "explicacion": "Les conditions matérielles façonnent sa conception du monde, ses relations sociales et morales ; la classe dominante impose ses représentations.",
+   "filosofo": "marx",
+   "pagina_pdf": 58
+  },
+  {
+   "pregunta": "Quel philosophe qualifie l'hypothèse de l'inconscient de « tromperie objective » ?",
+   "opciones": [
+    "Alain",
+    "Sartre",
+    "Lacan",
+    "Leibniz"
+   ],
+   "correcta": 0,
+   "explicacion": "Alain, philosophe rationaliste, combat l'idée d'un inconscient caché, qu'il juge une « tromperie objective ».",
+   "filosofo": "alain",
+   "pagina_pdf": 62
+  },
+  {
+   "pregunta": "Selon Lacan, l'inconscient est ... :",
+   "opciones": [
+    "un lieu de souvenirs oubliés",
+    "structuré comme un langage",
+    "une simple illusion",
+    "identique à la conscience"
+   ],
+   "correcta": 1,
+   "explicacion": "Lacan : « l'inconscient est structuré comme un langage » ; la cure agit seulement par la parole.",
+   "filosofo": "lacan",
+   "pagina_pdf": 61
+  }
+ ],
+ "preguntas_abiertas": [
+  {
+   "enunciado": "L'hypothèse de l'inconscient rend-elle l'homme irresponsable ?",
+   "puntos_clave": [
+    "Distinguer inconscient et inconscience ; la responsabilité se rapporte à la liberté, à la morale et au droit",
+    "Première partie : s'il existe des mobiles qui échappent à la volonté, la liberté est remise en cause (Sartre)",
+    "Deuxième partie : l'inconscient n'est pas une excuse ; tout acte n'est pas inconscient et la responsabilité pénale admet des degrés de conscience",
+    "Troisième partie : la responsabilité est une conquête ; mieux connaître l'inconscient permet une plus grande maîtrise de soi (Freud)",
+    "Contraste avec Alain : l'inconscient comme moi fantôme qui masque la responsabilité"
+   ],
+   "filosofos": [
+    "sartre",
+    "freud",
+    "alain"
+   ],
+   "pagina_pdf": 67
+  },
+  {
+   "enunciado": "Pourquoi, selon Freud, l'hypothèse de l'inconscient psychique est-elle nécessaire, légitime et vraie ?",
+   "puntos_clave": [
+    "Troisième blessure narcissique après Galilée et Darwin : la conscience n'est pas souveraine",
+    "Nécessaire : sans elle, on n'explique ni les rêves ni les actes manqués",
+    "Légitime : elle permet de mieux comprendre l'homme dans une logique rationaliste",
+    "Vraie : sa prise en compte conduit à la guérison des malades, l'expérience prouve son existence",
+    "Œuvre : Métapsychologie"
+   ],
+   "filosofos": [
+    "freud"
+   ],
+   "pagina_pdf": 58
+  },
+  {
+   "enunciado": "En quoi l'inconscient menace-t-il la liberté humaine selon Alain et Sartre ?",
+   "puntos_clave": [
+    "Alain : tromperie objective, moi fantôme qui sert d'excuse et masque la responsabilité",
+    "Alain : l'humanité réside dans la raison, la volonté et la lucidité (inspiration stoïcienne et des Lumières)",
+    "Sartre : un inconscient en moi mais sans moi ôte toute responsabilité",
+    "Sartre : c'est de la mauvaise foi, mensonge à soi-même, déterminisme psychique feint",
+    "Tous deux y voient une remise en cause de la raison et de la liberté"
+   ],
+   "filosofos": [
+    "alain",
+    "sartre"
+   ],
+   "pagina_pdf": 62
+  },
+  {
+   "enunciado": "Expliquez, à partir du texte de Freud (L'inquiétante étrangeté), le rôle de la psychanalyse dans l'éducation.",
+   "puntos_clave": [
+    "Thème : l'inconscient (même si le mot n'apparaît pas)",
+    "Réprimer violemment les instincts ne les éteint pas : cela produit du refoulement et prédispose à la névrose",
+    "La psychanalyse enseigne le préjudice de la sévérité de l'éducation",
+    "La sublimation oriente les instincts vers des fins plus valables et forme le caractère",
+    "L'éducation doit orienter et transformer les énergies, non les étouffer"
+   ],
+   "filosofos": [
+    "freud"
+   ],
+   "pagina_pdf": 68
+  }
+ ],
+ "disertaciones": [
+  {
+   "sujeto": "L'hypothèse de l'inconscient rend-elle l'homme irresponsable ?",
+   "tipo_plan": "dialectique",
+   "problematica": "Si une instance échappe à l'individu, peut-il agir en homme libre et responsable ? L'inconscient n'est pas une excuse : une connaissance plus profonde de soi renforce la maîtrise de ses actes.",
+   "plan": [
+    {
+     "parte": "I. L'inconscient menace la liberté et la responsabilité",
+     "idea": "Pour être responsable il faut savoir ce que l'on fait; si des mobiles échappent à la volonté, la liberté semble remise en cause.",
+     "autores": [
+      "sartre",
+      "alain"
+     ],
+     "ejemplo": "Sartre : « l'inconscient est la mauvaise foi chosifiée » ; Alain : « tromperie objective »."
+    },
+    {
+     "parte": "II. L'inconscient n'est pas une excuse",
+     "idea": "Tout acte n'est pas inconscient et l'inconscience n'est pas toujours absolue; la responsabilité pénale admet des degrés de conscience.",
+     "autores": [
+      "freud"
+     ],
+     "ejemplo": "Les juges apprécient le degré de conscience d'un accusé."
+    },
+    {
+     "parte": "III. La responsabilité, conquête qui passe par la connaissance de soi",
+     "idea": "L'hypothèse remet en cause le pouvoir absolu de la conscience sans le supprimer : mieux connaître son inconscient permet une maîtrise de soi plus sûre.",
+     "autores": [
+      "freud",
+      "lacan"
+     ],
+     "ejemplo": "La cure analytique : « là où était du ça, doit advenir du moi »."
+    }
+   ],
+   "pagina_pdf": 67
+  },
+  {
+   "sujeto": "Une meilleure connaissance de soi est-elle possible grâce à l'inconscient ?",
+   "tipo_plan": "progressif",
+   "problematica": "L'inconscient semble limiter la transparence de la conscience, mais la psychanalyse en fait un chemin vers une connaissance de soi plus lucide, toujours inachevée.",
+   "plan": [
+    {
+     "parte": "I. La conscience ne recouvre pas tous nos états",
+     "idea": "Des phénomènes inconscients nous animent (petites perceptions) et des structures sociales et culturelles nous conditionnent.",
+     "autores": [
+      "leibniz",
+      "marx",
+      "levi-strauss"
+     ],
+     "ejemplo": "Le mugissement de la mer; les coutumes qui précèdent les sentiments."
+    },
+    {
+     "parte": "II. La psychanalyse comme travail de connaissance de soi",
+     "idea": "La cure, par la parole, réduit l'écart entre identité apparente et identité réelle et libère le patient de sa culpabilité.",
+     "autores": [
+      "freud",
+      "lacan"
+     ],
+     "ejemplo": "Anamnèse, transfert, stade du miroir."
+    },
+    {
+     "parte": "III. Une transparence jamais complète",
+     "idea": "L'inconscient ne cessera jamais de fonctionner : le travail d'interprétation du Je est toujours à renouveler.",
+     "autores": [
+      "freud",
+      "lacan"
+     ],
+     "ejemplo": "Le moi ne parvient jamais à une maîtrise parfaite de lui-même."
+    }
+   ],
+   "pagina_pdf": 61
+  },
+  {
+   "sujeto": "L'inconscient est-il une hypothèse nécessaire pour comprendre l'homme ?",
+   "tipo_plan": "dialectique",
+   "problematica": "Freud juge l'hypothèse nécessaire, légitime et vraie ; Alain et Sartre la tiennent pour une atteinte à la raison et à la liberté. Faut-il l'accepter pour comprendre les comportements humains ?",
+   "plan": [
+    {
+     "parte": "I. Une hypothèse nécessaire",
+     "idea": "Sans l'inconscient, rêves, actes manqués et névroses restent inexplicables; la guérison atteste sa vérité.",
+     "autores": [
+      "freud"
+     ],
+     "ejemplo": "Les lapsus, les oublis de nom, les pertes d'objet."
+    },
+    {
+     "parte": "II. Une hypothèse contestable",
+     "idea": "L'inconscient serait une excuse, un moi fantôme et une mauvaise foi qui dissout la responsabilité.",
+     "autores": [
+      "alain",
+      "sartre"
+     ],
+     "ejemplo": "Alain : la raison et la volonté font l'humanité."
+    },
+    {
+     "parte": "III. Des inconscients multiples",
+     "idea": "Au-delà de Freud, l'inconscient peut être culturel, social ou linguistique, sans nier pour autant la conscience.",
+     "autores": [
+      "marx",
+      "levi-strauss",
+      "lacan",
+      "leibniz"
+     ],
+     "ejemplo": "Lacan : « l'inconscient est structuré comme un langage »."
+    }
+   ],
+   "pagina_pdf": 58
+  }
+ ]
+}

@@ -103,4 +103,4 @@ if (require.main === module) {
   }
   process.exit(fail);
 }
-module.exports = { validar };
+module.exports = { validar, validarEscena };

@@ -16,7 +16,7 @@
 
   /* títulos según el ajuste de idioma */
   const flat = x => String(x || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
-  const titulo = c => { const m = P().ajustes.idioma; return m === 'es' ? c.titulo_es : m === 'fr' ? c.titulo : c.titulo + (c.titulo_es && flat(c.titulo_es) !== flat(c.titulo) ? ' · ' + c.titulo_es : ''); };
+  const titulo = c => S.lang === 'fr' ? c.titulo : c.titulo + (c.titulo_es && flat(c.titulo_es) !== flat(c.titulo) ? ' · ' + c.titulo_es : '');
   const pg = n => n ? `<span class="pg" title="Página del PDF">p.${n}</span>` : '';
   const estadoChip = m => { const e = S.estado(m); return `<span class="estado ${e}">${e}</span>`; };
 
@@ -32,35 +32,37 @@
 
   /* ============ FICHA ============ */
   let fichaCtx = null;
-  function closeFicha() { $('#ficha').hidden = true; fichaCtx = null; if (global.MapView && MapView.sel) MapView.select(null); }
+  function toggleMax() { const w = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--ficha-w')) || 520, big = innerWidth * 0.8; setFichaW(w > big - 40 ? 520 : big); }
+  function setFichaW(w) { w = Math.max(340, Math.min(innerWidth * 0.92, w)); document.documentElement.style.setProperty('--ficha-w', Math.round(w) + 'px'); try { localStorage.setItem('philo-ficha-w', Math.round(w)); } catch (e) {} }
+  function closeFicha() { $('#ficha').hidden = true; $('#ficha-resizer').hidden = true; fichaCtx = null; if (global.MapView && MapView.sel) MapView.select(null); }
   function openFicha(cap, node) {
-    const f = $('#ficha'); f.hidden = false; f.scrollTop = 0; fichaCtx = { cap, node };
+    const f = $('#ficha'); f.hidden = false; $('#ficha-resizer').hidden = false; f.scrollTop = 0; fichaCtx = { cap, node };
     if (node.kind === 'c') return fichaConcepto(cap, node.data);
     const fil = node.data; S.markVisto(cap.id, fil.id);
     const m = S.mastery(cap.id, fil.id), byId = Object.fromEntries(cap.filosofos.map(x => [x.id, x]));
-    f.innerHTML = `<button class="close" aria-label="Cerrar">✕</button>
+    f.innerHTML = `<button class="close" aria-label="Cerrar">✕</button><button class="max" aria-label="Ampliar / reducir" title="Ampliar / reducir">⤢</button>
       <div class="n" style="font-size:11px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase">${esc(cap.titulo)}</div>
       <h2>${esc(fil.nombre)}</h2>
       <div class="epoca">${esc(fil.epoca)} ${pg(fil.pagina_pdf)} · ${estadoChip(m)}</div>
       <div class="mbar"><i style="width:${m}%"></i></div>
-      <div class="acts"><button class="btn primary" id="f-escena">▶ Ver escena</button><button class="btn" id="f-quiz">Ponme a prueba</button></div>
+      <div class="acts"><button class="btn primary" id="f-escena">▶ Ver escena</button><button class="btn" id="f-voz">🔊 Escuchar</button><button class="btn" id="f-quiz">Ponme a prueba</button></div>
       <h4>Tesis principal</h4><div class="tesis">${esc(fil.tesis_principal)}</div>
       <h4>Ideas clave</h4><ul class="ideas">${fil.ideas_clave.map((x, i) => `<li style="animation-delay:${i * 0.22 + 0.15}s">${esc(x)}</li>`).join('')}</ul>
       <h4>Citas</h4>${fil.citas && fil.citas.length ? fil.citas.map(c => `<div class="cita"><q lang="${esc(c.idioma || 'fr')}">${esc(c.texto)}</q><small>${esc(c.obra || '')} ${pg(c.pagina_pdf)}</small></div>`).join('') : '<div class="cita"><small>No está en el cours: el libro no da cita textual de este autor.</small></div>'}
       <h4>Debate con</h4><div class="chips">${(fil.debate_con || []).filter(x => byId[x]).map(x => `<button class="chip link" data-go="${x}">${esc(byId[x].nombre)}</button>`).join('') || '<span class="chip">—</span>'}</div>
       <h4>Cómo usarlo en la disertación</h4><div class="uso">${esc(fil.como_usarlo_en_disertacion)}</div>`;
-    $('.close', f).onclick = closeFicha;
+    $('.close', f).onclick = closeFicha; $('.max', f).onclick = toggleMax;
     $('#f-escena').onclick = () => openScene(cap, fil);
-    $('#f-quiz').onclick = () => startQuiz({ cap, fil });
+    $('#f-quiz').onclick = () => startQuiz({ cap, fil }); $('#f-voz').onclick = () => Voz.playQ(Voz.fichaItems(cap, fil), fil.nombre);
     f.querySelectorAll('[data-go]').forEach(b => b.onclick = () => { const n = MapView.nodes.find(x => x.id === b.dataset.go); if (n) { MapView.select(n.id); openFicha(cap, n); } });
   }
   function fichaConcepto(cap, c) {
     const f = $('#ficha'), byId = Object.fromEntries(cap.filosofos.map(x => [x.id, x]));
-    f.innerHTML = `<button class="close" aria-label="Cerrar">✕</button><div class="n" style="font-size:11px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase">Concepto · ${esc(cap.titulo)}</div>
+    f.innerHTML = `<button class="close" aria-label="Cerrar">✕</button><button class="max" aria-label="Ampliar / reducir" title="Ampliar / reducir">⤢</button><div class="n" style="font-size:11px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase">Concepto · ${esc(cap.titulo)}</div>
       <h2 style="font-size:32px">${esc(c.nombre)}</h2><div class="epoca">${pg(c.pagina_pdf)}</div>
       <h4>Definición</h4><div class="tesis">${esc(c.definicion)}</div>
       <h4>Autores asociados</h4><div class="chips">${(c.autores || []).filter(x => byId[x]).map(x => `<button class="chip link" data-go="${x}">${esc(byId[x].nombre)}</button>`).join('') || '<span class="chip">—</span>'}</div>`;
-    $('.close', f).onclick = closeFicha;
+    $('.close', f).onclick = closeFicha; $('.max', f).onclick = toggleMax;
     f.querySelectorAll('[data-go]').forEach(b => b.onclick = () => { const n = MapView.nodes.find(x => x.id === b.dataset.go); if (n) { MapView.select(n.id); openFicha(cap, n); } });
   }
 
@@ -68,19 +70,19 @@
   const STYLE_NAMES = [['monigotes', 'Monigotes'], ['comic', 'Cómic'], ['lego', 'Lego'], ['ps2', 'PS2']];
   function openScene(cap, fil) {
     if (!fil.escena) return toast('Este autor no tiene escena todavía');
-    let player = null, credited = false;
+    let player = null, credited = false; const au = Voz.sceneAudio(() => player && player.model);
     const c = openModal(`<h2>${esc(fil.escena.titulo || fil.nombre)}</h2>
       <div class="player"><canvas id="sc-cv"></canvas></div>
-      <div class="ctrls"><button class="btn sm" id="sc-play">⏸ Pausa</button><button class="btn sm" id="sc-rep">↺ Repetir</button>
+      <div class="ctrls"><button class="btn sm" id="sc-voz" title="Narración en voz alta">🔊</button><button class="btn sm" id="sc-play">⏸ Pausa</button><button class="btn sm" id="sc-rep">↺ Repetir</button>
         <input class="seek" id="sc-seek" type="range" min="0" max="1000" value="0" aria-label="Línea de tiempo"><span class="time" id="sc-time">0:00</span>
         <select id="sc-speed" aria-label="Velocidad"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option></select></div>
-      <div class="styles" id="sc-styles"></div>`, false, () => { player && player.destroy(); });
+      <div class="styles" id="sc-styles"></div>`, false, () => { au.reset(); player && player.destroy(); });
     const cv = $('#sc-cv', c), want = P().ajustes.estilo;
     const fmt = t => Math.floor(t / 60) + ':' + String(Math.floor(t % 60)).padStart(2, '0');
     player = new ScenePlayer(cv, {
       reduced: P().ajustes.reducirMov,
-      onTime: (t, d) => { $('#sc-seek', c).value = Math.round(t / d * 1000); $('#sc-time', c).textContent = fmt(t) + ' / ' + fmt(d); if (!credited && t / d > 0.8) { credited = true; S.markEscena(cap.id, fil.id); } },
-      onEnd: () => { $('#sc-play', c).textContent = '▶ Reproducir'; },
+      onTime: (t, d) => { au.tick(t); $('#sc-seek', c).value = Math.round(t / d * 1000); $('#sc-time', c).textContent = fmt(t) + ' / ' + fmt(d); if (!credited && t / d > 0.8) { credited = true; S.markEscena(cap.id, fil.id); } },
+      onEnd: () => { $('#sc-play', c).textContent = '▶ Reproducir'; Voz.Sfx2.play('fin'); },
     });
     const setStyle = id => { const sk = SceneSkins[id]; if (!sk) return; const was = player.playing, t = player.t; player.load(fil.escena, sk); player.seek(t); P().ajustes.estilo = id; S.save(); $('#sc-styles', c).querySelectorAll('.btn').forEach(b => b.classList.toggle('on', b.dataset.s === id)); if (was) player.play(); };
     $('#sc-styles', c).innerHTML = '<span style="color:var(--muted);font-size:12px;align-self:center;margin-right:4px">Estilo:</span>' + STYLE_NAMES.map(([id, n]) => `<button class="btn sm" data-s="${id}" ${SceneSkins[id] ? '' : 'disabled title="Próximamente"'}>${n}</button>`).join('');
@@ -88,7 +90,9 @@
     player.resize(); const first = SceneSkins[want] ? want : 'monigotes'; player.load(fil.escena, SceneSkins[first]); $('#sc-styles', c).querySelector(`[data-s="${first}"]`).classList.add('on');
     document.fonts.load('700 30px Caveat').then(() => player.draw());
     const upd = () => { $('#sc-play', c).textContent = player.playing ? '⏸ Pausa' : '▶ Reproducir'; };
-    $('#sc-play', c).onclick = () => { player.toggle(); upd(); }; $('#sc-rep', c).onclick = () => { player.restart(); upd(); };
+    const paintVoz = () => { const b = $('#sc-voz', c); b.textContent = P().ajustes.narrar ? '🔊' : '🔇'; b.title = P().ajustes.narrar ? L('Narración activada (clic para silenciar)', 'Narration activée (clic pour couper)') : L('Narración desactivada', 'Narration désactivée'); }; paintVoz();
+    $('#sc-voz', c).onclick = () => { if (Voz.warnIfNoVoice(S.lang) && !P().ajustes.narrar) return; S.setAjuste('narrar', !P().ajustes.narrar); paintVoz(); if (!P().ajustes.narrar) Voz.cancel(); else au.reset(); };
+    $('#sc-play', c).onclick = () => { player.toggle(); if (!player.playing) Voz.cancel(); upd(); }; $('#sc-rep', c).onclick = () => { au.reset(); player.restart(); upd(); };
     $('#sc-seek', c).oninput = e => { player.seek(e.target.value / 1000 * player.model.duration); };
     $('#sc-speed', c).onchange = e => player.speed = +e.target.value;
     cv.onclick = () => { player.toggle(); upd(); };
@@ -242,20 +246,34 @@
   function openSettings() {
     const a = P().ajustes;
     const c = openModal(`<h2>Ajustes</h2>
-      <div class="field"><label>Idioma de los títulos</label><div class="seg" id="s-idioma">${[['bilingue', 'Bilingüe'], ['es', 'Español'], ['fr', 'Idioma original']].map(([v, n]) => `<button data-v="${v}" class="${a.idioma === v ? 'on' : ''}">${n}</button>`).join('')}</div>
-        <p style="color:var(--muted);font-size:12.5px;margin:8px 0 0">Citas y términos clave siempre se muestran en francés (idioma original del cours); las explicaciones están en español.</p></div>
+      <div class="field"><label>Idioma de la interfaz y del cours</label><div class="seg" id="s-idioma">${[['es', 'Español'], ['fr', 'Français']].map(([v, n]) => `<button data-v="${v}" class="${a.lang === v ? 'on' : ''}" ${v === 'fr' && !S.hasFR ? 'disabled' : ''}>${n}</button>`).join('')}</div>
+        <p style="color:var(--muted);font-size:12.5px;margin:8px 0 0">${L('Las citas y los términos clave siempre van en francés (idioma original del cours). Con «Español» las explicaciones están en español; con «Français», todo el contenido está en francés.', 'Les citations et les termes clés restent en français (langue d’origine du cours). En «Français», tout le contenu est en français.')}</p></div>
       <div class="field"><label>Estilo de escena por defecto</label><div class="seg" id="s-estilo">${STYLE_NAMES.map(([v, n]) => `<button data-v="${v}" class="${a.estilo === v ? 'on' : ''}" ${SceneSkins[v] ? '' : 'disabled style="opacity:.4"'}>${n}</button>`).join('')}</div></div>
       <div class="field"><label>Movimiento y sonido</label>
         <label class="chk"><input type="checkbox" id="s-red" ${a.reducirMov ? 'checked' : ''}><span>Reducir animaciones (menos calor, respeta <code>prefers-reduced-motion</code>)</span></label>
-        <label class="chk"><input type="checkbox" id="s-son" ${a.sonido ? 'checked' : ''}><span>Sonidos suaves (aciertos / fallos)</span></label></div>
+        <label class="chk"><input type="checkbox" id="s-son" ${a.sonido ? 'checked' : ''}><span>Sonidos de interfaz (carrusel, mapa, aciertos / fallos)</span></label>
+        <label class="chk"><input type="checkbox" id="s-cro" ${a.cronometro !== false ? 'checked' : ''}><span>Cronómetro en los dilemas (estilo Detroit)</span></label></div>
+      <div class="field"><label>${L('Audio', 'Audio')}</label>
+        <label class="chk"><input type="checkbox" id="s-nar" ${a.narrar !== false ? 'checked' : ''}><span>${L('Leer en voz alta los subtítulos y citas de las escenas', 'Lire à voix haute les sous-titres et citations des scènes')}</span></label>
+        <label class="chk"><input type="checkbox" id="s-sfx" ${a.sfxEscena !== false ? 'checked' : ''}><span>${L('Efectos de sonido en las escenas', 'Effets sonores dans les scènes')}</span></label>
+        <div style="display:grid;grid-template-columns:90px 1fr auto;gap:8px;align-items:center;margin:8px 0;font-size:13px"><span>${L('Voz español', 'Voix espagnol')}</span><select id="s-ves">${['<option value="">auto</option>'].concat(Voz.voices().filter(v => v.lang.toLowerCase().startsWith('es')).map(v => `<option value="${esc(v.name)}" ${a.vozEs === v.name ? 'selected' : ''}>${esc(v.name)}</option>`)).join('')}</select><button class="btn sm" id="s-tes">▶</button>
+          <span>${L('Voz francés', 'Voix français')}</span><select id="s-vfr">${['<option value="">auto</option>'].concat(Voz.voices().filter(v => v.lang.toLowerCase().startsWith('fr')).map(v => `<option value="${esc(v.name)}" ${a.vozFr === v.name ? 'selected' : ''}>${esc(v.name)}</option>`)).join('')}</select><button class="btn sm" id="s-tfr">▶</button>
+          <span>${L('Velocidad', 'Vitesse')}</span><input type="range" id="s-rate" min="0.7" max="1.6" step="0.1" value="${a.vozRate || 1}" style="accent-color:var(--gold)"><span id="s-ratev">${a.vozRate || 1}×</span>
+          <span>${L('Música', 'Musique')}</span><input type="range" id="s-mvol" min="0" max="1" step="0.05" value="${a.musicaVol == null ? 0.5 : a.musicaVol}" style="accent-color:var(--gold)"><button class="btn sm" id="s-mus">🎵</button></div>
+        <p style="color:var(--muted);font-size:12.5px;margin:0">${L('Las voces dependen de tu navegador y sistema (Edge y Chrome traen voces naturales).', 'Les voix dépendent de ton navigateur et système (Edge et Chrome ont des voix naturelles).')}</p></div>
       <div class="field"><label>Datos</label><p style="color:var(--muted);font-size:13px;line-height:1.5;margin:0 0 10px">Todo el contenido ya está generado a partir de tu PDF: <b>no se usa ninguna API ni key</b>. Tu progreso se guarda en <code>data/progreso.json</code>${S.useServer ? '' : ' (ahora: en el navegador, porque abriste el archivo sin servidor)'}.</p>
         <button class="btn sm" id="s-reset">Borrar mi progreso</button></div>`, true);
     const seg = (id, key) => $(id, c).onclick = e => { const b = e.target.closest('[data-v]'); if (!b || b.disabled) return; S.setAjuste(key, b.dataset.v); $(id, c).querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b)); global.App && App.rerender(); };
-    seg('#s-idioma', 'idioma'); seg('#s-estilo', 'estilo');
+    $('#s-idioma', c).onclick = e => { const b = e.target.closest('[data-v]'); if (b && !b.disabled) { closeModal(); global.App.setLang(b.dataset.v); } }; seg('#s-estilo', 'estilo');
     $('#s-red', c).onchange = e => { S.setAjuste('reducirMov', e.target.checked); document.body.classList.toggle('reduce', e.target.checked); };
     $('#s-son', c).onchange = e => S.setAjuste('sonido', e.target.checked);
+    $('#s-nar', c).onchange = e => S.setAjuste('narrar', e.target.checked); $('#s-sfx', c).onchange = e => S.setAjuste('sfxEscena', e.target.checked);
+    $('#s-ves', c).onchange = e => S.setAjuste('vozEs', e.target.value); $('#s-vfr', c).onchange = e => S.setAjuste('vozFr', e.target.value);
+    $('#s-tes', c).onclick = () => Voz.say('Hola, esta es la voz que usaré para leer tu cours de filosofía.', 'es'); $('#s-tfr', c).onclick = () => Voz.say('Bonjour, voici la voix qui lira ton cours de philosophie.', 'fr');
+    $('#s-rate', c).oninput = e => { S.setAjuste('vozRate', +e.target.value); $('#s-ratev', c).textContent = e.target.value + '×'; }; $('#s-mvol', c).oninput = e => Voz.Musica.setVol(e.target.value); $('#s-mus', c).onclick = () => Voz.Musica.toggle();
+    $('#s-cro', c).onchange = e => S.setAjuste('cronometro', e.target.checked);
     $('#s-reset', c).onclick = () => { if (confirm('¿Borrar todo tu progreso y XP?')) { S.reset(); closeModal(); global.App && App.rerender(); toast('Progreso borrado'); } };
   }
 
-  global.UI = { openFicha, closeFicha, openScene, startQuiz, startOpen, renderTracker, renderDisert, renderReperes, openSettings, closeModal, titulo };
+  global.UI = { startMixed, openModal, setFichaW, openFicha, closeFicha, openScene, startQuiz, startOpen, renderTracker, renderDisert, renderReperes, openSettings, closeModal, titulo };
 })(window);

@@ -1,0 +1,147 @@
+{
+  "capitulo": "nature",
+  "perspectivas": {
+    "autores": ["Aristote", "Descartes", "Lucrèce", "Laborit", "Gobineau", "Rousseau", "Lévi-Strauss"],
+    "nociones_liadas": ["liberté", "art", "technique", "science"],
+    "ramas": [
+      {
+        "titulo": {"es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture"},
+        "ideas": [
+          {"texto": {"es": "El enfoque conductista considera que la educación puede ser condicionada.", "fr": "L’approche behavioriste considère que l’éducation peut être conditionnée."}, "cours": "1. b."},
+          {"texto": {"es": "La naturaleza humana es un conjunto de capacidades que se actualizan de manera diferente según las culturas.", "fr": "La nature humaine est un ensemble de capacités s’actualisant différemment selon les cultures."}, "cours": "1. b."},
+          {"texto": {"es": "La naturaleza nunca ha sido un paraíso.", "fr": "La nature n’a jamais été un paradis."}, "cours": "2. a."},
+          {"texto": {"es": "La naturaleza como modelo teórico permite comprender la evolución del hombre y de su cultura (Rousseau).", "fr": "La nature comme modèle théorique permet de comprendre l’évolution de l’homme et de sa culture (Rousseau)."}, "autor": "rousseau", "cours": "4. a."},
+          {"texto": {"es": "Las estructuras familiares son a la vez naturales y culturales (Lévi-Strauss).", "fr": "Les structures familiales sont à la fois naturelles et culturelles (Lévi-Strauss)."}, "autor": "levi-strauss", "cours": "4. b."}
+        ]
+      },
+      {
+        "titulo": {"es": "La moral y la política", "fr": "La morale et la politique"},
+        "ideas": [
+          {"texto": {"es": "La naturaleza es amoral y el mundo animal no reconoce ningún valor.", "fr": "La nature est amorale et le monde animal ne reconnaît aucune valeur."}, "cours": "2. b."},
+          {"texto": {"es": "Las teorías raciales son a la vez falsas y peligrosas.", "fr": "Les théories raciales sont à la fois fausses et dangereuses."}, "cours": "3. a."}
+        ]
+      },
+      {
+        "titulo": {"es": "El conocimiento", "fr": "La connaissance"},
+        "ideas": [
+          {"texto": {"es": "Los seres naturales se mueven por el principio del movimiento y del reposo (Aristóteles).", "fr": "Les êtres naturels sont mus par le principe du mouvement et du repos (Aristote)."}, "autor": "aristote", "cours": "1. a."},
+          {"texto": {"es": "La naturaleza está organizada según leyes físicas.", "fr": "La nature est organisée selon des lois physiques."}, "cours": "1. a."},
+          {"texto": {"es": "Se puede intentar comprender a los seres vivos a través de su comportamiento.", "fr": "On peut tenter de comprendre les êtres vivants par leur comportement."}, "cours": "1. b."},
+          {"texto": {"es": "Una comparación hombre-animal no es satisfactoria desde el punto de vista epistemológico.", "fr": "Une comparaison homme-animal n’est pas satisfaisante épistémologiquement."}, "cours": "1. c."}
+        ]
+      }
+    ],
+    "pagina_pdf": 161
+  },
+  "ejercicios": [
+    {
+      "id": "nature-diss",
+      "tipo": "dissertation",
+      "enunciado": {"es": "¿Es la naturaleza un modelo?", "fr": "La nature est-elle un modèle ?"},
+      "consigna": {"es": "Sujeto de disertación (nivel 3 estrellas, 1 h 30).", "fr": "Sujet de dissertation (*** 1 h 30)."},
+      "corrige": {
+        "orientacion": {
+          "es": "Este sujeto obliga a interrogarse a la vez sobre los distintos sentidos del concepto de «modelo» y sobre sus distintos ámbitos de aplicación. Para responder, hay que apoyarse en el conjunto de las teorías filosóficas que definen el estado de naturaleza del hombre y analizan la articulación entre naturaleza y cultura.",
+          "fr": "Ce sujet oblige à s’interroger à la fois sur les différents sens du concept de « modèle » et ses différents domaines d’application. Pour répondre au sujet, il est nécessaire de se fonder sur l’ensemble des théories philosophiques qui définissent l’état de nature de l’homme et analysent l’articulation entre nature et culture."
+        },
+        "plan": [
+          {
+            "parte": {"es": "I. La perfección de la naturaleza inspira a los artistas.", "fr": "I. La perfection de la nature inspire les artistes."},
+            "idea": {
+              "es": "La historia del arte ilustra que la naturaleza ha servido de modelo a los artistas, según la concepción griega de una naturaleza perfecta en su principio, que hay que imitar dándole la impresión de movimiento. Es un modelo porque es perfecta y completa, y el artista trabaja hasta que ya no se ven las marcas de su intervención, como si fuera una producción de la naturaleza con su principio en sí misma. El concepto de perfección puede interpretarse como una visión idealizada de la naturaleza o como un modelo que alcanzar; la prueba de Dios por la finalidad es un ejemplo de enfoque teórico que idealiza la naturaleza y hace de ella un modelo ordenado perfecto. En ambos enfoques aparece la visión de una naturaleza bien hecha, modelo que imitar o seguir.",
+              "fr": "L’histoire de l’art illustre que la nature a pu servir de modèle aux artistes, en s’appuyant sur la conception grecque d’une nature parfaite dans son principe et qu’il s’agit d’imiter en lui donnant cette impression de mouvement. Elle est un modèle parce qu’elle est parfaite et complète, et l’artiste travaille jusqu’à ce qu’on ne voie plus les marques de son intervention, comme si elle était une production de la nature ayant son principe en elle-même. Le concept de perfection peut être interprété comme une vision idéalisée de la nature, ou comme un modèle à atteindre ; la preuve de Dieu par la finalité est un exemple d’approche théorique conduisant à idéaliser la nature et à en faire un modèle ordonné parfait. Dans ces deux approches, on trouve la vision d’une nature bien faite, modèle à imiter ou à suivre."
+            },
+            "autores": ["aristote"]
+          },
+          {
+            "parte": {"es": "II. La naturaleza y el reino animal son amorales.", "fr": "II. La nature et le règne animal est amoral."},
+            "idea": {
+              "es": "La naturaleza no es totalmente perfecta, sobre todo en el plano moral: el mundo animal es el de la violencia y la ausencia de toda moralidad. Cuando Calicles hace el elogio de la naturaleza, es para legitimar un sistema político que privilegia y justifica la dominación de los fuertes sobre los débiles. La naturaleza es el reino de la violencia, de la desigualdad, de las injusticias morales y físicas, y puede servir de modelo poco loable, como el de la justificación de la desigualdad de las razas (Gobineau). Así, la naturaleza puede convertirse en un modelo ideológico para justificar una transposición política de las relaciones de fuerza entre depredadores y presas.",
+              "fr": "La nature n’est pas totalement parfaite, notamment sur le plan moral : le monde animal est celui de la violence et de l’absence de toute moralité. Lorsque Calliclès fait l’éloge de la nature, c’est pour légitimer un système politique privilégiant et justifiant la domination des plus forts sur les faibles. La nature est le règne de la violence, de l’inégalité, des injustices morales et physiques, et peut servir de modèle peu louable, comme celui de la justification de l’inégalité des races (Gobineau). Ainsi, la nature peut devenir un modèle idéologique, afin de justifier une transposition politique des rapports de force entre prédateurs et proies qui ont cours dans la nature."
+            },
+            "autores": ["gobineau"]
+          },
+          {
+            "parte": {"es": "III. La naturaleza puede ser un modelo idealizado para el hombre que intenta perfeccionar su humanidad.", "fr": "III. La nature peut être un modèle idéalisé pour l’homme qui essaie de parfaire son humanité."},
+            "idea": {
+              "es": "Rousseau vio la naturaleza como una hipótesis racional, portadora de sentido: un modelo que permite comprender y juzgar mejor la evolución del hombre. Puede compararse con el jardín del Edén antes de que Eva y Adán muerdan la manzana y descubran su humanidad, con las cosas buenas y malas que la acompañan. La naturaleza es sólo un modelo de inocencia y no debe percibirse como una realidad histórica. Este modelo permite interrogarse sobre el ideal que los seres humanos pueden buscar alcanzar para perfeccionar su humanidad.",
+              "fr": "La nature a été vue comme une hypothèse rationnelle, porteuse de sens, par Rousseau : un modèle permettant de mieux comprendre et de mieux juger l’évolution de l’homme. Elle peut être comparée au jardin d’Éden, avant qu’Ève et Adam croquent la pomme et découvrent leur humanité, les bonnes comme les mauvaises choses qui l’accompagnent. La nature n’est donc qu’un modèle d’innocence et ne doit pas être perçue comme une réalité historique. Ce modèle permet de s’interroger sur l’idéal que les êtres humains peuvent chercher à atteindre pour parfaire leur humanité."
+            },
+            "autores": ["rousseau"]
+          }
+        ],
+        "puntos_clave": [
+          {"es": "Distingue los diferentes sentidos del concepto de «modelo» (a imitar, idealizado, ideológico) y sus ámbitos de aplicación.", "fr": "Distingue les différents sens du concept de « modèle » (à imiter, idéalisé, idéologique) et ses domaines d’application."},
+          {"es": "Presenta la naturaleza como modelo perfecto para los artistas, según la concepción griega de una naturaleza perfecta en su principio.", "fr": "Présente la nature comme modèle parfait pour les artistes, selon la conception grecque d’une nature parfaite dans son principe."},
+          {"es": "Menciona la prueba de Dios por la finalidad como ejemplo de idealización de la naturaleza como modelo ordenado.", "fr": "Mentionne la preuve de Dieu par la finalité comme exemple d’idéalisation de la nature en modèle ordonné."},
+          {"es": "Muestra que la naturaleza y el mundo animal son amorales: reino de la violencia, la desigualdad y la injusticia (Calicles).", "fr": "Montre que la nature et le monde animal sont amoraux : règne de la violence, de l’inégalité et de l’injustice (Calliclès)."},
+          {"es": "Señala el peligro de la naturaleza como modelo ideológico que justifica la dominación de los fuertes y la desigualdad de las razas (Gobineau).", "fr": "Souligne le danger de la nature comme modèle idéologique justifiant la domination des plus forts et l’inégalité des races (Gobineau)."},
+          {"es": "Presenta la naturaleza en Rousseau como hipótesis racional y modelo de inocencia que permite juzgar la evolución del hombre, no como realidad histórica.", "fr": "Présente la nature chez Rousseau comme hypothèse rationnelle et modèle d’innocence permettant de juger l’évolution de l’homme, non comme réalité historique."},
+          {"es": "Se apoya en las teorías filosóficas sobre el estado de naturaleza y la articulación entre naturaleza y cultura.", "fr": "S’appuie sur les théories philosophiques de l’état de nature et de l’articulation entre nature et culture."}
+        ]
+      },
+      "pagina_pdf": 164,
+      "pagina_corrige": 166
+    },
+    {
+      "id": "nature-expl",
+      "tipo": "explication",
+      "enunciado": {
+        "es": "Explicación de texto (2 estrellas, 2 h). 1. Analizar la estructura del texto destacando las etapas de la argumentación. 2. Formular el problema filosófico planteado por el texto.",
+        "fr": "Explication de texte (** 2 h). 1. Analyser la structure du texte en faisant ressortir les étapes de l’argumentation. 2. Formulez le problème philosophique posé par le texte."
+      },
+      "texto": {
+        "fr": "Tous les progrès dans la culture, par lesquels l’homme fait son éducation, ont pour but d’appliquer connaissances et aptitudes ainsi acquises à l’usage du monde ; mais en ce monde, l’objet le plus important auquel il puisse en faire l’application, c’est l’homme : car il est lui-même sa fin dernière. Le connaître, conformément à son espèce, comme être terrestre doué de raison, voilà donc qui mérite tout particulièrement d’être appelé connaissance du monde, bien que l’homme ne constitue qu’une partie des créatures terrestres.\nUne doctrine de la connaissance de l’homme, systématiquement traitée (Anthropologie), peut l’être du point de vue physiologique, ou du point de vue pragmatique. La connaissance physiologique de l’homme tend à l’exploration de ce que la nature fait de l’homme ; la connaissance pragmatique de ce que l’homme, en tant qu’être de libre activité, fait ou peut et doit faire de lui-même. Quand on scrute les causes naturelles, par exemple le soubassement de la mémoire, on peut spéculer à l’aveugle […] sur ce qui persiste dans le cerveau des traces qu’y laissent les sensations éprouvées ; mais il faut avouer qu’à ce jeu on est seulement le spectateur de ses représentations ; on doit laisser faire la nature puisqu’on ne connaît pas les nerfs et les fibres du cerveau, et qu’on n’est pas capable de les utiliser pour le but qu’on se propose : toute spéculation théorique sur ce sujet sera donc en pure perte. Mais observons les obstacles ou les stimulants de la mémoire, si on utilise ces découvertes pour l’amplifier ou l’assouplir, et qu’on ait besoin pour cela de connaître l’homme, elles constituent une partie de l’Anthropologie du point de vue pragmatique ; et c’est de cela justement que nous nous occupons ici.",
+        "autor": "Kant",
+        "obra": "Anthropologie du point de vue pragmatique, 1785",
+        "pagina_pdf": 164
+      },
+      "consigna": {
+        "es": "1. Analizar la estructura del texto destacando las etapas de la argumentación. 2. Formular el problema filosófico planteado por el texto.",
+        "fr": "1. Analyser la structure du texte en faisant ressortir les étapes de l’argumentation. 2. Formulez le problème philosophique posé par le texte."
+      },
+      "corrige": {
+        "orientacion": {
+          "es": "Se trata de poner en evidencia el conocimiento pragmático que tenemos del ser humano, y de volver a situar a este último en el contexto de su existencia y de la cultura humana.",
+          "fr": "Il s’agit de mettre en évidence la connaissance pragmatique que nous avons de l’être humain, et de replacer ce dernier dans le contexte de son existence et de la culture humaine."
+        },
+        "tesis": {
+          "es": "Kant precisa lo que entiende por una antropología desde el punto de vista pragmático, es decir, el estudio del hombre a través de sus acciones: no se confunde con todo estudio del hombre, sino que considera al hombre como usuario, según la manera en que dispone de sí mismo y de lo que le rodea.",
+          "fr": "Kant tente de préciser ce qu’il entend par une anthropologie du point de vue pragmatique, à savoir l’étude de l’homme par le prisme de ses actions : elle ne se confond pas avec toute étude de l’homme et suppose une connaissance de l’homme seulement comme usager, selon la façon dont il dispose de lui-même et de ce qui l’entoure."
+        },
+        "etapas": [
+          {
+            "titulo": {"es": "Primer párrafo: justificación del estudio del hombre", "fr": "Premier paragraphe : la justification de l’étude de l’homme"},
+            "idea": {
+              "es": "Kant justifica el estudio del hombre por su carácter racional, que le permite construir progresivamente un mundo para sí mismo y crear una cultura.",
+              "fr": "Kant justifie l’étude de l’homme par son caractère rationnel lui permettant de construire progressivement un monde pour lui-même, et de créer une culture."
+            },
+            "lineas": "l. 1-7"
+          },
+          {
+            "titulo": {"es": "Segundo párrafo: dos tipos de antropología", "fr": "Second paragraphe : deux types d’anthropologie"},
+            "idea": {
+              "es": "El autor precisa lo que entiende por estudio del hombre y distingue netamente dos antropologías. Por un lado, una antropología fisiológica, en la que el hombre sufre las influencias de la naturaleza y cuyas consecuencias es difícil demostrar con certeza. Por otro lado, una antropología pragmática, que aborda al hombre bajo el prisma de sus múltiples actividades culturales, testimonio de las capacidades racionales de un ser libre.",
+              "fr": "L’auteur précise ce qu’il entend par l’étude de l’homme et distingue nettement deux types d’anthropologies. D’une part, une anthropologie physiologique, dans laquelle l’homme subit les influences de la nature et dont il est difficile de montrer avec certitudes les conséquences. D’autre part, une anthropologie pragmatique abordant l’homme sous le prisme de ses multiples activités culturelles, témoignage des capacités rationnelles d’un être libre."
+            },
+            "lineas": "l. 8 - fin"
+          }
+        ],
+        "enjeu": {
+          "es": "Problema filosófico: Kant precisa lo que entiende por antropología desde el punto de vista pragmático y demuestra que no se confunde con todo estudio del hombre. La antropología versa sobre el estudio físico (anatómico, biológico…) y cultural (social, religioso, psicológico…), pero es pragmática cuando versa sólo sobre los objetos de la acción humana. Con la disposición pragmática, Kant afirma que el progreso de la civilización produce un hombre pulido por la cultura de sus cualidades: sólo el hombre puede ser educado, sólo la especie humana es perfectible y es obra de la humanidad.",
+          "fr": "Problème philosophique : Kant tente de préciser ce qu’il entend par une anthropologie du point de vue pragmatique et démontre qu’elle ne se confond pas avec toute étude de l’homme. L’anthropologie porte, avant tout, sur l’étude physique (anatomique, biologique, etc.) et culturelle (social, religieux, psychologique, etc.) ; toutefois, elle a la particularité d’être pragmatique lorsqu’elle porte seulement sur les objets de l’action humaine. Ainsi, avec la disposition pragmatique, Kant affirme que le progrès de la civilisation produit un homme policé par la culture de ses qualités : seul l’homme peut être éduqué, seule l’espèce humaine est perfectible et elle est l’œuvre de l’humanité."
+        },
+        "puntos_clave": [
+          {"es": "Identifica el primer movimiento (l. 1-7): el estudio del hombre se justifica porque el hombre es racional y construye un mundo y una cultura.", "fr": "Identifie le premier mouvement (l. 1-7) : l’étude de l’homme se justifie parce que l’homme est rationnel et construit un monde et une culture."},
+          {"es": "Identifica el segundo movimiento (l. 8 hasta el final): la distinción entre antropología fisiológica y antropología pragmática.", "fr": "Identifie le second mouvement (l. 8 jusqu’à la fin) : la distinction entre anthropologie physiologique et anthropologie pragmatique."},
+          {"es": "Explica que en la antropología fisiológica el hombre sufre las influencias de la naturaleza y sus consecuencias son difíciles de demostrar.", "fr": "Explique que dans l’anthropologie physiologique l’homme subit les influences de la nature et que ses conséquences sont difficiles à démontrer."},
+          {"es": "Explica que la antropología pragmática estudia lo que el hombre, como ser libre, hace o puede y debe hacer de sí mismo, a través de sus actividades culturales.", "fr": "Explique que l’anthropologie pragmatique étudie ce que l’homme, en tant qu’être libre, fait ou peut et doit faire de lui-même, par ses activités culturelles."},
+          {"es": "Formula el problema: qué es una antropología pragmática y por qué no se confunde con todo estudio del hombre.", "fr": "Formule le problème : ce qu’est une anthropologie pragmatique et pourquoi elle ne se confond pas avec toute étude de l’homme."},
+          {"es": "Concluye que el hombre es el usuario de sí mismo y de lo que le rodea; que sólo el hombre puede ser educado y que la especie humana es perfectible.", "fr": "Conclut que l’homme est l’usager de lui-même et de ce qui l’entoure ; que seul l’homme peut être éduqué et que l’espèce humaine est perfectible."}
+        ]
+      },
+      "pagina_pdf": 164,
+      "pagina_corrige": 167
+    }
+  ]
+}

@@ -1,0 +1,2808 @@
+{
+ "id": "temps",
+ "numero": 3,
+ "titulo": "Le temps",
+ "titulo_es": "El tiempo",
+ "resumen": "Le chapitre distingue le temps des horloges (mesuré par la physique : Newton, Einstein, thermodynamique) du temps vécu, la durée, qui n'existe que par et pour la conscience. Il examine le temps social (Durkheim, Halbwachs), les paradoxes d'un temps fait d'instants (Zénon, Aristote, Augustin), la durée de Bergson, la conscience intime du temps de Husserl et, avec Heidegger, le lien entre existence, mort et sens du temps.",
+ "paginas": {
+  "inicio": 70,
+  "fin": 83
+ },
+ "puntos_incontournables": [
+  "Les théories scientifiques sur le temps : la physique le mesure avec des instruments de plus en plus précis et propose des conceptions différentes, surtout quant à sa réversibilité (temps absolu, flèche du temps)",
+  "Le temps des horloges n'est pas la durée : il faut distinguer le devenir (la réalité qui change) du temps perçu comme durée, vécu de façon intuitive et subjective (durée)",
+  "Le temps social : impossible à définir, on peut le décrire à partir des actions humaines (travail, consommation) à l'aide des sciences humaines (temps social)",
+  "La perception du temps : ce n'est pas une propriété réelle des choses mais une forme a priori de notre sensibilité, ni seulement objectif ni purement subjectif (forme a priori)",
+  "La mort, un sens donné au temps : l'homme ne se contente pas de vivre, il existe et donne un sens à sa vie ; la mort, inévitable, donne sa « saveur » à l'existence et l'angoisse devant le néant oblige à donner du sens (angoisse)"
+ ],
+ "nociones_clave": [
+  "devenir",
+  "durée",
+  "étalon",
+  "flèche du temps",
+  "temps social",
+  "idéalité transcendantale",
+  "distension",
+  "intentionnalité",
+  "Dasein",
+  "angoisse",
+  "finitude"
+ ],
+ "problematicas_bac": [
+  "La conscience est-elle dans le temps ou le temps est-il dans la conscience ?",
+  "Qu'est-ce que le temps ?",
+  "Le temps est-il une succession d'instants ?",
+  "Comment vivons-nous le temps ?"
+ ],
+ "conceptos": [
+  {
+   "id": "devenir-duree",
+   "nombre": "Devenir et durée",
+   "definicion": "Le devenir est la réalité qui change ; le temps proprement dit est un flux d'instants vécus qui n'existe que par et pour la conscience.",
+   "pagina_pdf": 71,
+   "autores": [
+    "bergson",
+    "augustin"
+   ]
+  },
+  {
+   "id": "etalon",
+   "nombre": "Étalon et mesure du temps",
+   "definicion": "Un étalon est un modèle qui permet de définir une unité de mesure ; du cycle solaire aux horloges atomiques de 1967, la mesure du temps dépend des époques et des techniques.",
+   "pagina_pdf": 71,
+   "autores": [
+    "newton"
+   ]
+  },
+  {
+   "id": "fleche-du-temps",
+   "nombre": "Flèche du temps (irréversibilité)",
+   "definicion": "La thermodynamique (Carnot) montre que la transformation de la chaleur en énergie mécanique est irréversible : il existe une « flèche du temps », contrairement à la réversibilité de la physique newtonienne.",
+   "pagina_pdf": 72,
+   "autores": [
+    "newton",
+    "einstein"
+   ]
+  },
+  {
+   "id": "temps-social",
+   "nombre": "Temps social",
+   "definicion": "Le temps est celui de l'activité des hommes : segmenté par la division du travail puis par la consommation, il varie selon les calendriers et les sociétés.",
+   "pagina_pdf": 73,
+   "autores": [
+    "durkheim",
+    "halbwachs"
+   ]
+  },
+  {
+   "id": "idealite-transcendantale",
+   "nombre": "Idéalité transcendantale du temps",
+   "definicion": "Le temps n'est pas une chose en soi mais une forme de notre esprit, universelle et antérieure à l'expérience ; ce n'est pas pour autant une illusion.",
+   "pagina_pdf": 74,
+   "autores": [
+    "kant"
+   ]
+  },
+  {
+   "id": "distension",
+   "nombre": "Distension de l'âme",
+   "definicion": "La conscience est le lien entre les moments de notre existence : elle les étire et les transforme en temps ; seule l'âme humaine peut mesurer le temps.",
+   "pagina_pdf": 79,
+   "autores": [
+    "augustin"
+   ]
+  },
+  {
+   "id": "dasein-mort",
+   "nombre": "Dasein, souci et angoisse",
+   "definicion": "L'homme est un Dasein, « être-là » qui ex-iste, ouvert à l'imprévisible ; son souci et son angoisse devant la mort fondent le temps et l'authenticité.",
+   "pagina_pdf": 76,
+   "autores": [
+    "heidegger"
+   ]
+  }
+ ],
+ "filosofos": [
+  {
+   "id": "newton",
+   "nombre": "Isaac Newton",
+   "epoca": "XVIIe siècle",
+   "tesis_principal": "Pour la physique newtonienne, l'univers est un immense mécanisme réglé comme une horloge, et le temps est un absolu qui s'écoule indépendamment des choses et sert de référence pour mesurer le mouvement.",
+   "ideas_clave": [
+    "Temps absolu, vrai et mathématique (temps absolu)",
+    "Il existerait même si le monde et notre esprit disparaissaient",
+    "Il sert de référence pour mesurer le mouvement d'un corps",
+    "Réversibilité : il suffit de changer le signe d'une équation pour que les planètes tournent à l'envers",
+    "Le temps acquiert un caractère éternel"
+   ],
+   "citas": [
+    {
+     "texto": "Le temps absolu, vrai […] coule uniformément […] sans relation à rien",
+     "idioma": "fr",
+     "obra": "Principes mathématiques de philosophie naturelle, 1686",
+     "pagina_pdf": 72
+    }
+   ],
+   "debate_con": [
+    "einstein",
+    "kant"
+   ],
+   "como_usarlo_en_disertacion": "Utile comme point de départ d'une première partie sur la conception objective et scientifique du temps (« Le temps est-il objectif ? »). On le confronte ensuite à Einstein ou à Kant pour en montrer les limites.",
+   "escena_sugerida": "Une horloge géante gouverne des planètes en rotation ; on inverse le sens et l'on voit que le temps absolu serait toujours là même si le monde disparaissait.",
+   "pagina_pdf": 72,
+   "escena": {
+    "titulo": "Newton : le temps absolu, horloge de l'univers",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "reloj",
+      "tipo": "reloj",
+      "pos": [
+       0.5,
+       0.25
+      ],
+      "etiqueta": "Temps absolu",
+      "escala": 1.5
+     },
+     {
+      "id": "sol",
+      "tipo": "sol",
+      "pos": [
+       0.5,
+       0.7
+      ],
+      "etiqueta": "Soleil"
+     },
+     {
+      "id": "planeta",
+      "tipo": "piedra",
+      "pos": [
+       0.25,
+       0.7
+      ],
+      "etiqueta": "Planète"
+     },
+     {
+      "id": "obs",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.75
+      ],
+      "etiqueta": "Physicien"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "reloj"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Pour Newton, l'univers est un immense mécanisme réglé comme une horloge."
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "sol"
+     },
+     {
+      "t": 3.5,
+      "accion": "aparece",
+      "actor": "planeta"
+     },
+     {
+      "t": 4.5,
+      "accion": "proyecta",
+      "de": "reloj",
+      "a": "planeta",
+      "nota": "référence du mouvement"
+     },
+     {
+      "t": 6,
+      "accion": "mueve",
+      "actor": "planeta",
+      "a": [
+       0.75,
+       0.7
+      ],
+      "dur": 3
+     },
+     {
+      "t": 9,
+      "accion": "subtitulo",
+      "texto": "Le temps s'écoule de la même façon, sans dépendre des choses : il sert de référence pour mesurer le mouvement."
+     },
+     {
+      "t": 11,
+      "accion": "aparece",
+      "actor": "obs"
+     },
+     {
+      "t": 12,
+      "accion": "dice",
+      "actor": "obs",
+      "texto": "Je change le signe de l'équation…"
+     },
+     {
+      "t": 14,
+      "accion": "mueve",
+      "actor": "planeta",
+      "a": [
+       0.25,
+       0.7
+      ],
+      "dur": 3
+     },
+     {
+      "t": 15,
+      "accion": "etiqueta",
+      "actor": "planeta",
+      "texto": "Sens inversé"
+     },
+     {
+      "t": 17,
+      "accion": "subtitulo",
+      "texto": "Les lois ne changent pas quand on inverse le temps : il paraît donc réversible, presque éternel."
+     },
+     {
+      "t": 19,
+      "accion": "desaparece",
+      "actor": "sol"
+     },
+     {
+      "t": 19,
+      "accion": "desaparece",
+      "actor": "planeta"
+     },
+     {
+      "t": 19,
+      "accion": "desaparece",
+      "actor": "obs"
+     },
+     {
+      "t": 20.5,
+      "accion": "resalta",
+      "actor": "reloj"
+     },
+     {
+      "t": 21.5,
+      "accion": "cita",
+      "texto": "« Le temps absolu, vrai et mathématique, en lui-même et de sa propre nature, coule uniformément sans relation à rien d'extérieur »"
+     },
+     {
+      "t": 24,
+      "accion": "subtitulo",
+      "texto": "Son existence serait assurée même si le monde et notre esprit disparaissaient."
+     }
+    ]
+   }
+  },
+  {
+   "id": "einstein",
+   "nombre": "Albert Einstein",
+   "epoca": "XXe siècle",
+   "tesis_principal": "La théorie de la relativité restreinte (1905) rend le temps relatif : à l'échelle de l'univers, pour un phénomène proche de la vitesse de la lumière, la durée est perçue différemment selon la position de l'observateur.",
+   "ideas_clave": [
+    "Relativité restreinte de 1905 : le temps devient relatif (temps relatif)",
+    "Aucun effet apparent à l'échelle humaine",
+    "À des vitesses proches de celle de la lumière, la durée dépend de la position de l'observateur",
+    "La vitesse de la lumière est le critère absolu",
+    "Rupture avec la conception classique du temps absolu de Newton"
+   ],
+   "citas": [],
+   "debate_con": [
+    "newton"
+   ],
+   "como_usarlo_en_disertacion": "Sert à montrer que même la science la plus objective remet en cause l'idée d'un temps unique et absolu. Se place bien après Newton dans une partie sur les conceptions physiques du temps.",
+   "escena_sugerida": "Deux observateurs mesurent le même événement et leurs horloges donnent des durées différentes.",
+   "pagina_pdf": 72,
+   "escena": {
+    "titulo": "Einstein : un temps devenu relatif",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "obsA",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.75
+      ],
+      "etiqueta": "Observateur A"
+     },
+     {
+      "id": "obsB",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.75
+      ],
+      "etiqueta": "Observateur B"
+     },
+     {
+      "id": "relojA",
+      "tipo": "reloj",
+      "pos": [
+       0.15,
+       0.45
+      ],
+      "etiqueta": "Durée perçue par A"
+     },
+     {
+      "id": "relojB",
+      "tipo": "reloj",
+      "pos": [
+       0.85,
+       0.45
+      ],
+      "etiqueta": "Durée perçue par B"
+     },
+     {
+      "id": "luz",
+      "tipo": "rayo",
+      "pos": [
+       0.5,
+       0.6
+      ],
+      "etiqueta": "Vitesse de la lumière"
+     },
+     {
+      "id": "evento",
+      "tipo": "estrella",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Événement"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "obsA"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "obsB"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "En 1905, Einstein bouleverse notre idée du temps : il cesse d'être absolu et devient relatif."
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "evento"
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "relojA"
+     },
+     {
+      "t": 4.5,
+      "accion": "aparece",
+      "actor": "relojB"
+     },
+     {
+      "t": 5.5,
+      "accion": "dice",
+      "actor": "obsA",
+      "texto": "Pour moi, l'événement dure ceci…"
+     },
+     {
+      "t": 8,
+      "accion": "dice",
+      "actor": "obsB",
+      "texto": "…et pour moi, il dure autre chose !"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "Si l'événement se produit près de la vitesse de la lumière, sa durée dépend de l'observateur."
+     },
+     {
+      "t": 12,
+      "accion": "aparece",
+      "actor": "luz"
+     },
+     {
+      "t": 13,
+      "accion": "resalta",
+      "actor": "luz"
+     },
+     {
+      "t": 14,
+      "accion": "tiembla",
+      "actor": "relojA"
+     },
+     {
+      "t": 14.5,
+      "accion": "tiembla",
+      "actor": "relojB"
+     },
+     {
+      "t": 16,
+      "accion": "piensa",
+      "actor": "obsA",
+      "texto": "Dans la vie courante, on ne le remarque pas…"
+     },
+     {
+      "t": 18,
+      "accion": "subtitulo",
+      "texto": "À l'échelle humaine, aucun effet apparent ; à l'échelle de l'univers, le temps n'est plus celui de Newton."
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "La vitesse de la lumière est le critère absolu ; le temps est relatif."
+     }
+    ]
+   }
+  },
+  {
+   "id": "durkheim",
+   "nombre": "Émile Durkheim",
+   "epoca": "XIXe-XXe siècles",
+   "tesis_principal": "En tant que sociologue, il observe qu'il existe un temps social dominant qui agit sur chaque individu et l'influence.",
+   "ideas_clave": [
+    "Il existe un temps social dominant",
+    "Il agit sur chaque individu et l'influence",
+    "Les calendriers ne sont pas identiques selon les religions et peuvent exprimer une conception politique (calendrier républicain)",
+    "Le temps est celui de l'activité des hommes"
+   ],
+   "citas": [],
+   "debate_con": [
+    "halbwachs"
+   ],
+   "como_usarlo_en_disertacion": "À utiliser dans une partie sur le temps vécu socialement : la société impose un cadre temporel commun. On le confronte à Halbwachs pour nuancer l'unité ou la pluralité des temps sociaux.",
+   "escena_sugerida": "Une grande figure sociale impose son rythme à des individus qui le reçoivent.",
+   "pagina_pdf": 73,
+   "escena": {
+    "titulo": "Durkheim : un temps social dominant",
+    "estilo": "monigotes",
+    "duracion_seg": 22,
+    "actores": [
+     {
+      "id": "sociedad",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.5,
+       0.25
+      ],
+      "etiqueta": "Société",
+      "escala": 1.5
+     },
+     {
+      "id": "reloj",
+      "tipo": "reloj",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "etiqueta": "Temps social"
+     },
+     {
+      "id": "ind1",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.8
+      ],
+      "etiqueta": "Individu"
+     },
+     {
+      "id": "ind2",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.85
+      ],
+      "etiqueta": "Individu"
+     },
+     {
+      "id": "ind3",
+      "tipo": "monigote",
+      "pos": [
+       0.8,
+       0.8
+      ],
+      "etiqueta": "Individu"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "sociedad"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Durkheim observe qu'il existe un temps social dominant."
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "reloj"
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "ind1"
+     },
+     {
+      "t": 4.5,
+      "accion": "aparece",
+      "actor": "ind2"
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "ind3"
+     },
+     {
+      "t": 7,
+      "accion": "proyecta",
+      "de": "reloj",
+      "a": "ind1",
+      "nota": "même rythme"
+     },
+     {
+      "t": 7.5,
+      "accion": "proyecta",
+      "de": "reloj",
+      "a": "ind2"
+     },
+     {
+      "t": 8,
+      "accion": "proyecta",
+      "de": "reloj",
+      "a": "ind3"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "Ce temps agit sur chaque individu et l'influence."
+     },
+     {
+      "t": 12,
+      "accion": "dice",
+      "actor": "ind1",
+      "texto": "Travail, repos, fêtes : tout est balisé."
+     },
+     {
+      "t": 14,
+      "accion": "salta",
+      "actor": "ind2"
+     },
+     {
+      "t": 15,
+      "accion": "une",
+      "de": "sociedad",
+      "a": "reloj",
+      "nota": "calendrier commun"
+     },
+     {
+      "t": 17,
+      "accion": "resalta",
+      "actor": "reloj"
+     },
+     {
+      "t": 19,
+      "accion": "subtitulo",
+      "texto": "Les calendriers changent selon les religions ou les projets politiques de chaque société."
+     }
+    ]
+   }
+  },
+  {
+   "id": "halbwachs",
+   "nombre": "Maurice Halbwachs",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Face à un unique temps social dominant, il soutient qu'il existe une multiplicité, une diversité et une hétérogénéité des temps sociaux.",
+   "ideas_clave": [
+    "Pluralité des temps sociaux (temps sociaux)",
+    "Il s'oppose à la thèse d'un temps social dominant de Durkheim",
+    "Les calendriers chrétien, musulman et hébraïque donnent des dates différentes",
+    "Le temps est celui de l'activité des hommes"
+   ],
+   "citas": [
+    {
+     "texto": "multiplicité, [une] diversité et [une] hétérogénéité des temps sociaux",
+     "idioma": "fr",
+     "pagina_pdf": 73
+    }
+   ],
+   "debate_con": [
+    "durkheim"
+   ],
+   "como_usarlo_en_disertacion": "Pour nuancer l'idée d'un temps social unique : chaque groupe et chaque culture a ses calendriers et ses rythmes. On l'emploie face à Durkheim, sans qu'il soit nécessaire de choisir entre les deux.",
+   "escena_sugerida": "Trois horloges-calendriers aux dates différentes coexistent à la même époque.",
+   "pagina_pdf": 73,
+   "escena": {
+    "titulo": "Halbwachs : la multiplicité des temps sociaux",
+    "estilo": "monigotes",
+    "duracion_seg": 22,
+    "actores": [
+     {
+      "id": "cal1",
+      "tipo": "reloj",
+      "pos": [
+       0.2,
+       0.45
+      ],
+      "etiqueta": "Calendrier chrétien"
+     },
+     {
+      "id": "cal2",
+      "tipo": "reloj",
+      "pos": [
+       0.5,
+       0.45
+      ],
+      "etiqueta": "Calendrier musulman"
+     },
+     {
+      "id": "cal3",
+      "tipo": "reloj",
+      "pos": [
+       0.8,
+       0.45
+      ],
+      "etiqueta": "Calendrier hébraïque"
+     },
+     {
+      "id": "hal",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.85
+      ],
+      "etiqueta": "Halbwachs"
+     },
+     {
+      "id": "unico",
+      "tipo": "interrogacion",
+      "pos": [
+       0.5,
+       0.15
+      ],
+      "etiqueta": "Un seul temps ?"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "unico"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Y a-t-il un seul temps social qui s'impose à tous ?"
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "hal"
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "cal1"
+     },
+     {
+      "t": 5,
+      "accion": "etiqueta",
+      "actor": "cal1",
+      "texto": "Chrétien : 2020"
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "cal2"
+     },
+     {
+      "t": 7,
+      "accion": "etiqueta",
+      "actor": "cal2",
+      "texto": "Musulman : 1441"
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "cal3"
+     },
+     {
+      "t": 9,
+      "accion": "etiqueta",
+      "actor": "cal3",
+      "texto": "Hébraïque : 5780"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "À la même époque, chaque calendrier compte une année différente."
+     },
+     {
+      "t": 13,
+      "accion": "desaparece",
+      "actor": "unico"
+     },
+     {
+      "t": 14,
+      "accion": "dice",
+      "actor": "hal",
+      "texto": "Il n'y a pas un temps : il y a de nombreux temps sociaux."
+     },
+     {
+      "t": 16,
+      "accion": "cita",
+      "texto": "« multiplicité, [une] diversité et [une] hétérogénéité des temps sociaux »"
+     },
+     {
+      "t": 19,
+      "accion": "resalta",
+      "actor": "cal2"
+     },
+     {
+      "t": 20,
+      "accion": "subtitulo",
+      "texto": "Pour Halbwachs, les temps sociaux sont multiples, divers et hétérogènes."
+     }
+    ]
+   }
+  },
+  {
+   "id": "augustin",
+   "nombre": "Saint Augustin",
+   "epoca": "IVe-Ve siècles",
+   "tesis_principal": "Nous ne savons pas définir le temps quand on nous interroge à son sujet ; seule l'âme humaine peut le mesurer, car c'est la conscience qui unit passé, présent et futur (distension de l'âme).",
+   "ideas_clave": [
+    "Aporie du temps : on le sait jusqu'à ce qu'on essaie de l'expliquer (Confessions, livre XI)",
+    "Le passé n'est plus, le futur n'est pas encore, seul le présent existe",
+    "La mesure du temps ne peut être faite que par l'âme humaine",
+    "Distension : la conscience étire et relie les moments et les transforme en temps",
+    "Il inspire Bergson"
+   ],
+   "citas": [
+    {
+     "texto": "Qu’est-ce que le temps ? Si personne ne me le demande, je le sais bien ; mais si on me le demande et que j’entreprenne de l’expliquer, je trouve que je l’ignore",
+     "idioma": "fr",
+     "obra": "Confessions, Livre XI",
+     "pagina_pdf": 73
+    }
+   ],
+   "debate_con": [
+    "aristote",
+    "bergson"
+   ],
+   "como_usarlo_en_disertacion": "Idéal pour introduire la difficulté de définir le temps et pour soutenir que le temps est dans la conscience. Sert dans la synthèse de « La conscience est-elle dans le temps… » avec sa distension de l'âme.",
+   "escena_sugerida": "Un nuage de passé et un autre de futur, qui n'existent pas, unis par l'âme dans le présent.",
+   "pagina_pdf": 73,
+   "escena": {
+    "titulo": "Augustin : le temps n'existe que dans l'âme",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "pregunta",
+      "tipo": "interrogacion",
+      "pos": [
+       0.5,
+       0.12
+      ],
+      "etiqueta": "Qu'est-ce que le temps ?"
+     },
+     {
+      "id": "pasado",
+      "tipo": "nube",
+      "pos": [
+       0.15,
+       0.5
+      ],
+      "etiqueta": "Passé : n'est plus"
+     },
+     {
+      "id": "presente",
+      "tipo": "estrella",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "etiqueta": "Présent"
+     },
+     {
+      "id": "futuro",
+      "tipo": "nube",
+      "pos": [
+       0.85,
+       0.5
+      ],
+      "etiqueta": "Futur : pas encore"
+     },
+     {
+      "id": "alma",
+      "tipo": "corazon",
+      "pos": [
+       0.5,
+       0.82
+      ],
+      "etiqueta": "L'âme"
+     },
+     {
+      "id": "sabio",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.85
+      ],
+      "etiqueta": "Augustin"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "sabio"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "pregunta"
+     },
+     {
+      "t": 1.5,
+      "accion": "dice",
+      "actor": "sabio",
+      "texto": "Si personne ne me le demande, je le sais…"
+     },
+     {
+      "t": 4,
+      "accion": "piensa",
+      "actor": "sabio",
+      "texto": "…mais quand je l'explique, je l'ignore."
+     },
+     {
+      "t": 5,
+      "accion": "tiembla",
+      "actor": "pregunta"
+     },
+     {
+      "t": 6,
+      "accion": "subtitulo",
+      "texto": "Augustin avoue ne pas savoir définir le temps quand il essaie de l'expliquer."
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "pasado"
+     },
+     {
+      "t": 9,
+      "accion": "aparece",
+      "actor": "futuro"
+     },
+     {
+      "t": 10,
+      "accion": "aparece",
+      "actor": "presente"
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "Le passé n'est plus, le futur n'est pas encore : il n'y a que le présent."
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 15.5,
+      "accion": "une",
+      "de": "alma",
+      "a": "pasado",
+      "nota": "souvenir"
+     },
+     {
+      "t": 16.5,
+      "accion": "une",
+      "de": "alma",
+      "a": "presente",
+      "nota": "attention"
+     },
+     {
+      "t": 17.5,
+      "accion": "une",
+      "de": "alma",
+      "a": "futuro",
+      "nota": "attente"
+     },
+     {
+      "t": 19,
+      "accion": "resalta",
+      "actor": "alma"
+     },
+     {
+      "t": 20,
+      "accion": "cita",
+      "texto": "« Qu'est-ce que le temps ? Si personne ne me le demande, je le sais bien […] je trouve que je l'ignore »"
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "La conscience relie les moments (distension) et les transforme en temps ; seule l'âme le mesure."
+     }
+    ]
+   }
+  },
+  {
+   "id": "kant",
+   "nombre": "Emmanuel Kant",
+   "epoca": "XVIIIe siècle",
+   "tesis_principal": "Le temps n'est pas une chose en soi mais une forme a priori de notre sensibilité, universelle et antérieure à l'expérience : une « idéalité transcendantale » qui n'est pas une illusion.",
+   "ideas_clave": [
+    "Nous ne connaissons pas les choses en soi, seulement des phénomènes (phénomènes)",
+    "Le temps est une forme de notre esprit, non un être réel",
+    "Il est transcendantal (il préexiste à l'expérience) et idéal (ce n'est pas un être réel)",
+    "Universel, bien que chaque être humain le perçoive avec ses singularités",
+    "Ni seulement objectif ni purement subjectif"
+   ],
+   "citas": [
+    {
+     "texto": "condition subjective de […] notre intuition, et il n’est […] rien en soi en dehors du […] sujet",
+     "idioma": "fr",
+     "obra": "Critique de la raison pure, 1781",
+     "pagina_pdf": 74
+    }
+   ],
+   "debate_con": [
+    "newton",
+    "bergson"
+   ],
+   "como_usarlo_en_disertacion": "Pour soutenir que le temps n'est ni une réalité en soi (contre Newton) ni une illusion subjective. Il fonctionne comme pièce de synthèse entre les thèses objective et subjective.",
+   "escena_sugerida": "Le sujet perçoit un phénomène à travers la forme du temps ; la chose en soi reste inaccessible.",
+   "pagina_pdf": 74,
+   "escena": {
+    "titulo": "Kant : le temps, forme a priori de notre esprit",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "cosa",
+      "tipo": "caja",
+      "pos": [
+       0.85,
+       0.35
+      ],
+      "etiqueta": "Chose en soi"
+     },
+     {
+      "id": "duda",
+      "tipo": "interrogacion",
+      "pos": [
+       0.85,
+       0.15
+      ]
+     },
+     {
+      "id": "sujeto",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.75
+      ],
+      "etiqueta": "Le sujet"
+     },
+     {
+      "id": "forma",
+      "tipo": "espejo",
+      "pos": [
+       0.5,
+       0.55
+      ],
+      "etiqueta": "Forme a priori : le temps"
+     },
+     {
+      "id": "fenomeno",
+      "tipo": "estrella",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Phénomène"
+     },
+     {
+      "id": "mente",
+      "tipo": "cerebro",
+      "pos": [
+       0.2,
+       0.45
+      ],
+      "etiqueta": "Esprit"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "sujeto"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "mente"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "cosa"
+     },
+     {
+      "t": 2.5,
+      "accion": "aparece",
+      "actor": "duda"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Pour Kant, nous ne pouvons pas connaître les choses en soi, en dehors des structures de notre esprit."
+     },
+     {
+      "t": 6,
+      "accion": "dice",
+      "actor": "sujeto",
+      "texto": "Je n'atteins pas la chose en soi."
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "forma"
+     },
+     {
+      "t": 9,
+      "accion": "une",
+      "de": "mente",
+      "a": "forma",
+      "nota": "elle vient de nous"
+     },
+     {
+      "t": 11,
+      "accion": "proyecta",
+      "de": "cosa",
+      "a": "forma"
+     },
+     {
+      "t": 13,
+      "accion": "aparece",
+      "actor": "fenomeno"
+     },
+     {
+      "t": 14,
+      "accion": "resalta",
+      "actor": "forma"
+     },
+     {
+      "t": 15,
+      "accion": "subtitulo",
+      "texto": "Le temps est la forme par laquelle les phénomènes nous apparaissent : il est antérieur à l'expérience."
+     },
+     {
+      "t": 18,
+      "accion": "une",
+      "de": "forma",
+      "a": "fenomeno"
+     },
+     {
+      "t": 19,
+      "accion": "dice",
+      "actor": "sujeto",
+      "texto": "Ce n'est pas une illusion : il est universel."
+     },
+     {
+      "t": 21,
+      "accion": "cita",
+      "texto": "« Le temps n'est qu'une condition subjective de notre intuition, et il n'est rien en soi en dehors du sujet. »"
+     },
+     {
+      "t": 23.5,
+      "accion": "subtitulo",
+      "texto": "Idéalité transcendantale : ni purement objectif ni purement subjectif."
+     }
+    ]
+   }
+  },
+  {
+   "id": "zenon",
+   "nombre": "Zénon d'Élée",
+   "epoca": "Ve siècle av. J.-C.",
+   "tesis_principal": "Avec ses paradoxes (Achille et la tortue), il tente de démontrer qu'il est impossible de penser le temps comme une succession d'instants séparés : une telle division fait qu'Achille ne rattrape jamais la tortue.",
+   "ideas_clave": [
+    "Notre vision commune du temps : des instants comme les perles d'un chapelet",
+    "Paradoxe d'Achille et de la tortue (paradoxe)",
+    "Si l'on divise le temps en instants séparés, il reste toujours une distance, même minime",
+    "L'opération peut se répéter à l'infini",
+    "Conclusion logiquement incontournable si l'on divise ainsi le temps"
+   ],
+   "citas": [],
+   "debate_con": [
+    "aristote"
+   ],
+   "como_usarlo_en_disertacion": "Pour ouvrir un débat sur la question de savoir si le temps est une succession d'instants : Zénon montre les problèmes logiques de cette idée, et Aristote ou Bergson proposent des issues.",
+   "escena_sugerida": "Achille poursuit la tortue et chaque fois qu'il arrive là où elle était, elle a déjà avancé.",
+   "pagina_pdf": 74,
+   "escena": {
+    "titulo": "Zénon : Achille et la tortue",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "achille",
+      "tipo": "monigote",
+      "pos": [
+       0.1,
+       0.7
+      ],
+      "etiqueta": "Achille"
+     },
+     {
+      "id": "tortue",
+      "tipo": "piedra",
+      "pos": [
+       0.4,
+       0.7
+      ],
+      "etiqueta": "Tortue"
+     },
+     {
+      "id": "meta",
+      "tipo": "bandera",
+      "pos": [
+       0.9,
+       0.7
+      ],
+      "etiqueta": "Arrivée"
+     },
+     {
+      "id": "zenon",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Zénon"
+     },
+     {
+      "id": "duda",
+      "tipo": "interrogacion",
+      "pos": [
+       0.75,
+       0.3
+      ]
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "achille"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "tortue"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "meta"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Achille court dix fois plus vite que la tortue, mais elle part avec une avance."
+     },
+     {
+      "t": 5,
+      "accion": "mueve",
+      "actor": "achille",
+      "a": [
+       0.4,
+       0.7
+      ],
+      "dur": 2
+     },
+     {
+      "t": 5,
+      "accion": "mueve",
+      "actor": "tortue",
+      "a": [
+       0.5,
+       0.7
+      ],
+      "dur": 2
+     },
+     {
+      "t": 8,
+      "accion": "mueve",
+      "actor": "achille",
+      "a": [
+       0.5,
+       0.7
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 8,
+      "accion": "mueve",
+      "actor": "tortue",
+      "a": [
+       0.55,
+       0.7
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "Quand il arrive où était la tortue, elle a déjà avancé un peu plus… et ainsi sans fin."
+     },
+     {
+      "t": 12,
+      "accion": "mueve",
+      "actor": "achille",
+      "a": [
+       0.55,
+       0.7
+      ],
+      "dur": 1
+     },
+     {
+      "t": 12,
+      "accion": "mueve",
+      "actor": "tortue",
+      "a": [
+       0.575,
+       0.7
+      ],
+      "dur": 1
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "zenon"
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "duda"
+     },
+     {
+      "t": 15.5,
+      "accion": "tiembla",
+      "actor": "achille"
+     },
+     {
+      "t": 17,
+      "accion": "dice",
+      "actor": "zenon",
+      "texto": "Il restera toujours un écart, même minime."
+     },
+     {
+      "t": 20,
+      "accion": "piensa",
+      "actor": "achille",
+      "texto": "Ne la rattraperai-je jamais ?"
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "Si le temps était une somme d'instants séparés, Achille ne dépasserait jamais la tortue."
+     }
+    ]
+   }
+  },
+  {
+   "id": "aristote",
+   "nombre": "Aristote",
+   "epoca": "IVe siècle av. J.-C.",
+   "tesis_principal": "Il répond à Zénon qu'il ne faut pas confondre le temps divisé en micro-unités avec la somme de ces unités, qui est un total fini : une division en secondes, millisecondes ou nanosecondes reste une minute, et le temps demeure une réalité objective.",
+   "ideas_clave": [
+    "Ne pas confondre le temps divisé en micro-unités avec la somme totale finie",
+    "Une minute divisée reste une minute, ni plus ni moins",
+    "Le temps reste une donnée objective",
+    "Augustin lui reproche cela : seule l'âme humaine mesure le temps",
+    "Transcendance du devenir sur la conscience (corrigé de la dissertation)"
+   ],
+   "citas": [],
+   "debate_con": [
+    "zenon",
+    "augustin"
+   ],
+   "como_usarlo_en_disertacion": "Pour résoudre les paradoxes de Zénon et défendre un temps objectif ; dans le corrigé de la dissertation, il soutient la thèse selon laquelle la conscience est dans le devenir.",
+   "escena_sugerida": "Une horloge d'une minute se divise en morceaux de plus en plus petits et fait toujours une minute au total.",
+   "pagina_pdf": 74,
+   "escena": {
+    "titulo": "Aristote : diviser le temps ne l'abolit pas",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "minuto",
+      "tipo": "reloj",
+      "pos": [
+       0.5,
+       0.25
+      ],
+      "etiqueta": "Une minute",
+      "escala": 1.3
+     },
+     {
+      "id": "seg",
+      "tipo": "texto",
+      "pos": [
+       0.2,
+       0.55
+      ],
+      "etiqueta": "secondes"
+     },
+     {
+      "id": "milli",
+      "tipo": "texto",
+      "pos": [
+       0.5,
+       0.6
+      ],
+      "etiqueta": "millisecondes"
+     },
+     {
+      "id": "nano",
+      "tipo": "texto",
+      "pos": [
+       0.8,
+       0.55
+      ],
+      "etiqueta": "nanosecondes…"
+     },
+     {
+      "id": "zenon",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.85
+      ],
+      "etiqueta": "Zénon"
+     },
+     {
+      "id": "aristote",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.85
+      ],
+      "etiqueta": "Aristote"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "minuto"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "zenon"
+     },
+     {
+      "t": 2,
+      "accion": "dice",
+      "actor": "zenon",
+      "texto": "Divisé en instants, le temps n'avance pas !"
+     },
+     {
+      "t": 4,
+      "accion": "subtitulo",
+      "texto": "Après les paradoxes de Zénon, Aristote distingue entre diviser le temps et l'additionner."
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "seg"
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "milli"
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "nano"
+     },
+     {
+      "t": 9,
+      "accion": "une",
+      "de": "seg",
+      "a": "minuto"
+     },
+     {
+      "t": 9.5,
+      "accion": "une",
+      "de": "milli",
+      "a": "minuto"
+     },
+     {
+      "t": 10,
+      "accion": "une",
+      "de": "nano",
+      "a": "minuto"
+     },
+     {
+      "t": 12,
+      "accion": "aparece",
+      "actor": "aristote"
+     },
+     {
+      "t": 13,
+      "accion": "dice",
+      "actor": "aristote",
+      "texto": "La somme des parties est un total fini."
+     },
+     {
+      "t": 15.5,
+      "accion": "resalta",
+      "actor": "minuto"
+     },
+     {
+      "t": 16,
+      "accion": "etiqueta",
+      "actor": "minuto",
+      "texto": "Toujours une minute"
+     },
+     {
+      "t": 18,
+      "accion": "subtitulo",
+      "texto": "Une minute découpée en secondes, millisecondes, nanosecondes reste une minute."
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Pour Aristote, le temps reste une donnée objective."
+     }
+    ]
+   }
+  },
+  {
+   "id": "bergson",
+   "nombre": "Henri Bergson",
+   "epoca": "XIXe-XXe siècles",
+   "tesis_principal": "Le temps réel est la durée, « une donnée immédiate de la conscience », qui s'éprouve intuitivement et ne se mesure pas : confondre temps et espace (le représenter comme une ligne) anéantit la durée.",
+   "ideas_clave": [
+    "Il distingue le devenir (le réel qui change) de la véritable temporalité",
+    "Erreur classique : représenter le temps comme une ligne, c'est-à-dire le spatialiser",
+    "Une ligne se mesure (10 m = 10 m) ; les moments vécus s'interpénètrent et sont toujours différents",
+    "Le temps des horloges est nécessaire à la vie sociale, mais seule la durée est le temps réel vécu",
+    "La durée a une qualité : celle que nous donnons à ce que nous faisons (plaisir, ennui…)"
+   ],
+   "citas": [
+    {
+     "texto": "d’une donnée immédiate de la conscience",
+     "idioma": "fr",
+     "pagina_pdf": 75
+    }
+   ],
+   "debate_con": [
+    "kant",
+    "augustin",
+    "newton"
+   ],
+   "como_usarlo_en_disertacion": "Indispensable pour distinguer le temps mesuré (horloges, science) du temps vécu. On l'utilise dans une partie sur l'expérience subjective du temps, en s'appuyant sur l'exemple du marathon.",
+   "escena_sugerida": "Un coureur de marathon vit différemment les dix premiers et les dix derniers mètres, bien qu'ils soient identiques sur la ligne.",
+   "pagina_pdf": 75,
+   "escena": {
+    "titulo": "Bergson : la durée ne se mesure pas",
+    "estilo": "monigotes",
+    "duracion_seg": 27,
+    "actores": [
+     {
+      "id": "linea",
+      "tipo": "texto",
+      "pos": [
+       0.25,
+       0.2
+      ],
+      "etiqueta": "Ligne : 10 m = 10 m"
+     },
+     {
+      "id": "reloj",
+      "tipo": "reloj",
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "etiqueta": "Temps des horloges"
+     },
+     {
+      "id": "corredor",
+      "tipo": "monigote",
+      "pos": [
+       0.1,
+       0.7
+      ],
+      "etiqueta": "Coureur"
+     },
+     {
+      "id": "meta",
+      "tipo": "bandera",
+      "pos": [
+       0.9,
+       0.7
+      ],
+      "etiqueta": "Marathon"
+     },
+     {
+      "id": "duree",
+      "tipo": "corazon",
+      "pos": [
+       0.5,
+       0.45
+      ],
+      "etiqueta": "Durée vécue"
+     },
+     {
+      "id": "bergson",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.88
+      ],
+      "etiqueta": "Bergson"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "linea"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "reloj"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": "Nous représentons d'ordinaire le temps comme une ligne que l'on peut mesurer."
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "corredor"
+     },
+     {
+      "t": 4.5,
+      "accion": "aparece",
+      "actor": "meta"
+     },
+     {
+      "t": 5.5,
+      "accion": "mueve",
+      "actor": "corredor",
+      "a": [
+       0.3,
+       0.7
+      ],
+      "dur": 2
+     },
+     {
+      "t": 7.5,
+      "accion": "dice",
+      "actor": "corredor",
+      "texto": "Les 10 premiers mètres : léger !"
+     },
+     {
+      "t": 9.5,
+      "accion": "mueve",
+      "actor": "corredor",
+      "a": [
+       0.8,
+       0.7
+      ],
+      "dur": 3
+     },
+     {
+      "t": 12,
+      "accion": "tiembla",
+      "actor": "corredor"
+     },
+     {
+      "t": 12.5,
+      "accion": "dice",
+      "actor": "corredor",
+      "texto": "Les 10 derniers mètres : un autre temps !"
+     },
+     {
+      "t": 14.5,
+      "accion": "subtitulo",
+      "texto": "Sur la ligne, 10 m valent 10 m ; vécus, les derniers mètres ne sont pas les premiers."
+     },
+     {
+      "t": 17,
+      "accion": "aparece",
+      "actor": "duree"
+     },
+     {
+      "t": 17.5,
+      "accion": "aparece",
+      "actor": "bergson"
+     },
+     {
+      "t": 18.5,
+      "accion": "desaparece",
+      "actor": "linea"
+     },
+     {
+      "t": 19,
+      "accion": "resalta",
+      "actor": "duree"
+     },
+     {
+      "t": 20,
+      "accion": "cita",
+      "texto": "« d'une donnée immédiate de la conscience »"
+     },
+     {
+      "t": 22.5,
+      "accion": "subtitulo",
+      "texto": "Le temps réel est la durée : il s'éprouve, il ne se mesure pas ; le spatialiser l'anéantit."
+     }
+    ]
+   }
+  },
+  {
+   "id": "husserl",
+   "nombre": "Edmund Husserl",
+   "epoca": "XIXe-XXe siècles",
+   "tesis_principal": "La conscience n'est pas un réceptacle passif mais active et « intentionnelle » : elle « tend vers » les choses et donne forme à son objet ; c'est elle qui donne vie à la temporalité de notre existence et le temps est immanent à la conscience.",
+   "ideas_clave": [
+    "Phénoménologie de la conscience intime du temps",
+    "Intentionnalité : la conscience tend vers les choses et les configure (intentionnalité)",
+    "En écoutant une mélodie, la conscience distingue chaque note et les associe",
+    "La conscience donne vie à la temporalité de notre existence",
+    "Temps et conscience se constituent réciproquement (corrigé)"
+   ],
+   "citas": [
+    {
+     "texto": "l’ego n’est pas pure présence à soi, il est toujours comme séparé de lui-même car il est l’héritier de sa propre vie et il n’est pas encore tout ce qu’il peut être",
+     "idioma": "fr",
+     "obra": "citado en el corrigé de la dissertation",
+     "pagina_pdf": 83
+    }
+   ],
+   "debate_con": [
+    "bergson",
+    "augustin"
+   ],
+   "como_usarlo_en_disertacion": "Sert pour l'antithèse « le temps est dans la conscience » : la conscience est par essence temporalité. Utile aussi pour parler de mémoire, d'attente et de projet.",
+   "escena_sugerida": "La conscience écoute une mélodie, distingue les notes et les relie.",
+   "pagina_pdf": 75,
+   "escena": {
+    "titulo": "Husserl : la conscience donne forme au temps",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "conciencia",
+      "tipo": "ojo",
+      "pos": [
+       0.15,
+       0.5
+      ],
+      "etiqueta": "Conscience"
+     },
+     {
+      "id": "nota1",
+      "tipo": "estrella",
+      "pos": [
+       0.4,
+       0.3
+      ],
+      "etiqueta": "Note 1"
+     },
+     {
+      "id": "nota2",
+      "tipo": "estrella",
+      "pos": [
+       0.6,
+       0.55
+      ],
+      "etiqueta": "Note 2"
+     },
+     {
+      "id": "nota3",
+      "tipo": "estrella",
+      "pos": [
+       0.8,
+       0.3
+      ],
+      "etiqueta": "Note 3"
+     },
+     {
+      "id": "melodia",
+      "tipo": "corazon",
+      "pos": [
+       0.6,
+       0.85
+      ],
+      "etiqueta": "Mélodie"
+     },
+     {
+      "id": "persona",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.85
+      ],
+      "etiqueta": "Auditeur"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "persona"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "conciencia"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": "Pour Husserl, la conscience n'est pas passive : elle tend vers les choses (intentionnalité)."
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "nota1"
+     },
+     {
+      "t": 5,
+      "accion": "proyecta",
+      "de": "conciencia",
+      "a": "nota1",
+      "nota": "intentionnalité"
+     },
+     {
+      "t": 6.5,
+      "accion": "aparece",
+      "actor": "nota2"
+     },
+     {
+      "t": 7.5,
+      "accion": "proyecta",
+      "de": "conciencia",
+      "a": "nota2"
+     },
+     {
+      "t": 9,
+      "accion": "aparece",
+      "actor": "nota3"
+     },
+     {
+      "t": 10,
+      "accion": "proyecta",
+      "de": "conciencia",
+      "a": "nota3"
+     },
+     {
+      "t": 11.5,
+      "accion": "subtitulo",
+      "texto": "En écoutant une mélodie, la conscience distingue chaque note, une par une…"
+     },
+     {
+      "t": 14,
+      "accion": "une",
+      "de": "nota1",
+      "a": "nota2"
+     },
+     {
+      "t": 14.5,
+      "accion": "une",
+      "de": "nota2",
+      "a": "nota3"
+     },
+     {
+      "t": 15.5,
+      "accion": "aparece",
+      "actor": "melodia"
+     },
+     {
+      "t": 16.5,
+      "accion": "resalta",
+      "actor": "melodia"
+     },
+     {
+      "t": 18,
+      "accion": "subtitulo",
+      "texto": "…et les associe en une mélodie : c'est l'intentionnalité de la conscience qui réalise ce tour de force."
+     },
+     {
+      "t": 21,
+      "accion": "dice",
+      "actor": "persona",
+      "texto": "Ma conscience donne vie à la temporalité."
+     },
+     {
+      "t": 22.5,
+      "accion": "subtitulo",
+      "texto": "La conscience constitue la temporalité de notre existence."
+     }
+    ]
+   }
+  },
+  {
+   "id": "heidegger",
+   "nombre": "Martin Heidegger",
+   "epoca": "XXe siècle",
+   "tesis_principal": "L'homme est un Dasein (« être-là ») dont l'existence s'ouvre à l'imprévisible et qui est donc fondamentalement « temps » ; le temps ouvert aux imprévus naît du sens de la mort, et l'angoisse invite à être authentique et à la hauteur de sa propre liberté.",
+   "ideas_clave": [
+    "L'homme est un étant dans un rapport privilégié avec l'être : un Dasein",
+    "Ex-sistere : se tenir hors de soi ; il ne vit pas dans une réalité uniforme comme un animal",
+    "La mort fonde l'idée de possibilité et, par conséquent, de temps",
+    "Souci et angoisse comme dimensions du Dasein",
+    "« Deviens ce que tu es ! » : devoir d'être à la hauteur de sa propre liberté"
+   ],
+   "citas": [
+    {
+     "texto": "un excédent, quelque chose qui, en tant que pouvoir être de lui-même, n’est pas encore devenu effectif",
+     "idioma": "fr",
+     "obra": "Être et Temps",
+     "pagina_pdf": 77
+    }
+   ],
+   "debate_con": [
+    "nietzsche",
+    "epicure"
+   ],
+   "como_usarlo_en_disertacion": "Pour soutenir que la mort donne un sens au temps et à l'existence (« La mort donne-t-elle un sens à la vie ? », « Exister, est-ce vivre ? »). Contraste avec Épicure, pour qui la mort n'est rien pour nous.",
+   "escena_sugerida": "Le Dasein se projette vers ses possibles tandis que l'ombre de la mort donne du poids à chaque instant.",
+   "pagina_pdf": 76,
+   "escena": {
+    "titulo": "Heidegger : la mort donne son sens au temps",
+    "estilo": "monigotes",
+    "duracion_seg": 27,
+    "actores": [
+     {
+      "id": "animal",
+      "tipo": "arbol",
+      "pos": [
+       0.12,
+       0.65
+      ],
+      "etiqueta": "Animal : une nature"
+     },
+     {
+      "id": "dasein",
+      "tipo": "monigote",
+      "pos": [
+       0.3,
+       0.75
+      ],
+      "etiqueta": "Dasein"
+     },
+     {
+      "id": "posible",
+      "tipo": "puerta",
+      "pos": [
+       0.85,
+       0.65
+      ],
+      "etiqueta": "Possible à venir"
+     },
+     {
+      "id": "muerte",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.55,
+       0.2
+      ],
+      "etiqueta": "La mort"
+     },
+     {
+      "id": "angustia",
+      "tipo": "nube",
+      "pos": [
+       0.35,
+       0.4
+      ],
+      "etiqueta": "Angoisse"
+     },
+     {
+      "id": "reloj",
+      "tipo": "reloj",
+      "pos": [
+       0.65,
+       0.5
+      ],
+      "etiqueta": "Temps"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "animal"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "dasein"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": "L'animal vit enfermé dans sa nature ; l'homme, lui, ex-iste : il se tient hors de soi."
+     },
+     {
+      "t": 4.5,
+      "accion": "aparece",
+      "actor": "posible"
+     },
+     {
+      "t": 5.5,
+      "accion": "mueve",
+      "actor": "dasein",
+      "a": [
+       0.6,
+       0.75
+      ],
+      "dur": 3
+     },
+     {
+      "t": 8.5,
+      "accion": "subtitulo",
+      "texto": "Le Dasein se projette vers un possible à venir : c'est pourquoi il est fondamentalement temps."
+     },
+     {
+      "t": 11,
+      "accion": "aparece",
+      "actor": "muerte"
+     },
+     {
+      "t": 12,
+      "accion": "tiembla",
+      "actor": "dasein"
+     },
+     {
+      "t": 12.5,
+      "accion": "aparece",
+      "actor": "angustia"
+     },
+     {
+      "t": 14,
+      "accion": "subtitulo",
+      "texto": "La mort, toujours présente en filigrane, fonde l'idée de possibilité et, par conséquent, de temps."
+     },
+     {
+      "t": 17,
+      "accion": "aparece",
+      "actor": "reloj"
+     },
+     {
+      "t": 17.5,
+      "accion": "une",
+      "de": "muerte",
+      "a": "reloj"
+     },
+     {
+      "t": 19,
+      "accion": "desaparece",
+      "actor": "angustia"
+     },
+     {
+      "t": 19.5,
+      "accion": "resalta",
+      "actor": "dasein"
+     },
+     {
+      "t": 20.5,
+      "accion": "dice",
+      "actor": "dasein",
+      "texto": "Je dois être moi-même jusqu'au bout."
+     },
+     {
+      "t": 22.5,
+      "accion": "mueve",
+      "actor": "dasein",
+      "a": [
+       0.8,
+       0.75
+      ],
+      "dur": 2.5
+     },
+     {
+      "t": 25,
+      "accion": "subtitulo",
+      "texto": "L'angoisse est un appel à l'authenticité : être à la hauteur de sa propre liberté."
+     }
+    ]
+   }
+  },
+  {
+   "id": "nietzsche",
+   "nombre": "Friedrich Nietzsche",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "Certains hommes ne parviennent pas à s'arracher au « piquet de l'instant » : ils envient l'animal qui, ne vivant que dans le présent, oublie et ne supporte ni le poids du passé ni celui du futur ; l'oubli peut apparaître comme une condition du bonheur.",
+   "ideas_clave": [
+    "Le « piquet de l'instant » : rester attaché au présent",
+    "L'animal vit dans le présent : existence non historique (non-historique)",
+    "Il ne porte ni le poids du passé ni celui de l'avenir",
+    "Vivre dans un présent fermé sur lui-même, sans imprévu créateur",
+    "L'oubli comme condition possible du bonheur"
+   ],
+   "citas": [
+    {
+     "texto": "piquet de l’instant",
+     "idioma": "fr",
+     "pagina_pdf": 76
+    }
+   ],
+   "debate_con": [
+    "heidegger"
+   ],
+   "como_usarlo_en_disertacion": "Pour traiter du lien entre mémoire, oubli et bonheur, ou de la tentation de ne vivre que dans le présent. On l'oppose à ceux (Heidegger) qui demandent de se projeter vers l'avenir.",
+   "escena_sugerida": "Un homme attaché à un piquet envie l'animal qui vit sans porter ni passé ni futur.",
+   "pagina_pdf": 76,
+   "escena": {
+    "titulo": "Nietzsche : le « piquet de l'instant »",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "hombre",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.7
+      ],
+      "etiqueta": "L'homme"
+     },
+     {
+      "id": "piquet",
+      "tipo": "piedra",
+      "pos": [
+       0.4,
+       0.75
+      ],
+      "etiqueta": "Piquet de l'instant"
+     },
+     {
+      "id": "cadena",
+      "tipo": "cadena",
+      "pos": [
+       0.33,
+       0.73
+      ]
+     },
+     {
+      "id": "pasado",
+      "tipo": "nube",
+      "pos": [
+       0.1,
+       0.25
+      ],
+      "etiqueta": "Passé"
+     },
+     {
+      "id": "futuro",
+      "tipo": "nube",
+      "pos": [
+       0.4,
+       0.25
+      ],
+      "etiqueta": "Avenir"
+     },
+     {
+      "id": "animal",
+      "tipo": "flor",
+      "pos": [
+       0.8,
+       0.7
+      ],
+      "etiqueta": "L'animal : présent seul"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "hombre"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "piquet"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Selon Nietzsche, certains hommes ne parviennent pas à s'arracher au « piquet de l'instant »."
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "pasado"
+     },
+     {
+      "t": 5.5,
+      "accion": "aparece",
+      "actor": "futuro"
+     },
+     {
+      "t": 6,
+      "accion": "tiembla",
+      "actor": "hombre"
+     },
+     {
+      "t": 7.5,
+      "accion": "piensa",
+      "actor": "hombre",
+      "texto": "Le poids du passé et du futur m'écrase."
+     },
+     {
+      "t": 10,
+      "accion": "aparece",
+      "actor": "animal"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "Ils envient l'animal qui, ne vivant que dans le présent, oublie et ne supporte aucune charge."
+     },
+     {
+      "t": 14,
+      "accion": "salta",
+      "actor": "animal"
+     },
+     {
+      "t": 15,
+      "accion": "piensa",
+      "actor": "hombre",
+      "texto": "Oublier… serait-ce le bonheur ?"
+     },
+     {
+      "t": 17,
+      "accion": "desaparece",
+      "actor": "pasado"
+     },
+     {
+      "t": 17,
+      "accion": "desaparece",
+      "actor": "futuro"
+     },
+     {
+      "t": 18.5,
+      "accion": "cita",
+      "texto": "« piquet de l'instant »"
+     },
+     {
+      "t": 20.5,
+      "accion": "subtitulo",
+      "texto": "Choisir l'oubli peut être une condition du bonheur, mais au prix d'un présent sans imprévu créateur."
+     }
+    ]
+   }
+  },
+  {
+   "id": "epicure",
+   "nombre": "Épicure",
+   "epoca": "IVe-IIIe siècles av. J.-C.",
+   "tesis_principal": "Dans la Lettre à Ménécée, il soutient que la mort n'est rien pour nous : elle est privation de toute sensibilité, et le comprendre nous libère du désir d'immortalité et d'une crainte sans objet.",
+   "ideas_clave": [
+    "Tout bien et tout mal résident dans la sensation ; la mort est privation de toute sensibilité",
+    "Le savoir permet de jouir de la vie mortelle, en ôtant le désir d'immortalité",
+    "Craindre l'attente de la mort est une crainte vaine et sans objet",
+    "Tant que nous existons, la mort n'est pas ; quand la mort existe, nous ne sommes plus",
+    "La mort n'existe ni pour les vivants ni pour les morts"
+   ],
+   "citas": [
+    {
+     "texto": "Prends l’habitude de penser que la mort n’est rien pour nous",
+     "idioma": "fr",
+     "obra": "Lettre à Ménécée",
+     "pagina_pdf": 81
+    }
+   ],
+   "debate_con": [
+    "heidegger"
+   ],
+   "como_usarlo_en_disertacion": "Pour le sujet sur la mort et le sens de la vie : on oppose la sérénité épicurienne à Heidegger, pour qui la mort donne sa saveur et son sens à l'existence.",
+   "escena_sugerida": "L'homme et la mort ne coïncident jamais : quand l'un est là, l'autre n'y est pas.",
+   "pagina_pdf": 81,
+   "escena": {
+    "titulo": "Épicure : la mort n'est rien pour nous",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "hombre",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.7
+      ],
+      "etiqueta": "Nous (vivants)"
+     },
+     {
+      "id": "muerte",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.8,
+       0.4
+      ],
+      "etiqueta": "La mort"
+     },
+     {
+      "id": "miedo",
+      "tipo": "nube",
+      "pos": [
+       0.25,
+       0.35
+      ],
+      "etiqueta": "Crainte"
+     },
+     {
+      "id": "placer",
+      "tipo": "sol",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Jouir de la vie"
+     },
+     {
+      "id": "epicuro",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.88
+      ],
+      "etiqueta": "Épicure"
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "hombre"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "muerte"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "miedo"
+     },
+     {
+      "t": 2,
+      "accion": "tiembla",
+      "actor": "hombre"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Beaucoup craignent la mort, et surtout l'attente de la mort."
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "epicuro"
+     },
+     {
+      "t": 7,
+      "accion": "dice",
+      "actor": "epicuro",
+      "texto": "La mort est privation de toute sensibilité."
+     },
+     {
+      "t": 10,
+      "accion": "mueve",
+      "actor": "muerte",
+      "a": [
+       0.5,
+       0.45
+      ],
+      "dur": 2.5
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "Tant que nous existons, la mort n'est pas là ; quand la mort est là, nous ne sommes plus."
+     },
+     {
+      "t": 13.5,
+      "accion": "desaparece",
+      "actor": "hombre"
+     },
+     {
+      "t": 14.5,
+      "accion": "dice",
+      "actor": "muerte",
+      "texto": "Il n'y a plus personne pour me rencontrer."
+     },
+     {
+      "t": 17,
+      "accion": "desaparece",
+      "actor": "miedo"
+     },
+     {
+      "t": 17.5,
+      "accion": "cita",
+      "texto": "« Prends l'habitude de penser que la mort n'est rien pour nous »"
+     },
+     {
+      "t": 20,
+      "accion": "aparece",
+      "actor": "placer"
+     },
+     {
+      "t": 21,
+      "accion": "resalta",
+      "actor": "placer"
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "Cette vérité libère du désir d'immortalité et permet de jouir de la vie mortelle."
+     }
+    ]
+   }
+  }
+ ],
+ "relaciones": [
+  {
+   "de": "newton",
+   "a": "einstein",
+   "tipo": "se opone",
+   "nota": "Le temps absolu de Newton devient relatif avec la relativité de 1905."
+  },
+  {
+   "de": "newton",
+   "a": "kant",
+   "tipo": "se opone",
+   "nota": "Pour Kant, le temps n'existe pas en soi en dehors du sujet, contrairement à l'absolu newtonien."
+  },
+  {
+   "de": "durkheim",
+   "a": "halbwachs",
+   "tipo": "se opone",
+   "nota": "Un temps social dominant face à la multiplicité des temps sociaux."
+  },
+  {
+   "de": "zenon",
+   "a": "aristote",
+   "tipo": "se opone",
+   "nota": "Aristote répond au paradoxe : la somme des parties est une durée finie."
+  },
+  {
+   "de": "augustin",
+   "a": "aristote",
+   "tipo": "se opone",
+   "nota": "Augustin lui reproche que la mesure du temps ne peut être faite que par l'âme humaine."
+  },
+  {
+   "de": "augustin",
+   "a": "bergson",
+   "tipo": "influye",
+   "nota": "Bergson s'inspire d'Augustin pour distinguer devenir et véritable temporalité."
+  },
+  {
+   "de": "kant",
+   "a": "bergson",
+   "tipo": "influye",
+   "nota": "Bergson prolonge Kant : associer espace et temps fait perdre la spécificité du temps."
+  },
+  {
+   "de": "bergson",
+   "a": "husserl",
+   "tipo": "complementa",
+   "nota": "Tous deux situent le temps réel dans la conscience vécue, non dans le temps des horloges."
+  },
+  {
+   "de": "heidegger",
+   "a": "epicure",
+   "tipo": "se opone",
+   "nota": "La mort donne un sens au temps (Heidegger) face à la mort qui n'est rien pour nous."
+  },
+  {
+   "de": "nietzsche",
+   "a": "heidegger",
+   "tipo": "complementa",
+   "nota": "Tous deux pensent le rapport de l'homme au présent, à l'avenir et à la plénitude d'exister."
+  },
+  {
+   "de": "devenir-duree",
+   "a": "bergson",
+   "tipo": "complementa",
+   "nota": "La durée vécue est le temps réel pour Bergson."
+  },
+  {
+   "de": "dasein-mort",
+   "a": "heidegger",
+   "tipo": "complementa",
+   "nota": "Le Dasein et son angoisse devant la mort sont au centre de la pensée de Heidegger."
+  }
+ ],
+ "quiz": [
+  {
+   "pregunta": "Selon la physique de Newton, le temps est ... :",
+   "opciones": [
+    "changeant",
+    "réversible",
+    "arrêté",
+    "relatif à l'observateur"
+   ],
+   "correcta": 1,
+   "explicacion": "En physique newtonienne, il suffit de changer le signe d'une équation pour inverser le sens du temps : il est réversible et de caractère éternel.",
+   "filosofo": "newton",
+   "pagina_pdf": 72
+  },
+  {
+   "pregunta": "Pour Einstein, quel est le critère absolu pour appréhender le temps ?",
+   "opciones": [
+    "La vitesse du son",
+    "L'inexistant",
+    "La vitesse de la lumière",
+    "La position de la Terre"
+   ],
+   "correcta": 2,
+   "explicacion": "Selon le corrigé, le critère absolu en relativité est la vitesse de la lumière ; la durée dépend de la position de l'observateur.",
+   "filosofo": "einstein",
+   "pagina_pdf": 72
+  },
+  {
+   "pregunta": "Selon le sociologue Émile Durkheim, il existe un temps ... :",
+   "opciones": [
+    "social",
+    "perdu",
+    "indescriptible",
+    "absolu"
+   ],
+   "correcta": 0,
+   "explicacion": "Durkheim observe qu'il existe un temps social dominant, qui agit sur chaque individu et l'influence.",
+   "filosofo": "durkheim",
+   "pagina_pdf": 73
+  },
+  {
+   "pregunta": "Pour Piaget, que suppose la perception du temps ?",
+   "opciones": [
+    "Une culture",
+    "De l'intelligence",
+    "Un apprentissage",
+    "Une religion"
+   ],
+   "correcta": 2,
+   "explicacion": "Piaget démontre que la perception du passage du temps n'est pas immédiate mais requiert un apprentissage : l'enfant passe de l'immédiateté à la projection dans le futur.",
+   "filosofo": null,
+   "pagina_pdf": 73
+  },
+  {
+   "pregunta": "Que signifie le Dasein chez Heidegger ?",
+   "opciones": [
+    "L'« être-là »",
+    "L'existence",
+    "L'étant",
+    "Le néant"
+   ],
+   "correcta": 0,
+   "explicacion": "Le cours définit l'homme comme un Dasein, c'est-à-dire un « être-là », un « être présent », capable de s'interroger sur la question de l'être.",
+   "filosofo": "heidegger",
+   "pagina_pdf": 76
+  },
+  {
+   "pregunta": "Le découpage du temps en instants aboutit, selon Zénon d'Élée, à ... :",
+   "opciones": [
+    "des paradoxes",
+    "des illusions",
+    "mieux le comprendre",
+    "une mesure parfaite"
+   ],
+   "correcta": 0,
+   "explicacion": "Zénon montre, avec le paradoxe d'Achille et de la tortue, que concevoir le temps comme des instants séparés conduit à des paradoxes logiques.",
+   "filosofo": "zenon",
+   "pagina_pdf": 74
+  },
+  {
+   "pregunta": "L'erreur classique selon Bergson est de confondre le temps et ... :",
+   "opciones": [
+    "la mort",
+    "l'espace",
+    "la nature",
+    "la conscience"
+   ],
+   "correcta": 1,
+   "explicacion": "Représenter le temps comme une ligne (le spatialiser) fait perdre la spécificité de la durée.",
+   "filosofo": "bergson",
+   "pagina_pdf": 75
+  },
+  {
+   "pregunta": "Selon Bergson, à quoi le temps réel est-il réductible ?",
+   "opciones": [
+    "À un cycle naturel",
+    "À un artifice humain",
+    "À une durée",
+    "À une succession de secondes"
+   ],
+   "correcta": 2,
+   "explicacion": "Pour Bergson, le temps réel est la durée, une donnée immédiate de la conscience, qui s'éprouve et ne se mesure pas scientifiquement.",
+   "filosofo": "bergson",
+   "pagina_pdf": 75
+  },
+  {
+   "pregunta": "Selon Heidegger, le temps est ... :",
+   "opciones": [
+    "imprévisible",
+    "achevé",
+    "irréel",
+    "uniforme"
+   ],
+   "correcta": 0,
+   "explicacion": "Le Dasein s'ouvre à l'imprévisible et est donc fondamentalement « temps » : le temps est ouvert aux imprévus de l'existence.",
+   "filosofo": "heidegger",
+   "pagina_pdf": 76
+  },
+  {
+   "pregunta": "Quelles sont les deux dimensions du Dasein retenues dans le corrigé du QCM ?",
+   "opciones": [
+    "La mort et l'angoisse",
+    "La peur et l'angoisse",
+    "La mort et la peur",
+    "La peur seule"
+   ],
+   "correcta": 0,
+   "explicacion": "Le corrigé du QCM indique comme réponses « a. La mort » et « c. L'angoisse ».",
+   "filosofo": "heidegger",
+   "pagina_pdf": 82
+  },
+  {
+   "pregunta": "Selon Saint Augustin, qui peut effectuer la mesure du temps ?",
+   "opciones": [
+    "L'horloge atomique",
+    "Les astronomes",
+    "L'âme humaine",
+    "Aristote"
+   ],
+   "correcta": 2,
+   "explicacion": "Augustin reproche à Aristote de considérer le temps comme une donnée objective : pour lui, la mesure du temps ne peut être faite que par l'âme humaine.",
+   "filosofo": "augustin",
+   "pagina_pdf": 75
+  },
+  {
+   "pregunta": "Pour Kant, le temps est :",
+   "opciones": [
+    "une illusion",
+    "une chose en soi",
+    "une idéalité transcendantale",
+    "un cycle solaire"
+   ],
+   "correcta": 2,
+   "explicacion": "Kant affirme que le temps est une « idéalité transcendantale » : forme de notre esprit, universelle, et non une illusion.",
+   "filosofo": "kant",
+   "pagina_pdf": 74
+  },
+  {
+   "pregunta": "Que dit Aristote face au paradoxe de Zénon ?",
+   "opciones": [
+    "Que le temps est une illusion",
+    "Qu'une minute découpée reste une minute",
+    "Que seule l'âme mesure le temps",
+    "Qu'Achille ne dépassera jamais la tortue"
+   ],
+   "correcta": 1,
+   "explicacion": "Aristote réplique qu'une minute divisée en secondes, milli-, micro- ou nanosecondes reste une minute, ni plus ni moins.",
+   "filosofo": "aristote",
+   "pagina_pdf": 74
+  },
+  {
+   "pregunta": "Selon Nietzsche, que ne parviennent pas à faire certains hommes ?",
+   "opciones": [
+    "Mesurer le temps",
+    "S'arracher au « piquet de l'instant »",
+    "Accepter la mort",
+    "Inventer un calendrier"
+   ],
+   "correcta": 1,
+   "explicacion": "Certains hommes ne parviennent pas à s'arracher au « piquet de l'instant » et envient l'animal qui oublie et ne vit que dans le présent.",
+   "filosofo": "nietzsche",
+   "pagina_pdf": 76
+  }
+ ],
+ "preguntas_abiertas": [
+  {
+   "enunciado": "Pourquoi le temps des horloges n'est-il pas la durée ?",
+   "puntos_clave": [
+    "Distinguer le devenir (réalité qui change) et le temps perçu comme durée, subjectif",
+    "La physique mesure le temps avec des étalons de plus en plus précis (horloges atomiques de 1967)",
+    "Bergson : une ligne se mesure (10 m = 10 m) mais les moments vécus s'interpénètrent et sont toujours différents",
+    "Spatialiser le temps anéantit la durée ; le temps des horloges est utile à la vie sociale",
+    "La durée a une qualité : celle que nous donnons à ce que nous faisons (plaisir, ennui)"
+   ],
+   "filosofos": [
+    "bergson",
+    "augustin"
+   ],
+   "pagina_pdf": 75
+  },
+  {
+   "enunciado": "Le temps est-il une succession d'instants ?",
+   "puntos_clave": [
+    "Vision commune : des instants comme les perles d'un chapelet",
+    "Zénon : Achille et la tortue montrent les paradoxes d'un temps fait d'instants séparés",
+    "Aristote : une minute divisée reste une minute ; le temps est objectif",
+    "Augustin : seule l'âme humaine mesure le temps ; le passé n'est plus et le futur n'est pas encore",
+    "Bergson : le temps vécu est durée, indécomposable et toujours nouveau"
+   ],
+   "filosofos": [
+    "zenon",
+    "aristote",
+    "augustin",
+    "bergson"
+   ],
+   "pagina_pdf": 74
+  },
+  {
+   "enunciado": "En quoi la mort donne-t-elle un sens au temps qui passe ?",
+   "puntos_clave": [
+    "L'homme ne se contente pas de vivre : il existe et donne un sens à sa vie",
+    "Heidegger : le Dasein ex-iste et la mort fonde l'idée de possibilité et, par conséquent, de temps",
+    "La conscience de la mort empêche d'être un simple animal",
+    "L'angoisse devant le néant invite à l'authenticité : « Deviens ce que tu es ! »",
+    "Contraste avec Épicure : la mort n'est rien pour nous et sa connaissance nous libère"
+   ],
+   "filosofos": [
+    "heidegger",
+    "epicure"
+   ],
+   "pagina_pdf": 76
+  },
+  {
+   "enunciado": "Le temps est-il une réalité objective ou une forme de notre esprit ?",
+   "puntos_clave": [
+    "Newton : temps absolu, indépendant des choses et réversible",
+    "Einstein : le temps est relatif à la position de l'observateur",
+    "Kant : le temps est une forme a priori, une idéalité transcendantale, non une illusion",
+    "Ni seulement objectif ni purement subjectif",
+    "Augustin et Husserl : c'est la conscience qui temporalise"
+   ],
+   "filosofos": [
+    "newton",
+    "einstein",
+    "kant",
+    "husserl"
+   ],
+   "pagina_pdf": 72
+  }
+ ],
+ "disertaciones": [
+  {
+   "sujeto": "La conscience est-elle dans le temps ou le temps est-il dans la conscience ?",
+   "tipo_plan": "dialectique",
+   "problematica": "Il faut tenir compte du temps comme devenir objectif et comme durée subjective. Le « ou » pose une alternative qui ne tient que si les termes « temps » et « dans » sont pris en des sens différents.",
+   "plan": [
+    {
+     "parte": "I. Thèse : la conscience est dans le devenir",
+     "idea": "Chaque homme évolue dans un milieu objectif soumis au changement et à l'irréversibilité ; il y a une transcendance du devenir sur la conscience, une forme d'impuissance (Aristote ; Valéry : « le présent est poreux »).",
+     "autores": [
+      "aristote"
+     ],
+     "ejemplo": "Le passé peut être vécu comme un poids que l'on ne peut faire disparaître ; le passage du temps rend tout précaire."
+    },
+    {
+     "parte": "II. Antithèse : le temps est dans la conscience",
+     "idea": "Le temps est la forme même d'existence de la conscience : temps et conscience se constituent réciproquement ; l'ego n'est jamais pure présence à soi.",
+     "autores": [
+      "husserl"
+     ],
+     "ejemplo": "Par l'attente et le souvenir, la conscience est déjà quelque chose qu'elle n'est pas encore et encore quelque chose qu'elle n'est déjà plus : l'expérience du désir est celle du temps."
+    },
+    {
+     "parte": "III. Synthèse : un « ou » inclusif",
+     "idea": "Il y a du temps parce qu'il y a un devenir, mais ce devenir n'est temps que par la conscience ; la distension de l'âme est la preuve de notre impuissance et la condition pour la dépasser.",
+     "autores": [
+      "augustin"
+     ],
+     "ejemplo": "Mon corps vieillit que je le veuille ou non, mais c'est par la conscience que je fais l'expérience de la continuité psychique du temps vécu (Proust)."
+    }
+   ],
+   "pagina_pdf": 82
+  },
+  {
+   "sujeto": "Le temps se mesure-t-il ?",
+   "tipo_plan": "dialectique",
+   "problematica": "Le temps semble mesurable grâce à des horloges de plus en plus précises, mais l'expérience vécue semble échapper à toute mesure. Qu'est-ce qui est mesuré : le temps ou sa représentation spatiale ?",
+   "plan": [
+    {
+     "parte": "I. Oui : une mesure objective du temps",
+     "idea": "Depuis l'Antiquité, on mesure le temps avec un étalon (cycle solaire, horloges atomiques) ; Newton le conçoit comme absolu et comme référence pour mesurer le mouvement, mais Einstein le rend relatif.",
+     "autores": [
+      "newton",
+      "einstein"
+     ],
+     "ejemplo": "En 1967, la seconde est définie par 9 192 631 770 périodes de l'onde de l'atome de césium 133."
+    },
+    {
+     "parte": "II. Non : la durée vécue ne se mesure pas",
+     "idea": "Une ligne est homogène et mesurable ; les moments vécus s'interpénètrent et sont toujours différents. Seule la durée est le temps réel vécu ; la mesure ne dépend que de l'âme humaine.",
+     "autores": [
+      "bergson",
+      "augustin"
+     ],
+     "ejemplo": "Les dix derniers mètres d'un marathon ne sont pas les dix premiers mètres."
+    },
+    {
+     "parte": "III. Dépassement : deux temps nécessaires",
+     "idea": "Le temps spatialisé des horloges est nécessaire pour organiser la vie sociale, tandis que la durée correspond au temps réel vécu ; le temps social varie selon les cultures.",
+     "autores": [
+      "halbwachs",
+      "durkheim"
+     ],
+     "ejemplo": "Les calendriers chrétien, musulman et hébraïque donnent 2020, 1441 et 5780."
+    }
+   ],
+   "pagina_pdf": 71
+  },
+  {
+   "sujeto": "La mort donne-t-elle un sens à l'existence ?",
+   "tipo_plan": "dialectique",
+   "problematica": "L'homme ne se contente pas de vivre, il existe et donne un sens à sa vie. Est-ce la mort, inévitable, qui donne sa saveur au temps, ou faut-il apprendre à ne pas la craindre pour vivre sereinement ?",
+   "plan": [
+    {
+     "parte": "I. La mort fonde le temps et la liberté",
+     "idea": "Pour Heidegger, la conscience de la mort empêche l'homme d'être un simple animal, fonde l'idée de possibilité et, par conséquent, de temps, et l'angoisse appelle à l'authenticité.",
+     "autores": [
+      "heidegger"
+     ],
+     "ejemplo": "« Deviens ce que tu es ! » : le devoir d'être à la hauteur de sa propre liberté jusqu'au bout."
+    },
+    {
+     "parte": "II. La mort n'est rien pour nous",
+     "idea": "Épicure : la mort est privation de sensibilité ; la craindre est une crainte vaine et sans objet, et le savoir permet de jouir de la vie sans désirer l'immortalité.",
+     "autores": [
+      "epicure"
+     ],
+     "ejemplo": "Tant que nous existons, la mort n'est pas ; quand la mort existe, nous ne sommes plus."
+    },
+    {
+     "parte": "III. Vivre pleinement le temps",
+     "idea": "Entre angoisse et sérénité, l'homme donne du sens au devenir et prend conscience d'exister ; Nietzsche rappelle la tentation de se réfugier dans un présent sans passé ni futur.",
+     "autores": [
+      "nietzsche"
+     ],
+     "ejemplo": "L'animal ne vit que le présent et oublie, sans porter ni le passé ni l'avenir."
+    }
+   ],
+   "pagina_pdf": 81
+  }
+ ]
+}

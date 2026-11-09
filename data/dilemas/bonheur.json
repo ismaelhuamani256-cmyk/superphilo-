@@ -1,0 +1,2548 @@
+{
+ "id": "bonheur-eden",
+ "capitulo": "bonheur",
+ "titulo": {
+  "es": "Edén: la oferta",
+  "fr": "Éden : l’offre"
+ },
+ "premisa": {
+  "es": "Alma, una restauradora de arte arruinada, recibe una oferta de Edén: una vida de placer garantizado, sin dolor ni azar. Su amigo Théo se hunde en las deudas. ¿Qué es una vida feliz: sentirse bien siempre, o vivir una vida que sea realmente tuya?",
+  "fr": "Alma, restauratrice d’art ruinée, reçoit une offre d’Éden : une vie de plaisir garanti, sans douleur ni hasard. Son ami Théo s’enfonce dans les dettes. Qu’est-ce qu’une vie heureuse : se sentir bien en permanence, ou vivre une vie qui soit vraiment la sienne ?"
+ },
+ "protagonista": "Alma",
+ "inicio": "n1",
+ "nodos": {
+  "n1": {
+   "escena": {
+    "titulo": {
+     "es": "Una oferta bajo la lluvia",
+     "fr": "Une offre sous la pluie"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 12,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.3,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "lluvia",
+      "tipo": "nube",
+      "pos": [
+       0.5,
+       0.14
+      ],
+      "etiqueta": {
+       "es": "La lluvia",
+       "fr": "La pluie"
+      }
+     },
+     {
+      "id": "agente",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.78,
+       0.58
+      ],
+      "etiqueta": {
+       "es": "El Agente de Edén",
+       "fr": "L’Agent d’Éden"
+      },
+      "escala": 1
+     },
+     {
+      "id": "pase",
+      "tipo": "estrella",
+      "pos": [
+       0.55,
+       0.42
+      ],
+      "etiqueta": {
+       "es": "El pase",
+       "fr": "Le pass"
+      }
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "lluvia"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Alma lo ha perdido casi todo: su taller, su exposición, el ánimo.",
+       "fr": "Alma a presque tout perdu : son atelier, son expo, son courage."
+      }
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "agente"
+     },
+     {
+      "t": 4,
+      "accion": "dice",
+      "actor": "agente",
+      "texto": {
+       "es": "Edén: placer garantizado. Sin dolor, sin azar.",
+       "fr": "Éden : plaisir garanti. Sans douleur, sans hasard."
+      }
+     },
+     {
+      "t": 5.5,
+      "accion": "aparece",
+      "actor": "pase"
+     },
+     {
+      "t": 6,
+      "accion": "proyecta",
+      "de": "agente",
+      "a": "alma",
+      "nota": {
+       "es": "felicidad asegurada",
+       "fr": "bonheur garanti"
+      }
+     },
+     {
+      "t": 8,
+      "accion": "piensa",
+      "actor": "alma",
+      "texto": {
+       "es": "Dejar de sufrir... ¿a qué precio?",
+       "fr": "Ne plus souffrir… à quel prix ?"
+      }
+     },
+     {
+      "t": 10,
+      "accion": "tiembla",
+      "actor": "alma"
+     },
+     {
+      "t": 10.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Una vida sin dolor te espera. ¿La tomas?",
+       "fr": "Une vie sans douleur t’attend. La prends-tu ?"
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "Llueve sobre la ciudad. Un agente de Edén ofrece a Alma una vida de placer garantizado, sin dolor ni azar.",
+    "fr": "Il pleut sur la ville. Un agent d’Éden offre à Alma une vie de plaisir garanti, sans douleur ni hasard."
+   },
+   "decision": {
+    "pregunta": {
+     "es": "¿Qué haces?",
+     "fr": "Que fais-tu ?"
+    },
+    "tiempo_seg": 12,
+    "opciones": [
+     {
+      "texto": {
+       "es": "Aceptar: no quiero sufrir más",
+       "fr": "Accepter : je ne veux plus souffrir"
+      },
+      "a": "n2",
+      "postura": {
+       "es": "Hedonismo inmediato",
+       "fr": "Hédonisme immédiat"
+      }
+     },
+     {
+      "texto": {
+       "es": "Leer la letra pequeña del contrato",
+       "fr": "Lire les petites lignes du contrat"
+      },
+      "a": "n3",
+      "postura": {
+       "es": "Prudencia ante el placer",
+       "fr": "Prudence face au plaisir"
+      }
+     },
+     {
+      "texto": {
+       "es": "Rechazar y volver al taller",
+       "fr": "Refuser et rentrer à l’atelier"
+      },
+      "a": "n4",
+      "postura": {
+       "es": "Vivir sin garantías",
+       "fr": "Vivre sans garantie"
+      }
+     }
+    ]
+   }
+  },
+  "n2": {
+   "escena": {
+    "titulo": {
+     "es": "Edén, primer día",
+     "fr": "Éden, premier jour"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 11,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.45,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "regalos",
+      "tipo": "caja",
+      "pos": [
+       0.15,
+       0.72
+      ],
+      "etiqueta": {
+       "es": "Todo a mano",
+       "fr": "Tout à portée"
+      }
+     },
+     {
+      "id": "mas",
+      "tipo": "estrella",
+      "pos": [
+       0.78,
+       0.3
+      ],
+      "etiqueta": {
+       "es": "Siempre más",
+       "fr": "Toujours plus"
+      }
+     },
+     {
+      "id": "deseo",
+      "tipo": "fuego",
+      "pos": [
+       0.85,
+       0.72
+      ],
+      "etiqueta": {
+       "es": "El deseo",
+       "fr": "Le désir"
+      }
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "regalos"
+     },
+     {
+      "t": 1.5,
+      "accion": "dice",
+      "actor": "alma",
+      "texto": {
+       "es": "¡Todo lo que deseo aparece al instante!",
+       "fr": "Tout ce que je désire apparaît aussitôt !"
+      }
+     },
+     {
+      "t": 3,
+      "accion": "salta",
+      "actor": "alma"
+     },
+     {
+      "t": 3.5,
+      "accion": "aparece",
+      "actor": "mas"
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "deseo"
+     },
+     {
+      "t": 4.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Cada deseo cumplido despierta otro todavía mayor.",
+       "fr": "Chaque désir comblé en réveille un autre, plus grand."
+      }
+     },
+     {
+      "t": 6.5,
+      "accion": "tiembla",
+      "actor": "alma"
+     },
+     {
+      "t": 7,
+      "accion": "piensa",
+      "actor": "alma",
+      "texto": {
+       "es": "Quiero más... y siempre me falta algo.",
+       "fr": "J’en veux plus… et il me manque toujours quelque chose."
+      }
+     },
+     {
+      "t": 9,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Edén lo da todo. ¿Calma el alma o la enciende?",
+       "fr": "Éden donne tout. Cela apaise-t-il l’âme ou l’enflamme-t-il ?"
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "En Edén cada deseo se cumple al instante. Pero cada placer satisfecho parece despertar uno mayor.",
+    "fr": "Dans Éden, chaque désir est exaucé sur-le-champ. Mais chaque plaisir comblé semble en réveiller un plus grand."
+   },
+   "decision": {
+    "pregunta": {
+     "es": "¿Cómo vives Edén?",
+     "fr": "Comment vis-tu Éden ?"
+    },
+    "tiempo_seg": 10,
+    "opciones": [
+     {
+      "texto": {
+       "es": "Probarlo todo, siempre más",
+       "fr": "Tout goûter, toujours plus"
+      },
+      "a": "f1",
+      "postura": {
+       "es": "Placer sin límite",
+       "fr": "Plaisir sans limite"
+      }
+     },
+     {
+      "texto": {
+       "es": "Elegir poco, con medida",
+       "fr": "Choisir peu, avec mesure"
+      },
+      "a": "n5",
+      "postura": {
+       "es": "Placer sobrio (Epicuro)",
+       "fr": "Plaisir sobre (Épicure)"
+      }
+     },
+     {
+      "texto": {
+       "es": "Salir: algo me falta",
+       "fr": "Sortir : quelque chose me manque"
+      },
+      "a": "n6",
+      "postura": {
+       "es": "Buscar otra cosa",
+       "fr": "Chercher autre chose"
+      }
+     }
+    ]
+   }
+  },
+  "n3": {
+   "escena": {
+    "titulo": {
+     "es": "La letra pequeña",
+     "fr": "Les petites lignes"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 13,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "contrato",
+      "tipo": "libro",
+      "pos": [
+       0.5,
+       0.45
+      ],
+      "etiqueta": {
+       "es": "El contrato",
+       "fr": "Le contrat"
+      }
+     },
+     {
+      "id": "agente",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.85,
+       0.55
+      ],
+      "etiqueta": {
+       "es": "El Agente de Edén",
+       "fr": "L’Agent d’Éden"
+      },
+      "escala": 1
+     },
+     {
+      "id": "teo",
+      "tipo": "monigote",
+      "pos": [
+       0.62,
+       0.78
+      ],
+      "etiqueta": {
+       "es": "Théo",
+       "fr": "Théo"
+      }
+     },
+     {
+      "id": "duda",
+      "tipo": "interrogacion",
+      "pos": [
+       0.25,
+       0.4
+      ]
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "contrato"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Cláusula 7: «Sin azar, sin dolor, sin obra propia.»",
+       "fr": "Clause 7 : « Sans hasard, sans douleur, sans œuvre personnelle. »"
+      }
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "agente"
+     },
+     {
+      "t": 4.5,
+      "accion": "dice",
+      "actor": "agente",
+      "texto": {
+       "es": "Aquí nadie necesita crear. Solo disfrutar.",
+       "fr": "Ici, nul besoin de créer. Il suffit de jouir."
+      }
+     },
+     {
+      "t": 6.5,
+      "accion": "aparece",
+      "actor": "duda"
+     },
+     {
+      "t": 7,
+      "accion": "piensa",
+      "actor": "alma",
+      "texto": {
+       "es": "¿Es la felicidad... o su sustituto?",
+       "fr": "Est-ce le bonheur… ou son ersatz ?"
+      }
+     },
+     {
+      "t": 9.5,
+      "accion": "aparece",
+      "actor": "teo"
+     },
+     {
+      "t": 10,
+      "accion": "dice",
+      "actor": "teo",
+      "texto": {
+       "es": "Alma, me embargan el taller. Te necesito.",
+       "fr": "Alma, on saisit mon atelier. J’ai besoin de toi."
+      }
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Un contrato perfecto, un amigo en apuros.",
+       "fr": "Un contrat parfait, un ami en détresse."
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "Antes de firmar, Alma lee el contrato. Edén garantiza la dicha, pero a cambio de renunciar a crear. Entonces suena el teléfono.",
+    "fr": "Avant de signer, Alma lit le contrat. Éden garantit la félicité, mais en échange du renoncement à créer. Puis le téléphone sonne."
+   },
+   "decision": {
+    "pregunta": {
+     "es": "¿Qué decides?",
+     "fr": "Que décides-tu ?"
+    },
+    "tiempo_seg": 12,
+    "opciones": [
+     {
+      "texto": {
+       "es": "Entrar a Edén, pero con medida",
+       "fr": "Entrer dans Éden, mais avec mesure"
+      },
+      "a": "n5",
+      "postura": {
+       "es": "Prudencia epicúrea",
+       "fr": "Prudence épicurienne"
+      }
+     },
+     {
+      "texto": {
+       "es": "Rechazar: quiero una vida mía",
+       "fr": "Refuser : je veux une vie à moi"
+      },
+      "a": "n4",
+      "postura": {
+       "es": "Vivir sin garantías",
+       "fr": "Vivre sans garantie"
+      }
+     },
+     {
+      "texto": {
+       "es": "Correr a ayudar a Théo",
+       "fr": "Courir aider Théo"
+      },
+      "a": "n7",
+      "postura": {
+       "es": "Deber hacia el otro",
+       "fr": "Devoir envers l’autre"
+      }
+     }
+    ]
+   }
+  },
+  "n4": {
+   "escena": {
+    "titulo": {
+     "es": "El taller bajo la lluvia",
+     "fr": "L’atelier sous la pluie"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 12,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.42,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "taller",
+      "tipo": "casa",
+      "pos": [
+       0.14,
+       0.7
+      ],
+      "etiqueta": {
+       "es": "Taller con goteras",
+       "fr": "Atelier qui fuit"
+      }
+     },
+     {
+      "id": "lluvia",
+      "tipo": "nube",
+      "pos": [
+       0.4,
+       0.14
+      ],
+      "etiqueta": {
+       "es": "Lo que no depende de mí",
+       "fr": "Ce qui ne dépend pas de moi"
+      }
+     },
+     {
+      "id": "eden",
+      "tipo": "puerta",
+      "pos": [
+       0.88,
+       0.58
+      ],
+      "etiqueta": {
+       "es": "Edén",
+       "fr": "Éden"
+      }
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "taller"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "lluvia"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "El techo gotea y las facturas se acumulan.",
+       "fr": "Le toit fuit et les factures s’accumulent."
+      }
+     },
+     {
+      "t": 3.5,
+      "accion": "proyecta",
+      "de": "lluvia",
+      "a": "taller",
+      "nota": {
+       "es": "goteras",
+       "fr": "fuites"
+      }
+     },
+     {
+      "t": 5,
+      "accion": "tiembla",
+      "actor": "alma"
+     },
+     {
+      "t": 5.5,
+      "accion": "piensa",
+      "actor": "alma",
+      "texto": {
+       "es": "Todo me sale mal. ¿Para qué seguir?",
+       "fr": "Tout va de travers. À quoi bon continuer ?"
+      }
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "eden"
+     },
+     {
+      "t": 8.5,
+      "accion": "resalta",
+      "actor": "eden"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "La puerta de Edén sigue abierta. Pero hay otras salidas.",
+       "fr": "La porte d’Éden reste ouverte. Mais il y a d’autres issues."
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "De vuelta en el taller, el agua entra por el techo. No puede controlar la tormenta; solo lo que hace con ella.",
+    "fr": "De retour à l’atelier, l’eau passe à travers le toit. Elle ne contrôle pas l’orage ; seulement ce qu’elle en fait."
+   },
+   "decision": {
+    "pregunta": {
+     "es": "¿Cómo respondes a la tormenta?",
+     "fr": "Comment réponds-tu à l’orage ?"
+    },
+    "tiempo_seg": 12,
+    "opciones": [
+     {
+      "texto": {
+       "es": "Juzgarlo con calma: no depende de mí",
+       "fr": "Le juger calmement : cela ne dépend pas de moi"
+      },
+      "a": "n8",
+      "postura": {
+       "es": "Estoicismo",
+       "fr": "Stoïcisme"
+      }
+     },
+     {
+      "texto": {
+       "es": "Coger los pinceles y pintar",
+       "fr": "Prendre les pinceaux et peindre"
+      },
+      "a": "n9",
+      "postura": {
+       "es": "Alegría creadora (Bergson)",
+       "fr": "Joie créatrice (Bergson)"
+      }
+     },
+     {
+      "texto": {
+       "es": "Rendirme: llamar a Edén",
+       "fr": "Abandonner : appeler Éden"
+      },
+      "a": "n2",
+      "postura": {
+       "es": "Huir del dolor",
+       "fr": "Fuir la douleur"
+      }
+     }
+    ]
+   }
+  },
+  "n5": {
+   "escena": {
+    "titulo": {
+     "es": "Edén, a mi medida",
+     "fr": "Éden, à ma mesure"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 14,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.3,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "medida",
+      "tipo": "balanza",
+      "pos": [
+       0.5,
+       0.22
+      ],
+      "etiqueta": {
+       "es": "La justa medida",
+       "fr": "La juste mesure"
+      }
+     },
+     {
+      "id": "calma",
+      "tipo": "corazon",
+      "pos": [
+       0.5,
+       0.48
+      ],
+      "etiqueta": {
+       "es": "Ataraxia",
+       "fr": "Ataraxie"
+      }
+     },
+     {
+      "id": "teo",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Théo (afuera)",
+       "fr": "Théo (dehors)"
+      }
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "medida"
+     },
+     {
+      "t": 1.5,
+      "accion": "dice",
+      "actor": "alma",
+      "texto": {
+       "es": "Me basta con lo natural y necesario.",
+       "fr": "Le naturel et le nécessaire me suffisent."
+      }
+     },
+     {
+      "t": 3.5,
+      "accion": "aparece",
+      "actor": "calma"
+     },
+     {
+      "t": 4,
+      "accion": "proyecta",
+      "de": "medida",
+      "a": "calma",
+      "nota": {
+       "es": "ausencia de turbación",
+       "fr": "absence de trouble"
+      }
+     },
+     {
+      "t": 5.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Con medida, el alma halla la calma: nada la turba.",
+       "fr": "Avec mesure, l’âme trouve le calme : rien ne la trouble."
+      }
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "teo"
+     },
+     {
+      "t": 8.5,
+      "accion": "dice",
+      "actor": "teo",
+      "texto": {
+       "es": "¡Alma, ayúdame!",
+       "fr": "Alma, aide-moi !"
+      }
+     },
+     {
+      "t": 10.5,
+      "accion": "piensa",
+      "actor": "alma",
+      "texto": {
+       "es": "Mi calma es dulce... pero él se hunde.",
+       "fr": "Mon calme est doux… mais lui sombre."
+      }
+     },
+     {
+      "t": 12.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Una voz llega desde fuera de la burbuja.",
+       "fr": "Une voix parvient de l’extérieur de la bulle."
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "Alma vive en Edén con poco y sin excesos: pan, agua, silencio. Su alma no se turba. Hasta que una voz la llama desde fuera.",
+    "fr": "Alma vit dans Éden de peu et sans excès : pain, eau, silence. Son âme ne se trouble pas. Jusqu’à ce qu’une voix l’appelle du dehors."
+   },
+   "decision": {
+    "pregunta": {
+     "es": "¿Qué eliges?",
+     "fr": "Que choisis-tu ?"
+    },
+    "tiempo_seg": 12,
+    "opciones": [
+     {
+      "texto": {
+       "es": "Quedarme: mi paz es lo primero",
+       "fr": "Rester : ma paix d’abord"
+      },
+      "a": "f2",
+      "postura": {
+       "es": "Ataraxia",
+       "fr": "Ataraxie"
+      }
+     },
+     {
+      "texto": {
+       "es": "Salir a ayudar a Théo",
+       "fr": "Sortir aider Théo"
+      },
+      "a": "n7",
+      "postura": {
+       "es": "Salir hacia el otro",
+       "fr": "Aller vers l’autre"
+      }
+     }
+    ]
+   }
+  },
+  "n6": {
+   "escena": {
+    "titulo": {
+     "es": "Fuera de Edén",
+     "fr": "Hors d’Éden"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 12,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.42,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "agente",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.85,
+       0.55
+      ],
+      "etiqueta": {
+       "es": "El Agente de Edén",
+       "fr": "L’Agent d’Éden"
+      },
+      "escala": 1
+     },
+     {
+      "id": "vacio",
+      "tipo": "interrogacion",
+      "pos": [
+       0.2,
+       0.45
+      ],
+      "etiqueta": {
+       "es": "¿Y ahora?",
+       "fr": "Et maintenant ?"
+      }
+     },
+     {
+      "id": "deseo",
+      "tipo": "corazon",
+      "pos": [
+       0.5,
+       0.35
+      ],
+      "etiqueta": {
+       "es": "Mi deseo",
+       "fr": "Mon désir"
+      }
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "agente"
+     },
+     {
+      "t": 1.5,
+      "accion": "dice",
+      "actor": "agente",
+      "texto": {
+       "es": "Vuelve cuando quieras. Edén no se cansa.",
+       "fr": "Reviens quand tu veux. Éden ne se lasse pas."
+      }
+     },
+     {
+      "t": 3.5,
+      "accion": "aparece",
+      "actor": "vacio"
+     },
+     {
+      "t": 4,
+      "accion": "piensa",
+      "actor": "alma",
+      "texto": {
+       "es": "El placer se apaga en cuanto se cumple.",
+       "fr": "Le plaisir s’éteint dès qu’il est comblé."
+      }
+     },
+     {
+      "t": 6,
+      "accion": "mueve",
+      "actor": "alma",
+      "a": [
+       0.3,
+       0.75
+      ],
+      "dur": 2
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "deseo"
+     },
+     {
+      "t": 8.5,
+      "accion": "resalta",
+      "actor": "deseo"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Fuera hace frío, pero vuelve a latir un deseo suyo.",
+       "fr": "Dehors il fait froid, mais un désir bat de nouveau : le sien."
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "Alma cruza la puerta. Fuera todo es gris y áspero, pero por primera vez desea algo que nadie le ha dado.",
+    "fr": "Alma franchit la porte. Dehors, tout est gris et rude, mais pour la première fois elle désire quelque chose que personne ne lui a donné."
+   },
+   "decision": {
+    "pregunta": {
+     "es": "¿Hacia dónde vas?",
+     "fr": "Où vas-tu ?"
+    },
+    "tiempo_seg": 10,
+    "opciones": [
+     {
+      "texto": {
+       "es": "Volver a pintar",
+       "fr": "Retourner peindre"
+      },
+      "a": "n9",
+      "postura": {
+       "es": "Crear",
+       "fr": "Créer"
+      }
+     },
+     {
+      "texto": {
+       "es": "Ir a ver a Théo",
+       "fr": "Aller voir Théo"
+      },
+      "a": "n7",
+      "postura": {
+       "es": "Deber hacia el otro",
+       "fr": "Devoir envers l’autre"
+      }
+     }
+    ]
+   }
+  },
+  "n7": {
+   "escena": {
+    "titulo": {
+     "es": "La firma",
+     "fr": "La signature"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 14,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "teo",
+      "tipo": "monigote",
+      "pos": [
+       0.55,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Théo",
+       "fr": "Théo"
+      }
+     },
+     {
+      "id": "deuda",
+      "tipo": "cadena",
+      "pos": [
+       0.55,
+       0.9
+      ],
+      "etiqueta": {
+       "es": "Su deuda",
+       "fr": "Sa dette"
+      }
+     },
+     {
+      "id": "papel",
+      "tipo": "libro",
+      "pos": [
+       0.72,
+       0.4
+      ],
+      "etiqueta": {
+       "es": "Su desahucio",
+       "fr": "Son expulsion"
+      }
+     },
+     {
+      "id": "agente",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.9,
+       0.55
+      ],
+      "etiqueta": {
+       "es": "El Agente de Edén",
+       "fr": "L’Agent d’Éden"
+      },
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "teo"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "deuda"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 2,
+      "accion": "dice",
+      "actor": "teo",
+      "texto": {
+       "es": "Me quitan el taller. No puedo más.",
+       "fr": "On me prend l’atelier. Je n’en peux plus."
+      }
+     },
+     {
+      "t": 4.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Théo está atado a una deuda. Edén ofrece a Alma un trato.",
+       "fr": "Théo est enchaîné à une dette. Éden fait une offre à Alma."
+      }
+     },
+     {
+      "t": 6.5,
+      "accion": "aparece",
+      "actor": "agente"
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "papel"
+     },
+     {
+      "t": 7.5,
+      "accion": "dice",
+      "actor": "agente",
+      "texto": {
+       "es": "Firma su desahucio y tu pase es eterno y gratis.",
+       "fr": "Signe son expulsion : ton pass sera gratuit et éternel."
+      }
+     },
+     {
+      "t": 10,
+      "accion": "piensa",
+      "actor": "alma",
+      "texto": {
+       "es": "Una firma y todo mi dolor termina.",
+       "fr": "Une signature et toute ma peine finit."
+      }
+     },
+     {
+      "t": 12.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Su felicidad puede costar la desdicha de un amigo.",
+       "fr": "Son bonheur peut coûter le malheur d’un ami."
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "Théo va a perder su taller. Edén le propone a Alma un pase gratis para siempre si firma el desahucio de su amigo.",
+    "fr": "Théo va perdre son atelier. Éden propose à Alma un pass gratuit pour toujours si elle signe l’expulsion de son ami."
+   },
+   "decision": {
+    "pregunta": {
+     "es": "¿Firmas?",
+     "fr": "Signes-tu ?"
+    },
+    "tiempo_seg": 10,
+    "opciones": [
+     {
+      "texto": {
+       "es": "Negarme: no traicionaré a Théo",
+       "fr": "Refuser : je ne trahirai pas Théo"
+      },
+      "a": "n10",
+      "postura": {
+       "es": "Deber kantiano",
+       "fr": "Devoir kantien"
+      }
+     },
+     {
+      "texto": {
+       "es": "Firmar: ya sufrí bastante",
+       "fr": "Signer : j’ai assez souffert"
+      },
+      "a": "f3",
+      "postura": {
+       "es": "Felicidad egoísta",
+       "fr": "Bonheur égoïste"
+      }
+     }
+    ]
+   }
+  },
+  "n8": {
+   "escena": {
+    "titulo": {
+     "es": "La noche estoica",
+     "fr": "La nuit stoïcienne"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 14,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.42,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "lluvia",
+      "tipo": "nube",
+      "pos": [
+       0.5,
+       0.14
+      ],
+      "etiqueta": {
+       "es": "La lluvia",
+       "fr": "La pluie"
+      }
+     },
+     {
+      "id": "juicio",
+      "tipo": "cerebro",
+      "pos": [
+       0.78,
+       0.42
+      ],
+      "etiqueta": {
+       "es": "Mi juicio",
+       "fr": "Mon jugement"
+      }
+     },
+     {
+      "id": "libro",
+      "tipo": "libro",
+      "pos": [
+       0.18,
+       0.45
+      ],
+      "etiqueta": {
+       "es": "Aristóteles",
+       "fr": "Aristote"
+      }
+     },
+     {
+      "id": "teo",
+      "tipo": "monigote",
+      "pos": [
+       0.9,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Théo",
+       "fr": "Théo"
+      }
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "lluvia"
+     },
+     {
+      "t": 1.5,
+      "accion": "proyecta",
+      "de": "lluvia",
+      "a": "alma",
+      "nota": {
+       "es": "representaciones",
+       "fr": "représentations"
+      }
+     },
+     {
+      "t": 3,
+      "accion": "piensa",
+      "actor": "alma",
+      "texto": {
+       "es": "La lluvia no depende de mí. Mi juicio, sí.",
+       "fr": "La pluie ne dépend pas de moi. Mon jugement, si."
+      }
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "juicio"
+     },
+     {
+      "t": 5.5,
+      "accion": "aparece",
+      "actor": "libro"
+     },
+     {
+      "t": 6,
+      "accion": "cita",
+      "texto": "Une telle existence, toutefois, pourrait […] être au-dessus de la condition humaine."
+     },
+     {
+      "t": 9,
+      "accion": "aparece",
+      "actor": "teo"
+     },
+     {
+      "t": 9.5,
+      "accion": "dice",
+      "actor": "teo",
+      "texto": {
+       "es": "¡Se cae mi techo! ¿Me ayudas?",
+       "fr": "Mon toit s’effondre ! Tu m’aides ?"
+      }
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Alma halló una calma que nadie puede quitarle. ¿Y ahora?",
+       "fr": "Alma a trouvé un calme que nul ne peut lui ôter. Et maintenant ?"
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "Entre libros y goteras, Alma comprende que puede juzgar la tormenta como quiera. Pero llaman a su puerta.",
+    "fr": "Entre livres et gouttières, Alma comprend qu’elle peut juger l’orage comme elle l’entend. Mais on frappe à sa porte."
+   },
+   "decision": {
+    "pregunta": {
+     "es": "Théo llama a la puerta",
+     "fr": "Théo frappe à la porte"
+    },
+    "tiempo_seg": 12,
+    "opciones": [
+     {
+      "texto": {
+       "es": "Consentir: no hay nada que cambiar",
+       "fr": "Consentir : rien à changer"
+      },
+      "a": "f5",
+      "postura": {
+       "es": "Libertad interior",
+       "fr": "Liberté intérieure"
+      }
+     },
+     {
+      "texto": {
+       "es": "Aceptar la lluvia y ayudar a Théo",
+       "fr": "Accepter la pluie et aider Théo"
+      },
+      "a": "n10",
+      "postura": {
+       "es": "Consentimiento activo",
+       "fr": "Consentement actif"
+      }
+     }
+    ]
+   }
+  },
+  "n9": {
+   "escena": {
+    "titulo": {
+     "es": "El lienzo",
+     "fr": "La toile"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 14,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.4,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "elan",
+      "tipo": "sol",
+      "pos": [
+       0.4,
+       0.12
+      ],
+      "etiqueta": {
+       "es": "Élan vital",
+       "fr": "Élan vital"
+      }
+     },
+     {
+      "id": "obra",
+      "tipo": "flor",
+      "pos": [
+       0.4,
+       0.45
+      ],
+      "etiqueta": {
+       "es": "Su obra",
+       "fr": "Son œuvre"
+      }
+     },
+     {
+      "id": "agente",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.85,
+       0.55
+      ],
+      "etiqueta": {
+       "es": "El Agente de Edén",
+       "fr": "L’Agent d’Éden"
+      },
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "elan"
+     },
+     {
+      "t": 1,
+      "accion": "proyecta",
+      "de": "elan",
+      "a": "alma",
+      "nota": {
+       "es": "élan vital",
+       "fr": "élan vital"
+      }
+     },
+     {
+      "t": 2.5,
+      "accion": "aparece",
+      "actor": "obra"
+     },
+     {
+      "t": 3,
+      "accion": "une",
+      "de": "alma",
+      "a": "obra",
+      "nota": {
+       "es": "crear su vida",
+       "fr": "créer sa vie"
+      }
+     },
+     {
+      "t": 4,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Pinta sin saber si alguien lo comprará. Por fin sonríe.",
+       "fr": "Elle peint sans savoir si on l’achètera. Enfin, elle sourit."
+      }
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "agente"
+     },
+     {
+      "t": 7.5,
+      "accion": "dice",
+      "actor": "agente",
+      "texto": {
+       "es": "Edén compra tu obra: fama y calma aseguradas.",
+       "fr": "Éden achète ton œuvre : gloire et calme assurés."
+      }
+     },
+     {
+      "t": 10,
+      "accion": "piensa",
+      "actor": "alma",
+      "texto": {
+       "es": "Aplausos seguros... ¿pero seguiría siendo mía?",
+       "fr": "Des applaudissements sûrs… mais serait-elle encore mienne ?"
+      }
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Crear no promete nada; vender promete calma.",
+       "fr": "Créer ne promet rien ; vendre promet le calme."
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "Alma pinta, y una alegría que creía perdida regresa. Entonces Edén le ofrece comprar el cuadro y toda su vida futura.",
+    "fr": "Alma peint, et une joie qu’elle croyait perdue revient. Alors Éden lui propose d’acheter le tableau, et toute sa vie à venir."
+   },
+   "decision": {
+    "pregunta": {
+     "es": "Un trato de Edén",
+     "fr": "Un marché d’Éden"
+    },
+    "tiempo_seg": 12,
+    "opciones": [
+     {
+      "texto": {
+       "es": "Rechazar: pintaré sin garantías",
+       "fr": "Refuser : je peindrai sans garantie"
+      },
+      "a": "n10",
+      "postura": {
+       "es": "Alegría creadora",
+       "fr": "Joie créatrice"
+      }
+     },
+     {
+      "texto": {
+       "es": "Vender mi obra: calma asegurada",
+       "fr": "Vendre mon œuvre : calme assuré"
+      },
+      "a": "f2",
+      "postura": {
+       "es": "Seguridad a cambio de obra",
+       "fr": "Sécurité contre l’œuvre"
+      }
+     }
+    ]
+   }
+  },
+  "n10": {
+   "escena": {
+    "titulo": {
+     "es": "El muro del barrio",
+     "fr": "Le mur du quartier"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 14,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "teo",
+      "tipo": "monigote",
+      "pos": [
+       0.65,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Théo",
+       "fr": "Théo"
+      }
+     },
+     {
+      "id": "mural",
+      "tipo": "flor",
+      "pos": [
+       0.45,
+       0.42
+      ],
+      "etiqueta": {
+       "es": "La obra común",
+       "fr": "L’œuvre commune"
+      }
+     },
+     {
+      "id": "agente",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.9,
+       0.55
+      ],
+      "etiqueta": {
+       "es": "El Agente de Edén",
+       "fr": "L’Agent d’Éden"
+      },
+      "escala": 1
+     },
+     {
+      "id": "gloria",
+      "tipo": "corona",
+      "pos": [
+       0.15,
+       0.25
+      ],
+      "etiqueta": {
+       "es": "Gloria garantizada",
+       "fr": "Gloire garantie"
+      }
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "teo"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "mural"
+     },
+     {
+      "t": 2,
+      "accion": "proyecta",
+      "de": "mural",
+      "a": "teo",
+      "nota": {
+       "es": "alegría compartida",
+       "fr": "joie partagée"
+      }
+     },
+     {
+      "t": 3.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Alma y Théo pintan un mural en el barrio, sin garantía alguna.",
+       "fr": "Alma et Théo peignent une fresque dans le quartier, sans aucune garantie."
+      }
+     },
+     {
+      "t": 6.5,
+      "accion": "aparece",
+      "actor": "agente"
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "gloria"
+     },
+     {
+      "t": 7.5,
+      "accion": "dice",
+      "actor": "agente",
+      "texto": {
+       "es": "Firma con Edén y serás célebre mañana.",
+       "fr": "Signe avec Éden et tu seras célèbre demain."
+      }
+     },
+     {
+      "t": 10,
+      "accion": "piensa",
+      "actor": "alma",
+      "texto": {
+       "es": "La gloria brilla... pero esto ya me hace feliz.",
+       "fr": "La gloire brille… mais ceci me rend déjà heureuse."
+      }
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Entre la gloria asegurada y la alegría de crear juntos, hay que elegir.",
+       "fr": "Entre la gloire assurée et la joie de créer ensemble, il faut choisir."
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "Con Théo a su lado, Alma empieza un mural gigante para el barrio. Edén vuelve con una última oferta: aplausos garantizados.",
+    "fr": "Avec Théo à ses côtés, Alma commence une fresque géante pour le quartier. Éden revient avec une dernière offre : des applaudissements garantis."
+   },
+   "decision": {
+    "pregunta": {
+     "es": "La oferta final",
+     "fr": "L’offre finale"
+    },
+    "tiempo_seg": 12,
+    "opciones": [
+     {
+      "texto": {
+       "es": "Dar el mural al barrio, sin firmar",
+       "fr": "Offrir la fresque au quartier, sans signer"
+      },
+      "a": "f4",
+      "postura": {
+       "es": "Alegría compartida",
+       "fr": "Joie partagée"
+      }
+     },
+     {
+      "texto": {
+       "es": "Firmar: aplausos asegurados",
+       "fr": "Signer : applaudissements assurés"
+      },
+      "a": "f1",
+      "postura": {
+       "es": "Gloria y elogios",
+       "fr": "Gloire et éloges"
+      }
+     }
+    ]
+   }
+  },
+  "f1": {
+   "escena": {
+    "titulo": {
+     "es": "El brillo que decepciona",
+     "fr": "L’éclat qui déçoit"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 12,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "bien",
+      "tipo": "estrella",
+      "pos": [
+       0.5,
+       0.3
+      ],
+      "etiqueta": {
+       "es": "El bien deslumbrante",
+       "fr": "Le bien éblouissant"
+      }
+     },
+     {
+      "id": "pesar",
+      "tipo": "nube",
+      "pos": [
+       0.5,
+       0.13
+      ],
+      "etiqueta": {
+       "es": "Arrepentimientos",
+       "fr": "Regrets"
+      }
+     },
+     {
+      "id": "tiempo",
+      "tipo": "reloj",
+      "pos": [
+       0.15,
+       0.4
+      ],
+      "etiqueta": {
+       "es": "Tiempo perdido",
+       "fr": "Temps perdu"
+      }
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "bien"
+     },
+     {
+      "t": 1,
+      "accion": "resalta",
+      "actor": "bien"
+     },
+     {
+      "t": 2,
+      "accion": "mueve",
+      "actor": "alma",
+      "a": [
+       0.5,
+       0.5
+      ],
+      "dur": 2
+     },
+     {
+      "t": 4,
+      "accion": "dice",
+      "actor": "alma",
+      "texto": {
+       "es": "Lo tengo todo... ¿por qué no siento nada?",
+       "fr": "J’ai tout… pourquoi ne ressens-je rien ?"
+      }
+     },
+     {
+      "t": 6,
+      "accion": "tiembla",
+      "actor": "bien"
+     },
+     {
+      "t": 6.5,
+      "accion": "desaparece",
+      "actor": "bien"
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "pesar"
+     },
+     {
+      "t": 7.5,
+      "accion": "aparece",
+      "actor": "tiempo"
+     },
+     {
+      "t": 9,
+      "accion": "tiembla",
+      "actor": "alma"
+     },
+     {
+      "t": 10.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Lo que brillaba de lejos se apagó al poseerlo.",
+       "fr": "Ce qui brillait de loin s’est éteint une fois possédé."
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "Lo obtuvo todo, y al tenerlo se apagó. Quedaron el desdén, el pesar y el tiempo perdido.",
+    "fr": "Elle a tout obtenu, et en l’ayant elle s’est éteinte. Restent le dédain, le regret et le temps perdu."
+   },
+   "final": {
+    "id": "f1",
+    "titulo": {
+     "es": "El brillo que decepciona",
+     "fr": "L’éclat qui déçoit"
+    },
+    "tipo": "tragico",
+    "idea": {
+     "es": "La pasión te hizo creer que el placer sin fin, o los aplausos asegurados, eran mejores y más deseables de lo que son. Al gozarlos llegan el desdén y el arrepentimiento. Para Descartes, la razón debe examinar el justo valor de los bienes antes de lanzarse tras ellos.",
+     "fr": "La passion t’a fait croire que le plaisir sans fin, ou les applaudissements assurés, étaient meilleurs et plus désirables qu’ils ne sont. En en jouissant viennent le dédain et le regret. Pour Descartes, la raison doit examiner la juste valeur des biens avant de courir après eux."
+    },
+    "filosofo": "descartes",
+    "cita": {
+     "texto": "Souvent la passion nous fait croire certaines choses beaucoup meilleures et plus désirables qu’elles ne sont",
+     "pagina_pdf": 283
+    },
+    "pagina_pdf": 283,
+    "reflexion": {
+     "es": "¿Por qué los hombres no son siempre felices? ¿Cómo distinguir un bien verdadero de uno que solo deslumbra?",
+     "fr": "Pourquoi les hommes ne sont-ils pas toujours heureux ? Comment distinguer un vrai bien d’un bien qui ne fait qu’éblouir ?"
+    }
+   }
+  },
+  "f2": {
+   "escena": {
+    "titulo": {
+     "es": "La calma sin obra",
+     "fr": "Le calme sans œuvre"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 13,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.45,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "calma",
+      "tipo": "corazon",
+      "pos": [
+       0.45,
+       0.4
+      ],
+      "etiqueta": {
+       "es": "Ataraxia",
+       "fr": "Ataraxie"
+      }
+     },
+     {
+      "id": "dias",
+      "tipo": "reloj",
+      "pos": [
+       0.15,
+       0.3
+      ],
+      "etiqueta": {
+       "es": "Días idénticos",
+       "fr": "Jours identiques"
+      }
+     },
+     {
+      "id": "burbuja",
+      "tipo": "caja",
+      "pos": [
+       0.78,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Su obra, archivada",
+       "fr": "Son œuvre, archivée"
+      }
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "calma"
+     },
+     {
+      "t": 1.5,
+      "accion": "resalta",
+      "actor": "calma"
+     },
+     {
+      "t": 2.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Nada la turba. Nada la altera. Su alma está en calma.",
+       "fr": "Rien ne la trouble. Rien ne l’agite. Son âme est paisible."
+      }
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "burbuja"
+     },
+     {
+      "t": 5.5,
+      "accion": "aparece",
+      "actor": "dias"
+     },
+     {
+      "t": 7,
+      "accion": "piensa",
+      "actor": "alma",
+      "texto": {
+       "es": "Estoy en paz... ¿o solo quieta?",
+       "fr": "Je suis en paix… ou simplement immobile ?"
+      }
+     },
+     {
+      "t": 9.5,
+      "accion": "desaparece",
+      "actor": "burbuja"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "La ausencia de turbación se logró. La alegría de crear, no.",
+       "fr": "L’absence de trouble est acquise. La joie de créer, non."
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "Su alma ya no se turba por nada. Pero nada la mueve tampoco: los días se parecen y su obra duerme en un archivo.",
+    "fr": "Son âme ne se trouble plus de rien. Mais plus rien ne la meut non plus : les jours se ressemblent et son œuvre dort dans un fichier."
+   },
+   "final": {
+    "id": "f2",
+    "titulo": {
+     "es": "La calma sin obra",
+     "fr": "Le calme sans œuvre"
+    },
+    "tipo": "ambiguo",
+    "idea": {
+     "es": "Epicuro enseña a medir el placer y a contentarse con poco para lograr la ataraxia, la ausencia de turbación del alma. Alma lo consigue. Pero el cours recuerda que, para Bergson, la alegría creadora va más allá del placer, incluso sobrio: el placer cesa al satisfacerse y se limita a su objeto.",
+     "fr": "Épicure enseigne à mesurer le plaisir et à se contenter de peu pour atteindre l’ataraxie, l’absence de trouble de l’âme. Alma y parvient. Mais le cours rappelle que, pour Bergson, la joie créatrice dépasse le plaisir, même sobre : le plaisir cesse quand il est satisfait et se limite à son objet."
+    },
+    "filosofo": "epicure",
+    "cita": {
+     "texto": "lorsqu’il est à nous, nous avons tout, et quand il nous manque, nous faisons tout pour l’avoir",
+     "pagina_pdf": 275
+    },
+    "pagina_pdf": 275,
+    "reflexion": {
+     "es": "¿Es el bienestar sin sobresaltos una felicidad plena, o puede ser una forma de encierro? ¿Es la calma lo mismo que la alegría?",
+     "fr": "Un bien-être sans heurt est-il un bonheur plein, ou peut-il être une forme d’enfermement ? Le calme est-il la même chose que la joie ?"
+    }
+   }
+  },
+  "f3": {
+   "escena": {
+    "titulo": {
+     "es": "El feliz sin escrúpulos",
+     "fr": "L’heureux sans scrupules"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 13,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.35,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "placer",
+      "tipo": "corazon",
+      "pos": [
+       0.35,
+       0.4
+      ],
+      "etiqueta": {
+       "es": "Placer asegurado",
+       "fr": "Plaisir assuré"
+      }
+     },
+     {
+      "id": "teo",
+      "tipo": "monigote",
+      "pos": [
+       0.8,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Théo",
+       "fr": "Théo"
+      }
+     },
+     {
+      "id": "deuda",
+      "tipo": "cadena",
+      "pos": [
+       0.8,
+       0.9
+      ],
+      "etiqueta": {
+       "es": "La deuda",
+       "fr": "La dette"
+      }
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "placer"
+     },
+     {
+      "t": 1,
+      "accion": "salta",
+      "actor": "alma"
+     },
+     {
+      "t": 2.5,
+      "accion": "aparece",
+      "actor": "teo"
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "deuda"
+     },
+     {
+      "t": 4,
+      "accion": "une",
+      "de": "deuda",
+      "a": "teo",
+      "nota": {
+       "es": "la firma de Alma",
+       "fr": "la signature d’Alma"
+      }
+     },
+     {
+      "t": 5.5,
+      "accion": "desaparece",
+      "actor": "teo"
+     },
+     {
+      "t": 6.5,
+      "accion": "piensa",
+      "actor": "alma",
+      "texto": {
+       "es": "No quiero pensar en él.",
+       "fr": "Je ne veux pas penser à lui."
+      }
+     },
+     {
+      "t": 8,
+      "accion": "tiembla",
+      "actor": "alma"
+     },
+     {
+      "t": 9,
+      "accion": "cita",
+      "texto": "un salaud heureux"
+     },
+     {
+      "t": 11.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Es feliz, sí. Pero a costa de su amigo y de sí misma.",
+       "fr": "Elle est heureuse, oui. Mais au prix de son ami et d’elle-même."
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "Firmó. Su placer está asegurado para siempre, y no se atreve a preguntar qué fue de Théo.",
+    "fr": "Elle a signé. Son plaisir est assuré pour toujours, et elle n’ose pas demander ce qu’est devenu Théo."
+   },
+   "final": {
+    "id": "f3",
+    "titulo": {
+     "es": "El feliz sin escrúpulos",
+     "fr": "L’heureux sans scrupules"
+    },
+    "tipo": "tragico",
+    "idea": {
+     "es": "Para Kant, la acción primera debe ser moral: la virtud no promete felicidad, pero tampoco se la puede buscar por puro egoísmo, a riesgo de volverse malo. Alma obtuvo su dicha pagando con la desgracia de otro: lo que el cours llama, con Sartre, «un salaud heureux».",
+     "fr": "Pour Kant, l’action première doit être morale : la vertu ne promet aucun bonheur, mais on ne peut pas non plus le chercher par pur égoïsme, au risque de devenir méchant. Alma a obtenu sa félicité au prix du malheur d’un autre : ce que le cours appelle, avec Sartre, « un salaud heureux »."
+    },
+    "filosofo": "kant",
+    "cita": {
+     "texto": "un salaud heureux",
+     "pagina_pdf": 277
+    },
+    "pagina_pdf": 277,
+    "reflexion": {
+     "es": "¿Es la virtud una condición de la felicidad? ¿Se puede ser verdaderamente feliz sabiendo que se dañó a otro?",
+     "fr": "La vertu est-elle une condition du bonheur ? Peut-on être vraiment heureux en sachant qu’on a fait du tort à autrui ?"
+    }
+   }
+  },
+  "f4": {
+   "escena": {
+    "titulo": {
+     "es": "La alegría compartida",
+     "fr": "La joie partagée"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 13,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.35,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "teo",
+      "tipo": "monigote",
+      "pos": [
+       0.55,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Théo",
+       "fr": "Théo"
+      }
+     },
+     {
+      "id": "vecino",
+      "tipo": "monigote",
+      "pos": [
+       0.8,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "El barrio",
+       "fr": "Le quartier"
+      }
+     },
+     {
+      "id": "mural",
+      "tipo": "flor",
+      "pos": [
+       0.55,
+       0.42
+      ],
+      "etiqueta": {
+       "es": "El mural",
+       "fr": "La fresque"
+      }
+     },
+     {
+      "id": "elan",
+      "tipo": "sol",
+      "pos": [
+       0.5,
+       0.12
+      ],
+      "etiqueta": {
+       "es": "Élan vital",
+       "fr": "Élan vital"
+      }
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "teo"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "mural"
+     },
+     {
+      "t": 2,
+      "accion": "aparece",
+      "actor": "elan"
+     },
+     {
+      "t": 2.5,
+      "accion": "resalta",
+      "actor": "elan"
+     },
+     {
+      "t": 3.5,
+      "accion": "aparece",
+      "actor": "vecino"
+     },
+     {
+      "t": 4,
+      "accion": "proyecta",
+      "de": "mural",
+      "a": "vecino",
+      "nota": {
+       "es": "alegría compartida",
+       "fr": "joie partagée"
+      }
+     },
+     {
+      "t": 6,
+      "accion": "salta",
+      "actor": "vecino"
+     },
+     {
+      "t": 6.5,
+      "accion": "salta",
+      "actor": "teo"
+     },
+     {
+      "t": 7,
+      "accion": "salta",
+      "actor": "alma"
+     },
+     {
+      "t": 9.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Nadie le garantizó nada. Y es la vida más suya.",
+       "fr": "Nul ne lui a rien garanti. Et c’est sa vie la plus à elle."
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "Sin pase ni garantías, Alma y Théo terminan el mural. El barrio se reúne ante él, y la alegría se contagia.",
+    "fr": "Sans pass ni garanties, Alma et Théo terminent la fresque. Le quartier se rassemble devant, et la joie se communique."
+   },
+   "final": {
+    "id": "f4",
+    "titulo": {
+     "es": "La alegría que se comparte",
+     "fr": "La joie qui se partage"
+    },
+    "tipo": "luminoso",
+    "idea": {
+     "es": "Para Bergson, quien reinventa sin cesar su vida conoce alegrías inmensas que puede compartir y que ningún placer mezquino ni interés limita. Crear no se justifica por un provecho inmediato y se intensifica con los otros. Y, como en Kant, quien obra bien siente el contento de ser digno de su humanidad, aunque la felicidad no esté garantizada.",
+     "fr": "Pour Bergson, celui qui réinvente sans cesse sa vie connaît des joies immenses qu’il peut partager et qu’aucun plaisir mesquin ni aucun intérêt ne limite. Créer n’a pas besoin d’être justifié par un profit immédiat et s’intensifie avec les autres. Et, comme chez Kant, celui qui agit bien ressent le contentement de se sentir digne de son humanité, même si le bonheur n’est pas garanti."
+    },
+    "filosofo": "bergson",
+    "cita": {
+     "texto": "se sent au-dessus de la gloire, parce qu’il est créateur, parce qu’il le sait",
+     "pagina_pdf": 278
+    },
+    "pagina_pdf": 278,
+    "reflexion": {
+     "es": "¿Es la alegría más accesible que la felicidad? ¿Qué tienes que crear tú en tu vida, aunque nadie lo aplauda?",
+     "fr": "La joie est-elle plus accessible que le bonheur ? Que dois-tu créer dans ta vie, même si personne ne t’applaudit ?"
+    }
+   }
+  },
+  "f5": {
+   "escena": {
+    "titulo": {
+     "es": "La ciudadela interior",
+     "fr": "La citadelle intérieure"
+    },
+    "estilo": "monigotes",
+    "duracion_seg": 13,
+    "actores": [
+     {
+      "id": "alma",
+      "tipo": "monigote",
+      "pos": [
+       0.4,
+       0.75
+      ],
+      "etiqueta": {
+       "es": "Alma",
+       "fr": "Alma"
+      },
+      "escala": 1.2
+     },
+     {
+      "id": "juicio",
+      "tipo": "cerebro",
+      "pos": [
+       0.4,
+       0.38
+      ],
+      "etiqueta": {
+       "es": "Mi juicio",
+       "fr": "Mon jugement"
+      }
+     },
+     {
+      "id": "puerta",
+      "tipo": "puerta",
+      "pos": [
+       0.78,
+       0.6
+      ],
+      "etiqueta": {
+       "es": "Su puerta cerrada",
+       "fr": "Sa porte fermée"
+      }
+     },
+     {
+      "id": "teo",
+      "tipo": "monigote",
+      "pos": [
+       0.92,
+       0.78
+      ],
+      "etiqueta": {
+       "es": "Théo, solo",
+       "fr": "Théo, seul"
+      }
+     },
+     {
+      "id": "lluvia",
+      "tipo": "nube",
+      "pos": [
+       0.6,
+       0.13
+      ],
+      "etiqueta": {
+       "es": "La lluvia",
+       "fr": "La pluie"
+      }
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "alma"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "juicio"
+     },
+     {
+      "t": 1,
+      "accion": "resalta",
+      "actor": "juicio"
+     },
+     {
+      "t": 2.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Nadie puede obligarla a pensar lo que no quiere.",
+       "fr": "Nul ne peut la forcer à penser ce qu’elle ne veut pas."
+      }
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "puerta"
+     },
+     {
+      "t": 5.5,
+      "accion": "aparece",
+      "actor": "lluvia"
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "teo"
+     },
+     {
+      "t": 6.5,
+      "accion": "tiembla",
+      "actor": "teo"
+     },
+     {
+      "t": 8,
+      "accion": "piensa",
+      "actor": "alma",
+      "texto": {
+       "es": "Estoy en paz... y él, bajo la lluvia.",
+       "fr": "Je suis en paix… et lui, sous la pluie."
+      }
+     },
+     {
+      "t": 10.5,
+      "accion": "subtitulo",
+      "texto": {
+       "es": "Libre por dentro, pero la sabiduría no es repliegue.",
+       "fr": "Libre au-dedans, mais la sagesse n’est pas un repli."
+      }
+     }
+    ]
+   },
+   "narracion": {
+    "es": "Alma consiente a todo y nada cambia. Su pensamiento es libre; la puerta de su taller sigue cerrada, y Théo se queda fuera.",
+    "fr": "Alma consent à tout et rien ne change. Sa pensée est libre ; la porte de son atelier reste fermée et Théo demeure dehors."
+   },
+   "final": {
+    "id": "f5",
+    "titulo": {
+     "es": "La ciudadela interior",
+     "fr": "La citadelle intérieure"
+    },
+    "tipo": "ambiguo",
+    "idea": {
+     "es": "Para los estoicos, mi juicio depende de mí y nadie puede obligarme a pensar lo que no quiero: de ahí una libertad y una felicidad interiores. Pero el cours advierte que consentir no es simple resignación, y que incluso el sabio, «solitaire et solidaire ensemble» según Camus, necesita a los otros y a una sociedad en paz.",
+     "fr": "Pour les stoïciens, mon jugement dépend de moi et nul ne peut me forcer à penser ce que je ne veux pas : d’où une liberté et un bonheur intérieurs. Mais le cours avertit que consentir n’est pas une simple résignation, et que même le sage, « solitaire et solidaire ensemble » selon Camus, a besoin des autres et d’une société en paix."
+    },
+    "filosofo": "stoiciens",
+    "cita": {
+     "texto": "solitaire et solidaire ensemble",
+     "pagina_pdf": 274
+    },
+    "pagina_pdf": 274,
+    "reflexion": {
+     "es": "¿Depende la felicidad de nosotros? ¿Hasta dónde puede la libertad interior bastar, cuando otro sufre fuera?",
+     "fr": "Le bonheur dépend-il de nous ? Jusqu’où la liberté intérieure peut-elle suffire quand un autre souffre dehors ?"
+    }
+   }
+  }
+ }
+}

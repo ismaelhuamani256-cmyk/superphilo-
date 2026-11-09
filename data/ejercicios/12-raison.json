@@ -1,0 +1,158 @@
+{
+  "capitulo": "raison",
+  "perspectivas": {
+    "autores": ["Descartes", "Pascal", "Hegel", "Kant", "Nietzsche", "Bachelard", "Spinoza", "Popper"],
+    "nociones_liadas": ["science", "vérité", "religion"],
+    "ramas": [
+      {
+        "titulo": { "es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture" },
+        "ideas": [
+          {
+            "texto": { "es": "Cada persona puede orientarse hacia el camino que le corresponde tomándose su tiempo y adoptando una actitud metódica.", "fr": "Chaque homme peut s’orienter vers le chemin qui lui correspond en prenant son temps et en adoptant une attitude méthodique." },
+            "autor": "Descartes",
+            "cours": "1."
+          },
+          {
+            "texto": { "es": "Conviene distinguir el deseo de verdad del hecho de poseer la verdad.", "fr": "Il convient de distinguer le désir de vérité avec le fait de posséder la vérité." },
+            "cours": "1. a."
+          },
+          {
+            "texto": { "es": "Una concepción racional del mundo puede ser abierta y crítica.", "fr": "Une conception rationnelle du monde peut être ouverte et critique." },
+            "autor": "Bachelard",
+            "cours": "2. c."
+          },
+          {
+            "texto": { "es": "La racionalidad puede ser técnica, científica, filosófica.", "fr": "La rationalité peut être technique, scientifique, philosophique." },
+            "cours": "3."
+          },
+          {
+            "texto": { "es": "Podemos dominar nuestros afectos o pasiones mediante la razón y así tender hacia una mayor sabiduría.", "fr": "Nous pouvons maîtriser nos affects ou passions par la raison, et ainsi tendre vers plus de sagesse." },
+            "autor": "Spinoza",
+            "cours": "4. a."
+          },
+          {
+            "texto": { "es": "Hay que cuidarse de no confiar únicamente en la razón en nuestra búsqueda de la verdad y saber escuchar nuestra intuición.", "fr": "Il faut veiller à ne pas uniquement s’en remettre à la raison dans notre quête de vérité et savoir écouter notre intuition." },
+            "autor": "Pascal",
+            "cours": "4. b."
+          }
+        ]
+      },
+      {
+        "titulo": { "es": "La moral y la política", "fr": "La morale et la politique" },
+        "ideas": [
+          {
+            "texto": { "es": "Un proceder racional puede ser reconocido y controlado.", "fr": "Une démarche rationnelle peut être reconnue et contrôlée." },
+            "cours": "2. b."
+          },
+          {
+            "texto": { "es": "La moral supone también principios y un comportamiento racionales.", "fr": "La morale suppose aussi des principes et un comportement rationnels." },
+            "autor": "Kant",
+            "cours": "3. b."
+          }
+        ]
+      },
+      {
+        "titulo": { "es": "El conocimiento", "fr": "La connaissance" },
+        "ideas": [
+          {
+            "texto": { "es": "La razón es ante todo una capacidad de juzgar bien y de tener una reflexión ordenada.", "fr": "La raison est d’abord une capacité à bien juger et à avoir une réflexion ordonnée." },
+            "autor": "Descartes",
+            "cours": "1. et 2. a."
+          },
+          {
+            "texto": { "es": "Un conocimiento racional es objetivo, metódico y crítico respecto de sí mismo.", "fr": "Une connaissance rationnelle est objective, méthodique et critique vis-à-vis d’elle-même." },
+            "cours": "2. c."
+          },
+          {
+            "texto": { "es": "Un racionalismo absoluto es reductor y discutible en el plano epistemológico.", "fr": "Un rationalisme absolu est réducteur et discutable sur le plan épistémologique." },
+            "autor": "Hegel",
+            "cours": "4."
+          }
+        ]
+      }
+    ],
+    "pagina_pdf": 203
+  },
+  "ejercicios": [
+    {
+      "id": "raison-diss",
+      "tipo": "dissertation",
+      "enunciado": { "es": "¿Puede la razón ponerse en cuestión a sí misma?", "fr": "La raison peut-elle se remettre elle-même en cause ?" },
+      "consigna": { "es": "Disertación (2 h). Resumid los argumentos de vuestras tres partes, sin omitir las transiciones al final de las dos primeras.", "fr": "Dissertation (2 h). Résumez les arguments de vos trois parties. Veillez à ne pas omettre les transitions à la fin des deux premières parties." },
+      "corrige": {
+        "orientacion": { "es": "Perspectiva 3: la razón se caracteriza, ante todo, por su capacidad de llevar una reflexión ordenada de manera objetiva y metódica. Por eso lleva en sí todas las aptitudes que permiten un cuestionamiento, siempre que no caiga en un racionalismo absoluto.", "fr": "Perspective 3. La raison se caractérise, avant tout, par sa capacité à pouvoir mener une réflexion ordonnée de manière objective et méthodique. C’est pourquoi, elle porte en elle toutes les aptitudes permettant une remise en question, si elle ne verse pas dans un rationalisme absolu." },
+        "problematica": { "es": "¿Una razón demasiado segura de sus producciones no se vuelve necesariamente dogmática? ¿Cómo evitar que la razón se vuelva loca y peligrosa? ¿No cabe concebir una razón abierta a la vez al mundo y a sí misma?", "fr": "Une raison trop sûre de ses productions ne devient-elle pas nécessairement dogmatique ? Comment faire en sorte que la raison ne devienne pas folle et dangereuse ? N’est-il pas possible de concevoir une raison ouverte à la fois sur le monde et sur elle-même ?" },
+        "plan": [
+          {
+            "parte": { "es": "I. Gracias a un proceder racional podemos llegar a certezas objetivas.", "fr": "I. Grâce à une démarche rationnelle, nous pouvons parvenir à des certitudes objectives." },
+            "idea": { "es": "Solo la razón permite llegar a certezas, porque se apoya en métodos que ella justifica y que todos pueden reconocer y compartir. La ciencia es el punto culminante de la razón: descarta la intuición personal y avanza con métodos rigurosos y objetivos. La razón es también una escuela de sabiduría: obliga a pensar bien, a ser razonable y a no caer en la hybris (el exceso); enseña a someterse al principio de realidad (Freud) y a no creer realizables todos los deseos. Además, la razón científica prueba sus avances confrontándose con la realidad y aceptando que sus hipótesis sean contrariadas por experiencias fallidas: el fracaso está incluido en toda empresa racional, pues la realidad puede cuestionarla de manera fundamental. Transición: ¿no tiende un proceder racional a darse siempre la razón encerrándose en su propia coherencia? ¿Una razón demasiado segura de sus producciones no se vuelve necesariamente dogmática?", "fr": "Seule la raison peut permettre d’aboutir à des certitudes parce qu’elle s’appuie sur des méthodes qu’elle justifie et qui peuvent être reconnues et partagées par tous. La science est le point culminant de la raison : écartant toute intuition personnelle, elle avance par des méthodes rigoureuses et objectives. La raison est aussi une école de sagesse : en obligeant à bien penser, elle permet d’être raisonnable et de ne pas tomber dans l’hubris, l’excès ; elle apprend à se soumettre au principe de réalité (Freud) et à ne pas croire tous ses désirs réalisables. En outre, la raison scientifique démontre ses avancées en se confrontant à la réalité et en acceptant de voir ses hypothèses contrariées par des expériences qui n’aboutissent pas : l’échec est inclus dans toute démarche rationnelle, la réalité pouvant la remettre en cause de manière fondamentale. Transition : une démarche rationnelle n’a-t-elle pas tendance à se donner toujours raison en s’enfermant dans sa propre cohérence ou logique ? Une raison trop sûre de ses productions ne devient-elle pas nécessairement dogmatique ?" },
+            "autores": []
+          },
+          {
+            "parte": { "es": "II. Cuando la razón está demasiado segura de sí misma, se convierte en una tiranía dogmática.", "fr": "II. Lorsque la raison devient trop sûre d’elle-même, elle se transforme en une tyrannie dogmatique." },
+            "idea": { "es": "La razón tiende por naturaleza a legitimar sus propias producciones: la ciencia puede transformarse en cientificismo y volverse dogmática, rechazando otros enfoques del mundo. El siglo XIX vio aparecer pseudociencias como la frenología (estudio de las aptitudes humanas según la forma del rostro) y métodos de medida de la inteligencia que se presentaban como necesarios y objetivos pero carecían de fundamento científico. La razón puede volverse calculadora y ciega, olvidando que no todo se calcula ni es previsible, en particular el pensamiento o la acción de los hombres. Los racionalistas dogmáticos tienen una fe en la razón que no es racional, porque sobrepasa sus límites y les sirve para justificar su deseo de dominación del mundo y de los hombres. Una razón exacerbada puede avalar la violencia para imponerse (el colonialismo, los métodos de tratar la locura u otros para evaluar a los individuos): reducir los comportamientos desviados o diferentes a una sola norma. De ahí que «hay una violencia en la razón, en nombre de la razón, por la razón» (Éric Weil). Transición: ¿cómo evitar que la razón se vuelva loca y peligrosa? ¿No es posible concebir una razón abierta a la vez al mundo y a sí misma?", "fr": "La raison a par nature tendance à rendre légitimes ses propres productions : la science peut se transformer en scientisme et devenir dogmatique, refusant d’autres approches du monde. Le XIXe siècle a vu apparaître des pseudosciences comme la phrénologie (étude des aptitudes humaines d’après la forme du visage) et des méthodes de mesure de l’intelligence qui se présentaient comme nécessaires et objectives, mais n’avaient aucun fondement scientifique. La raison peut s’avérer calculatrice, devenant aveugle et oubliant que tout ne se calcule pas et ne peut être prévisible, notamment la pensée ou l’action des hommes. Les rationalistes dogmatiques ont une foi en la raison qui n’est pas rationnelle parce qu’elle outrepasse les limites de celle-ci et leur sert à justifier leur désir de domination du monde et des hommes. Une raison exacerbée peut cautionner une violence pour s’imposer (colonialisme, méthodes pour traiter la folie, méthodes pour évaluer les individus) : ramener tous les comportements déviants ou différents à une seule norme. Aussi « il y a une violence dans la raison, au nom de la raison, par la raison » (Éric Weil). Transition : comment faire en sorte que la raison ne devienne pas folle et dangereuse ? N’est-il pas possible de concevoir une raison ouverte à la fois sur le monde et sur elle-même ?" },
+            "autores": []
+          },
+          {
+            "parte": { "es": "III. Preferir un «racionalismo abierto», en el que la razón no cesa de ponerse en cuestión.", "fr": "III. Préférer un « rationalisme ouvert », dans lequel la raison ne cesse de se remettre en cause." },
+            "idea": { "es": "Como demostró Kant, cabe concebir y justificar una razón abierta y crítica, capaz de someterse a su propio tribunal y de admitir sus límites. Bachelard forjó el concepto de «racionalismo abierto» para evitar la trampa de una razón dogmática que se impone de entrada como verídica y trascendente. La razón está siempre en devenir, no fijada, se deconstruye permanentemente y se cuestiona en cada avance; así escapa a la sacralización de sus producciones y sigue siendo lúcida sobre su valor relativo, ligado a los instrumentos de medida de una época. Una razón cerrada sobre sí misma se limita al funcionamiento de las cosas y corre el riesgo de pasar por alto cuestiones esenciales: «la cuestión de saber cómo y cuándo aparece el universo corresponde a la ciencia; la cuestión de saber por qué hay algo en lugar de nada corresponde a la metafísica» (Hubert Reeves). Esta distinción entre el cómo y el porqué no debe, sin embargo, desembocar en un irracionalismo que solo acepte una explicación mágica del mundo: si no hay que mitificar la razón, tampoco hay que rechazarla y preferir la ignorancia ciega. Cabe entonces confiar en la sabiduría pascaliana: «Dos excesos: excluir la razón, no admitir más que la razón».", "fr": "Telle que l’a démontré Kant, on peut concevoir et justifier une raison ouverte et critique, capable de se soumettre à son propre tribunal, admettant ses propres limites. Bachelard a forgé le concept de « rationalisme ouvert » pour éviter le piège d’une raison dogmatique, s’imposant d’emblée comme véridique et transcendante. La raison est toujours en devenir, non figée, se déconstruisant en permanence pour se remettre en cause à chacune de ses avancées ; elle échappe ainsi à une sacralisation de ses productions et reste lucide sur leurs valeurs toutes relatives, puisque liées aux instruments de mesure d’une époque. La raison refermée sur elle-même se limite au fonctionnement des choses et court le risque de passer à côté de questions essentielles : « la question de savoir comment et quand l’univers apparaît relève de la science. La question de savoir pourquoi y a-t-il quelque chose plutôt que rien relève de la métaphysique » (Hubert Reeves). Cette distinction ne doit pas aboutir à une forme d’irrationalisme n’acceptant qu’une explication magique du monde : s’il ne faut pas mythifier la raison, il ne faut pas non plus la rejeter et préférer l’ignorance aveugle. Nous pouvons nous remettre à la sagesse pascalienne : « Deux excès : exclure la raison, n’admettre que la raison »." },
+            "autores": ["kant", "bachelard", "pascal"]
+          }
+        ],
+        "conclusion": { "es": "Aceptar los límites de la razón es reconocerle todo su valor, pero también ponerla en cuestión sin descanso para no transformarla en una religión dogmática e ilusoria.", "fr": "Accepter les limites de la raison, c’est lui reconnaître toute sa valeur, mais c’est aussi la remettre en cause sans discontinuer pour ne pas la transformer en religion dogmatique et illusoire." },
+        "puntos_clave": [
+          { "es": "Reconoce que una razón metódica y objetiva (la ciencia en particular) permite alcanzar certezas compartidas y que se confronta con la realidad aceptando el fracaso de sus hipótesis.", "fr": "Reconnaître qu’une raison méthodique et objective (la science en particulier) permet d’atteindre des certitudes partagées et se confronte à la réalité en acceptant l’échec de ses hypothèses." },
+          { "es": "Muestra que la razón es una escuela de sabiduría: enseña a ser razonable, a evitar la hybris y a someterse al principio de realidad (Freud).", "fr": "Montrer que la raison est une école de sagesse : elle apprend à être raisonnable, à éviter l’hubris et à se soumettre au principe de réalité (Freud)." },
+          { "es": "Denuncia el riesgo de dogmatismo de una razón demasiado segura de sí: cientificismo, pseudociencias (frenología), razón calculadora y ciega.", "fr": "Dénoncer le risque de dogmatisme d’une raison trop sûre d’elle-même : scientisme, pseudosciences (phrénologie), raison calculatrice et aveugle." },
+          { "es": "Muestra que una razón exacerbada puede avalar la violencia y la imposición de una norma única (colonialismo, tratamiento de la locura; Éric Weil).", "fr": "Montrer qu’une raison exacerbée peut cautionner la violence et l’imposition d’une norme unique (colonialisme, traitement de la folie ; Éric Weil)." },
+          { "es": "Propone una razón abierta y crítica que se somete a su propio tribunal (Kant) y un «racionalismo abierto» (Bachelard), siempre en devenir.", "fr": "Proposer une raison ouverte et critique, qui se soumet à son propre tribunal (Kant), et un « rationalisme ouvert » (Bachelard), toujours en devenir." },
+          { "es": "Distingue el cómo (la ciencia) del porqué (la metafísica) y evita tanto la mitificación de la razón como el irracionalismo (Pascal: «Dos excesos»).", "fr": "Distinguer le comment (la science) du pourquoi (la métaphysique) et éviter à la fois la mythification de la raison et l’irrationalisme (Pascal : « Deux excès »)." },
+          { "es": "Articula las tres partes con transiciones explícitas al final de las dos primeras.", "fr": "Articuler les trois parties par des transitions explicites à la fin des deux premières." }
+        ]
+      },
+      "pagina_pdf": 206,
+      "pagina_corrige": 207
+    },
+    {
+      "id": "raison-expl",
+      "tipo": "explication",
+      "enunciado": { "es": "¿Por qué podemos afirmar que la tesis de Nietzsche es paradójica?", "fr": "Pour quelles raisons pouvons-nous affirmer que la thèse de Nietzsche est paradoxale ?" },
+      "texto": {
+        "fr": "Je me suis demandé […] ce que le peuple entend au fond par connaissance ; que cherche-t-il quand il la demande ? Rien que ceci : ramener quelque chose d’étranger à quelque chose de connu. Nous, philosophes, que mettons-nous de plus dans ce mot ? Le connu, c’est-à-dire les choses auxquelles nous sommes habitués, de telle sorte que nous ne nous en étonnons plus ; nous y mettons notre menu quotidien, une règle quelconque qui nous mène, tout ce qui nous est familier […] Eh quoi ? Notre besoin de connaître n’est-il pas justement notre besoin de familier ? Le désir de trouver, parmi tout ce qui nous est étranger, inhabituel, énigmatique, quelque chose qui ne nous inquiète plus ? Ne serait-ce pas l’instinct de la peur qui nous commanderait de connaître ? Le ravissement qui accompagne l’acquisition de la connaissance ne serait-il pas la volupté de la sécurité retrouvée ?",
+        "autor": "Nietzsche",
+        "obra": "Le gai savoir, 1882",
+        "pagina_pdf": 206
+      },
+      "consigna": { "es": "Explicación de texto (45 min). ¿Por qué podemos afirmar que la tesis de Nietzsche es paradójica?", "fr": "Explication de texte (45 min). Pour quelles raisons pouvons-nous affirmer que la thèse de Nietzsche est paradoxale ?" },
+      "corrige": {
+        "orientacion": { "es": "Perspectivas 1 y 3: para los filósofos de la Grecia antigua, cada hombre usaría su razón para enriquecer sus conocimientos y así librarse de la superstición, que lo hundiría en ilusiones tranquilizadoras. Pero, aunque este enfoque se presenta como universal, puede no corresponder a la psicología de todos los hombres.", "fr": "Perspectives 1 et 3. Pour les philosophes de la Grèce antique, chaque homme utiliserait sa raison pour enrichir ses connaissances, et ainsi se défaire de la superstition qui les plongerait dans des illusions rassurantes. Toutefois, si cette approche se présente comme universelle, elle peut ne pas correspondre à la psychologie de tous les hommes." },
+        "tesis": { "es": "Los hombres en general, incluidos los filósofos, desean conocer para tranquilizarse: solo el miedo parece guiarlos en su búsqueda de saber. El saber no es desinteresado, sino que responde a una necesidad psicológica de consuelo.", "fr": "Les hommes en général, y compris les philosophes, désirent connaître pour se rassurer et seule la peur semble les guider dans leur quête de savoirs. Le savoir n’est pas désintéressé, mais répond à un besoin psychologique de trouver un réconfort." },
+        "etapas": [
+          {
+            "titulo": { "es": "La tesis paradójica frente a la tradición griega", "fr": "La thèse paradoxale face à la tradition grecque" },
+            "idea": { "es": "Desde los filósofos de la Grecia antigua se estima, al contrario, que la puesta en acto de la razón tiene por causa el rechazo de las certezas timoratas y de las ilusiones tranquilizadoras: los hombres desean saber porque no pueden admitir no comprender ni contentarse con el temor, y por tanto con la superstición que engendra la ignorancia (Lucrecio). Se trata de un proceder razonado; de ahí el carácter paradójico de la tesis de Nietzsche.", "fr": "Depuis les philosophes de la Grèce antique, on estime, à l’inverse, que la mise en acte de la raison a pour cause le refus des certitudes frileuses, des illusions rassurantes : les hommes ont le désir de savoir parce qu’ils ne peuvent admettre de ne pas comprendre et se satisfaire de la crainte, et par conséquent de la superstition engendrées par l’ignorance (Lucrèce). Il s’agit d’une démarche raisonnée ; d’où le caractère paradoxal de la thèse de Nietzsche." }
+          },
+          {
+            "titulo": { "es": "Nietzsche adopta la perspectiva inversa: el miedo, no la razón, guía el deseo de conocer", "fr": "Nietzsche adopte la perspective inverse : la peur, et non la raison, guide le désir de connaître" },
+            "idea": { "es": "Para Nietzsche, no se trata de abrir el espíritu mediante un conocimiento salvador que quite certezas infundadas y prejuicios, sino de un saber al servicio de lo cotidiano, con el que los hombres buscan una atmósfera apaciguadora y tranquilizadora, rodeada de nuevas certezas. No habría deseo de un saber universal, sino solo la necesidad de dictar reglas racionales para recuperar la confianza y la certeza de la infancia.", "fr": "Il ne serait pas question d’ouvrir l’esprit des hommes par une connaissance salvatrice qui leur ôterait des certitudes infondées et des préjugés, mais bien d’un savoir au service de leur quotidien, pour lequel les hommes souhaitent une atmosphère apaisante et rassurante, bordée de nouvelles certitudes. Il n’y aurait aucun désir d’un savoir universel, mais seulement le besoin d’édicter des règles rationnelles afin de retrouver la confiance et la certitude de l’enfance." }
+          },
+          {
+            "titulo": { "es": "Un saber no desinteresado", "fr": "Un savoir non désintéressé" },
+            "idea": { "es": "El saber responde a una necesidad psicológica de encontrar consuelo: conocer es reducir lo extraño a lo familiar, y el placer de conocer sería la voluptuosidad de la seguridad recobrada.", "fr": "Le savoir répond à un besoin psychologique de trouver un réconfort : connaître, c’est ramener l’étranger au connu, et le ravissement de connaître serait la volupté de la sécurité retrouvée." }
+          }
+        ],
+        "introduccion": { "es": "En este texto, Nietzsche expresa la idea de que los hombres en general, incluidos los filósofos, desean conocer para tranquilizarse y que solo el miedo parece guiarlos en su búsqueda de saberes. Esto resulta paradójico porque, desde los filósofos de la Grecia antigua, se estima, al contrario, que la puesta en acto de la razón tiene por causa el rechazo de las certezas timoratas, de las ilusiones tranquilizadoras.", "fr": "Dans ce texte, Nietzsche exprime l’idée que les hommes en général, y compris les philosophes, désirent connaître pour se rassurer et que seule la peur semble les guider dans leur quête de savoirs. Cela apparaît comme paradoxal car depuis les philosophes de la Grèce antique, on estime, à l’inverse, que la mise en acte de la raison a pour cause le refus des certitudes frileuses, des illusions rassurantes." },
+        "enjeu": { "es": "Está en juego el origen y la naturaleza del deseo de conocer: ¿nace de un deseo desinteresado de verdad y de la razón, o de un interés psicológico (el miedo y la necesidad de seguridad)?", "fr": "L’enjeu porte sur l’origine et la nature du désir de connaître : naît-il d’un désir désintéressé de vérité et de la raison, ou d’un intérêt psychologique (la peur et le besoin de sécurité) ?" },
+        "puntos_clave": [
+          { "es": "Formula la tesis: conocer es reducir lo extraño a lo conocido y familiar; el deseo de saber responde a la peur y a la necesidad de seguridad.", "fr": "Formuler la thèse : connaître, c’est ramener l’étranger au connu et au familier ; le désir de savoir répond à la peur et au besoin de sécurité." },
+          { "es": "Explica el carácter paradójico: choca con la tradición griega según la cual la razón y el deseo de saber nos liberan de las ilusiones tranquilizadoras y de la superstición (Lucrecio).", "fr": "Expliquer le caractère paradoxal : elle heurte la tradition grecque selon laquelle la raison et le désir de savoir nous libèrent des illusions rassurantes et de la superstition (Lucrèce)." },
+          { "es": "Muestra que para Nietzsche el saber no es universal ni desinteresado, sino que está al servicio de lo cotidiano y de la confianza recobrada (la certeza de la infancia).", "fr": "Montrer que, pour Nietzsche, le savoir n’est ni universel ni désintéressé, mais au service du quotidien et de la confiance retrouvée (la certitude de l’enfance)." },
+          { "es": "Señala el recurso a las preguntas retóricas y a la oposición entre «el pueblo» y «nosotros, filósofos», que muestra que los filósofos no escapan a esta lógica.", "fr": "Relever le recours aux questions rhétoriques et l’opposition entre « le peuple » et « nous, philosophes », qui montre que les philosophes n’échappent pas à cette logique." },
+          { "es": "Reconoce el límite del enfoque griego: aunque se presenta como universal, puede no corresponder a la psicología de todos los hombres.", "fr": "Reconnaître la limite de l’approche grecque : si elle se présente comme universelle, elle peut ne pas correspondre à la psychologie de tous les hommes." }
+        ]
+      },
+      "pagina_pdf": 206,
+      "pagina_corrige": 209
+    }
+  ]
+}

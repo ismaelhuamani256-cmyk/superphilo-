@@ -1,0 +1,2023 @@
+{
+ "id": "technique",
+ "numero": 6,
+ "titulo": "La technique",
+ "titulo_es": "La técnica",
+ "resumen": "La technique est un ensemble de procédés codifiés qui unit théorie et production et recherche l’efficacité, sans se soucier de la bonté des fins. Elle façonne les comportements et la pensée humaine jusqu’à pouvoir asservir l’homme, mais elle est aussi la condition de sa survie et l’expression concrète de sa conscience et de ses désirs. Le cours invite à dépasser le « pour ou contre » et à penser sa portée morale, ontologique et métaphysique.",
+ "paginas": {
+  "inicio": 112,
+  "fin": 125
+ },
+ "puntos_incontournables": [
+  "La technique n’est ni science ni artisanat : elle s’appuie sur des connaissances théoriques et vise à produire rationnellement quelque chose (efficacité).",
+  "La technique est amorale : son développement rationnel est indifférent aux valeurs morales et suppose seulement l’efficacité (rationalisme de moyens).",
+  "La technique façonne les hommes : elle modèle leurs comportements et neutralise leurs manières de penser (uniformisation).",
+  "La technique peut asservir l’homme en lui imposant des réponses à des questions qu’il ne se pose pas (asservissement).",
+  "Il faut nuancer l’asservissement : la technique a aussi une fonction symbolique et n’exprime que la qualité de nos désirs."
+ ],
+ "nociones_clave": [
+  "technique",
+  "efficacité",
+  "artisanat",
+  "bricolage",
+  "outil",
+  "rationalisme de moyens",
+  "asservissement",
+  "conditionnement",
+  "uniformisation",
+  "désir",
+  "conscience",
+  "métaphysique"
+ ],
+ "problematicas_bac": [
+  "Est-ce l’homme qui fait la technique ou la technique qui fait l’homme ?",
+  "La technique n’a-t-elle pas, dès lors, tendance à asservir l’homme plutôt qu’à le servir ?",
+  "L’homme deviendra-t-il esclave de la technologie ?",
+  "Doit-on déduire du conditionnement technique un asservissement à la technique ?"
+ ],
+ "conceptos": [
+  {
+   "id": "efficacite",
+   "nombre": "Efficacité (exigence technique)",
+   "definicion": "Exigence propre à toute technique : obtenir l’effet recherché selon des principes d’économie et de rendement, sans juger si la fin est bonne ou mauvaise.",
+   "pagina_pdf": 113,
+   "autores": [
+    "levi-strauss"
+   ]
+  },
+  {
+   "id": "rationalisme-moyens",
+   "nombre": "Rationalisme de moyens",
+   "definicion": "La rationalité technique est de fonctionnement : elle calcule les moyens les plus opératoires et laisse le choix des fins à la morale ; confondre fin et moyen, c’est se laisser abuser par l’instrument.",
+   "pagina_pdf": 114,
+   "autores": [
+    "heidegger"
+   ]
+  },
+  {
+   "id": "permanence-outil",
+   "nombre": "Permanence de l’outil",
+   "definicion": "L’outil est fabriqué en anticipant une fin, puis conservé et perfectionné ; il suppose de différer la satisfaction immédiate, à la différence de l’usage momentané des singes.",
+   "pagina_pdf": 114,
+   "autores": [
+    "grimaldi"
+   ]
+  },
+  {
+   "id": "asservissement",
+   "nombre": "Asservissement de l’homme",
+   "definicion": "La technique peut ôter à l’homme son autonomie existentielle en lui livrant des réponses toutes faites ; le cours nuance : conditionnement n’est pas synonyme d’esclavage.",
+   "pagina_pdf": 116,
+   "autores": [
+    "heidegger",
+    "mauss",
+    "tarde",
+    "flam",
+    "valery"
+   ]
+  },
+  {
+   "id": "fonction-symbolique",
+   "nombre": "Fonction symbolique de la technique",
+   "definicion": "L’usage d’un objet n’est pas seulement technique : c’est aussi une manière de parler de soi (la voiture comme marqueur social).",
+   "pagina_pdf": 117,
+   "autores": []
+  },
+  {
+   "id": "technique-desir",
+   "nombre": "La technique, figure concrète du désir",
+   "definicion": "L’innovation incessante exprime le caractère irrépressible des désirs humains ; s’il y a un procès à faire, ce n’est pas celui de la technique mais celui du désir.",
+   "pagina_pdf": 118,
+   "autores": [
+    "grimaldi",
+    "spengler"
+   ]
+  }
+ ],
+ "filosofos": [
+  {
+   "id": "levi-strauss",
+   "nombre": "Claude Lévi-Strauss",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Le bricoleur n’a pas de véritable méthode et se débrouille avec les outils qu’il a, tandis que l’artisan maîtrise son procédé et peut enseigner son savoir-faire.",
+   "ideas_clave": [
+    "L’artisanat est empirique : un savoir-faire transmissible de génération en génération (savoir-faire)",
+    "Le bricoleur improvise et ne va pas directement au but (bricolage)",
+    "L’artisan maîtrise le processus de son travail et peut donc le transmettre",
+    "La technique, à la différence de l’artisanat, dérive d’un savoir théorique"
+   ],
+   "citas": [],
+   "debate_con": [
+    "grimaldi"
+   ],
+   "como_usarlo_en_disertacion": "Dans la partie consacrée aux définitions : il sert à distinguer technique, artisanat et bricolage avant d’analyser le sujet. Utile dans la première partie (« l’homme fait la technique ») pour préciser quel type de savoir est en jeu.",
+   "escena_sugerida": "Un bricoleur qui tourne en rond avec ce qu’il a, face à un artisan qui va droit au but et transmet son savoir à un apprenti.",
+   "pagina_pdf": 113,
+   "escena": {
+    "titulo": "Lévi-Strauss : le bricoleur et l’artisan",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "bricoleur",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.7
+      ],
+      "etiqueta": "Le bricoleur",
+      "escala": 1
+     },
+     {
+      "id": "outils",
+      "tipo": "caja",
+      "pos": [
+       0.15,
+       0.35
+      ],
+      "etiqueta": "Outils disponibles",
+      "escala": 1
+     },
+     {
+      "id": "but",
+      "tipo": "estrella",
+      "pos": [
+       0.85,
+       0.3
+      ],
+      "etiqueta": "Le but",
+      "escala": 1
+     },
+     {
+      "id": "artisan",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.85
+      ],
+      "etiqueta": "L’artisan",
+      "escala": 1
+     },
+     {
+      "id": "savoir",
+      "tipo": "libro",
+      "pos": [
+       0.55,
+       0.85
+      ],
+      "etiqueta": "Savoir-faire",
+      "escala": 1
+     },
+     {
+      "id": "apprenti",
+      "tipo": "monigote",
+      "pos": [
+       0.88,
+       0.85
+      ],
+      "etiqueta": "L’apprenti",
+      "escala": 0.8
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "bricoleur"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "outils"
+     },
+     {
+      "t": 2,
+      "accion": "aparece",
+      "actor": "but"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Le bricoleur n’a pas de méthode : il se débrouille avec les outils qu’il a sous la main."
+     },
+     {
+      "t": 4,
+      "accion": "piensa",
+      "actor": "bricoleur",
+      "texto": "Je me débrouille avec ce que j’ai..."
+     },
+     {
+      "t": 5,
+      "accion": "mueve",
+      "actor": "bricoleur",
+      "a": [
+       0.4,
+       0.45
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 7,
+      "accion": "mueve",
+      "actor": "bricoleur",
+      "a": [
+       0.3,
+       0.6
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 9,
+      "accion": "mueve",
+      "actor": "bricoleur",
+      "a": [
+       0.55,
+       0.4
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 10.5,
+      "accion": "tiembla",
+      "actor": "bricoleur"
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "Il improvise et ne va pas directement au but visé."
+     },
+     {
+      "t": 13,
+      "accion": "aparece",
+      "actor": "artisan"
+     },
+     {
+      "t": 14,
+      "accion": "mueve",
+      "actor": "artisan",
+      "a": [
+       0.8,
+       0.45
+      ],
+      "dur": 2
+     },
+     {
+      "t": 16,
+      "accion": "dice",
+      "actor": "artisan",
+      "texto": "Je maîtrise mon procédé du début à la fin."
+     },
+     {
+      "t": 17,
+      "accion": "salta",
+      "actor": "but"
+     },
+     {
+      "t": 18,
+      "accion": "aparece",
+      "actor": "savoir"
+     },
+     {
+      "t": 19,
+      "accion": "aparece",
+      "actor": "apprenti"
+     },
+     {
+      "t": 20,
+      "accion": "proyecta",
+      "de": "savoir",
+      "a": "apprenti",
+      "nota": "transmission"
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "L’artisan maîtrise le processus, c’est pourquoi il peut l’enseigner et le transmettre de génération en génération."
+     }
+    ]
+   }
+  },
+  {
+   "id": "mauss",
+   "nombre": "Marcel Mauss",
+   "epoca": "XXe siècle",
+   "tesis_principal": "En transformant la nature par la technique, l’homme transforme sa propre nature : la technique conditionne jusqu’au corps, aux gestes et aux habitudes.",
+   "ideas_clave": [
+    "La technique est condition de survie de l’homme dans une nature hostile",
+    "Transformer la nature, c’est transformer sa propre nature (façonner l’homme)",
+    "La technique conditionne les comportements, les attitudes et les habitudes",
+    "Elle change notre manière d’habiter l’espace et de vivre ensemble (télévision, ordinateur)"
+   ],
+   "citas": [
+    {
+     "texto": "le fait que nous marchions avec des souliers transforme la position de nos pieds, nous le sentons bien",
+     "idioma": "fr",
+     "obra": "Les techniques du corps, in Sociologie et anthropologie",
+     "pagina_pdf": 115
+    }
+   ],
+   "debate_con": [
+    "heidegger"
+   ],
+   "como_usarlo_en_disertacion": "Dans la deuxième partie de « la technique fait l’homme » : exemple concret et corporel de conditionnement technique. Il permet de passer de l’évident (les chaussures) au social (télévision, intimité).",
+   "escena_sugerida": "Un homme enfile des chaussures et ses pieds changent ; ensuite, un écran bouleverse le foyer.",
+   "pagina_pdf": 115,
+   "escena": {
+    "titulo": "Mauss : la technique façonne le corps",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "homme",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.65
+      ],
+      "etiqueta": "Pieds libres",
+      "escala": 1.2
+     },
+     {
+      "id": "souliers",
+      "tipo": "caja",
+      "pos": [
+       0.6,
+       0.8
+      ],
+      "etiqueta": "Souliers",
+      "escala": 0.8
+     },
+     {
+      "id": "maison",
+      "tipo": "casa",
+      "pos": [
+       0.75,
+       0.45
+      ],
+      "etiqueta": "Territoire familial",
+      "escala": 1.2
+     },
+     {
+      "id": "ecran",
+      "tipo": "ojo",
+      "pos": [
+       0.9,
+       0.15
+      ],
+      "etiqueta": "Télévision",
+      "escala": 0.9
+     },
+     {
+      "id": "famille",
+      "tipo": "monigote",
+      "pos": [
+       0.55,
+       0.45
+      ],
+      "etiqueta": "La famille",
+      "escala": 0.8
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "homme"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "L’homme survit grâce à la technique, mais elle le transforme lui aussi."
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "souliers"
+     },
+     {
+      "t": 4.5,
+      "accion": "mueve",
+      "actor": "souliers",
+      "a": [
+       0.25,
+       0.8
+      ],
+      "dur": 2
+     },
+     {
+      "t": 7,
+      "accion": "une",
+      "de": "souliers",
+      "a": "homme",
+      "nota": "technique"
+     },
+     {
+      "t": 8,
+      "accion": "etiqueta",
+      "actor": "homme",
+      "texto": "Pieds transformés"
+     },
+     {
+      "t": 8.5,
+      "accion": "tiembla",
+      "actor": "homme"
+     },
+     {
+      "t": 10,
+      "accion": "dice",
+      "actor": "homme",
+      "texto": "Je le sens dans mes pieds."
+     },
+     {
+      "t": 11,
+      "accion": "cita",
+      "texto": "le fait que nous marchions avec des souliers transforme la position de nos pieds"
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "maison"
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "famille"
+     },
+     {
+      "t": 16,
+      "accion": "subtitulo",
+      "texto": "La technique change aussi notre manière d’habiter l’espace et de vivre ensemble."
+     },
+     {
+      "t": 17.5,
+      "accion": "aparece",
+      "actor": "ecran"
+     },
+     {
+      "t": 18.5,
+      "accion": "proyecta",
+      "de": "ecran",
+      "a": "maison",
+      "nota": "intimité, distances"
+     },
+     {
+      "t": 20,
+      "accion": "tiembla",
+      "actor": "maison"
+     },
+     {
+      "t": 21.5,
+      "accion": "etiqueta",
+      "actor": "maison",
+      "texto": "Territoire bouleversé"
+     },
+     {
+      "t": 22.5,
+      "accion": "subtitulo",
+      "texto": "En transformant la nature, l’homme transforme sa propre nature."
+     }
+    ]
+   }
+  },
+  {
+   "id": "tarde",
+   "nombre": "Gabriel Tarde",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "La technique tend à uniformiser : le même confort, le même luxe et la même politesse se répandent en Europe, en Amérique et dans le reste du monde.",
+   "ideas_clave": [
+    "La technique neutralise les comportements et les manières de penser en les rendant uniformes (uniformisation)",
+    "Même alimentation, même habitat et même vêtement dans le monde entier",
+    "Une uniformité qui ne nous surprend plus, mais qui aurait stupéfié Hérodote",
+    "Le cours y lit le signe que la technique façonne les hommes"
+   ],
+   "citas": [
+    {
+     "texto": "Nous ne nous étonnons plus de cette uniformité qui eût paru si surprenante à Hérodote",
+     "idioma": "fr",
+     "obra": "Les lois de l’imitation",
+     "pagina_pdf": 115
+    }
+   ],
+   "debate_con": [
+    "flam"
+   ],
+   "como_usarlo_en_disertacion": "Comme exemple dans la partie où la technique « fait » l’homme : il montre que le conditionnement est collectif et homogénéisant. Il s’enchaîne bien avec Flam (appauvrissement du langage).",
+   "escena_sugerida": "Trois lieux différents du monde finissent par se ressembler quand le même confort leur parvient ; Hérodote observe, stupéfait.",
+   "pagina_pdf": 115,
+   "escena": {
+    "titulo": "Tarde : le même confort sur toute la Terre",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "europe",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.7
+      ],
+      "etiqueta": "Europe",
+      "escala": 1
+     },
+     {
+      "id": "amerique",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": "Amérique",
+      "escala": 1
+     },
+     {
+      "id": "monde",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.7
+      ],
+      "etiqueta": "Reste du monde",
+      "escala": 1
+     },
+     {
+      "id": "confort",
+      "tipo": "caja",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Confort, luxe, politesse",
+      "escala": 1.2
+     },
+     {
+      "id": "herodote",
+      "tipo": "monigote",
+      "pos": [
+       0.88,
+       0.2
+      ],
+      "etiqueta": "Hérodote",
+      "escala": 0.9
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "europe"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "amerique"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "monde"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Chaque région avait sa propre manière de manger, de s’habiller, d’habiter et de se comporter."
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "confort"
+     },
+     {
+      "t": 6.5,
+      "accion": "proyecta",
+      "de": "confort",
+      "a": "europe",
+      "nota": "technique"
+     },
+     {
+      "t": 7.5,
+      "accion": "proyecta",
+      "de": "confort",
+      "a": "amerique"
+     },
+     {
+      "t": 8.5,
+      "accion": "proyecta",
+      "de": "confort",
+      "a": "monde"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "Avec la technique arrivent partout le même confort, le même luxe et la même politesse."
+     },
+     {
+      "t": 12,
+      "accion": "etiqueta",
+      "actor": "europe",
+      "texto": "Même mode de vie"
+     },
+     {
+      "t": 12.5,
+      "accion": "etiqueta",
+      "actor": "amerique",
+      "texto": "Même mode de vie"
+     },
+     {
+      "t": 13,
+      "accion": "etiqueta",
+      "actor": "monde",
+      "texto": "Même mode de vie"
+     },
+     {
+      "t": 14,
+      "accion": "mueve",
+      "actor": "europe",
+      "a": [
+       0.3,
+       0.7
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 14,
+      "accion": "mueve",
+      "actor": "monde",
+      "a": [
+       0.7,
+       0.7
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 16,
+      "accion": "aparece",
+      "actor": "herodote"
+     },
+     {
+      "t": 17,
+      "accion": "piensa",
+      "actor": "herodote",
+      "texto": "Quelle uniformité surprenante !"
+     },
+     {
+      "t": 18.5,
+      "accion": "tiembla",
+      "actor": "herodote"
+     },
+     {
+      "t": 19.5,
+      "accion": "cita",
+      "texto": "Nous ne nous étonnons plus de cette uniformité qui eût paru si surprenante à Hérodote"
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "La technique neutralise les comportements et les manières de penser en les rendant uniformes."
+     }
+    ]
+   }
+  },
+  {
+   "id": "flam",
+   "nombre": "Léopold Flam",
+   "epoca": "XXe siècle",
+   "tesis_principal": "La technique exige une intelligence instantanée et pratique, et appauvrit la langue ; si la langue se réduit à un instrument de communication, elle finit par façonner notre manière de penser.",
+   "ideas_clave": [
+    "Dans le « français moyen », on n’emploie que huit cents à mille mots environ",
+    "L’appauvrissement de la langue est plus visible là où la technique s’est le plus déployée (États-Unis)",
+    "La langue officielle perd richesse et subtilité et devient un véhicule de communication",
+    "Une langue appauvrie façonne la manière de penser ; l’esprit philosophique devient « dangereux »"
+   ],
+   "citas": [
+    {
+     "texto": "La technique elle-même exige une […] intelligence instantanée et pratique, […] ni réfléchie ni profonde",
+     "idioma": "fr",
+     "obra": "La philosophie au tournant de notre temps, 1970",
+     "pagina_pdf": 115
+    }
+   ],
+   "debate_con": [
+    "tarde"
+   ],
+   "como_usarlo_en_disertacion": "Dans la partie sur la façon dont la technique transforme l’homme : il illustre l’effet sur la pensée et pas seulement sur le comportement. Il renforce Tarde par un exemple linguistique.",
+   "escena_sugerida": "Une langue riche s’appauvrit sous l’engrenage technique et le cerveau qui en dépend pense moins.",
+   "pagina_pdf": 115,
+   "escena": {
+    "titulo": "Flam : la technique appauvrit la langue",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "langue",
+      "tipo": "libro",
+      "pos": [
+       0.3,
+       0.6
+      ],
+      "etiqueta": "Langue riche",
+      "escala": 1.3
+     },
+     {
+      "id": "technique",
+      "tipo": "engranaje",
+      "pos": [
+       0.8,
+       0.25
+      ],
+      "etiqueta": "La technique",
+      "escala": 1.2
+     },
+     {
+      "id": "pensee",
+      "tipo": "cerebro",
+      "pos": [
+       0.3,
+       0.2
+      ],
+      "etiqueta": "La pensée",
+      "escala": 1
+     },
+     {
+      "id": "locuteur",
+      "tipo": "monigote",
+      "pos": [
+       0.75,
+       0.75
+      ],
+      "etiqueta": "Le locuteur",
+      "escala": 1
+     },
+     {
+      "id": "esprit",
+      "tipo": "bombilla",
+      "pos": [
+       0.6,
+       0.45
+      ],
+      "etiqueta": "Esprit philosophique",
+      "escala": 0.8
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "langue"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "pensee"
+     },
+     {
+      "t": 2,
+      "accion": "une",
+      "de": "langue",
+      "a": "pensee",
+      "nota": "la langue façonne la pensée"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Une langue riche en nuances soutient une pensée riche."
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "technique"
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "locuteur"
+     },
+     {
+      "t": 7,
+      "accion": "dice",
+      "actor": "locuteur",
+      "texto": "J’ai besoin de réponses rapides et pratiques."
+     },
+     {
+      "t": 9,
+      "accion": "proyecta",
+      "de": "technique",
+      "a": "langue",
+      "nota": "intelligence instantanée"
+     },
+     {
+      "t": 10.5,
+      "accion": "tiembla",
+      "actor": "langue"
+     },
+     {
+      "t": 11,
+      "accion": "etiqueta",
+      "actor": "langue",
+      "texto": "800 à 1000 mots"
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "La langue se réduit à un simple véhicule de communication et perd richesse et subtilité."
+     },
+     {
+      "t": 15,
+      "accion": "etiqueta",
+      "actor": "pensee",
+      "texto": "Pensée appauvrie"
+     },
+     {
+      "t": 15.5,
+      "accion": "tiembla",
+      "actor": "pensee"
+     },
+     {
+      "t": 17,
+      "accion": "aparece",
+      "actor": "esprit"
+     },
+     {
+      "t": 18,
+      "accion": "piensa",
+      "actor": "locuteur",
+      "texto": "Penser en profondeur est dangereux et déplacé..."
+     },
+     {
+      "t": 20,
+      "accion": "desaparece",
+      "actor": "esprit"
+     },
+     {
+      "t": 21,
+      "accion": "cita",
+      "texto": "La technique elle-même exige une intelligence instantanée et pratique, ni réfléchie ni profonde"
+     },
+     {
+      "t": 23.5,
+      "accion": "subtitulo",
+      "texto": "Si la langue n’est qu’un instrument, elle finit par façonner notre manière de penser."
+     }
+    ]
+   }
+  },
+  {
+   "id": "heidegger",
+   "nombre": "Martin Heidegger",
+   "epoca": "XXe siècle",
+   "tesis_principal": "La technique peut asservir l’homme : elle lui livre des réponses toutes faites à des questions existentielles qu’il ne se pose pas et le dépossède de son essence, qui est de concevoir son existence de manière autonome.",
+   "ideas_clave": [
+    "La logique interne des procédés techniques peut contredire les fins que l’homme s’était données",
+    "Les questions existentielles sont déjà « résolues » par la technique (asservissement)",
+    "L’usager consomme sans s’interroger sur ses besoins, ses désirs ou ses valeurs",
+    "Exemple du cours : la vitesse comme valeur positive, et le stress qu’elle engendre",
+    "La technique procure une satisfaction immédiate et une réponse apparente à toute interrogation morale et existentielle"
+   ],
+   "citas": [
+    {
+     "texto": "à force de technique, nous ne percevons pas encore l’être essentiel de la technique",
+     "idioma": "fr",
+     "obra": "La question de la technique, in Essais et conférences",
+     "pagina_pdf": 116
+    }
+   ],
+   "debate_con": [
+    "grimaldi",
+    "mauss"
+   ],
+   "como_usarlo_en_disertacion": "Auteur central de la partie « la technique fait (asservit) l’homme » et de la critique de la confusion entre moyens et fins. On peut l’opposer à la deuxième partie (conditionnement ≠ asservissement) et à Grimaldi.",
+   "escena_sugerida": "Une grande figure technique donne à l’homme des réponses toutes faites tandis que la question qu’il ne s’est jamais posée disparaît.",
+   "pagina_pdf": 116,
+   "escena": {
+    "titulo": "Heidegger : des réponses à des questions qu’on ne se pose pas",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "homme",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.7
+      ],
+      "etiqueta": "L’usager",
+      "escala": 1.2
+     },
+     {
+      "id": "question",
+      "tipo": "interrogacion",
+      "pos": [
+       0.25,
+       0.3
+      ],
+      "etiqueta": "Mes vrais besoins ?",
+      "escala": 1
+     },
+     {
+      "id": "technique",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.78,
+       0.45
+      ],
+      "etiqueta": "La technique",
+      "escala": 1.5
+     },
+     {
+      "id": "reponses",
+      "tipo": "caja",
+      "pos": [
+       0.5,
+       0.65
+      ],
+      "etiqueta": "Réponses toutes faites",
+      "escala": 1
+     },
+     {
+      "id": "vitesse",
+      "tipo": "reloj",
+      "pos": [
+       0.55,
+       0.15
+      ],
+      "etiqueta": "Toujours plus vite",
+      "escala": 0.9
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "homme"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "question"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "L’homme est un être qui conçoit son existence de façon autonome, en s’interrogeant sur lui-même."
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "technique"
+     },
+     {
+      "t": 6.5,
+      "accion": "aparece",
+      "actor": "reponses"
+     },
+     {
+      "t": 7,
+      "accion": "proyecta",
+      "de": "technique",
+      "a": "reponses"
+     },
+     {
+      "t": 8.5,
+      "accion": "proyecta",
+      "de": "reponses",
+      "a": "homme",
+      "nota": "satisfaction immédiate"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "La technique a déjà répondu : elle produit des moyens adaptés à des fins que personne n’a questionnées."
+     },
+     {
+      "t": 12,
+      "accion": "desaparece",
+      "actor": "question"
+     },
+     {
+      "t": 12.5,
+      "accion": "dice",
+      "actor": "homme",
+      "texto": "Je n’ai qu’à utiliser et consommer."
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "vitesse"
+     },
+     {
+      "t": 15,
+      "accion": "piensa",
+      "actor": "homme",
+      "texto": "Plus vite, est-ce toujours mieux ?"
+     },
+     {
+      "t": 16.5,
+      "accion": "tiembla",
+      "actor": "homme"
+     },
+     {
+      "t": 18,
+      "accion": "subtitulo",
+      "texto": "Aller toujours plus vite semble une valeur positive, mais le stress nous fait oublier de vivre à notre rythme."
+     },
+     {
+      "t": 21,
+      "accion": "resalta",
+      "actor": "technique"
+     },
+     {
+      "t": 22,
+      "accion": "cita",
+      "texto": "à force de technique, nous ne percevons pas encore l’être essentiel de la technique"
+     },
+     {
+      "t": 25,
+      "accion": "subtitulo",
+      "texto": "Satisfait en apparence, l’homme est dépossédé de son essence : la technique l’asservit."
+     }
+    ]
+   }
+  },
+  {
+   "id": "grimaldi",
+   "nombre": "Nicolas Grimaldi",
+   "epoca": "XXe-XXIe siècle",
+   "tesis_principal": "La technique est la vocation de toute conscience humaine : elle est l’action de transformer intentionnellement la matière au moyen d’un instrument, et exprime la manière d’être au monde de la conscience libre et de ses désirs.",
+   "ideas_clave": [
+    "La technique est la figure concrète de la conscience et du désir (technique et désir)",
+    "Elle transforme intentionnellement la matière par la médiation d’un instrument (outil)",
+    "Le conditionnement technique n’est pas nécessairement un asservissement (comme l’air dont nous avons besoin pour vivre)",
+    "L’usage d’un objet est aussi symbolique : la voiture est un marqueur social (fonction symbolique)",
+    "S’il faut faire un procès, ce n’est pas celui de la technique mais celui du désir"
+   ],
+   "citas": [
+    {
+     "texto": "la technique est la vocation de toute conscience humaine",
+     "idioma": "fr",
+     "obra": "Le désir et le temps",
+     "pagina_pdf": 117
+    }
+   ],
+   "debate_con": [
+    "heidegger",
+    "spengler"
+   ],
+   "como_usarlo_en_disertacion": "Auteur clé pour la troisième partie (« dépasser » l’opposition) : la technique comme expression de la conscience et du désir. Il permet de nuancer Heidegger en distinguant conditionnement et esclavage.",
+   "escena_sugerida": "Une conscience humaine frappe une pierre avec un marteau et édifie une maison ; la technique apparaît comme le prolongement de son désir.",
+   "pagina_pdf": 117,
+   "escena": {
+    "titulo": "Grimaldi : la technique, vocation de la conscience",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "conscience",
+      "tipo": "cerebro",
+      "pos": [
+       0.15,
+       0.3
+      ],
+      "etiqueta": "La conscience",
+      "escala": 1.1
+     },
+     {
+      "id": "desir",
+      "tipo": "corazon",
+      "pos": [
+       0.15,
+       0.7
+      ],
+      "etiqueta": "Le désir",
+      "escala": 0.9
+     },
+     {
+      "id": "outil",
+      "tipo": "martillo",
+      "pos": [
+       0.45,
+       0.5
+      ],
+      "etiqueta": "L’instrument",
+      "escala": 1
+     },
+     {
+      "id": "matiere",
+      "tipo": "piedra",
+      "pos": [
+       0.7,
+       0.7
+      ],
+      "etiqueta": "La matière",
+      "escala": 1
+     },
+     {
+      "id": "maison",
+      "tipo": "casa",
+      "pos": [
+       0.88,
+       0.35
+      ],
+      "etiqueta": "Monde transformé",
+      "escala": 1.2
+     },
+     {
+      "id": "voiture",
+      "tipo": "caja",
+      "pos": [
+       0.5,
+       0.15
+      ],
+      "etiqueta": "La voiture",
+      "escala": 0.8
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "conscience"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "desir"
+     },
+     {
+      "t": 2,
+      "accion": "une",
+      "de": "desir",
+      "a": "conscience"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "L’homme est conscience et désir : il ne se contente pas de subir le monde, il veut le transformer."
+     },
+     {
+      "t": 5.5,
+      "accion": "aparece",
+      "actor": "matiere"
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "outil"
+     },
+     {
+      "t": 8,
+      "accion": "proyecta",
+      "de": "conscience",
+      "a": "outil",
+      "nota": "intention"
+     },
+     {
+      "t": 10,
+      "accion": "proyecta",
+      "de": "outil",
+      "a": "matiere",
+      "nota": "médiation"
+     },
+     {
+      "t": 11.5,
+      "accion": "tiembla",
+      "actor": "matiere"
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "La technique transforme intentionnellement la matière au moyen d’un instrument."
+     },
+     {
+      "t": 14,
+      "accion": "desaparece",
+      "actor": "matiere"
+     },
+     {
+      "t": 14.5,
+      "accion": "aparece",
+      "actor": "maison"
+     },
+     {
+      "t": 15.5,
+      "accion": "salta",
+      "actor": "maison"
+     },
+     {
+      "t": 16.5,
+      "accion": "cita",
+      "texto": "la technique est la vocation de toute conscience humaine"
+     },
+     {
+      "t": 19,
+      "accion": "aparece",
+      "actor": "voiture"
+     },
+     {
+      "t": 20,
+      "accion": "etiqueta",
+      "actor": "voiture",
+      "texto": "Marqueur social"
+     },
+     {
+      "t": 21,
+      "accion": "resalta",
+      "actor": "desir"
+     },
+     {
+      "t": 22.5,
+      "accion": "subtitulo",
+      "texto": "La technique est la figure concrète du désir : s’il y a quelque chose à juger, ce n’est pas la technique mais le désir."
+     }
+    ]
+   }
+  },
+  {
+   "id": "spengler",
+   "nombre": "Oswald Spengler",
+   "epoca": "XXe siècle",
+   "tesis_principal": "La technique exprime une procédure de conflit : si la conscience était en parfaite harmonie avec la nature, elle n’entreprendrait aucun changement ; la technique naît de son insatisfaction.",
+   "ideas_clave": [
+    "La technique suppose une « procédure de conflit » entre la conscience et la nature",
+    "Sans insatisfaction, la paix de l’identité ne produirait aucun changement",
+    "La conscience peut concevoir le réel autrement et faire surgir d’autres possibles",
+    "Première condition de la technique : l’imagination d’un objet absent qui nous fait sentir l’insuffisance de ce qui nous entoure"
+   ],
+   "citas": [
+    {
+     "texto": "une procédure de conflit",
+     "idioma": "fr",
+     "obra": "L’homme et la technique",
+     "pagina_pdf": 118
+    }
+   ],
+   "debate_con": [
+    "grimaldi"
+   ],
+   "como_usarlo_en_disertacion": "Dans la troisième partie (technique comme expression de la conscience et du désir) : il explique pourquoi la technique existe à partir de l’insatisfaction et de l’imagination. Il complète Grimaldi.",
+   "escena_sugerida": "Un homme en paix avec la nature ne change rien ; l’insatisfaction et l’imagination d’un objet absent le poussent à transformer.",
+   "pagina_pdf": 118,
+   "escena": {
+    "titulo": "Spengler : la technique, procédure de conflit",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "conscience",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.7
+      ],
+      "etiqueta": "La conscience",
+      "escala": 1.2
+     },
+     {
+      "id": "nature",
+      "tipo": "arbol",
+      "pos": [
+       0.7,
+       0.65
+      ],
+      "etiqueta": "La nature",
+      "escala": 1.3
+     },
+     {
+      "id": "paix",
+      "tipo": "sol",
+      "pos": [
+       0.5,
+       0.15
+      ],
+      "etiqueta": "Paix de l’identité",
+      "escala": 1
+     },
+     {
+      "id": "conflit",
+      "tipo": "rayo",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "etiqueta": "Insatisfaction",
+      "escala": 1
+     },
+     {
+      "id": "idee",
+      "tipo": "bombilla",
+      "pos": [
+       0.25,
+       0.25
+      ],
+      "etiqueta": "Objet absent",
+      "escala": 1
+     },
+     {
+      "id": "outil",
+      "tipo": "martillo",
+      "pos": [
+       0.5,
+       0.8
+      ],
+      "etiqueta": "Technique",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "conscience"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "nature"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "paix"
+     },
+     {
+      "t": 2,
+      "accion": "une",
+      "de": "conscience",
+      "a": "nature",
+      "nota": "harmonie totale"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Si la conscience était en parfaite harmonie avec la nature, elle ne changerait rien."
+     },
+     {
+      "t": 6,
+      "accion": "dice",
+      "actor": "conscience",
+      "texto": "Tout va bien... il n’y a rien à changer."
+     },
+     {
+      "t": 8,
+      "accion": "desaparece",
+      "actor": "paix"
+     },
+     {
+      "t": 9,
+      "accion": "aparece",
+      "actor": "conflit"
+     },
+     {
+      "t": 10,
+      "accion": "tiembla",
+      "actor": "conscience"
+     },
+     {
+      "t": 11,
+      "accion": "dice",
+      "actor": "conscience",
+      "texto": "Cela ne me suffit pas."
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "La technique naît de l’insatisfaction de la conscience face à ce qui l’entoure."
+     },
+     {
+      "t": 14.5,
+      "accion": "aparece",
+      "actor": "idee"
+     },
+     {
+      "t": 15.5,
+      "accion": "piensa",
+      "actor": "conscience",
+      "texto": "J’imagine quelque chose qui n’existe pas encore."
+     },
+     {
+      "t": 17.5,
+      "accion": "aparece",
+      "actor": "outil"
+     },
+     {
+      "t": 18.5,
+      "accion": "proyecta",
+      "de": "outil",
+      "a": "nature",
+      "nota": "transformer"
+     },
+     {
+      "t": 20,
+      "accion": "cita",
+      "texto": "une procédure de conflit"
+     },
+     {
+      "t": 22.5,
+      "accion": "subtitulo",
+      "texto": "La technique est une procédure de conflit : imaginer d’autres possibles du réel."
+     }
+    ]
+   }
+  },
+  {
+   "id": "valery",
+   "nombre": "Paul Valéry",
+   "epoca": "XIXe-XXe siècle",
+   "tesis_principal": "Lorsque le travail se mesure au rendement et remplace l’œuvre, l’organisation technique du travail, hiérarchique et pyramidale, sert de modèle à l’organisation politique et peut servir un régime totalitaire : la technique n’est pas neutre.",
+   "ideas_clave": [
+    "Le travail est un moyen de vivre ; l’œuvre est une raison de vivre (travail / œuvre)",
+    "Les grandes entreprises diminuent la personnalité de ceux qu’elles emploient, sauf au sommet",
+    "L’organisation politique tend à copier le modèle de l’industrie de grande puissance",
+    "Elle exige de simplifier les individus jusqu’à « la profondeur affective et intellectuelle »",
+    "Selon le corrigé, la technique peut avoir des fins politiques et être utilisée par un régime totalitaire"
+   ],
+   "citas": [
+    {
+     "texto": "Mais le travail est un moyen de vivre et rien de plus. L’œuvre est une raison de vivre et ce n’est pas la même chose.",
+     "idioma": "fr",
+     "obra": "Cahiers",
+     "pagina_pdf": 122
+    },
+    {
+     "texto": "la profondeur affective et intellectuelle",
+     "idioma": "fr",
+     "obra": "Cahiers",
+     "pagina_pdf": 125
+    }
+   ],
+   "debate_con": [
+    "heidegger"
+   ],
+   "como_usarlo_en_disertacion": "Pour ouvrir la dimension politique de la technique : l’organisation technique du travail comme modèle du pouvoir. Utile dans la dernière partie du plan ou dans une dissertation sur la neutralité de la technique.",
+   "escena_sugerida": "Les ouvriers perdent l’œuvre au profit du rendement et une figure centrale dirige tout le monde depuis le sommet d’une pyramide.",
+   "pagina_pdf": 122,
+   "escena": {
+    "titulo": "Valéry : du travail technique au pouvoir politique",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "ouvrier1",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.8
+      ],
+      "etiqueta": "L’ouvrier",
+      "escala": 1
+     },
+     {
+      "id": "ouvrier2",
+      "tipo": "monigote",
+      "pos": [
+       0.8,
+       0.8
+      ],
+      "etiqueta": "L’ouvrier",
+      "escala": 1
+     },
+     {
+      "id": "oeuvre",
+      "tipo": "flor",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": "L’œuvre",
+      "escala": 1
+     },
+     {
+      "id": "rendement",
+      "tipo": "engranaje",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "etiqueta": "Le rendement",
+      "escala": 1.2
+     },
+     {
+      "id": "chef",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.5,
+       0.15
+      ],
+      "etiqueta": "L’être central",
+      "escala": 1.3
+     },
+     {
+      "id": "couronne",
+      "tipo": "corona",
+      "pos": [
+       0.65,
+       0.1
+      ],
+      "etiqueta": "Pouvoir",
+      "escala": 0.7
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "ouvrier1"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "ouvrier2"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "oeuvre"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "L’œuvre est une raison de vivre ; le travail, seulement un moyen de vivre."
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "rendement"
+     },
+     {
+      "t": 6,
+      "accion": "proyecta",
+      "de": "rendement",
+      "a": "oeuvre"
+     },
+     {
+      "t": 7.5,
+      "accion": "desaparece",
+      "actor": "oeuvre"
+     },
+     {
+      "t": 8.5,
+      "accion": "dice",
+      "actor": "ouvrier1",
+      "texto": "Désormais, seul le rendement compte."
+     },
+     {
+      "t": 10,
+      "accion": "etiqueta",
+      "actor": "ouvrier1",
+      "texto": "Simple travail"
+     },
+     {
+      "t": 10.5,
+      "accion": "etiqueta",
+      "actor": "ouvrier2",
+      "texto": "Simple travail"
+     },
+     {
+      "t": 11.5,
+      "accion": "subtitulo",
+      "texto": "La grande entreprise diminue la personnalité des hommes qu’elle emploie, sauf au sommet."
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "chef"
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "couronne"
+     },
+     {
+      "t": 16,
+      "accion": "une",
+      "de": "chef",
+      "a": "ouvrier1"
+     },
+     {
+      "t": 16.5,
+      "accion": "une",
+      "de": "chef",
+      "a": "ouvrier2"
+     },
+     {
+      "t": 18,
+      "accion": "proyecta",
+      "de": "chef",
+      "a": "ouvrier1",
+      "nota": "ordre unique"
+     },
+     {
+      "t": 18.5,
+      "accion": "proyecta",
+      "de": "chef",
+      "a": "ouvrier2"
+     },
+     {
+      "t": 20,
+      "accion": "subtitulo",
+      "texto": "L’organisation politique copie la hiérarchie industrielle : les uns inventent, les autres exécutent."
+     },
+     {
+      "t": 22,
+      "accion": "cita",
+      "texto": "la profondeur affective et intellectuelle"
+     },
+     {
+      "t": 24.5,
+      "accion": "subtitulo",
+      "texto": "La technique n’est pas neutre : elle peut servir un régime totalitaire à affirmer sa domination."
+     }
+    ]
+   }
+  }
+ ],
+ "relaciones": [
+  {
+   "de": "heidegger",
+   "a": "grimaldi",
+   "tipo": "se opone",
+   "nota": "Heidegger voit dans la technique un risque d’asservissement ; Grimaldi, que le conditionnement n’est pas nécessairement un asservissement et qu’il exprime la conscience."
+  },
+  {
+   "de": "mauss",
+   "a": "tarde",
+   "tipo": "complementa",
+   "nota": "Mauss montre que la technique transforme le corps et les habitudes ; Tarde, que cela homogénéise les modes de vie."
+  },
+  {
+   "de": "tarde",
+   "a": "flam",
+   "tipo": "complementa",
+   "nota": "Uniformisation des comportements (Tarde) et appauvrissement de la langue et de la pensée (Flam)."
+  },
+  {
+   "de": "flam",
+   "a": "heidegger",
+   "tipo": "complementa",
+   "nota": "Une langue instrumentale et une technique qui livre des réponses toutes faites conduisent à la même perte de réflexion."
+  },
+  {
+   "de": "spengler",
+   "a": "grimaldi",
+   "tipo": "complementa",
+   "nota": "L’insatisfaction de la conscience (Spengler) explique pourquoi la technique est sa vocation et son désir (Grimaldi)."
+  },
+  {
+   "de": "valery",
+   "a": "heidegger",
+   "tipo": "complementa",
+   "nota": "Tous deux voient que la technique a des conséquences existentielles, politiques et sociales : elle n’est pas neutre."
+  },
+  {
+   "de": "levi-strauss",
+   "a": "efficacite",
+   "tipo": "complementa",
+   "nota": "Il distingue l’artisan, qui maîtrise le procédé, du bricoleur qui improvise, et précise la spécificité de la technique."
+  },
+  {
+   "de": "heidegger",
+   "a": "rationalisme-moyens",
+   "tipo": "complementa",
+   "nota": "Confondre fin et moyen, c’est laisser la technique répondre à notre place aux questions existentielles."
+  },
+  {
+   "de": "grimaldi",
+   "a": "technique-desir",
+   "tipo": "influye",
+   "nota": "Grimaldi fait de la technique la figure concrète de la conscience et du désir."
+  },
+  {
+   "de": "mauss",
+   "a": "asservissement",
+   "tipo": "influye",
+   "nota": "Le conditionnement corporel et des habitudes est à la base de la thèse de l’asservissement."
+  }
+ ],
+ "quiz": [
+  {
+   "pregunta": "Toute technique implique…",
+   "opciones": [
+    "de l’imagination seule",
+    "des connaissances (théorie) et de la production (action)",
+    "uniquement de l’expérience empirique",
+    "uniquement de la production"
+   ],
+   "correcta": 1,
+   "explicacion": "Le cours dit que toute activité technique est liée à la fois à la connaissance (théorie) et à l’action (production).",
+   "filosofo": null,
+   "pagina_pdf": 113
+  },
+  {
+   "pregunta": "Quelle est l’exigence première de toute technique ?",
+   "opciones": [
+    "La rentabilité",
+    "L’efficacité",
+    "L’économie",
+    "La beauté"
+   ],
+   "correcta": 1,
+   "explicacion": "L’exigence technique spécifique est l’efficacité, liée aux principes d’économie et de rendement.",
+   "filosofo": null,
+   "pagina_pdf": 113
+  },
+  {
+   "pregunta": "Le bricoleur… :",
+   "opciones": [
+    "improvise",
+    "applique une méthode rigoureuse",
+    "conçoit à l’avance le plan complet",
+    "transmet son savoir-faire à des apprentis"
+   ],
+   "correcta": 0,
+   "explicacion": "Selon Lévi-Strauss, le bricoleur n’a pas de véritable méthode, il se « débrouille » avec les outils qu’il a et improvise.",
+   "filosofo": "levi-strauss",
+   "pagina_pdf": 113
+  },
+  {
+   "pregunta": "Quel type de rationalisme montre la technique ?",
+   "opciones": [
+    "D’invention",
+    "De principes",
+    "De fonctionnement",
+    "De contemplation"
+   ],
+   "correcta": 2,
+   "explicacion": "La rationalité technique est un rationalisme de fonctionnement : usage calculé des moyens les plus opératoires.",
+   "filosofo": null,
+   "pagina_pdf": 114
+  },
+  {
+   "pregunta": "Pour l’homme, de quoi la technique est-elle la condition ?",
+   "opciones": [
+    "Sa survie",
+    "Son bonheur",
+    "Son progrès",
+    "Sa liberté politique"
+   ],
+   "correcta": 0,
+   "explicacion": "Le cours affirme que la technique est la condition de possibilité de la survie de l’homme dans une nature hostile.",
+   "filosofo": "mauss",
+   "pagina_pdf": 115
+  },
+  {
+   "pregunta": "La technique uniformise… (plusieurs réponses possibles dans le livre) :",
+   "opciones": [
+    "les imaginations",
+    "les façons de penser et les comportements",
+    "seulement les langues",
+    "seulement les religions"
+   ],
+   "correcta": 1,
+   "explicacion": "Le corrigé du manuel admet b et c : la technique neutralise les comportements et les manières de penser en les rendant uniformes.",
+   "filosofo": "tarde",
+   "pagina_pdf": 115
+  },
+  {
+   "pregunta": "Selon Tarde, quel historien aurait été surpris par l’uniformité de nos sociétés ?",
+   "opciones": [
+    "Michelet",
+    "Hérodote",
+    "Braudel",
+    "Tocqueville"
+   ],
+   "correcta": 1,
+   "explicacion": "Tarde affirme que cette uniformité « eût paru si surprenante à Hérodote ».",
+   "filosofo": "tarde",
+   "pagina_pdf": 115
+  },
+  {
+   "pregunta": "En plus d’être utile, une voiture est… :",
+   "opciones": [
+    "un marqueur social",
+    "un signe de progrès",
+    "un objet de prestige",
+    "un symbole religieux"
+   ],
+   "correcta": 0,
+   "explicacion": "L’usage d’un objet est aussi symbolique : la voiture est un marqueur social et le signe de la classe d’appartenance.",
+   "filosofo": "grimaldi",
+   "pagina_pdf": 117
+  },
+  {
+   "pregunta": "Selon Spengler, quelle procédure la technique suppose-t-elle ?",
+   "opciones": [
+    "D’apaisement",
+    "De régulation",
+    "De conflit",
+    "De négociation"
+   ],
+   "correcta": 2,
+   "explicacion": "Spengler : la technique exprime « une procédure de conflit » ; si la conscience était en paix avec la nature, elle ne changerait rien.",
+   "filosofo": "spengler",
+   "pagina_pdf": 118
+  },
+  {
+   "pregunta": "Quelle stratégie la technique implique-t-elle ?",
+   "opciones": [
+    "Militaire",
+    "Existentielle",
+    "Politique",
+    "Économique"
+   ],
+   "correcta": 1,
+   "explicacion": "Le cours parle d’une « véritable stratégie existentielle », une métaphysique de l’action faustienne.",
+   "filosofo": null,
+   "pagina_pdf": 118
+  },
+  {
+   "pregunta": "Selon le cours, que ne fixe jamais la technique à l’homme ?",
+   "opciones": [
+    "Les moyens",
+    "Les fins",
+    "Les outils",
+    "Les procédés"
+   ],
+   "correcta": 1,
+   "explicacion": "La technique ne peut jamais assigner de fins aux hommes : elle peut seulement les aider à réaliser leurs objectifs ; les fins relèvent de la morale.",
+   "filosofo": null,
+   "pagina_pdf": 114
+  },
+  {
+   "pregunta": "Selon Heidegger, que fait la technique pour l’usager ?",
+   "opciones": [
+    "Elle l’oblige à s’interroger sur ses valeurs",
+    "Elle fournit des réponses toutes faites à des fins non questionnées",
+    "Elle l’éduque à la liberté",
+    "Elle abolit ses besoins"
+   ],
+   "correcta": 1,
+   "explicacion": "Pour Heidegger, les questions existentielles sont déjà résolues par la technique et l’usager n’a plus qu’à consommer sans s’interroger.",
+   "filosofo": "heidegger",
+   "pagina_pdf": 116
+  }
+ ],
+ "preguntas_abiertas": [
+  {
+   "enunciado": "En quoi la technique se distingue-t-elle de la science et de l’artisanat ?",
+   "puntos_clave": [
+    "Définition : ensemble de procédés codifiés permettant d’atteindre régulièrement certains objectifs",
+    "Liée à la fois à la théorie (connaissance) et à la production (action), avec l’exemple de l’électrotechnique",
+    "Ce n’est pas un savoir pur comme les mathématiques : c’est une représentation préalable d’opérations en vue d’un effet défini (plan de l’amplificateur)",
+    "Son exigence propre est l’efficacité (économie et rendement)",
+    "L’artisanat est empirique et se transmet de génération en génération ; le bricoleur de Lévi-Strauss improvise"
+   ],
+   "filosofos": [
+    "levi-strauss"
+   ],
+   "pagina_pdf": 113
+  },
+  {
+   "enunciado": "La technique est-elle neutre sur le plan moral ?",
+   "puntos_clave": [
+    "La rationalité technique est un rationalisme de moyens : elle vise l’efficacité sans se soucier de la bonté de la fin",
+    "Il faut distinguer le domaine technique (efficacité) et le domaine moral (valeurs supérieures)",
+    "Exemples du cours : les usages de la technique par les nazis et la sélection génétique (Gattaca)",
+    "Confondre moyens et fins, c’est se laisser abuser par l’instrument ; la technique n’assigne pas de fins",
+    "Valéry : la technique n’est pas neutre et peut servir un régime totalitaire"
+   ],
+   "filosofos": [
+    "valery",
+    "heidegger"
+   ],
+   "pagina_pdf": 116
+  },
+  {
+   "enunciado": "La technique asservit-elle l’homme ?",
+   "puntos_clave": [
+    "Heidegger : la technique apporte des réponses à des questions que nous ne nous posons pas et dépossède l’homme de son autonomie existentielle",
+    "Mauss, Tarde et Flam : elle conditionne les comportements et la pensée et les uniformise",
+    "Nuance : conditionnement n’est pas asservissement (l’air comme condition de survie)",
+    "L’usage est aussi symbolique (la voiture comme marqueur social) et l’IA peut sauver des vies",
+    "Grimaldi : la technique est expression de la conscience et du désir ; c’est au désir qu’il faut faire le procès"
+   ],
+   "filosofos": [
+    "heidegger",
+    "mauss",
+    "grimaldi"
+   ],
+   "pagina_pdf": 117
+  },
+  {
+   "enunciado": "Pourquoi l’homme a-t-il recours à la technique ? Que révèle-t-elle de la conscience et du désir ?",
+   "puntos_clave": [
+    "Grimaldi : la technique est la vocation de toute conscience humaine (transformer intentionnellement la matière avec un instrument)",
+    "Spengler : la technique est une procédure de conflit ; elle naît de l’insatisfaction de la conscience",
+    "Première condition : imaginer un objet absent qui révèle l’insuffisance de ce qui nous entoure",
+    "L’innovation incessante exprime le caractère irrépressible des désirs",
+    "Dépasser le « pour ou contre » : vocation ontologique et métaphysique de la technique"
+   ],
+   "filosofos": [
+    "grimaldi",
+    "spengler"
+   ],
+   "pagina_pdf": 118
+  }
+ ],
+ "disertaciones": [
+  {
+   "sujeto": "Est-ce l’homme qui fait la technique ou la technique qui fait l’homme ?",
+   "tipo_plan": "dialectique",
+   "problematica": "Il faut préciser « technique », « homme » et « faire », et se demander si les deux propositions s’excluent. L’homme produit la technique, mais celle-ci le façonne et le conditionne ; peut-être peut-on affirmer les deux sans contradiction si la technique est expression de la conscience et du désir.",
+   "plan": [
+    {
+     "parte": "I. L’homme fait la technique",
+     "idea": "La technique est une activité humaine : l’homme fabrique et perfectionne des outils en anticipant des fins, à la différence des singes ; la technique se distingue de la science et de l’artisanat.",
+     "autores": [
+      "levi-strauss",
+      "grimaldi"
+     ],
+     "ejemplo": "La permanence de l’outil face aux singes qui assemblent deux bâtons de façon momentanée."
+    },
+    {
+     "parte": "II. La technique fait l’homme",
+     "idea": "La technique façonne les comportements, uniformise la pensée et peut asservir l’homme en lui livrant des réponses toutes faites.",
+     "autores": [
+      "mauss",
+      "tarde",
+      "flam",
+      "heidegger"
+     ],
+     "ejemplo": "Les chaussures qui transforment la position des pieds ; le « français moyen » ; la vitesse comme valeur."
+    },
+    {
+     "parte": "III. La technique, expression de la conscience et du désir",
+     "idea": "Conditionner n’est pas asservir : la technique est la figure concrète de la conscience et de ses désirs, et le procès doit être fait au désir plus qu’à la technique.",
+     "autores": [
+      "grimaldi",
+      "spengler"
+     ],
+     "ejemplo": "La voiture comme marqueur social ; l’IA qui prédit les arrêts cardiaques."
+    }
+   ],
+   "pagina_pdf": 124
+  },
+  {
+   "sujeto": "La technique n’a-t-elle pas tendance à asservir l’homme plutôt qu’à le servir ?",
+   "tipo_plan": "dialectique",
+   "problematica": "La technique semble libérer l’homme d’une nature hostile, mais sa logique interne peut lui imposer des réponses et l’uniformiser. Il s’agit de savoir si le conditionnement technique équivaut à un asservissement ou si tout dépend de nos désirs.",
+   "plan": [
+    {
+     "parte": "I. La technique, condition de survie de l’homme",
+     "idea": "L’homme ne peut exister sans technique ni travail ; c’est sa manière de rendre son environnement moins hostile.",
+     "autores": [
+      "mauss",
+      "grimaldi"
+     ],
+     "ejemplo": "Génie civil, architecture avec logiciels, IA qui prédit les arrêts cardiaques."
+    },
+    {
+     "parte": "II. Le risque de l’asservissement",
+     "idea": "La technique modèle les comportements, appauvrit la langue et dépossède l’homme de son autonomie existentielle.",
+     "autores": [
+      "tarde",
+      "flam",
+      "heidegger"
+     ],
+     "ejemplo": "Le stress d’aller toujours plus vite ; le français moyen."
+    },
+    {
+     "parte": "III. Juger le désir plus que la technique",
+     "idea": "L’asservissement doit être nuancé : l’usage est symbolique et la technique exprime la qualité de nos désirs ; il faut réfléchir sur eux et sur leurs conséquences morales, métaphysiques et politiques.",
+     "autores": [
+      "grimaldi",
+      "spengler",
+      "valery"
+     ],
+     "ejemplo": "La voiture comme marqueur social ; l’organisation technique du travail comme modèle politique (Valéry)."
+    }
+   ],
+   "pagina_pdf": 125
+  },
+  {
+   "sujeto": "La technique est-elle moralement neutre ?",
+   "tipo_plan": "progressif",
+   "problematica": "La technique en soi ne recherche que l’efficacité et est indifférente aux fins, mais son usage a des conséquences morales et politiques dramatiques. On peut se demander si une technique apparemment neutre ne porte pas en elle des fins et une vision de l’homme.",
+   "plan": [
+    {
+     "parte": "I. La technique est amorale",
+     "idea": "Le développement rationnel de la technique est indifférent aux valeurs morales : c’est un rationalisme de moyens qui suppose seulement l’efficacité.",
+     "autores": [
+      "levi-strauss"
+     ],
+     "ejemplo": "Le plan d’un amplificateur qui ne vise que le bon fonctionnement du produit."
+    },
+    {
+     "parte": "II. Mais son usage ne l’est pas",
+     "idea": "Le danger réside dans l’usage qu’en fait l’homme ; la technique peut être utilisée à des fins dramatiques et soulève des questions éthiques.",
+     "autores": [
+      "valery"
+     ],
+     "ejemplo": "La technique utilisée par les nazis ; les biotechnologies et Gattaca ; l’organisation politique copiant l’industrie (Valéry)."
+    },
+    {
+     "parte": "III. Il faut interroger les fins",
+     "idea": "Distinguer moyen et fin : il faut penser la portée morale, ontologique et métaphysique de la technique sans s’en tenir au « pour ou contre ».",
+     "autores": [
+      "heidegger",
+      "grimaldi"
+     ],
+     "ejemplo": "La vitesse n’est pas nécessairement une valeur positive."
+    }
+   ],
+   "pagina_pdf": 116
+  }
+ ]
+}

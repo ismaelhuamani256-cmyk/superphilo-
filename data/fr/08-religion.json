@@ -1,0 +1,2611 @@
+{
+ "id": "religion",
+ "numero": 8,
+ "titulo": "La religion",
+ "titulo_es": "La religión",
+ "resumen": "La religion est à la fois un fait social universel (institutions, rites, culte) et une expérience personnelle face à un absolu qui fascine, effraie et inspire le respect. Le cours examine les preuves de l'existence de Dieu (finalité, contingence, preuve ontologique) et leurs critiques, et se demande si l'expérience religieuse est une illusion (Freud, Marx, Feuerbach, Nietzsche) ou une valeur (Pascal, Voltaire).",
+ "paginas": {
+  "inicio": 140,
+  "fin": 153
+ },
+ "puntos_incontournables": [
+  "La religion comme institution sociale structurée : une organisation avec des rites et des pratiques communautaires (institution, rites)",
+  "Le sentiment religieux et les rites : le croyant croit en un ordre supérieur auquel les rites donnent un accès provisoire ; fascination, crainte et respect (sacré, numineux)",
+  "La religion comme affaire personnelle : la croyance en Dieu vécue comme une expérience existentielle aux conséquences morales et politiques (expérience personnelle)",
+  "« La religion est l'opium du peuple » (Marx) : la croyance en Dieu est une illusion que les religions entretiennent pour soumettre les hommes aux pouvoirs terrestres (illusion, aliénation)",
+  "L'existence de Dieu en débat : les diverses preuves reposent sur des arguments qui ont été discutés et remis en cause par certains penseurs (preuves de l'existence de Dieu)"
+ ],
+ "nociones_clave": [
+  "religion",
+  "sacré",
+  "profane",
+  "rite",
+  "culte",
+  "foi",
+  "superstition",
+  "monothéisme",
+  "polythéisme",
+  "hérésie",
+  "orthodoxie",
+  "herméneutique",
+  "numineux",
+  "mysterium tremendum",
+  "mysterium fascinans",
+  "contingence",
+  "preuve ontologique",
+  "prédicat",
+  "illusion",
+  "aliénation"
+ ],
+ "problematicas_bac": [
+  "L'homme peut-il se passer de religion ?",
+  "N'est-ce pas pour un homme une façon d'assumer toute son humanité que de refuser l'aliénation religieuse ?",
+  "L'athéisme radical n'aboutit-il pas nécessairement à la perte de toute valeur morale ?",
+  "Se pourrait-il que le monde ne soit que le fruit du hasard ?",
+  "L'expérience religieuse est-elle une illusion ou une valeur ?"
+ ],
+ "conceptos": [
+  {
+   "id": "fait-social",
+   "nombre": "Fait social universel",
+   "definicion": "Toute religion est d'abord un phénomène social organisé, présent dans toutes les sociétés humaines ; religio évoque le lien entre les hommes et avec le divin.",
+   "pagina_pdf": 141,
+   "autores": [
+    "durkheim",
+    "bergson"
+   ]
+  },
+  {
+   "id": "sacre-profane-rites",
+   "nombre": "Sacré, profane et rites",
+   "definicion": "Les rites structurent le temps et l'espace du croyant et lui donnent un accès provisoire à une réalité sacrée qui transcende le monde profane (fêtes, rites de passage).",
+   "pagina_pdf": 143,
+   "autores": [
+    "durkheim"
+   ]
+  },
+  {
+   "id": "sentiment-religieux",
+   "nombre": "Le sentiment religieux",
+   "definicion": "Émotion religieuse pure, distincte des croyances ou de la théologie : ambivalence entre le mystère qui fait trembler et le mystère qui fascine, auxquels s'ajoute le respect.",
+   "pagina_pdf": 144,
+   "autores": [
+    "otto"
+   ]
+  },
+  {
+   "id": "preuves-existence",
+   "nombre": "Les preuves de l'existence de Dieu",
+   "definicion": "Trois types de preuves : par la finalité (ordre du monde), par la contingence (chaîne des causes) et ontologique (idée de l'être parfait) ; toutes ont été critiquées.",
+   "pagina_pdf": 144,
+   "autores": [
+    "aquin",
+    "descartes",
+    "kant",
+    "voltaire"
+   ]
+  },
+  {
+   "id": "desenchantement",
+   "nombre": "Le désenchantement du monde",
+   "definicion": "Selon Gauchet, en Occident la foi a cessé d'encadrer les modes de vie : Dieu n'est pas mort, il est à l'horizon mais n'est plus dans les pratiques quotidiennes ; le sacré migre vers l'espace profane.",
+   "pagina_pdf": 143,
+   "autores": []
+  },
+  {
+   "id": "illusion-religieuse",
+   "nombre": "La religion comme illusion",
+   "definicion": "Thèse selon laquelle les hommes ont créé les dieux par faiblesse, angoisse ou aliénation : Dieu comme père protecteur, opium, projection ou refuge des faibles.",
+   "pagina_pdf": 147,
+   "autores": [
+    "freud",
+    "marx",
+    "feuerbach",
+    "nietzsche"
+   ]
+  },
+  {
+   "id": "valeur-religieuse",
+   "nombre": "La religion comme valeur",
+   "definicion": "Dieu donne un sens à la vie (Pascal) et garantit le respect de la morale et des lois (Voltaire) ; la croyance répond à un besoin existentiel et civil.",
+   "pagina_pdf": 146,
+   "autores": [
+    "pascal",
+    "voltaire"
+   ]
+  }
+ ],
+ "filosofos": [
+  {
+   "id": "durkheim",
+   "nombre": "Émile Durkheim",
+   "epoca": "XIXe-XXe siècles",
+   "tesis_principal": "La religion est un système de croyances et de pratiques relatives au sacré qui unit en une même communauté morale ceux qui y adhèrent ; elle crée de la cohésion sociale.",
+   "ideas_clave": [
+    "La religion est un phénomène social organisé, présent dans toute société (fait social)",
+    "Système de croyances et de pratiques relatives à des choses sacrées (choses sacrées)",
+    "Elle unit les fidèles en une communauté morale (communauté morale)",
+    "Le culte, la liturgie et les rites visent une unité spirituelle et la cohésion sociale (culte, cohésion sociale)"
+   ],
+   "citas": [
+    {
+     "texto": "La religion est un système […] de croyances et de pratiques […] relatives à des choses sacrées […] qui unissent en une même […] communauté morale tous ceux […] qui y adhèrent.",
+     "idioma": "fr",
+     "obra": "Les formes élémentaires de la vie religieuse",
+     "pagina_pdf": 142
+    }
+   ],
+   "debate_con": [
+    "bergson"
+   ],
+   "como_usarlo_en_disertacion": "Utile dans une première partie pour montrer que la religion est avant tout une institution sociale qui crée du lien et de la cohésion. Sert de point de départ face à des sujets comme « L'homme peut-il se passer de religion ? » pour analyser sa fonction collective.",
+   "escena_sugerida": "Des personnes dispersées se rassemblent autour du sacré et se trouvent unies en une communauté.",
+   "pagina_pdf": 142,
+   "escena": {
+    "titulo": "Durkheim : la religion unit la communauté",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "a",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.72
+      ],
+      "etiqueta": "Individu",
+      "escala": 1
+     },
+     {
+      "id": "b",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.82
+      ],
+      "etiqueta": "Individu",
+      "escala": 1
+     },
+     {
+      "id": "c",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.72
+      ],
+      "etiqueta": "Individu",
+      "escala": 1
+     },
+     {
+      "id": "sacre",
+      "tipo": "estrella",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Le sacré",
+      "escala": 1.3
+     },
+     {
+      "id": "temple",
+      "tipo": "casa",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "etiqueta": "Le culte",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "a"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "b"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "c"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": "Chacun vit isolé, sans lien qui l'unisse aux autres."
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "sacre"
+     },
+     {
+      "t": 5.5,
+      "accion": "resalta",
+      "actor": "sacre"
+     },
+     {
+      "t": 6,
+      "accion": "subtitulo",
+      "texto": "Un groupe reconnaît quelque chose comme sacré et s'organise autour de lui."
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "temple"
+     },
+     {
+      "t": 9,
+      "accion": "mueve",
+      "actor": "a",
+      "a": [
+       0.3,
+       0.75
+      ],
+      "dur": 2
+     },
+     {
+      "t": 9,
+      "accion": "mueve",
+      "actor": "c",
+      "a": [
+       0.7,
+       0.75
+      ],
+      "dur": 2
+     },
+     {
+      "t": 9,
+      "accion": "mueve",
+      "actor": "b",
+      "a": [
+       0.5,
+       0.8
+      ],
+      "dur": 2
+     },
+     {
+      "t": 11.5,
+      "accion": "une",
+      "de": "a",
+      "a": "b",
+      "nota": "croyances partagées"
+     },
+     {
+      "t": 12.5,
+      "accion": "une",
+      "de": "b",
+      "a": "c",
+      "nota": "pratiques communes"
+     },
+     {
+      "t": 14,
+      "accion": "proyecta",
+      "de": "sacre",
+      "a": "b",
+      "nota": "choses sacrées"
+     },
+     {
+      "t": 15,
+      "accion": "subtitulo",
+      "texto": "Le culte et les rites renforcent l'unité spirituelle du groupe."
+     },
+     {
+      "t": 17,
+      "accion": "cita",
+      "texto": "La religion est un système de croyances et de pratiques relatives à des choses sacrées"
+     },
+     {
+      "t": 20,
+      "accion": "dice",
+      "actor": "b",
+      "texto": "Nous formons une même communauté morale"
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "Pour Durkheim, la religion est avant tout ce qui crée la cohésion sociale."
+     }
+    ]
+   }
+  },
+  {
+   "id": "bergson",
+   "nombre": "Henri Bergson",
+   "epoca": "XIXe-XXe siècles",
+   "tesis_principal": "Il n'y a jamais eu de société sans religion, mais la religion ne se réduit pas à l'institution : sa source originelle est le mysticisme, une expérience personnelle qui sert de modèle moral et existentiel.",
+   "ideas_clave": [
+    "Universalité : il n'y a jamais eu de société sans religion (fait social)",
+    "Le mysticisme est la source première des religions institutionnalisées (mysticisme)",
+    "Le mysticisme précède l'organisation structurée et est indépendant de la tradition, de la théologie et des églises",
+    "Les mystiques sont des modèles pour chaque pratiquant (modèles moraux et existentiels)"
+   ],
+   "citas": [
+    {
+     "texto": "Mais il n'y a jamais eu de société […] sans religion.",
+     "idioma": "fr",
+     "obra": "Les deux sources de la morale et de la religion",
+     "pagina_pdf": 141
+    },
+    {
+     "texto": "Le mysticisme a un contenu […] original puisé directement à […] la source même de la religion,",
+     "idioma": "fr",
+     "obra": "Les deux sources de la morale et de la religion",
+     "pagina_pdf": 142
+    }
+   ],
+   "debate_con": [
+    "durkheim"
+   ],
+   "como_usarlo_en_disertacion": "Sert à nuancer la thèse de la religion comme simple institution : dans une partie montrant que la religion est aussi expérience personnelle et modèle éthique. Utile pour des sujets sur la nécessité ou l'essence de la religion.",
+   "escena_sugerida": "Un mystique vit une expérience directe ; ensuite naît autour de lui l'institution, avec ses livres et son église.",
+   "pagina_pdf": 142,
+   "escena": {
+    "titulo": "Bergson : le mysticisme, source de la religion",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "mystique",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.72
+      ],
+      "etiqueta": "Le mystique",
+      "escala": 1.1
+     },
+     {
+      "id": "source",
+      "tipo": "fuego",
+      "pos": [
+       0.2,
+       0.3
+      ],
+      "etiqueta": "La source",
+      "escala": 1.2
+     },
+     {
+      "id": "eglise",
+      "tipo": "casa",
+      "pos": [
+       0.6,
+       0.45
+      ],
+      "etiqueta": "Les églises",
+      "escala": 1.2
+     },
+     {
+      "id": "livre",
+      "tipo": "libro",
+      "pos": [
+       0.85,
+       0.45
+      ],
+      "etiqueta": "La théologie",
+      "escala": 1
+     },
+     {
+      "id": "fidele",
+      "tipo": "monigote",
+      "pos": [
+       0.65,
+       0.8
+      ],
+      "etiqueta": "Le pratiquant",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "mystique"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Avant toute institution, quelqu'un vit la religion à la première personne."
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "source"
+     },
+     {
+      "t": 4,
+      "accion": "proyecta",
+      "de": "source",
+      "a": "mystique",
+      "nota": "expérience directe"
+     },
+     {
+      "t": 6,
+      "accion": "salta",
+      "actor": "mystique"
+     },
+     {
+      "t": 7,
+      "accion": "dice",
+      "actor": "mystique",
+      "texto": "Je la vis directement, sans intermédiaire"
+     },
+     {
+      "t": 10,
+      "accion": "aparece",
+      "actor": "eglise"
+     },
+     {
+      "t": 11,
+      "accion": "aparece",
+      "actor": "livre"
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "Viennent ensuite la tradition, la théologie et les églises : la religion structurée."
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "fidele"
+     },
+     {
+      "t": 16,
+      "accion": "une",
+      "de": "fidele",
+      "a": "eglise"
+     },
+     {
+      "t": 17,
+      "accion": "piensa",
+      "actor": "fidele",
+      "texto": "Je veux imiter le mystique"
+     },
+     {
+      "t": 18.5,
+      "accion": "une",
+      "de": "mystique",
+      "a": "fidele",
+      "nota": "modèle"
+     },
+     {
+      "t": 20,
+      "accion": "cita",
+      "texto": "Le mysticisme a un contenu original puisé directement à la source même de la religion"
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "Pour Bergson, le mysticisme est la source première ; l'institution vient après."
+     }
+    ]
+   }
+  },
+  {
+   "id": "otto",
+   "nombre": "Rudolf Otto",
+   "epoca": "XIXe-XXe siècles",
+   "tesis_principal": "Le sentiment religieux est une pure émotion, le numineux : dépendance et effroi devant une puissance cosmique qui suscite pourtant l'adoration. C'est un mélange de mysterium tremendum et de mysterium fascinans.",
+   "ideas_clave": [
+    "Le sentiment religieux se distingue des croyances, des jugements moraux et de la spéculation théologique",
+    "Numineux (numineux, du latin numen, la divinité) : dépendance et effroi devant une puissance invisible",
+    "Trois composantes : fascination, crainte et respect devant l'absolu",
+    "Émotion ambivalente : mysterium tremendum (mystère qui fait trembler) et mysterium fascinans (mystère qui fascine)"
+   ],
+   "citas": [],
+   "debate_con": [
+    "durkheim"
+   ],
+   "como_usarlo_en_disertacion": "Pour décrire la dimension émotionnelle et vécue de la croyance, distincte de l'institution ou de la preuve rationnelle. Utile pour des sujets sur l'expérience religieuse ou sur ce que signifie croire.",
+   "escena_sugerida": "Un croyant tremble devant une figure immense, mais se sent irrésistiblement attiré.",
+   "pagina_pdf": 144,
+   "escena": {
+    "titulo": "Otto : le numineux, entre crainte et fascination",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "croyant",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.75
+      ],
+      "etiqueta": "Le croyant",
+      "escala": 1
+     },
+     {
+      "id": "absolu",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.72,
+       0.5
+      ],
+      "etiqueta": "Le numineux",
+      "escala": 1.6
+     },
+     {
+      "id": "eclair",
+      "tipo": "rayo",
+      "pos": [
+       0.5,
+       0.3
+      ],
+      "escala": 1
+     },
+     {
+      "id": "coeur",
+      "tipo": "corazon",
+      "pos": [
+       0.3,
+       0.55
+      ],
+      "escala": 0.8
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "croyant"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Un croyant se trouve face à une présence qui le dépasse."
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "absolu"
+     },
+     {
+      "t": 4,
+      "accion": "etiqueta",
+      "actor": "absolu",
+      "texto": "Puissance invisible"
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "eclair"
+     },
+     {
+      "t": 5.5,
+      "accion": "tiembla",
+      "actor": "croyant"
+     },
+     {
+      "t": 6,
+      "accion": "etiqueta",
+      "actor": "croyant",
+      "texto": "Mysterium tremendum"
+     },
+     {
+      "t": 7,
+      "accion": "dice",
+      "actor": "croyant",
+      "texto": "Il me fait trembler d'effroi !"
+     },
+     {
+      "t": 9,
+      "accion": "subtitulo",
+      "texto": "C'est un sentiment de dépendance et d'effroi devant une puissance cosmique."
+     },
+     {
+      "t": 13,
+      "accion": "desaparece",
+      "actor": "eclair"
+     },
+     {
+      "t": 14,
+      "accion": "mueve",
+      "actor": "croyant",
+      "a": [
+       0.45,
+       0.75
+      ],
+      "dur": 3
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "coeur"
+     },
+     {
+      "t": 16,
+      "accion": "etiqueta",
+      "actor": "croyant",
+      "texto": "Mysterium fascinans"
+     },
+     {
+      "t": 17,
+      "accion": "dice",
+      "actor": "croyant",
+      "texto": "Et pourtant, je ne peux m'empêcher de le regarder"
+     },
+     {
+      "t": 19,
+      "accion": "proyecta",
+      "de": "croyant",
+      "a": "absolu",
+      "nota": "adoration, vénération"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Pour Otto, le religieux est cette émotion ambivalente : crainte et fascination à la fois."
+     }
+    ]
+   }
+  },
+  {
+   "id": "aquin",
+   "nombre": "Thomas d'Aquin",
+   "epoca": "XIIIe siècle",
+   "tesis_principal": "L'univers est contingent : en remontant la chaîne des causes, on arrive à une cause première qui ne peut être que Dieu, car seul un être infini peut penser l'infini.",
+   "ideas_clave": [
+    "L'univers est contingent : il n'a pas en lui sa raison d'être (contingence)",
+    "Question clé : pourquoi y a-t-il quelque chose plutôt que rien ?",
+    "Argument de l'enchaînement des causes (enchaînement des causes)",
+    "La cause première, responsable de tout le contenu de l'univers, est Dieu",
+    "Critique du cours : s'arrêter à une cause sans cause suspend arbitrairement l'usage légitime de la causalité"
+   ],
+   "citas": [],
+   "debate_con": [
+    "descartes",
+    "kant"
+   ],
+   "como_usarlo_en_disertacion": "Dans une première partie sur les preuves de l'existence de Dieu, comme exemple de la preuve par la contingence. Elle s'accompagne de sa critique pour montrer les limites de la causalité.",
+   "escena_sugerida": "Un homme gravit une échelle de causes jusqu'à atteindre une cause première.",
+   "pagina_pdf": 145,
+   "escena": {
+    "titulo": "Thomas d'Aquin : la cause première",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "homme",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.8
+      ],
+      "etiqueta": "L'homme",
+      "escala": 1
+     },
+     {
+      "id": "q",
+      "tipo": "interrogacion",
+      "pos": [
+       0.15,
+       0.5
+      ],
+      "escala": 1.2
+     },
+     {
+      "id": "c3",
+      "tipo": "caja",
+      "pos": [
+       0.4,
+       0.75
+      ],
+      "etiqueta": "Effet",
+      "escala": 0.9
+     },
+     {
+      "id": "c2",
+      "tipo": "caja",
+      "pos": [
+       0.55,
+       0.55
+      ],
+      "etiqueta": "Cause",
+      "escala": 0.9
+     },
+     {
+      "id": "c1",
+      "tipo": "caja",
+      "pos": [
+       0.7,
+       0.38
+      ],
+      "etiqueta": "Cause",
+      "escala": 0.9
+     },
+     {
+      "id": "dieu",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.88,
+       0.25
+      ],
+      "etiqueta": "Cause première : Dieu",
+      "escala": 1.4
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "homme"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "q"
+     },
+     {
+      "t": 2,
+      "accion": "dice",
+      "actor": "homme",
+      "texto": "Pourquoi y a-t-il quelque chose plutôt que rien ?"
+     },
+     {
+      "t": 4,
+      "accion": "subtitulo",
+      "texto": "L'univers est contingent : rien en lui n'explique pourquoi il existe."
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "c3"
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "c2"
+     },
+     {
+      "t": 9,
+      "accion": "une",
+      "de": "c2",
+      "a": "c3",
+      "nota": "cause de"
+     },
+     {
+      "t": 10,
+      "accion": "aparece",
+      "actor": "c1"
+     },
+     {
+      "t": 11,
+      "accion": "une",
+      "de": "c1",
+      "a": "c2",
+      "nota": "cause de"
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "On remonte de cause en cause le long de la chaîne de causalité."
+     },
+     {
+      "t": 15,
+      "accion": "mueve",
+      "actor": "homme",
+      "a": [
+       0.6,
+       0.45
+      ],
+      "dur": 3
+     },
+     {
+      "t": 18,
+      "accion": "aparece",
+      "actor": "dieu"
+     },
+     {
+      "t": 18.5,
+      "accion": "resalta",
+      "actor": "dieu"
+     },
+     {
+      "t": 19,
+      "accion": "une",
+      "de": "dieu",
+      "a": "c1",
+      "nota": "cause première"
+     },
+     {
+      "t": 20,
+      "accion": "subtitulo",
+      "texto": "Thomas d'Aquin : la cause première de tout ne peut être que Dieu, un être infini."
+     },
+     {
+      "t": 23,
+      "accion": "piensa",
+      "actor": "homme",
+      "texto": "Et pourquoi s'arrêter ici ? (critique)"
+     },
+     {
+      "t": 25,
+      "accion": "subtitulo",
+      "texto": "La critique : si l'on accepte un Dieu sans cause, on peut aussi accepter un monde sans cause."
+     }
+    ]
+   }
+  },
+  {
+   "id": "descartes",
+   "nombre": "René Descartes",
+   "epoca": "XVIIe siècle",
+   "tesis_principal": "Si je peux penser une infinité d'idées vraies et immuables, parmi lesquelles celle d'un être aux attributs parfaits, cette perfection est la preuve ontologique de l'existence de Dieu.",
+   "ideas_clave": [
+    "On peut douter de tout sauf du fait de penser (penser)",
+    "Les idées innées de mon esprit ont des natures vraies et immuables (vérités innées)",
+    "Dieu est un être aux attributs parfaits : bonté, puissance, immortalité",
+    "Cette perfection est la preuve ontologique de son existence, déjà développée par Saint Anselme"
+   ],
+   "citas": [
+    {
+     "texto": "Et ce que je trouve ici de plus […] considérable, est que je trouve […] en moi une infinité d'idées […] de certaines choses, qui ne […] peuvent pas être estimées un […] pur néant",
+     "idioma": "fr",
+     "obra": "Cinquième méditation métaphysique",
+     "pagina_pdf": 145
+    }
+   ],
+   "debate_con": [
+    "kant",
+    "pascal"
+   ],
+   "como_usarlo_en_disertacion": "Comme exemple de preuve rationnelle de l'existence de Dieu dans une partie d'exposé des preuves, pour passer ensuite à la critique kantienne. Contraste avec Pascal, pour qui Dieu s'éprouve et ne se prouve pas.",
+   "escena_sugerida": "Un penseur, après avoir douté de tout, découvre dans son esprit l'idée d'un être parfait.",
+   "pagina_pdf": 145,
+   "escena": {
+    "titulo": "Descartes : la preuve ontologique",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "desc",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.75
+      ],
+      "etiqueta": "Descartes",
+      "escala": 1
+     },
+     {
+      "id": "doute",
+      "tipo": "interrogacion",
+      "pos": [
+       0.2,
+       0.4
+      ],
+      "etiqueta": "Je doute de tout",
+      "escala": 1.2
+     },
+     {
+      "id": "pensee",
+      "tipo": "cerebro",
+      "pos": [
+       0.45,
+       0.4
+      ],
+      "etiqueta": "Je pense",
+      "escala": 1.2
+     },
+     {
+      "id": "idee",
+      "tipo": "bombilla",
+      "pos": [
+       0.65,
+       0.3
+      ],
+      "etiqueta": "Une infinité d'idées vraies",
+      "escala": 1
+     },
+     {
+      "id": "dieu",
+      "tipo": "corona",
+      "pos": [
+       0.85,
+       0.55
+      ],
+      "etiqueta": "Être parfait",
+      "escala": 1.3
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "desc"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "doute"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Descartes peut douter de tout..."
+     },
+     {
+      "t": 5,
+      "accion": "desaparece",
+      "actor": "doute"
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "pensee"
+     },
+     {
+      "t": 7,
+      "accion": "resalta",
+      "actor": "pensee"
+     },
+     {
+      "t": 8,
+      "accion": "subtitulo",
+      "texto": "...mais pas du fait de penser : voilà son point ferme."
+     },
+     {
+      "t": 11,
+      "accion": "aparece",
+      "actor": "idee"
+     },
+     {
+      "t": 12,
+      "accion": "proyecta",
+      "de": "pensee",
+      "a": "idee",
+      "nota": "vérités innées"
+     },
+     {
+      "t": 14,
+      "accion": "cita",
+      "texto": "je trouve en moi une infinité d'idées de certaines choses, qui ne peuvent pas être estimées un pur néant"
+     },
+     {
+      "t": 17,
+      "accion": "aparece",
+      "actor": "dieu"
+     },
+     {
+      "t": 18,
+      "accion": "piensa",
+      "actor": "desc",
+      "texto": "Je pense un être aux attributs parfaits"
+     },
+     {
+      "t": 20,
+      "accion": "une",
+      "de": "idee",
+      "a": "dieu",
+      "nota": "perfection = existence"
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "Pour Descartes, cette perfection est la preuve ontologique de l'existence de Dieu."
+     }
+    ]
+   }
+  },
+  {
+   "id": "kant",
+   "nombre": "Emmanuel Kant",
+   "epoca": "XVIIIe siècle",
+   "tesis_principal": "L'existence n'est pas un prédicat comme un autre : poser une chose comme existante n'ajoute rien à son concept. C'est pourquoi la preuve ontologique cartésienne est illégitime.",
+   "ideas_clave": [
+    "Un vrai prédicat contribue à déterminer le concept de l'objet (prédicat)",
+    "Exemple : le concept de cent euros dans mon imagination est le même que celui de cent euros dans ma poche",
+    "La réalité effective, par son caractère empirique, l'emporte sur la simple idée : l'existence ajoute quelque chose au possible",
+    "L'idée d'un être parfait ne sera jamais aussi vraie que de voir cet être parfait devant soi",
+    "Dans La religion dans les limites de la simple raison, il propose une religion « naturelle », fondée sur la raison et sur les valeurs morales"
+   ],
+   "citas": [],
+   "debate_con": [
+    "descartes"
+   ],
+   "como_usarlo_en_disertacion": "Pour critiquer la preuve ontologique dans la partie consacrée aux limites de la raison quand elle prétend prouver Dieu. L'exemple des cent euros est mémorable et facile à développer.",
+   "escena_sugerida": "Kant compare cent euros pensés et cent euros réels dans la poche pour réfuter la preuve ontologique.",
+   "pagina_pdf": 146,
+   "escena": {
+    "titulo": "Kant : cent euros dans ma poche",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "kant",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.78
+      ],
+      "etiqueta": "Kant",
+      "escala": 1
+     },
+     {
+      "id": "pense",
+      "tipo": "nube",
+      "pos": [
+       0.25,
+       0.3
+      ],
+      "etiqueta": "100 € pensés",
+      "escala": 1.2
+     },
+     {
+      "id": "poche",
+      "tipo": "moneda",
+      "pos": [
+       0.75,
+       0.3
+      ],
+      "etiqueta": "100 € dans ma poche",
+      "escala": 1.2
+     },
+     {
+      "id": "pred",
+      "tipo": "interrogacion",
+      "pos": [
+       0.5,
+       0.4
+      ],
+      "escala": 1.2
+     },
+     {
+      "id": "dieu",
+      "tipo": "corona",
+      "pos": [
+       0.85,
+       0.7
+      ],
+      "etiqueta": "Être parfait pensé",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "kant"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Kant demande : l'existence est-elle un attribut comme les autres ?"
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "pense"
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "poche"
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "pred"
+     },
+     {
+      "t": 6,
+      "accion": "dice",
+      "actor": "kant",
+      "texto": "Qu'est-ce qui change dans le concept de cent euros ?"
+     },
+     {
+      "t": 9,
+      "accion": "une",
+      "de": "pense",
+      "a": "poche",
+      "nota": "même concept"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "Dire qu'ils existent n'ajoute ni n'enlève rien au concept que j'en ai."
+     },
+     {
+      "t": 14,
+      "accion": "resalta",
+      "actor": "poche"
+     },
+     {
+      "t": 15,
+      "accion": "subtitulo",
+      "texto": "Mais l'expérience réelle l'emporte sur la simple idée : l'existence ajoute quelque chose au possible."
+     },
+     {
+      "t": 18,
+      "accion": "aparece",
+      "actor": "dieu"
+     },
+     {
+      "t": 19,
+      "accion": "piensa",
+      "actor": "kant",
+      "texto": "Penser un être parfait, ce n'est pas l'avoir devant soi"
+     },
+     {
+      "t": 21,
+      "accion": "tiembla",
+      "actor": "dieu"
+     },
+     {
+      "t": 23,
+      "accion": "desaparece",
+      "actor": "dieu"
+     },
+     {
+      "t": 24,
+      "accion": "subtitulo",
+      "texto": "Kant : la preuve ontologique cartésienne est illégitime."
+     }
+    ]
+   }
+  },
+  {
+   "id": "voltaire",
+   "nombre": "Voltaire",
+   "epoca": "XVIIIe siècle",
+   "tesis_principal": "La présence du mal, physique et moral, met en question un Dieu ordonnateur du monde ; pourtant, avec cynisme, il affirme que si Dieu n'existait pas, il faudrait l'inventer pour assurer la morale et la paix civile.",
+   "ideas_clave": [
+    "Le mal (physique et moral) met en doute la preuve par la finalité (le mal)",
+    "S'il y a des catastrophes naturelles, la rationalité du monde est loin d'être parfaite",
+    "Seule l'hypothèse d'un dieu justicier oblige à respecter la morale et les lois (dieu justicier)",
+    "Cela prouve moins l'existence de Dieu que la nécessité de croire en lui pour la paix civile"
+   ],
+   "citas": [
+    {
+     "texto": "Dieu n'existait pas, il faudrait l'inventer",
+     "idioma": "fr",
+     "pagina_pdf": 146
+    }
+   ],
+   "debate_con": [
+    "pascal",
+    "aquin"
+   ],
+   "como_usarlo_en_disertacion": "Double usage : contre la preuve par la finalité (le mal dans le monde) et comme argument sur l'utilité morale et politique de la religion. Très utile pour des sujets sur la morale, la politique et la religion.",
+   "escena_sugerida": "Un tremblement de terre brise l'ordre parfait ; puis un voleur se retient devant un dieu justicier.",
+   "pagina_pdf": 146,
+   "escena": {
+    "titulo": "Voltaire : le mal et le dieu justicier",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "volt",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.78
+      ],
+      "etiqueta": "Voltaire",
+      "escala": 1
+     },
+     {
+      "id": "ordre",
+      "tipo": "sol",
+      "pos": [
+       0.3,
+       0.2
+      ],
+      "etiqueta": "Un monde ordonné ?",
+      "escala": 1.1
+     },
+     {
+      "id": "seisme",
+      "tipo": "rayo",
+      "pos": [
+       0.55,
+       0.35
+      ],
+      "etiqueta": "Catastrophe",
+      "escala": 1.3
+     },
+     {
+      "id": "maison",
+      "tipo": "casa",
+      "pos": [
+       0.55,
+       0.7
+      ],
+      "etiqueta": "Mal physique",
+      "escala": 1
+     },
+     {
+      "id": "voleur",
+      "tipo": "monigote",
+      "pos": [
+       0.78,
+       0.78
+      ],
+      "etiqueta": "Citoyen tenté",
+      "escala": 1
+     },
+     {
+      "id": "juge",
+      "tipo": "ojo",
+      "pos": [
+       0.85,
+       0.25
+      ],
+      "etiqueta": "Dieu justicier",
+      "escala": 1.3
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "volt"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "ordre"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": "On dit que l'ordre parfait du monde prouve un Dieu ordonnateur."
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "maison"
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "seisme"
+     },
+     {
+      "t": 6.5,
+      "accion": "tiembla",
+      "actor": "maison"
+     },
+     {
+      "t": 7,
+      "accion": "tiembla",
+      "actor": "ordre"
+     },
+     {
+      "t": 8,
+      "accion": "dice",
+      "actor": "volt",
+      "texto": "S'il y a des catastrophes, le monde n'est pas parfait"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "Le mal, physique et moral, met en question Dieu comme intention ordonnatrice."
+     },
+     {
+      "t": 13,
+      "accion": "desaparece",
+      "actor": "seisme"
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "voleur"
+     },
+     {
+      "t": 15,
+      "accion": "piensa",
+      "actor": "voleur",
+      "texto": "Personne ne me voit : je pourrais enfreindre la loi"
+     },
+     {
+      "t": 17,
+      "accion": "aparece",
+      "actor": "juge"
+     },
+     {
+      "t": 18,
+      "accion": "proyecta",
+      "de": "juge",
+      "a": "voleur",
+      "nota": "il voit tout"
+     },
+     {
+      "t": 19.5,
+      "accion": "tiembla",
+      "actor": "voleur"
+     },
+     {
+      "t": 20,
+      "accion": "cita",
+      "texto": "Dieu n'existait pas, il faudrait l'inventer"
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "Voltaire : cela ne prouve pas Dieu, mais la nécessité de croire en lui pour la paix civile."
+     }
+    ]
+   }
+  },
+  {
+   "id": "pascal",
+   "nombre": "Blaise Pascal",
+   "epoca": "XVIIe siècle",
+   "tesis_principal": "Dieu ne se prouve pas, il s'éprouve : sans Dieu l'existence est absurde, avec lui elle s'éclaire et devient tolérable. L'homme a besoin d'un appui divin pour échapper au désespoir.",
+   "ideas_clave": [
+    "Il veut sortir la religion de la dimension rationnelle dans laquelle on l'enferme pour la détruire",
+    "La religion ne résiste pas aux preuves et à la raison : Dieu ne se prouve pas mais s'éprouve",
+    "Sans Dieu l'existence est absurde ; avec lui, elle s'éclaire et devient tolérable",
+    "La mort, phénomène inintelligible, prend sens avec la destinée humaine et l'immortalité de l'âme"
+   ],
+   "citas": [],
+   "debate_con": [
+    "descartes",
+    "freud"
+   ],
+   "como_usarlo_en_disertacion": "Comme contrepoint aux preuves rationnelles et à la thèse de l'illusion : la foi donne un sens à la vie. Utile dans les parties qui défendent la valeur existentielle de la religion.",
+   "escena_sugerida": "La raison tente d'enfermer Dieu dans une boîte, mais Pascal le fait sentir par le cœur face à la mort.",
+   "pagina_pdf": 146,
+   "escena": {
+    "titulo": "Pascal : Dieu ne se prouve pas, il s'éprouve",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "pascal",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.78
+      ],
+      "etiqueta": "Pascal",
+      "escala": 1
+     },
+     {
+      "id": "raison",
+      "tipo": "caja",
+      "pos": [
+       0.2,
+       0.4
+      ],
+      "etiqueta": "Les preuves de la raison",
+      "escala": 1.2
+     },
+     {
+      "id": "mort",
+      "tipo": "interrogacion",
+      "pos": [
+       0.8,
+       0.35
+      ],
+      "etiqueta": "La mort : absurde ?",
+      "escala": 1.3
+     },
+     {
+      "id": "coeur",
+      "tipo": "corazon",
+      "pos": [
+       0.5,
+       0.45
+      ],
+      "etiqueta": "Éprouver",
+      "escala": 1.1
+     },
+     {
+      "id": "dieu",
+      "tipo": "sol",
+      "pos": [
+       0.5,
+       0.12
+      ],
+      "etiqueta": "Dieu",
+      "escala": 1.2
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "pascal"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "raison"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "On veut enfermer la religion dans des preuves rationnelles pour la détruire."
+     },
+     {
+      "t": 5,
+      "accion": "tiembla",
+      "actor": "raison"
+     },
+     {
+      "t": 6,
+      "accion": "dice",
+      "actor": "pascal",
+      "texto": "La raison ne peut pas prouver Dieu"
+     },
+     {
+      "t": 9,
+      "accion": "desaparece",
+      "actor": "raison"
+     },
+     {
+      "t": 10,
+      "accion": "aparece",
+      "actor": "mort"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "Sans Dieu, l'existence et la mort sont absurdes, inintelligibles."
+     },
+     {
+      "t": 14,
+      "accion": "tiembla",
+      "actor": "pascal"
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "coeur"
+     },
+     {
+      "t": 16,
+      "accion": "aparece",
+      "actor": "dieu"
+     },
+     {
+      "t": 17,
+      "accion": "proyecta",
+      "de": "dieu",
+      "a": "coeur",
+      "nota": "on l'éprouve"
+     },
+     {
+      "t": 19,
+      "accion": "desaparece",
+      "actor": "mort"
+     },
+     {
+      "t": 20,
+      "accion": "dice",
+      "actor": "pascal",
+      "texto": "Avec lui, la vie s'éclaire et devient tolérable"
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "Pascal : Dieu ne se prouve pas, il s'éprouve, et il donne un sens à l'existence."
+     }
+    ]
+   }
+  },
+  {
+   "id": "freud",
+   "nombre": "Sigmund Freud",
+   "epoca": "XIXe-XXe siècles",
+   "tesis_principal": "Les hommes ont créé les religions pour lutter contre la dureté de la vie et l'angoisse ; le sentiment religieux est une marque infantile : Dieu remplace un père protecteur. L'adulte doit dépasser cette illusion.",
+   "ideas_clave": [
+    "La religion est une défense contre l'angoisse, la misère sociale et nos désirs (illusion)",
+    "Elle crée un monde fictif : besoin d'évasion devant une réalité trop pénible",
+    "Le sentiment religieux est un état infantile : Dieu remplace un père protecteur",
+    "L'enfance doit être dépassée : « éducation en vue de la réalité »"
+   ],
+   "citas": [
+    {
+     "texto": "L'homme ne peut pas éternellement demeurer un enfant, il lui faut enfin s'aventurer dans l'univers hostile.",
+     "idioma": "fr",
+     "obra": "L'Avenir d'une illusion",
+     "pagina_pdf": 151
+    }
+   ],
+   "debate_con": [
+    "pascal",
+    "marx"
+   ],
+   "como_usarlo_en_disertacion": "Pour la thèse selon laquelle la religion est une illusion consolatrice et l'homme mûr peut s'en passer. C'est la base du sujet « L'homme peut-il se passer de religion ? ».",
+   "escena_sugerida": "Un enfant cherche son père protecteur face à un monde hostile ; l'adulte projette Dieu, mais doit quitter la maison.",
+   "pagina_pdf": 147,
+   "escena": {
+    "titulo": "Freud : Dieu, un père protecteur",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "enfant",
+      "tipo": "monigote",
+      "pos": [
+       0.3,
+       0.78
+      ],
+      "etiqueta": "L'enfant vulnérable",
+      "escala": 0.7
+     },
+     {
+      "id": "monde",
+      "tipo": "nube",
+      "pos": [
+       0.2,
+       0.2
+      ],
+      "etiqueta": "Un monde hostile",
+      "escala": 1.3
+     },
+     {
+      "id": "danger",
+      "tipo": "rayo",
+      "pos": [
+       0.4,
+       0.25
+      ],
+      "etiqueta": "Mort, malheurs",
+      "escala": 1
+     },
+     {
+      "id": "pere",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.75,
+       0.5
+      ],
+      "etiqueta": "Le père protecteur",
+      "escala": 1.5
+     },
+     {
+      "id": "maison",
+      "tipo": "casa",
+      "pos": [
+       0.85,
+       0.82
+      ],
+      "etiqueta": "La maison paternelle",
+      "escala": 0.8
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "enfant"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "monde"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "danger"
+     },
+     {
+      "t": 2,
+      "accion": "tiembla",
+      "actor": "enfant"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Face à la dureté de la vie, l'être humain est aussi vulnérable qu'un enfant."
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "pere"
+     },
+     {
+      "t": 7,
+      "accion": "mueve",
+      "actor": "enfant",
+      "a": [
+       0.6,
+       0.78
+      ],
+      "dur": 2
+     },
+     {
+      "t": 9,
+      "accion": "une",
+      "de": "pere",
+      "a": "enfant",
+      "nota": "protection"
+     },
+     {
+      "t": 10,
+      "accion": "etiqueta",
+      "actor": "pere",
+      "texto": "Dieu"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "Pour Freud, Dieu remplace le père protecteur : un monde fictif qui apaise l'angoisse."
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "maison"
+     },
+     {
+      "t": 16,
+      "accion": "piensa",
+      "actor": "enfant",
+      "texto": "Dois-je toujours rester ici ?"
+     },
+     {
+      "t": 18,
+      "accion": "mueve",
+      "actor": "enfant",
+      "a": [
+       0.3,
+       0.7
+      ],
+      "dur": 2.5
+     },
+     {
+      "t": 20,
+      "accion": "cita",
+      "texto": "L'homme ne peut pas éternellement demeurer un enfant, il lui faut enfin s'aventurer dans l'univers hostile."
+     },
+     {
+      "t": 24,
+      "accion": "subtitulo",
+      "texto": "L'adulte doit dépasser l'illusion religieuse : une éducation en vue de la réalité."
+     }
+    ]
+   }
+  },
+  {
+   "id": "marx",
+   "nombre": "Karl Marx",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "La religion est l'opium du peuple : elle maintient les hommes dans un bonheur illusoire, en leur faisant accepter leur condition sociale et en leur cachant leur aliénation.",
+   "ideas_clave": [
+    "Imaginer un paradis fait accepter les conditions sociales (illusion)",
+    "On espère que les injustices disparaîtront dans une vie après la mort",
+    "La religion anesthésie les hommes : ils ne prennent pas conscience de leur aliénation",
+    "Les religions, comme organisations, entretiennent l'illusion pour soumettre les hommes aux pouvoirs terrestres"
+   ],
+   "citas": [
+    {
+     "texto": "la religion est l'opium du peuple",
+     "idioma": "fr",
+     "obra": "Le Capital",
+     "pagina_pdf": 147
+    }
+   ],
+   "debate_con": [
+    "freud",
+    "feuerbach",
+    "nietzsche"
+   ],
+   "como_usarlo_en_disertacion": "Pour la dimension politique et sociale de la critique de la religion : la religion comme instrument de soumission. Utile pour des sujets sur la religion, le pouvoir et la liberté.",
+   "escena_sugerida": "Un travailleur enchaîné reçoit la promesse d'un paradis et ne prend pas conscience de son aliénation.",
+   "pagina_pdf": 147,
+   "escena": {
+    "titulo": "Marx : la religion, opium du peuple",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "ouvrier",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.78
+      ],
+      "etiqueta": "Le travailleur",
+      "escala": 1
+     },
+     {
+      "id": "patron",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.75,
+       0.55
+      ],
+      "etiqueta": "Le patron",
+      "escala": 1.5
+     },
+     {
+      "id": "chaine",
+      "tipo": "cadena",
+      "pos": [
+       0.5,
+       0.78
+      ],
+      "etiqueta": "Aliénation",
+      "escala": 1
+     },
+     {
+      "id": "paradis",
+      "tipo": "nube",
+      "pos": [
+       0.3,
+       0.2
+      ],
+      "etiqueta": "Le paradis promis",
+      "escala": 1.3
+     },
+     {
+      "id": "relig",
+      "tipo": "texto",
+      "pos": [
+       0.65,
+       0.18
+      ],
+      "etiqueta": "Opium",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "ouvrier"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "patron"
+     },
+     {
+      "t": 2,
+      "accion": "aparece",
+      "actor": "chaine"
+     },
+     {
+      "t": 3,
+      "accion": "une",
+      "de": "ouvrier",
+      "a": "patron",
+      "nota": "force de travail"
+     },
+     {
+      "t": 4,
+      "accion": "subtitulo",
+      "texto": "Le travailleur cède sa force de travail à un patron : c'est l'aliénation."
+     },
+     {
+      "t": 8,
+      "accion": "dice",
+      "actor": "ouvrier",
+      "texto": "Ma vie est dure et injuste"
+     },
+     {
+      "t": 10,
+      "accion": "aparece",
+      "actor": "paradis"
+     },
+     {
+      "t": 11,
+      "accion": "aparece",
+      "actor": "relig"
+     },
+     {
+      "t": 12,
+      "accion": "proyecta",
+      "de": "paradis",
+      "a": "ouvrier",
+      "nota": "les derniers seront les premiers"
+     },
+     {
+      "t": 14,
+      "accion": "subtitulo",
+      "texto": "La religion promet un paradis où les injustices disparaîtront."
+     },
+     {
+      "t": 17,
+      "accion": "piensa",
+      "actor": "ouvrier",
+      "texto": "J'attendrai : dans l'autre vie, je serai heureux"
+     },
+     {
+      "t": 19,
+      "accion": "cita",
+      "texto": "la religion est l'opium du peuple"
+     },
+     {
+      "t": 21,
+      "accion": "tiembla",
+      "actor": "chaine"
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "Marx : la religion l'anesthésie et l'empêche de prendre conscience de son aliénation."
+     }
+    ]
+   }
+  },
+  {
+   "id": "feuerbach",
+   "nombre": "Ludwig Feuerbach",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "Par sa foi en Dieu, l'homme s'appauvrit : il projette ses propres capacités dans un être divin. Les attributs divins ne sont que des qualités humaines.",
+   "ideas_clave": [
+    "L'homme s'appauvrit intellectuellement en croyant en Dieu",
+    "Il rabaisse ses propres capacités (conscience, liberté, volonté, puissance) pour les projeter dans un être divin",
+    "Les propriétés divines (toute-puissance, bonté) sont en réalité des qualités humaines (projection)",
+    "Ce dont Dieu s'enrichit, l'homme le perd"
+   ],
+   "citas": [
+    {
+     "texto": "L'homme est appauvri de […] ce dont Dieu est enrichi.",
+     "idioma": "fr",
+     "obra": "L'essence du christianisme",
+     "pagina_pdf": 147
+    }
+   ],
+   "debate_con": [
+    "marx",
+    "nietzsche"
+   ],
+   "como_usarlo_en_disertacion": "Pour la thèse de la projection : Dieu comme création humaine qui appauvrit le croyant. À combiner avec Freud et Marx dans une partie sur la religion comme illusion.",
+   "escena_sugerida": "L'homme projette son cœur, sa raison et sa puissance vers Dieu et se retrouve appauvri.",
+   "pagina_pdf": 147,
+   "escena": {
+    "titulo": "Feuerbach : Dieu comme projection de l'homme",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "homme",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.75
+      ],
+      "etiqueta": "L'homme",
+      "escala": 1.2
+     },
+     {
+      "id": "raison",
+      "tipo": "cerebro",
+      "pos": [
+       0.2,
+       0.45
+      ],
+      "etiqueta": "Conscience",
+      "escala": 0.8
+     },
+     {
+      "id": "volonte",
+      "tipo": "rayo",
+      "pos": [
+       0.32,
+       0.5
+      ],
+      "etiqueta": "Puissance",
+      "escala": 0.8
+     },
+     {
+      "id": "bonte",
+      "tipo": "corazon",
+      "pos": [
+       0.08,
+       0.5
+      ],
+      "etiqueta": "Bonté",
+      "escala": 0.8
+     },
+     {
+      "id": "dieu",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.78,
+       0.45
+      ],
+      "etiqueta": "Dieu",
+      "escala": 1.6
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "homme"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "raison"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "volonte"
+     },
+     {
+      "t": 2,
+      "accion": "aparece",
+      "actor": "bonte"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "L'homme possède conscience, volonté, puissance et bonté."
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "dieu"
+     },
+     {
+      "t": 7,
+      "accion": "proyecta",
+      "de": "raison",
+      "a": "dieu",
+      "nota": "projection"
+     },
+     {
+      "t": 8,
+      "accion": "proyecta",
+      "de": "volonte",
+      "a": "dieu"
+     },
+     {
+      "t": 9,
+      "accion": "proyecta",
+      "de": "bonte",
+      "a": "dieu"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "En croyant en Dieu, il projette ses propres qualités dans un être divin."
+     },
+     {
+      "t": 13,
+      "accion": "desaparece",
+      "actor": "raison"
+     },
+     {
+      "t": 13,
+      "accion": "desaparece",
+      "actor": "volonte"
+     },
+     {
+      "t": 13,
+      "accion": "desaparece",
+      "actor": "bonte"
+     },
+     {
+      "t": 14,
+      "accion": "etiqueta",
+      "actor": "homme",
+      "texto": "L'homme appauvri"
+     },
+     {
+      "t": 14,
+      "accion": "etiqueta",
+      "actor": "dieu",
+      "texto": "Dieu enrichi"
+     },
+     {
+      "t": 15,
+      "accion": "resalta",
+      "actor": "dieu"
+     },
+     {
+      "t": 17,
+      "accion": "cita",
+      "texto": "L'homme est appauvri de ce dont Dieu est enrichi."
+     },
+     {
+      "t": 20,
+      "accion": "tiembla",
+      "actor": "homme"
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "Feuerbach : les attributs divins sont des qualités humaines projetées."
+     }
+    ]
+   }
+  },
+  {
+   "id": "nietzsche",
+   "nombre": "Friedrich Nietzsche",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "Le fidèle est un homme faible qui a besoin d'illusions et de rêves pour continuer à vivre ; affirmer que « Dieu est mort » est une preuve de force. L'idéal est de se suffire à soi-même et de ne pas inventer une réalité fictive.",
+   "ideas_clave": [
+    "Le croyant est un homme faible qui se berce d'illusions et de rêves (faiblesse)",
+    "Affirmer que Dieu est mort est une preuve de pugnacité et de puissance",
+    "L'idéal est de se suffire à soi-même, sans inventer une réalité fictive et réductrice",
+    "Ce n'est qu'ainsi que l'homme peut accomplir son humanité et exister pleinement"
+   ],
+   "citas": [
+    {
+     "texto": "Dieu est mort",
+     "idioma": "fr",
+     "obra": "Le Gai savoir",
+     "pagina_pdf": 147
+    }
+   ],
+   "debate_con": [
+    "feuerbach",
+    "marx",
+    "pascal"
+   ],
+   "como_usarlo_en_disertacion": "Pour la critique radicale de la croyance comme faiblesse et pour poser le problème de la perte des valeurs après la « mort de Dieu ». Le corrigé l'utilise pour montrer que l'absence de valeur religieuse peut être dangereuse.",
+   "escena_sugerida": "Un faible se réfugie dans des rêves auprès d'un Dieu immense ; l'homme fort déclare sa mort et se suffit à lui-même.",
+   "pagina_pdf": 147,
+   "escena": {
+    "titulo": "Nietzsche : Dieu est mort",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "faible",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.78
+      ],
+      "etiqueta": "Le fidèle faible",
+      "escala": 0.9
+     },
+     {
+      "id": "reves",
+      "tipo": "nube",
+      "pos": [
+       0.2,
+       0.35
+      ],
+      "etiqueta": "Illusions, rêves",
+      "escala": 1.2
+     },
+     {
+      "id": "dieu",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.5,
+       0.45
+      ],
+      "etiqueta": "Dieu",
+      "escala": 1.5
+     },
+     {
+      "id": "fort",
+      "tipo": "monigote",
+      "pos": [
+       0.82,
+       0.78
+      ],
+      "etiqueta": "L'homme fort",
+      "escala": 1.2
+     },
+     {
+      "id": "soleil",
+      "tipo": "sol",
+      "pos": [
+       0.82,
+       0.2
+      ],
+      "etiqueta": "Exister pleinement",
+      "escala": 1.1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "faible"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "reves"
+     },
+     {
+      "t": 2,
+      "accion": "aparece",
+      "actor": "dieu"
+     },
+     {
+      "t": 3,
+      "accion": "une",
+      "de": "faible",
+      "a": "dieu",
+      "nota": "refuge"
+     },
+     {
+      "t": 4,
+      "accion": "subtitulo",
+      "texto": "Le fidèle faible a besoin d'illusions et de rêves pour continuer à vivre."
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "fort"
+     },
+     {
+      "t": 9,
+      "accion": "dice",
+      "actor": "fort",
+      "texto": "Je me suffis à moi-même"
+     },
+     {
+      "t": 11,
+      "accion": "cita",
+      "texto": "Dieu est mort"
+     },
+     {
+      "t": 13,
+      "accion": "tiembla",
+      "actor": "dieu"
+     },
+     {
+      "t": 14,
+      "accion": "desaparece",
+      "actor": "dieu"
+     },
+     {
+      "t": 14,
+      "accion": "desaparece",
+      "actor": "reves"
+     },
+     {
+      "t": 15,
+      "accion": "tiembla",
+      "actor": "faible"
+     },
+     {
+      "t": 16,
+      "accion": "subtitulo",
+      "texto": "L'affirmer est une preuve de pugnacité et de puissance, non de désespoir."
+     },
+     {
+      "t": 19,
+      "accion": "mueve",
+      "actor": "fort",
+      "a": [
+       0.7,
+       0.55
+      ],
+      "dur": 2
+     },
+     {
+      "t": 20,
+      "accion": "aparece",
+      "actor": "soleil"
+     },
+     {
+      "t": 21,
+      "accion": "proyecta",
+      "de": "soleil",
+      "a": "fort"
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "Nietzsche : l'homme doit se suffire à lui-même et accomplir pleinement son humanité."
+     }
+    ]
+   }
+  }
+ ],
+ "relaciones": [
+  {
+   "de": "bergson",
+   "a": "durkheim",
+   "tipo": "complementa",
+   "nota": "Tous deux affirment l'universalité du religieux, mais Bergson ajoute la source mystique personnelle en plus de l'institution."
+  },
+  {
+   "de": "otto",
+   "a": "durkheim",
+   "tipo": "complementa",
+   "nota": "Otto décrit l'émotion vécue devant le sacré que Durkheim analyse comme fait social."
+  },
+  {
+   "de": "descartes",
+   "a": "aquin",
+   "tipo": "complementa",
+   "nota": "Tous deux proposent des preuves rationnelles de l'existence de Dieu, l'une par la contingence et l'autre par la perfection."
+  },
+  {
+   "de": "kant",
+   "a": "descartes",
+   "tipo": "se opone",
+   "nota": "Kant rejette la preuve ontologique parce que l'existence n'est pas un prédicat."
+  },
+  {
+   "de": "voltaire",
+   "a": "preuves-existence",
+   "tipo": "se opone",
+   "nota": "Le mal remet en cause la preuve par la finalité de l'ordre du monde."
+  },
+  {
+   "de": "pascal",
+   "a": "descartes",
+   "tipo": "se opone",
+   "nota": "Dieu ne se prouve pas rationnellement, il s'éprouve."
+  },
+  {
+   "de": "pascal",
+   "a": "freud",
+   "tipo": "se opone",
+   "nota": "Pour Pascal, Dieu donne un sens à la vie ; pour Freud, c'est une illusion infantile qu'il faut dépasser."
+  },
+  {
+   "de": "freud",
+   "a": "marx",
+   "tipo": "complementa",
+   "nota": "Tous deux voient la religion comme une illusion qui console ou anesthésie face à une réalité douloureuse."
+  },
+  {
+   "de": "feuerbach",
+   "a": "marx",
+   "tipo": "complementa",
+   "nota": "Feuerbach explique la projection de l'humain en Dieu ; Marx, sa fonction sociale de soumission."
+  },
+  {
+   "de": "nietzsche",
+   "a": "freud",
+   "tipo": "complementa",
+   "nota": "Tous deux considèrent la croyance comme un signe de faiblesse ou d'infantilisme que l'homme adulte doit dépasser."
+  },
+  {
+   "de": "voltaire",
+   "a": "pascal",
+   "tipo": "complementa",
+   "nota": "Tous deux défendent, avec des arguments différents, l'utilité existentielle ou morale de la croyance."
+  },
+  {
+   "de": "illusion-religieuse",
+   "a": "valeur-religieuse",
+   "tipo": "se opone",
+   "nota": "Illusion ou valeur : les deux lectures de l'expérience religieuse que confronte le cours."
+  }
+ ],
+ "quiz": [
+  {
+   "pregunta": "Selon Bergson, il n'y a jamais eu de société sans ... :",
+   "opciones": [
+    "science",
+    "religion",
+    "art",
+    "technique"
+   ],
+   "correcta": 1,
+   "explicacion": "Bergson affirme qu'il n'y a jamais eu de société sans religion (cours, 1. a.) : la religion est un fait social universel.",
+   "filosofo": "bergson",
+   "pagina_pdf": 141
+  },
+  {
+   "pregunta": "Quelles sont les premières marques de religiosité ?",
+   "opciones": [
+    "Les églises",
+    "Les monastères",
+    "Les sépultures mortuaires",
+    "Les bibliothèques"
+   ],
+   "correcta": 2,
+   "explicacion": "Les premières traces de rites, liées aux sépultures, remonteraient à au moins 90 000 ans (cours, 1. b.).",
+   "filosofo": null,
+   "pagina_pdf": 142
+  },
+  {
+   "pregunta": "Outre la fascination et le respect, quelle est l'autre composante de la croyance en Dieu ?",
+   "opciones": [
+    "L'amour",
+    "La crainte",
+    "La charité",
+    "L'espoir"
+   ],
+   "correcta": 1,
+   "explicacion": "La croyance repose sur la fascination, la crainte et le respect devant l'absolu (cours, 2. b.).",
+   "filosofo": "otto",
+   "pagina_pdf": 144
+  },
+  {
+   "pregunta": "Selon Rudolf Otto, à quoi fait référence le terme de numineux ?",
+   "opciones": [
+    "À la joie du fidèle",
+    "À l'amour de Dieu",
+    "À une pure émotion religieuse",
+    "À une preuve rationnelle de Dieu"
+   ],
+   "correcta": 2,
+   "explicacion": "Otto conceptualise le numineux comme une pure émotion religieuse, distincte des croyances ou de la théologie (cours, 2. b.).",
+   "filosofo": "otto",
+   "pagina_pdf": 144
+  },
+  {
+   "pregunta": "Sur quel type de preuve Saint Anselme a-t-il été le premier à écrire à propos de l'existence de Dieu ?",
+   "opciones": [
+    "Mathématique",
+    "Ontologique",
+    "Causale",
+    "Morale"
+   ],
+   "correcta": 1,
+   "explicacion": "La preuve ontologique a d'abord été développée par saint Anselme, puis reprise par Descartes (cours, 3. c.).",
+   "filosofo": "descartes",
+   "pagina_pdf": 145
+  },
+  {
+   "pregunta": "Kant explique que l'existence ne se réduit pas à ... :",
+   "opciones": [
+    "un rêve",
+    "un mot",
+    "un concept",
+    "une image"
+   ],
+   "correcta": 2,
+   "explicacion": "Poser une chose comme existante ne se limite pas au concept : l'existence ajoute quelque chose au possible (cent euros pensés / dans ma poche).",
+   "filosofo": "kant",
+   "pagina_pdf": 146
+  },
+  {
+   "pregunta": "Selon Pascal, Dieu ne se prouve pas mais ... :",
+   "opciones": [
+    "se conçoit",
+    "s'invente",
+    "s'éprouve",
+    "se démontre"
+   ],
+   "correcta": 2,
+   "explicacion": "Pascal : on ne peut pas prouver l'existence de Dieu, seulement l'éprouver (cours, 4. a.).",
+   "filosofo": "pascal",
+   "pagina_pdf": 146
+  },
+  {
+   "pregunta": "Pour respecter les lois morales et civiles, les hommes ont besoin d'un Dieu ... :",
+   "opciones": [
+    "justicier",
+    "vengeur",
+    "charitable",
+    "silencieux"
+   ],
+   "correcta": 0,
+   "explicacion": "Voltaire : seule l'hypothèse d'un dieu justicier oblige les hommes à respecter la morale et les lois (cours, 4. a.).",
+   "filosofo": "voltaire",
+   "pagina_pdf": 146
+  },
+  {
+   "pregunta": "Selon Freud, qui Dieu remplace-t-il ?",
+   "opciones": [
+    "La famille",
+    "Le père",
+    "Le juge",
+    "La mère"
+   ],
+   "correcta": 1,
+   "explicacion": "Dans l'analyse freudienne, Dieu remplace un père protecteur (cours, 4. b.).",
+   "filosofo": "freud",
+   "pagina_pdf": 147
+  },
+  {
+   "pregunta": "Qui a prétendu que Dieu était mort ?",
+   "opciones": [
+    "Marx",
+    "Voltaire",
+    "Nietzsche",
+    "Freud"
+   ],
+   "correcta": 2,
+   "explicacion": "Nietzsche (Le Gai savoir) : affirmer que « Dieu est mort » est une preuve de pugnacité et de puissance (cours, 4. b.).",
+   "filosofo": "nietzsche",
+   "pagina_pdf": 147
+  },
+  {
+   "pregunta": "Quel argument Thomas d'Aquin utilise-t-il pour affirmer l'existence de Dieu ?",
+   "opciones": [
+    "L'enchaînement des causes",
+    "L'idée d'un être parfait",
+    "La beauté du monde",
+    "Le besoin de morale"
+   ],
+   "correcta": 0,
+   "explicacion": "Thomas d'Aquin utilise l'enchaînement des causes : la cause première de tout l'univers ne peut être que Dieu (cours, 3. b.).",
+   "filosofo": "aquin",
+   "pagina_pdf": 145
+  },
+  {
+   "pregunta": "Selon Marx, que fait la religion des hommes face à leur aliénation ?",
+   "opciones": [
+    "Elle les pousse à la révolte",
+    "Elle les anesthésie : ils ne prennent pas conscience de leur aliénation",
+    "Elle leur apprend à raisonner",
+    "Elle les enrichit"
+   ],
+   "correcta": 1,
+   "explicacion": "Pour Marx, la religion anesthésie les hommes (opium du peuple) pour qu'ils ne prennent pas conscience de leur aliénation (cours, 4. b.).",
+   "filosofo": "marx",
+   "pagina_pdf": 147
+  }
+ ],
+ "preguntas_abiertas": [
+  {
+   "enunciado": "L'homme peut-il se passer de religion ?",
+   "puntos_clave": [
+    "Oui : l'idéal de l'homme adulte qui, comme le dit Freud, n'a plus besoin de protection pour affronter la réalité (dépasser l'infantilisme)",
+    "Rejeter l'aliénation religieuse peut être assumer toute son humanité (Marx, Feuerbach, Nietzsche)",
+    "Risque : des idoles de substitution aux dieux et la sacralisation de l'État dans les pays totalitaires",
+    "Nietzsche : l'absence de valeur religieuse peut être un refus de sens dangereux et destructeur de valeurs",
+    "Solution possible : conserver les valeurs universelles héritées des Lumières comme une religion à la fois critique et libératrice"
+   ],
+   "filosofos": [
+    "freud",
+    "nietzsche",
+    "marx",
+    "feuerbach"
+   ],
+   "pagina_pdf": 152
+  },
+  {
+   "enunciado": "Expliquez le texte de Freud (L'Avenir d'une illusion) : l'homme peut-il se passer de la consolation de l'illusion religieuse ?",
+   "puntos_clave": [
+    "Thème : la religion et l'origine fondamentale de la croyance religieuse",
+    "Thèse : l'homme n'est pas condamné à croire en Dieu, il peut gagner en maturité psychologique et en autonomie",
+    "Premier moment : Freud contredit son interlocuteur sur la question de savoir si l'homme peut se passer de religion face à la dure réalité",
+    "Deuxième moment : il analyse l'origine du besoin de croire (l'enfant qui quitte la maison paternelle) et les conséquences difficiles mais nécessaires",
+    "Troisième moment : le stade infantile doit être dépassé ; « éducation en vue de la réalité »"
+   ],
+   "filosofos": [
+    "freud"
+   ],
+   "pagina_pdf": 153
+  },
+  {
+   "enunciado": "Les preuves de l'existence de Dieu sont-elles convaincantes ?",
+   "puntos_clave": [
+    "Preuve par la finalité : l'ordre du vivant suppose une cause intelligente ; Voltaire objecte le mal physique et moral",
+    "Preuve par la contingence : Thomas d'Aquin et la cause première ; objection : pourquoi arrêter la régression des causes",
+    "Preuve ontologique : saint Anselme et Descartes (idée d'un être parfait) ; Kant : l'existence n'est pas un prédicat (cent euros)",
+    "Pascal : Dieu ne se prouve pas, il s'éprouve"
+   ],
+   "filosofos": [
+    "aquin",
+    "descartes",
+    "kant",
+    "voltaire",
+    "pascal"
+   ],
+   "pagina_pdf": 145
+  },
+  {
+   "enunciado": "La religion se réduit-elle à une institution sociale ?",
+   "puntos_clave": [
+    "Durkheim : système de croyances et de pratiques relatives au sacré qui unit en une communauté morale (cohésion sociale)",
+    "Les rites structurent le temps et l'espace et séparent le sacré du profane",
+    "Bergson : le mysticisme, expérience personnelle, est la source première, antérieure à l'organisation",
+    "Otto : le sentiment religieux comme émotion (mysterium tremendum / fascinans)",
+    "Nuance : ne pas confondre une religion avec ses instances dirigeantes ou avec ceux qui la pratiquent"
+   ],
+   "filosofos": [
+    "durkheim",
+    "bergson",
+    "otto"
+   ],
+   "pagina_pdf": 142
+  }
+ ],
+ "disertaciones": [
+  {
+   "sujeto": "L'homme peut-il se passer de religion ?",
+   "tipo_plan": "dialectique",
+   "problematica": "On peut concevoir une société sans religion et un homme adulte sans protection divine, mais qu'en est-il des valeurs et du sens de l'existence ? Le sujet interroge la religion dans la sphère privée (sens de l'existence) et publique (règles pour maintenir la paix civile).",
+   "plan": [
+    {
+     "parte": "I. Oui : l'idéal de l'homme adulte sans religion",
+     "idea": "La religion est une illusion infantile ou une aliénation ; la rejeter, c'est assumer sa propre humanité.",
+     "autores": [
+      "freud",
+      "marx",
+      "nietzsche"
+     ],
+     "ejemplo": "Freud : « éducation en vue de la réalité » ; l'homme ne peut pas rester éternellement enfant."
+    },
+    {
+     "parte": "II. Non : risques et fonctions de la religion",
+     "idea": "Sans religion surgissent des idoles de substitution et l'on perd le sens et la morale ; la religion donne un sens à la vie et assure la paix civile.",
+     "autores": [
+      "pascal",
+      "voltaire",
+      "durkheim"
+     ],
+     "ejemplo": "Sacralisation de l'État dans les pays totalitaires ; Voltaire : « Dieu n'existait pas, il faudrait l'inventer »."
+    },
+    {
+     "parte": "III. Dépassement : des valeurs universelles sans dogmes",
+     "idea": "On peut ne pas être fidèle à une religion et partager ses valeurs fondamentales, se faire une religion critique et libératrice de valeurs universelles.",
+     "autores": [
+      "nietzsche",
+      "bergson"
+     ],
+     "ejemplo": "Les valeurs universelles héritées des Lumières face à la sacralisation de fausses valeurs (consommation, sport, violence)."
+    }
+   ],
+   "pagina_pdf": 152
+  },
+  {
+   "sujeto": "L'expérience religieuse est-elle une illusion ou une valeur ?",
+   "tipo_plan": "thématique",
+   "problematica": "La croyance peut être vue comme un refuge créé par la faiblesse humaine ou comme une source de sens, de morale et de cohésion. Le cours oppose ces deux lectures sous le titre « illusion ou valeur ».",
+   "plan": [
+    {
+     "parte": "I. La religion comme illusion",
+     "idea": "Les hommes créent les dieux par angoisse, aliénation ou faiblesse.",
+     "autores": [
+      "freud",
+      "marx",
+      "feuerbach",
+      "nietzsche"
+     ],
+     "ejemplo": "Marx : « la religion est l'opium du peuple » ; Feuerbach : « L'homme est appauvri de ce dont Dieu est enrichi »."
+    },
+    {
+     "parte": "II. La religion comme valeur existentielle et morale",
+     "idea": "Dieu donne un sens à la vie et garantit le respect de la morale et des lois.",
+     "autores": [
+      "pascal",
+      "voltaire"
+     ],
+     "ejemplo": "Pascal : Dieu ne se prouve pas, il s'éprouve ; la mort prend sens avec l'immortalité de l'âme."
+    },
+    {
+     "parte": "III. La religion comme expérience et fait social",
+     "idea": "Au-delà de l'illusion ou de l'utilité, la religion est un fait social et une émotion fondamentale devant le sacré.",
+     "autores": [
+      "durkheim",
+      "otto",
+      "bergson"
+     ],
+     "ejemplo": "Otto : mysterium tremendum et fascinans ; Bergson : le mysticisme comme source de la religion."
+    }
+   ],
+   "pagina_pdf": 147
+  },
+  {
+   "sujeto": "Peut-on prouver l'existence de Dieu ?",
+   "tipo_plan": "progressif",
+   "problematica": "Les preuves de l'existence de Dieu reposent sur des arguments qui ont été discutés et remis en cause. La raison peut-elle atteindre Dieu, ou la croyance relève-t-elle d'un autre ordre ?",
+   "plan": [
+    {
+     "parte": "I. Les preuves rationnelles",
+     "idea": "Les preuves par la finalité, la contingence et ontologique prétendent démontrer Dieu.",
+     "autores": [
+      "aquin",
+      "descartes"
+     ],
+     "ejemplo": "Thomas d'Aquin : la cause première ; Descartes : l'idée de l'être parfait."
+    },
+    {
+     "parte": "II. Les critiques des preuves",
+     "idea": "Le mal remet en cause l'ordre du monde ; l'existence n'est pas un prédicat ; la régression des causes n'a pas de raison de s'arrêter.",
+     "autores": [
+      "voltaire",
+      "kant"
+     ],
+     "ejemplo": "Kant : cent euros pensés / cent euros dans ma poche."
+    },
+    {
+     "parte": "III. Dieu s'éprouve",
+     "idea": "Dieu ne se prouve pas mais s'éprouve, et il donne un sens à l'existence.",
+     "autores": [
+      "pascal",
+      "otto"
+     ],
+     "ejemplo": "Pascal : « Dieu ne se prouve pas mais s'éprouve »."
+    }
+   ],
+   "pagina_pdf": 146
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+  "capitulo": "technique",
+  "perspectivas": {
+    "autores": ["Lévi-Strauss", "Mauss", "Tarde", "Flam", "Heidegger", "Grimaldi", "Spengler"],
+    "nociones_liadas": ["art", "nature", "science", "travail", "conscience", "liberté"],
+    "ramas": [
+      {
+        "titulo": {"es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture"},
+        "ideas": [
+          {"texto": {"es": "La técnica transforma la existencia del hombre.", "fr": "La technique transforme l’existence de l’homme."}, "autor": "mauss", "cours": "3. a."},
+          {"texto": {"es": "La técnica puede esclavizar al ser humano.", "fr": "La technique peut asservir l’être humain."}, "autor": "heidegger", "cours": "3. b."},
+          {"texto": {"es": "Todo condicionamiento técnico no es una esclavización.", "fr": "Tout conditionnement technique n’est pas un asservissement."}, "cours": "4. a."},
+          {"texto": {"es": "La técnica es la expresión de los deseos humanos y, a veces, de su mediocridad.", "fr": "La technique est l’expression des désirs humains et parfois de leur médiocrité."}, "autor": "grimaldi", "cours": "4. b."}
+        ]
+      },
+      {
+        "titulo": {"es": "La moral y la política", "fr": "La morale et la politique"},
+        "ideas": [
+          {"texto": {"es": "La técnica no fija fines morales ni políticos.", "fr": "La technique ne fixe pas de fins morale ou politique."}, "cours": "2. a."}
+        ]
+      },
+      {
+        "titulo": {"es": "El conocimiento", "fr": "La connaissance"},
+        "ideas": [
+          {"texto": {"es": "La técnica se distingue de la ciencia y de la artesanía.", "fr": "La technique se distingue de la science et de l’artisanat."}, "autor": "levi-strauss", "cours": "1"}
+        ]
+      }
+    ],
+    "pagina_pdf": 119
+  },
+  "ejercicios": [
+    {
+      "id": "technique-diss",
+      "tipo": "dissertation",
+      "enunciado": {"es": "¿Es el hombre quien hace la técnica o la técnica la que hace al hombre?", "fr": "Est-ce l’homme qui fait la technique ou la technique qui fait l’homme ?"},
+      "consigna": {
+        "es": "1. Con ayuda del curso, reflexione sobre los distintos sentidos de los términos del enunciado (la técnica, el hombre, hacer, o). Este trabajo preparatorio es indispensable para construir un plan coherente. 2. Después, redacte una introducción.",
+        "fr": "1. En vous aidant du cours, réfléchissez aux différents sens des termes (la technique, l’homme, faire, ou) du sujet. Ce travail préparatoire est indispensable pour pouvoir construire un plan cohérent. 2. Puis, une fois ce travail accompli, rédigez une introduction."
+      },
+      "corrige": {
+        "orientacion": {
+          "es": "Primero, mostrar la especificidad de la técnica frente a la ciencia y la artesanía (parte 1 del curso). Después, precisar en qué sentido emplear el término «hombre»: como dice Ellul, «¿qué hombre?». ¿El ser humano, el homo faber, un ser de conciencia y de deseo? ¿El usuario de una técnica? ¿El técnico, el ingeniero, el científico? A continuación, el verbo «hacer» es demasiado general y hay que dar sus distintos significados posibles: el hombre hace la técnica en el sentido de que la produce, de que es una actividad humana como el arte, o de que tiene la iniciativa para realizar ciertos fines y ella le sirve; la técnica hace al hombre porque lo moldea, lo condiciona y lo esclaviza (parte 3); pero la técnica puede considerarse el destino del hombre, su vocación y la expresión de sus deseos (parte 4). Por último, la conjunción «o» obliga a preguntarse si los dos enfoques serían válidos y no se excluirían: ¿en qué medida pueden afirmarse ambas proposiciones sin contradicción o son incompatibles? (final del curso).",
+          "fr": "D’abord montrez la spécificité de la technique par différence avec la science et l’artisanat (cf. partie 1). Puis, précisez en quel sens il faut employer le terme homme. En effet, lorsque l’on dit « l’homme peut-il utiliser la technique de telle ou telle façon ? », je réponds toujours : quel homme ? (Ellul J.). Est-ce l’être humain, l’homo faber, un être de conscience et de désir ? Ou l’usager de telle technique ? Ou le technicien, l’ingénieur, le scientifique ? Ensuite, le verbe « faire » étant trop général, il faut absolument donner les diverses significations possibles : l’homme fait la technique au sens où il la produit, ou c’est une activité humaine comme l’art, ou encore au sens où il en a l’initiative pour réaliser certaines fins et elle le sert alors ; la technique fait l’homme puisqu’elle le façonne, le conditionne et l’asservit (cf. partie 3) ; mais la technique peut être considérée comme le destin de l’homme, sa vocation et l’expression de ses désirs (cf. partie 4). Enfin, la conjonction « ou » oblige à se demander si les deux approches seraient valides et ne s’excluraient donc pas. Il faut donc se demander dans quelle mesure les deux propositions pourraient être affirmées sans contradiction ou si elles ne sont pas incompatibles ? (v. fin du cours)."
+        },
+        "introduccion": {
+          "es": "[Explicación del sujeto] El hombre sólo existe y subsiste gracias a una técnica que le permite transformar su entorno para hacerlo menos hostil. Para ello, no deja de inventar herramientas técnicas con las que transformar sus condiciones de vida y mejorar su existencia. Al usar su inteligencia para crear, para inventar herramientas, el hombre transforma el mundo e incluso su propia concepción de la realidad, pero a fuerza de querer transformar la realidad, los hombres se alejan no sólo de la naturaleza, sino también de su propia naturaleza. La relación artificial con el mundo, por medio de una herramienta, los lleva a buscar una técnica cada vez más eficaz y a no interrogarse sobre la supuesta necesidad de las herramientas técnicas que utilizan. [Problemática] ¿No tiende entonces la técnica a esclavizar al hombre más que a servirle? [Anuncio del plan] Sin embargo, detrás del problema de la técnica se perfila el del deseo de los hombres, pues la técnica no es de hecho más que la figura concreta del deseo de los hombres. Hay que reflexionar, en un primer momento, sobre la expresión de nuestros deseos, su riqueza, su variedad o su gran pobreza, para pensar después, en una segunda parte, correctamente nuestra actitud ante la técnica. Y por último, en una última parte, comprender mejor en qué medida nuestro uso de los objetos técnicos nos obliga a interrogarnos sobre nuestra negativa a ver todas las consecuencias morales, metafísicas o políticas del uso de ciertas técnicas.",
+          "fr": "[Explication du sujet] L’homme n’existe et ne peut subsister que grâce à une technique lui permettant de transformer son environnement pour le rendre moins hostile. Pour ce faire, il n’a de cesse d’inventer des outils techniques afin de transformer ses conditions de vie et améliorer son existence. En utilisant son intelligence pour créer, inventer des outils, l’homme transforme le monde et même sa propre conception de la réalité, mais à force de vouloir transformer la réalité, les hommes s’éloignent non seulement de la nature, mais également de leur propre nature. Le rapport artificiel au monde, par le biais d’un outil, les conduit à rechercher une technique toujours plus performante et à ne pas s’interroger sur la nécessité supposée des outils techniques qu’ils utilisent. [Problématique] La technique n’a-t-elle pas, dès lors, tendance à asservir l’homme plutôt qu’à le servir ? [Annonce du plan] Pour autant, derrière le problème de la technique se profile celui du désir des hommes, car la technique n’est en fait que la figure concrète du désir des hommes. Il nous faut donc réfléchir, dans un premier temps, sur l’expression de nos désirs, leur richesse, leur variété ou leur grande pauvreté, pour ensuite, dans une deuxième partie, penser correctement notre attitude face à la technique. Et enfin dans une dernière partie, mieux comprendre alors dans quelle mesure notre utilisation des objets techniques nous oblige à nous interroger sur notre refus de voir toutes les conséquences morale, métaphysique ou politique de l’usage de certaines techniques."
+        },
+        "problematica": {
+          "es": "¿No tiende entonces la técnica a esclavizar al hombre más que a servirle?",
+          "fr": "La technique n’a-t-elle pas, dès lors, tendance à asservir l’homme plutôt qu’à le servir ?"
+        },
+        "plan": [
+          {
+            "parte": {"es": "I. La expresión de nuestros deseos: su riqueza, su variedad o su gran pobreza", "fr": "I. L’expression de nos désirs, leur richesse, leur variété ou leur grande pauvreté"},
+            "idea": {"es": "La técnica no es más que la figura concreta del deseo de los hombres: el hombre hace la técnica porque ésta expresa sus deseos (y, a veces, su mediocridad).", "fr": "La technique n’est que la figure concrète du désir des hommes : l’homme fait la technique parce qu’elle exprime ses désirs (et parfois sa médiocrité)."},
+            "autores": ["grimaldi", "spengler"]
+          },
+          {
+            "parte": {"es": "II. Pensar correctamente nuestra actitud ante la técnica", "fr": "II. Penser correctement notre attitude face à la technique"},
+            "idea": {"es": "La técnica tiende a moldear, condicionar y esclavizar al hombre, pero el proceso hay que pensarlo bien: la actitud que adoptamos ante ella depende de nuestros deseos.", "fr": "La technique tend à façonner, conditionner et asservir l’homme, mais il faut penser correctement notre attitude face à elle, qui dépend de nos désirs."},
+            "autores": ["mauss", "tarde", "flam", "heidegger"]
+          },
+          {
+            "parte": {"es": "III. Nuestra negativa a ver las consecuencias morales, metafísicas o políticas del uso de ciertas técnicas", "fr": "III. Notre refus de voir toutes les conséquences morale, métaphysique ou politique de l’usage de certaines techniques"},
+            "idea": {"es": "Nuestro uso de los objetos técnicos nos obliga a interrogarnos sobre las consecuencias morales, metafísicas y políticas de ciertas técnicas, y a superar la alternativa simplista «a favor o en contra».", "fr": "Notre utilisation des objets techniques nous oblige à nous interroger sur les conséquences morale, métaphysique et politique de certaines techniques, et à dépasser l’alternative simpliste « pour ou contre »."}
+          }
+        ],
+        "puntos_clave": [
+          {"es": "Define la técnica y la distingue de la ciencia y de la artesanía antes de abordar el sujeto.", "fr": "Définit la technique et la distingue de la science et de l’artisanat avant d’aborder le sujet."},
+          {"es": "Precisa en qué sentido se toma «el hombre» (homo faber, ser de conciencia y deseo, usuario, técnico, ingeniero...).", "fr": "Précise en quel sens est pris le terme « homme » (homo faber, être de conscience et de désir, usager, technicien, ingénieur...)."},
+          {"es": "Distingue los sentidos del verbo «hacer»: producir, tener la iniciativa de fines (la técnica sirve), moldear/condicionar/esclavizar.", "fr": "Distingue les sens du verbe « faire » : produire, avoir l’initiative des fins (la technique sert), façonner/conditionner/asservir."},
+          {"es": "Se pregunta si la conjunción «o» exige una elección excluyente o si ambas proposiciones pueden afirmarse sin contradicción.", "fr": "Se demande si la conjonction « ou » impose un choix exclusif ou si les deux propositions peuvent être affirmées sans contradiction."},
+          {"es": "La introducción incluye explicación del sujeto, problemática formulada como pregunta y anuncio del plan.", "fr": "L’introduction comporte l’explication du sujet, une problématique formulée en question et l’annonce du plan."},
+          {"es": "Plantea la problemática: ¿tiende la técnica a esclavizar al hombre más que a servirle?", "fr": "Pose la problématique : la technique a-t-elle tendance à asservir l’homme plutôt qu’à le servir ?"},
+          {"es": "Muestra que la técnica es la figura concreta del deseo de los hombres y que el proceso, si lo hay, es el del deseo y no el de la técnica.", "fr": "Montre que la technique est la figure concrète du désir des hommes et que le procès, s’il y en a un, est celui du désir et non celui de la technique."},
+          {"es": "Evoca las consecuencias morales, metafísicas y políticas del uso de ciertas técnicas y supera la alternativa «a favor o en contra».", "fr": "Évoque les conséquences morale, métaphysique et politique de l’usage de certaines techniques et dépasse l’alternative « pour ou contre »."}
+        ]
+      },
+      "pagina_pdf": 122,
+      "pagina_corrige": 124
+    },
+    {
+      "id": "technique-expl",
+      "tipo": "explication",
+      "enunciado": {"es": "Redacte la introducción de la explicación de este texto.", "fr": "Rédigez l’introduction de l’explication de ce texte."},
+      "texto": {
+        "fr": "Je crains bien que la transformation moderne des moyens de production n’ait, jusqu’ici, accru la part de l’automatisme. La notion de travail, grandeur aisément mesurable, valeur purement quantitative, s’est substituée à la notion d’ouvrage ou d’œuvre à mesure que le rendement a été plus recherché et que la machine a conquis plus d’emplois, au point de faire, en quelque sorte, reculer l’œuvre devant elle. Mais le travail est un moyen de vivre et rien de plus. L’œuvre est une raison de vivre et ce n’est pas la même chose. D’ailleurs, le développement d’entreprises immenses et d’une complexité extrême entraîne nécessairement une diminution réciproque de la personnalité des hommes qu’elles emploient, jusqu’aux environs du sommet. Au sommet, l’initiative, l’invention, le vouloir se concentrent ; en ce point, le travail redevient œuvre. Ne semble-t-il pas que l’organisation politique, en plus d’un pays, tende à se façonner sur ce type créé par l’industrie à grande puissance ? Ce qu’on nomme aujourd’hui dictature revient à un essai de traiter la fabrication continue de « l’ordre social » selon le modèle qui s’est imposé aux vastes exploitations et sociétés de production dont je parlais. Tous ces mécanismes exigent une précision extrême et une surveillance permanente des écarts individuels. Quelles que soient les différences nominales et idéales, elles ne peuvent exister que par une simplification des individus qui permette de les orienter identiquement dans le champ des forces de l’État ; et il importe que cette modification agisse jusque dans la profondeur affective et intellectuelle de chacun d’eux. Il faut donc que les sentiments, les impulsions soient livrés, comme tout usinés, à la consommation des esprits et à la nutrition des âmes, par un être central. Le « psychisme supérieur » et la plénitude des puissances de l’action sont réservés à celui-ci. Il est l’unique homme complet de sa nation, et donc, dans notre temps, une manière de demi-dieu. Parfois il manifeste par un acte symbolique qu’il assume en sa personne les principes de tous les métiers, prend la pioche, ensemence, pointe un canon, conduit une machine, paraît aussi en prince des athlètes […]. Les avantages, les bienfaits, les vides, les dangers de ces régimes sont évidents ; il suffit de se rendre sensible à tel ou tel aspect de ce qu’on observe pour admirer ou abhorrer passionnément.",
+        "autor": "Valéry",
+        "obra": "Cahiers, 1894",
+        "pagina_pdf": 122
+      },
+      "consigna": {"es": "Redacte la introducción de la explicación de este texto.", "fr": "Rédigez l’introduction de l’explication de ce texte."},
+      "corrige": {
+        "tesis": {
+          "es": "El trabajo, porque no apunta a la creación de obras, desemboca lógicamente en una estructura jerárquica y piramidal, que puede servir de modelo a un Estado no democrático, dividido entre quienes inventan y quienes ejecutan. La técnica no es, pues, neutra: puede tener fines políticos y ser utilizada por un régimen totalitario para afirmar su poder y su dominación.",
+          "fr": "Le travail, parce qu’il ne vise pas la création d’œuvres, aboutit logiquement à une structure hiérarchique et pyramidale, pouvant servir de modèle à un État non démocratique entre ceux qui inventent et ceux qui exécutent. La technique n’est donc pas neutre, et peut avoir des fins politiques et être utilisée par un régime totalitaire pour affirmer son pouvoir et sa domination."
+        },
+        "etapas": [
+          {
+            "titulo": {"es": "La noción de obra frente al trabajo", "fr": "La notion d’œuvre face au travail"},
+            "idea": {"es": "Valéry explica la noción de obra, esencial porque supone que toda actividad humana posee un valor en sí misma. Cuando desaparece, sustituida por la técnica, es la vida entera la que cambia: aparece el trabajo y el hombre pierde una parte de sí mismo.", "fr": "Valéry explique la notion d’œuvre, en soulignant que cette dernière est essentielle puisqu’elle suppose que toute activité humaine possède une valeur en elle-même. Lorsqu’elle disparaît, que la technique la remplace, c’est la vie entière qui s’en trouve changée car le travail apparaît et l’homme y perd une part de lui-même."},
+            "lineas": "du début jusqu’à « le travail redevient œuvre. » (l. 11)"
+          },
+          {
+            "titulo": {"es": "La organización política calcada de la organización industrial", "fr": "L’organisation politique calquée sur l’organisation industrielle"},
+            "idea": {"es": "El autor explica que la organización política de los Estados ha tomado como modelo la estructura jerárquica de la industria. Las consecuencias se observan en lo que Valéry llama «la profundidad afectiva e intelectual» de todos los hombres: el espíritu, pero también el cuerpo, están fuertemente influidos e impactados por esta organización técnica.", "fr": "L’auteur explique que l’organisation politique des États a pris pour modèle la structure hiérarchique de l’industrie. Les conséquences s’observent, dans ce que Valéry nomme « la profondeur affective et intellectuelle » de tous les hommes : l’esprit, mais aussi le corps sont fortement influencés et impactés par cette organisation technique."},
+            "lineas": "de la l. 11 jusqu’à la fin"
+          }
+        ],
+        "introduccion": {
+          "es": "[Tema general] El tema de este texto es la estrecha relación entre el trabajo y su organización técnica, cuya estructura jerárquica puede reproducirse en el ámbito político. [Tesis sostenida por el autor] Paul Valéry explica en qué medida el trabajo, porque no apunta a la creación de obras, desemboca lógicamente en una estructura jerárquica y piramidal, que puede servir de modelo a un Estado no democrático entre quienes inventan y quienes ejecutan. La técnica no es, pues, neutra, y puede tener fines políticos y ser utilizada por un régimen totalitario para afirmar su poder y su dominación. [Estructura del texto] El texto se articula en dos momentos: en un primer momento (desde el principio hasta «[…] el trabajo vuelve a ser obra.», línea 11), Valéry explica la noción de obra, subrayando que es esencial pues supone que toda actividad humana posee un valor en sí misma. Cuando desaparece, cuando la técnica la sustituye, es la vida entera la que cambia, pues aparece el trabajo y el hombre pierde en él una parte de sí mismo. Después, en un segundo momento (de la línea 11 hasta el final), el autor explica que la organización política de los Estados ha tomado como modelo la estructura jerárquica de la industria. Las consecuencias se observan en lo que Valéry llama «la profundidad afectiva e intelectual» de todos los hombres: el espíritu, pero también el cuerpo, están fuertemente influidos e impactados por esta organización técnica.",
+          "fr": "[Thème général] Le thème de ce texte est la relation étroite entre le travail et son organisation technique, la structure hiérarchique de celle-ci pouvant être reproduite dans le domaine politique. [Thèse soutenue par l’auteur] Paul Valéry explique dans quelle mesure le travail, parce qu’il ne vise pas la création d’œuvres, aboutit logiquement à une structure hiérarchique et pyramidale, pouvant servir de modèle à un État non démocratique entre ceux qui inventent et ceux qui exécutent. La technique n’est donc pas neutre, et peut avoir des fins politiques et être utilisée par un régime totalitaire pour affirmer son pouvoir et sa domination. [Structure du texte] Le texte s’articule en deux moments : – Dans un premier temps (du début jusqu’à « […] le travail redevient œuvre. » à la ligne 11), Valéry explique la notion d’œuvre, en soulignant que cette dernière est essentielle puisqu’elle suppose que toute activité humaine possède une valeur en elle-même. Lorsqu’elle disparaît, que la technique la remplace, c’est la vie entière qui s’en trouve changée car le travail apparaît et l’homme y perd une part de lui-même. – Puis, dans un second temps (de la ligne 11 jusqu’à la fin), l’auteur explique que l’organisation politique des États a pris pour modèle la structure hiérarchique de l’industrie. Les conséquences s’observent, dans ce que Valéry nomme « la profondeur affective et intellectuelle » de tous les hommes : l’esprit, mais aussi le corps sont fortement influencés et impactés par cette organisation technique."
+        },
+        "enjeu": {
+          "es": "El libro sitúa el texto en las perspectivas 1 y 2: las consecuencias de la técnica sobre la existencia humana y sobre la cultura, y los problemas políticos que plantea la organización técnica del trabajo y de la sociedad. Lo que está en juego es que la técnica no es neutra: puede ser utilizada con fines políticos por un régimen totalitario para afirmar su poder y su dominación.",
+          "fr": "Le livre place ce texte dans les perspectives 1 et 2 : les conséquences de la technique sur l’existence humaine et sur la culture, et les problèmes politiques que pose l’organisation technique du travail et de la société. L’enjeu est que la technique n’est pas neutre : elle peut être utilisée à des fins politiques par un régime totalitaire pour affirmer son pouvoir et sa domination."
+        },
+        "puntos_clave": [
+          {"es": "Enuncia el tema general: la relación entre el trabajo y su organización técnica, y la reproducción de su estructura jerárquica en lo político.", "fr": "Énonce le thème général : la relation entre le travail et son organisation technique, et la reproduction de sa structure hiérarchique dans le domaine politique."},
+          {"es": "Formula la tesis: el trabajo, que no apunta a crear obras, lleva a una estructura jerárquica y piramidal que puede servir de modelo a un Estado no democrático.", "fr": "Formule la thèse : le travail, qui ne vise pas la création d’œuvres, aboutit à une structure hiérarchique et pyramidale pouvant servir de modèle à un État non démocratique."},
+          {"es": "Subraya que la técnica no es neutra y que puede ser usada por un régimen totalitario para afirmar su poder y su dominación.", "fr": "Souligne que la technique n’est pas neutre et qu’elle peut être utilisée par un régime totalitaire pour affirmer son pouvoir et sa domination."},
+          {"es": "Distingue obra (razón de vivir, valor en sí misma) y trabajo (medio de vivir, valor cuantitativo).", "fr": "Distingue l’œuvre (raison de vivre, valeur en elle-même) et le travail (moyen de vivre, valeur quantitative)."},
+          {"es": "Anuncia la estructura en dos momentos: hasta la línea 11 (obra frente a trabajo) y de la línea 11 al final (modelo político).", "fr": "Annonce la structure en deux moments : jusqu’à la ligne 11 (œuvre face au travail) et de la ligne 11 à la fin (modèle politique)."},
+          {"es": "Señala que la organización técnica influye en el espíritu y en el cuerpo, hasta «la profundidad afectiva e intelectual» de cada hombre.", "fr": "Relève que l’organisation technique influence l’esprit et le corps, jusque dans « la profondeur affective et intellectuelle » de chacun."}
+        ]
+      },
+      "pagina_pdf": 122,
+      "pagina_corrige": 125
+    }
+  ]
+}

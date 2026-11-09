@@ -1,0 +1,223 @@
+{
+  "capitulo": "devoir",
+  "perspectivas": {
+    "autores": ["Freud", "Arendt", "Durkheim", "Hobbes", "Lévi-Strauss", "Kant", "Mauss", "Plaute", "Rousseau", "Thoreau"],
+    "nociones_liadas": ["justice", "bonheur", "État", "conscience", "liberté"],
+    "ramas": [
+      {
+        "titulo": {"es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture"},
+        "ideas": [
+          {
+            "texto": {
+              "es": "El asesinato y la prohibición del incesto son los dos interdictos fundamentales de toda sociedad.",
+              "fr": "Le meurtre et la prohibition de l’inceste sont les deux interdits fondamentaux de toute société."
+            },
+            "autor": "freud",
+            "cours": "1."
+          }
+        ]
+      },
+      {
+        "titulo": {"es": "La moral y la política", "fr": "La morale et la politique"},
+        "ideas": [
+          {
+            "texto": {
+              "es": "El deber puede ser una obligación social y política.",
+              "fr": "Le devoir peut être une obligation sociale et politique."
+            },
+            "autor": "mauss",
+            "cours": "2. a."
+          },
+          {
+            "texto": {
+              "es": "La obediencia a órdenes inmorales puede, por desgracia, entenderse como deberes categóricos.",
+              "fr": "L’obéissance à des ordres immoraux peut être malheureusement comprise comme des devoirs catégoriques."
+            },
+            "autor": "arendt",
+            "cours": "2. b."
+          },
+          {
+            "texto": {
+              "es": "Los deberes del ciudadano son legítimos en el seno de una sociedad democrática.",
+              "fr": "Les devoirs du citoyen sont légitimes au sein d’une société démocratique."
+            },
+            "cours": "2. c."
+          },
+          {
+            "texto": {
+              "es": "Las leyes votadas democráticamente liberan al hombre de un estado de naturaleza en el que prevalecen las relaciones de fuerza.",
+              "fr": "Les lois votées démocratiquement libèrent l’homme d’un état de nature où prévaut les rapport de force."
+            },
+            "autor": "rousseau",
+            "cours": "2. c."
+          },
+          {
+            "texto": {
+              "es": "El deber moral es la más alta expresión de la libertad humana.",
+              "fr": "Le devoir moral est la plus haute expression de la liberté humaine."
+            },
+            "autor": "kant",
+            "cours": "3. a."
+          },
+          {
+            "texto": {
+              "es": "No confundir un acto conforme a un deber (exterior o impuesto) con un acto hecho por deber, que sí es moral.",
+              "fr": "Ne pas confondre un acte conforme à un devoir (extérieur ou imposé) et un acte fait par devoir qui, lui, est moral."
+            },
+            "autor": "kant",
+            "cours": "3. b."
+          }
+        ]
+      },
+      {
+        "titulo": {"es": "El conocimiento", "fr": "La connaissance"},
+        "ideas": [
+          {
+            "texto": {
+              "es": "Debemos conocer las leyes del país en el que vivimos para poder respetarlas.",
+              "fr": "Il nous faut avoir connaissance des lois du pays dans lequel nous vivons pour les respecter."
+            },
+            "cours": "2. c."
+          }
+        ]
+      }
+    ],
+    "pagina_pdf": 246
+  },
+  "ejercicios": [
+    {
+      "id": "devoir-diss",
+      "tipo": "dissertation",
+      "enunciado": {"es": "¿Es liberador el deber?", "fr": "Le devoir est-il libérateur ?"},
+      "consigna": {
+        "es": "Sujeto de disertación (nivel 1, 2 h). El libro propone el corrigé de la argumentación en tres tesis; el ejercicio de entrenamiento pide resumir las tres tesis, concluyendo bien cada una de las argumentaciones.",
+        "fr": "Sujet de dissertation (niveau 1, 2 h). Résumez vos trois thèses, en veillant à bien conclure chacune de vos argumentations."
+      },
+      "corrige": {
+        "orientacion": {
+          "es": "Este sujeto obliga a interrogarse a la vez sobre las causas y las consecuencias (a veces morales y siempre existenciales) de un deber, pero también sobre su importancia en la cultura y la historia de los hombres, sin olvidar su alcance eminentemente político cuando concierne a la colectividad.",
+          "fr": "Ce sujet oblige à s’interroger, à la fois sur les causes et les conséquences (parfois morales et toujours existentielles) d’un devoir, mais également sur son importance dans la culture et l’histoire des hommes ; sans oublier sa portée éminemment politique lorsqu’il concerne la collectivité."
+        },
+        "plan": [
+          {
+            "parte": {
+              "es": "I. El deber de obedecer la ley civil libera a los ciudadanos de las relaciones de fuerza (Rousseau).",
+              "fr": "I. Le devoir d’obéir à la loi civile libère les citoyens des rapports de force (Rousseau)."
+            },
+            "idea": {
+              "es": "El deber de respetar las leyes del propio país hace a cada uno libre de hacer lo que quiera dentro de los límites que ellas fijan. Como muestra Rousseau, la ley libera de las relaciones de fuerza, siempre intersubjetivas, por ser igualitaria: es deber de cada cual, sin excepción, respetarla. Cada uno puede así vivir libremente en el marco de las leyes, que fijan los derechos de todos y obligan a respetarlos. Conclusión: los ciudadanos de un país siguen siendo libres en derechos mientras cumplan sus deberes, es decir, mientras obedezcan las leyes.",
+              "fr": "Le devoir de respecter les lois de son pays rend chacun libre de faire ce qu’il veut dans les limites fixées par ces lois. Comme le montre clairement Rousseau, la loi libère des rapports de force qui sont toujours intersubjectifs en étant égalitaire. Il est, en effet, du devoir de chacun sans exception de la respecter. Chacun peut alors vivre librement dans le cadre des lois qui fixent les droits de tous et obligent à leur respect. Les citoyens d’un pays demeurent libres en droits tant qu’ils respectent leurs devoirs, à savoir s’ils obéissent aux lois."
+            },
+            "autores": ["rousseau"]
+          },
+          {
+            "parte": {
+              "es": "II. Cumplir con el propio deber puede ir acompañado de una forma de desresponsabilización (Hannah Arendt).",
+              "fr": "II. Respecter son devoir peut être accompagné d’une forme de déresponsabilisation (Hannah Arendt)."
+            },
+            "idea": {
+              "es": "El carácter coercitivo de las leyes puede engendrar efectos perversos cuando se ponen al servicio de un poder que no busca el bien común: la historia muestra que pueden desviarse para servir a un poder belicoso y autoritario, que transforma el justo respeto de la legalidad en un deber pasivo de obediencia a reglas que se confunden con órdenes. Así desviado, el deber puede cegar: obedecer a órdenes presentadas como leyes hace desaparecer toda forma de responsabilidad, y algunos se esconden tras haber cumplido con su deber (sin preocuparse de las consecuencias liberticidas e inmorales), como el criminal nazi Adolf Eichmann. Conclusión: el deber es entonces un abandono de sí que puede ser gozoso (el placer tranquilizador de someterse sin interrogarse), una dimisión de toda responsabilidad y un rebajamiento voluntario y peligroso de la libertad de conciencia.",
+              "fr": "L’aspect contraignant des lois peut engendrer des effets pervers lorsqu’elles sont mises au service d’un pouvoir ne recherchant pas le bien commun. L’histoire nous montre que les lois peuvent être détournées pour servir un pouvoir belliqueux et autoritaire cherchant à transformer le respect juste de la légalité en devoir passif d’obéissance à des règles qui se confondent avec des ordres. Ainsi détourné, le devoir peut aveugler : obéir à des ordres présentés comme des lois entraîne la disparition de toute forme de responsabilité ; certains se cachent derrière le fait d’avoir fait leur devoir (sans se soucier des conséquences liberticides et immorales), à l’instar du criminel nazi Adolf Eichmann. En ce sens, le devoir est un abandon de soi qui peut être jouissif : il engendre le plaisir rassurant de se soumettre sans avoir à s’interroger. C’est donc une démission de toute responsabilité, un abaissement volontaire et dangereux de sa liberté de conscience."
+            },
+            "autores": ["arendt"]
+          },
+          {
+            "parte": {
+              "es": "III. El deber moral es por principio liberador, pues el sujeto es su causa y su ejecutor (Kant).",
+              "fr": "III. Le devoir moral est par principe libérateur, puisque le sujet en est la cause et l’exécutant (Kant)."
+            },
+            "idea": {
+              "es": "El deber moral es liberador porque supone por esencia la libertad de quien lo respeta: el individuo obedece libremente una ley que es la suya y que posee un valor universal. Actuar por deber es respetar una máxima que uno afirma y aplica al mismo tiempo; autor y actor, el sujeto es libre de cumplir su deber, pues su acción es universalizable. No es un simple deber conforme a una ley política circunscrita a un solo país, sino una ley moral que, por su carácter universal, se dirige a todo hombre, sea cual sea su origen social o su nacionalidad. Conclusión: actuando estrictamente por deber, ese hombre se somete libremente a una ley racional que eleva su humanidad.",
+              "fr": "Le devoir moral est libérateur car il suppose par essence la liberté de celui qui le respecte : c’est librement que l’individu obéit à une loi qui est la sienne et qui possède une valeur universelle. Agir par devoir, c’est alors respecter une maxime que l’on affirme et que l’on applique dans le même temps. Auteur et acteur, le sujet est donc libre de faire son devoir, son action étant universalisable. Ce n’est pas un simple devoir conforme à une loi politique et circonscrite à son seul pays, mais une loi morale, qui par son caractère universel, s’adresse à tout homme, peu importe son origine sociale ou sa nationalité. Agissant strictement par devoir, un tel homme se soumet librement à une loi rationnelle qui élève son humanité."
+            },
+            "autores": ["kant"]
+          }
+        ],
+        "puntos_clave": [
+          {"es": "Presentar el deber como algo que suele percibirse como una obligación impuesta, y plantear por qué podría, sin embargo, ser liberador.", "fr": "Présenter le devoir comme souvent perçu comme une obligation subie, et poser pourquoi il pourrait pourtant être libérateur."},
+          {"es": "Mostrar que la ley civil, igual para todos, libera de las relaciones de fuerza y permite vivir libre en derechos (Rousseau).", "fr": "Montrer que la loi civile, égalitaire, libère des rapports de force et permet de vivre libre en droits (Rousseau)."},
+          {"es": "Señalar el peligro del deber convertido en obediencia pasiva a órdenes que se hacen pasar por leyes, que suprime la responsabilidad (Eichmann, Arendt).", "fr": "Souligner le danger du devoir devenu obéissance passive à des ordres présentés comme des lois, qui supprime la responsabilité (Eichmann, Arendt)."},
+          {"es": "Concluir cada argumentación: el deber así entendido es una dimisión de la responsabilidad y un rebajamiento de la libertad de conciencia.", "fr": "Conclure chaque argumentation : le devoir ainsi compris est une démission de la responsabilité et un abaissement de la liberté de conscience."},
+          {"es": "Mostrar que el deber moral kantiano supone la libertad: el sujeto es a la vez autor y actor de la máxima que aplica.", "fr": "Montrer que le devoir moral kantien suppose la liberté : le sujet est à la fois auteur et acteur de la maxime qu’il applique."},
+          {"es": "Subrayar el carácter universalizable de la ley moral, que va más allá de una ley política circunscrita a un país.", "fr": "Souligner le caractère universalisable de la loi morale, qui dépasse une loi politique circonscrite à un pays."},
+          {"es": "Articular las tres tesis en una progresión (ley civil, deber pervertido, deber moral) que lleva a una respuesta matizada a la pregunta.", "fr": "Articuler les trois thèses en une progression (loi civile, devoir perverti, devoir moral) menant à une réponse nuancée à la question."}
+        ]
+      },
+      "pagina_pdf": 249,
+      "pagina_corrige": 251
+    },
+    {
+      "id": "devoir-expl",
+      "tipo": "explication",
+      "enunciado": {
+        "es": "1. Redacte la introducción de la explicación de texto, respetando cada una de las etapas de estructuración de la introducción. 2. Después, realice una conclusión crítica. Puede relacionarla con otras nociones.",
+        "fr": "1. Rédigez l’introduction de l’explication de texte, en respectant chacune des étapes de structuration de l’introduction. 2. Puis, réalisez une conclusion critique. Vous pouvez faire le lien avec d’autres notions."
+      },
+      "texto": {
+        "fr": "Les méchants recherchent la société d’autres personnes avec lesquelles ils passeront leurs journées, mais ils se fuient eux-mêmes, car seuls avec eux-mêmes ils se ressouviennent d’une foule d’actions qui les accablent et prévoient qu’ils en commettront à l’avenir d’autres semblables, tandis qu’au contraire la présence de compagnons leur permet d’oublier. De plus, n’ayant en eux rien d’aimable, ils n’éprouvent aucun sentiment d’affection pour eux-mêmes. Par suite, de tels hommes demeurent des étrangers à leurs propres joies et à leurs propres peines, car leur âme est déchirée par les factions : l’une de ses parties, en raison de sa dépravation, souffre quand l’individu s’abstient de certains actes, tandis que l’autre partie s’en réjouit : l’une tire dans un sens et l’autre dans un autre, mettant ces malheureux pour ainsi dire en pièces. Et s’il n’est pas exactement possible qu’ils ressentent dans un même moment du plaisir ou de la peine, du moins leur faut-il peu de temps pour s’affliger d’avoir cédé au plaisir pour souhaiter que ces jouissances ne leur eussent jamais été agréables : car les hommes vicieux sont chargés de regrets.\nAinsi donc, il est manifeste que l’homme pervers n’a même pas envers lui-même de dispositions affectueuses, parce qu’il n’a en lui rien qui soit aimable. Si dès lors un pareil état d’esprit est le comble de la misère morale, nous devons fuir la perversité de toutes nos forces et essayer d’être d’honnêtes gens : ainsi pourrons-nous à la fois nous comporter en ami avec nous-même et devenir un ami pour un autre.",
+        "autor": "Aristote",
+        "obra": "Éthique à Nicomaque, « Livre IX »",
+        "pagina_pdf": 249
+      },
+      "consigna": {
+        "es": "Redactar la introducción (tema general, tesis del autor, estructura del texto) y una conclusión crítica del texto de Aristóteles, pudiendo relacionarla con otras nociones.",
+        "fr": "Rédiger l’introduction (thème général, thèse soutenue par l’auteur, structure du texte) et une conclusion critique du texte d’Aristote, en pouvant faire le lien avec d’autres notions."
+      },
+      "corrige": {
+        "tesis": {
+          "es": "Aunque Aristóteles no emplea nunca el término «deber», lo que está en juego es la distancia posible y deplorable entre lo que se debe hacer y lo que se hace realmente, y cómo nuestros actos influyen en nuestra felicidad: el hombre perverso se desprecia a sí mismo, está desgarrado y lleno de remordimientos, por lo que hay que huir de la perversidad y ser honrado para ser amigo de uno mismo y de otro.",
+          "fr": "Dans ce texte, Aristote n’utilise à aucun moment le terme de devoir ; en toile de fond, c’est bien de cela dont il s’agit, de l’écart possible et déplorable entre ce que l’on doit faire et ce que l’on fait véritablement, et de quelle manière nos actes influent sur notre bonheur : l’homme pervers n’a aucune affection pour lui-même, son âme est déchirée et il est chargé de regrets ; il faut donc fuir la perversité pour être un ami pour soi-même et pour un autre."
+        },
+        "etapas": [
+          {
+            "titulo": {"es": "El malvado huye de sí mismo", "fr": "Le méchant se fuit lui-même"},
+            "idea": {
+              "es": "El «malvado» busca la compañía de otros con relaciones poco sinceras, con el único fin de olvidar su propia maldad, pues a solas se acuerda de sus actos y prevé otros semejantes.",
+              "fr": "Le « méchant » entretient des relations non-sincères avec autrui dans le seul but d’oublier sa propre méchanceté."
+            },
+            "lineas": "l. 1-5"
+          },
+          {
+            "titulo": {"es": "La desdicha del malvado", "fr": "Le malheur du méchant"},
+            "idea": {
+              "es": "El malvado, que sufre por sus malas inclinaciones, lucha contra el aborrecimiento que siente de sí mismo: su alma está desgarrada y está lleno de remordimientos.",
+              "fr": "L’auteur insiste sur le malheur du méchant qui, souffrant de ses mauvais penchants, lutte contre la détestation qu’il a de lui-même."
+            },
+            "lineas": "l. 5-15"
+          },
+          {
+            "titulo": {"es": "Huir de la perversidad y actuar según principios morales", "fr": "Fuir la perversité et agir selon des principes moraux"},
+            "idea": {
+              "es": "La maldad no es involuntaria: hay que tomar conciencia de ella para apartarse y actuar según principios morales; así se presta servicio a los demás y a uno mismo.",
+              "fr": "La méchanceté n’est pas involontaire, il nous faut en prendre conscience pour nous en détourner et agir selon des principes moraux : alors nous rendons service aux autres et à nous-même."
+            },
+            "lineas": "l. 16-20 (dernier paragraphe)"
+          }
+        ],
+        "introduccion": {
+          "es": "[Tema general] El texto trata de la relación problemática entre la moral o deber de obrar bien y la felicidad. [Tesis] Aristóteles no usa el término «deber», pero en el fondo de su argumentación se trata de la distancia posible entre lo que se debe hacer y lo que se hace, y de cómo nuestros actos influyen en nuestra felicidad: el hombre puede ser por naturaleza un ser infecto y gozar de comportamientos detestables y voluntarios. [Estructura] El autor organiza su argumentación en tres ejes: el malvado busca compañía para olvidar su maldad (hasta «[…] les permite olvidar», l. 5); luego su desdicha, que sufre por sus malas inclinaciones y lucha contra la aversión que se tiene (de «De plus […]» a «[…] están llenos de remordimientos», l. 15); por último, la maldad no es involuntaria y hay que tomar conciencia de ella para apartarse y obrar según principios morales, sirviendo así a los demás y a uno mismo.",
+          "fr": "[Thème général] Le texte porte sur la relation problématique entre la morale ou le devoir de bien agir et le bonheur. [Thèse soutenue par l’auteur] Dans ce texte, Aristote n’utilise à aucun moment le terme de devoir, malgré tout, en toile de fond de l’argumentation aristotélicienne, c’est bien de cela dont il s’agit, de l’écart possible et déplorable entre ce que l’on doit faire et ce que l’on fait véritablement, et de quelle manière nos actes influent sur notre bonheur. Aussi, l’homme peut-il être par nature un être infecte, et jouir pleinement et avec bonheur de comportements détestables et volontaires. [Structure du texte] L’auteur structure son argumentation selon trois axes. Dans un premier temps (du début jusqu’à « […] leur permet d’oublier. » à la ligne 5), Aristote souligne que le « méchant » entretient des relations non-sincères avec autrui dans le seul but d’oublier sa propre méchanceté. Puis, dans un second temps, (de « De plus […] » jusqu’à « […] sont chargés de regrets » à la ligne 15), l’auteur insiste sur le malheur du méchant qui, souffrant de ses mauvais penchants, lutte contre la détestation qu’il a de lui-même. Et enfin, dans une dernière partie (dernier paragraphe), Aristote nous explique que la méchanceté n’est pas involontaire, qu’il nous faut en prendre conscience pour nous en détourner et agir selon des principes moraux, alors nous rendons service aux autres et à nous-même."
+        },
+        "enjeu": {
+          "es": "Está en juego el vínculo íntimo entre la moral y la existencia de los hombres: el comportamiento moral de un hombre tiene necesariamente consecuencias sobre su existencia personal y sobre la de los demás; la maldad es incompatible con la felicidad, pues ser feliz exige «hacer sociedad» consigo mismo y asumir el deber de obrar bien.",
+          "fr": "Aristote démontre le lien intime entre la morale et l’existence des hommes. Le comportement moral d’un homme a nécessairement des conséquences sur son existence personnelle et sur celle des autres ; pour être heureux, il faut aussi faire « société » avec soi-même et assumer son devoir de bien agir."
+        },
+        "conclusion": {
+          "es": "Según Aristóteles, todos buscamos la felicidad; el hombre feliz es el que hace el bien a los demás y cumple su deber. El malvado vive un fracaso, pues odiando a sus semejantes se odia a sí mismo; Aristóteles se opone aquí a la tesis socrática de que «nadie es malo voluntariamente», aunque coincide con Platón en que nadie puede ser malo sin sufrir. Aristóteles tiene razón, pero hay que precisar que se trata de una maldad voluntaria, de una intención asumida y calculada de dañar; su tesis supone que el malvado se arrepiente y conserva una conciencia moral, quizá maltratada pero presente. Cabe también cuestionarla: si la maldad es un obstáculo para la felicidad, ¿nos preserva la bondad de la desdicha? Kant afirma que lo mejor que podemos hacer es hacernos dignos de la felicidad por una voluntad sin falla de cumplir con el deber, pues «la buena voluntad parece constituir la condición indispensable de lo que nos hace dignos de ser felices» (Fundamentos de la metafísica de las costumbres). Relación con la noción de felicidad (cap. 17): lo único que depende por completo de nosotros es el esfuerzo cotidiano por alcanzar la felicidad; queda una parte de azar y de circunstancias, pero nuestra buena voluntad depende enteramente de nosotros y constituye nuestro verdadero mérito. Esto no contradice a Aristóteles, para quien el malvado solo puede ser desdichado porque «la felicidad es una actividad del alma conforme a la virtud».",
+          "fr": "Selon Aristote, nous recherchons tous le bonheur ; l’homme heureux est celui qui fait le bien pour les autres et accomplit son devoir. L’homme méchant connaît un terrible échec car haïssant ses semblables, il se hait lui-même : Aristote s’oppose ici à la thèse socratique selon laquelle « nul n’est méchant volontairement », tout en rejoignant Platon en affirmant que nul ne peut être méchant sans en souffrir lui-même. Aristote a raison, mais il faut préciser qu’il s’agit d’une méchanceté volontaire, d’une intention assumée et calculée de nuire ; sa thèse suppose que le méchant regrette ses actes et a donc une conscience morale, certes malmenée, mais toujours présente. On peut cependant questionner la thèse : si la méchanceté est un obstacle au bonheur, est-il certain que la bonté nous préserve du malheur ? Kant affirme que le mieux que nous puissions faire, c’est de nous rendre digne du bonheur, de le mériter par une volonté sans faille de faire son devoir, car « la bonne volonté paraît constituer la condition indispensable même de ce qui nous rend digne d’être heureux » (Fondements de la métaphysique des mœurs). [Mise en lien avec la notion de bonheur – Chap. 17] La seule chose qui soit vraiment entre nos mains, c’est cet effort que nous pouvons toujours faire par nos actes quotidiens pour parvenir au bonheur ; il reste une part de hasard ou de chance, mais notre bonne volonté, notre désir de toujours faire notre devoir dépend entièrement de nous et constitue notre véritable mérite. Cette approche ne contredit pas celle d’Aristote car si pour lui le méchant ne peut être que malheureux, c’est que « le bonheur est une activité de l’âme conforme à la vertu »."
+        },
+        "puntos_clave": [
+          {"es": "Introducción en tres pasos: tema general (moral y felicidad), tesis del autor y estructura del texto.", "fr": "Introduction en trois temps : thème général (morale et bonheur), thèse de l’auteur et structure du texte."},
+          {"es": "Señalar que Aristóteles no emplea la palabra «deber» pero trata la distancia entre lo que se debe hacer y lo que se hace.", "fr": "Relever qu’Aristote n’emploie pas le mot « devoir » mais traite de l’écart entre ce que l’on doit faire et ce que l’on fait."},
+          {"es": "Identificar los tres movimientos: el malvado huye de sí mismo (l. 1-5), su alma desgarrada y llena de remordimientos (l. 5-15), huir de la perversidad para ser amigo de uno mismo y de otro (l. 16-20).", "fr": "Identifier les trois mouvements : le méchant se fuit lui-même (l. 1-5), son âme déchirée et chargée de regrets (l. 5-15), fuir la perversité pour être ami de soi et d’autrui (l. 16-20)."},
+          {"es": "Situar la tesis respecto a Sócrates («nadie es malo voluntariamente») y a Platón.", "fr": "Situer la thèse par rapport à Socrate (« nul n’est méchant volontairement ») et à Platon."},
+          {"es": "Precisar los límites de la tesis: vale para una maldad voluntaria y supone que el malvado conserva una conciencia moral.", "fr": "Préciser les limites de la thèse : elle vaut pour une méchanceté volontaire et suppose que le méchant garde une conscience morale."},
+          {"es": "Discutir si la bondad garantiza la felicidad y recurrir a Kant: hacerse digno de la felicidad por la buena voluntad.", "fr": "Discuter si la bonté garantit le bonheur et recourir à Kant : se rendre digne du bonheur par la bonne volonté."},
+          {"es": "Hacer el vínculo con la noción de felicidad (cap. 17): la virtud como primer paso hacia la felicidad, sin olvidar la parte de azar y de circunstancias.", "fr": "Faire le lien avec la notion de bonheur (chap. 17) : la vertu comme premier pas vers le bonheur, sans oublier la part de hasard et de circonstances."}
+        ]
+      },
+      "pagina_pdf": 249,
+      "pagina_corrige": 252
+    }
+  ]
+}

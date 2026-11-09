@@ -1,0 +1,3072 @@
+{
+  "id": "religion-sala-espera",
+  "capitulo": "religion",
+  "titulo": {
+    "es": "La noche de la sala de espera",
+    "fr": "La nuit de la salle d'attente"
+  },
+  "premisa": {
+    "es": "Théo, el hermano pequeño de Inès, está en el quirófano y nadie sabe cómo saldrá. Su abuela reza, su amigo Marc cuestiona toda fe. Inès debe decidir qué hace con su propia duda: creer, razonar o rechazar.",
+    "fr": "Théo, le petit frère d'Inès, est au bloc et personne ne sait comment cela finira. Sa grand-mère prie, son ami Marc remet toute foi en question. Inès doit décider ce qu'elle fait de son propre doute : croire, raisonner ou rejeter."
+  },
+  "protagonista": "Inès",
+  "inicio": "n1",
+  "nodos": {
+    "n1": {
+      "escena": {
+        "titulo": {
+          "es": "Sala de espera, 2 a.m.",
+          "fr": "Salle d'attente, 2 h du matin"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "mamie",
+            "tipo": "monigote",
+            "pos": [
+              0.55,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Abuela Rose",
+              "fr": "Mamie Rose"
+            }
+          },
+          {
+            "id": "marc",
+            "tipo": "monigote",
+            "pos": [
+              0.85,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Marc",
+              "fr": "Marc"
+            }
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "02:00",
+              "fr": "02:00"
+            }
+          },
+          {
+            "id": "puerta",
+            "tipo": "puerta",
+            "pos": [
+              0.9,
+              0.38
+            ],
+            "etiqueta": {
+              "es": "Quirófano",
+              "fr": "Bloc opératoire"
+            }
+          },
+          {
+            "id": "theo",
+            "tipo": "corazon",
+            "pos": [
+              0.9,
+              0.58
+            ],
+            "etiqueta": {
+              "es": "Théo",
+              "fr": "Théo"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "puerta"
+          },
+          {
+            "t": 1.1,
+            "accion": "aparece",
+            "actor": "theo"
+          },
+          {
+            "t": 1.6,
+            "accion": "tiembla",
+            "actor": "theo"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 2.4,
+            "accion": "aparece",
+            "actor": "mamie"
+          },
+          {
+            "t": 3.5,
+            "accion": "dice",
+            "actor": "mamie",
+            "texto": {
+              "es": "Rezo por Théo. Ven, hija, reza conmigo.",
+              "fr": "Je prie pour Théo. Viens, ma fille, prie avec moi."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "No sé si creo... pero tengo miedo.",
+              "fr": "Je ne sais pas si je crois... mais j'ai peur."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "aparece",
+            "actor": "marc"
+          },
+          {
+            "t": 8.4,
+            "accion": "dice",
+            "actor": "marc",
+            "texto": {
+              "es": "Inès, ven. Hablemos fuera.",
+              "fr": "Inès, viens. Parlons dehors."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Théo está en el quirófano. Esta noche Inès debe decidir qué hace con su fe.",
+              "fr": "Théo est au bloc. Cette nuit, Inès doit décider que faire de sa foi."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Théo, su hermano pequeño, está en una operación delicada. Mamie reza; Marc la espera en el pasillo; Inès duda.",
+        "fr": "Théo, son petit frère, subit une opération délicate. Mamie prie ; Marc l'attend dans le couloir ; Inès doute."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces?",
+          "fr": "Que fais-tu ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Rezar con Mamie, aunque dudes",
+              "fr": "Prier avec Mamie, même si tu doutes"
+            },
+            "a": "n2",
+            "postura": {
+              "es": "Abrirse a la experiencia",
+              "fr": "S'ouvrir à l'expérience"
+            }
+          },
+          {
+            "texto": {
+              "es": "Pedir razones: ¿qué pruebas hay?",
+              "fr": "Exiger des raisons : quelles preuves ?"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Pruebas racionales",
+              "fr": "Preuves rationnelles"
+            }
+          },
+          {
+            "texto": {
+              "es": "Salir al pasillo con Marc",
+              "fr": "Sortir dans le couloir avec Marc"
+            },
+            "a": "n4",
+            "postura": {
+              "es": "Crítica de la religión",
+              "fr": "Critique de la religion"
+            }
+          }
+        ]
+      }
+    },
+    "n2": {
+      "escena": {
+        "titulo": {
+          "es": "La capilla de la clínica",
+          "fr": "La chapelle de la clinique"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.35,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "mamie",
+            "tipo": "monigote",
+            "pos": [
+              0.6,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Abuela Rose",
+              "fr": "Mamie Rose"
+            }
+          },
+          {
+            "id": "vela",
+            "tipo": "fuego",
+            "pos": [
+              0.48,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "La vela",
+              "fr": "La bougie"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "luz",
+            "tipo": "estrella",
+            "pos": [
+              0.5,
+              0.15
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "vela"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "mamie"
+          },
+          {
+            "t": 1.4,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 2.5,
+            "accion": "dice",
+            "actor": "mamie",
+            "texto": {
+              "es": "Señor, cuida a Théo. Cuídanos a todos.",
+              "fr": "Seigneur, veille sur Théo. Veille sur nous."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "Las palabras suenan vacías... o quizá no.",
+              "fr": "Les mots sonnent creux... ou peut-être pas."
+            }
+          },
+          {
+            "t": 7,
+            "accion": "aparece",
+            "actor": "luz"
+          },
+          {
+            "t": 7.6,
+            "accion": "tiembla",
+            "actor": "ines"
+          },
+          {
+            "t": 8.4,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "Algo me supera... y me atrae.",
+              "fr": "Quelque chose me dépasse... et m'attire."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Miedo y atracción a la vez: ¿es esto lo que llaman experiencia religiosa?",
+              "fr": "Peur et attirance à la fois : est-ce cela, l'expérience religieuse ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "En la capilla, el silencio pesa. Inès siente un temblor que no sabe nombrar.",
+        "fr": "Dans la chapelle, le silence pèse. Inès ressent un frisson qu'elle ne sait pas nommer."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces con ese temblor?",
+          "fr": "Que fais-tu de ce frisson ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Abrirte a lo que sientes",
+              "fr": "T'ouvrir à ce que tu ressens"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Sentimiento religioso",
+              "fr": "Sentiment religieux"
+            }
+          },
+          {
+            "texto": {
+              "es": "Preguntar por qué Dios permite esto",
+              "fr": "Demander pourquoi Dieu permet ça"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Problema del mal",
+              "fr": "Problème du mal"
+            }
+          }
+        ]
+      }
+    },
+    "n3": {
+      "escena": {
+        "titulo": {
+          "es": "Las pruebas de Dios",
+          "fr": "Les preuves de Dieu"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "marc",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Marc",
+              "fr": "Marc"
+            }
+          },
+          {
+            "id": "libro",
+            "tipo": "libro",
+            "pos": [
+              0.5,
+              0.45
+            ],
+            "etiqueta": {
+              "es": "Pruebas de Dios",
+              "fr": "Preuves de Dieu"
+            }
+          },
+          {
+            "id": "idea",
+            "tipo": "bombilla",
+            "pos": [
+              0.3,
+              0.3
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "libro"
+          },
+          {
+            "t": 2,
+            "accion": "dice",
+            "actor": "ines",
+            "texto": {
+              "es": "Si Dios existe, que alguien me lo pruebe.",
+              "fr": "Si Dieu existe, qu'on me le prouve."
+            }
+          },
+          {
+            "t": 4,
+            "accion": "aparece",
+            "actor": "marc"
+          },
+          {
+            "t": 4.5,
+            "accion": "dice",
+            "actor": "marc",
+            "texto": {
+              "es": "Hay pruebas clásicas: el orden, las causas, la perfección.",
+              "fr": "Preuves classiques : l'ordre, les causes, la perfection."
+            }
+          },
+          {
+            "t": 6.5,
+            "accion": "resalta",
+            "actor": "libro"
+          },
+          {
+            "t": 7.5,
+            "accion": "aparece",
+            "actor": "idea"
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "Veamos si la razón puede llegar tan lejos.",
+              "fr": "Voyons si la raison peut aller aussi loin."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Inès busca razones: ¿puede la razón sola probar la existencia de Dios?",
+              "fr": "Inès cherche des raisons : la raison seule peut-elle prouver l'existence de Dieu ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Inès no quiere consuelos, quiere argumentos. Marc, que ha leído mucho, se sienta a su lado.",
+        "fr": "Inès ne veut pas de consolations, elle veut des arguments. Marc, qui a beaucoup lu, s'assoit près d'elle."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿En qué argumento te apoyas?",
+          "fr": "Sur quel argument t'appuies-tu ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Una causa primera, un ser perfecto",
+              "fr": "Une cause première, un être parfait"
+            },
+            "a": "n7",
+            "postura": {
+              "es": "Aquino y Descartes",
+              "fr": "Thomas d'Aquin et Descartes"
+            }
+          },
+          {
+            "texto": {
+              "es": "Una idea no basta para que algo exista",
+              "fr": "Une idée ne suffit pas pour exister"
+            },
+            "a": "n8",
+            "postura": {
+              "es": "Crítica kantiana",
+              "fr": "Critique kantienne"
+            }
+          }
+        ]
+      }
+    },
+    "n4": {
+      "escena": {
+        "titulo": {
+          "es": "Marc y la ilusión",
+          "fr": "Marc et l'illusion"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "marc",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Marc",
+              "fr": "Marc"
+            }
+          },
+          {
+            "id": "padre",
+            "tipo": "casa",
+            "pos": [
+              0.5,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Padre protector",
+              "fr": "Père protecteur"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "marc"
+          },
+          {
+            "t": 2,
+            "accion": "dice",
+            "actor": "marc",
+            "texto": {
+              "es": "Rezar calma el miedo, como un niño busca a su padre.",
+              "fr": "Prier calme la peur, comme un enfant cherche son père."
+            }
+          },
+          {
+            "t": 4.2,
+            "accion": "aparece",
+            "actor": "padre"
+          },
+          {
+            "t": 4.8,
+            "accion": "proyecta",
+            "de": "ines",
+            "a": "padre",
+            "nota": {
+              "es": "miedo",
+              "fr": "peur"
+            }
+          },
+          {
+            "t": 7,
+            "accion": "dice",
+            "actor": "marc",
+            "texto": {
+              "es": "Es el opio del pueblo: consuela, pero nada cambia.",
+              "fr": "C'est l'opium du peuple : il console, mais rien ne change."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "¿Y si tiene razón? ¿Y si Mamie se consuela?",
+              "fr": "Et s'il avait raison ? Et si Mamie se consolait ?"
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Marc ve en la fe una ilusión consoladora, como dijeron Freud y Marx. ¿Es cierto?",
+              "fr": "Marc voit dans la foi une illusion consolante, comme Freud et Marx. Est-ce vrai ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "En el pasillo, Marc habla con calma, sin burla. Dice lo que muchos piensan y pocos se atreven a decir esta noche.",
+        "fr": "Dans le couloir, Marc parle calmement, sans moquerie. Il dit ce que beaucoup pensent et que peu osent dire cette nuit."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué respondes a Marc?",
+          "fr": "Que réponds-tu à Marc ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Dejar las ilusiones y afrontar lo real",
+              "fr": "Quitter les illusions, affronter le réel"
+            },
+            "a": "n11",
+            "postura": {
+              "es": "Crítica de la ilusión",
+              "fr": "Critique de l'illusion"
+            }
+          },
+          {
+            "texto": {
+              "es": "Defender la fe de Mamie ante Marc",
+              "fr": "Défendre la foi de Mamie face à Marc"
+            },
+            "a": "n12",
+            "postura": {
+              "es": "Valor de la fe",
+              "fr": "Valeur de la foi"
+            }
+          }
+        ]
+      }
+    },
+    "n5": {
+      "escena": {
+        "titulo": {
+          "es": "Lo que no se prueba",
+          "fr": "Ce qui ne se prouve pas"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "mamie",
+            "tipo": "monigote",
+            "pos": [
+              0.65,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Abuela Rose",
+              "fr": "Mamie Rose"
+            }
+          },
+          {
+            "id": "luz",
+            "tipo": "estrella",
+            "pos": [
+              0.5,
+              0.15
+            ]
+          },
+          {
+            "id": "pecho",
+            "tipo": "corazon",
+            "pos": [
+              0.3,
+              0.45
+            ],
+            "etiqueta": {
+              "es": "Lo que siento",
+              "fr": "Ce que je ressens"
+            },
+            "escala": 0.8
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "mamie"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "luz"
+          },
+          {
+            "t": 2.5,
+            "accion": "aparece",
+            "actor": "pecho"
+          },
+          {
+            "t": 3.5,
+            "accion": "une",
+            "de": "luz",
+            "a": "pecho",
+            "nota": {
+              "es": "temblor y calma",
+              "fr": "frisson et calme"
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "tiembla",
+            "actor": "pecho"
+          },
+          {
+            "t": 5.5,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "Es miedo y calma a la vez. No sé nombrarlo.",
+              "fr": "C'est de la peur et du calme. Je ne sais pas le nommer."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "dice",
+            "actor": "mamie",
+            "texto": {
+              "es": "Eso no se prueba, hija. Se vive.",
+              "fr": "Cela ne se prouve pas, ma fille. Cela s'éprouve."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Una emoción que no es argumento ni dogma: el misterio que hace temblar y que fascina.",
+              "fr": "Une émotion qui n'est ni argument ni dogme : le mystère qui fait trembler et qui fascine."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Por un momento, el miedo se mezcla con una paz extraña. Mamie sonríe sin decir nada más.",
+        "fr": "Un instant, la peur se mêle à une paix étrange. Mamie sourit sans rien ajouter."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces con esta paz?",
+          "fr": "Que fais-tu de cette paix ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Guardar el asombro y seguir presente",
+              "fr": "Garder l'émerveillement et rester présente"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Experiencia y acción",
+              "fr": "Expérience et action"
+            }
+          },
+          {
+            "texto": {
+              "es": "Entregarle todo a Dios y esperar",
+              "fr": "Tout remettre à Dieu et attendre"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Delegar todo en Dios",
+              "fr": "Tout remettre à Dieu"
+            }
+          }
+        ]
+      }
+    },
+    "n6": {
+      "escena": {
+        "titulo": {
+          "es": "¿Por qué Théo?",
+          "fr": "Pourquoi Théo ?"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "mamie",
+            "tipo": "monigote",
+            "pos": [
+              0.65,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Abuela Rose",
+              "fr": "Mamie Rose"
+            }
+          },
+          {
+            "id": "bal",
+            "tipo": "balanza",
+            "pos": [
+              0.5,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Justicia",
+              "fr": "Justice"
+            }
+          },
+          {
+            "id": "rayo",
+            "tipo": "rayo",
+            "pos": [
+              0.5,
+              0.1
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "mamie"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "bal"
+          },
+          {
+            "t": 2.5,
+            "accion": "dice",
+            "actor": "ines",
+            "texto": {
+              "es": "¿Por qué Théo? ¿Qué orden perfecto permite esto?",
+              "fr": "Pourquoi Théo ? Quel ordre parfait permet ça ?"
+            }
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "rayo"
+          },
+          {
+            "t": 5.4,
+            "accion": "tiembla",
+            "actor": "bal"
+          },
+          {
+            "t": 7,
+            "accion": "dice",
+            "actor": "mamie",
+            "texto": {
+              "es": "No lo sé, hija. Pero no estoy sola en la noche.",
+              "fr": "Je ne sais pas, ma fille. Mais je ne suis pas seule dans la nuit."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "Su fe no explica el mal... y aun así la sostiene.",
+              "fr": "Sa foi n'explique pas le mal... et pourtant elle la soutient."
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El mal pone en duda un mundo ordenado por Dios. Mamie no discute: acompaña.",
+              "fr": "Le mal met en doute un monde ordonné par Dieu. Mamie ne discute pas : elle accompagne."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La pregunta sale sola, casi como un reproche. Mamie no se ofende.",
+        "fr": "La question sort toute seule, presque comme un reproche. Mamie ne s'offense pas."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo respondes?",
+          "fr": "Comment réagis-tu ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Aceptar no entender y quedarte con ella",
+              "fr": "Accepter de ne pas comprendre, rester"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Fe sin respuestas",
+              "fr": "Foi sans réponses"
+            }
+          },
+          {
+            "texto": {
+              "es": "Gritar: un Dios justo no permitiría esto",
+              "fr": "Crier : un Dieu juste ne permettrait pas ça"
+            },
+            "a": "n10",
+            "postura": {
+              "es": "Rebelión ante el mal",
+              "fr": "Révolte face au mal"
+            }
+          }
+        ]
+      }
+    },
+    "n7": {
+      "escena": {
+        "titulo": {
+          "es": "La cadena de causas",
+          "fr": "La chaîne des causes"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "marc",
+            "tipo": "monigote",
+            "pos": [
+              0.72,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Marc",
+              "fr": "Marc"
+            }
+          },
+          {
+            "id": "cad",
+            "tipo": "cadena",
+            "pos": [
+              0.5,
+              0.35
+            ],
+            "etiqueta": {
+              "es": "Cadena de causas",
+              "fr": "Chaîne de causes"
+            }
+          },
+          {
+            "id": "duda",
+            "tipo": "interrogacion",
+            "pos": [
+              0.5,
+              0.12
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "marc"
+          },
+          {
+            "t": 1.4,
+            "accion": "aparece",
+            "actor": "cad"
+          },
+          {
+            "t": 2.5,
+            "accion": "dice",
+            "actor": "ines",
+            "texto": {
+              "es": "Cada causa tiene otra... debe haber una primera.",
+              "fr": "Chaque cause en a une autre... il faut une première."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "Un ser perfecto, infinito: Dios.",
+              "fr": "Un être parfait, infini : Dieu."
+            }
+          },
+          {
+            "t": 7,
+            "accion": "dice",
+            "actor": "marc",
+            "texto": {
+              "es": "¿Por qué parar ahí? ¿Dios sin causa o mundo sin causa?",
+              "fr": "Pourquoi s'arrêter là ? Dieu sans cause, ou monde sans cause ?"
+            }
+          },
+          {
+            "t": 8.5,
+            "accion": "aparece",
+            "actor": "duda"
+          },
+          {
+            "t": 9,
+            "accion": "tiembla",
+            "actor": "cad"
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La prueba por la contingencia deja una duda: ¿por qué detener la pregunta en una causa primera?",
+              "fr": "La preuve par la contingence laisse un doute : pourquoi arrêter la question à une cause première ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Inès sube peldaño a peldaño por la escalera de las causas. Marc le señala dónde se vuelve resbaladiza.",
+        "fr": "Inès monte marche après marche l'échelle des causes. Marc lui montre où elle devient glissante."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué concluyes?",
+          "fr": "Que conclus-tu ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "La razón no cierra el misterio",
+              "fr": "La raison ne ferme pas le mystère"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Límites de la razón",
+              "fr": "Limites de la raison"
+            }
+          },
+          {
+            "texto": {
+              "es": "Sin prueba no hay nada que creer",
+              "fr": "Sans preuve, il n'y a rien à croire"
+            },
+            "a": "n10",
+            "postura": {
+              "es": "Racionalismo estricto",
+              "fr": "Rationalisme strict"
+            }
+          }
+        ]
+      }
+    },
+    "n8": {
+      "escena": {
+        "titulo": {
+          "es": "Cien euros",
+          "fr": "Cent euros"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.25,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "marc",
+            "tipo": "monigote",
+            "pos": [
+              0.75,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Marc",
+              "fr": "Marc"
+            }
+          },
+          {
+            "id": "m1",
+            "tipo": "moneda",
+            "pos": [
+              0.4,
+              0.35
+            ],
+            "etiqueta": {
+              "es": "100 € pensados",
+              "fr": "100 € imaginés"
+            }
+          },
+          {
+            "id": "m2",
+            "tipo": "moneda",
+            "pos": [
+              0.6,
+              0.35
+            ],
+            "etiqueta": {
+              "es": "100 € reales",
+              "fr": "100 € réels"
+            }
+          },
+          {
+            "id": "mente",
+            "tipo": "cerebro",
+            "pos": [
+              0.25,
+              0.4
+            ],
+            "escala": 0.8
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "marc"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "m1"
+          },
+          {
+            "t": 2.3,
+            "accion": "aparece",
+            "actor": "m2"
+          },
+          {
+            "t": 3.5,
+            "accion": "dice",
+            "actor": "marc",
+            "texto": {
+              "es": "Cien euros imaginados no pagan el hospital.",
+              "fr": "Cent euros imaginés ne paient pas l'hôpital."
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "resalta",
+            "actor": "m2"
+          },
+          {
+            "t": 6.5,
+            "accion": "dice",
+            "actor": "ines",
+            "texto": {
+              "es": "La idea de un ser perfecto no lo hace existir.",
+              "fr": "L'idée d'un être parfait ne le fait pas exister."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "aparece",
+            "actor": "mente"
+          },
+          {
+            "t": 8.5,
+            "accion": "proyecta",
+            "de": "mente",
+            "a": "m1"
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Kant: existir no es un adjetivo más. La idea de Dios no basta para probar que existe.",
+              "fr": "Kant : exister n'est pas un prédicat comme les autres. L'idée de Dieu ne prouve pas son existence."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Con el ejemplo de las monedas, Marc muestra el límite de la prueba más elegante. Inès lo entiende, y aun así el miedo sigue ahí.",
+        "fr": "Avec l'exemple des pièces, Marc montre la limite de la plus élégante des preuves. Inès comprend, et la peur est toujours là."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Y ahora?",
+          "fr": "Et maintenant ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Buscar una fe libre, sin depender de pruebas",
+              "fr": "Chercher une foi libre, sans preuves"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Fe libre y razonable",
+              "fr": "Foi libre et raisonnable"
+            }
+          },
+          {
+            "texto": {
+              "es": "Soltar toda fe: sólo cuenta lo demostrable",
+              "fr": "Lâcher toute foi : seul le prouvé compte"
+            },
+            "a": "n10",
+            "postura": {
+              "es": "Rechazo de la fe",
+              "fr": "Rejet de la foi"
+            }
+          }
+        ]
+      }
+    },
+    "n11": {
+      "escena": {
+        "titulo": {
+          "es": "Salir de casa",
+          "fr": "Quitter la maison"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "marc",
+            "tipo": "monigote",
+            "pos": [
+              0.45,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Marc",
+              "fr": "Marc"
+            }
+          },
+          {
+            "id": "casa",
+            "tipo": "casa",
+            "pos": [
+              0.15,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Infancia",
+              "fr": "Enfance"
+            }
+          },
+          {
+            "id": "nube",
+            "tipo": "nube",
+            "pos": [
+              0.8,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "El mundo hostil",
+              "fr": "Le monde hostile"
+            }
+          },
+          {
+            "id": "rayo",
+            "tipo": "rayo",
+            "pos": [
+              0.82,
+              0.4
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "casa"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "marc"
+          },
+          {
+            "t": 2.2,
+            "accion": "dice",
+            "actor": "marc",
+            "texto": {
+              "es": "Crecer es salir de la casa del padre.",
+              "fr": "Grandir, c'est quitter la maison du père."
+            }
+          },
+          {
+            "t": 4,
+            "accion": "aparece",
+            "actor": "nube"
+          },
+          {
+            "t": 4.6,
+            "accion": "aparece",
+            "actor": "rayo"
+          },
+          {
+            "t": 5.5,
+            "accion": "mueve",
+            "actor": "ines",
+            "a": [
+              0.6,
+              0.7
+            ],
+            "dur": 3
+          },
+          {
+            "t": 6.5,
+            "accion": "tiembla",
+            "actor": "ines"
+          },
+          {
+            "t": 8.5,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "El mundo es duro... pero es el real.",
+              "fr": "Le monde est dur... mais c'est le réel."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Freud: el adulto debe dejar la casa del padre y atreverse a entrar en el universo hostil.",
+              "fr": "Freud : l'adulte doit quitter la maison du père et oser entrer dans l'univers hostile."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Inès siente la fuerza de la idea: dejar la infancia y mirar la realidad de frente, aunque asuste.",
+        "fr": "Inès sent la force de l'idée : quitter l'enfance et regarder la réalité en face, même si elle fait peur."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Hasta dónde llevas esa idea?",
+          "fr": "Jusqu'où portes-tu cette idée ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Afrontar lo real sin ilusiones",
+              "fr": "Affronter le réel sans illusions"
+            },
+            "a": "n10",
+            "postura": {
+              "es": "Educación para la realidad",
+              "fr": "Éducation en vue de la réalité"
+            }
+          },
+          {
+            "texto": {
+              "es": "¿Y si queda algo más que una ilusión?",
+              "fr": "Et s'il restait plus qu'une illusion ?"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Duda abierta",
+              "fr": "Doute ouvert"
+            }
+          }
+        ]
+      }
+    },
+    "n12": {
+      "escena": {
+        "titulo": {
+          "es": "Una comunidad en la noche",
+          "fr": "Une communauté dans la nuit"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.25,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "marc",
+            "tipo": "monigote",
+            "pos": [
+              0.75,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Marc",
+              "fr": "Marc"
+            }
+          },
+          {
+            "id": "mamie",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Abuela Rose",
+              "fr": "Mamie Rose"
+            }
+          },
+          {
+            "id": "vecina",
+            "tipo": "monigote",
+            "pos": [
+              0.62,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Una vecina",
+              "fr": "Une voisine"
+            }
+          },
+          {
+            "id": "com",
+            "tipo": "casa",
+            "pos": [
+              0.5,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Comunidad",
+              "fr": "Communauté"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "marc"
+          },
+          {
+            "t": 1.8,
+            "accion": "dice",
+            "actor": "ines",
+            "texto": {
+              "es": "Mamie no está sola: su fe la une a otros.",
+              "fr": "Mamie n'est pas seule : sa foi la lie aux autres."
+            }
+          },
+          {
+            "t": 4,
+            "accion": "aparece",
+            "actor": "com"
+          },
+          {
+            "t": 4.4,
+            "accion": "aparece",
+            "actor": "mamie"
+          },
+          {
+            "t": 4.9,
+            "accion": "aparece",
+            "actor": "vecina"
+          },
+          {
+            "t": 5.5,
+            "accion": "une",
+            "de": "mamie",
+            "a": "vecina",
+            "nota": {
+              "es": "ritos y apoyo",
+              "fr": "rites et soutien"
+            }
+          },
+          {
+            "t": 7.5,
+            "accion": "dice",
+            "actor": "marc",
+            "texto": {
+              "es": "Útil, sí. Voltaire: habría que inventarlo.",
+              "fr": "Utile, oui. Voltaire : il faudrait l'inventer."
+            }
+          },
+          {
+            "t": 8.5,
+            "accion": "cita",
+            "texto": "Si Dieu n'existait pas, il faudrait l'inventer"
+          },
+          {
+            "t": 10.5,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "¿Útil o verdadero? No es lo mismo.",
+              "fr": "Utile ou vrai ? Ce n'est pas pareil."
+            }
+          },
+          {
+            "t": 12,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La religión crea lazos; pero ¿vale por su utilidad o por su verdad?",
+              "fr": "La religion crée du lien ; mais vaut-elle par son utilité ou par sa vérité ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Una vecina llega con un termo de té y se sienta junto a Mamie. Marc reconoce el valor de eso, pero lo llama «utilidad».",
+        "fr": "Une voisine arrive avec un thermos de thé et s'assoit près de Mamie. Marc en reconnaît la valeur, mais il parle d'« utilité »."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué le dices a Marc?",
+          "fr": "Que dis-tu à Marc ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Aceptar: la fe une y sostiene a la gente",
+              "fr": "Admettre : la foi unit et soutient"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "La fe como lazo social",
+              "fr": "La foi comme lien social"
+            }
+          },
+          {
+            "texto": {
+              "es": "Replicar: entonces es un consuelo útil",
+              "fr": "Répliquer : alors c'est un confort utile"
+            },
+            "a": "n10",
+            "postura": {
+              "es": "Utilidad sin verdad",
+              "fr": "Utilité sans vérité"
+            }
+          }
+        ]
+      }
+    },
+    "n9": {
+      "escena": {
+        "titulo": {
+          "es": "Tres de la madrugada",
+          "fr": "Trois heures du matin"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.25,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "mamie",
+            "tipo": "monigote",
+            "pos": [
+              0.45,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Abuela Rose",
+              "fr": "Mamie Rose"
+            }
+          },
+          {
+            "id": "medica",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "La doctora",
+              "fr": "La médecin"
+            }
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.5,
+              0.18
+            ],
+            "etiqueta": {
+              "es": "03:00",
+              "fr": "03:00"
+            }
+          },
+          {
+            "id": "capilla",
+            "tipo": "puerta",
+            "pos": [
+              0.9,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Capilla",
+              "fr": "Chapelle"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "mamie"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "medica"
+          },
+          {
+            "t": 3,
+            "accion": "dice",
+            "actor": "medica",
+            "texto": {
+              "es": "Será hasta el alba. Al salir, alguien deberá estar con él.",
+              "fr": "Ce sera jusqu'à l'aube. À sa sortie, quelqu'un devra être là."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "capilla"
+          },
+          {
+            "t": 6.6,
+            "accion": "tiembla",
+            "actor": "reloj"
+          },
+          {
+            "t": 8,
+            "accion": "dice",
+            "actor": "mamie",
+            "texto": {
+              "es": "La capilla está abierta, hija.",
+              "fr": "La chapelle est ouverte, ma fille."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "Cada hora pesa más que la anterior.",
+              "fr": "Chaque heure pèse plus que la précédente."
+            }
+          },
+          {
+            "t": 11.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La noche se alarga. Hay que decidir cómo atravesarla.",
+              "fr": "La nuit s'allonge. Il faut décider comment la traverser."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Nadie sabe cómo acabará la operación. Lo único que Inès puede decidir es cómo vivir la espera.",
+        "fr": "Personne ne sait comment l'opération finira. La seule chose qu'Inès puisse décider, c'est comment vivre l'attente."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo pasas la noche?",
+          "fr": "Comment passes-tu la nuit ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Entrar en la capilla con Mamie",
+              "fr": "Entrer dans la chapelle avec Mamie"
+            },
+            "a": "n13",
+            "postura": {
+              "es": "Búsqueda de lo sagrado",
+              "fr": "Quête du sacré"
+            }
+          },
+          {
+            "texto": {
+              "es": "Volver con Marc y tu lucidez",
+              "fr": "Retourner vers Marc et ta lucidité"
+            },
+            "a": "n10",
+            "postura": {
+              "es": "Lucidez racional",
+              "fr": "Lucidité rationnelle"
+            }
+          },
+          {
+            "texto": {
+              "es": "Esperar: que Dios lo decida todo",
+              "fr": "Attendre : que Dieu décide de tout"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Confiar sin actuar",
+              "fr": "Se fier sans agir"
+            }
+          }
+        ]
+      }
+    },
+    "n10": {
+      "escena": {
+        "titulo": {
+          "es": "La mano tendida",
+          "fr": "La main tendue"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "mamie",
+            "tipo": "monigote",
+            "pos": [
+              0.65,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Abuela Rose",
+              "fr": "Mamie Rose"
+            }
+          },
+          {
+            "id": "marc",
+            "tipo": "monigote",
+            "pos": [
+              0.9,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Marc",
+              "fr": "Marc"
+            }
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.5,
+              0.18
+            ],
+            "etiqueta": {
+              "es": "04:00",
+              "fr": "04:00"
+            }
+          },
+          {
+            "id": "lucid",
+            "tipo": "nube",
+            "pos": [
+              0.28,
+              0.35
+            ],
+            "etiqueta": {
+              "es": "Mi lucidez",
+              "fr": "Ma lucidité"
+            },
+            "escala": 0.8
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "lucid"
+          },
+          {
+            "t": 1.8,
+            "accion": "aparece",
+            "actor": "mamie"
+          },
+          {
+            "t": 2.4,
+            "accion": "aparece",
+            "actor": "marc"
+          },
+          {
+            "t": 3.5,
+            "accion": "mueve",
+            "actor": "mamie",
+            "a": [
+              0.45,
+              0.7
+            ],
+            "dur": 2
+          },
+          {
+            "t": 5.5,
+            "accion": "dice",
+            "actor": "mamie",
+            "texto": {
+              "es": "Ven, hija. No hace falta que creas.",
+              "fr": "Viens, ma fille. Pas besoin de croire."
+            }
+          },
+          {
+            "t": 7.5,
+            "accion": "tiembla",
+            "actor": "ines"
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "Su fe me enfurece... y me conmueve.",
+              "fr": "Sa foi m'agace... et elle m'émeut."
+            }
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ya no se trata de pruebas, sino de cómo tratar a quien cree.",
+              "fr": "Il ne s'agit plus de preuves, mais de la manière de traiter ceux qui croient."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Inès ya no espera respuestas del cielo. Mamie, cansada, le tiende la mano sin pedirle nada.",
+        "fr": "Inès n'attend plus de réponses du ciel. Mamie, fatiguée, lui tend la main sans rien exiger."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces con su mano?",
+          "fr": "Que fais-tu de sa main ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Tomar su mano, sin fingir que crees",
+              "fr": "Prendre sa main, sans feindre de croire"
+            },
+            "a": "f5",
+            "postura": {
+              "es": "Compasión sin ilusiones",
+              "fr": "Compassion sans illusions"
+            }
+          },
+          {
+            "texto": {
+              "es": "Apartarla: la fe es una debilidad",
+              "fr": "La repousser : la foi est une faiblesse"
+            },
+            "a": "f1",
+            "postura": {
+              "es": "Fuerza sin Dios",
+              "fr": "Force sans Dieu"
+            }
+          }
+        ]
+      }
+    },
+    "n13": {
+      "escena": {
+        "titulo": {
+          "es": "La capilla, 4 a.m.",
+          "fr": "La chapelle, 4 h"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "vela",
+            "tipo": "fuego",
+            "pos": [
+              0.5,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "La vela",
+              "fr": "La bougie"
+            },
+            "escala": 0.7
+          },
+          {
+            "id": "razon",
+            "tipo": "cerebro",
+            "pos": [
+              0.2,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Razón",
+              "fr": "Raison"
+            }
+          },
+          {
+            "id": "cor",
+            "tipo": "corazon",
+            "pos": [
+              0.8,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Corazón",
+              "fr": "Cœur"
+            }
+          },
+          {
+            "id": "duda",
+            "tipo": "interrogacion",
+            "pos": [
+              0.5,
+              0.2
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "vela"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 1.4,
+            "accion": "aparece",
+            "actor": "razon"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "cor"
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "duda"
+          },
+          {
+            "t": 4,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "La razón no logra cerrar el asunto.",
+              "fr": "La raison ne parvient pas à trancher."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "resalta",
+            "actor": "cor"
+          },
+          {
+            "t": 7,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "Y el corazón necesita dónde apoyarse.",
+              "fr": "Et le cœur a besoin d'un appui."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "tiembla",
+            "actor": "vela"
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Entre la razón y el corazón, la última decisión de la noche es tuya.",
+              "fr": "Entre la raison et le cœur, la dernière décision de la nuit t'appartient."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mamie se ha dormido en un banco. Inès está sola ante la vela, con todos los argumentos de la noche en la cabeza.",
+        "fr": "Mamie s'est endormie sur un banc. Inès est seule devant la bougie, avec tous les arguments de la nuit en tête."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué decides en el silencio?",
+          "fr": "Que décides-tu dans le silence ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Murmurar sin certeza: «si estás ahí...»",
+              "fr": "Murmurer sans certitude : « si tu es là... »"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Apuesta existencial",
+              "fr": "Pari existentiel"
+            }
+          },
+          {
+            "texto": {
+              "es": "Elegir una fe libre, fiel a tus valores",
+              "fr": "Choisir une foi libre, fidèle à tes valeurs"
+            },
+            "a": "f4",
+            "postura": {
+              "es": "Fe racional y moral",
+              "fr": "Foi rationnelle et morale"
+            }
+          }
+        ]
+      }
+    },
+    "f1": {
+      "escena": {
+        "titulo": {
+          "es": "La fuerza que aísla",
+          "fr": "La force qui isole"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "mamie",
+            "tipo": "monigote",
+            "pos": [
+              0.6,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Abuela Rose",
+              "fr": "Mamie Rose"
+            }
+          },
+          {
+            "id": "nube",
+            "tipo": "nube",
+            "pos": [
+              0.3,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Silencio",
+              "fr": "Silence"
+            }
+          },
+          {
+            "id": "cad",
+            "tipo": "cadena",
+            "pos": [
+              0.3,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Soledad",
+              "fr": "Solitude"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.8,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "05:00",
+              "fr": "05:00"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "mamie"
+          },
+          {
+            "t": 1.4,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 2.5,
+            "accion": "dice",
+            "actor": "ines",
+            "texto": {
+              "es": "La fe es una debilidad, Mamie. Yo no la necesito.",
+              "fr": "La foi est une faiblesse, Mamie. Je n'en ai pas besoin."
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "mueve",
+            "actor": "mamie",
+            "a": [
+              0.95,
+              0.7
+            ],
+            "dur": 3
+          },
+          {
+            "t": 7.5,
+            "accion": "desaparece",
+            "actor": "mamie"
+          },
+          {
+            "t": 8,
+            "accion": "aparece",
+            "actor": "nube"
+          },
+          {
+            "t": 8.6,
+            "accion": "aparece",
+            "actor": "cad"
+          },
+          {
+            "t": 9,
+            "accion": "tiembla",
+            "actor": "ines"
+          },
+          {
+            "t": 9.5,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "Tenía razón en todo... y no tengo a nadie.",
+              "fr": "J'avais raison sur tout... et je n'ai personne."
+            }
+          },
+          {
+            "t": 11.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ganó la lucidez y se perdió el lazo: al alba, Inès espera sola.",
+              "fr": "La lucidité a gagné, le lien s'est perdu : à l'aube, Inès attend seule."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mamie rezó sola en la capilla. Al amanecer, Théo salió bien de la operación; Inès lo esperaba sola, segura de sus argumentos y sin nadie con quien compartir el alivio.",
+        "fr": "Mamie a prié seule dans la chapelle. À l'aube, Théo est sorti de l'opération ; Inès l'attendait seule, sûre de ses arguments et sans personne avec qui partager son soulagement."
+      },
+      "final": {
+        "id": "f1",
+        "titulo": {
+          "es": "La fuerza que aísla",
+          "fr": "La force qui isole"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Inès adopta la postura del «fuerte» de Nietzsche: creer es debilidad y «Dieu est mort» sería prueba de poder. Pero la convierte en dureza hacia quien cree. El cours plantea si el ateísmo radical no corre el riesgo de perder los valores: aquí no se pierde la razón, sino el lazo y el respeto por los demás.",
+          "fr": "Inès adopte la posture du « fort » de Nietzsche : croire est une faiblesse et « Dieu est mort » serait une preuve de puissance. Mais elle la transforme en dureté envers ceux qui croient. Le cours se demande si l'athéisme radical ne risque pas de perdre les valeurs : ici ce n'est pas la raison qui se perd, mais le lien et le respect des autres."
+        },
+        "filosofo": "nietzsche",
+        "cita": {
+          "texto": "Dieu est mort",
+          "pagina_pdf": 147
+        },
+        "pagina_pdf": 147,
+        "reflexion": {
+          "es": "¿Se puede rechazar una creencia sin despreciar a quien la vive? ¿Basta uno mismo para sostener una vida? (¿El ateísmo radical lleva a perder todo valor moral?)",
+          "fr": "Peut-on rejeter une croyance sans mépriser celui qui la vit ? Suffit-on à soi-même pour porter une vie ? (L'athéisme radical n'aboutit-il pas nécessairement à la perte de toute valeur morale ?)"
+        }
+      }
+    },
+    "f2": {
+      "escena": {
+        "titulo": {
+          "es": "La fuerza entregada",
+          "fr": "La force remise"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.25,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "luz",
+            "tipo": "estrella",
+            "pos": [
+              0.25,
+              0.15
+            ],
+            "etiqueta": {
+              "es": "Todo en Sus manos",
+              "fr": "Tout entre Ses mains"
+            }
+          },
+          {
+            "id": "medica",
+            "tipo": "monigote",
+            "pos": [
+              0.65,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "La doctora",
+              "fr": "La médecin"
+            }
+          },
+          {
+            "id": "puerta",
+            "tipo": "puerta",
+            "pos": [
+              0.9,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Quirófano",
+              "fr": "Bloc opératoire"
+            }
+          },
+          {
+            "id": "theo",
+            "tipo": "corazon",
+            "pos": [
+              0.9,
+              0.6
+            ],
+            "etiqueta": {
+              "es": "Théo",
+              "fr": "Théo"
+            }
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.55,
+              0.18
+            ],
+            "etiqueta": {
+              "es": "06:00",
+              "fr": "06:00"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "luz"
+          },
+          {
+            "t": 1.2,
+            "accion": "proyecta",
+            "de": "ines",
+            "a": "luz",
+            "nota": {
+              "es": "mi fuerza, mi voluntad",
+              "fr": "ma force, ma volonté"
+            }
+          },
+          {
+            "t": 2.5,
+            "accion": "dice",
+            "actor": "ines",
+            "texto": {
+              "es": "Tú lo puedes todo. Yo no puedo nada.",
+              "fr": "Tu peux tout. Moi, je ne peux rien."
+            }
+          },
+          {
+            "t": 4,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 4.6,
+            "accion": "aparece",
+            "actor": "puerta"
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "medica"
+          },
+          {
+            "t": 5.4,
+            "accion": "aparece",
+            "actor": "theo"
+          },
+          {
+            "t": 6,
+            "accion": "dice",
+            "actor": "medica",
+            "texto": {
+              "es": "¡Inès! Théo despierta y pregunta por ti.",
+              "fr": "Inès ! Théo se réveille et demande après toi."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "tiembla",
+            "actor": "reloj"
+          },
+          {
+            "t": 8.6,
+            "accion": "tiembla",
+            "actor": "theo"
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Inès esperó tanto de Dios que no estuvo allí cuando su hermano la llamó.",
+              "fr": "Inès a tant attendu de Dieu qu'elle n'était pas là quand son frère l'a appelée."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Théo salió bien de la operación y despertó pidiendo a su hermana. Inès seguía de rodillas, esperando una señal; llegó tarde a su lado.",
+        "fr": "Théo est sorti de l'opération et s'est réveillé en demandant sa sœur. Inès était toujours à genoux, attendant un signe ; elle est arrivée trop tard à son chevet."
+      },
+      "final": {
+        "id": "f2",
+        "titulo": {
+          "es": "La fuerza entregada",
+          "fr": "La force remise"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Inès proyecta en Dios su voluntad y su fuerza, y se queda sin ellas: como dice Feuerbach, el hombre se empobrece de lo que enriquece a Dios. En la línea de Marx, esperar un más allá puede anestesiar. Mamie reza y además se queda junto a los suyos: lo trágico no es la fe, sino usarla para no actuar.",
+          "fr": "Inès projette en Dieu sa volonté et sa force, et en reste privée : comme le dit Feuerbach, l'homme s'appauvrit de ce dont Dieu s'enrichit. Dans la ligne de Marx, attendre un au-delà peut anesthésier. Mamie prie et reste aussi auprès des siens : le tragique n'est pas la foi, mais l'usage qui dispense d'agir."
+        },
+        "filosofo": "feuerbach",
+        "cita": {
+          "texto": "L'homme est appauvri de […] ce dont Dieu est enrichi.",
+          "pagina_pdf": 147
+        },
+        "pagina_pdf": 147,
+        "reflexion": {
+          "es": "¿Cuándo la fe da fuerzas para actuar y cuándo las sustituye? ¿Qué dejamos de hacer cuando lo esperamos todo de otro? (¿Puede el hombre prescindir de la religión?)",
+          "fr": "Quand la foi donne-t-elle des forces pour agir et quand les remplace-t-elle ? Que cessons-nous de faire quand nous attendons tout d'un autre ? (L'homme peut-il se passer de religion ?)"
+        }
+      }
+    },
+    "f3": {
+      "escena": {
+        "titulo": {
+          "es": "La apuesta",
+          "fr": "Le pari"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.4,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "vela",
+            "tipo": "fuego",
+            "pos": [
+              0.4,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "La vela",
+              "fr": "La bougie"
+            },
+            "escala": 0.7
+          },
+          {
+            "id": "luz",
+            "tipo": "estrella",
+            "pos": [
+              0.4,
+              0.15
+            ]
+          },
+          {
+            "id": "mamie",
+            "tipo": "monigote",
+            "pos": [
+              0.85,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Abuela Rose",
+              "fr": "Mamie Rose"
+            }
+          },
+          {
+            "id": "theo",
+            "tipo": "corazon",
+            "pos": [
+              0.15,
+              0.55
+            ],
+            "etiqueta": {
+              "es": "Théo",
+              "fr": "Théo"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "vela"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 1.4,
+            "accion": "aparece",
+            "actor": "luz"
+          },
+          {
+            "t": 2.5,
+            "accion": "dice",
+            "actor": "ines",
+            "texto": {
+              "es": "No sé si estás ahí. Esta noche no quiero estar sola.",
+              "fr": "Je ne sais pas si tu es là. Cette nuit, je ne veux pas être seule."
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "resalta",
+            "actor": "vela"
+          },
+          {
+            "t": 6.5,
+            "accion": "aparece",
+            "actor": "mamie"
+          },
+          {
+            "t": 7,
+            "accion": "mueve",
+            "actor": "mamie",
+            "a": [
+              0.6,
+              0.7
+            ],
+            "dur": 2.5
+          },
+          {
+            "t": 9.5,
+            "accion": "une",
+            "de": "mamie",
+            "a": "ines",
+            "nota": {
+              "es": "presencia",
+              "fr": "présence"
+            }
+          },
+          {
+            "t": 10,
+            "accion": "aparece",
+            "actor": "theo"
+          },
+          {
+            "t": 10.6,
+            "accion": "salta",
+            "actor": "theo"
+          },
+          {
+            "t": 11,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "Sigo dudando... y algo se aclara.",
+              "fr": "Je doute toujours... et quelque chose s'éclaircit."
+            }
+          },
+          {
+            "t": 12.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Sin pruebas, Inès vive «como si»: para Pascal, a Dios no se le prueba, se le experimenta.",
+              "fr": "Sans preuves, Inès vit « comme si » : pour Pascal, Dieu ne se prouve pas, il s'éprouve."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Al amanecer, Théo sale del quirófano y se recuperará. Inès no ha conseguido certezas, pero ha dejado de pasar la noche sola.",
+        "fr": "À l'aube, Théo sort du bloc et se remettra. Inès n'a pas obtenu de certitudes, mais elle n'a plus passé la nuit seule."
+      },
+      "final": {
+        "id": "f3",
+        "titulo": {
+          "es": "La apuesta",
+          "fr": "Le pari"
+        },
+        "tipo": "ambiguo",
+        "idea": {
+          "es": "Inès adopta la vía de Pascal: la religión no resiste a las pruebas de la razón, pero la fe da sentido a la existencia y vuelve tolerable la angustia. Es una experiencia, no una demostración. El costo es la duda que persiste, y Freud preguntaría si no es un consuelo que confunde alivio con verdad.",
+          "fr": "Inès emprunte la voie de Pascal : la religion ne résiste pas aux preuves de la raison, mais la foi donne un sens à l'existence et rend l'angoisse tolérable. C'est une expérience, non une démonstration. Le coût est le doute qui persiste, et Freud demanderait si ce n'est pas un réconfort qui confond soulagement et vérité."
+        },
+        "filosofo": "pascal",
+        "cita": {
+          "texto": "Dieu ne se prouve pas mais s'éprouve",
+          "pagina_pdf": 148
+        },
+        "pagina_pdf": 146,
+        "reflexion": {
+          "es": "¿Un consuelo puede ser también una verdad? ¿Basta que una creencia nos dé sentido para tenerla por válida? (¿La experiencia religiosa es una ilusión o un valor?)",
+          "fr": "Un réconfort peut-il aussi être une vérité ? Suffit-il qu'une croyance nous donne du sens pour la tenir pour valable ? (L'expérience religieuse est-elle une illusion ou une valeur ?)"
+        }
+      }
+    },
+    "f4": {
+      "escena": {
+        "titulo": {
+          "es": "Una fe libre",
+          "fr": "Une foi libre"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 14,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "mamie",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Abuela Rose",
+              "fr": "Mamie Rose"
+            }
+          },
+          {
+            "id": "marc",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Marc",
+              "fr": "Marc"
+            }
+          },
+          {
+            "id": "sol",
+            "tipo": "sol",
+            "pos": [
+              0.5,
+              0.15
+            ]
+          },
+          {
+            "id": "bal",
+            "tipo": "balanza",
+            "pos": [
+              0.15,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Razón y valores",
+              "fr": "Raison et valeurs"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "theo",
+            "tipo": "corazon",
+            "pos": [
+              0.88,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "Théo",
+              "fr": "Théo"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "sol"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "mamie"
+          },
+          {
+            "t": 1.8,
+            "accion": "aparece",
+            "actor": "marc"
+          },
+          {
+            "t": 2.6,
+            "accion": "aparece",
+            "actor": "bal"
+          },
+          {
+            "t": 3.5,
+            "accion": "une",
+            "de": "ines",
+            "a": "mamie"
+          },
+          {
+            "t": 4,
+            "accion": "une",
+            "de": "ines",
+            "a": "marc"
+          },
+          {
+            "t": 5,
+            "accion": "dice",
+            "actor": "ines",
+            "texto": {
+              "es": "No tengo respuestas. Elijo vivir con justicia y esperanza.",
+              "fr": "Pas de réponses. Je choisis la justice et l'espoir."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "dice",
+            "actor": "marc",
+            "texto": {
+              "es": "Y yo seguiré preguntando contigo.",
+              "fr": "Et moi, je continuerai à questionner avec toi."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "dice",
+            "actor": "mamie",
+            "texto": {
+              "es": "Eso también es un camino, hija.",
+              "fr": "Cela aussi est un chemin, ma fille."
+            }
+          },
+          {
+            "t": 11,
+            "accion": "aparece",
+            "actor": "theo"
+          },
+          {
+            "t": 11.6,
+            "accion": "salta",
+            "actor": "theo"
+          },
+          {
+            "t": 12.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Una fe elegida libremente, de acuerdo con la razón y con los valores morales.",
+              "fr": "Une foi choisie librement, en accord avec la raison et les valeurs morales."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Al amanecer, Théo sale bien de la operación. Inès, Mamie y Marc lo esperan juntos: cada uno con su manera de creer o dudar.",
+        "fr": "À l'aube, Théo sort de l'opération. Inès, Mamie et Marc l'attendent ensemble : chacun avec sa manière de croire ou de douter."
+      },
+      "final": {
+        "id": "f4",
+        "titulo": {
+          "es": "Una fe libre",
+          "fr": "Une foi libre"
+        },
+        "tipo": "luminoso",
+        "idea": {
+          "es": "Inès sigue la vía de la religión «natural» de Kant: una fe que no pretende demostrar a Dios, que es elegida libremente y concuerda con la razón y con los valores morales. No suprime la duda ni el diálogo con Marc; lo que le da un sentido es el compromiso con los demás.",
+          "fr": "Inès suit la voie de la religion « naturelle » de Kant : une foi qui ne prétend pas démontrer Dieu, choisie librement et en accord avec la raison et les valeurs morales. Elle ne supprime ni le doute ni le dialogue avec Marc ; ce qui lui donne un sens, c'est l'engagement envers les autres."
+        },
+        "filosofo": "kant",
+        "cita": {
+          "texto": "une foi choisie librement par l'homme, en adéquation avec ses valeurs morales",
+          "pagina_pdf": 149
+        },
+        "pagina_pdf": 149,
+        "reflexion": {
+          "es": "¿Puede una fe ser a la vez libre, razonable y moral? ¿Qué distingue una creencia elegida de un consuelo recibido? (¿La experiencia religiosa es una ilusión o un valor?)",
+          "fr": "Une foi peut-elle être à la fois libre, raisonnable et morale ? Qu'est-ce qui distingue une croyance choisie d'une consolation reçue ? (L'expérience religieuse est-elle une illusion ou une valeur ?)"
+        }
+      }
+    },
+    "f5": {
+      "escena": {
+        "titulo": {
+          "es": "Crecer sin consuelo",
+          "fr": "Grandir sans consolation"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ines",
+            "tipo": "monigote",
+            "pos": [
+              0.4,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Inès",
+              "fr": "Inès"
+            }
+          },
+          {
+            "id": "mamie",
+            "tipo": "monigote",
+            "pos": [
+              0.6,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Abuela Rose",
+              "fr": "Mamie Rose"
+            }
+          },
+          {
+            "id": "nube",
+            "tipo": "nube",
+            "pos": [
+              0.8,
+              0.22
+            ],
+            "etiqueta": {
+              "es": "El universo hostil",
+              "fr": "L'univers hostile"
+            },
+            "escala": 0.9
+          },
+          {
+            "id": "sol",
+            "tipo": "sol",
+            "pos": [
+              0.2,
+              0.15
+            ],
+            "escala": 0.7
+          },
+          {
+            "id": "theo",
+            "tipo": "corazon",
+            "pos": [
+              0.15,
+              0.55
+            ],
+            "etiqueta": {
+              "es": "Théo",
+              "fr": "Théo"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "nube"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "ines"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "mamie"
+          },
+          {
+            "t": 2.5,
+            "accion": "une",
+            "de": "ines",
+            "a": "mamie",
+            "nota": {
+              "es": "mano",
+              "fr": "main"
+            }
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "ines",
+            "texto": {
+              "es": "No sé rezar como tú. Pero aquí estoy contigo.",
+              "fr": "Je ne sais pas prier comme toi. Mais je suis là, avec toi."
+            }
+          },
+          {
+            "t": 7,
+            "accion": "dice",
+            "actor": "mamie",
+            "texto": {
+              "es": "Con eso basta, hija.",
+              "fr": "Cela suffit, ma fille."
+            }
+          },
+          {
+            "t": 8.5,
+            "accion": "tiembla",
+            "actor": "nube"
+          },
+          {
+            "t": 9,
+            "accion": "piensa",
+            "actor": "ines",
+            "texto": {
+              "es": "El mundo es duro, pero lo miro de frente.",
+              "fr": "Le monde est dur, mais je le regarde en face."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "aparece",
+            "actor": "sol"
+          },
+          {
+            "t": 10.5,
+            "accion": "aparece",
+            "actor": "theo"
+          },
+          {
+            "t": 12,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Sin ilusiones ni desprecio: Inès afronta lo real y no suelta a quien ama.",
+              "fr": "Sans illusions ni mépris : Inès affronte le réel et ne lâche pas ceux qu'elle aime."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Al amanecer, Théo sale bien de la operación. Inès pasó la noche junto a Mamie sin fingir una fe que no tenía, y sin quitarle la suya.",
+        "fr": "À l'aube, Théo sort de l'opération. Inès a passé la nuit près de Mamie sans feindre une foi qu'elle n'avait pas, et sans lui retirer la sienne."
+      },
+      "final": {
+        "id": "f5",
+        "titulo": {
+          "es": "Crecer sin consuelo",
+          "fr": "Grandir sans consolation"
+        },
+        "tipo": "ambiguo",
+        "idea": {
+          "es": "Inès adopta la mirada de Freud: la religión es una ilusión que consuela y el adulto debe aventurarse en el universo hostil, es decir, afrontar la realidad. Lo hace con solidaridad y respeto. El costo es renunciar al consuelo; Pascal replicaría que sin Dios la existencia resulta absurda.",
+          "fr": "Inès adopte le regard de Freud : la religion est une illusion consolante et l'adulte doit s'aventurer dans l'univers hostile, c'est-à-dire affronter la réalité. Elle le fait avec solidarité et respect. Le coût est de renoncer à la consolation ; Pascal répliquerait que sans Dieu l'existence devient absurde."
+        },
+        "filosofo": "freud",
+        "cita": {
+          "texto": "L'homme ne peut pas éternellement demeurer un enfant, il lui faut enfin s'aventurer dans l'univers hostile.",
+          "pagina_pdf": 151
+        },
+        "pagina_pdf": 151,
+        "reflexion": {
+          "es": "¿Es posible vivir sin consuelo religioso y encontrar sentido en la vida? ¿Crecer es renunciar a la ilusión o también a la esperanza? (¿Puede el hombre prescindir de la religión?)",
+          "fr": "Est-il possible de vivre sans consolation religieuse et de trouver un sens à la vie ? Grandir, est-ce renoncer à l'illusion ou aussi à l'espoir ? (L'homme peut-il se passer de religion ?)"
+        }
+      }
+    }
+  }
+}

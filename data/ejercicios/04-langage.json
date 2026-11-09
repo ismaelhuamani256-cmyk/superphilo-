@@ -1,0 +1,212 @@
+{
+  "capitulo": "langage",
+  "perspectivas": {
+    "autores": ["Saussure", "Platon", "Benveniste", "Hegel", "Bergson", "Montaigne"],
+    "nociones_liadas": ["vérité", "raison", "art", "liberté"],
+    "ramas": [
+      {
+        "titulo": { "es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture" },
+        "ideas": [
+          { "texto": { "es": "El lenguaje es un hecho social y procede de una convención humana.", "fr": "Le langage est un fait social et provient d’une convention humaine." }, "cours": "2. a." },
+          { "texto": { "es": "El lenguaje es impotente para traducir la complejidad de nuestra interioridad.", "fr": "Le langage est impuissant à traduire la complexité de notre intériorité." }, "cours": "3. a." },
+          { "texto": { "es": "La imperfección del lenguaje es también lo que constituye su riqueza.", "fr": "L’imperfection du langage est aussi ce qui fait sa richesse." }, "cours": "3. b." },
+          { "texto": { "es": "La manera en que expresamos nuestro pensamiento está íntimamente ligada a la calidad de nuestro lenguaje.", "fr": "La manière dont nous exprimons notre pensée est intimement liée à la qualité de notre langage." }, "cours": "3. a." },
+          { "texto": { "es": "No puede haber pensamiento sin lenguaje.", "fr": "Il ne peut y avoir de pensée sans langage." }, "cours": "3. c." }
+        ]
+      },
+      {
+        "titulo": { "es": "La moral y la política", "fr": "La morale et la politique" },
+        "ideas": [
+          { "texto": { "es": "Los sofistas utilizan el lenguaje para dominar y afianzar un cierto poder.", "fr": "Les sophistes utilisent le langage pour dominer et asseoir un certain pouvoir." }, "cours": "4. a." },
+          { "texto": { "es": "La retórica puede utilizarse con buen criterio: la mayéutica socrática permite tomar conciencia de la inconsistencia de ciertas teorías.", "fr": "La rhétorique peut être utilisée à bon escient : la maïeutique socratique permet de prendre conscience de l’inconsistance de certaines théories." }, "cours": "4. b." }
+        ]
+      },
+      {
+        "titulo": { "es": "El conocimiento", "fr": "La connaissance" },
+        "ideas": [
+          { "texto": { "es": "El estudio del lenguaje puede ser científico y puede estudiarse como un sistema, puesto que está estructurado a partir de monemas y fonemas.", "fr": "L’étude du langage peut être scientifique et il peut être étudié comme un système puisqu’il est structuré à partir de monèmes et de phonèmes." }, "cours": "1. b." },
+          { "texto": { "es": "Los animales emiten señales que establecen una adecuación natural entre el objeto y el sonido: solo se comunican.", "fr": "Les animaux émettent des signaux qui permettent d’établir une adéquation naturelle entre l’objet et le son : ils communiquent seulement." }, "cours": "2. b." },
+          { "texto": { "es": "Los diálogos socráticos no buscan persuadir ni dominar, sino únicamente que surjan conocimientos en la búsqueda de la verdad.", "fr": "Les dialogues socratiques ne cherchent pas à persuader ni à dominer mais visent uniquement l’émergence de connaissances pour la recherche de la vérité." }, "cours": "4. b." }
+        ]
+      }
+    ],
+    "pagina_pdf": 91
+  },
+  "ejercicios": [
+    {
+      "id": "langage-diss",
+      "tipo": "dissertation",
+      "enunciado": {
+        "es": "¿Puede servir el lenguaje para enmascarar el propio pensamiento?",
+        "fr": "Le langage peut-il servir à masquer sa pensée ?"
+      },
+      "consigna": {
+        "es": "Redacte la introducción del tema subrayando el aspecto paradójico de la pregunta.",
+        "fr": "Rédigez l’introduction du sujet en soulignant l’aspect paradoxal de la question."
+      },
+      "corrige": {
+        "orientacion": {
+          "es": "Perspectiva 2 (la moral y la política): el lenguaje, bien manejado a la manera de los sofistas, puede ser un elemento de retórica y de manipulación, en particular al servicio de los políticos.",
+          "fr": "Perspective 2 : le langage, lorsqu’il est bien manié à la manière des sophistes, peut être un élément de rhétorique et de manipulation, notamment au service des hommes politiques."
+        },
+        "introduccion": {
+          "es": "[Explicación del tema] Es sorprendente o paradójico preguntarse si es posible tal uso del lenguaje cuando se constata a diario que es efectivo y tangible. Uno de los ejemplos más corrientes es la mentira, que consiste en hacer creer que se piensa lo que se dice y en no decir lo que se piensa. [Problemática] Para que el lenguaje pueda servir eficazmente para enmascarar el pensamiento, ¿no hay que llegar a reforzar la creencia implícita y espontánea de que el lenguaje no sirve para ocultar el pensamiento? [Anuncio del plan] Indirectamente, la mentira es pues un homenaje a la verdad, puesto que al mentir se quiere hacer creer que el propio lenguaje no puede ni quiere ocultar el pensamiento. ¿Cuáles son entonces las condiciones de posibilidad objetivas de tal mentira? (primera parte). Pero si se tratara de no expresar el pensamiento, bastaría con callar, mientras que en el acto de enmascarar el pensamiento se emplea el lenguaje para decir otra cosa de lo que se piensa. Si el lenguaje se usa así, hay que reflexionar sobre las razones y fines por los que un individuo no se contenta con callar. ¿No hay una positividad real de la mentira, de la astucia que implica? (segunda parte). Sin embargo, si el lenguaje puede servir a una estrategia de manipulación del otro, ya que en ciertas circunstancias se considera necesario mentir para lograr los propios fines, cabe preguntarse qué permitirá el éxito de tal empresa y si no está viciada desde el principio al suponer la fragilidad, incluso la impotencia del mentiroso. ¿No es el fondo de engaño sobre el que reposa la mentira, en realidad, el indicio de una debilidad, incluso de un fracaso personal? (tercera parte).",
+          "fr": "[Explication du sujet] Il est surprenant ou paradoxal de se demander si une telle utilisation du langage est possible alors que l’on constate tous les jours qu’elle est effective ou tangible. Un des exemples le plus courant est le mensonge, celui-ci consistant à faire croire que l’on pense ce que l’on dit et à ne pas dire ce que l’on pense. [Problématique] Pour que le langage puisse servir efficacement à masquer sa pensée, ne faut-il pas aller jusqu’à renforcer la croyance implicite et spontanée que le langage ne sert pas à cacher sa pensée ? [Annonce du plan] Indirectement, le mensonge est donc un hommage à la vérité puisqu’en mentant on veut faire croire que son langage ne peut pas et ne veut pas cacher sa pensée. Quelles sont alors les conditions de possibilité objectives d’un tel mensonge ? (première partie) Mais s’il fallait ne pas exprimer sa pensée, il suffirait de se taire alors que dans l’acte de masquer sa pensée, le langage est employé pour dire autre chose que ce que l’on pense. Si le langage est utilisé ainsi, il faut alors réfléchir aux raisons et fins pour lesquelles un individu ne se contente pas de se taire. N’y a-t-il pas une réelle positivité du mensonge, de la ruse qu’il implique ? (deuxième partie) Cependant, si le langage peut servir une stratégie visant à manipuler autrui, puisque dans certaines circonstances, on estime nécessaire de mentir pour arriver à ses fins, on peut tout de même se demander ce qui va permettre la réussite d’une telle démarche et si elle n’est pas viciée dès le départ en supposant la fragilité, voire l’impuissance du menteur. Le fond de duperie sur lequel repose le mensonge n’est-il pas en réalité l’indice d’une faiblesse, voire d’un échec personnel ? (troisième partie)"
+        },
+        "problematica": {
+          "es": "Para que el lenguaje pueda servir eficazmente para enmascarar el pensamiento, ¿no hay que llegar a reforzar la creencia implícita y espontánea de que el lenguaje no sirve para ocultar el pensamiento?",
+          "fr": "Pour que le langage puisse servir efficacement à masquer sa pensée, ne faut-il pas aller jusqu’à renforcer la croyance implicite et spontanée que le langage ne sert pas à cacher sa pensée ?"
+        },
+        "plan": [
+          {
+            "parte": { "es": "I. Las condiciones de posibilidad objetivas de la mentira", "fr": "I. Les conditions de possibilité objectives du mensonge" },
+            "idea": {
+              "es": "La mentira es un homenaje indirecto a la verdad: al mentir se quiere hacer creer que el propio lenguaje no puede ni quiere ocultar el pensamiento. ¿Cuáles son las condiciones objetivas de tal mentira?",
+              "fr": "Le mensonge est un hommage indirect à la vérité : en mentant on veut faire croire que son langage ne peut pas et ne veut pas cacher sa pensée. Quelles sont les conditions de possibilité objectives d’un tel mensonge ?"
+            }
+          },
+          {
+            "parte": { "es": "II. La positividad de la mentira y de la astucia", "fr": "II. La positivité du mensonge et de la ruse" },
+            "idea": {
+              "es": "Para no expresar el pensamiento bastaría con callar; enmascararlo exige emplear el lenguaje para decir otra cosa. ¿Por qué un individuo no se contenta con callar? ¿Hay una positividad real de la mentira y de la astucia que implica?",
+              "fr": "S’il fallait ne pas exprimer sa pensée, il suffirait de se taire ; masquer sa pensée suppose d’employer le langage pour dire autre chose. Pourquoi un individu ne se contente-t-il pas de se taire ? N’y a-t-il pas une réelle positivité du mensonge et de la ruse qu’il implique ?"
+            }
+          },
+          {
+            "parte": { "es": "III. La mentira, indicio de debilidad o de fracaso", "fr": "III. Le mensonge, indice d’une faiblesse ou d’un échec" },
+            "idea": {
+              "es": "Si el lenguaje puede servir a una estrategia de manipulación, ¿qué permite su éxito, y no está viciada desde el principio al suponer la fragilidad, incluso la impotencia del mentiroso? El fondo de engaño, ¿no es el indicio de una debilidad o de un fracaso personal?",
+              "fr": "Si le langage peut servir une stratégie visant à manipuler autrui, qu’est-ce qui permet sa réussite, et n’est-elle pas viciée dès le départ en supposant la fragilité, voire l’impuissance du menteur ? Le fond de duperie n’est-il pas l’indice d’une faiblesse ou d’un échec personnel ?"
+            }
+          }
+        ],
+        "puntos_clave": [
+          {
+            "es": "Presenta el tema subrayando su carácter paradójico: es sorprendente preguntarse si es posible algo que se constata a diario (la mentira).",
+            "fr": "Présente le sujet en soulignant son caractère paradoxal : il est surprenant de se demander si est possible ce que l’on constate tous les jours (le mensonge)."
+          },
+          {
+            "es": "Define la mentira como hacer creer que se piensa lo que se dice y no decir lo que se piensa.",
+            "fr": "Définit le mensonge comme le fait de faire croire que l’on pense ce que l’on dit et de ne pas dire ce que l’on pense."
+          },
+          {
+            "es": "Formula una problemática precisa: enmascarar el pensamiento exige reforzar la creencia espontánea de que el lenguaje no sirve para ocultarlo.",
+            "fr": "Formule une problématique précise : masquer sa pensée suppose de renforcer la croyance spontanée que le langage ne sert pas à la cacher."
+          },
+          {
+            "es": "Muestra que la mentira es indirectamente un homenaje a la verdad.",
+            "fr": "Montre que le mensonge est indirectement un hommage à la vérité."
+          },
+          {
+            "es": "Distingue callar (no expresar el pensamiento) de usar el lenguaje para decir otra cosa, y se interroga sobre los fines de la mentira.",
+            "fr": "Distingue se taire (ne pas exprimer sa pensée) et utiliser le langage pour dire autre chose, et s’interroge sur les fins du mensonge."
+          },
+          {
+            "es": "Cuestiona el éxito de la manipulación: el engaño puede ser indicio de debilidad o de fracaso personal del mentiroso.",
+            "fr": "Interroge la réussite de la manipulation : la duperie peut être l’indice d’une faiblesse ou d’un échec personnel du menteur."
+          },
+          {
+            "es": "Anuncia un plan en tres partes, cada una introducida por una pregunta que prolonga la anterior.",
+            "fr": "Annonce un plan en trois parties, chacune introduite par une question qui prolonge la précédente."
+          }
+        ]
+      },
+      "pagina_pdf": 94,
+      "pagina_corrige": 96
+    },
+    {
+      "id": "langage-expl",
+      "tipo": "explication",
+      "enunciado": {
+        "es": "Explicación de texto: redacte la conclusión crítica de esta explicación de texto intentando mostrar lo que Wittgenstein pone fuertemente en cuestión aquí.",
+        "fr": "Explication de texte : rédigez la conclusion critique de cette explication de texte en essayant de montrer ce que Wittgenstein remet fortement en cause ici."
+      },
+      "texto": {
+        "fr": "Mais combien de sortes de phrases existe-t-il ? L’affirmation, l’interrogation, le commandement peut-être ? Il en est d’innombrables sortes ; il est d’innombrables et diverses sortes d’utilisation de tout ce que nous nommons « signes », « mots », « phrases ». Et cette diversité, cette multiplicité n’est rien de stable, ni de donné une fois pour toutes ; mais de nouveaux types de langage, de nouveaux jeux de langage naissent, pourrions-nous dire, tandis que d’autres vieillissent et tombent en l’oubli. (Nous trouverions une image approximative de ceci dans les changements des mathématiques). Le mot « jeu de langage » doit faire ressortir ici que le parler du langage fait partie d’une activité ou d’une forme de vie. Représentez-vous la multiplicité des jeux de langage au moyen des exemples suivants : Commander, et agir d’après des commandements. Décrire un objet d’après son aspect, ou d’après des mesures prises. Reconstituer un objet d’après une description (dessin). Rapporter un événement. Faire des conjectures au sujet d’un événement. Former une hypothèse et l’examiner. Représenter les résultats d’une expérimentation par des tables et des diagrammes. Inventer une histoire ; et lire. Jouer au théâtre. Chanter des « rondes ». Deviner des énigmes. Faire un mot d’esprit ; raconter. Résoudre un problème d’arithmétique pratique. Traduire d’une langue dans une autre. Solliciter, remercier, maudire, saluer, prier.",
+        "autor": "Wittgenstein",
+        "obra": "Investigations philosophiques, § 23, 1953",
+        "pagina_pdf": 94
+      },
+      "consigna": {
+        "es": "Redacte la conclusión crítica de esta explicación de texto intentando mostrar lo que Wittgenstein pone fuertemente en cuestión aquí.",
+        "fr": "Rédigez la conclusion critique de cette explication de texte en essayant de montrer ce que Wittgenstein remet fortement en cause ici."
+      },
+      "corrige": {
+        "tesis": {
+          "es": "En este texto Wittgenstein defiende que el lenguaje es un elemento puramente social; de ahí que se interrogue sobre la pertinencia de este tipo de lenguaje para expresar la interioridad humana.",
+          "fr": "Dans ce texte, Wittgenstein avance l’idée que le langage est un élément purement social, dès lors il s’interroge, quant à la pertinence de ce type de langage à exprimer l’intériorité humaine."
+        },
+        "etapas": [
+          {
+            "titulo": { "es": "Multiplicidad y evolución de los usos del lenguaje", "fr": "Multiplicité et évolution des usages du langage" },
+            "idea": {
+              "es": "Existen innumerables clases de frases y de usos de los «signos», «palabras» y «frases»; esta diversidad no es estable ni está dada de una vez por todas: nacen nuevos juegos de lenguaje mientras otros envejecen y caen en el olvido.",
+              "fr": "Il existe d’innombrables sortes de phrases et d’utilisations des « signes », « mots », « phrases » ; cette diversité n’est ni stable ni donnée une fois pour toutes : de nouveaux jeux de langage naissent tandis que d’autres vieillissent et tombent en l’oubli."
+            },
+            "lineas": "l. 1-8"
+          },
+          {
+            "titulo": { "es": "El «juego de lenguaje» como actividad o forma de vida", "fr": "Le « jeu de langage » comme activité ou forme de vie" },
+            "idea": {
+              "es": "La expresión «juego de lenguaje» subraya que el hablar forma parte de una actividad o de una forma de vida.",
+              "fr": "L’expression « jeu de langage » fait ressortir que le parler du langage fait partie d’une activité ou d’une forme de vie."
+            },
+            "lineas": "l. 9-10"
+          },
+          {
+            "titulo": { "es": "Enumeración de juegos de lenguaje", "fr": "Énumération de jeux de langage" },
+            "idea": {
+              "es": "Una lista de ejemplos (mandar, describir, relatar, formular hipótesis, inventar historias, traducir, rogar, saludar…) ilustra la multiplicidad de los juegos de lenguaje.",
+              "fr": "Une liste d’exemples (commander, décrire, rapporter, former une hypothèse, inventer une histoire, traduire, prier, saluer…) illustre la multiplicité des jeux de langage."
+            },
+            "lineas": "l. 11-fin"
+          }
+        ],
+        "enjeu": {
+          "es": "Si el lenguaje es una actividad social regida por reglas, ¿es posible un lenguaje privado capaz de decir nuestros sentimientos y nuestra intimidad? Wittgenstein pone en cuestión la idea de una interioridad subjetiva que existiría completamente al margen de toda relación; el problema es el de las condiciones de existencia del lenguaje.",
+          "fr": "Si le langage relève d’une activité sociale, un langage privé est-il tout de même possible, permettant de dire, de décrire nos sentiments, notre intimité ? Wittgenstein remet en cause l’idée d’une intériorité subjective existant complètement en dehors de toute relation ; le texte pose le problème des conditions d’existence du langage."
+        },
+        "conclusion": {
+          "es": "Wittgenstein concibe aquí el lenguaje como un instrumento esencialmente social que permite cumplir una infinidad de funciones. Pero si es una actividad social, cabe preguntarse si un lenguaje privado es posible. El objeto del texto es precisamente subrayar que tal lenguaje es imposible. En primer lugar, un individuo que lo usara no sería comprendido por nadie y viviría probablemente en un mundo cerrado sobre sí mismo. Además, nada permitiría asegurar que ese individuo respeta realmente las reglas de su lenguaje o solo finge respetarlas; sin criterio objetivo claro no se le podría reprochar nada y podría hacer un uso delirante del lenguaje, lo que destruiría su pertinencia. Es como si se suprimiera la ortografía: cada cual escribiría como quisiera y, a la larga, la escritura desaparecería, pues nadie la entendería, ni siquiera quien escribe. En los juegos de lenguaje, si una palabra se usa mal, se le hace una observación al hablante para que comprenda su error; en un lenguaje puramente privado tal reproche sería imposible y la noción misma de rigor desaparecería, al no haber ninguna regla justa o precisa. Wittgenstein pone así en cuestión la idea de una interioridad subjetiva existente fuera de toda relación: la posibilidad de experiencias privadas incomunicables es, según él, ilusoria, pues fuera de los juegos de lenguaje no habría significaciones posibles. Las palabras o enunciados solo adquieren valor en el marco estricto del juego social y, como en todo juego, toman sentido gracias a reglas y a un contexto preciso. Bergson critica un lenguaje objetivo que deforma nuestra interioridad: para él el lenguaje es ante todo un punto de apoyo, y lo problemático es no cuestionar las ideas hechas que nos entrega el lenguaje común, reflejo de la sociedad y de sus prejuicios. No se trata de rechazar el lenguaje usual, sino de superar su fijeza y su carácter automático, pues «el lenguaje ha sido el instrumento por excelencia de liberación, a pesar del automatismo que luego inflige al pensamiento» (Mélanges). El acercamiento paradójico entre Bergson y Wittgenstein permite así discernir mejor la riqueza y el alcance del texto de este último, que obliga a interrogarse sobre el uso del lenguaje y plantea el problema de sus condiciones de existencia.",
+          "fr": "Wittgenstein appréhende ici le langage comme un instrument essentiellement social permettant de remplir une infinité de fonctions. Mais s’il relève d’une activité sociale, on peut alors se demander si un langage privé est tout de même possible. Autrement dit, peut-on imaginer un langage permettant de dire, de décrire nos sentiments, notre intimité et qui resterait limité à une sphère intérieure ou intime ? Tout l’objet de ce texte est précisément de souligner qu’un tel langage est réellement impossible. D’abord, un individu utilisant ce type de langage ne serait absolument pas compris de qui que ce soit et vivrait sans doute dans un monde refermé sur lui-même. Par ailleurs, rien ne permettrait d’assurer qu’un tel individu respecte lui-même vraiment les règles de son langage ou s’il fait semblant de les respecter. Sans critère objectif clair, on ne pourrait rien lui reprocher et il pourrait faire un usage délirant du langage, ce qui détruirait toute pertinence de celui-ci. C’est un peu comme si l’on supprimait l’orthographe, à savoir toute règle du bon usage de l’écriture. Chacun pouvant écrire comme il le souhaite, à terme l’écriture disparaîtrait : elle ne serait plus comprise par personne, même pas par celui qui écrit. Or, Wittgenstein précise que dans les jeux de langage, si un mot est mal usité, une remarque sera faite au locuteur pour lui faire comprendre son erreur. Dans un langage qui serait purement privé, un tel reproche serait impossible et la notion même de rigueur disparaîtrait puisqu’il n’y aurait plus aucune règle juste ou précise. Ce faisant, Wittgenstein veut ici remettre en cause l’idée d’une intériorité subjective et existant complètement en dehors de toute relation. La possibilité d’expériences privées incommunicables est selon lui illusoire, car hors des jeux de langage, il n’y aurait pas de significations possibles. Si le langage est donc bien dans ce texte comparé à un jeu aux multiples possibilités, les mots ou énoncés ne prennent de la valeur que dans le cadre strict du jeu social et comme dans tout jeu, ils prennent sens grâce à des règles et dans un contexte précis. Bergson émet une critique d’un langage objectif déformant notre intériorité. Pour lui, le langage est d’abord un point d’appui et ce qui soulève un problème à ses yeux, c’est de ne pas remettre en question les idées toutes faites que nous livre le langage commun, celui-ci n’étant que le reflet de la société et de ses préjugés. Néanmoins, il ne s’agit nullement pour Bergson de rejeter le langage usuel ou ordinaire mais plutôt de dépasser sa fixité, son caractère automatique car il sait fort bien que « le langage a été l’instrument par excellence de libération, en dépit de l’automatisme qu’il inflige ultérieurement à la pensée » (Mélanges, Bergson). Ainsi, le rapprochement paradoxal entre Bergson et Wittgenstein permet de mieux discerner toute la richesse et la portée du texte de ce dernier, car il oblige non seulement à s’interroger sur l’usage du langage, mais il pose le problème de ses conditions d’existence."
+        },
+        "puntos_clave": [
+          {
+            "es": "Identifica que Wittgenstein concibe el lenguaje como un instrumento esencialmente social que cumple una infinidad de funciones (juegos de lenguaje).",
+            "fr": "Identifie que Wittgenstein appréhende le langage comme un instrument essentiellement social remplissant une infinité de fonctions (jeux de langage)."
+          },
+          {
+            "es": "Plantea la pregunta crítica: si el lenguaje es social, ¿es posible un lenguaje privado que diga nuestra intimidad?",
+            "fr": "Pose la question critique : si le langage est social, un langage privé disant notre intimité est-il possible ?"
+          },
+          {
+            "es": "Muestra que tal lenguaje privado sería incomprensible para los demás y encerraría al individuo en un mundo cerrado sobre sí mismo.",
+            "fr": "Montre qu’un tel langage privé serait incompris d’autrui et enfermerait l’individu dans un monde refermé sur lui-même."
+          },
+          {
+            "es": "Señala la ausencia de criterio objetivo y de reglas: sin posibilidad de reproche, la noción de rigor desaparece (analogía con la supresión de la ortografía).",
+            "fr": "Souligne l’absence de critère objectif et de règles : sans possibilité de reproche, la notion de rigueur disparaît (analogie avec la suppression de l’orthographe)."
+          },
+          {
+            "es": "Explica que Wittgenstein cuestiona la idea de una interioridad subjetiva fuera de toda relación: fuera de los juegos de lenguaje no hay significaciones posibles.",
+            "fr": "Explique que Wittgenstein remet en cause l’idée d’une intériorité subjective hors de toute relation : hors des jeux de langage, il n’y a pas de significations possibles."
+          },
+          {
+            "es": "Recuerda que, como en todo juego, las palabras toman sentido gracias a reglas y a un contexto preciso.",
+            "fr": "Rappelle que, comme dans tout jeu, les mots prennent sens grâce à des règles et dans un contexte précis."
+          },
+          {
+            "es": "Abre la discusión comparando con Bergson: el lenguaje común refleja los prejuicios sociales y es preciso superar su fijeza sin rechazarlo, pues es un instrumento de liberación.",
+            "fr": "Ouvre la discussion en comparant avec Bergson : le langage commun reflète les préjugés de la société et il faut dépasser sa fixité sans le rejeter, car il est un instrument de libération."
+          },
+          {
+            "es": "Concluye sobre el alcance del texto: obliga a interrogarse sobre el uso del lenguaje y plantea el problema de sus condiciones de existencia.",
+            "fr": "Conclut sur la portée du texte : il oblige à s’interroger sur l’usage du langage et pose le problème de ses conditions d’existence."
+          }
+        ]
+      },
+      "pagina_pdf": 94,
+      "pagina_corrige": 96
+    }
+  ]
+}

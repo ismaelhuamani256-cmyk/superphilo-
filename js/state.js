@@ -6,17 +6,26 @@
 (function (global) {
   'use strict';
   const LS = 'philo-bac-progreso-v1';
-  const COURS = global.COURS || { capitulos: [], extras: {} };
-  const byCap = Object.fromEntries(COURS.capitulos.map(c => [c.id, c]));
+  const ES = global.COURS || { capitulos: [], extras: {} };
+  const FR = global.COURS_FR || null;     // versión francesa completa (si existe)
+  const index = d => Object.fromEntries(d.capitulos.map(c => [c.id, c]));
+  const IDX = { es: index(ES), fr: FR ? index(FR) : null };
+  const DILEMAS = global.DILEMAS || [];
 
   const defaults = () => ({
-    version: 1, xp: 0,
-    ajustes: { idioma: 'bilingue', estilo: 'monigotes', reducirMov: matchMedia('(prefers-reduced-motion: reduce)').matches, sonido: false },
+    version: 2, xp: 0,
+    ajustes: { lang: 'es', idioma: 'bilingue', cronometro: true, narrar: true, sfxEscena: true, vozRate: 1, musica: false, musicaVol: 0.5, vozEs: '', vozFr: '', tarjetasVoz: false, estilo: 'monigotes', reducirMov: matchMedia('(prefers-reduced-motion: reduce)').matches, sonido: true },
     fil: {},      // "cap/fil" -> {visto, escena, intentos, aciertos, xp}
     cap: {},      // cap -> {quizIntentos, quizAciertos, mejor}
     abiertas: {}, // "cap#i" -> {veces, mejor}
     disert: {},   // "cap#i" -> true (plan estudiado)
     dificiles: {},// "cap#i" -> fallos acumulados (repaso espaciado ligero)
+    dilemas: {},  // id -> {finales:{}, visitados:{}, aristas:{}, jugadas}
+    cards: {},    // tarjetas SRS: id -> {ef, int, rep, due}
+    escritos: {}, // borradores del simulacro / entrenadores: id -> {texto, ts}
+    simulacro: null, simulacros: [], // examen en curso e historial
+    plan: null,   // {fecha, minutos, hecho:{}}
+    hist: [],     // registro de actividad [{t, k, cap, ok}] (últimos 600)
   });
   let P = defaults(), saveTimer = 0, useServer = false;
   const listeners = new Set();
@@ -25,9 +34,9 @@
 
   async function load() {
     let loaded = null;
-    try { const r = await fetch('/api/progreso', { cache: 'no-store' }); if (r.ok) { useServer = true; loaded = await r.json(); } } catch (e) { /* sin servidor */ }
+    if (location.protocol !== 'file:') try { const r = await fetch('/api/progreso', { cache: 'no-store' }); if (r.ok) { useServer = true; loaded = await r.json(); } } catch (e) { /* sin servidor */ }
     if (!loaded) { try { loaded = JSON.parse(localStorage.getItem(LS) || 'null'); } catch (e) {} }
-    if (loaded) P = merge(defaults(), loaded);
+    if (loaded) { P = merge(defaults(), loaded); if ((loaded.version || 1) < 2) { P.ajustes.sonido = true; P.version = 2; save(); } }   // v2: los sonidos de interfaz pasan a estar activados por defecto
     emit();
   }
   function save() {
@@ -51,7 +60,8 @@
   function F(cap, fil) { return P.fil[key(cap, fil)] || (P.fil[key(cap, fil)] = { visto: false, escena: false, intentos: 0, aciertos: 0, xp: 0 }); }
   function markVisto(cap, fil) { const f = F(cap, fil); if (!f.visto) { f.visto = true; addXP(5, 'ficha vista'); } save(); emit(); }
   function markEscena(cap, fil) { const f = F(cap, fil); if (!f.escena) { f.escena = true; addXP(10, 'escena vista'); } save(); emit(); }
-  function markRespuesta(cap, fil, ok) { if (!fil) return; const f = F(cap, fil); f.intentos++; if (ok) f.aciertos++; save(); emit(); }
+  function log(k, cap, ok) { P.hist.push({ t: Date.now(), k, cap: cap || null, ok: ok === undefined ? null : !!ok }); if (P.hist.length > 600) P.hist.splice(0, P.hist.length - 600); }
+  function markRespuesta(cap, fil, ok) { log('q', cap, ok); if (!fil) { save(); return; } const f = F(cap, fil); f.intentos++; if (ok) f.aciertos++; save(); emit(); }
 
   /** Dominio 0..100 de un filósofo: visto 15 + escena 15 + precisión de quiz hasta 70 (necesita ≥3 intentos para el máximo). */
   function mastery(cap, fil) {
@@ -62,18 +72,24 @@
   }
   const estado = m => m >= 80 ? 'dominado' : m >= 35 ? 'practicado' : m > 0 ? 'visto' : 'nuevo';
   function chapterMastery(cap) {
-    const c = byCap[cap]; if (!c || !c.filosofos.length) return 0;
+    const c = IDX.es[cap]; if (!c || !c.filosofos.length) return 0;
     return Math.round(c.filosofos.reduce((s, f) => s + mastery(cap, f.id), 0) / c.filosofos.length);
   }
-  function globalMastery() { const cs = COURS.capitulos; return cs.length ? Math.round(cs.reduce((s, c) => s + chapterMastery(c.id), 0) / cs.length) : 0; }
+  function globalMastery() { const cs = ES.capitulos; return cs.length ? Math.round(cs.reduce((s, c) => s + chapterMastery(c.id), 0) / cs.length) : 0; }
 
   function setAjuste(k, v) { P.ajustes[k] = v; save(); emit(); }
   function exportar() { return JSON.stringify(P, null, 2); }
   function importar(txt) { const o = JSON.parse(txt); if (typeof o !== 'object' || o.xp === undefined) throw new Error('Archivo no válido'); P = merge(defaults(), o); save(); emit(); }
   function reset() { P = defaults(); save(); emit(); }
 
+  /* ---------- idioma de la interfaz y del contenido ---------- */
+  const lang = () => (P.ajustes.lang === 'fr' && FR ? 'fr' : 'es');
+  const tx = v => (v && typeof v === 'object' && !Array.isArray(v)) ? (v[lang()] || v.es || '') : v;   // {es,fr} -> texto
+  global.L = (es, fr) => lang() === 'fr' ? fr : es;
+  global.tx = tx;
+
   global.State = {
-    COURS, byCap, load, save, on, emit, addXP, level, levelBase, markVisto, markEscena, markRespuesta, mastery, estado,
+    get COURS() { return lang() === 'fr' ? FR : ES; }, get byCap() { return IDX[lang()]; }, ES, DILEMAS, EJERCICIOS: global.EJERCICIOS || [], hasFR: !!FR, get lang() { return lang(); }, tx, load, save, on, emit, addXP, log, level, levelBase, markVisto, markEscena, markRespuesta, mastery, estado,
     chapterMastery, globalMastery, setAjuste, exportar, importar, reset,
     get P() { return P; }, get useServer() { return useServer; },
   };

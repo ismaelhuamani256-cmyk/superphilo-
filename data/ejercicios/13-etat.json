@@ -1,0 +1,140 @@
+{
+  "capitulo": "etat",
+  "perspectivas": {
+    "autores": ["Pascal", "Hobbes", "Weber", "Rousseau", "Marx", "Sieyès", "Montesquieu", "Machiavel", "Tocqueville"],
+    "nociones_liadas": ["liberté", "justice", "bonheur", "nature", "devoir"],
+    "ramas": [
+      {
+        "titulo": {"es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture"},
+        "ideas": [
+          {"texto": {"es": "El hombre que está a la cabeza del Estado puede no mostrarse digno de ello: hay que distinguir al hombre y la función (Pascal).", "fr": "L’homme à la tête de l’État peut ne pas s’en montrer digne, il faut distinguer l’homme et la fonction (Pascal)."}, "autor": "pascal", "cours": "1. a."},
+          {"texto": {"es": "Los hombres firman un contrato de sumisión con el Estado para que este asegure su protección (Hobbes).", "fr": "Les hommes signent un contrat de soumission avec l’État pour que ce dernier assure leur protection (Hobbes)."}, "autor": "hobbes", "cours": "2. b."},
+          {"texto": {"es": "Al contrario, según Rousseau, los hombres pueden firmar un contrato de asociación que les garantiza su libertad y sus derechos.", "fr": "À l’inverse, selon Rousseau, les hommes peuvent signer un contrat d’association leur garantissant leur liberté des droits."}, "autor": "rousseau", "cours": "2. b."},
+          {"texto": {"es": "El Estado está representado por diversas administraciones.", "fr": "L’État est représenté par divers administrations."}, "cours": "1. a."},
+          {"texto": {"es": "La forma de poder elegida está en consonancia con la historia de la nación.", "fr": "La forme de pouvoir choisie est en adéquation avec l’histoire de la nation."}, "cours": "1. c."},
+          {"texto": {"es": "La asociación contractual de individuos permite integrar y aceptar las diferencias.", "fr": "L’association contractuelle d’individus permet d’intégrer et d’accepter les différences."}, "cours": "1. c."}
+        ]
+      },
+      {
+        "titulo": {"es": "La moral y la política", "fr": "La morale et la politique"},
+        "ideas": [
+          {"texto": {"es": "Para gobernar con eficacia, hay que prescindir de la moral (Maquiavelo).", "fr": "Pour gouverner efficacement, il faut faire fi de la morale (Machiavel)."}, "autor": "machiavel", "cours": "2. a."},
+          {"texto": {"es": "Para Marx, el Estado republicano es un engaño objetivo.", "fr": "Pour Marx, l’État républicain est une tromperie objective."}, "autor": "marx", "cours": "3. a."},
+          {"texto": {"es": "La pasión de la igualdad puede conducir a un igualitarismo peligroso.", "fr": "La passion de l’égalité peut conduire à un égalitarisme dangereux."}, "autor": "tocqueville", "cours": "3. b."}
+        ]
+      },
+      {
+        "titulo": {"es": "El conocimiento", "fr": "La connaissance"},
+        "ideas": [
+          {"texto": {"es": "Existen distintas formas de poder: el poder legal y el poder carismático (Weber).", "fr": "Il existe différentes formes de pouvoir : le pouvoir légal et le pouvoir charismatique (Weber)."}, "autor": "weber", "cours": "1. b."},
+          {"texto": {"es": "Una concepción mística y naturalista del Estado puede engendrar regímenes totalitarios.", "fr": "Une conception mystique et naturaliste de l’État peut engendrer des régimes totalitaires."}, "cours": "1. c."},
+          {"texto": {"es": "El lema del Estado republicano es un ideal hacia el que tender, no una obligación impuesta por el Estado (Montesquieu).", "fr": "La devise de l’État républicain est un idéal vers lequel tendre, pas une obligation imposée par l’État (Montesquieu)."}, "autor": "montesquieu", "cours": "3. c."}
+        ]
+      }
+    ],
+    "pagina_pdf": 218
+  },
+  "ejercicios": [
+    {
+      "id": "etat-diss",
+      "tipo": "dissertation",
+      "enunciado": {"es": "¿El Estado hace libre?", "fr": "L’État rend-il libre ?"},
+      "consigna": {
+        "es": "Elabore un plan en tres partes y resuma después su argumentación, cuidando las transiciones. (Perspectiva 2. Nivel ** , 2 h 30.) El Estado se funda en un contrato social que permite la protección de los más débiles y la desaparición del estado de naturaleza. Sin embargo, toda sociedad, incluso democrática, puede conocer derivas.",
+        "fr": "Élaborez un plan en trois parties, puis résumez votre argumentation, en soignant vos transitions. (Perspective 2. ** , 2 h 30.) L’État est fondé sur un contrat social qui permet la protection des plus faibles et la disparition de l’état de nature. Toutefois, toute société, même démocratique, peut connaître des dérives."
+      },
+      "corrige": {
+        "plan": [
+          {
+            "parte": {"es": "I. El Estado es el resultado de la desaparición del estado de naturaleza y de las relaciones de fuerza.", "fr": "I. L’État est le résultat de la disparition de l’état de nature et des rapports de force."},
+            "idea": {
+              "es": "El Estado resulta del paso del estado de naturaleza, donde el hombre sufría las relaciones de fuerza y la violencia de los demás, al estado civil, donde bajo el reino pacificado de las leyes es a la vez libre y responsable de sus actos. El Estado aparece como fundador y garante de una sociedad estable, pacificada y unificada que permite el uso legítimo de la libertad de todos gracias a las leyes que establece y cuyo respeto impone. Sea cual sea su forma, al imponer un orden para todos es preferible al mantenimiento de un estado de naturaleza, es decir, como demuestra Hobbes, una situación de violencia continua en la que los individuos temen a los más fuertes. La ausencia de Estado, e incluso su impotencia, engendra el miedo a los demás, y este nunca permite a un hombre usar su libertad. Si la seguridad física puede considerarse legítimamente la primera de las libertades, sobre todo para los más débiles o frágiles, el Estado tiene una función protectora esencial. Transición: no hay que ser ingenuo hasta sacralizar un Estado y pensar que su existencia basta para garantizar la libertad de todos; todo Estado, apoyándose en un poder regio, ¿no tiende por esencia a reducir las libertades?",
+              "fr": "L’État est le résultat du passage de l’état de nature où l’homme subissait les rapports de forces et la violence des autres, à l’état civil où, sous le règne pacifié des lois, il est à la fois libre et responsable de ses actes. L’État apparaît donc comme le fondateur et le garant d’une société stable, pacifiée, unifiée permettant l’usage légitime de la liberté de tous grâce aux lois qu’il pose et dont il oblige au respect. En ce sens, quelle que soit la forme de l’État, en imposant un ordre pour tous, il est préférable au maintien d’un état de nature à savoir, comme le démontre Hobbes, une situation de violence continuelle où les individus craignent les plus forts. Ainsi, l’absence d’État et même son impuissance, ne peuvent qu’engendrer logiquement la peur des autres et celle-ci ne permet jamais à un homme d’user de sa liberté. Si la sécurité physique peut être légitimement considérée comme la première des libertés, surtout pour les plus faibles ou fragiles, l’État a une fonction protectrice tout à fait essentielle. [Transition] Pour autant, il ne faut pas être naïf au point de sacraliser un État et de penser que son existence suffit à garantir la liberté de tous. Tout État, en s’appuyant sur un pouvoir régalien, n’a-t-il pas, par essence, une tendance à réduire les libertés ?"
+            },
+            "autores": ["hobbes"]
+          },
+          {
+            "parte": {"es": "II. Un Estado, incluso democrático, puede encerrarse en sí mismo proclamando valores nacionalistas.", "fr": "II. Un État, même démocratique, peut se renfermer sur lui-même en prônant des valeurs nationalistes."},
+            "idea": {
+              "es": "Un Estado puede encerrarse en sí mismo y practicar el ostracismo: el nacionalismo conduce a afirmar una libertad pretenciosa y excluyente que niega la libertad de todos. Tras oponerse a los demás Estados, este tipo de régimen teme la libertad de cada ciudadano; toda contestación libre, definida primero como falta, se convierte casi en crimen de Estado. Ciertos periodos de la historia de Francia lo ilustran: mucho después de la siniestra etapa de Vichy, la guerra de Argelia fue ocasión para que los poderes públicos justificaran las peores exacciones, como la tortura o el asesinato de opositores, en nombre de supuestos intereses estatales. Débil y criticado, un Estado puede replegarse y endurecerse hasta cuestionar sus propios valores; para él la libertad se reduce a una obediencia pasiva. Un Estado puede también, por moralismo o ideología, querer legislar sobre todo y limitar las libertades individuales, en nombre de la razón de Estado o de la salud pública. El Estado habla siempre el lenguaje de la comunidad, y la libertad individual, que por definición debe ser crítica y rechazar las decisiones políticas que la cuestionan, puede parecerle un riesgo para toda la sociedad. Puede así proclamar la igualdad y suprimir progresivamente las libertades individuales en nombre de la seguridad o del bienestar de todos, lo que lleva a una forma de «tiranía de la mayoría» (Tocqueville), e incluso a un Estado absoluto cuyo único fin sea la seguridad y el orden. Transición: pero un Estado no es una entidad abstracta surgida de la nada; ¿no es todo Estado el resultado de la acción o la conciencia políticas de los ciudadanos, que por ser su origen deben obligar sin cesar a sus representantes a respetar todas las libertades?",
+              "fr": "Un État peut se renfermer sur lui-même et pratiquer l’ostracisme. Par exemple, le nationalisme conduit immanquablement à affirmer une liberté prétentieuse, exclusive et qui va nécessairement conduire à la négation de la liberté de tous. Commençant par s’opposer aux autres États, ce genre de régime politique va, en toute logique, craindre la liberté de chaque citoyen. Toute contestation libre, après avoir été définie comme une faute, deviendra presque un crime d’État. On peut ici faire référence à certaines périodes de l’histoire de France pendant lesquelles l’État a pu nuire à la liberté d’action et même de conscience de certains citoyens. Par exemple, bien après la sinistre période vichyssoise, la guerre d’Algérie fut l’occasion pour les pouvoirs publics de justifier des pires exactions comme la torture, voire l’assassinat d’opposants politiques au nom de prétendus intérêts étatiques. Ainsi, lorsqu’il est faible et critiqué, un État peut se replier sur lui-même et se durcir jusqu’à remettre en cause ses propres valeurs et principes fondamentaux. Pour un tel État, même démocratique, la liberté se réduit alors à une simple obéissance passive. Un État peut aussi, par moralisme ou idéologie, vouloir légiférer sur tout et limiter les libertés individuelles. Il va alors s’opposer à ces dernières, au nom, par exemple, d’une raison supérieure qu’on appelle la raison d’État ou encore la santé publique. L’État parle toujours le langage de la communauté et la liberté individuelle peut parfois apparaître, à ses yeux, comme un risque pour la société toute entière puisque, par définition, et pour ne pas se détruire, la liberté d’un homme doit être critique et refuser des décisions politiques qui la remettent en cause. L’État peut donc prôner l’égalité et en même temps, supprimer progressivement les libertés individuelles, au nom de la sécurité de tous ou de leur bien-être, conduisant alors à une forme de « tyrannie de la majorité » (Tocqueville). Cela peut même amener un État absolu n’ayant pour fin ou valeur que la sécurité, l’ordre et supprimant les libertés. [Transition] Mais un État n’est pas une entité abstraite apparaissant ex nihilo. Tout État n’est-il pas le résultat de l’action ou de la conscience politiques des citoyens ? Ne sont-ce pas ces derniers qui, parce qu’ils sont à l’origine de son existence, doivent sans cesse obliger les représentants de l’État au respect de toutes les libertés ?"
+            },
+            "autores": ["tocqueville"]
+          },
+          {
+            "parte": {"es": "III. Los ciudadanos son los garantes del mantenimiento de sus libertades individuales.", "fr": "III. Les citoyens sont les garants du maintien de leurs libertés individuelles."},
+            "idea": {
+              "es": "El Estado no hace libre: son los ciudadanos quienes cada día garantizan los valores democráticos y el respeto de las libertades de todos, en particular de las minorías. Les corresponde tener espíritu crítico sobre los políticos y quienes hablan en nombre del Estado; la libertad depende de su vigilancia y de su exigencia constante. Deben ser «vigías de la República», según la feliz expresión de Victor Basch (presidente de la Liga de los Derechos del Hombre, asesinado en 1944). La libertad no es un don otorgado por el Estado, que solo es su garante, y solo es real o efectiva si los ciudadanos la quieren de verdad, es decir, si son actores informados y lúcidos. Deben vigilar el respeto del derecho y exigir que los poderes públicos pongan en práctica los valores de libertad, pues su indiferencia los hace, si no cómplices, al menos en parte responsables de la pérdida de derechos y libertades. No es el Estado el que hace libre, aunque sea necesario, sino los ciudadanos, que obligan a los gobernantes a respetar las libertades de cada uno. Además, en una democracia no es el gobierno quien hace las leyes sino los legisladores (en Francia, senadores y diputados), elegidos por el pueblo y procedentes de él: corresponde al pueblo elegir bien a sus representantes, vigilar sus prácticas parlamentarias y obligarles a no votar nunca leyes liberticidas.",
+              "fr": "L’État ne rend pas libre, ce sont bien les citoyens qui chaque jour garantissent les valeurs démocratiques et le respect des libertés de tous, notamment des minorités. C’est bien aux citoyens d’avoir un esprit critique sur les hommes politiques et ceux qui parlent au nom de l’État. La liberté dépend de la vigilance des citoyens et de leur exigence constante. Il faut que les citoyens soient des « vigies de la République » selon l’heureuse expression de Victor Basch (président de la Ligue des Droits de l’Homme, assassiné en 1944). La liberté n’est pas un don octroyé par l’État, il n’en est que le garant, mais elle n’est réelle ou effective que si les citoyens la veulent vraiment, c’est-à-dire s’ils sont des acteurs informés et lucides. Ils doivent être vigilants sur le respect du droit, exigeants sur les valeurs de liberté mises en pratique par les pouvoirs publics car leur indifférence les rend sinon complices, au moins en partie responsables des pertes des droits et libertés. C’est aux citoyens de veiller à ce qu’il n’y ait pas d’écart entre les valeurs de liberté prônées par un État démocratique et les décisions ou pratiques du pouvoir qui peuvent les contredire. En ce sens, ce n’est donc pas l’État qui rend libre, même s’il est nécessaire, mais les citoyens qui obligent les gouvernants au respect des libertés de chacun. Notons, par ailleurs, que dans une démocratie, ce n’est pas le gouvernement qui fait les lois mais les législateurs (en France, les sénateurs et députés) qui sont choisis par le peuple et en proviennent. C’est donc au peuple lui-même de bien choisir ses représentants, de surveiller leurs pratiques parlementaires et de les obliger à ne jamais voter des lois liberticides."
+            },
+            "autores": []
+          }
+        ],
+        "puntos_clave": [
+          {"es": "Plantear que el Estado, al sustituir el estado de naturaleza y sus relaciones de fuerza por el reino de las leyes, es condición de la libertad y de la seguridad, primera de las libertades (Hobbes).", "fr": "Poser que l’État, en remplaçant l’état de nature et ses rapports de force par le règne des lois, est condition de la liberté et de la sécurité, première des libertés (Hobbes)."},
+          {"es": "Señalar que la ausencia o la impotencia del Estado engendra el miedo a los demás, que impide usar la libertad.", "fr": "Souligner que l’absence ou l’impuissance de l’État engendre la peur des autres, qui empêche d’user de sa liberté."},
+          {"es": "Mostrar que todo Estado, apoyado en un poder regio, puede reducir las libertades: nacionalismo, ostracismo, razón de Estado, obediencia pasiva.", "fr": "Montrer que tout État, appuyé sur un pouvoir régalien, peut réduire les libertés : nationalisme, ostracisme, raison d’État, obéissance passive."},
+          {"es": "Ilustrar la deriva con ejemplos históricos precisos (periodo de Vichy, guerra de Argelia, tortura y asesinato de opositores).", "fr": "Illustrer la dérive par des exemples historiques précis (période vichyssoise, guerre d’Algérie, torture et assassinat d’opposants)."},
+          {"es": "Evocar el riesgo de que, en nombre de la igualdad, la seguridad o el bienestar, se llegue a una «tiranía de la mayoría» (Tocqueville).", "fr": "Évoquer le risque que, au nom de l’égalité, de la sécurité ou du bien-être, on aboutisse à une « tyrannie de la majorité » (Tocqueville)."},
+          {"es": "Defender que la libertad no es un don del Estado, que solo es su garante, y que solo es efectiva si los ciudadanos, vigilantes e informados, la exigen («vigías de la República»).", "fr": "Défendre que la liberté n’est pas un don de l’État, qui n’en est que le garant, et qu’elle n’est effective que si les citoyens, vigilants et informés, l’exigent (« vigies de la République »)."},
+          {"es": "Recordar que el pueblo elige a sus legisladores y debe vigilarlos para que no voten leyes liberticidas.", "fr": "Rappeler que le peuple choisit ses législateurs et doit les surveiller pour qu’ils ne votent pas de lois liberticides."},
+          {"es": "Articular las tres partes con transiciones que planteen cada vez una pregunta que haga avanzar el razonamiento.", "fr": "Articuler les trois parties par des transitions posant à chaque fois une question qui fait avancer le raisonnement."}
+        ]
+      },
+      "pagina_pdf": 220,
+      "pagina_corrige": 223
+    },
+    {
+      "id": "etat-expl",
+      "tipo": "explication",
+      "enunciado": {"es": "Redacte la introducción de la explicación de este texto.", "fr": "Rédigez l’introduction de l’explication de ce texte."},
+      "texto": {
+        "fr": "Quels sont les éléments du pacte social ? Ne consiste-t-il pas à céder un peu de sa liberté et de ses propriétés pour assurer et maintenir ce que l’on conserve de l’un et de l’autre ? Toutes les lois sont assises sur ces bases ; elles sont les motifs des punitions infligées à celui qui abuse de sa liberté. Elles autorisent de même les impositions ; ce qui fait qu’un citoyen ne se récrie pas lorsqu’on les exige de lui, c’est qu’il sait qu’au moyen de ce qu’il donne, on lui conserve ce qui lui reste ; mais, encore une fois, de quel droit celui qui n’a rien s’enchaînera-t-il sous un pacte qui ne protège que celui qui a tout ? Si vous faites un acte d’équité en conservant, par votre serment, les propriétés du riche, ne faites-vous pas une injustice en exigeant ce serment du « conservateur » qui n’a rien ? Quel intérêt celui-ci a-t-il à votre serment ? Et pourquoi voulez-vous qu’il promette une chose uniquement favorable à celui qui diffère autant de lui par ses richesses ? Il n’est assurément rien de plus injuste : un serment doit avoir un effet égal sur tous les individus qui le prononcent ; il est impossible qu’il puisse enchaîner celui qui n’a aucun intérêt à son maintien, parce qu’il ne serait plus alors le pacte d’un peuple libre : il serait l’arme du fort sur le faible, contre lequel celui-ci devrait se révolter sans cesse ; or c’est ce qui arrive dans le serment du respect des propriétés que vient d’exiger la nation ; le riche seul y enchaîne le pauvre, le riche seul a intérêt au serment que prononce le pauvre avec tant d’inconsidération qu’il ne voit pas qu’au moyen de ce serment, extorqué à sa bonne foi, il s’engage à faire une chose qu’on ne peut pas faire vis-à-vis de lui. Convaincus, ainsi que vous devez l’être, de cette barbare inégalité, n’aggravez donc pas votre injustice en punissant celui qui n’a rien d’avoir osé dérober quelque chose à celui qui a tout : votre inéquitable serment lui en donne plus de droit que jamais. En le contraignant au parjure par ce serment absurde pour lui, vous légitimez tous les crimes où le portera ce parjure ; il ne vous appartient donc plus de punir ce dont vous avez été la cause. Je n’en dirai pas davantage pour faire sentir la cruauté horrible qu’il y a à punir les voleurs.",
+        "autor": "Sade",
+        "obra": "« Français, encore un effort si vous voulez être républicains », in La philosophie dans le boudoir, 1795",
+        "pagina_pdf": 220
+      },
+      "consigna": {
+        "es": "Redacte la introducción de la explicación de este texto. (Perspectiva 1 y 2. Nivel ** , 1 h.)",
+        "fr": "Rédigez l’introduction de l’explication de ce texte. (Perspectives 1 et 2. ** , 1 h.)"
+      },
+      "corrige": {
+        "tesis": {
+          "es": "El marqués de Sade expresa aquí la idea de que el pacto social, originalmente instrumento político de liberación y de justicia social, se desvía cuando solo los contratantes más fuertes encuentran en él un interés y los débiles no ganan nada. Eso conduce lógicamente a estos últimos al perjurio y a la violación de un contrato basado en un simple engaño o usurpación.",
+          "fr": "Le marquis de Sade exprime ici l’idée que le pacte social, originairement instrument politique de libération et de justice sociale est dévoyé, lorsque seuls les co-contractants les plus forts y trouvent un intérêt et que les faibles n’y gagnent rien. Cela conduit logiquement ces derniers au parjure et à la violation de ce contrat basé sur une simple tromperie ou usurpation."
+        },
+        "etapas": [
+          {
+            "titulo": {"es": "Lo que hace posible un contrato justo", "fr": "Ce qui rend possible un contrat juste"},
+            "idea": {
+              "es": "Desde el principio hasta «lo que le queda» (l. 7), Sade explica lo que hace posible un contrato justo y subraya las restricciones a la vez necesarias y legítimas que supone.",
+              "fr": "Du début jusqu’à « […] ce qui lui reste » à la ligne 7, Sade explique ce qui rend possible un contrat juste et souligne les contraintes à la fois nécessaires et légitimes qu’il suppose."
+            },
+            "lineas": "l. 1-7"
+          },
+          {
+            "titulo": {"es": "Un contrato desviado que justifica la violencia de los débiles", "fr": "Un contrat détourné qui justifie la violence des faibles"},
+            "idea": {
+              "es": "Desde «pero, una vez más…» hasta el final, el autor interpela a los legisladores reprochándoles que desvíen los términos del contrato al fundarlo en una desigualdad de hecho. Sade concluye que tal perversión solo puede justificar la violencia de los débiles y quitar toda legitimidad a su condena.",
+              "fr": "De « mais, encore une fois […] » jusqu’à la fin, l’auteur interpelle les législateurs en leur reprochant de détourner les termes de ce contrat en le fondant sur une inégalité de fait. Sade en tire alors la conclusion qu’une telle perversion ne peut que justifier la violence des faibles et ôter toute légitimité à sa condamnation."
+            },
+            "lineas": "l. 7 - fin"
+          }
+        ],
+        "introduccion": {
+          "es": "Tema general: el tema de este texto es la política y, más precisamente, el contrato social fundador de la soberanía. Tesis: el marqués de Sade expresa la idea de que el pacto social, originalmente instrumento político de liberación y de justicia social, se desvía cuando solo los contratantes más fuertes encuentran en él un interés y los débiles no ganan nada, lo que conduce a estos al perjurio y a la violación de un contrato basado en un engaño o una usurpación. Estructura: la argumentación se articula en dos partes. En la primera, desde el principio hasta «lo que le queda» (l. 7), Sade explica lo que hace posible un contrato justo y subraya las restricciones necesarias y legítimas que supone. En la segunda, desde «pero, una vez más…» hasta el final, interpela a los legisladores por desviar los términos del contrato al fundarlo en una desigualdad de hecho, y concluye que tal perversión solo puede justificar la violencia de los débiles y quitar toda legitimidad a su condena.",
+          "fr": "[Thème général] Le thème de ce texte est celui de la politique et plus précisément du contrat social fondateur de la souveraineté. [Thèse soutenue par l’auteur] Le marquis de Sade exprime ici l’idée que le pacte social, originairement instrument politique de libération et de justice sociale est dévoyé, lorsque seuls les co-contractants les plus forts y trouvent un intérêt et que les faibles n’y gagnent rien. Cela conduit logiquement ces derniers au parjure et à la violation de ce contrat basé sur une simple tromperie ou usurpation. [Structure du texte] L’argumentation de l’auteur se structure en deux parties : dans une première partie, du début jusqu’à « […] ce qui lui reste » à la ligne 7, Sade explique ce qui rend possible un contrat juste et souligne les contraintes à la fois nécessaires et légitimes qu’il suppose ; puis, dans une seconde partie, de « mais, encore une fois […] » jusqu’à la fin, l’auteur interpelle les législateurs en leur reprochant de détourner les termes de ce contrat en le fondant sur une inégalité de fait. Sade en tire alors la conclusion qu’une telle perversion ne peut que justifier la violence des faibles et ôter toute légitimité à sa condamnation."
+        },
+        "puntos_clave": [
+          {"es": "Identificar el tema general: la política y, en concreto, el contrato social fundador de la soberanía.", "fr": "Identifier le thème général : la politique et plus précisément le contrat social fondateur de la souveraineté."},
+          {"es": "Formular la tesis: el pacto social se desvía cuando solo los fuertes salen ganando y los débiles no obtienen nada.", "fr": "Formuler la thèse : le pacte social est dévoyé lorsque seuls les plus forts y gagnent et que les faibles n’y gagnent rien."},
+          {"es": "Extraer la consecuencia lógica: el perjurio y la violación del contrato por los débiles, que se basa en un engaño o una usurpación.", "fr": "Dégager la conséquence logique : le parjure et la violation du contrat par les faibles, fondé sur une tromperie ou une usurpation."},
+          {"es": "Anunciar la estructura en dos partes: lo que hace posible un contrato justo (hasta «lo que le queda», l. 7) y el reproche a los legisladores de fundarlo en una desigualdad de hecho.", "fr": "Annoncer la structure en deux parties : ce qui rend possible un contrat juste (jusqu’à « ce qui lui reste », l. 7) puis le reproche aux législateurs de le fonder sur une inégalité de fait."},
+          {"es": "Precisar la conclusión de Sade: tal perversión justifica la violencia de los débiles y quita toda legitimidad a su condena.", "fr": "Préciser la conclusion de Sade : une telle perversion justifie la violence des faibles et ôte toute légitimité à sa condamnation."}
+        ]
+      },
+      "pagina_pdf": 220,
+      "pagina_corrige": 225
+    }
+  ]
+}

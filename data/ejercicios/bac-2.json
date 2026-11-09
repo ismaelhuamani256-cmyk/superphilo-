@@ -1,0 +1,113 @@
+{
+  "capitulo": null,
+  "ejercicios": [
+    {
+      "id": "bac-2",
+      "tipo": "explication",
+      "notions": ["justice", "conscience", "vérité"],
+      "enunciado": {
+        "es": "Explique el texto siguiente. No se exige conocer la doctrina del autor. Es necesario y suficiente que la explicación dé cuenta, mediante la comprensión precisa del texto, del problema del que trata.",
+        "fr": "Expliquez le texte suivant. La connaissance de la doctrine de l’auteur n’est pas requise. Il faut et il suffit que l’explication rende compte par la compréhension précise du texte, du problème dont il est question."
+      },
+      "texto": {
+        "fr": "– Ce sont des voleurs, dit-on, et des filous.\n– Qu’est-ce que cela signifie : « des voleurs et des filous » ? Qu’ils ont erré sur les questions de bien et de mal. Faut-il donc s’irriter contre eux, ou les plaindre ? Mais montre-leur l’erreur et tu verras comme ils se détournent de leurs fautes. S’ils ne la voient pas, ils n’ont rien à préférer à leur propre opinion.\n– Alors ce voleur, cet adultère, ne devraient-ils pas être mis à mort ?\n– Nullement, mais exprime-toi plutôt ainsi : « Cet homme qui est dans l’erreur, qui se trompe sur les matières les plus importantes, qui a perdu la vue, non pas la vue qui permet de distinguer le blanc et le noir, ne devrait-il pas être mis à mort ? ». Si tu parles de la sorte, tu comprendras combien ce que tu as dit est inhumain et cela revient en somme à ceci : « Mais cet aveugle, mais ce sourd ne devraient-ils pas être mis à mort ? ». Si le plus grand dommage à subir, c’est la perte des biens les plus importants, et si rien n’est plus important pour tout homme que la droiture de sa personne, quand quelqu’un en est privé, pourquoi donc s’irriter contre lui ?",
+        "autor": "Épictète (50-135 ap. J.-C.), philosophe grec de l’école stoïcienne",
+        "obra": "Entretiens, I, XVIII",
+        "pagina_pdf": 297
+      },
+      "consigna": {
+        "es": "Explicación de texto: dar cuenta, por la comprensión precisa del texto, del problema que plantea (nociones: justicia, conciencia, verdad).",
+        "fr": "Explication de texte : rendre compte, par la compréhension précise du texte, du problème dont il est question (notions : justice, conscience, vérité)."
+      },
+      "corrige": {
+        "tesis": {
+          "es": "Toda falta es reducible a un error: nadie hace el mal voluntariamente, sino por ignorancia del bien. Por tanto no hay que castigar ni irritarse contra el que se equivoca (ladrón, estafador), sino compadecerlo y educarlo, mostrándole su error; el verdadero daño que sufre es perder la «rectitud de su persona».",
+          "fr": "Toute faute est réductible à une erreur : nul ne fait le mal volontairement, mais par ignorance du bien. Il ne faut donc ni punir ni s’irriter contre celui qui se trompe (voleur, filou), mais le plaindre et l’éduquer en lui montrant son erreur ; le vrai dommage qu’il subit est de perdre « la droiture de sa personne »."
+        },
+        "etapas": [
+          {
+            "titulo": {
+              "es": "Cuestionar la designación: la falta es un error («ellos han errado»)",
+              "fr": "Interroger la désignation : la faute est une erreur (« ils ont erré »)"
+            },
+            "idea": {
+              "es": "Ante la afirmación del hombre común («son ladrones y estafadores»), Epicteto pregunta qué significa eso, al modo socrático (pregunta por la esencia, «¿qué es…?»): atribuir un predicado sin definirlo es caer en el prejuicio. Los llamados «malos» han errado sobre el bien y el mal; no se han definido a sí mismos y la oposición Bien/Mal es demasiado simple. Quien hace el mal ignora lo que hace (intelectualismo moral: «nadie es malo voluntariamente», Platón): son víctimas de su ignorancia, por eso hay que compadecerlos, no irritarse. Encerrados en «su propia opinión», no pueden jerarquizar los valores; para preferir hay que salir de uno mismo y conocer el principio universal del Bien. Mostrar el error basta para que se aparten de sus faltas.",
+              "fr": "Face à l’affirmation de l’homme du commun (« ce sont des voleurs et des filous »), Épictète demande ce que cela signifie, à la manière de Socrate (question d’essence, « qu’est-ce que… ? ») : attribuer un prédicat sans le définir, c’est tomber dans le préjugé. Ceux qu’on dit « méchants » ont erré sur le bien et le mal ; ils ne se sont pas définis eux-mêmes et l’alternative Bien/Mal est trop simpliste. Qui fait le mal ignore ce qu’il fait (intellectualisme moral : « nul n’est méchant volontairement », Platon) : ce sont des victimes de leur ignorance, d’où le « plaindre » plutôt que s’irriter. Enfermés dans « leur propre opinion », ils ne peuvent hiérarchiser les valeurs ; pour « préférer » il faut s’extraire de soi et connaître le principe universel du Bien. Montrer l’erreur suffit à les détourner de leurs fautes."
+            },
+            "lineas": "l. 1-6"
+          },
+          {
+            "titulo": {
+              "es": "La metáfora de la ceguera: la privación puede repararse por la educación",
+              "fr": "La métaphore de la cécité : la privation peut être réparée par l’éducation"
+            },
+            "idea": {
+              "es": "A la objeción «¿no habría que matarlos?», Epicteto responde que su interlocutor debe expresarse con más rigor: quien se equivoca sobre lo esencial ha «perdido la vista» (no la que distingue lo blanco de lo negro): es un ciego, un sordo; pedir su muerte es «inhumano». Recuerda la caverna de Platón: el hombre toma sombras por realidades, pero conserva la capacidad de ver; una privación no es una inexistencia, y la educación apela a la razón de cada uno y reorienta su mirada hacia el Bien (el hombre es perfectible, ni tabula rasa ni naturalmente bueno o malo). La sanción es así ilógica y moralmente injusta: atribuye al «bribón» intenciones que no tiene y lo condena por móviles que no son los suyos.",
+              "fr": "À l’objection « ne devraient-ils pas être mis à mort ? », Épictète répond que son interlocuteur doit s’exprimer avec plus de rigueur : celui qui se trompe sur l’essentiel a « perdu la vue » (non celle qui distingue le blanc du noir) : c’est un aveugle, un sourd ; réclamer sa mort est « inhumain ». La métaphore rappelle la caverne de Platon : l’homme prend des ombres pour des réalités mais garde la capacité de voir ; une privation n’est pas une inexistence et l’éducation fait appel à la raison de chacun en réorientant son regard vers le Bien (l’homme est perfectible, ni tabula rasa ni naturellement bon ou méchant). La sanction est donc illogique et moralement injuste : elle prête au « filou » des intentions qu’il n’a pas et le condamne pour des mobiles qui ne sont pas les siens."
+            },
+            "lineas": "l. 7-12"
+          },
+          {
+            "titulo": {
+              "es": "Jerarquizar los valores: el mayor daño es perder la «rectitud de la persona»",
+              "fr": "Hiérarchiser les valeurs : le plus grand dommage est de perdre « la droiture de sa personne »"
+            },
+            "idea": {
+              "es": "Epicteto concluye con un llamamiento a jerarquizar los bienes: el mayor daño no es el que se cree (la pérdida de bienes materiales), sino la pérdida de lo que es más importante para todo hombre, la rectitud de su persona. Castigar es tomar las consecuencias por las causas y negarse a comprenderlas; es compartir la ilusión de que la posesión material es un bien en sí. El ladrón, que busca la felicidad en las cosas, se contradice (usa medios opuestos a sus fines: «toda falta encierra una contradicción»), es pasivo y daña su propia libertad. Por eso es vano irritarse contra él: hay que ayudarle a enderezar su humanidad. La educación se dirige tanto al ladrón como a quien se cree hombre de bien, que se equivoca doblemente: juzga mal y está demasiado seguro de sí mismo.",
+              "fr": "Épictète conclut par un appel à hiérarchiser les biens : le plus grand dommage n’est pas celui qu’on imagine (la perte de biens matériels) mais la perte de ce qui est le plus important pour tout homme, la droiture de sa personne. Punir, c’est prendre les conséquences pour les causes et refuser de les comprendre, c’est partager l’illusion que la possession matérielle est un bien en soi. Le voleur, qui cherche le bonheur dans les choses, se contredit (il emploie des moyens opposés à ses fins : « toute faute renferme une contradiction »), il subit au lieu d’agir et nuit à sa propre liberté. S’irriter contre lui est donc vain : il faut l’aider à redresser son humanité. L’éducation s’adresse autant au voleur qu’à celui qui se croit homme de bien, lequel se trompe doublement : il juge mal et est trop sûr de lui."
+            },
+            "lineas": "l. 12-16"
+          }
+        ],
+        "introduccion": {
+          "es": "[Tema + tesis] El tema del texto es la justicia, y más precisamente la aplicación más justa del derecho. Corriendo el riesgo de escandalizar al hombre común al que se dirige, Epicteto sostiene que no toda falta debe sancionarse, porque se reduce a un error: reflexionar sobre las causas de una mala acción debe llevar a educar más que a castigar. [Estructura] El texto se divide en dos momentos: (1) la designación de culpable o malvado es discutible, pues confunde la falta con el error, que puede rectificarse cuando se muestra (hasta «su propia opinión», l. 6); (2) en la continuación, la visión optimista de la humanidad justifica el rechazo de la condena y el fundamento de la educación, que se dirige también al hombre común.",
+          "fr": "[Thème général + thèse de l’auteur] Le thème de ce texte est la justice et plus précisément la pratique ou application la plus juste du droit. En prenant le risque de choquer l’homme du commun à qui il s’adresse, Épictète défend la thèse selon laquelle toute faute ne doit pas être sanctionnée car elle est réductible à une erreur. Une réflexion sur les causes d’une mauvaise action doit alors amener à éduquer plutôt qu’à punir. [Structure du texte] Le texte peut être découpé en deux moments : (1) la désignation de fautif ou méchant est discutable, car elle s’appuie sur une confusion entre la faute et l’erreur, cette dernière pouvant être rectifiée lorsqu’elle est montrée (jusqu’à « leur propre opinion », l. 6) ; (2) dans la suite, la vision optimiste de l’auteur sur l’humanité justifie son refus d’une condamnation et le bien-fondé de l’éducation, celle-ci s’adressant à la personne même et donc à l’homme du commun aussi."
+        },
+        "enjeu": {
+          "es": "El enjeu es doble. Moral y jurídico: ¿qué es juzgar y castigar con justicia? Si el mal procede de la ignorancia del bien, castigar es injusto y ineficaz, y la educación es la respuesta justa; la verdadera causa del mal (miseria social, económica, política) debe combatirse, pues la dignidad de todo hombre pasa por la justicia social, que da legitimidad al uso de la fuerza legal. Epistemológico y pedagógico: el texto invita a corregir los juicios apresurados y los prejuicios del hombre común (estigmatización, miedo, «diabolización»), pues quien juzga sin comprender se equivoca también.",
+          "fr": "L’enjeu est double. Moral et juridique : qu’est-ce que juger et punir avec justice ? Si le mal procède de l’ignorance du bien, punir est injuste et inefficace, et l’éducation est la réponse juste ; la vraie cause du mal (misère sociale, économique, politique) doit être combattue, car le respect de la dignité de tout homme passe par la justice sociale, seule à donner sa légitimité à l’usage de la force légale. Épistémologique et pédagogique : le texte invite à corriger les jugements hâtifs et les préjugés de l’homme du commun (stigmatisation, peur, « diabolisation »), car celui qui juge sans comprendre se trompe lui aussi."
+        },
+        "conclusion": {
+          "es": "[Conclusión crítica] El texto plantea problemas muy actuales y defiende una tesis que nunca ha sido realmente escuchada: la punición es una reacción fácil, tranquilizadora, pero limitada, pues puede engendrar sentimiento de injusticia, deseo de revuelta o venganza en quienes roban por necesidad vital o desocupación. Sin decirlo expresamente, el texto da a la educación un papel esencial: permite distinguir el error de la verdad y el Bien del Mal; el malvado que no se sabe malvado sólo cambiará tomando conciencia de sí (Hugo: «el culpable no es el que hace el pecado, sino el que hace la sombra»). Límites: la educación actúa caso por caso y a posteriori; Epicteto no considera el valor preventivo de la sanción (por el miedo que inspira a los demás), incompatible con su tesis de que conocer el bien basta para respetarlo. Cabe preguntarse si se puede reducir la «perversidad» del mal por el mal a un error sobre el Bien: la historia muestra que conocer el Bien nunca ha bastado para respetarlo o aplicarlo.",
+          "fr": "[Conclusion critique] Le texte pose des problèmes toujours très actuels et défend une thèse qui n’a jamais été vraiment écoutée : la punition est une réaction facile, rassurante, mais limitée, car elle peut engendrer un sentiment d’injustice et un désir de révolte ou de vengeance chez ceux qui volent par nécessité vitale ou désœuvrement. Sans le dire expressément, le texte donne à l’éducation un rôle essentiel : elle permet de distinguer l’erreur et la vérité, puis le Bien et le Mal ; le méchant qui ne se sait pas méchant ne changera qu’en prenant conscience de lui-même (Hugo : « le coupable n’est pas celui qui fait le péché, mais celui qui fait l’ombre »). Limites : l’éducation agit au cas par cas et après coup ; Épictète n’envisage pas la valeur préventive d’une sanction par la peur qu’elle engendre pour les autres, incompatible avec sa thèse selon laquelle la connaissance du bien suffit à son respect. On peut s’interroger : peut-on réduire la « perversité » du mal pour le mal à une méprise sur le Bien ? L’histoire de l’humanité montre que la connaissance du Bien n’a jamais suffi à son respect ou à son application."
+        },
+        "puntos_clave": [
+          {
+            "es": "Identificar el tema (la justicia: la aplicación más justa del derecho) y la tesis: toda falta se reduce a un error, hay que educar más que castigar.",
+            "fr": "Identifier le thème (la justice : l’application la plus juste du droit) et la thèse : toute faute se réduit à une erreur, il faut éduquer plutôt que punir."
+          },
+          {
+            "es": "Mostrar el método socrático del comienzo: preguntar «¿qué significa…?» antes de atribuir un predicado («ladrones y estafadores»), pues la designación del hombre común es un prejuicio.",
+            "fr": "Montrer la démarche socratique du début : demander « qu’est-ce que cela signifie ? » avant d’attribuer un prédicat (« voleurs et filous »), la désignation de l’homme du commun étant un préjugé."
+          },
+          {
+            "es": "Explicar el intelectualismo moral («nadie es malo voluntariamente»): el que hace el mal ignora el bien, es víctima de su ignorancia, de ahí «compadecerlo»; encerrado en su opinión, no puede jerarquizar los valores.",
+            "fr": "Expliquer l’intellectualisme moral (« nul n’est méchant volontairement ») : qui fait le mal ignore le bien, il est victime de son ignorance, d’où le « plaindre » ; enfermé dans son opinion, il ne peut hiérarchiser les valeurs."
+          },
+          {
+            "es": "Analizar la metáfora de la ceguera y la sordera (alusión a la caverna): privación no es inexistencia; el hombre es perfectible y la educación reorienta su mirada hacia el Bien; matar al ciego es «inhumano».",
+            "fr": "Analyser la métaphore de la cécité et de la surdité (écho de la caverne) : privation n’est pas inexistence ; l’homme est perfectible et l’éducation réoriente son regard vers le Bien ; tuer l’aveugle est « inhumain »."
+          },
+          {
+            "es": "Explicar por qué la sanción es injusta e ilógica (atribuye intenciones que el acusado no tiene) y por qué el «mayor daño» es perder la rectitud de la persona, no los bienes materiales.",
+            "fr": "Expliquer pourquoi la sanction est injuste et illogique (elle prête des intentions que l’accusé n’a pas) et pourquoi le « plus grand dommage » est de perdre la droiture de sa personne, non les biens matériels."
+          },
+          {
+            "es": "Subrayar la contradicción de la falta (el que obra mal no hace lo que quiere) y la ironía de Epicteto contra el hombre común, que se equivoca doblemente y también necesita educación.",
+            "fr": "Souligner la contradiction de la faute (celui qui agit mal ne fait pas ce qu’il veut) et l’ironie d’Épictète envers l’homme du commun, qui se trompe doublement et a lui aussi besoin d’éducation."
+          },
+          {
+            "es": "Situar el enjeu: justicia social y causas del mal (miseria, miedo, estigmatización) frente a una punición que sólo tranquiliza; la educación como respuesta justa.",
+            "fr": "Dégager l’enjeu : justice sociale et causes du mal (misère, peur, stigmatisation) face à une punition qui ne fait que rassurer ; l’éducation comme réponse juste."
+          },
+          {
+            "es": "Discutir críticamente los límites: la educación actúa caso por caso y a posteriori, se ignora el valor preventivo de la sanción, y conocer el Bien no basta siempre para obrar bien.",
+            "fr": "Discuter les limites : l’éducation agit au cas par cas et après coup, la valeur préventive de la sanction est ignorée, et connaître le Bien ne suffit pas toujours à bien agir."
+          }
+        ]
+      },
+      "pagina_pdf": 297,
+      "pagina_corrige": 298
+    }
+  ]
+}

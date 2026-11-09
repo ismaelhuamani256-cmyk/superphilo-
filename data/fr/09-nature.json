@@ -1,0 +1,2097 @@
+{
+ "id": "nature",
+ "numero": 9,
+ "titulo": "La nature",
+ "titulo_es": "La naturaleza",
+ "resumen": "Pour les Grecs, la nature était un ordre global dont l'homme faisait partie ; depuis la fin du Moyen Âge, l'homme s'oppose à elle pour en connaître et en maîtriser les lois. Le chapitre examine si le comportement humain peut s'expliquer par la biologie (comportementalisme, illusion naturaliste), démonte la nostalgie d'une nature bienveillante et les théories raciales, et montre que nature et culture ne s'opposent pas mais s'entremêlent (Rousseau, Lévi-Strauss).",
+ "paginas": {
+  "inicio": 154,
+  "fin": 167
+ },
+ "puntos_incontournables": [
+  "L'homme, un animal comme les autres : son comportement s'expliquerait par la biologie et par des traits innés, même si cette approche est discutable sur le plan épistémologique (L'homme : un animal comme un autre)",
+  "La nature est amorale : la nostalgie d'une nature bienveillante empêche de voir que l'activité humaine l'a transformée et qu'elle est dépourvue de valeurs (La nature est amorale)",
+  "L'articulation nature/culture : est naturel ce qui n'a subi aucune intervention humaine ; pour se libérer de la nature, l'homme élabore des normes culturelles (Articulation entre la nature et la culture)",
+  "Inné et acquis : l'idée de nature humaine a engendré une distinction parfois idéologique entre l'inné et l'acquis et a masqué la capacité de l'homme à dépasser sa nature (L'inné et l'acquis)",
+  "La nature est ce qui insuffle la vie aux êtres vivants ; connaître ses lois permettrait de dominer, voire de modifier l'ordre naturel (« maîtres et possesseurs de la nature »)"
+ ],
+ "nociones_clave": [
+  "nature",
+  "phusis",
+  "culture",
+  "inné et acquis",
+  "nature humaine",
+  "état de nature",
+  "comportement",
+  "behaviorisme",
+  "illusion naturaliste",
+  "anthropomorphisme",
+  "épistémologie",
+  "artifice",
+  "universel et relatif",
+  "prohibition de l'inceste",
+  "amoral"
+ ],
+ "problematicas_bac": [
+  "La nature est-elle un modèle ?",
+  "Pourquoi la nature n'est-elle pas une norme satisfaisante pour penser le comportement humain ?",
+  "Anthropologie physiologique ou pragmatique : comment connaître l'homme ? (explication d'un texte de Kant)"
+ ],
+ "conceptos": [
+  {
+   "id": "inne-acquis",
+   "nombre": "L'inné et l'acquis",
+   "definicion": "L'inné est ce qui est donné à la naissance ; l'acquis, ce qu'on obtient par la culture, l'éducation et le travail. La biologie du XXe siècle montre qu'ils ne s'opposent pas mais interagissent.",
+   "pagina_pdf": 159,
+   "autores": [
+    "laborit",
+    "gobineau"
+   ]
+  },
+  {
+   "id": "illusion-naturaliste",
+   "nombre": "L'illusion naturaliste",
+   "definicion": "Croire que le comportement humain n'est que le résultat d'une nature qui le définit, comme chez l'animal. Comparer l'homme et l'animal est abusif (anthropomorphisme) et la nature n'est pas une norme satisfaisante.",
+   "pagina_pdf": 156,
+   "autores": [
+    "skinner",
+    "gobineau"
+   ]
+  },
+  {
+   "id": "amoralite",
+   "nombre": "La nature est amorale",
+   "definicion": "La nature et le monde animal ne connaissent ni morale ni droit : la dangerosité de l'animal relève de l'instinct, non d'une volonté de faire le mal. Seul l'homme peut résister à son instinct.",
+   "pagina_pdf": 158,
+   "autores": [
+    "spinoza"
+   ]
+  },
+  {
+   "id": "etat-de-nature",
+   "nombre": "L'état de nature",
+   "definicion": "Hypothèse rationnelle d'un état d'innocence, sans valeur (ni bon ni mauvais), qui sert de critère neutre pour juger l'évolution de l'homme et de sa culture.",
+   "pagina_pdf": 159,
+   "autores": [
+    "rousseau"
+   ]
+  },
+  {
+   "id": "nature-culture",
+   "nombre": "Nature et culture",
+   "definicion": "Le naturel est immédiat, spontané, inné et universel ; le culturel est relatif et variable. Dans la réalité, ils sont imbriqués, comme le montre la prohibition de l'inceste.",
+   "pagina_pdf": 160,
+   "autores": [
+    "levi-strauss",
+    "rousseau"
+   ]
+  },
+  {
+   "id": "anthropomorphisme",
+   "nombre": "Anthropomorphisme",
+   "definicion": "Tendance presque naturelle à attribuer des qualités humaines aux animaux (la méchanceté du requin), en leur prêtant des intentions qu'ils ne peuvent avoir.",
+   "pagina_pdf": 157,
+   "autores": []
+  }
+ ],
+ "filosofos": [
+  {
+   "id": "aristote",
+   "nombre": "Aristote",
+   "epoca": "IVe siècle av. J.-C.",
+   "tesis_principal": "La nature (phusis) n'est pas une chose mais un principe de mouvement et de repos inhérent aux êtres naturels, qui croissent, se déplacent et disparaissent spontanément selon une forme définie.",
+   "ideas_clave": [
+    "La nature (phusis) désigne d'abord la poussée des plantes",
+    "Elle n'est pas une chose mais un principe de mouvement et de repos (principe de mouvement et de repos)",
+    "Les êtres naturels obéissent à un mouvement spontané : ils croissent, se déplacent, disparaissent",
+    "Elle est la cause de l'autonomie locomotrice et de la croissance des animaux",
+    "L'âme se divise en niveaux : végétative, sensitive et rationnelle"
+   ],
+   "citas": [
+    {
+     "texto": "La nature est un principe et une […] essence vitale à l’origine par exemple de […] l’autonomie locomotrice des animaux",
+     "idioma": "fr",
+     "obra": "Physique, L. II",
+     "pagina_pdf": 155
+    }
+   ],
+   "debate_con": [
+    "descartes"
+   ],
+   "como_usarlo_en_disertacion": "Utile dans la première partie d'un plan pour définir la nature comme principe interne de mouvement et opposer le naturel au fabriqué. Sert aussi à l'opposer à la vision mécaniste de Descartes.",
+   "escena_sugerida": "Un arbre pousse tout seul et un animal se meut de lui-même, tandis qu'un objet fabriqué reste inerte.",
+   "pagina_pdf": 155,
+   "escena": {
+    "titulo": "Aristote : la nature, principe de mouvement",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "arbre",
+      "tipo": "arbol",
+      "pos": [
+       0.2,
+       0.65
+      ],
+      "etiqueta": "Un arbre",
+      "escala": 1.2
+     },
+     {
+      "id": "animal",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.7
+      ],
+      "etiqueta": "Un animal",
+      "escala": 1
+     },
+     {
+      "id": "objet",
+      "tipo": "caja",
+      "pos": [
+       0.8,
+       0.7
+      ],
+      "etiqueta": "Objet fabriqué",
+      "escala": 1
+     },
+     {
+      "id": "phusis",
+      "tipo": "engranaje",
+      "pos": [
+       0.5,
+       0.25
+      ],
+      "etiqueta": "Phusis",
+      "escala": 1.3
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "arbre"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "animal"
+     },
+     {
+      "t": 2,
+      "accion": "aparece",
+      "actor": "objet"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Les êtres naturels n'attendent pas qu'on les meuve."
+     },
+     {
+      "t": 5,
+      "accion": "salta",
+      "actor": "arbre"
+     },
+     {
+      "t": 6,
+      "accion": "dice",
+      "actor": "arbre",
+      "texto": "Je grandis par moi-même."
+     },
+     {
+      "t": 8,
+      "accion": "mueve",
+      "actor": "animal",
+      "a": [
+       0.4,
+       0.5
+      ],
+      "dur": 2
+     },
+     {
+      "t": 10,
+      "accion": "dice",
+      "actor": "animal",
+      "texto": "Je me déplace seul."
+     },
+     {
+      "t": 12,
+      "accion": "tiembla",
+      "actor": "objet"
+     },
+     {
+      "t": 13,
+      "accion": "dice",
+      "actor": "objet",
+      "texto": "Moi, je ne bouge pas toute seule..."
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "phusis"
+     },
+     {
+      "t": 16,
+      "accion": "une",
+      "de": "phusis",
+      "a": "arbre",
+      "nota": "principe interne"
+     },
+     {
+      "t": 17,
+      "accion": "une",
+      "de": "phusis",
+      "a": "animal",
+      "nota": "mouvement et repos"
+     },
+     {
+      "t": 18,
+      "accion": "subtitulo",
+      "texto": "La nature n'est pas une chose : c'est un principe interne de mouvement et de repos."
+     },
+     {
+      "t": 20,
+      "accion": "cita",
+      "texto": "La nature est un principe et une essence vitale à l’origine […] de l’autonomie locomotrice des animaux"
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "Aristote : nature (phusis) = principe vital qui meut de l'intérieur."
+     }
+    ]
+   }
+  },
+  {
+   "id": "descartes",
+   "nombre": "René Descartes",
+   "epoca": "XVIIe siècle",
+   "tesis_principal": "La nature est le résultat de lois fixées par Dieu, artisan parfait ; connaître ces lois permet de la dominer. Seul l'homme possède une âme unique et indivisible ; les animaux sont des machines complexes.",
+   "ideas_clave": [
+    "La physique s'organise comme un mécanisme technique dont Dieu est l'artisan",
+    "La nature est le résultat de lois (lois) fixées par Dieu",
+    "Les animaux sont comparables à des machines plus complexes (animal-machine)",
+    "L'âme est une et indivisible et siège de la pensée, contre la division aristotélicienne",
+    "Connaître les lois permet de dominer la nature : « maîtres et possesseurs »"
+   ],
+   "citas": [
+    {
+     "texto": "nous rendre comme maîtres et possesseurs de la nature",
+     "idioma": "fr",
+     "pagina_pdf": 155
+    }
+   ],
+   "debate_con": [
+    "aristote"
+   ],
+   "como_usarlo_en_disertacion": "Auteur de référence pour l'idée de maîtrise technique de la nature et pour le mécanisme. Intervient dans la partie qui montre que l'homme s'affirme face à la nature.",
+   "escena_sugerida": "Dieu fixe les lois, la nature fonctionne comme un mécanisme et l'homme, doué d'une âme, la domine.",
+   "pagina_pdf": 155,
+   "escena": {
+    "titulo": "Descartes : maîtres et possesseurs de la nature",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "dieu",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Dieu",
+      "escala": 1.3
+     },
+     {
+      "id": "lois",
+      "tipo": "engranaje",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "etiqueta": "Lois fixées",
+      "escala": 1.1
+     },
+     {
+      "id": "nature",
+      "tipo": "arbol",
+      "pos": [
+       0.2,
+       0.75
+      ],
+      "etiqueta": "La nature",
+      "escala": 1.2
+     },
+     {
+      "id": "animal",
+      "tipo": "monigote",
+      "pos": [
+       0.45,
+       0.8
+      ],
+      "etiqueta": "Animal-machine",
+      "escala": 0.9
+     },
+     {
+      "id": "homme",
+      "tipo": "monigote",
+      "pos": [
+       0.8,
+       0.75
+      ],
+      "etiqueta": "L'homme",
+      "escala": 1.1
+     },
+     {
+      "id": "ame",
+      "tipo": "cerebro",
+      "pos": [
+       0.8,
+       0.5
+      ],
+      "etiqueta": "Âme une",
+      "escala": 0.8
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "dieu"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Pour Descartes, Dieu est l'artisan parfait du monde."
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "lois"
+     },
+     {
+      "t": 4,
+      "accion": "proyecta",
+      "de": "dieu",
+      "a": "lois",
+      "nota": "lois"
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "nature"
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "animal"
+     },
+     {
+      "t": 8,
+      "accion": "une",
+      "de": "lois",
+      "a": "nature"
+     },
+     {
+      "t": 9,
+      "accion": "une",
+      "de": "lois",
+      "a": "animal",
+      "nota": "même mécanique"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "La nature obéit à des lois ; les animaux sont des machines complexes."
+     },
+     {
+      "t": 13,
+      "accion": "aparece",
+      "actor": "homme"
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "ame"
+     },
+     {
+      "t": 15,
+      "accion": "resalta",
+      "actor": "ame"
+     },
+     {
+      "t": 16,
+      "accion": "dice",
+      "actor": "homme",
+      "texto": "J'ai une âme qui pense."
+     },
+     {
+      "t": 18,
+      "accion": "mueve",
+      "actor": "homme",
+      "a": [
+       0.35,
+       0.7
+      ],
+      "dur": 2
+     },
+     {
+      "t": 19,
+      "accion": "dice",
+      "actor": "homme",
+      "texto": "Si je connais les lois, je peux la dominer."
+     },
+     {
+      "t": 21,
+      "accion": "cita",
+      "texto": "nous rendre comme maîtres et possesseurs de la nature"
+     },
+     {
+      "t": 24,
+      "accion": "subtitulo",
+      "texto": "Connaître les lois naturelles permet à l'homme de dominer la nature."
+     }
+    ]
+   }
+  },
+  {
+   "id": "skinner",
+   "nombre": "B. F. Skinner (y el behaviorismo : Watson, Pavlov)",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Pour le behaviorisme, tout comportement est une réaction à un stimulus extérieur et peut être conditionné et modifié ; Skinner propose une éducation fondée uniquement sur le conditionnement par récompenses.",
+   "ideas_clave": [
+    "Tout le vivant s'expliquerait par la physique, la chimie et la biologie (comportementalisme)",
+    "Entre l'homme et l'animal, il n'y aurait que des différences quantitatives",
+    "Tout comportement est une réaction à une stimulation extérieure (Watson, 1913)",
+    "Expérience de Pavlov : le son seul suffit à provoquer la salivation du chien (conditionnement)",
+    "Skinner : pour qu'un enfant apprenne les valeurs de sa communauté, il suffit de les lui faire aimer par des récompenses"
+   ],
+   "citas": [],
+   "debate_con": [
+    "laborit"
+   ],
+   "como_usarlo_en_disertacion": "Exemple de la thèse selon laquelle l'homme est un animal comme les autres et de l'illusion naturaliste. On l'utilise pour ensuite le critiquer : des comportements identiques n'ont pas nécessairement le même sens.",
+   "escena_sugerida": "Le chien de Pavlov salive en entendant le signal et un enfant apprend des valeurs grâce aux récompenses.",
+   "pagina_pdf": 156,
+   "escena": {
+    "titulo": "Skinner et le behaviorisme : conditionner le comportement",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "chien",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.7
+      ],
+      "etiqueta": "Le chien de Pavlov",
+      "escala": 1
+     },
+     {
+      "id": "repas",
+      "tipo": "caja",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": "Repas",
+      "escala": 0.8
+     },
+     {
+      "id": "signal",
+      "tipo": "rayo",
+      "pos": [
+       0.5,
+       0.3
+      ],
+      "etiqueta": "Signal sonore",
+      "escala": 0.9
+     },
+     {
+      "id": "enfant",
+      "tipo": "monigote",
+      "pos": [
+       0.8,
+       0.7
+      ],
+      "etiqueta": "L'enfant",
+      "escala": 0.9
+     },
+     {
+      "id": "recompense",
+      "tipo": "moneda",
+      "pos": [
+       0.65,
+       0.5
+      ],
+      "etiqueta": "Récompense",
+      "escala": 0.8
+     },
+     {
+      "id": "valeurs",
+      "tipo": "libro",
+      "pos": [
+       0.85,
+       0.3
+      ],
+      "etiqueta": "Valeurs",
+      "escala": 0.8
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "chien"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "repas"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Pavlov associe toujours le repas du chien à un signal sonore."
+     },
+     {
+      "t": 3,
+      "accion": "aparece",
+      "actor": "signal"
+     },
+     {
+      "t": 4,
+      "accion": "proyecta",
+      "de": "signal",
+      "a": "chien"
+     },
+     {
+      "t": 5,
+      "accion": "salta",
+      "actor": "chien"
+     },
+     {
+      "t": 7,
+      "accion": "desaparece",
+      "actor": "repas"
+     },
+     {
+      "t": 8,
+      "accion": "proyecta",
+      "de": "signal",
+      "a": "chien",
+      "nota": "sans repas"
+     },
+     {
+      "t": 9,
+      "accion": "dice",
+      "actor": "chien",
+      "texto": "Je salive rien qu'au son !"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "Le comportement est conditionné : il ne réagit qu'à un stimulus."
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "enfant"
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "valeurs"
+     },
+     {
+      "t": 16,
+      "accion": "aparece",
+      "actor": "recompense"
+     },
+     {
+      "t": 17,
+      "accion": "proyecta",
+      "de": "recompense",
+      "a": "enfant"
+     },
+     {
+      "t": 18,
+      "accion": "une",
+      "de": "enfant",
+      "a": "valeurs",
+      "nota": "il les aime"
+     },
+     {
+      "t": 19,
+      "accion": "dice",
+      "actor": "enfant",
+      "texto": "J'aime les valeurs si l'on me récompense."
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Skinner : éduquer, c'est conditionner par des récompenses, comme un animal."
+     },
+     {
+      "t": 24,
+      "accion": "tiembla",
+      "actor": "enfant"
+     },
+     {
+      "t": 25,
+      "accion": "subtitulo",
+      "texto": "Mais l'homme et l'animal ne s'expliquent pas de la même façon : c'est l'illusion naturaliste."
+     }
+    ]
+   }
+  },
+  {
+   "id": "laborit",
+   "nombre": "Henri Laborit",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Laborit refuse de séparer les sciences humaines des sciences biologiques et propose de parler d'une biologie psychologique ou sociologique ; il se demande si l'originaire permet de parler de nature humaine.",
+   "ideas_clave": [
+    "La nature humaine désigne ce qui est commun à tous les hommes",
+    "La nature d'un individu est ce qui lui est singulier : caractère et dispositions innées",
+    "Le mot nature vient du latin nascere (naître) : il suppose quelque chose d'originaire et de préexistant",
+    "Il défend un continuum entre sciences humaines et sciences biologiques",
+    "Il se demande si l'élément originaire permet de définir l'homme par des caractères innés"
+   ],
+   "citas": [
+    {
+     "texto": "Je refuse de séparer les sciences humaines […] des sciences dites biologiques. Pourquoi ne […] parlerait-on pas de biologie psychologique […] ou sociologique ?",
+     "idioma": "fr",
+     "obra": "Discours sans méthode",
+     "pagina_pdf": 156
+    }
+   ],
+   "debate_con": [
+    "skinner"
+   ],
+   "como_usarlo_en_disertacion": "Utile pour introduire le débat sur la nature humaine et l'inné, et pour illustrer l'approche biologisante du comportement avant de la nuancer par l'interaction de l'inné et de l'acquis.",
+   "escena_sugerida": "Un mur sépare les livres de sciences humaines et de sciences biologiques ; Laborit l'abat.",
+   "pagina_pdf": 156,
+   "escena": {
+    "titulo": "Laborit : sciences humaines et biologie",
+    "estilo": "monigotes",
+    "duracion_seg": 22,
+    "actores": [
+     {
+      "id": "laborit",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": "Laborit",
+      "escala": 1.1
+     },
+     {
+      "id": "humaines",
+      "tipo": "libro",
+      "pos": [
+       0.2,
+       0.5
+      ],
+      "etiqueta": "Sciences humaines",
+      "escala": 1.2
+     },
+     {
+      "id": "bio",
+      "tipo": "libro",
+      "pos": [
+       0.8,
+       0.5
+      ],
+      "etiqueta": "Sciences biologiques",
+      "escala": 1.2
+     },
+     {
+      "id": "mur",
+      "tipo": "piedra",
+      "pos": [
+       0.5,
+       0.45
+      ],
+      "etiqueta": "Séparation",
+      "escala": 1.5
+     },
+     {
+      "id": "cerveau",
+      "tipo": "cerebro",
+      "pos": [
+       0.5,
+       0.15
+      ],
+      "etiqueta": "Biologie psychologique ?",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "humaines"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "bio"
+     },
+     {
+      "t": 2,
+      "accion": "aparece",
+      "actor": "mur"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Traditionnellement, sciences humaines et biologiques s'étudient séparément."
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "laborit"
+     },
+     {
+      "t": 7,
+      "accion": "dice",
+      "actor": "laborit",
+      "texto": "Je refuse de les séparer."
+     },
+     {
+      "t": 9,
+      "accion": "tiembla",
+      "actor": "mur"
+     },
+     {
+      "t": 10,
+      "accion": "desaparece",
+      "actor": "mur"
+     },
+     {
+      "t": 11,
+      "accion": "une",
+      "de": "humaines",
+      "a": "bio",
+      "nota": "un seul savoir"
+     },
+     {
+      "t": 13,
+      "accion": "aparece",
+      "actor": "cerveau"
+     },
+     {
+      "t": 14,
+      "accion": "resalta",
+      "actor": "cerveau"
+     },
+     {
+      "t": 15,
+      "accion": "cita",
+      "texto": "Je refuse de séparer les sciences humaines des sciences dites biologiques."
+     },
+     {
+      "t": 18,
+      "accion": "subtitulo",
+      "texto": "S'il y a quelque chose d'originaire (nascere) en l'homme, définit-il sa nature ?"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Laborit propose une biologie psychologique ou sociologique."
+     }
+    ]
+   }
+  },
+  {
+   "id": "gobineau",
+   "nombre": "Arthur de Gobineau",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "Dans De l'inégalité des races, Gobineau transforme une corrélation entre niveau culturel et patrimoine génétique en causalité et légitime ainsi la supériorité de certains peuples ; son raisonnement est moralement condamnable et logiquement vicié.",
+   "ideas_clave": [
+    "Théories raciales du XIXe siècle appuyées sur une distinction nette entre inné et acquis",
+    "Il établit une corrélation entre le niveau d'une culture et le patrimoine génétique",
+    "La corrélation devient un lien causal : la race comme cause objective de la supériorité",
+    "Il justifie l'inégalité entre les hommes et la domination de certains peuples (colonisation)",
+    "Il confond cause et conséquence et ne fait que justifier son préjugé de départ"
+   ],
+   "citas": [],
+   "debate_con": [
+    "levi-strauss"
+   ],
+   "como_usarlo_en_disertacion": "Exemple classique de la nature utilisée comme modèle idéologique et de la fausse science qui naturalise l'inégalité. On l'emploie pour montrer les dangers d'une nature humaine définitive.",
+   "escena_sugerida": "Une corrélation entre culture et gènes devient une cause et débouche sur une hiérarchie injuste, réfutée par le raisonnement.",
+   "pagina_pdf": 158,
+   "escena": {
+    "titulo": "Gobineau : de la corrélation à la causalité abusive",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "gobineau",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.7
+      ],
+      "etiqueta": "Gobineau",
+      "escala": 1.1
+     },
+     {
+      "id": "culture",
+      "tipo": "corona",
+      "pos": [
+       0.4,
+       0.25
+      ],
+      "etiqueta": "Culture occidentale",
+      "escala": 1.1
+     },
+     {
+      "id": "genes",
+      "tipo": "cerebro",
+      "pos": [
+       0.7,
+       0.25
+      ],
+      "etiqueta": "Patrimoine génétique",
+      "escala": 1
+     },
+     {
+      "id": "balance",
+      "tipo": "balanza",
+      "pos": [
+       0.55,
+       0.65
+      ],
+      "etiqueta": "Hiérarchie des races",
+      "escala": 1.3
+     },
+     {
+      "id": "ojo",
+      "tipo": "ojo",
+      "pos": [
+       0.88,
+       0.7
+      ],
+      "etiqueta": "Raisonnement vicié",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "gobineau"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "culture"
+     },
+     {
+      "t": 2,
+      "accion": "aparece",
+      "actor": "genes"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Gobineau observe que les sociétés occidentales sont les plus avancées."
+     },
+     {
+      "t": 6,
+      "accion": "une",
+      "de": "culture",
+      "a": "genes",
+      "nota": "corrélation"
+     },
+     {
+      "t": 8,
+      "accion": "etiqueta",
+      "actor": "genes",
+      "texto": "Cause supposée"
+     },
+     {
+      "t": 9,
+      "accion": "proyecta",
+      "de": "genes",
+      "a": "culture",
+      "nota": "causalité"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "Il transforme la corrélation en cause : la race expliquerait la culture."
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "balance"
+     },
+     {
+      "t": 15,
+      "accion": "dice",
+      "actor": "gobineau",
+      "texto": "Certains peuples valent plus que d'autres."
+     },
+     {
+      "t": 17,
+      "accion": "subtitulo",
+      "texto": "Il justifie ainsi l'inégalité et la domination de certains peuples."
+     },
+     {
+      "t": 20,
+      "accion": "aparece",
+      "actor": "ojo"
+     },
+     {
+      "t": 21,
+      "accion": "resalta",
+      "actor": "ojo"
+     },
+     {
+      "t": 22,
+      "accion": "tiembla",
+      "actor": "balance"
+     },
+     {
+      "t": 23,
+      "accion": "dice",
+      "actor": "ojo",
+      "texto": "Cela ne prouve que ton préjugé de départ."
+     },
+     {
+      "t": 25,
+      "accion": "subtitulo",
+      "texto": "Il interprète les différences comme des déficiences : raisonnement vicié et dangereux."
+     }
+    ]
+   }
+  },
+  {
+   "id": "spinoza",
+   "nombre": "Baruch Spinoza",
+   "epoca": "XVIIe siècle",
+   "tesis_principal": "Selon le cours, Spinoza exprime qu'il est dans la nature des gros poissons de manger les petits : la dangerosité de l'animal relève de l'instinct, non d'une volonté de faire le mal, et la nature est amorale.",
+   "ideas_clave": [
+    "La morale et le droit sont inconnus des plantes et des animaux",
+    "Il est naturel que les gros poissons mangent les petits",
+    "On ne peut juger un animal dangereux : il exprime son instinct, non une volonté de mal",
+    "On attend de l'homme qu'il sache résister à son instinct animal (amoralité de la nature)"
+   ],
+   "citas": [],
+   "debate_con": [
+    "gobineau"
+   ],
+   "como_usarlo_en_disertacion": "Pour montrer que la nature ne peut être un modèle moral : elle est le règne de la violence sans valeurs. S'oppose à la nostalgie d'une nature bienveillante.",
+   "escena_sugerida": "Un gros poisson mange le petit sans méchanceté ; l'homme doit, lui, résister à son instinct.",
+   "pagina_pdf": 158,
+   "escena": {
+    "titulo": "Spinoza : la nature est amorale",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "gros",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.65
+      ],
+      "etiqueta": "Le gros poisson",
+      "escala": 1.4
+     },
+     {
+      "id": "petit",
+      "tipo": "monigote",
+      "pos": [
+       0.45,
+       0.7
+      ],
+      "etiqueta": "Le petit poisson",
+      "escala": 0.6
+     },
+     {
+      "id": "question",
+      "tipo": "interrogacion",
+      "pos": [
+       0.35,
+       0.3
+      ],
+      "etiqueta": "Est-il méchant ?",
+      "escala": 1
+     },
+     {
+      "id": "instinct",
+      "tipo": "corazon",
+      "pos": [
+       0.55,
+       0.3
+      ],
+      "etiqueta": "Instinct",
+      "escala": 0.9
+     },
+     {
+      "id": "homme",
+      "tipo": "monigote",
+      "pos": [
+       0.8,
+       0.7
+      ],
+      "etiqueta": "L'homme",
+      "escala": 1.1
+     },
+     {
+      "id": "morale",
+      "tipo": "balanza",
+      "pos": [
+       0.8,
+       0.3
+      ],
+      "etiqueta": "Morale et droit",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "gros"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "petit"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Dans la nature, les gros poissons mangent les petits."
+     },
+     {
+      "t": 4,
+      "accion": "mueve",
+      "actor": "gros",
+      "a": [
+       0.42,
+       0.68
+      ],
+      "dur": 2
+     },
+     {
+      "t": 6,
+      "accion": "desaparece",
+      "actor": "petit"
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "question"
+     },
+     {
+      "t": 9,
+      "accion": "piensa",
+      "actor": "gros",
+      "texto": "J'ai faim, c'est tout."
+     },
+     {
+      "t": 11,
+      "accion": "aparece",
+      "actor": "instinct"
+     },
+     {
+      "t": 12,
+      "accion": "une",
+      "de": "instinct",
+      "a": "gros",
+      "nota": "pas de volonté de mal"
+     },
+     {
+      "t": 14,
+      "accion": "subtitulo",
+      "texto": "Sa dangerosité relève de l'instinct, non d'une volonté de faire le mal."
+     },
+     {
+      "t": 17,
+      "accion": "desaparece",
+      "actor": "question"
+     },
+     {
+      "t": 18,
+      "accion": "aparece",
+      "actor": "homme"
+     },
+     {
+      "t": 19,
+      "accion": "aparece",
+      "actor": "morale"
+     },
+     {
+      "t": 20,
+      "accion": "une",
+      "de": "homme",
+      "a": "morale"
+     },
+     {
+      "t": 21,
+      "accion": "dice",
+      "actor": "homme",
+      "texto": "Moi, je dois résister à mon instinct."
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "Morale et droit sont étrangers aux animaux : la nature est amorale."
+     }
+    ]
+   }
+  },
+  {
+   "id": "rousseau",
+   "nombre": "Jean-Jacques Rousseau",
+   "epoca": "XVIIIe siècle",
+   "tesis_principal": "Rousseau caractérise la culture comme artifice, désordre et violence, une dénaturation négative ; pour la juger, il suppose un état de nature, hypothèse rationnelle d'innocence sans valeur qui sert de critère neutre.",
+   "ideas_clave": [
+    "La culture comme artifice, désordre et violence : dénaturation irréversible",
+    "Pour parler de dénaturation, il faut supposer un état de nature de référence",
+    "L'état de nature n'est qu'une hypothèse rationnelle, non une réalité historique",
+    "C'est un état d'innocence : l'homme n'est ni bon ni mauvais (indifférenciation)",
+    "Il sert de critère neutre pour juger l'évolution de l'homme et de sa culture"
+   ],
+   "citas": [
+    {
+     "texto": "l’homme est né libre, et partout il est dans les fers",
+     "idioma": "fr",
+     "obra": "Du contrat social",
+     "pagina_pdf": 159
+    }
+   ],
+   "debate_con": [
+    "levi-strauss"
+   ],
+   "como_usarlo_en_disertacion": "Central dans la partie qui présente la nature comme modèle théorique (hypothèse rationnelle) pour penser l'histoire de l'homme et juger la culture. Se nuance avec Lévi-Strauss : dans la réalité, nature et culture sont imbriquées.",
+   "escena_sugerida": "Un homme libre dans un paysage naturel passe à la société enchaîné ; l'état de nature fait office de miroir de référence.",
+   "pagina_pdf": 159,
+   "escena": {
+    "titulo": "Rousseau : l'état de nature comme hypothèse",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "homme",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.7
+      ],
+      "etiqueta": "L'homme",
+      "escala": 1.1
+     },
+     {
+      "id": "nature",
+      "tipo": "flor",
+      "pos": [
+       0.15,
+       0.45
+      ],
+      "etiqueta": "État de nature",
+      "escala": 1.1
+     },
+     {
+      "id": "societe",
+      "tipo": "casa",
+      "pos": [
+       0.8,
+       0.65
+      ],
+      "etiqueta": "Société, culture",
+      "escala": 1.3
+     },
+     {
+      "id": "fers",
+      "tipo": "cadena",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": "Dans les fers",
+      "escala": 1
+     },
+     {
+      "id": "miroir",
+      "tipo": "espejo",
+      "pos": [
+       0.5,
+       0.25
+      ],
+      "etiqueta": "Critère neutre",
+      "escala": 1.2
+     },
+     {
+      "id": "hypo",
+      "tipo": "interrogacion",
+      "pos": [
+       0.3,
+       0.2
+      ],
+      "etiqueta": "Hypothèse rationnelle",
+      "escala": 0.9
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "nature"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "homme"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Dans l'état de nature, l'homme n'est ni bon ni mauvais : il est innocent."
+     },
+     {
+      "t": 5,
+      "accion": "aparece",
+      "actor": "societe"
+     },
+     {
+      "t": 6,
+      "accion": "mueve",
+      "actor": "homme",
+      "a": [
+       0.65,
+       0.7
+      ],
+      "dur": 3
+     },
+     {
+      "t": 9,
+      "accion": "aparece",
+      "actor": "fers"
+     },
+     {
+      "t": 10,
+      "accion": "une",
+      "de": "fers",
+      "a": "homme"
+     },
+     {
+      "t": 11,
+      "accion": "tiembla",
+      "actor": "homme"
+     },
+     {
+      "t": 12,
+      "accion": "cita",
+      "texto": "l’homme est né libre, et partout il est dans les fers"
+     },
+     {
+      "t": 15,
+      "accion": "subtitulo",
+      "texto": "La culture est artifice et violence : une dénaturation."
+     },
+     {
+      "t": 17,
+      "accion": "aparece",
+      "actor": "miroir"
+     },
+     {
+      "t": 18,
+      "accion": "aparece",
+      "actor": "hypo"
+     },
+     {
+      "t": 19,
+      "accion": "proyecta",
+      "de": "miroir",
+      "a": "societe",
+      "nota": "juger"
+     },
+     {
+      "t": 21,
+      "accion": "piensa",
+      "actor": "homme",
+      "texto": "Il n'a peut-être jamais existé, mais il sert à juger."
+     },
+     {
+      "t": 24,
+      "accion": "subtitulo",
+      "texto": "L'état de nature est une hypothèse rationnelle, un critère neutre."
+     }
+    ]
+   }
+  },
+  {
+   "id": "levi-strauss",
+   "nombre": "Claude Lévi-Strauss",
+   "epoca": "XXe siècle",
+   "tesis_principal": "La distinction nature/culture est plus complexe qu'il n'y paraît : les structures familiales sont à la fois naturelles et culturelles, et la prohibition de l'inceste, qui impose une règle pour organiser l'échange entre groupes, marque le passage de la nature à la culture.",
+   "ideas_clave": [
+    "Le naturel est immédiat, spontané, inné et universel ; le culturel, relatif et variable",
+    "La famille combine des relations naturelles (filiation) et culturelles (alliance, adoption)",
+    "La prohibition de l'inceste ne s'explique ni par l'instinct ni par la génétique moderne",
+    "Sa raison est l'utilité de l'échange entre les peuples par des alliances matrimoniales",
+    "En instituant une règle, la culture évite le hasard de la nature"
+   ],
+   "citas": [],
+   "debate_con": [
+    "rousseau"
+   ],
+   "como_usarlo_en_disertacion": "Auteur clé pour dépasser l'opposition nature/culture et montrer leur imbrication. Peut clore un plan en nuançant Rousseau par l'exemple de la prohibition de l'inceste.",
+   "escena_sugerida": "Une famille naturelle s'ouvre à d'autres maisons par des alliances : la règle de l'inceste ouvre la porte de la culture.",
+   "pagina_pdf": 160,
+   "escena": {
+    "titulo": "Lévi-Strauss : l'inceste, passage de la nature à la culture",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "parent",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.7
+      ],
+      "etiqueta": "Parents",
+      "escala": 1.1
+     },
+     {
+      "id": "enfant",
+      "tipo": "monigote",
+      "pos": [
+       0.32,
+       0.78
+      ],
+      "etiqueta": "Enfant",
+      "escala": 0.7
+     },
+     {
+      "id": "maison1",
+      "tipo": "casa",
+      "pos": [
+       0.2,
+       0.4
+      ],
+      "etiqueta": "Famille A",
+      "escala": 1.1
+     },
+     {
+      "id": "maison2",
+      "tipo": "casa",
+      "pos": [
+       0.8,
+       0.4
+      ],
+      "etiqueta": "Famille B",
+      "escala": 1.1
+     },
+     {
+      "id": "porte",
+      "tipo": "puerta",
+      "pos": [
+       0.5,
+       0.6
+      ],
+      "etiqueta": "Passage nature-culture",
+      "escala": 1.2
+     },
+     {
+      "id": "question",
+      "tipo": "interrogacion",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Pourquoi l'interdit ?",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "parent"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "enfant"
+     },
+     {
+      "t": 2,
+      "accion": "une",
+      "de": "parent",
+      "a": "enfant",
+      "nota": "filiation naturelle"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Les enfants descendent directement de leurs parents : relation naturelle."
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "question"
+     },
+     {
+      "t": 7,
+      "accion": "dice",
+      "actor": "parent",
+      "texto": "Pourquoi ne pas nous unir entre nous ?"
+     },
+     {
+      "t": 9,
+      "accion": "subtitulo",
+      "texto": "L'inceste est interdit, mais ni l'instinct ni la génétique ne l'expliquent."
+     },
+     {
+      "t": 12,
+      "accion": "desaparece",
+      "actor": "question"
+     },
+     {
+      "t": 13,
+      "accion": "aparece",
+      "actor": "maison1"
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "maison2"
+     },
+     {
+      "t": 15,
+      "accion": "proyecta",
+      "de": "maison1",
+      "a": "maison2",
+      "nota": "alliance"
+     },
+     {
+      "t": 17,
+      "accion": "aparece",
+      "actor": "porte"
+     },
+     {
+      "t": 18,
+      "accion": "resalta",
+      "actor": "porte"
+     },
+     {
+      "t": 19,
+      "accion": "subtitulo",
+      "texto": "La vraie raison : s'allier à d'autres par des mariages et l'échange."
+     },
+     {
+      "t": 22,
+      "accion": "mueve",
+      "actor": "enfant",
+      "a": [
+       0.5,
+       0.75
+      ],
+      "dur": 2
+     },
+     {
+      "t": 24,
+      "accion": "subtitulo",
+      "texto": "En instituant une règle, la culture évite le hasard de la nature."
+     }
+    ]
+   }
+  },
+  {
+   "id": "kant",
+   "nombre": "Emmanuel Kant",
+   "epoca": "XVIIIe siècle",
+   "tesis_principal": "Dans son Anthropologie du point de vue pragmatique, Kant distingue une anthropologie physiologique (ce que la nature fait de l'homme) d'une anthropologie pragmatique (ce que l'homme, être libre, fait ou peut et doit faire de lui-même), et place la seconde comme la véritable connaissance du monde.",
+   "ideas_clave": [
+    "Les progrès de la culture servent à appliquer des savoirs au monde, dont l'objet principal est l'homme",
+    "L'homme est sa propre fin dernière",
+    "Connaissance physiologique : explorer ce que la nature fait de l'homme ; nous n'en sommes que les spectateurs",
+    "Connaissance pragmatique : ce que l'homme, être de libre activité, fait de lui-même",
+    "Seul l'homme peut être éduqué et il est perfectible"
+   ],
+   "citas": [
+    {
+     "texto": "l’application, c’est l’homme : car il est lui-même sa fin dernière",
+     "idioma": "fr",
+     "obra": "Anthropologie du point de vue pragmatique",
+     "pagina_pdf": 164
+    }
+   ],
+   "debate_con": [],
+   "como_usarlo_en_disertacion": "Utile pour montrer que l'homme ne se réduit pas à sa nature biologique : c'est un être libre qui se perfectionne par la culture. Appuie la partie sur le dépassement de la nature.",
+   "escena_sugerida": "Deux voies : l'homme comme spectateur de la nature ou comme acteur libre qui se fait lui-même.",
+   "pagina_pdf": 164,
+   "escena": {
+    "titulo": "Kant : anthropologie physiologique et pragmatique",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "homme",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.7
+      ],
+      "etiqueta": "L'homme",
+      "escala": 1.2
+     },
+     {
+      "id": "nature",
+      "tipo": "nube",
+      "pos": [
+       0.2,
+       0.3
+      ],
+      "etiqueta": "Ce que la nature fait de l'homme",
+      "escala": 1.2
+     },
+     {
+      "id": "spectateur",
+      "tipo": "ojo",
+      "pos": [
+       0.2,
+       0.65
+      ],
+      "etiqueta": "Simple spectateur",
+      "escala": 0.9
+     },
+     {
+      "id": "liberte",
+      "tipo": "bombilla",
+      "pos": [
+       0.8,
+       0.3
+      ],
+      "etiqueta": "Ce que l'homme fait de lui-même",
+      "escala": 1.2
+     },
+     {
+      "id": "fin",
+      "tipo": "estrella",
+      "pos": [
+       0.8,
+       0.65
+      ],
+      "etiqueta": "Fin dernière",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "homme"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Kant : l'objet le plus important du savoir culturel est l'homme lui-même."
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "nature"
+     },
+     {
+      "t": 5,
+      "accion": "proyecta",
+      "de": "nature",
+      "a": "homme",
+      "nota": "causes naturelles"
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "spectateur"
+     },
+     {
+      "t": 8,
+      "accion": "dice",
+      "actor": "homme",
+      "texto": "Je ne fais qu'observer ce que la nature fait de moi."
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "Anthropologie physiologique : on étudie les causes naturelles sans pouvoir agir."
+     },
+     {
+      "t": 13,
+      "accion": "desaparece",
+      "actor": "spectateur"
+     },
+     {
+      "t": 14,
+      "accion": "mueve",
+      "actor": "homme",
+      "a": [
+       0.65,
+       0.7
+      ],
+      "dur": 2
+     },
+     {
+      "t": 16,
+      "accion": "aparece",
+      "actor": "liberte"
+     },
+     {
+      "t": 17,
+      "accion": "proyecta",
+      "de": "homme",
+      "a": "liberte",
+      "nota": "libre activité"
+     },
+     {
+      "t": 18,
+      "accion": "aparece",
+      "actor": "fin"
+     },
+     {
+      "t": 19,
+      "accion": "une",
+      "de": "homme",
+      "a": "fin"
+     },
+     {
+      "t": 20,
+      "accion": "dice",
+      "actor": "homme",
+      "texto": "Je décide de ce que je fais de moi-même."
+     },
+     {
+      "t": 22,
+      "accion": "cita",
+      "texto": "c’est l’homme : car il est lui-même sa fin dernière"
+     },
+     {
+      "t": 24,
+      "accion": "subtitulo",
+      "texto": "Anthropologie pragmatique : l'homme libre se fait et se perfectionne."
+     }
+    ]
+   }
+  }
+ ],
+ "relaciones": [
+  {
+   "de": "descartes",
+   "a": "aristote",
+   "tipo": "se opone",
+   "nota": "Descartes rejette la division de l'âme en niveaux d'Aristote : l'âme est une et indivisible."
+  },
+  {
+   "de": "descartes",
+   "a": "skinner",
+   "tipo": "influye",
+   "nota": "L'idée que les mêmes lois physiques s'appliquent au vivant et aux choses prépare l'approche behavioriste."
+  },
+  {
+   "de": "laborit",
+   "a": "skinner",
+   "tipo": "complementa",
+   "nota": "Tous deux rapprochent l'étude de l'homme de la biologie."
+  },
+  {
+   "de": "laborit",
+   "a": "inne-acquis",
+   "tipo": "complementa",
+   "nota": "Laborit se demande si l'originaire permet de parler de nature humaine."
+  },
+  {
+   "de": "gobineau",
+   "a": "illusion-naturaliste",
+   "tipo": "complementa",
+   "nota": "Gobineau est l'exemple de la nature comme modèle idéologique."
+  },
+  {
+   "de": "gobineau",
+   "a": "spinoza",
+   "tipo": "se opone",
+   "nota": "La nature amorale de Spinoza ne peut servir de modèle ni moral ni racial."
+  },
+  {
+   "de": "spinoza",
+   "a": "amoralite",
+   "tipo": "complementa",
+   "nota": "Le gros poisson qui mange le petit illustre que la nature ne connaît pas de valeurs."
+  },
+  {
+   "de": "rousseau",
+   "a": "etat-de-nature",
+   "tipo": "complementa",
+   "nota": "Rousseau utilise l'état de nature comme hypothèse rationnelle et critère neutre."
+  },
+  {
+   "de": "levi-strauss",
+   "a": "rousseau",
+   "tipo": "se opone",
+   "nota": "Face à Rousseau, qui oppose le naturel et le culturel, Lévi-Strauss montre qu'ils sont imbriqués."
+  },
+  {
+   "de": "levi-strauss",
+   "a": "nature-culture",
+   "tipo": "complementa",
+   "nota": "La prohibition de l'inceste se situe au croisement de la nature et de la culture."
+  },
+  {
+   "de": "levi-strauss",
+   "a": "gobineau",
+   "tipo": "se opone",
+   "nota": "Face à la hiérarchie des cultures, Lévi-Strauss montre la complémentarité de la nature et de la culture."
+  },
+  {
+   "de": "kant",
+   "a": "levi-strauss",
+   "tipo": "complementa",
+   "nota": "Tous deux soulignent que l'homme se définit par la culture plus que par sa nature biologique."
+  }
+ ],
+ "quiz": [
+  {
+   "pregunta": "Pour Aristote, la nature est un principe de ... :",
+   "opciones": [
+    "mouvement et de repos",
+    "force",
+    "seulement de repos",
+    "hasard"
+   ],
+   "correcta": 0,
+   "explicacion": "Pour Aristote, la nature n'est pas une chose mais un principe de mouvement et de repos.",
+   "filosofo": "aristote",
+   "pagina_pdf": 155
+  },
+  {
+   "pregunta": "Quel philosophe a affirmé que l'homme devait se rendre « maître et possesseur de la nature » ?",
+   "opciones": [
+    "Aristote",
+    "Hegel",
+    "Descartes",
+    "Rousseau"
+   ],
+   "correcta": 2,
+   "explicacion": "Descartes : connaître les lois de la nature permettrait de « nous rendre comme maîtres et possesseurs de la nature ».",
+   "filosofo": "descartes",
+   "pagina_pdf": 155
+  },
+  {
+   "pregunta": "Comment nomme-t-on cette tendance à attribuer des qualités humaines aux dieux et aux animaux ?",
+   "opciones": [
+    "Zoologisme",
+    "Anthropomorphisme",
+    "Humanisme",
+    "Behaviorisme"
+   ],
+   "correcta": 1,
+   "explicacion": "L'anthropomorphisme prête aux animaux des qualités et des intentions humaines (la méchanceté du requin).",
+   "filosofo": null,
+   "pagina_pdf": 162
+  },
+  {
+   "pregunta": "La nature est ... :",
+   "opciones": [
+    "amorale",
+    "mauvaise",
+    "bonne",
+    "providentielle"
+   ],
+   "correcta": 0,
+   "explicacion": "Le cours insiste : la nature est amorale, et la nostalgie d'une nature bienveillante est illusoire.",
+   "filosofo": "spinoza",
+   "pagina_pdf": 157
+  },
+  {
+   "pregunta": "Parmi d'autres, quels sont les deux domaines fondamentaux inconnus des animaux ?",
+   "opciones": [
+    "La morale et le droit",
+    "Le désir et la morale",
+    "L'instinct et le droit",
+    "Le désir et l'instinct"
+   ],
+   "correcta": 0,
+   "explicacion": "« La morale comme le droit sont inconnus des plantes et des animaux » : seul l'homme accède à la culture, au droit et à la moralité.",
+   "filosofo": "spinoza",
+   "pagina_pdf": 157
+  },
+  {
+   "pregunta": "Qui, parmi autres, a théorisé l'inégalité des races ?",
+   "opciones": [
+    "Lévi-Strauss",
+    "Descartes",
+    "Gobineau",
+    "Rousseau"
+   ],
+   "correcta": 2,
+   "explicacion": "Gobineau, auteur de De l'inégalité des races, transforme une corrélation en causalité pour justifier la domination.",
+   "filosofo": "gobineau",
+   "pagina_pdf": 158
+  },
+  {
+   "pregunta": "La nature humaine est ... :",
+   "opciones": [
+    "faite de potentialités",
+    "complètement déterminée",
+    "sans qualités",
+    "identique chez tous les individus"
+   ],
+   "correcta": 0,
+   "explicacion": "Les capacités humaines sont communes mais ne s'actualisent pas spontanément : elles ont besoin de la culture pour s'exprimer.",
+   "filosofo": null,
+   "pagina_pdf": 158
+  },
+  {
+   "pregunta": "Quel état n'a peut-être jamais existé ?",
+   "opciones": [
+    "L'état de paix",
+    "L'état de bonheur",
+    "L'état de nature",
+    "L'état de droit"
+   ],
+   "correcta": 2,
+   "explicacion": "Pour Rousseau, l'état de nature n'est qu'une hypothèse rationnelle, non une réalité historique.",
+   "filosofo": "rousseau",
+   "pagina_pdf": 159
+  },
+  {
+   "pregunta": "Pour quelle raison l'inceste est-il devenu prohibé ?",
+   "opciones": [
+    "Par crainte des dieux",
+    "Par nécessité d'échange entre les peuples",
+    "Par convention sociale",
+    "Par crainte de la génétique"
+   ],
+   "correcta": 1,
+   "explicacion": "Selon Lévi-Strauss, la vraie raison est l'utilité de l'échange entre les peuples par des unions matrimoniales.",
+   "filosofo": "levi-strauss",
+   "pagina_pdf": 160
+  },
+  {
+   "pregunta": "Qu'est-ce qui, selon Lévi-Strauss, permet le passage de la nature vers la culture ?",
+   "opciones": [
+    "L'intelligence",
+    "La norme",
+    "L'éducation",
+    "Le hasard"
+   ],
+   "correcta": 1,
+   "explicacion": "En instituant une règle (la prohibition de l'inceste), la culture évite le hasard de la nature.",
+   "filosofo": "levi-strauss",
+   "pagina_pdf": 160
+  },
+  {
+   "pregunta": "Dans l'expérience de Pavlov, qu'est-ce qui finit par provoquer la salivation du chien ?",
+   "opciones": [
+    "Le repas seul",
+    "Le signal sonore seul",
+    "La présence de Pavlov",
+    "La faim"
+   ],
+   "correcta": 1,
+   "explicacion": "Après avoir associé systématiquement nourriture et signal sonore, le signal seul suffit à provoquer la salivation : comportement conditionné.",
+   "filosofo": "skinner",
+   "pagina_pdf": 156
+  },
+  {
+   "pregunta": "Selon Rousseau, comment caractérise-t-on la culture ?",
+   "opciones": [
+    "Comme l'artifice, le désordre et la violence",
+    "Comme l'achèvement de la nature",
+    "Comme un ordre divin",
+    "Comme un instinct collectif"
+   ],
+   "correcta": 0,
+   "explicacion": "Rousseau voit la culture comme artifice, désordre et violence : une dénaturation négative (« partout il est dans les fers »).",
+   "filosofo": "rousseau",
+   "pagina_pdf": 159
+  },
+  {
+   "pregunta": "Dans l'Anthropologie de Kant, que cherche la connaissance pragmatique de l'homme ?",
+   "opciones": [
+    "Ce que la nature fait de l'homme",
+    "Les traces laissées dans le cerveau",
+    "Ce que l'homme, être libre, fait ou peut faire de lui-même",
+    "La classification des races"
+   ],
+   "correcta": 2,
+   "explicacion": "À la différence de l'anthropologie physiologique, l'anthropologie pragmatique étudie ce que l'homme, être de libre activité, fait ou peut et doit faire de lui-même.",
+   "filosofo": "kant",
+   "pagina_pdf": 164
+  }
+ ],
+ "preguntas_abiertas": [
+  {
+   "enunciado": "Pourquoi la nature n'est-elle pas une norme satisfaisante pour penser le comportement humain ?",
+   "puntos_clave": [
+    "Plusieurs exemples de comportements identiques ne prouvent pas leur universalité et un même comportement peut avoir un sens différent (stoïciens)",
+    "Comparer l'homme et l'animal conduit à l'anthropomorphisme, abusif sur le plan épistémologique",
+    "La nature est amorale (Spinoza) : l'animal suit son instinct, on attend des hommes qu'ils résistent",
+    "Le comportement humain ne se réduit pas au conditionnement (Skinner, Pavlov)",
+    "L'homme peut s'émanciper de sa nature par la culture, le droit et la morale"
+   ],
+   "filosofos": [
+    "skinner",
+    "spinoza"
+   ],
+   "pagina_pdf": 157
+  },
+  {
+   "enunciado": "Expliquez comment Lévi-Strauss montre que la distinction entre nature et culture est plus complexe qu'il n'y paraît.",
+   "puntos_clave": [
+    "Critère de distinction : le naturel est immédiat, inné, universel ; le culturel, relatif et variable",
+    "La famille : filiation naturelle mais aussi alliance et adoption culturelles",
+    "La prohibition de l'inceste ne s'explique ni par l'instinct ni par la génétique moderne",
+    "Sa raison est l'échange entre les peuples, fondement de l'institution matrimoniale et condition de survie du groupe",
+    "En instituant une règle, la culture évite le hasard de la nature"
+   ],
+   "filosofos": [
+    "levi-strauss"
+   ],
+   "pagina_pdf": 160
+  },
+  {
+   "enunciado": "Quelle erreur de raisonnement commet Gobineau et que montre la biologie du XXe siècle sur l'inné et l'acquis ?",
+   "puntos_clave": [
+    "Gobineau passe d'une corrélation entre culture et patrimoine génétique à une causalité",
+    "Il interprète les différences entre cultures comme des déficiences : il justifie son préjugé sans rien démontrer",
+    "La biologie du XXe siècle fait disparaître le concept de race",
+    "Il n'y a pas d'opposition entre inné et acquis mais interaction avec le milieu (Jacob : programmé pour apprendre)",
+    "On confond cause et conséquence : la vie sociale modifie le génome (exemple des télomères)"
+   ],
+   "filosofos": [
+    "gobineau"
+   ],
+   "pagina_pdf": 158
+  },
+  {
+   "enunciado": "Quelle différence Kant établit-il entre anthropologie physiologique et anthropologie pragmatique ?",
+   "puntos_clave": [
+    "Physiologique : elle explore ce que la nature fait de l'homme ; nous ne sommes que spectateurs des causes naturelles",
+    "Pragmatique : ce que l'homme, être de libre activité, fait ou peut et doit faire de lui-même",
+    "L'homme est sa propre fin dernière et l'objet le plus important du savoir culturel",
+    "Seul l'homme peut être éduqué et il est perfectible ; le progrès de la civilisation le rend policé par la culture"
+   ],
+   "filosofos": [
+    "kant"
+   ],
+   "pagina_pdf": 167
+  }
+ ],
+ "disertaciones": [
+  {
+   "sujeto": "La nature est-elle un modèle ?",
+   "tipo_plan": "dialectique",
+   "problematica": "On peut voir la nature comme un modèle parfait, mais aussi comme un règne amoral dont l'imitation justifie la violence et l'inégalité. On peut se demander si elle sert de modèle d'innocence pour comprendre et améliorer l'homme.",
+   "plan": [
+    {
+     "parte": "I. La perfection de la nature inspire les artistes",
+     "idea": "Dans la conception grecque, la nature est parfaite dans son principe et l'artiste l'imite ; la preuve de Dieu par la finalité idéalise la nature comme modèle ordonné.",
+     "autores": [
+      "aristote"
+     ],
+     "ejemplo": "L'art imite le mouvement de la nature (phusis) et l'artiste efface les marques de son intervention."
+    },
+    {
+     "parte": "II. La nature et le règne animal sont amoraux",
+     "idea": "La nature est le règne de la violence, de l'inégalité et de l'injustice, et peut servir de modèle idéologique pour justifier la domination.",
+     "autores": [
+      "spinoza",
+      "gobineau"
+     ],
+     "ejemplo": "Calliclès fait l'éloge de la nature pour justifier la domination des forts ; Gobineau et l'inégalité des races."
+    },
+    {
+     "parte": "III. La nature, modèle idéalisé pour parfaire son humanité",
+     "idea": "Pour Rousseau, la nature est une hypothèse rationnelle, un modèle d'innocence qui permet de juger l'évolution de l'homme et son idéal.",
+     "autores": [
+      "rousseau"
+     ],
+     "ejemplo": "Le jardin d'Éden avant qu'Adam et Ève ne croquent la pomme."
+    }
+   ],
+   "pagina_pdf": 166
+  },
+  {
+   "sujeto": "Peut-on parler de nature humaine ?",
+   "tipo_plan": "progressif",
+   "problematica": "Si l'homme est un être naturel défini par des caractères innés, on peut parler de nature humaine ; mais les théories raciales et le behaviorisme montrent les risques de cette idée, tandis que la biologie et l'anthropologie révèlent une interaction avec la culture.",
+   "plan": [
+    {
+     "parte": "I. L'homme, un être naturel comme les autres animaux",
+     "idea": "Le comportement s'expliquerait par la biologie et les traits innés ; la nature humaine serait ce qui est commun à tous les hommes.",
+     "autores": [
+      "descartes",
+      "skinner",
+      "laborit"
+     ],
+     "ejemplo": "Le chien de Pavlov et le conditionnement ; Laborit et la biologie psychologique."
+    },
+    {
+     "parte": "II. Les dangers d'une nature humaine définitive",
+     "idea": "Une nature figée sert d'alibi idéologique : les théories raciales confondent corrélation et cause.",
+     "autores": [
+      "gobineau"
+     ],
+     "ejemplo": "De l'inégalité des races."
+    },
+    {
+     "parte": "III. Une nature faite de potentialités qui s'actualisent dans la culture",
+     "idea": "La nature humaine est un ensemble de capacités communes que la culture actualise de manière diverse.",
+     "autores": [
+      "levi-strauss",
+      "kant"
+     ],
+     "ejemplo": "La prohibition de l'inceste ; les enfants aux télomères raccourcis par la violence domestique."
+    }
+   ],
+   "pagina_pdf": 159
+  },
+  {
+   "sujeto": "L'homme peut-il s'affranchir de sa nature ?",
+   "tipo_plan": "thématique",
+   "problematica": "L'homme semble soumis à une nature qui explique ses comportements, mais la culture, la morale et le droit lui permettent de résister à l'instinct et de construire sa propre histoire. Il faut voir jusqu'où va cette émancipation.",
+   "plan": [
+    {
+     "parte": "I. La nature comme principe et comme objet de domination",
+     "idea": "L'homme s'oppose à la nature pour en connaître et en maîtriser les lois.",
+     "autores": [
+      "aristote",
+      "descartes"
+     ],
+     "ejemplo": "« maîtres et possesseurs de la nature »."
+    },
+    {
+     "parte": "II. L'effort contre-nature: morale, droit, histoire",
+     "idea": "À la différence de l'animal, soumis à l'instinct de son espèce, l'homme peut se rebeller contre sa nature et avoir une histoire.",
+     "autores": [
+      "spinoza",
+      "rousseau"
+     ],
+     "ejemplo": "Les gros poissons mangent les petits : l'animal n'est pas méchant, l'homme doit résister à son instinct."
+    },
+    {
+     "parte": "III. Une liberté qui se construit par la culture",
+     "idea": "L'homme libre se fait lui-même ; nature et culture sont imbriquées.",
+     "autores": [
+      "kant",
+      "levi-strauss"
+     ],
+     "ejemplo": "L'anthropologie pragmatique de Kant ; la prohibition de l'inceste."
+    }
+   ],
+   "pagina_pdf": 158
+  }
+ ]
+}

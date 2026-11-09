@@ -31,7 +31,7 @@
   const Map_ = {
     render(cap, handlers) {
       this.cap = cap; this.h = handlers; const svg = this.svg = document.getElementById('map'); svg.innerHTML = '';
-      const box = svg.getBoundingClientRect(); const W = Math.max(500, box.width || 900), H = Math.max(420, box.height || 600);
+      const box = svg.getBoundingClientRect(); const mob = (box.width || 900) < 700, W = mob ? Math.max(560, (box.width || 400) * 1.5) : Math.max(500, box.width || 900), H = mob ? Math.max(780, (box.height || 600) * 1.5) : Math.max(420, box.height || 600); this.mob = mob;
       svg.setAttribute('viewBox', `0 0 ${W} ${H}`); this.W = W; this.H = H; this.z = { k: 1, x: 0, y: 0 };
       const col = capColor(cap); svg.style.setProperty('--accent', col); document.documentElement.style.setProperty('--accent', col);
 
@@ -43,7 +43,7 @@
       const add = (de, a, tipo, nota, w) => { if (!ids.has(de) || !ids.has(a) || de === a) return; const k = [de, a].sort().join('|') + tipo; if (seen.has(k)) return; seen.add(k); edges.push({ de, a, tipo, nota, w }); };
       cap.relaciones.forEach(r => add(r.de, r.a, r.tipo, r.nota, 1.4));
       const strong = new Set(edges.map(e => [e.de, e.a].sort().join('|')));
-      cap.filosofos.forEach(f => (f.debate_con || []).forEach(o => { if (!strong.has([f.id, o].sort().join('|'))) add(f.id, o, 'debate', 'debate con', 0.5); }));
+      cap.filosofos.forEach(f => (f.debate_con || []).forEach(o => { if (!strong.has([f.id, o].sort().join('|'))) add(f.id, o, 'debate', L('debate con', 'débat avec'), 0.5); }));
       cap.conceptos.forEach(c => (c.autores || []).forEach(a => add(c.id, a, 'autor', '', 0.7)));
       this.nodes = nodes; this.edges = edges; layout(nodes, edges, W, H);
       const pos = Object.fromEntries(nodes.map(n => [n.id, n]));
@@ -82,14 +82,14 @@
           const C = 2 * Math.PI * 40; const arc = el('circle', { class: 'mast', r: 40, fill: 'none', stroke: col, 'stroke-width': 5, 'stroke-linecap': 'round', 'stroke-dasharray': `0 ${C}`, transform: 'rotate(-90)' }, br); arc.dataset.c = C;
           const ini = n.label.replace(/^(le |la |les |saint |sainte )/i, '').split(/[\s-]+/).filter(Boolean); const initials = (ini.length > 1 ? ini[0][0] + ini[ini.length - 1][0] : ini[0].slice(0, 2));
           const tx = el('text', { 'text-anchor': 'middle', y: 8, 'font-size': 22, fill: col }, br); tx.textContent = initials; tx.style.fill = col;
-          const lb = el('text', { 'text-anchor': 'middle', y: 64, 'font-size': 16 }, g); lb.textContent = n.label;
+          const lb = el('text', { 'text-anchor': 'middle', y: 64, 'font-size': mob ? 21 : 16 }, g); lb.textContent = n.label;
         } else {
           el('rect', { class: 'core', x: -15, y: -15, width: 30, height: 30, rx: 4, transform: 'rotate(45)', fill: '#0e1230', stroke: 'rgba(224,184,98,.8)', 'stroke-width': 1.8 }, br);
-          const lb = el('text', { 'text-anchor': 'middle', y: 36, 'font-size': 13.5 }, g); lb.textContent = n.label.length > 24 ? n.label.slice(0, 23) + '…' : n.label; el('title', {}, g).textContent = n.label; lb.style.fill = '#c9c6b8'; lb.style.fontWeight = 600;
+          const lb = el('text', { 'text-anchor': 'middle', y: 36, 'font-size': mob ? 18 : 13.5 }, g); lb.textContent = n.label.length > 24 ? n.label.slice(0, 23) + '…' : n.label; el('title', {}, g).textContent = n.label; lb.style.fill = '#c9c6b8'; lb.style.fontWeight = 600;
         }
         // entrada escalonada
         g.animate([{ opacity: 0, transform: `translate(${n.x}px,${n.y}px) scale(.4)` }, { opacity: 1, transform: `translate(${n.x}px,${n.y}px) scale(1)` }], { duration: State.P.ajustes.reducirMov ? 1 : 600, delay: State.P.ajustes.reducirMov ? 0 : i * 45, easing: 'cubic-bezier(.2,.9,.3,1.3)' });
-        const act = () => { this.select(n.id); handlers.onNode && handlers.onNode(n); };
+        const act = () => { global.Voz && Voz.Sfx2.ui('node'); this.select(n.id); handlers.onNode && handlers.onNode(n); };
         g.addEventListener('click', e => { e.stopPropagation(); act(); });
         g.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); act(); } });
         g.addEventListener('mouseenter', () => this.hl(n.id)); g.addEventListener('mouseleave', () => this.hl(this.sel));
@@ -122,7 +122,11 @@
       const svg = this.svg, root = this.root; let drag = null;
       const apply = () => root.setAttribute('transform', `translate(${this.z.x},${this.z.y}) scale(${this.z.k})`);
       svg.onwheel = e => { e.preventDefault(); const r = svg.getBoundingClientRect(), px = (e.clientX - r.left) * this.W / r.width, py = (e.clientY - r.top) * this.H / r.height; const k0 = this.z.k, k1 = Math.max(0.5, Math.min(2.6, k0 * (e.deltaY < 0 ? 1.12 : 0.89))); this.z.x = px - (px - this.z.x) * (k1 / k0); this.z.y = py - (py - this.z.y) * (k1 / k0); this.z.k = k1; apply(); };
-      svg.onpointerdown = e => { if (e.target.closest('.node')) return; drag = { x: e.clientX, y: e.clientY, zx: this.z.x, zy: this.z.y, m: 0 }; };
+      const ptrs = new Map(); let pinch = null;
+      svg.addEventListener('pointerdown', e => { ptrs.set(e.pointerId, [e.clientX, e.clientY]); if (ptrs.size === 2) { const [a, b] = [...ptrs.values()]; pinch = { d: Math.hypot(a[0] - b[0], a[1] - b[1]), k: this.z.k }; drag = null; } });
+      svg.addEventListener('pointermove', e => { if (!ptrs.has(e.pointerId)) return; ptrs.set(e.pointerId, [e.clientX, e.clientY]); if (pinch && ptrs.size === 2) { const [a, b] = [...ptrs.values()], d = Math.hypot(a[0] - b[0], a[1] - b[1]), k1 = Math.max(0.5, Math.min(3, pinch.k * d / pinch.d)), r = svg.getBoundingClientRect(), cx = ((a[0] + b[0]) / 2 - r.left) * this.W / r.width, cy = ((a[1] + b[1]) / 2 - r.top) * this.H / r.height, k0 = this.z.k; this.z.x = cx - (cx - this.z.x) * (k1 / k0); this.z.y = cy - (cy - this.z.y) * (k1 / k0); this.z.k = k1; apply(); } });
+      const endp = e => { ptrs.delete(e.pointerId); if (ptrs.size < 2) pinch = null; }; svg.addEventListener('pointerup', endp); svg.addEventListener('pointercancel', endp);
+      svg.onpointerdown = e => { if (e.target.closest('.node') || pinch || ptrs.size > 1) return; drag = { x: e.clientX, y: e.clientY, zx: this.z.x, zy: this.z.y, m: 0 }; };
       svg.onpointermove = e => { if (!drag) return; const r = svg.getBoundingClientRect(); const dx = (e.clientX - drag.x) * this.W / r.width, dy = (e.clientY - drag.y) * this.H / r.height; drag.m += Math.abs(dx) + Math.abs(dy); this.z.x = drag.zx + dx; this.z.y = drag.zy + dy; apply(); };
       svg.onpointerup = () => { drag = null; };
     },

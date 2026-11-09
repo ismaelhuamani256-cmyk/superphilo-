@@ -1,0 +1,632 @@
+[
+ {
+  "lang": "es",
+  "file": "es/01-conscience-completo.m4a",
+  "title": "La conscience · La conciencia — capítulo completo",
+  "cap": "conscience",
+  "kind": "completo",
+  "sec": 968,
+  "bytes": 2972777
+ },
+ {
+  "lang": "es",
+  "file": "es/01-conscience-tesis.m4a",
+  "title": "La conscience · La conciencia — tesis de los autores",
+  "cap": "conscience",
+  "kind": "tesis",
+  "sec": 171,
+  "bytes": 526917
+ },
+ {
+  "lang": "es",
+  "file": "es/02-inconscient-completo.m4a",
+  "title": "L'inconscient · El inconsciente — capítulo completo",
+  "cap": "inconscient",
+  "kind": "completo",
+  "sec": 704,
+  "bytes": 2135719
+ },
+ {
+  "lang": "es",
+  "file": "es/02-inconscient-tesis.m4a",
+  "title": "L'inconscient · El inconsciente — tesis de los autores",
+  "cap": "inconscient",
+  "kind": "tesis",
+  "sec": 126,
+  "bytes": 379458
+ },
+ {
+  "lang": "es",
+  "file": "es/03-temps-completo.m4a",
+  "title": "Le temps · El tiempo — capítulo completo",
+  "cap": "temps",
+  "kind": "completo",
+  "sec": 955,
+  "bytes": 2907760
+ },
+ {
+  "lang": "es",
+  "file": "es/03-temps-tesis.m4a",
+  "title": "Le temps · El tiempo — tesis de los autores",
+  "cap": "temps",
+  "kind": "tesis",
+  "sec": 181,
+  "bytes": 547833
+ },
+ {
+  "lang": "es",
+  "file": "es/04-langage-completo.m4a",
+  "title": "Le langage · El lenguaje — capítulo completo",
+  "cap": "langage",
+  "kind": "completo",
+  "sec": 880,
+  "bytes": 2698186
+ },
+ {
+  "lang": "es",
+  "file": "es/04-langage-tesis.m4a",
+  "title": "Le langage · El lenguaje — tesis de los autores",
+  "cap": "langage",
+  "kind": "tesis",
+  "sec": 145,
+  "bytes": 436434
+ },
+ {
+  "lang": "es",
+  "file": "es/05-travail-completo.m4a",
+  "title": "Le travail · El trabajo — capítulo completo",
+  "cap": "travail",
+  "kind": "completo",
+  "sec": 774,
+  "bytes": 2361875
+ },
+ {
+  "lang": "es",
+  "file": "es/05-travail-tesis.m4a",
+  "title": "Le travail · El trabajo — tesis de los autores",
+  "cap": "travail",
+  "kind": "tesis",
+  "sec": 126,
+  "bytes": 382566
+ },
+ {
+  "lang": "es",
+  "file": "es/06-technique-completo.m4a",
+  "title": "La technique · La técnica — capítulo completo",
+  "cap": "technique",
+  "kind": "completo",
+  "sec": 664,
+  "bytes": 2029579
+ },
+ {
+  "lang": "es",
+  "file": "es/06-technique-tesis.m4a",
+  "title": "La technique · La técnica — tesis de los autores",
+  "cap": "technique",
+  "kind": "tesis",
+  "sec": 109,
+  "bytes": 326417
+ },
+ {
+  "lang": "es",
+  "file": "es/07-art-completo.m4a",
+  "title": "L'art · El arte — capítulo completo",
+  "cap": "art",
+  "kind": "completo",
+  "sec": 628,
+  "bytes": 1907369
+ },
+ {
+  "lang": "es",
+  "file": "es/07-art-tesis.m4a",
+  "title": "L'art · El arte — tesis de los autores",
+  "cap": "art",
+  "kind": "tesis",
+  "sec": 86,
+  "bytes": 257760
+ },
+ {
+  "lang": "es",
+  "file": "es/08-religion-completo.m4a",
+  "title": "La religion · La religión — capítulo completo",
+  "cap": "religion",
+  "kind": "completo",
+  "sec": 924,
+  "bytes": 2820757
+ },
+ {
+  "lang": "es",
+  "file": "es/08-religion-tesis.m4a",
+  "title": "La religion · La religión — tesis de los autores",
+  "cap": "religion",
+  "kind": "tesis",
+  "sec": 159,
+  "bytes": 481092
+ },
+ {
+  "lang": "es",
+  "file": "es/09-nature-completo.m4a",
+  "title": "La nature · La naturaleza — capítulo completo",
+  "cap": "nature",
+  "kind": "completo",
+  "sec": 783,
+  "bytes": 2406661
+ },
+ {
+  "lang": "es",
+  "file": "es/09-nature-tesis.m4a",
+  "title": "La nature · La naturaleza — tesis de los autores",
+  "cap": "nature",
+  "kind": "tesis",
+  "sec": 151,
+  "bytes": 455815
+ },
+ {
+  "lang": "es",
+  "file": "es/10-science-completo.m4a",
+  "title": "La science · La ciencia — capítulo completo",
+  "cap": "science",
+  "kind": "completo",
+  "sec": 906,
+  "bytes": 2775227
+ },
+ {
+  "lang": "es",
+  "file": "es/10-science-tesis.m4a",
+  "title": "La science · La ciencia — tesis de los autores",
+  "cap": "science",
+  "kind": "tesis",
+  "sec": 169,
+  "bytes": 517611
+ },
+ {
+  "lang": "es",
+  "file": "es/11-verite-completo.m4a",
+  "title": "La vérité · La verdad — capítulo completo",
+  "cap": "verite",
+  "kind": "completo",
+  "sec": 829,
+  "bytes": 2531922
+ },
+ {
+  "lang": "es",
+  "file": "es/11-verite-tesis.m4a",
+  "title": "La vérité · La verdad — tesis de los autores",
+  "cap": "verite",
+  "kind": "tesis",
+  "sec": 141,
+  "bytes": 430658
+ },
+ {
+  "lang": "es",
+  "file": "es/12-raison-completo.m4a",
+  "title": "La raison · La razón — capítulo completo",
+  "cap": "raison",
+  "kind": "completo",
+  "sec": 851,
+  "bytes": 2600187
+ },
+ {
+  "lang": "es",
+  "file": "es/12-raison-tesis.m4a",
+  "title": "La raison · La razón — tesis de los autores",
+  "cap": "raison",
+  "kind": "tesis",
+  "sec": 140,
+  "bytes": 424790
+ },
+ {
+  "lang": "es",
+  "file": "es/13-etat-completo.m4a",
+  "title": "L’État · El Estado — capítulo completo",
+  "cap": "etat",
+  "kind": "completo",
+  "sec": 860,
+  "bytes": 2636212
+ },
+ {
+  "lang": "es",
+  "file": "es/13-etat-tesis.m4a",
+  "title": "L’État · El Estado — tesis de los autores",
+  "cap": "etat",
+  "kind": "tesis",
+  "sec": 130,
+  "bytes": 390592
+ },
+ {
+  "lang": "es",
+  "file": "es/14-justice-completo.m4a",
+  "title": "La justice · La justicia — capítulo completo",
+  "cap": "justice",
+  "kind": "completo",
+  "sec": 901,
+  "bytes": 2756895
+ },
+ {
+  "lang": "es",
+  "file": "es/14-justice-tesis.m4a",
+  "title": "La justice · La justicia — tesis de los autores",
+  "cap": "justice",
+  "kind": "tesis",
+  "sec": 174,
+  "bytes": 532851
+ },
+ {
+  "lang": "es",
+  "file": "es/15-devoir-completo.m4a",
+  "title": "Le devoir · El deber — capítulo completo",
+  "cap": "devoir",
+  "kind": "completo",
+  "sec": 809,
+  "bytes": 2463882
+ },
+ {
+  "lang": "es",
+  "file": "es/15-devoir-tesis.m4a",
+  "title": "Le devoir · El deber — tesis de los autores",
+  "cap": "devoir",
+  "kind": "tesis",
+  "sec": 128,
+  "bytes": 388627
+ },
+ {
+  "lang": "es",
+  "file": "es/16-liberte-completo.m4a",
+  "title": "La liberté · La libertad — capítulo completo",
+  "cap": "liberte",
+  "kind": "completo",
+  "sec": 669,
+  "bytes": 2049635
+ },
+ {
+  "lang": "es",
+  "file": "es/16-liberte-tesis.m4a",
+  "title": "La liberté · La libertad — tesis de los autores",
+  "cap": "liberte",
+  "kind": "tesis",
+  "sec": 110,
+  "bytes": 331126
+ },
+ {
+  "lang": "es",
+  "file": "es/17-bonheur-completo.m4a",
+  "title": "Le bonheur · La felicidad — capítulo completo",
+  "cap": "bonheur",
+  "kind": "completo",
+  "sec": 620,
+  "bytes": 1897746
+ },
+ {
+  "lang": "es",
+  "file": "es/17-bonheur-tesis.m4a",
+  "title": "Le bonheur · La felicidad — tesis de los autores",
+  "cap": "bonheur",
+  "kind": "tesis",
+  "sec": 90,
+  "bytes": 270230
+ },
+ {
+  "lang": "es",
+  "file": "es/reperes.m4a",
+  "title": "Repères",
+  "cap": null,
+  "kind": "reperes",
+  "sec": 736,
+  "bytes": 2289340
+ },
+ {
+  "lang": "fr",
+  "file": "fr/01-conscience-completo.m4a",
+  "title": "La conscience — chapitre complet",
+  "cap": "conscience",
+  "kind": "completo",
+  "sec": 985,
+  "bytes": 2982961
+ },
+ {
+  "lang": "fr",
+  "file": "fr/01-conscience-tesis.m4a",
+  "title": "La conscience — thèses des auteurs",
+  "cap": "conscience",
+  "kind": "tesis",
+  "sec": 173,
+  "bytes": 527948
+ },
+ {
+  "lang": "fr",
+  "file": "fr/02-inconscient-completo.m4a",
+  "title": "L'inconscient — chapitre complet",
+  "cap": "inconscient",
+  "kind": "completo",
+  "sec": 714,
+  "bytes": 2141661
+ },
+ {
+  "lang": "fr",
+  "file": "fr/02-inconscient-tesis.m4a",
+  "title": "L'inconscient — thèses des auteurs",
+  "cap": "inconscient",
+  "kind": "tesis",
+  "sec": 121,
+  "bytes": 362185
+ },
+ {
+  "lang": "fr",
+  "file": "fr/03-temps-completo.m4a",
+  "title": "Le temps — chapitre complet",
+  "cap": "temps",
+  "kind": "completo",
+  "sec": 952,
+  "bytes": 2851895
+ },
+ {
+  "lang": "fr",
+  "file": "fr/03-temps-tesis.m4a",
+  "title": "Le temps — thèses des auteurs",
+  "cap": "temps",
+  "kind": "tesis",
+  "sec": 169,
+  "bytes": 505850
+ },
+ {
+  "lang": "fr",
+  "file": "fr/04-langage-completo.m4a",
+  "title": "Le langage — chapitre complet",
+  "cap": "langage",
+  "kind": "completo",
+  "sec": 900,
+  "bytes": 2709228
+ },
+ {
+  "lang": "fr",
+  "file": "fr/04-langage-tesis.m4a",
+  "title": "Le langage — thèses des auteurs",
+  "cap": "langage",
+  "kind": "tesis",
+  "sec": 143,
+  "bytes": 426524
+ },
+ {
+  "lang": "fr",
+  "file": "fr/05-travail-completo.m4a",
+  "title": "Le travail — chapitre complet",
+  "cap": "travail",
+  "kind": "completo",
+  "sec": 770,
+  "bytes": 2310323
+ },
+ {
+  "lang": "fr",
+  "file": "fr/05-travail-tesis.m4a",
+  "title": "Le travail — thèses des auteurs",
+  "cap": "travail",
+  "kind": "tesis",
+  "sec": 119,
+  "bytes": 353505
+ },
+ {
+  "lang": "fr",
+  "file": "fr/06-technique-completo.m4a",
+  "title": "La technique — chapitre complet",
+  "cap": "technique",
+  "kind": "completo",
+  "sec": 666,
+  "bytes": 1998106
+ },
+ {
+  "lang": "fr",
+  "file": "fr/06-technique-tesis.m4a",
+  "title": "La technique — thèses des auteurs",
+  "cap": "technique",
+  "kind": "tesis",
+  "sec": 103,
+  "bytes": 305434
+ },
+ {
+  "lang": "fr",
+  "file": "fr/07-art-completo.m4a",
+  "title": "L'art — chapitre complet",
+  "cap": "art",
+  "kind": "completo",
+  "sec": 637,
+  "bytes": 1906937
+ },
+ {
+  "lang": "fr",
+  "file": "fr/07-art-tesis.m4a",
+  "title": "L'art — thèses des auteurs",
+  "cap": "art",
+  "kind": "tesis",
+  "sec": 84,
+  "bytes": 249258
+ },
+ {
+  "lang": "fr",
+  "file": "fr/08-religion-completo.m4a",
+  "title": "La religion — chapitre complet",
+  "cap": "religion",
+  "kind": "completo",
+  "sec": 922,
+  "bytes": 2771426
+ },
+ {
+  "lang": "fr",
+  "file": "fr/08-religion-tesis.m4a",
+  "title": "La religion — thèses des auteurs",
+  "cap": "religion",
+  "kind": "tesis",
+  "sec": 153,
+  "bytes": 456618
+ },
+ {
+  "lang": "fr",
+  "file": "fr/09-nature-completo.m4a",
+  "title": "La nature — chapitre complet",
+  "cap": "nature",
+  "kind": "completo",
+  "sec": 761,
+  "bytes": 2288510
+ },
+ {
+  "lang": "fr",
+  "file": "fr/09-nature-tesis.m4a",
+  "title": "La nature — thèses des auteurs",
+  "cap": "nature",
+  "kind": "tesis",
+  "sec": 138,
+  "bytes": 414640
+ },
+ {
+  "lang": "fr",
+  "file": "fr/10-science-completo.m4a",
+  "title": "La science — chapitre complet",
+  "cap": "science",
+  "kind": "completo",
+  "sec": 905,
+  "bytes": 2713496
+ },
+ {
+  "lang": "fr",
+  "file": "fr/10-science-tesis.m4a",
+  "title": "La science — thèses des auteurs",
+  "cap": "science",
+  "kind": "tesis",
+  "sec": 160,
+  "bytes": 480095
+ },
+ {
+  "lang": "fr",
+  "file": "fr/11-verite-completo.m4a",
+  "title": "La vérité — chapitre complet",
+  "cap": "verite",
+  "kind": "completo",
+  "sec": 825,
+  "bytes": 2487422
+ },
+ {
+  "lang": "fr",
+  "file": "fr/11-verite-tesis.m4a",
+  "title": "La vérité — thèses des auteurs",
+  "cap": "verite",
+  "kind": "tesis",
+  "sec": 136,
+  "bytes": 407185
+ },
+ {
+  "lang": "fr",
+  "file": "fr/12-raison-completo.m4a",
+  "title": "La raison — chapitre complet",
+  "cap": "raison",
+  "kind": "completo",
+  "sec": 855,
+  "bytes": 2573954
+ },
+ {
+  "lang": "fr",
+  "file": "fr/12-raison-tesis.m4a",
+  "title": "La raison — thèses des auteurs",
+  "cap": "raison",
+  "kind": "tesis",
+  "sec": 131,
+  "bytes": 391219
+ },
+ {
+  "lang": "fr",
+  "file": "fr/13-etat-completo.m4a",
+  "title": "L’État — chapitre complet",
+  "cap": "etat",
+  "kind": "completo",
+  "sec": 856,
+  "bytes": 2575657
+ },
+ {
+  "lang": "fr",
+  "file": "fr/13-etat-tesis.m4a",
+  "title": "L’État — thèses des auteurs",
+  "cap": "etat",
+  "kind": "tesis",
+  "sec": 123,
+  "bytes": 367863
+ },
+ {
+  "lang": "fr",
+  "file": "fr/14-justice-completo.m4a",
+  "title": "La justice — chapitre complet",
+  "cap": "justice",
+  "kind": "completo",
+  "sec": 912,
+  "bytes": 2740618
+ },
+ {
+  "lang": "fr",
+  "file": "fr/14-justice-tesis.m4a",
+  "title": "La justice — thèses des auteurs",
+  "cap": "justice",
+  "kind": "tesis",
+  "sec": 170,
+  "bytes": 512383
+ },
+ {
+  "lang": "fr",
+  "file": "fr/15-devoir-completo.m4a",
+  "title": "Le devoir — chapitre complet",
+  "cap": "devoir",
+  "kind": "completo",
+  "sec": 823,
+  "bytes": 2470302
+ },
+ {
+  "lang": "fr",
+  "file": "fr/15-devoir-tesis.m4a",
+  "title": "Le devoir — thèses des auteurs",
+  "cap": "devoir",
+  "kind": "tesis",
+  "sec": 125,
+  "bytes": 372046
+ },
+ {
+  "lang": "fr",
+  "file": "fr/16-liberte-completo.m4a",
+  "title": "La liberté — chapitre complet",
+  "cap": "liberte",
+  "kind": "completo",
+  "sec": 678,
+  "bytes": 2039000
+ },
+ {
+  "lang": "fr",
+  "file": "fr/16-liberte-tesis.m4a",
+  "title": "La liberté — thèses des auteurs",
+  "cap": "liberte",
+  "kind": "tesis",
+  "sec": 106,
+  "bytes": 315886
+ },
+ {
+  "lang": "fr",
+  "file": "fr/17-bonheur-completo.m4a",
+  "title": "Le bonheur — chapitre complet",
+  "cap": "bonheur",
+  "kind": "completo",
+  "sec": 621,
+  "bytes": 1874116
+ },
+ {
+  "lang": "fr",
+  "file": "fr/17-bonheur-tesis.m4a",
+  "title": "Le bonheur — thèses des auteurs",
+  "cap": "bonheur",
+  "kind": "tesis",
+  "sec": 91,
+  "bytes": 270830
+ },
+ {
+  "lang": "fr",
+  "file": "fr/reperes.m4a",
+  "title": "Repères",
+  "cap": null,
+  "kind": "reperes",
+  "sec": 725,
+  "bytes": 2231786
+ }
+]

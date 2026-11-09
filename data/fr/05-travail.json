@@ -1,0 +1,2137 @@
+{
+ "id": "travail",
+ "numero": 5,
+ "titulo": "Le travail",
+ "titulo_es": "El trabajo",
+ "resumen": "Le travail est propre à l'homme : à la différence de l'animal, qui agit par instinct, l'homme conçoit consciemment ses fins et transforme le monde. Il peut être libérateur (Hegel), mais il aliène aussi lorsque l'argent devient une fin (Aristote), lorsqu'il est exploitation (Marx) ou lorsque la morale du travail et les loisirs socialisés contrôlent les individus (Nietzsche, Marcuse). Il faut le revaloriser en le réconciliant avec le plaisir (Jouvenel).",
+ "paginas": {
+  "inicio": 98,
+  "fin": 111
+ },
+ "puntos_incontournables": [
+  "L'homme se distingue de l'animal : son travail est conscient, réfléchi et perfectible, alors que l'activité animale est instinctive (conscience, instinct)",
+  "Le travail est libérateur : en transformant la nature et en produisant des œuvres, l'homme se forme et fait l'histoire (Hegel, dialectique du maître et de l'esclave)",
+  "De la perversion des besoins naturels à l'aliénation des travailleurs : la mauvaise chrématistique (Aristote) et l'exploitation capitaliste (Marx) (aliénation)",
+  "Travail et loisir, deux idéologies ? : la morale du travail (Nietzsche), l'otium de Sénèque et les loisirs socialisés qui renforcent l'aliénation (Marcuse)",
+  "Revaloriser le travail : reconnaissance sociale et sens, en réconciliant travail et plaisir : « mieux travailler pour mieux vivre » (Jouvenel)"
+ ],
+ "nociones_clave": [
+  "travail",
+  "aliénation",
+  "chrématistique",
+  "instinct",
+  "conscience",
+  "œuvre",
+  "loisir",
+  "otium",
+  "valeur d'usage",
+  "valeur d'échange",
+  "division du travail",
+  "dialectique du maître et de l'esclave"
+ ],
+ "problematicas_bac": [
+  "Le travail rend-il libre ?",
+  "Le travail est-il spécifique à l'homme ?",
+  "Le travail est-il libérateur ou aliénant ?"
+ ],
+ "conceptos": [
+  {
+   "id": "travail-conscient",
+   "nombre": "Travail conscient et perfectible",
+   "definicion": "À la différence de l'activité instinctive de l'animal, le travail humain se représente une fin, anticipe son résultat et peut être transmis, changé et amélioré.",
+   "pagina_pdf": 99,
+   "autores": [
+    "marx"
+   ]
+  },
+  {
+   "id": "dialectique-maitre-esclave",
+   "nombre": "Dialectique du maître et de l'esclave",
+   "definicion": "L'esclave, contraint de travailler et d'affronter le réel, se forme et se libère, tandis que le maître, coupé du réel, stagne : l'agent de l'histoire est l'esclave travailleur.",
+   "pagina_pdf": 100,
+   "autores": [
+    "hegel",
+    "sartre"
+   ]
+  },
+  {
+   "id": "chrematistique",
+   "nombre": "Chrématistique",
+   "definicion": "« Art d'acquérir des richesses » : bonne si elle satisfait des besoins naturels, mauvaise si elle accumule l'argent sans limite comme fin en soi.",
+   "pagina_pdf": 101,
+   "autores": [
+    "aristote"
+   ]
+  },
+  {
+   "id": "division-travail",
+   "nombre": "Division du travail",
+   "definicion": "Elle naît de la distinction entre valeur d'usage et valeur d'échange (nul ne sait tout fabriquer) ; dans le capitalisme, elle rend le travailleur inutile à lui-même et inapte à utiliser ses capacités.",
+   "pagina_pdf": 101,
+   "autores": [
+    "aristote",
+    "marx"
+   ]
+  },
+  {
+   "id": "alienation",
+   "nombre": "Aliénation",
+   "definicion": "Perte ou cession d'un droit ou d'un bien naturel ; par extension, état de celui qui a perdu la conscience de ce qu'il subit et n'est plus libre (ex. : l'aliénation par le travail).",
+   "pagina_pdf": 106,
+   "autores": [
+    "marx",
+    "aristote",
+    "nietzsche"
+   ]
+  },
+  {
+   "id": "loisir-otium",
+   "nombre": "Loisir grec et otium",
+   "definicion": "Pour les Grecs et les Romains, le loisir n'était pas l'absence de travail mais l'activité d'un homme qui agit librement, sans contrainte extérieure ; il était réservé à une élite. Sénèque oppose les otiosi aux occupati.",
+   "pagina_pdf": 104,
+   "autores": [
+    "seneque"
+   ]
+  },
+  {
+   "id": "loisirs-socialises",
+   "nombre": "Loisirs socialisés",
+   "definicion": "Les loisirs nés au XXe siècle (sport, consommation) se calquent sur les règles du travail et uniformisent les comportements : ils renforcent l'aliénation.",
+   "pagina_pdf": 103,
+   "autores": [
+    "marcuse"
+   ]
+  },
+  {
+   "id": "oeuvre",
+   "nombre": "Œuvre",
+   "definicion": "Fin d'une activité, produite de bout en bout sans parcellisation des tâches ; la parcellisation a presque fait disparaître les œuvres, et seuls les artisans en font peut-être encore.",
+   "pagina_pdf": 106,
+   "autores": [
+    "hegel"
+   ]
+  }
+ ],
+ "filosofos": [
+  {
+   "id": "aristote",
+   "nombre": "Aristote",
+   "epoca": "IVe siècle av. J.-C.",
+   "tesis_principal": "La « chrématistique » est bonne quand elle sert les besoins naturels et mauvaise quand on accumule l'argent comme fin en soi ; cette perversion des besoins aliène les travailleurs.",
+   "ideas_clave": [
+    "L'argent est un simple moyen d'acquérir des choses utiles à la survie, non une fin (argent comme moyen)",
+    "Distinction entre valeur d'usage et valeur d'échange, qui implique la division du travail (valeur d'usage / valeur d'échange)",
+    "L'argent fonde l'économie : il permet d'échanger des produits de valeur inégale (du pain contre des chaussures, pas contre une maison)",
+    "La mauvaise chrématistique nuit à la liberté (dépendance) et pervertit les relations sociales"
+   ],
+   "citas": [
+    {
+     "texto": "l’art d’acquérir des richesses",
+     "idioma": "fr",
+     "obra": "",
+     "pagina_pdf": 101
+    }
+   ],
+   "debate_con": [
+    "marx",
+    "nietzsche"
+   ],
+   "como_usarlo_en_disertacion": "Utile dans une partie sur les limites morales du travail et de l'argent : le travail est moral quand il répond aux besoins vitaux, immoral quand il ne vise qu'à accumuler. Sert de base pour passer à l'aliénation chez Marx.",
+   "escena_sugerida": "Un travailleur échange du pain et des chaussures avec de l'argent ; un cupide accumule les pièces et reste enchaîné à elles.",
+   "pagina_pdf": 101,
+   "escena": {
+    "titulo": "Aristote : de la bonne à la mauvaise chrématistique",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "trabajador",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.72
+      ],
+      "etiqueta": "Le travailleur",
+      "escala": 1
+     },
+     {
+      "id": "pan",
+      "tipo": "caja",
+      "pos": [
+       0.3,
+       0.35
+      ],
+      "etiqueta": "Pain",
+      "escala": 0.8
+     },
+     {
+      "id": "zapatos",
+      "tipo": "caja",
+      "pos": [
+       0.5,
+       0.35
+      ],
+      "etiqueta": "Chaussures",
+      "escala": 0.8
+     },
+     {
+      "id": "dinero",
+      "tipo": "moneda",
+      "pos": [
+       0.4,
+       0.58
+      ],
+      "etiqueta": "Argent (moyen)",
+      "escala": 0.8
+     },
+     {
+      "id": "avaro",
+      "tipo": "monigote",
+      "pos": [
+       0.78,
+       0.72
+      ],
+      "etiqueta": "Le cupide",
+      "escala": 1
+     },
+     {
+      "id": "tesoro",
+      "tipo": "moneda",
+      "pos": [
+       0.88,
+       0.3
+      ],
+      "etiqueta": "",
+      "escala": 1.8
+     },
+     {
+      "id": "cadena",
+      "tipo": "cadena",
+      "pos": [
+       0.8,
+       0.5
+      ],
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "trabajador"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "pan"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "zapatos"
+     },
+     {
+      "t": 3,
+      "accion": "dice",
+      "actor": "trabajador",
+      "texto": "Je travaille pour couvrir mes besoins vitaux"
+     },
+     {
+      "t": 4.5,
+      "accion": "aparece",
+      "actor": "dinero"
+     },
+     {
+      "t": 5.5,
+      "accion": "une",
+      "de": "pan",
+      "a": "zapatos",
+      "nota": "Échange"
+     },
+     {
+      "t": 6.5,
+      "accion": "subtitulo",
+      "texto": "Aristote : l'argent est un simple moyen d'échanger des biens utiles à la survie."
+     },
+     {
+      "t": 10,
+      "accion": "aparece",
+      "actor": "avaro"
+     },
+     {
+      "t": 10.5,
+      "accion": "aparece",
+      "actor": "tesoro"
+     },
+     {
+      "t": 11.5,
+      "accion": "piensa",
+      "actor": "avaro",
+      "texto": "Toujours plus d'argent !"
+     },
+     {
+      "t": 13,
+      "accion": "etiqueta",
+      "actor": "tesoro",
+      "texto": "Fin en soi ?"
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 14.5,
+      "accion": "tiembla",
+      "actor": "avaro"
+     },
+     {
+      "t": 16,
+      "accion": "dice",
+      "actor": "avaro",
+      "texto": "Je ne peux plus m'arrêter d'accumuler"
+     },
+     {
+      "t": 17.5,
+      "accion": "resalta",
+      "actor": "tesoro"
+     },
+     {
+      "t": 18.5,
+      "accion": "cita",
+      "texto": "l’art d’acquérir des richesses"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "La mauvaise chrématistique accumule pour accumuler : elle engendre la dépendance et pervertit les relations."
+     }
+    ]
+   }
+  },
+  {
+   "id": "hegel",
+   "nombre": "Hegel",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "Le travail libère : en transformant la nature et en produisant des œuvres, l'homme se forme lui-même et sa liberté, qui n'est plus seulement intérieure, devient pratique et fait l'histoire.",
+   "ideas_clave": [
+    "Dialectique du maître et de l'esclave : la mort, maître suprême, sépare celui qui se soumet de celui qui risque sa vie (maître / esclave)",
+    "L'esclave, contraint d'affronter le réel, devient patient, intelligent et se forme en travaillant (se former par le travail)",
+    "Le maître, coupé du réel, stagne et subit passivement l'activité de l'esclave",
+    "L'agent de l'histoire est l'esclave travailleur, non le maître guerrier",
+    "La liberté devient pratique : l'homme produit des œuvres (maisons, institutions, livres) et devient son propre maître"
+   ],
+   "citas": [],
+   "debate_con": [
+    "marx"
+   ],
+   "como_usarlo_en_disertacion": "Auteur central pour défendre que le travail libère (sujet « Le travail rend-il libre ? », première partie). Permet de montrer que la nécessité devient une occasion de réaliser la liberté et de faire l'histoire.",
+   "escena_sugerida": "Le maître et l'esclave s'affrontent devant la mort ; l'esclave travaille la matière, crée une œuvre et se libère tandis que le maître stagne.",
+   "pagina_pdf": 100,
+   "escena": {
+    "titulo": "Hegel : le maître, l'esclave et le travail qui libère",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "amo",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.7
+      ],
+      "etiqueta": "Le maître",
+      "escala": 1
+     },
+     {
+      "id": "esclavo",
+      "tipo": "monigote",
+      "pos": [
+       0.75,
+       0.7
+      ],
+      "etiqueta": "L'esclave",
+      "escala": 1
+     },
+     {
+      "id": "muerte",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.5,
+       0.25
+      ],
+      "etiqueta": "La mort",
+      "escala": 1.4
+     },
+     {
+      "id": "materia",
+      "tipo": "piedra",
+      "pos": [
+       0.75,
+       0.45
+      ],
+      "etiqueta": "La matière",
+      "escala": 1
+     },
+     {
+      "id": "obra",
+      "tipo": "casa",
+      "pos": [
+       0.9,
+       0.4
+      ],
+      "etiqueta": "Œuvre",
+      "escala": 1
+     },
+     {
+      "id": "cadena",
+      "tipo": "cadena",
+      "pos": [
+       0.6,
+       0.7
+      ],
+      "escala": 1
+     },
+     {
+      "id": "corona",
+      "tipo": "corona",
+      "pos": [
+       0.25,
+       0.45
+      ],
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "amo"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "esclavo"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "muerte"
+     },
+     {
+      "t": 2.5,
+      "accion": "dice",
+      "actor": "amo",
+      "texto": "Je préfère risquer ma vie"
+     },
+     {
+      "t": 3.5,
+      "accion": "tiembla",
+      "actor": "esclavo"
+     },
+     {
+      "t": 4,
+      "accion": "dice",
+      "actor": "esclavo",
+      "texto": "Je préfère me soumettre plutôt que mourir"
+     },
+     {
+      "t": 5.5,
+      "accion": "subtitulo",
+      "texto": "Hegel : à l'origine, des rapports de force ; la mort est le maître suprême."
+     },
+     {
+      "t": 7.5,
+      "accion": "desaparece",
+      "actor": "muerte"
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "corona"
+     },
+     {
+      "t": 8.5,
+      "accion": "aparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 9.5,
+      "accion": "aparece",
+      "actor": "materia"
+     },
+     {
+      "t": 10.5,
+      "accion": "proyecta",
+      "de": "esclavo",
+      "a": "materia",
+      "nota": "Travail"
+     },
+     {
+      "t": 12,
+      "accion": "piensa",
+      "actor": "esclavo",
+      "texto": "Je dois être patient, ingénieux et appliqué"
+     },
+     {
+      "t": 13.5,
+      "accion": "subtitulo",
+      "texto": "L'esclave affronte le réel, élabore des stratégies et se forme en travaillant."
+     },
+     {
+      "t": 15.5,
+      "accion": "desaparece",
+      "actor": "materia"
+     },
+     {
+      "t": 16,
+      "accion": "aparece",
+      "actor": "obra"
+     },
+     {
+      "t": 16.5,
+      "accion": "salta",
+      "actor": "esclavo"
+     },
+     {
+      "t": 17.5,
+      "accion": "dice",
+      "actor": "amo",
+      "texto": "Je ne fais rien... et je dépends de lui"
+     },
+     {
+      "t": 19,
+      "accion": "desaparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 19.5,
+      "accion": "mueve",
+      "actor": "esclavo",
+      "a": [
+       0.5,
+       0.6
+      ],
+      "dur": 2
+     },
+     {
+      "t": 21,
+      "accion": "etiqueta",
+      "actor": "esclavo",
+      "texto": "Son propre maître"
+     },
+     {
+      "t": 22.5,
+      "accion": "subtitulo",
+      "texto": "En produisant des œuvres, l'esclave se libère : sa liberté devient pratique et fait l'histoire."
+     }
+    ]
+   }
+  },
+  {
+   "id": "marx",
+   "nombre": "Karl Marx",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "L'homme se distingue de l'animal parce qu'il conçoit son travail avant de le réaliser ; mais dans l'organisation capitaliste, le travail aliène, par l'exploitation d'une classe et la division technique du travail, et non par sa nature même.",
+   "ideas_clave": [
+    "Le résultat du travail préexiste idéalement dans l'imagination du travailleur (l'architecte face à l'abeille)",
+    "Il reprend la logique d'Aristote : ce ne sont plus des objets que l'on échange, mais des travailleurs (échange des travailleurs)",
+    "La division du travail rend l'homme inutile à lui-même, inapte à utiliser ses capacités",
+    "Le capitaliste exploite la force de travail en exigeant une production supérieure au salaire (exploitation)",
+    "L'exploitation prendra fin lorsque le produit reviendra au travailleur ; la critique vise ce que le travail est devenu, non sa nature"
+   ],
+   "citas": [
+    {
+     "texto": "Ce qui distingue dès l’abord […] le plus mauvais architecte de l’abeille la plus experte, c’est […] qu’il a construit la cellule dans […] sa tête avant de la construire […] dans la ruche.",
+     "idioma": "fr",
+     "obra": "Le Capital, 1867",
+     "pagina_pdf": 99
+    }
+   ],
+   "debate_con": [
+    "hegel",
+    "aristote"
+   ],
+   "como_usarlo_en_disertacion": "Pour le moment critique du plan : le travail ne libère pas quand il sert une classe supérieure qui s'enrichit aux dépens des travailleurs. Utile aussi en introduction (différence homme/animal) et pour distinguer aliénation et nature du travail.",
+   "escena_sugerida": "L'architecte planifie avant de construire ; puis l'ouvrier, réduit à un rouage, voit son produit aller au capitaliste.",
+   "pagina_pdf": 102,
+   "escena": {
+    "titulo": "Marx : du projet conscient à l'aliénation",
+    "estilo": "monigotes",
+    "duracion_seg": 27,
+    "actores": [
+     {
+      "id": "obrero",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.72
+      ],
+      "etiqueta": "Le travailleur",
+      "escala": 1
+     },
+     {
+      "id": "plan",
+      "tipo": "cerebro",
+      "pos": [
+       0.2,
+       0.4
+      ],
+      "etiqueta": "Le plan",
+      "escala": 1
+     },
+     {
+      "id": "casa",
+      "tipo": "casa",
+      "pos": [
+       0.45,
+       0.65
+      ],
+      "etiqueta": "Maison",
+      "escala": 1
+     },
+     {
+      "id": "abeja",
+      "tipo": "flor",
+      "pos": [
+       0.65,
+       0.7
+      ],
+      "etiqueta": "L'abeille (instinct)",
+      "escala": 0.8
+     },
+     {
+      "id": "capitalista",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.82,
+       0.4
+      ],
+      "etiqueta": "Le capitaliste",
+      "escala": 1.5
+     },
+     {
+      "id": "engranaje",
+      "tipo": "engranaje",
+      "pos": [
+       0.35,
+       0.5
+      ],
+      "etiqueta": "Division du travail",
+      "escala": 1
+     },
+     {
+      "id": "monedas",
+      "tipo": "moneda",
+      "pos": [
+       0.82,
+       0.75
+      ],
+      "etiqueta": "Profit",
+      "escala": 1
+     },
+     {
+      "id": "producto",
+      "tipo": "caja",
+      "pos": [
+       0.5,
+       0.45
+      ],
+      "etiqueta": "Produit",
+      "escala": 0.9
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "obrero"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "abeja"
+     },
+     {
+      "t": 2,
+      "accion": "aparece",
+      "actor": "plan"
+     },
+     {
+      "t": 3,
+      "accion": "piensa",
+      "actor": "obrero",
+      "texto": "D'abord je l'imagine, ensuite je le construis"
+     },
+     {
+      "t": 4.5,
+      "accion": "aparece",
+      "actor": "casa"
+     },
+     {
+      "t": 5,
+      "accion": "proyecta",
+      "de": "plan",
+      "a": "casa",
+      "nota": "Fin anticipé"
+     },
+     {
+      "t": 6,
+      "accion": "cita",
+      "texto": "le plus mauvais architecte de l’abeille la plus experte"
+     },
+     {
+      "t": 7,
+      "accion": "subtitulo",
+      "texto": "Marx : l'homme construit la cellule dans sa tête avant de la bâtir ; l'abeille ne fait que suivre son instinct."
+     },
+     {
+      "t": 11,
+      "accion": "desaparece",
+      "actor": "plan"
+     },
+     {
+      "t": 11.5,
+      "accion": "aparece",
+      "actor": "engranaje"
+     },
+     {
+      "t": 12,
+      "accion": "mueve",
+      "actor": "obrero",
+      "a": [
+       0.3,
+       0.72
+      ],
+      "dur": 1
+     },
+     {
+      "t": 13,
+      "accion": "tiembla",
+      "actor": "obrero"
+     },
+     {
+      "t": 13.5,
+      "accion": "dice",
+      "actor": "obrero",
+      "texto": "Je répète un geste : je suis inutile à moi-même"
+     },
+     {
+      "t": 15.5,
+      "accion": "aparece",
+      "actor": "capitalista"
+     },
+     {
+      "t": 16,
+      "accion": "aparece",
+      "actor": "producto"
+     },
+     {
+      "t": 17,
+      "accion": "proyecta",
+      "de": "obrero",
+      "a": "capitalista",
+      "nota": "Force de travail"
+     },
+     {
+      "t": 18.5,
+      "accion": "aparece",
+      "actor": "monedas"
+     },
+     {
+      "t": 19,
+      "accion": "proyecta",
+      "de": "producto",
+      "a": "monedas",
+      "nota": "Exploitation"
+     },
+     {
+      "t": 20.5,
+      "accion": "subtitulo",
+      "texto": "La division du travail et le capitaliste qui exploite la force de travail aliènent l'ouvrier."
+     },
+     {
+      "t": 24,
+      "accion": "subtitulo",
+      "texto": "Ce n'est pas le travail en soi qui aliène : c'est ce qu'il est devenu historiquement."
+     }
+    ]
+   }
+  },
+  {
+   "id": "nietzsche",
+   "nombre": "Friedrich Nietzsche",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "La morale du travail des sociétés occidentales fait travailler par seul intérêt et souci d'efficacité, sans plaisir ni épanouissement, et cache la peur de l'individuel et de l'indépendance des hommes : le travail socialisé est la meilleure des polices.",
+   "ideas_clave": [
+    "On ne travaille que pour l'argent, selon des critères d'efficacité et de soumission (plus-value)",
+    "Le lien travail-argent conduit à l'asservissement : travailler sans limite pour gagner plus",
+    "L'époque ne sait que faire de son travail et de son argent, sinon plus d'argent et plus de travail",
+    "Derrière la morale marchande se cache la peur de l'individuel et de l'indépendance (peur de l'individuel)",
+    "Le travail socialisé impose des contraintes : « la meilleure des polices »"
+   ],
+   "citas": [
+    {
+     "texto": "la plus laborieuse des époques, la nôtre, ne sait pas quoi faire de son labeur et de son argent, si ce n’est toujours plus d’argent, toujours plus de labeur",
+     "idioma": "fr",
+     "obra": "Le Gai Savoir",
+     "pagina_pdf": 102
+    }
+   ],
+   "debate_con": [
+    "jouvenel",
+    "seneque"
+   ],
+   "como_usarlo_en_disertacion": "Utile pour démonter l'idée que le travail est naturellement bon : la morale du travail est une idéologie au service du contrôle. Fonctionne dans une partie critique, avec Marx, avant de proposer une revalorisation.",
+   "escena_sugerida": "Une foule court après des pièces et des montres sous le regard d'un œil qui contrôle : le travail comme police.",
+   "pagina_pdf": 102,
+   "escena": {
+    "titulo": "Nietzsche : le travail, « la meilleure des polices »",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "obrero1",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.75
+      ],
+      "etiqueta": "",
+      "escala": 1
+     },
+     {
+      "id": "obrero2",
+      "tipo": "monigote",
+      "pos": [
+       0.4,
+       0.75
+      ],
+      "etiqueta": "",
+      "escala": 1
+     },
+     {
+      "id": "dinero",
+      "tipo": "moneda",
+      "pos": [
+       0.85,
+       0.7
+      ],
+      "etiqueta": "Argent",
+      "escala": 1.2
+     },
+     {
+      "id": "reloj",
+      "tipo": "reloj",
+      "pos": [
+       0.5,
+       0.3
+      ],
+      "etiqueta": "Efficacité",
+      "escala": 1
+     },
+     {
+      "id": "ojo",
+      "tipo": "ojo",
+      "pos": [
+       0.2,
+       0.2
+      ],
+      "etiqueta": "Contrôle",
+      "escala": 1.2
+     },
+     {
+      "id": "libre",
+      "tipo": "monigote",
+      "pos": [
+       0.62,
+       0.55
+      ],
+      "etiqueta": "L'individu",
+      "escala": 1
+     },
+     {
+      "id": "cadena",
+      "tipo": "cadena",
+      "pos": [
+       0.62,
+       0.8
+      ],
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "obrero1"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "obrero2"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "dinero"
+     },
+     {
+      "t": 2.5,
+      "accion": "aparece",
+      "actor": "reloj"
+     },
+     {
+      "t": 3.5,
+      "accion": "mueve",
+      "actor": "obrero1",
+      "a": [
+       0.55,
+       0.75
+      ],
+      "dur": 2.5
+     },
+     {
+      "t": 3.5,
+      "accion": "mueve",
+      "actor": "obrero2",
+      "a": [
+       0.7,
+       0.75
+      ],
+      "dur": 3
+     },
+     {
+      "t": 5,
+      "accion": "subtitulo",
+      "texto": "Nietzsche : on ne travaille que pour l'argent, selon des critères d'efficacité et de soumission qui ôtent le plaisir."
+     },
+     {
+      "t": 8.5,
+      "accion": "dice",
+      "actor": "obrero1",
+      "texto": "Plus de travail pour gagner plus !"
+     },
+     {
+      "t": 10,
+      "accion": "cita",
+      "texto": "toujours plus d’argent, toujours plus de labeur"
+     },
+     {
+      "t": 12,
+      "accion": "aparece",
+      "actor": "libre"
+     },
+     {
+      "t": 13,
+      "accion": "piensa",
+      "actor": "libre",
+      "texto": "Je pourrais être indépendant..."
+     },
+     {
+      "t": 14.5,
+      "accion": "aparece",
+      "actor": "ojo"
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 15.5,
+      "accion": "tiembla",
+      "actor": "libre"
+     },
+     {
+      "t": 16.5,
+      "accion": "resalta",
+      "actor": "ojo"
+     },
+     {
+      "t": 17,
+      "accion": "subtitulo",
+      "texto": "Derrière la morale du travail se cache la peur de l'individuel et de l'indépendance."
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "En imposant des contraintes, le travail socialisé est « la meilleure des polices »."
+     }
+    ]
+   }
+  },
+  {
+   "id": "seneque",
+   "nombre": "Sénèque",
+   "epoca": "Ier siècle",
+   "tesis_principal": "Les sages (otiosi) vivent à l'écart de l'agitation des affaires publiques, faisant librement ce qu'ils choisissent ; les occupati, absorbés par leurs occupations et des contraintes extérieures, sont aliénés et ne vivent que pour travailler.",
+   "ideas_clave": [
+    "Éloge des sages qui vivent en marge de ceux qui s'occupent des affaires publiques (éloge des sages)",
+    "Les otiosi ne sont pas paresseux : ils choisissent leurs activités et prennent le temps nécessaire (otium, retraite)",
+    "Les occupati sont aliénés : ils ne vivent que pour travailler, soumis à des contraintes extérieures",
+    "Les otiosi ne dépendent de personne, créent ce qu'ils désirent et connaissent la valeur relative des biens matériels"
+   ],
+   "citas": [
+    {
+     "texto": "les occupati croient qu’ils ont à faire. Les otiosi, les sages, savent qu’ils ont à être",
+     "idioma": "fr",
+     "obra": "",
+     "pagina_pdf": 103
+    }
+   ],
+   "debate_con": [
+    "nietzsche",
+    "marcuse"
+   ],
+   "como_usarlo_en_disertacion": "Pour montrer que le travail absorbe le temps de la réflexion, de la culture et de la critique sociale, et que le véritable loisir (otium) est une activité libre. Sert dans une partie sur travail et loisir ou sur la liberté comme retraite.",
+   "escena_sugerida": "Un affairé court entre des horloges et des engrenages tandis qu'un sage lit sous un arbre : « devoir faire » face à « devoir être ».",
+   "pagina_pdf": 103,
+   "escena": {
+    "titulo": "Sénèque : occupati et otiosi",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "ocupado",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.72
+      ],
+      "etiqueta": "Les occupati",
+      "escala": 1
+     },
+     {
+      "id": "reloj",
+      "tipo": "reloj",
+      "pos": [
+       0.15,
+       0.3
+      ],
+      "etiqueta": "",
+      "escala": 1
+     },
+     {
+      "id": "engranaje",
+      "tipo": "engranaje",
+      "pos": [
+       0.35,
+       0.35
+      ],
+      "etiqueta": "Affaires publiques",
+      "escala": 1
+     },
+     {
+      "id": "sabio",
+      "tipo": "monigote",
+      "pos": [
+       0.78,
+       0.72
+      ],
+      "etiqueta": "Les otiosi",
+      "escala": 1
+     },
+     {
+      "id": "arbol",
+      "tipo": "arbol",
+      "pos": [
+       0.9,
+       0.55
+      ],
+      "etiqueta": "",
+      "escala": 1.2
+     },
+     {
+      "id": "libro",
+      "tipo": "libro",
+      "pos": [
+       0.65,
+       0.55
+      ],
+      "etiqueta": "",
+      "escala": 0.8
+     },
+     {
+      "id": "sol",
+      "tipo": "sol",
+      "pos": [
+       0.7,
+       0.15
+      ],
+      "etiqueta": "Otium",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "ocupado"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "reloj"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "engranaje"
+     },
+     {
+      "t": 2,
+      "accion": "dice",
+      "actor": "ocupado",
+      "texto": "Je n'ai pas le temps, j'ai à faire !"
+     },
+     {
+      "t": 3.5,
+      "accion": "tiembla",
+      "actor": "ocupado"
+     },
+     {
+      "t": 4,
+      "accion": "subtitulo",
+      "texto": "Sénèque : les occupati, absorbés par leurs occupations, ne vivent que pour travailler."
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "arbol"
+     },
+     {
+      "t": 8.5,
+      "accion": "aparece",
+      "actor": "sabio"
+     },
+     {
+      "t": 9.5,
+      "accion": "aparece",
+      "actor": "sol"
+     },
+     {
+      "t": 10.5,
+      "accion": "aparece",
+      "actor": "libro"
+     },
+     {
+      "t": 11.5,
+      "accion": "piensa",
+      "actor": "sabio",
+      "texto": "Je fais librement ce que je choisis, sans hâte"
+     },
+     {
+      "t": 13.5,
+      "accion": "subtitulo",
+      "texto": "Les otiosi ne sont pas paresseux : ils choisissent leurs activités et se retirent loin de l'agitation."
+     },
+     {
+      "t": 17.5,
+      "accion": "resalta",
+      "actor": "sabio"
+     },
+     {
+      "t": 18,
+      "accion": "cita",
+      "texto": "les occupati croient qu’ils ont à faire. Les otiosi, les sages, savent qu’ils ont à être"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Les uns croient devoir faire ; les sages savent qu'ils doivent être."
+     }
+    ]
+   }
+  },
+  {
+   "id": "marcuse",
+   "nombre": "Herbert Marcuse",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Les loisirs socialisés du XXe siècle (sport, consommation) reproduisent les règles du travail et uniformisent les comportements : ce sont de nouvelles formes de contrôle des individus qui renforcent l'aliénation.",
+   "ideas_clave": [
+    "Le sport fut d'abord un divertissement de la classe dirigeante et s'est étendu aux couches inférieures avec des règles analogues à celles du travail",
+    "Les loisirs socialisés supposent d'uniformiser les comportements",
+    "L'intégration sociale ne passe plus seulement par le travail, mais par les besoins et les désirs du consommateur",
+    "S'amuser, agir et consommer conformément à la publicité : « nouvelles formes de contrôle des individus »"
+   ],
+   "citas": [
+    {
+     "texto": "nouvelles formes de contrôle des individus",
+     "idioma": "fr",
+     "obra": "L'homme unidimensionnel",
+     "pagina_pdf": 103
+    }
+   ],
+   "debate_con": [
+    "seneque",
+    "jouvenel"
+   ],
+   "como_usarlo_en_disertacion": "Pour répondre à l'idée que le loisir nous libère du travail : le loisir peut aussi être organisé, uniformisé et lié à la consommation. Utile dans la deuxième partie d'un plan sur travail et loisir, avec Malraux (usines du rêve).",
+   "escena_sugerida": "Un travailleur sort se divertir, mais la publicité, les règles sportives et un œil de contrôle lui dictent quoi faire et quoi désirer.",
+   "pagina_pdf": 103,
+   "escena": {
+    "titulo": "Marcuse : les loisirs socialisés",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "trabajador",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.72
+      ],
+      "etiqueta": "Le travailleur",
+      "escala": 1
+     },
+     {
+      "id": "fabrica",
+      "tipo": "engranaje",
+      "pos": [
+       0.15,
+       0.3
+      ],
+      "etiqueta": "Travail",
+      "escala": 1
+     },
+     {
+      "id": "casa",
+      "tipo": "casa",
+      "pos": [
+       0.45,
+       0.6
+      ],
+      "etiqueta": "Loisirs ?",
+      "escala": 1
+     },
+     {
+      "id": "bandera",
+      "tipo": "bandera",
+      "pos": [
+       0.6,
+       0.35
+      ],
+      "etiqueta": "Sport (règles)",
+      "escala": 1
+     },
+     {
+      "id": "publicidad",
+      "tipo": "nube",
+      "pos": [
+       0.8,
+       0.25
+      ],
+      "etiqueta": "Publicité",
+      "escala": 1.2
+     },
+     {
+      "id": "moneda",
+      "tipo": "moneda",
+      "pos": [
+       0.8,
+       0.7
+      ],
+      "etiqueta": "Consommer",
+      "escala": 1
+     },
+     {
+      "id": "ojo",
+      "tipo": "ojo",
+      "pos": [
+       0.5,
+       0.12
+      ],
+      "etiqueta": "Contrôle",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "trabajador"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "fabrica"
+     },
+     {
+      "t": 2,
+      "accion": "piensa",
+      "actor": "trabajador",
+      "texto": "Enfin, mon temps libre"
+     },
+     {
+      "t": 3.5,
+      "accion": "mueve",
+      "actor": "trabajador",
+      "a": [
+       0.45,
+       0.75
+      ],
+      "dur": 2
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "casa"
+     },
+     {
+      "t": 5.5,
+      "accion": "subtitulo",
+      "texto": "Marcuse : le loisir semble une libération du travail..."
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "bandera"
+     },
+     {
+      "t": 8.5,
+      "accion": "une",
+      "de": "fabrica",
+      "a": "bandera",
+      "nota": "Mêmes règles"
+     },
+     {
+      "t": 10,
+      "accion": "aparece",
+      "actor": "publicidad"
+     },
+     {
+      "t": 10.5,
+      "accion": "aparece",
+      "actor": "moneda"
+     },
+     {
+      "t": 11.5,
+      "accion": "proyecta",
+      "de": "publicidad",
+      "a": "trabajador",
+      "nota": "Désirs dictés"
+     },
+     {
+      "t": 13,
+      "accion": "dice",
+      "actor": "trabajador",
+      "texto": "Je veux ce que tout le monde veut..."
+     },
+     {
+      "t": 14.5,
+      "accion": "aparece",
+      "actor": "ojo"
+     },
+     {
+      "t": 15,
+      "accion": "resalta",
+      "actor": "ojo"
+     },
+     {
+      "t": 16,
+      "accion": "cita",
+      "texto": "nouvelles formes de contrôle des individus"
+     },
+     {
+      "t": 18,
+      "accion": "subtitulo",
+      "texto": "...mais il copie les règles du travail et uniformise comportements, désirs et consommation."
+     },
+     {
+      "t": 21.5,
+      "accion": "subtitulo",
+      "texto": "Les loisirs socialisés renforcent l'aliénation au lieu de la dépasser."
+     }
+    ]
+   }
+  },
+  {
+   "id": "jouvenel",
+   "nombre": "Bertrand de Jouvenel",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Le rejet du travail ne vient pas de son caractère imposé mais de sa réduction à la rentabilité, qui supprime le plaisir ; il faut l'organiser pour que l'épanouissement de soi et le plaisir y trouvent leur place, en réconciliant travail et plaisir.",
+   "ideas_clave": [
+    "Paradoxe : le travail est une nécessité vitale, mais l'homme le vit comme une aliénation et préfère le loisir",
+    "Le caractère imposé n'explique pas le rejet : manger ou respirer sont aussi nécessaires et ne sont pas vécus comme aliénants",
+    "La vraie cause est la réduction à la rentabilité (rationalisation, efficacité), qui supprime le plaisir",
+    "Changer le rapport au travail : « mieux travailler pour mieux vivre », pour perfectionner l'humanité du travailleur"
+   ],
+   "citas": [
+    {
+     "texto": "mieux travailler pour mieux vivre",
+     "idioma": "fr",
+     "obra": "",
+     "pagina_pdf": 104
+    }
+   ],
+   "debate_con": [
+    "nietzsche",
+    "marcuse"
+   ],
+   "como_usarlo_en_disertacion": "Idéal pour la dernière partie d'un plan : dépasser l'opposition travail/loisir en donnant du sens au travail (reconnaissance sociale, plaisir, épanouissement). Sert d'issue aux critiques de Marx et de Nietzsche.",
+   "escena_sugerida": "Un travailleur ennuyé regrette le loisir jusqu'à ce que la rentabilité cesse de dévorer le plaisir et que son travail s'épanouisse.",
+   "pagina_pdf": 104,
+   "escena": {
+    "titulo": "Jouvenel : réconcilier travail et plaisir",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "trabajador",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.72
+      ],
+      "etiqueta": "Le travailleur",
+      "escala": 1
+     },
+     {
+      "id": "aburrimiento",
+      "tipo": "nube",
+      "pos": [
+       0.25,
+       0.35
+      ],
+      "etiqueta": "Ennui",
+      "escala": 1
+     },
+     {
+      "id": "ocio",
+      "tipo": "casa",
+      "pos": [
+       0.85,
+       0.65
+      ],
+      "etiqueta": "Loisir",
+      "escala": 1
+     },
+     {
+      "id": "motor",
+      "tipo": "engranaje",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "etiqueta": "Rentabilité",
+      "escala": 1.2
+     },
+     {
+      "id": "placer",
+      "tipo": "corazon",
+      "pos": [
+       0.5,
+       0.25
+      ],
+      "etiqueta": "Plaisir",
+      "escala": 1
+     },
+     {
+      "id": "flor",
+      "tipo": "flor",
+      "pos": [
+       0.25,
+       0.5
+      ],
+      "etiqueta": "Épanouissement",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "trabajador"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "aburrimiento"
+     },
+     {
+      "t": 2,
+      "accion": "aparece",
+      "actor": "ocio"
+     },
+     {
+      "t": 3,
+      "accion": "dice",
+      "actor": "trabajador",
+      "texto": "J'attends seulement le loisir ou la retraite"
+     },
+     {
+      "t": 4.5,
+      "accion": "subtitulo",
+      "texto": "Jouvenel : nous voulons être reconnus par le travail, mais la plupart s'ennuient et souffrent."
+     },
+     {
+      "t": 8,
+      "accion": "aparece",
+      "actor": "motor"
+     },
+     {
+      "t": 8.5,
+      "accion": "aparece",
+      "actor": "placer"
+     },
+     {
+      "t": 9.5,
+      "accion": "piensa",
+      "actor": "trabajador",
+      "texto": "Est-ce parce qu'on me l'impose ?"
+     },
+     {
+      "t": 11,
+      "accion": "proyecta",
+      "de": "placer",
+      "a": "motor",
+      "nota": "Éliminé"
+     },
+     {
+      "t": 12.5,
+      "accion": "tiembla",
+      "actor": "placer"
+     },
+     {
+      "t": 13,
+      "accion": "subtitulo",
+      "texto": "Ce n'est pas l'imposé : c'est la rentabilité, qui supprime le plaisir et le reporte sur le loisir."
+     },
+     {
+      "t": 16.5,
+      "accion": "desaparece",
+      "actor": "motor"
+     },
+     {
+      "t": 17,
+      "accion": "desaparece",
+      "actor": "aburrimiento"
+     },
+     {
+      "t": 17.5,
+      "accion": "une",
+      "de": "trabajador",
+      "a": "placer",
+      "nota": "Travail + plaisir"
+     },
+     {
+      "t": 18.5,
+      "accion": "aparece",
+      "actor": "flor"
+     },
+     {
+      "t": 19,
+      "accion": "salta",
+      "actor": "trabajador"
+     },
+     {
+      "t": 20,
+      "accion": "cita",
+      "texto": "mieux travailler pour mieux vivre"
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "Réconcilier travail et plaisir : l'effort est accepté et élève l'humanité du travailleur."
+     }
+    ]
+   }
+  },
+  {
+   "id": "sartre",
+   "nombre": "Jean-Paul Sartre",
+   "epoca": "XXe siècle",
+   "tesis_principal": "Même dans les cas extrêmes de travail à la chaîne, le travail offre un germe de libération concrète : il nie l'ordre capricieux du maître et donne une maîtrise sur les choses, de sorte que le déterminisme de la matière donne la première image de la liberté.",
+   "ideas_clave": [
+    "L'ouvrier devient l'homme d'une seule opération, presque un objet : il ne suffit pas d'invoquer une liberté intérieure de penser (liberté intérieure)",
+    "Le travail est négation de l'ordre contingent et capricieux du maître (ordre du maître)",
+    "L'opprimé n'a plus à plaire au maître ni à deviner son humeur ; le travail lui impose la matière",
+    "Le travailleur se saisit comme possibilité de faire varier la forme d'un objet selon des règles universelles (déterminisme de la matière)",
+    "Perspective politique d'inspiration marxiste, mais avec un fond philosophique hérité de Hegel"
+   ],
+   "citas": [
+    {
+     "texto": "c’est le déterminisme de la matière qui lui offre la première image de sa liberté",
+     "idioma": "fr",
+     "obra": "Matérialisme et révolution, in Situation III, 1949",
+     "pagina_pdf": 108
+    }
+   ],
+   "debate_con": [
+    "hegel",
+    "marx"
+   ],
+   "como_usarlo_en_disertacion": "Pour nuancer l'opposition aliénation/libération : même le travail le plus dur contient un germe de liberté concrète. Très utile dans la troisième partie du sujet « Le travail rend-il libre ? », avec Hegel en arrière-plan.",
+   "escena_sugerida": "Un ouvrier de la chaîne de montage, sans maître capricieux à déchiffrer, domine la matière et découvre une première image de la liberté.",
+   "pagina_pdf": 108,
+   "escena": {
+    "titulo": "Sartre : la matière, première image de la liberté",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "obrero",
+      "tipo": "monigote",
+      "pos": [
+       0.3,
+       0.72
+      ],
+      "etiqueta": "L'ouvrier",
+      "escala": 1
+     },
+     {
+      "id": "cadena",
+      "tipo": "engranaje",
+      "pos": [
+       0.15,
+       0.45
+      ],
+      "etiqueta": "Chaîne de montage",
+      "escala": 1
+     },
+     {
+      "id": "jefe",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.85,
+       0.35
+      ],
+      "etiqueta": "Le maître",
+      "escala": 1.4
+     },
+     {
+      "id": "humor",
+      "tipo": "interrogacion",
+      "pos": [
+       0.85,
+       0.7
+      ],
+      "etiqueta": "Son humeur ?",
+      "escala": 1
+     },
+     {
+      "id": "materia",
+      "tipo": "piedra",
+      "pos": [
+       0.55,
+       0.72
+      ],
+      "etiqueta": "La matière",
+      "escala": 1
+     },
+     {
+      "id": "forma",
+      "tipo": "caja",
+      "pos": [
+       0.55,
+       0.4
+      ],
+      "etiqueta": "Forme",
+      "escala": 1
+     },
+     {
+      "id": "libertad",
+      "tipo": "estrella",
+      "pos": [
+       0.5,
+       0.15
+      ],
+      "etiqueta": "Liberté concrète",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "obrero"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 1.5,
+      "accion": "tiembla",
+      "actor": "obrero"
+     },
+     {
+      "t": 2,
+      "accion": "dice",
+      "actor": "obrero",
+      "texto": "Je répète cent fois la même opération"
+     },
+     {
+      "t": 3.5,
+      "accion": "subtitulo",
+      "texto": "Sartre : l'ouvrier à la chaîne est presque un objet ; il ne peut pas penser calmement."
+     },
+     {
+      "t": 7,
+      "accion": "aparece",
+      "actor": "jefe"
+     },
+     {
+      "t": 7.5,
+      "accion": "aparece",
+      "actor": "humor"
+     },
+     {
+      "t": 8.5,
+      "accion": "dice",
+      "actor": "obrero",
+      "texto": "Avant : deviner l'humeur du maître"
+     },
+     {
+      "t": 10,
+      "accion": "desaparece",
+      "actor": "humor"
+     },
+     {
+      "t": 10.5,
+      "accion": "aparece",
+      "actor": "materia"
+     },
+     {
+      "t": 11,
+      "accion": "subtitulo",
+      "texto": "Mais le travail nie l'ordre capricieux du maître : maintenant l'ouvrier fait face à la matière."
+     },
+     {
+      "t": 14,
+      "accion": "proyecta",
+      "de": "obrero",
+      "a": "materia",
+      "nota": "Règles universelles"
+     },
+     {
+      "t": 15.5,
+      "accion": "aparece",
+      "actor": "forma"
+     },
+     {
+      "t": 16,
+      "accion": "salta",
+      "actor": "obrero"
+     },
+     {
+      "t": 17,
+      "accion": "aparece",
+      "actor": "libertad"
+     },
+     {
+      "t": 18,
+      "accion": "cita",
+      "texto": "c’est le déterminisme de la matière qui lui offre la première image de sa liberté"
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Dominer la matière est une première libération concrète, même sous l'exploitation."
+     }
+    ]
+   }
+  }
+ ],
+ "relaciones": [
+  {
+   "de": "aristote",
+   "a": "marx",
+   "tipo": "influye",
+   "nota": "Marx s'approprie la logique d'Aristote et l'applique aux travailleurs dans l'organisation capitaliste."
+  },
+  {
+   "de": "hegel",
+   "a": "marx",
+   "tipo": "complementa",
+   "nota": "Tous deux voient dans le travail un aspect créateur et libérateur ; Marx y ajoute la critique de l'exploitation."
+  },
+  {
+   "de": "hegel",
+   "a": "sartre",
+   "tipo": "influye",
+   "nota": "Le fond philosophique qui pense le travail comme libérateur est hérité de Hegel."
+  },
+  {
+   "de": "marx",
+   "a": "sartre",
+   "tipo": "influye",
+   "nota": "La perspective politique du texte de Sartre est d'inspiration marxiste."
+  },
+  {
+   "de": "marx",
+   "a": "hegel",
+   "tipo": "se opone",
+   "nota": "Face à la liberté du travail, Marx souligne l'aliénation par l'exploitation et l'organisation technique."
+  },
+  {
+   "de": "nietzsche",
+   "a": "jouvenel",
+   "tipo": "se opone",
+   "nota": "Nietzsche dénonce la morale du travail ; Jouvenel propose de le revaloriser en le réconciliant avec le plaisir."
+  },
+  {
+   "de": "seneque",
+   "a": "marcuse",
+   "tipo": "complementa",
+   "nota": "Sénèque valorise le loisir libre ; Marcuse montre que les loisirs socialisés peuvent aliéner."
+  },
+  {
+   "de": "marcuse",
+   "a": "jouvenel",
+   "tipo": "complementa",
+   "nota": "Tous deux voient que le plaisir se déplace vers le loisir et que celui-ci peut être contrôlé ; Jouvenel cherche à le rendre au travail."
+  },
+  {
+   "de": "aristote",
+   "a": "chrematistique",
+   "tipo": "influye",
+   "nota": "Aristote distingue la bonne et la mauvaise chrématistique."
+  },
+  {
+   "de": "hegel",
+   "a": "dialectique-maitre-esclave",
+   "tipo": "influye",
+   "nota": "Hegel illustre par cette dialectique comment la création d'œuvres libère les hommes."
+  },
+  {
+   "de": "marx",
+   "a": "alienation",
+   "tipo": "influye",
+   "nota": "Pour Marx, l'aliénation naît de l'exploitation et de l'organisation technique du travail."
+  },
+  {
+   "de": "marcuse",
+   "a": "loisirs-socialises",
+   "tipo": "influye",
+   "nota": "Marcuse analyse les loisirs socialisés comme de nouvelles formes de contrôle."
+  }
+ ],
+ "quiz": [
+  {
+   "pregunta": "Par son travail, qu’est-ce que l’homme crée ?",
+   "opciones": [
+    "La nature.",
+    "Le monde.",
+    "Des fins.",
+    "Des instincts."
+   ],
+   "correcta": 2,
+   "explicacion": "Par son travail, l'homme ne reçoit pas ses fins de l'extérieur mais les crée lui-même, et transforme la nature selon ses idées.",
+   "filosofo": "marx",
+   "pagina_pdf": 99
+  },
+  {
+   "pregunta": "Les activités animales sont … :",
+   "opciones": [
+    "méthodiques.",
+    "conscientes.",
+    "instinctives.",
+    "perfectibles."
+   ],
+   "correcta": 2,
+   "explicacion": "Même si le castor ou l'abeille construisent, tout repose sur l'instinct, alors que le travail humain est conscient, réfléchi et volontaire.",
+   "filosofo": "marx",
+   "pagina_pdf": 99
+  },
+  {
+   "pregunta": "Dans la Bible, quelle forme prend le travail ?",
+   "opciones": [
+    "D’un plaisir.",
+    "D’une malédiction.",
+    "D’une occupation.",
+    "D’une récompense."
+   ],
+   "correcta": 1,
+   "explicacion": "Après la transgression de l'interdit apparaissent la malédiction divine et le travail comme condamnation : Adam doit gagner son pain à la sueur de son front.",
+   "filosofo": null,
+   "pagina_pdf": 100
+  },
+  {
+   "pregunta": "Par son travail, l’esclave … :",
+   "opciones": [
+    "se transforme.",
+    "se libère.",
+    "s’humilie.",
+    "se transforme et se libère."
+   ],
+   "correcta": 3,
+   "explicacion": "Selon Hegel, l'esclave se forme et se transforme lui-même en travaillant, et se libère ainsi de sa servitude (le corrigé accepte a. et b.).",
+   "filosofo": "hegel",
+   "pagina_pdf": 101
+  },
+  {
+   "pregunta": "En produisant des œuvres, l’homme participe à … :",
+   "opciones": [
+    "son bonheur.",
+    "son histoire.",
+    "son rêve.",
+    "sa fortune."
+   ],
+   "correcta": 1,
+   "explicacion": "En produisant des œuvres (maisons, institutions, livres), l'homme cesse de subir passivement la nature et participe activement à son histoire.",
+   "filosofo": "hegel",
+   "pagina_pdf": 101
+  },
+  {
+   "pregunta": "Selon Aristote, il y a une bonne et une mauvaise … :",
+   "opciones": [
+    "production.",
+    "économie.",
+    "chrématistique.",
+    "politique."
+   ],
+   "correcta": 2,
+   "explicacion": "La chrématistique, art d'acquérir des richesses, est bonne si elle satisfait des besoins naturels et mauvaise si elle accumule la richesse pour la richesse.",
+   "filosofo": "aristote",
+   "pagina_pdf": 101
+  },
+  {
+   "pregunta": "Quel philosophe a théorisé l’exploitation de l’homme par l’homme ?",
+   "opciones": [
+    "Hegel.",
+    "Marx.",
+    "Nietzsche.",
+    "Aristote."
+   ],
+   "correcta": 1,
+   "explicacion": "Marx voit l'aliénation dans l'exploitation des hommes par une classe supérieure ; celle-ci prendra fin quand le travailleur recevra la totalité de ce qu'il produit.",
+   "filosofo": "marx",
+   "pagina_pdf": 102
+  },
+  {
+   "pregunta": "Selon Nietzsche, le travail dans nos sociétés est … :",
+   "opciones": [
+    "utile.",
+    "libérateur.",
+    "la meilleure des polices.",
+    "un loisir."
+   ],
+   "correcta": 2,
+   "explicacion": "Derrière la morale marchande du travail se cache la peur de l'individuel : le travail socialisé impose des contraintes et est « la meilleure des polices ».",
+   "filosofo": "nietzsche",
+   "pagina_pdf": 102
+  },
+  {
+   "pregunta": "Qu’impliquent les loisirs socialisés ?",
+   "opciones": [
+    "Des comportements uniformes.",
+    "Le sens de la solidarité.",
+    "De l’humilité.",
+    "Une liberté totale."
+   ],
+   "correcta": 0,
+   "explicacion": "Les loisirs socialisés imposent des règles et des structures analogues à celles du travail et supposent une uniformisation des comportements (Marcuse).",
+   "filosofo": "marcuse",
+   "pagina_pdf": 103
+  },
+  {
+   "pregunta": "Selon Jouvenel, pour quelle raison faut-il travailler ?",
+   "opciones": [
+    "Pour gagner plus.",
+    "Pour avoir plus de loisirs.",
+    "Pour mieux vivre.",
+    "Pour être plus efficace."
+   ],
+   "correcta": 2,
+   "explicacion": "Jouvenel propose « mieux travailler pour mieux vivre » : que le travailleur, en aimant son travail, perfectionne son humanité.",
+   "filosofo": "jouvenel",
+   "pagina_pdf": 104
+  },
+  {
+   "pregunta": "Pour Sénèque, qui sont les « otiosi » ?",
+   "opciones": [
+    "Des paresseux inertes.",
+    "Des sages qui choisissent librement leurs activités.",
+    "Des esclaves de l'État.",
+    "Des marchands avides."
+   ],
+   "correcta": 1,
+   "explicacion": "Les otiosi ne sont pas paresseux : ils choisissent leurs activités, vivent heureux dans l'otium et ne dépendent de personne, à la différence des occupati aliénés.",
+   "filosofo": "seneque",
+   "pagina_pdf": 103
+  },
+  {
+   "pregunta": "Quelle distinction Aristote établit-il pour fonder l'échange et la division du travail ?",
+   "opciones": [
+    "Entre maître et esclave.",
+    "Entre valeur d'usage et valeur d'échange.",
+    "Entre loisir et travail.",
+    "Entre instinct et conscience."
+   ],
+   "correcta": 1,
+   "explicacion": "En distinguant valeur d'usage et valeur d'échange, Aristote montre qu'il y a division du travail (nul ne sait tout fabriquer) et que l'argent est nécessaire aux échanges.",
+   "filosofo": "aristote",
+   "pagina_pdf": 101
+  }
+ ],
+ "preguntas_abiertas": [
+  {
+   "enunciado": "En quoi le travail est-il spécifique à l'homme ?",
+   "puntos_clave": [
+    "Le travail humain est conscient, réfléchi et volontaire ; l'animal agit par instinct (castor, abeille, nid)",
+    "L'homme se représente une fin et organise ses actions selon cette représentation (Marx : l'architecte et l'abeille)",
+    "On ne subit pas la nature, on la transforme à notre image et on construit le monde où l'on vivra",
+    "Le travail est perfectible : le savoir-faire se transmet, change et s'améliore ; les techniques font apparaître et disparaître des métiers",
+    "Éviter l'anthropomorphisme : ne pas attribuer d'intentions humaines aux animaux"
+   ],
+   "filosofos": [
+    "marx"
+   ],
+   "pagina_pdf": 99
+  },
+  {
+   "enunciado": "Expliquez comment, selon Hegel, le travail libère l'homme.",
+   "puntos_clave": [
+    "Point de départ : la malédiction biblique et la dialectique du maître et de l'esclave ; les rapports de force et la mort comme maître suprême",
+    "L'esclave doit affronter le réel et élaborer des stratégies : il devient patient, intelligent, appliqué et se forme",
+    "Le maître perd le contact avec le réel, stagne et subit passivement l'activité de l'esclave",
+    "L'agent de l'histoire est l'esclave travailleur, non le maître guerrier",
+    "La liberté cesse d'être seulement intérieure pour devenir pratique : elle produit des œuvres et participe à son histoire"
+   ],
+   "filosofos": [
+    "hegel"
+   ],
+   "pagina_pdf": 101
+  },
+  {
+   "enunciado": "Pourquoi le travail peut-il être aliénant ?",
+   "puntos_clave": [
+    "Aristote : la mauvaise chrématistique, l'argent comme fin en soi, crée la dépendance et la perversion des besoins",
+    "Marx : exploitation par une classe supérieure et organisation technique (division du travail) ; on échange des travailleurs",
+    "Nietzsche : morale du travail par intérêt et efficacité, peur de l'individuel, travail comme police",
+    "Sénèque : les occupati, absorbés par leurs occupations, ne vivent que pour travailler",
+    "Nuance : la critique marxiste vise ce que le travail est devenu historiquement, non sa nature"
+   ],
+   "filosofos": [
+    "aristote",
+    "marx",
+    "nietzsche",
+    "seneque"
+   ],
+   "pagina_pdf": 102
+  },
+  {
+   "enunciado": "Comment revaloriser le travail ?",
+   "puntos_clave": [
+    "Le travail procure une reconnaissance sociale et un sentiment d'utilité (femmes, retraités)",
+    "Paradoxe relevé par Jouvenel : on veut travailler pour être reconnu, mais la plupart s'ennuient et souffrent",
+    "Son rejet ne vient pas de l'imposé mais de la réduction à la rentabilité qui supprime le plaisir",
+    "Réconcilier travail et plaisir, désir et production : « mieux travailler pour mieux vivre »",
+    "L'effort est accepté comme condition d'un plaisir plus durable qui écarte l'ennui"
+   ],
+   "filosofos": [
+    "jouvenel"
+   ],
+   "pagina_pdf": 104
+  }
+ ],
+ "disertaciones": [
+  {
+   "sujeto": "Le travail rend-il libre ?",
+   "tipo_plan": "dialectique",
+   "problematica": "Le travail est une nécessité vitale qui peut être l'occasion de réaliser la liberté (œuvres, histoire), mais il instaure aussi des rapports de pouvoir et d'asservissement. Il faut se demander à quelles conditions le travail est libre : lorsqu'il est choisi et non imposé.",
+   "plan": [
+    {
+     "parte": "I. Le travail, condition de survie et de liberté",
+     "idea": "Le travail est une nécessité vitale, mais il permet à l'homme d'imprimer son esprit dans le réel, de se former et de faire l'histoire par des œuvres.",
+     "autores": [
+      "hegel",
+      "sartre"
+     ],
+     "ejemplo": "Dialectique du maître et de l'esclave ; l'ouvrier qui maîtrise la matière."
+    },
+    {
+     "parte": "II. Le travail suppose des rapports hiérarchiques de domination",
+     "idea": "Le travail met les hommes en relation et établit des rapports de pouvoir : on réduit la force de travail à un coût et on exploite le travailleur.",
+     "autores": [
+      "marx",
+      "aristote",
+      "nietzsche"
+     ],
+     "ejemplo": "Taylor et les méthodes de management ; la colère de Breton contre l'asservissement."
+    },
+    {
+     "parte": "III. Choisir son travail élève les qualités et le rôle social",
+     "idea": "Ce n'est pas le travail lui-même qui aliène mais la misère qui force à accepter n'importe quelles conditions ; un travail choisi et passionnant devient une vie heureuse et libre.",
+     "autores": [
+      "jouvenel",
+      "seneque"
+     ],
+     "ejemplo": "Pour les Grecs, la culture était le privilège des hommes de loisir ; Alain : « le propre du travail, c'est d'être forcé »."
+    }
+   ],
+   "pagina_pdf": 109
+  },
+  {
+   "sujeto": "Travailler, est-ce s'aliéner ?",
+   "tipo_plan": "progressif",
+   "problematica": "Si travailler est une nécessité et si le travail distingue l'homme de l'animal, pourquoi est-il vécu comme une aliénation ? Il s'agit de voir ce qui le rend aliénant (argent, exploitation, morale du travail) et comment on peut lui rendre du sens.",
+   "plan": [
+    {
+     "parte": "I. Le travail, activité consciente propre à l'homme",
+     "idea": "L'homme conçoit ses fins et transforme le monde ; travailler, ce n'est pas s'aliéner par nature.",
+     "autores": [
+      "marx",
+      "hegel"
+     ],
+     "ejemplo": "L'architecte et l'abeille ; l'esclave qui se forme en travaillant."
+    },
+    {
+     "parte": "II. Mais le travail devient aliénant",
+     "idea": "La perversion des besoins (mauvaise chrématistique), l'exploitation et la division du travail, ainsi que la morale du travail, font du travailleur un moyen.",
+     "autores": [
+      "aristote",
+      "marx",
+      "nietzsche"
+     ],
+     "ejemplo": "Le cupide qui accumule l'argent pour l'argent ; Chaplin, Les Temps modernes."
+    },
+    {
+     "parte": "III. Donner du sens au travail",
+     "idea": "Réconcilier travail et plaisir pour que l'effort ne soit pas vécu comme aliénant et élève l'humanité du travailleur.",
+     "autores": [
+      "jouvenel"
+     ],
+     "ejemplo": "Reconnaissance sociale du travail ; « mieux travailler pour mieux vivre »."
+    }
+   ],
+   "pagina_pdf": 102
+  },
+  {
+   "sujeto": "Les loisirs nous libèrent-ils du travail ?",
+   "tipo_plan": "dialectique",
+   "problematica": "On oppose le temps de travail, qui retire du temps à la culture et à la réflexion, au loisir comme liberté. Mais les loisirs socialisés peuvent reproduire les logiques du travail : quel loisir libère réellement ?",
+   "plan": [
+    {
+     "parte": "I. Le loisir comme liberté face au travail",
+     "idea": "Le temps de travail est soustrait au temps de la culture, de la réflexion et de la critique ; l'otium est une activité libre et choisie.",
+     "autores": [
+      "seneque"
+     ],
+     "ejemplo": "Les otiosi et les occupati."
+    },
+    {
+     "parte": "II. Les loisirs socialisés, nouvelles formes d'aliénation",
+     "idea": "Les loisirs modernes répliquent les règles du travail, uniformisent et lient à la consommation.",
+     "autores": [
+      "marcuse",
+      "nietzsche"
+     ],
+     "ejemplo": "Le sport réglementé ; les « usines du rêve » de Malraux."
+    },
+    {
+     "parte": "III. Réconcilier travail et loisir",
+     "idea": "Au lieu de les opposer, faire en sorte que le travail inclue plaisir et développement de soi.",
+     "autores": [
+      "jouvenel"
+     ],
+     "ejemplo": "La satisfaction de Delacroix après une journée bien employée."
+    }
+   ],
+   "pagina_pdf": 103
+  }
+ ]
+}

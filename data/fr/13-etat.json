@@ -1,0 +1,2387 @@
+{
+ "id": "etat",
+ "numero": 13,
+ "titulo": "L’État",
+ "titulo_es": "El Estado",
+ "resumen": "L’État est une organisation humaine qui exerce un pouvoir légitime sur toute la population d’un pays et se distingue des autres formes de pouvoir par son origine légale. Le chapitre parcourt ce qu’est l’État (Pascal, Weber, la nation), ses fondements (Machiavel et le pouvoir comme technique ; Hobbes et Rousseau et le contrat) et l’État républicain (Marx et la tromperie objective, Tocqueville et l’égalitarisme, Montesquieu et l’idéal toujours perfectible). Il faut toujours se demander au nom de quelles valeurs l’État s’impose.",
+ "paginas": {
+  "inicio": 210,
+  "fin": 225
+ },
+ "puntos_incontournables": [
+  "L’État : une institution exerçant un pouvoir légitime (L’État : une institution exerçant un pouvoir légitime)",
+  "La souveraineté du peuple : Hobbes et Rousseau la fondent sur un contrat qui justifie le pouvoir de l’État (La souveraineté du peuple)",
+  "Le concept de nation : mal défini, il a eu des conséquences dramatiques pour les plus vulnérables (Le concept de nation)",
+  "L’État sous un jour machiavélique : sans origine magico-religieuse, il est affaire d’hommes qui se passent de la morale (L’État sous un jour machiavélique)",
+  "La passion de l’égalité peut conduire à l’égalitarisme, dangereux pour les libertés (Tocqueville)"
+ ],
+ "nociones_clave": [
+  "pouvoir légal",
+  "institutionnalisation du pouvoir",
+  "souveraineté du peuple",
+  "contrat de soumission",
+  "contrat d’association",
+  "nation",
+  "nationalisme",
+  "amoralité du politique",
+  "égalitarisme",
+  "État républicain",
+  "État totalitaire"
+ ],
+ "problematicas_bac": [
+  "L’État rend-il libre ?",
+  "Tout État, en s’appuyant sur un pouvoir régalien, n’a-t-il pas, par essence, une tendance à réduire les libertés ?",
+  "Tout État n’est-il pas le résultat de l’action ou de la conscience politiques des citoyens ?",
+  "Au nom de quelles valeurs l’État s’impose-t-il ?"
+ ],
+ "conceptos": [
+  {
+   "id": "pouvoir-legal",
+   "nombre": "Pouvoir légal et institutionnalisation du pouvoir",
+   "definicion": "L’État apparaît quand le pouvoir cesse d’appartenir à un homme ou à un chef et que l’on distingue le pouvoir institué de celui qui l’exerce : les gouvernants agissent au nom de l’État, non en leur nom propre.",
+   "pagina_pdf": 212,
+   "autores": [
+    "weber",
+    "pascal"
+   ]
+  },
+  {
+   "id": "souverainete-peuple",
+   "nombre": "Souveraineté du peuple",
+   "definicion": "Pour les philosophes du contrat, le pouvoir ne vient ni de Dieu ni de la nature, mais de conventions humaines : le peuple est l’origine et le fondement du pouvoir politique, même s’il ne l’exerce pas nécessairement.",
+   "pagina_pdf": 215,
+   "autores": [
+    "hobbes",
+    "rousseau"
+   ]
+  },
+  {
+   "id": "nation",
+   "nombre": "Nation contre nationalisme",
+   "definicion": "La nation exprime un vivre-ensemble et une unité spirituelle. Elle peut être comprise de manière naturaliste (sang, race : elle conduit à l’État totalitaire nazi) ou de manière contractuelle et légaliste (Sieyès) ; elle se distingue du nationalisme, qui est peur des autres cultures.",
+   "pagina_pdf": 213,
+   "autores": [
+    "sieyes"
+   ]
+  },
+  {
+   "id": "autonomie-politique",
+   "nombre": "Autonomie et amoralité du politique",
+   "definicion": "La politique et la morale ne s’appliquent pas aux mêmes domaines : la morale juge selon des principes, la politique ne vaut que par ses résultats (le bien commun). Il n’y a pas d’immoralité mais une amoralité.",
+   "pagina_pdf": 213,
+   "autores": [
+    "machiavel"
+   ]
+  },
+  {
+   "id": "egalitarisme",
+   "nombre": "Égalitarisme",
+   "definicion": "Désir d’une égalité mathématique qui mène à un monde uniforme où les différences sont condamnées à disparaître ; menace politique et culturelle contre la liberté de chacun.",
+   "pagina_pdf": 216,
+   "autores": [
+    "tocqueville"
+   ]
+  },
+  {
+   "id": "etat-totalitaire",
+   "nombre": "État totalitaire et dictature",
+   "definicion": "Le pouvoir totalitaire (nazisme, stalinisme, XXe siècle) prétend tout contrôler et supprime la séparation entre le privé et le public ; il se distingue de la dictature, où un seul gouverne directement. Arendt (Les origines du totalitarisme) l’analyse.",
+   "pagina_pdf": 219,
+   "autores": []
+  }
+ ],
+ "filosofos": [
+  {
+   "id": "pascal",
+   "nombre": "Blaise Pascal",
+   "epoca": "XVIIe siècle",
+   "tesis_principal": "Il faut respecter la fonction étatique lorsqu’elle est légitime, même si celui qui l’occupe ne mérite pas le respect : il faut distinguer l’homme de la fonction.",
+   "ideas_clave": [
+    "Distinction entre l’homme et la fonction (la fonction)",
+    "Les fonctions de policier, de juge ou de ministre sont nécessaires et louables, même si leur titulaire est indigne",
+    "Grandeurs d’établissement (grandeurs d’établissement) : instituées par les hommes pour organiser la société",
+    "Grandeurs naturelles (grandeurs naturelles) : les hiérarchies naturelles ne s’imposent pas entre les individus et peuvent empêcher de vivre en paix"
+   ],
+   "citas": [
+    {
+     "texto": "grandeurs d’établissement",
+     "idioma": "fr",
+     "obra": "Pascal (citado en el cours)",
+     "pagina_pdf": 212
+    },
+    {
+     "texto": "grandeurs naturelles",
+     "idioma": "fr",
+     "obra": "Pascal (citado en el cours)",
+     "pagina_pdf": 212
+    }
+   ],
+   "debate_con": [
+    "weber"
+   ],
+   "como_usarlo_en_disertacion": "Dans une première partie sur ce qu’est l’État ou sur la raison pour laquelle on obéit : il sert à justifier l’obéissance à la fonction sans idolâtrer celui qui l’exerce. Utile aussi dans une partie critique sur la vigilance du citoyen face aux gouvernants.",
+   "escena_sugerida": "Un citoyen devant un juge indigne apprend à séparer l’homme de sa fonction.",
+   "pagina_pdf": 211,
+   "escena": {
+    "titulo": "Pascal : l’homme et la fonction",
+    "estilo": "monigotes",
+    "duracion_seg": 24,
+    "actores": [
+     {
+      "id": "ciudadano",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.7
+      ],
+      "etiqueta": "Le citoyen",
+      "escala": 1
+     },
+     {
+      "id": "juez",
+      "tipo": "monigote",
+      "pos": [
+       0.65,
+       0.7
+      ],
+      "etiqueta": "Le juge",
+      "escala": 1
+     },
+     {
+      "id": "funcion",
+      "tipo": "balanza",
+      "pos": [
+       0.65,
+       0.3
+      ],
+      "etiqueta": "La fonction",
+      "escala": 1
+     },
+     {
+      "id": "establecimiento",
+      "tipo": "corona",
+      "pos": [
+       0.3,
+       0.25
+      ],
+      "etiqueta": "Grandeurs d’établissement",
+      "escala": 1
+     },
+     {
+      "id": "natural",
+      "tipo": "piedra",
+      "pos": [
+       0.85,
+       0.3
+      ],
+      "etiqueta": "Grandeurs naturelles",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "ciudadano"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "juez"
+     },
+     {
+      "t": 1,
+      "accion": "aparece",
+      "actor": "funcion"
+     },
+     {
+      "t": 1.5,
+      "accion": "subtitulo",
+      "texto": "L’État s’incarne en juges, policiers et ministres... et ils ne sont pas toujours dignes."
+     },
+     {
+      "t": 4,
+      "accion": "piensa",
+      "actor": "ciudadano",
+      "texto": "Dois-je respecter qui ne le mérite pas ?"
+     },
+     {
+      "t": 5.5,
+      "accion": "tiembla",
+      "actor": "juez"
+     },
+     {
+      "t": 6.5,
+      "accion": "subtitulo",
+      "texto": "Pascal : il faut distinguer l’homme de la fonction."
+     },
+     {
+      "t": 8,
+      "accion": "une",
+      "de": "juez",
+      "a": "funcion",
+      "nota": "l’homme occupe la fonction"
+     },
+     {
+      "t": 9.5,
+      "accion": "mueve",
+      "actor": "juez",
+      "a": [
+       0.85,
+       0.8
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 11,
+      "accion": "resalta",
+      "actor": "funcion"
+     },
+     {
+      "t": 11.5,
+      "accion": "dice",
+      "actor": "ciudadano",
+      "texto": "Je respecte la fonction, je méprise l’indigne"
+     },
+     {
+      "t": 13,
+      "accion": "subtitulo",
+      "texto": "La fonction est nécessaire et légitime même si celui qui l’occupe n’a ni compétence ni dignité."
+     },
+     {
+      "t": 16,
+      "accion": "aparece",
+      "actor": "establecimiento"
+     },
+     {
+      "t": 16.5,
+      "accion": "aparece",
+      "actor": "natural"
+     },
+     {
+      "t": 17,
+      "accion": "resalta",
+      "actor": "establecimiento"
+     },
+     {
+      "t": 17.5,
+      "accion": "cita",
+      "texto": "« grandeurs d’établissement » et « grandeurs naturelles »"
+     },
+     {
+      "t": 19,
+      "accion": "subtitulo",
+      "texto": "Les premières sont instituées par les hommes pour organiser la société ; les naturelles peuvent empêcher la paix."
+     },
+     {
+      "t": 22.5,
+      "accion": "subtitulo",
+      "texto": "On obéit à la fonction légitime, non à la personne : distinguer l’homme et la fonction."
+     }
+    ]
+   }
+  },
+  {
+   "id": "weber",
+   "nombre": "Max Weber",
+   "epoca": "XIXe-XXe siècles",
+   "tesis_principal": "Il existe trois formes de pouvoir (traditionnel, charismatique et légal) ; l’État correspond au pouvoir légal, dans lequel aucune personne concrète ne détient le pouvoir et où ceux qui le représentent sont des serviteurs du peuple.",
+   "ideas_clave": [
+    "Pouvoir traditionnel : « l’éternel hier » et les coutumes sanctifiées, enracinées dans la famille (filiation)",
+    "Pouvoir charismatique : fondé sur la grâce personnelle et extraordinaire d’un individu",
+    "Pouvoir légal (pouvoir légal) : historiquement le plus récent, fondé sur le statut juridique de l’autorité et sur sa compétence supposée",
+    "Institutionnalisation du pouvoir : on distingue le pouvoir institué de celui qui l’exerce",
+    "L’État n’est pas appelé à mourir, car il ne se réduit pas aux hommes mortels qui le dirigent"
+   ],
+   "citas": [
+    {
+     "texto": "la grâce personnelle et extraordinaire d’un individu",
+     "idioma": "fr",
+     "obra": "Le savant et le politique",
+     "pagina_pdf": 212
+    },
+    {
+     "texto": "l’éternel hier",
+     "idioma": "fr",
+     "obra": "Le savant et le politique",
+     "pagina_pdf": 212
+    }
+   ],
+   "debate_con": [
+    "pascal"
+   ],
+   "como_usarlo_en_disertacion": "Pour définir l’État et le distinguer des autres formes de pouvoir (première partie). Permet d’expliquer pourquoi l’État moderne est impersonnel et pourquoi ses représentants sont des serviteurs et non les maîtres du pouvoir.",
+   "escena_sugerida": "Tradition et charisme attachent le pouvoir à une personne ; le pouvoir légal survit à celui qui l’exerce.",
+   "pagina_pdf": 212,
+   "escena": {
+    "titulo": "Weber : des pouvoirs au pouvoir légal",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "tradicion",
+      "tipo": "casa",
+      "pos": [
+       0.15,
+       0.4
+      ],
+      "etiqueta": "Tradition",
+      "escala": 1
+     },
+     {
+      "id": "carisma",
+      "tipo": "estrella",
+      "pos": [
+       0.5,
+       0.4
+      ],
+      "etiqueta": "Charisme",
+      "escala": 1
+     },
+     {
+      "id": "ley",
+      "tipo": "libro",
+      "pos": [
+       0.85,
+       0.4
+      ],
+      "etiqueta": "Pouvoir légal",
+      "escala": 1
+     },
+     {
+      "id": "jefe",
+      "tipo": "monigote",
+      "pos": [
+       0.32,
+       0.8
+      ],
+      "etiqueta": "Le chef",
+      "escala": 1
+     },
+     {
+      "id": "estado",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.85,
+       0.75
+      ],
+      "etiqueta": "L’État",
+      "escala": 1.3
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "subtitulo",
+      "texto": "Weber se demande d’où vient le pouvoir et distingue trois formes."
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "tradicion"
+     },
+     {
+      "t": 2,
+      "accion": "resalta",
+      "actor": "tradicion"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Traditionnel : « l’éternel hier », la coutume et la filiation familiale."
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "carisma"
+     },
+     {
+      "t": 6.5,
+      "accion": "resalta",
+      "actor": "carisma"
+     },
+     {
+      "t": 7.5,
+      "accion": "subtitulo",
+      "texto": "Charismatique : la grâce personnelle et extraordinaire d’un individu."
+     },
+     {
+      "t": 9.5,
+      "accion": "aparece",
+      "actor": "jefe"
+     },
+     {
+      "t": 10,
+      "accion": "une",
+      "de": "carisma",
+      "a": "jefe",
+      "nota": "pouvoir lié à la personne"
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "Dans les deux cas, le pouvoir est collé à un homme."
+     },
+     {
+      "t": 15,
+      "accion": "aparece",
+      "actor": "ley"
+     },
+     {
+      "t": 15.5,
+      "accion": "resalta",
+      "actor": "ley"
+     },
+     {
+      "t": 16,
+      "accion": "subtitulo",
+      "texto": "Légal : il se fonde sur le statut juridique de l’autorité ; c’est la forme la plus récente."
+     },
+     {
+      "t": 18.5,
+      "accion": "desaparece",
+      "actor": "jefe"
+     },
+     {
+      "t": 19,
+      "accion": "aparece",
+      "actor": "estado"
+     },
+     {
+      "t": 19.5,
+      "accion": "dice",
+      "actor": "estado",
+      "texto": "Les hommes passent ; moi, je demeure"
+     },
+     {
+      "t": 21.5,
+      "accion": "cita",
+      "texto": "la grâce personnelle et extraordinaire d’un individu"
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "L’État est le pouvoir institutionnalisé : ses représentants ne sont que des serviteurs du peuple."
+     }
+    ]
+   }
+  },
+  {
+   "id": "machiavel",
+   "nombre": "Nicolas Machiavel",
+   "epoca": "XVe-XVIe siècles",
+   "tesis_principal": "Prendre et conserver le pouvoir est une simple affaire de technique : le pouvoir ne se fonde pas sur des principes métaphysiques ou religieux et la politique est autonome par rapport à la morale (amoralité du politique).",
+   "ideas_clave": [
+    "Il refuse de fonder le pouvoir sur des principes métaphysiques ou religieux (Le Prince)",
+    "Le prince doit être rusé comme le renard et cruel comme le lion selon les circonstances",
+    "Amoralité du politique : la morale juge par principes, la politique vaut par ses résultats, le bien commun",
+    "Mètis : intelligence pratique de la situation et sens de l’occasion, non des règles a priori",
+    "Piero Soderini perdit le pouvoir à Florence pour avoir préféré la douceur et la franchise à la force et à la ruse",
+    "Dans les Discours sur la première décade de Tite-Live, pour ne pas devenir tyran, le prince doit tenir compte des intérêts de l’État et de la souveraineté du peuple"
+   ],
+   "citas": [],
+   "debate_con": [
+    "hobbes",
+    "rousseau"
+   ],
+   "como_usarlo_en_disertacion": "Pour montrer que l’État n’a pas de fondement moral ou religieux et que le pouvoir peut être arbitraire (partie critique). Sert de contrepoint aux philosophes du contrat, qui posent, eux, la question de la légitimité.",
+   "escena_sugerida": "Soderini perd Florence par bonté ; le prince rusé garde la couronne.",
+   "pagina_pdf": 213,
+   "escena": {
+    "titulo": "Machiavel : le pouvoir comme technique",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "dios",
+      "tipo": "nube",
+      "pos": [
+       0.5,
+       0.15
+      ],
+      "etiqueta": "Dieu, religion",
+      "escala": 1
+     },
+     {
+      "id": "soderini",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.75
+      ],
+      "etiqueta": "Soderini",
+      "escala": 1
+     },
+     {
+      "id": "principe",
+      "tipo": "monigote",
+      "pos": [
+       0.75,
+       0.75
+      ],
+      "etiqueta": "Le prince",
+      "escala": 1
+     },
+     {
+      "id": "corona",
+      "tipo": "corona",
+      "pos": [
+       0.2,
+       0.45
+      ],
+      "etiqueta": "Le pouvoir",
+      "escala": 1
+     },
+     {
+      "id": "dulzura",
+      "tipo": "corazon",
+      "pos": [
+       0.35,
+       0.6
+      ],
+      "etiqueta": "Douceur, franchise",
+      "escala": 0.8
+     },
+     {
+      "id": "tecnica",
+      "tipo": "engranaje",
+      "pos": [
+       0.75,
+       0.45
+      ],
+      "etiqueta": "Ruse et force",
+      "escala": 1
+     },
+     {
+      "id": "moral",
+      "tipo": "balanza",
+      "pos": [
+       0.5,
+       0.55
+      ],
+      "etiqueta": "Morale",
+      "escala": 0.8
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "dios"
+     },
+     {
+      "t": 0.5,
+      "accion": "subtitulo",
+      "texto": "Machiavel : le pouvoir n’a pas d’origine magico-religieuse, c’est une affaire d’hommes."
+     },
+     {
+      "t": 3,
+      "accion": "desaparece",
+      "actor": "dios"
+     },
+     {
+      "t": 3.5,
+      "accion": "aparece",
+      "actor": "soderini"
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "corona"
+     },
+     {
+      "t": 4.5,
+      "accion": "aparece",
+      "actor": "dulzura"
+     },
+     {
+      "t": 5,
+      "accion": "une",
+      "de": "soderini",
+      "a": "dulzura"
+     },
+     {
+      "t": 5.5,
+      "accion": "subtitulo",
+      "texto": "Soderini gouvernait Florence avec douceur, franchise et compréhension."
+     },
+     {
+      "t": 8.5,
+      "accion": "aparece",
+      "actor": "principe"
+     },
+     {
+      "t": 9,
+      "accion": "aparece",
+      "actor": "tecnica"
+     },
+     {
+      "t": 9.5,
+      "accion": "une",
+      "de": "principe",
+      "a": "tecnica",
+      "nota": "ruse (renard), force (lion)"
+     },
+     {
+      "t": 11,
+      "accion": "tiembla",
+      "actor": "corona"
+     },
+     {
+      "t": 12,
+      "accion": "mueve",
+      "actor": "corona",
+      "a": [
+       0.75,
+       0.2
+      ],
+      "dur": 2.5
+     },
+     {
+      "t": 13,
+      "accion": "desaparece",
+      "actor": "soderini"
+     },
+     {
+      "t": 14,
+      "accion": "subtitulo",
+      "texto": "Soderini perdit le pouvoir : il préféra la douceur à la force et à la ruse."
+     },
+     {
+      "t": 17,
+      "accion": "aparece",
+      "actor": "moral"
+     },
+     {
+      "t": 17.5,
+      "accion": "dice",
+      "actor": "principe",
+      "texto": "La morale juge des principes ; moi, des résultats"
+     },
+     {
+      "t": 19.5,
+      "accion": "mueve",
+      "actor": "moral",
+      "a": [
+       0.5,
+       0.85
+      ],
+      "dur": 1.5
+     },
+     {
+      "t": 21,
+      "accion": "subtitulo",
+      "texto": "Politique et morale ne s’appliquent pas au même domaine : non pas immoralité, mais amoralité."
+     },
+     {
+      "t": 24,
+      "accion": "subtitulo",
+      "texto": "L’essentiel est de conserver le pouvoir ; le bien commun est le critère, non la bonté."
+     }
+    ]
+   }
+  },
+  {
+   "id": "hobbes",
+   "nombre": "Thomas Hobbes",
+   "epoca": "XVIIe siècle",
+   "tesis_principal": "L’État naît d’un contrat de soumission par lequel chacun cède volontairement sa liberté naturelle à un pouvoir fort et absolu (le Léviathan) en échange de protection et de paix civile.",
+   "ideas_clave": [
+    "État de nature (état de nature) : guerre de chacun contre chacun, peur constante, les forts imposent leur volonté",
+    "Contrat de soumission : il n’établit pas la démocratie mais un régime fort et absolu",
+    "Ce n’est pas une tyrannie : le pouvoir est choisi par les citoyens et ne s’impose pas par la force",
+    "Le Léviathan (monstre marin de la Bible) a pour rôle essentiel de protéger la vie de chaque citoyen",
+    "L’État peut exiger l’obéissance parce que c’est pour le bien de tous ; l’égalité des droits et la paix civile sont assurées"
+   ],
+   "citas": [
+    {
+     "texto": "état de guerre de chacun contre chacun […] où l’homme est un loup pour l’homme",
+     "idioma": "fr",
+     "obra": "Léviathan",
+     "pagina_pdf": 215
+    }
+   ],
+   "debate_con": [
+    "rousseau",
+    "machiavel"
+   ],
+   "como_usarlo_en_disertacion": "Comme première partie de « L’État rend-il libre ? » : l’État nous sort de l’état de nature et garantit la sécurité, première des libertés. Aussi pour opposer contrat de soumission et contrat d’association (Rousseau).",
+   "escena_sugerida": "Trois hommes effrayés signent un contrat et naît le Léviathan protecteur.",
+   "pagina_pdf": 215,
+   "escena": {
+    "titulo": "Hobbes : du chaos au Léviathan",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "h1",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.75
+      ],
+      "etiqueta": "Chacun",
+      "escala": 1
+     },
+     {
+      "id": "h2",
+      "tipo": "monigote",
+      "pos": [
+       0.4,
+       0.8
+      ],
+      "etiqueta": "Chacun",
+      "escala": 1
+     },
+     {
+      "id": "h3",
+      "tipo": "monigote",
+      "pos": [
+       0.65,
+       0.75
+      ],
+      "etiqueta": "Chacun",
+      "escala": 1
+     },
+     {
+      "id": "miedo",
+      "tipo": "rayo",
+      "pos": [
+       0.4,
+       0.45
+      ],
+      "etiqueta": "Peur, guerre",
+      "escala": 1
+     },
+     {
+      "id": "contrato",
+      "tipo": "libro",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "etiqueta": "Contrat",
+      "escala": 1
+     },
+     {
+      "id": "leviatan",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.85,
+       0.35
+      ],
+      "etiqueta": "Léviathan",
+      "escala": 1.4
+     },
+     {
+      "id": "vida",
+      "tipo": "corazon",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Vie protégée",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "h1"
+     },
+     {
+      "t": 0.3,
+      "accion": "aparece",
+      "actor": "h2"
+     },
+     {
+      "t": 0.6,
+      "accion": "aparece",
+      "actor": "h3"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "miedo"
+     },
+     {
+      "t": 2,
+      "accion": "tiembla",
+      "actor": "h1"
+     },
+     {
+      "t": 2.5,
+      "accion": "tiembla",
+      "actor": "h3"
+     },
+     {
+      "t": 3,
+      "accion": "subtitulo",
+      "texto": "Hobbes : dans l’état de nature règne la guerre de chacun contre chacun."
+     },
+     {
+      "t": 5.5,
+      "accion": "cita",
+      "texto": "état de guerre de chacun contre chacun […] où l’homme est un loup pour l’homme"
+     },
+     {
+      "t": 7.5,
+      "accion": "dice",
+      "actor": "h2",
+      "texto": "J’ai peur de tous !"
+     },
+     {
+      "t": 9,
+      "accion": "desaparece",
+      "actor": "miedo"
+     },
+     {
+      "t": 9.5,
+      "accion": "aparece",
+      "actor": "contrato"
+     },
+     {
+      "t": 10,
+      "accion": "subtitulo",
+      "texto": "Pour en sortir, chacun cède volontairement sa liberté naturelle."
+     },
+     {
+      "t": 12.5,
+      "accion": "proyecta",
+      "de": "h1",
+      "a": "contrato",
+      "nota": "liberté cédée"
+     },
+     {
+      "t": 13,
+      "accion": "proyecta",
+      "de": "h3",
+      "a": "contrato"
+     },
+     {
+      "t": 14,
+      "accion": "aparece",
+      "actor": "leviatan"
+     },
+     {
+      "t": 14.5,
+      "accion": "une",
+      "de": "contrato",
+      "a": "leviatan",
+      "nota": "pouvoir absolu choisi"
+     },
+     {
+      "t": 15.5,
+      "accion": "subtitulo",
+      "texto": "Contrat de soumission : un pouvoir fort et absolu, choisi par les citoyens, non imposé."
+     },
+     {
+      "t": 19,
+      "accion": "aparece",
+      "actor": "vida"
+     },
+     {
+      "t": 19.5,
+      "accion": "proyecta",
+      "de": "leviatan",
+      "a": "vida",
+      "nota": "protection"
+     },
+     {
+      "t": 21,
+      "accion": "dice",
+      "actor": "leviatan",
+      "texto": "Obéissez : c’est pour votre bien"
+     },
+     {
+      "t": 23,
+      "accion": "subtitulo",
+      "texto": "L’État protège la vie de chacun et assure la paix civile ; en échange il exige l’obéissance."
+     }
+    ]
+   }
+  },
+  {
+   "id": "rousseau",
+   "nombre": "Jean-Jacques Rousseau",
+   "epoca": "XVIIIe siècle",
+   "tesis_principal": "Nous ne pouvons pas aliéner notre liberté au nom de la sécurité : le contrat doit être d’association, de sorte que les hommes restent libres et égaux en n’obéissant qu’à la loi de tous.",
+   "ideas_clave": [
+    "Contrat d’association, non de soumission : on perd l’indépendance naturelle mais on reste libre",
+    "Chacun n’obéit qu’à la loi de tous (la loi), universelle parce qu’elle émane du peuple",
+    "La loi exclut les privilèges (ipso facto) et implique l’égalité : elle est la condition de la liberté politique, elle est libératrice",
+    "Pour que le droit soit respecté, il faut des consciences éclairées et des hommes éduqués"
+   ],
+   "citas": [
+    {
+     "texto": "Un peuple libre obéit, mais il ne […] il obéit aux lois mais […] il n’obéit qu’aux lois, et c’est par la […] force des lois qu’il n’obéit pas aux […]",
+     "idioma": "fr",
+     "obra": "Lettres écrites de la montagne, L. VIII",
+     "pagina_pdf": 215
+    }
+   ],
+   "debate_con": [
+    "hobbes",
+    "marx"
+   ],
+   "como_usarlo_en_disertacion": "Dans la deuxième partie de « L’État rend-il libre ? » : l’État fonde la liberté lorsque la loi procède de tous. Utile pour opposer contrat d’association et contrat de soumission, et pour souligner la nécessité de citoyens éduqués.",
+   "escena_sugerida": "Les citoyens rejettent la chaîne de la soumission et s’unissent autour de la loi de tous.",
+   "pagina_pdf": 215,
+   "escena": {
+    "titulo": "Rousseau : le contrat d’association",
+    "estilo": "monigotes",
+    "duracion_seg": 27,
+    "actores": [
+     {
+      "id": "c1",
+      "tipo": "monigote",
+      "pos": [
+       0.15,
+       0.8
+      ],
+      "etiqueta": "Citoyen",
+      "escala": 1
+     },
+     {
+      "id": "c2",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.85
+      ],
+      "etiqueta": "Citoyen",
+      "escala": 1
+     },
+     {
+      "id": "c3",
+      "tipo": "monigote",
+      "pos": [
+       0.85,
+       0.8
+      ],
+      "etiqueta": "Citoyen",
+      "escala": 1
+     },
+     {
+      "id": "cadena",
+      "tipo": "cadena",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Soumission",
+      "escala": 1
+     },
+     {
+      "id": "ley",
+      "tipo": "libro",
+      "pos": [
+       0.5,
+       0.45
+      ],
+      "etiqueta": "La loi de tous",
+      "escala": 1.2
+     },
+     {
+      "id": "privilegio",
+      "tipo": "corona",
+      "pos": [
+       0.88,
+       0.25
+      ],
+      "etiqueta": "Privilèges",
+      "escala": 1
+     },
+     {
+      "id": "luces",
+      "tipo": "bombilla",
+      "pos": [
+       0.2,
+       0.3
+      ],
+      "etiqueta": "Consciences éclairées",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "c1"
+     },
+     {
+      "t": 0.3,
+      "accion": "aparece",
+      "actor": "c2"
+     },
+     {
+      "t": 0.6,
+      "accion": "aparece",
+      "actor": "c3"
+     },
+     {
+      "t": 1.5,
+      "accion": "aparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Rousseau : on ne peut pas aliéner la liberté pour la sécurité, sinon on perd les deux."
+     },
+     {
+      "t": 4.5,
+      "accion": "tiembla",
+      "actor": "cadena"
+     },
+     {
+      "t": 5.5,
+      "accion": "desaparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 6,
+      "accion": "aparece",
+      "actor": "ley"
+     },
+     {
+      "t": 6.5,
+      "accion": "subtitulo",
+      "texto": "Le contrat doit être d’association, non de soumission."
+     },
+     {
+      "t": 9,
+      "accion": "une",
+      "de": "c1",
+      "a": "ley"
+     },
+     {
+      "t": 9.3,
+      "accion": "une",
+      "de": "c2",
+      "a": "ley"
+     },
+     {
+      "t": 9.6,
+      "accion": "une",
+      "de": "c3",
+      "a": "ley"
+     },
+     {
+      "t": 10.5,
+      "accion": "proyecta",
+      "de": "c2",
+      "a": "ley",
+      "nota": "la loi émane du peuple"
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "Chacun n’obéit qu’à la loi de tous, et tous sont égaux devant elle."
+     },
+     {
+      "t": 15,
+      "accion": "cita",
+      "texto": "il n’obéit qu’aux lois, et c’est par la force des lois qu’il n’obéit pas aux hommes."
+     },
+     {
+      "t": 17,
+      "accion": "aparece",
+      "actor": "privilegio"
+     },
+     {
+      "t": 18,
+      "accion": "tiembla",
+      "actor": "privilegio"
+     },
+     {
+      "t": 19,
+      "accion": "desaparece",
+      "actor": "privilegio"
+     },
+     {
+      "t": 19.5,
+      "accion": "subtitulo",
+      "texto": "Étant universelle, la loi exclut les privilèges et devient libératrice."
+     },
+     {
+      "t": 22.5,
+      "accion": "aparece",
+      "actor": "luces"
+     },
+     {
+      "t": 23,
+      "accion": "resalta",
+      "actor": "luces"
+     },
+     {
+      "t": 23.5,
+      "accion": "subtitulo",
+      "texto": "Mais le droit n’est respecté qu’avec des consciences éclairées et des hommes éduqués."
+     }
+    ]
+   }
+  },
+  {
+   "id": "sieyes",
+   "nombre": "Emmanuel-Joseph Sieyès",
+   "epoca": "XVIIIe siècle",
+   "tesis_principal": "Dans une perspective rationnelle et légaliste, la nation est un corps d’associés vivant sous une loi commune et représentés par une même législature : une unité spirituelle contractuelle qui intègre les différences au lieu d’exclure.",
+   "ideas_clave": [
+    "Nation comme corps d’associés sous une loi commune (conception contractuelle et légaliste)",
+    "Unité spirituelle fondée sur une association d’individus libres qui recherchent un bien partagé",
+    "La nation donne un contenu et un fondement spirituel à l’État, qui sinon ne serait qu’une pure structure formelle",
+    "Elle s’oppose à la conception naturaliste (sang, race) qui a débouché sur l’État totalitaire nazi",
+    "Patrie (idéal humaniste et universel) face au nationalisme (peur des autres cultures)"
+   ],
+   "citas": [
+    {
+     "texto": "un corps d’associés vivant sous une loi commune et représentée par une même législature",
+     "idioma": "fr",
+     "obra": "Qu’est-ce que le tiers-état ?",
+     "pagina_pdf": 213
+    }
+   ],
+   "debate_con": [
+    "tocqueville"
+   ],
+   "como_usarlo_en_disertacion": "Dans une partie sur les risques d’un État qui se referme sur lui-même (nationalisme), pour opposer la nation ouverte et contractuelle à la nation du sang. Aussi pour expliquer ce qui donne un contenu spirituel à l’État.",
+   "escena_sugerida": "Deux nations : celle du sang qui exclut et celle des associés sous une loi commune.",
+   "pagina_pdf": 213,
+   "escena": {
+    "titulo": "Sieyès : la nation, corps d’associés",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "sangre",
+      "tipo": "fuego",
+      "pos": [
+       0.2,
+       0.3
+      ],
+      "etiqueta": "Sang, « race »",
+      "escala": 1
+     },
+     {
+      "id": "extranjero",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.75
+      ],
+      "etiqueta": "L’« étranger »",
+      "escala": 1
+     },
+     {
+      "id": "puerta",
+      "tipo": "puerta",
+      "pos": [
+       0.35,
+       0.6
+      ],
+      "etiqueta": "Exclusion",
+      "escala": 1
+     },
+     {
+      "id": "a1",
+      "tipo": "monigote",
+      "pos": [
+       0.65,
+       0.8
+      ],
+      "etiqueta": "Associé",
+      "escala": 1
+     },
+     {
+      "id": "a2",
+      "tipo": "monigote",
+      "pos": [
+       0.8,
+       0.8
+      ],
+      "etiqueta": "Associé",
+      "escala": 1
+     },
+     {
+      "id": "a3",
+      "tipo": "monigote",
+      "pos": [
+       0.95,
+       0.8
+      ],
+      "etiqueta": "Associé",
+      "escala": 0.9
+     },
+     {
+      "id": "ley",
+      "tipo": "libro",
+      "pos": [
+       0.8,
+       0.5
+      ],
+      "etiqueta": "Loi commune",
+      "escala": 1
+     },
+     {
+      "id": "legislatura",
+      "tipo": "casa",
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "etiqueta": "Même législature",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "sangre"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "extranjero"
+     },
+     {
+      "t": 1,
+      "accion": "subtitulo",
+      "texto": "Une nation peut être comprise comme nature ou sang : la « race » donne sa valeur à l’être vivant."
+     },
+     {
+      "t": 4,
+      "accion": "aparece",
+      "actor": "puerta"
+     },
+     {
+      "t": 4.5,
+      "accion": "tiembla",
+      "actor": "extranjero"
+     },
+     {
+      "t": 5.5,
+      "accion": "subtitulo",
+      "texto": "Les nazis en sont venus à voir dans l’autre un corps étranger à éliminer : un État totalitaire est né."
+     },
+     {
+      "t": 9,
+      "accion": "desaparece",
+      "actor": "sangre"
+     },
+     {
+      "t": 9.3,
+      "accion": "desaparece",
+      "actor": "puerta"
+     },
+     {
+      "t": 9.6,
+      "accion": "desaparece",
+      "actor": "extranjero"
+     },
+     {
+      "t": 10.5,
+      "accion": "aparece",
+      "actor": "a1"
+     },
+     {
+      "t": 10.8,
+      "accion": "aparece",
+      "actor": "a2"
+     },
+     {
+      "t": 11.1,
+      "accion": "aparece",
+      "actor": "a3"
+     },
+     {
+      "t": 12,
+      "accion": "subtitulo",
+      "texto": "Sieyès, au contraire : la nation comme association contractuelle d’individus libres."
+     },
+     {
+      "t": 14.5,
+      "accion": "aparece",
+      "actor": "ley"
+     },
+     {
+      "t": 15,
+      "accion": "une",
+      "de": "a1",
+      "a": "ley"
+     },
+     {
+      "t": 15.3,
+      "accion": "une",
+      "de": "a2",
+      "a": "ley"
+     },
+     {
+      "t": 15.6,
+      "accion": "une",
+      "de": "a3",
+      "a": "ley"
+     },
+     {
+      "t": 16.5,
+      "accion": "aparece",
+      "actor": "legislatura"
+     },
+     {
+      "t": 17,
+      "accion": "une",
+      "de": "ley",
+      "a": "legislatura",
+      "nota": "représentation"
+     },
+     {
+      "t": 18,
+      "accion": "cita",
+      "texto": "un corps d’associés vivant sous une loi commune et représentée par une même législature"
+     },
+     {
+      "t": 20,
+      "accion": "subtitulo",
+      "texto": "Elle unit pour intégrer et accepter les différences, non pour exclure : voilà la patrie, non le nationalisme."
+     },
+     {
+      "t": 24,
+      "accion": "subtitulo",
+      "texto": "Gary : le patriotisme est l’amour des siens ; le nationalisme, la haine des autres."
+     }
+    ]
+   }
+  },
+  {
+   "id": "marx",
+   "nombre": "Karl Marx",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "L’État républicain est une tromperie objective : l’égalité des droits remplace les privilèges juridiques de la noblesse par des privilèges économiques bourgeois, et laisse intactes l’exploitation et l’aliénation.",
+   "ideas_clave": [
+    "Aux privilèges juridiques de l’Ancien Régime se substituent des privilèges économiques des « républiques bourgeoises »",
+    "Liberté et égalité sont des principes formels qui n’empêchent pas les inégalités sociales et économiques de croître",
+    "En donnant aux prolétaires le statut de citoyens, on leur donne l’illusion de nouveaux droits",
+    "L’État républicain universel est une fiction trompeuse : il reste des bourgeois et des prolétaires, des exploiteurs et des exploités",
+    "Ce ne serait pas une universalité dévorante (Bakounine) mais une « universalité illusoire »"
+   ],
+   "citas": [
+    {
+     "texto": "républiques bourgeoises",
+     "idioma": "fr",
+     "obra": "Marx (citado en el cours)",
+     "pagina_pdf": 216
+    }
+   ],
+   "debate_con": [
+    "rousseau",
+    "tocqueville"
+   ],
+   "como_usarlo_en_disertacion": "Dans une partie critique de « L’État rend-il libre ? » : l’État républicain proclame l’égalité mais consolide des privilèges économiques. Utile pour questionner l’idée que l’égalité juridique suffise à la liberté réelle.",
+   "escena_sugerida": "La loi proclame l’égalité des droits, mais le prolétaire porte toujours la chaîne et le bourgeois la pièce.",
+   "pagina_pdf": 216,
+   "escena": {
+    "titulo": "Marx : l’égalité des droits, une mystification",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "noble",
+      "tipo": "corona",
+      "pos": [
+       0.15,
+       0.25
+      ],
+      "etiqueta": "Privilèges juridiques",
+      "escala": 1
+     },
+     {
+      "id": "ley",
+      "tipo": "libro",
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "etiqueta": "Égalité des droits",
+      "escala": 1.2
+     },
+     {
+      "id": "burgues",
+      "tipo": "monigote",
+      "pos": [
+       0.25,
+       0.75
+      ],
+      "etiqueta": "Le bourgeois",
+      "escala": 1
+     },
+     {
+      "id": "proletario",
+      "tipo": "monigote",
+      "pos": [
+       0.75,
+       0.75
+      ],
+      "etiqueta": "Le prolétaire",
+      "escala": 1
+     },
+     {
+      "id": "dinero",
+      "tipo": "moneda",
+      "pos": [
+       0.25,
+       0.5
+      ],
+      "etiqueta": "Privilèges économiques",
+      "escala": 1
+     },
+     {
+      "id": "cadena",
+      "tipo": "cadena",
+      "pos": [
+       0.75,
+       0.5
+      ],
+      "etiqueta": "Aliénation",
+      "escala": 1
+     },
+     {
+      "id": "mascara",
+      "tipo": "espejo",
+      "pos": [
+       0.5,
+       0.5
+      ],
+      "etiqueta": "Illusion",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "noble"
+     },
+     {
+      "t": 0.5,
+      "accion": "subtitulo",
+      "texto": "Marx : autrefois, privilèges juridiques de la noblesse de l’Ancien Régime."
+     },
+     {
+      "t": 3,
+      "accion": "desaparece",
+      "actor": "noble"
+     },
+     {
+      "t": 3.5,
+      "accion": "aparece",
+      "actor": "ley"
+     },
+     {
+      "t": 4,
+      "accion": "subtitulo",
+      "texto": "La République proclame tous les hommes libres et égaux en droits."
+     },
+     {
+      "t": 6.5,
+      "accion": "aparece",
+      "actor": "burgues"
+     },
+     {
+      "t": 6.8,
+      "accion": "aparece",
+      "actor": "proletario"
+     },
+     {
+      "t": 7.5,
+      "accion": "dice",
+      "actor": "proletario",
+      "texto": "Maintenant, je suis citoyen !"
+     },
+     {
+      "t": 9,
+      "accion": "aparece",
+      "actor": "mascara"
+     },
+     {
+      "t": 9.5,
+      "accion": "subtitulo",
+      "texto": "Mais les principes sont formels : le prolétaire n’a que l’illusion de nouveaux droits."
+     },
+     {
+      "t": 12.5,
+      "accion": "aparece",
+      "actor": "dinero"
+     },
+     {
+      "t": 13,
+      "accion": "aparece",
+      "actor": "cadena"
+     },
+     {
+      "t": 13.5,
+      "accion": "une",
+      "de": "burgues",
+      "a": "dinero"
+     },
+     {
+      "t": 14,
+      "accion": "une",
+      "de": "proletario",
+      "a": "cadena"
+     },
+     {
+      "t": 15,
+      "accion": "proyecta",
+      "de": "proletario",
+      "a": "burgues",
+      "nota": "exploitation"
+     },
+     {
+      "t": 16,
+      "accion": "subtitulo",
+      "texto": "Les conditions réelles ne changent pas : il reste des bourgeois et des prolétaires, des exploiteurs et des exploités."
+     },
+     {
+      "t": 19.5,
+      "accion": "tiembla",
+      "actor": "mascara"
+     },
+     {
+      "t": 20,
+      "accion": "cita",
+      "texto": "« républiques bourgeoises » : l’égalité des droits, une simple mystification"
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "L’État républicain universel serait une fiction trompeuse : une universalité illusoire."
+     }
+    ]
+   }
+  },
+  {
+   "id": "tocqueville",
+   "nombre": "Alexis de Tocqueville",
+   "epoca": "XIXe siècle",
+   "tesis_principal": "L’égalité des conditions est un idéal louable, mais la « passion de l’égalité » peut dégénérer en un égalitarisme dangereux pour la démocratie et pour la liberté de chacun.",
+   "ideas_clave": [
+    "Passion de l’égalité (passion de l’égalité) : puissant idéal démocratique qui engendre des risques",
+    "L’égalitarisme recherche une égalité mathématique et mène à un monde uniforme où les différences disparaissent",
+    "Il existe aussi un égalitarisme culturel : nivellement par le bas et éloge de l’ignorance, avec mépris des plus faibles",
+    "Un État peut obliger à nier les différences ; cela mène à une « tyrannie de la majorité »",
+    "Les lois abstraites républicaines ne sont pas en soi un défaut : elles permettent de ne pas être réduit à ses origines naturelles ou sociales"
+   ],
+   "citas": [
+    {
+     "texto": "passion de l’égalité",
+     "idioma": "fr",
+     "obra": "De la démocratie en Amérique",
+     "pagina_pdf": 216
+    },
+    {
+     "texto": "tyrannie de la majorité",
+     "idioma": "fr",
+     "obra": "De la démocratie en Amérique",
+     "pagina_pdf": 224
+    }
+   ],
+   "debate_con": [
+    "marx",
+    "montesquieu"
+   ],
+   "como_usarlo_en_disertacion": "Dans une partie qui montre que l’égalité et la liberté peuvent entrer en conflit, ou qu’un État démocratique peut lui aussi réduire les libertés (« tyrannie de la majorité »). Idéal pour l’axe égalité-liberté.",
+   "escena_sugerida": "Un désir d’égalité aplatit les individus jusqu’à les rendre identiques.",
+   "pagina_pdf": 216,
+   "escena": {
+    "titulo": "Tocqueville : la passion de l’égalité",
+    "estilo": "monigotes",
+    "duracion_seg": 25,
+    "actores": [
+     {
+      "id": "p1",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.7
+      ],
+      "etiqueta": "Singularité",
+      "escala": 1.3
+     },
+     {
+      "id": "p2",
+      "tipo": "monigote",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": "Singularité",
+      "escala": 0.8
+     },
+     {
+      "id": "p3",
+      "tipo": "monigote",
+      "pos": [
+       0.8,
+       0.7
+      ],
+      "etiqueta": "Singularité",
+      "escala": 1
+     },
+     {
+      "id": "flor",
+      "tipo": "flor",
+      "pos": [
+       0.5,
+       0.45
+      ],
+      "etiqueta": "Différences",
+      "escala": 1
+     },
+     {
+      "id": "igualdad",
+      "tipo": "balanza",
+      "pos": [
+       0.5,
+       0.15
+      ],
+      "etiqueta": "Égalité",
+      "escala": 1.2
+     },
+     {
+      "id": "martillo",
+      "tipo": "martillo",
+      "pos": [
+       0.8,
+       0.35
+      ],
+      "etiqueta": "Égalitarisme",
+      "escala": 1.2
+     },
+     {
+      "id": "estado",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.12,
+       0.3
+      ],
+      "etiqueta": "L’État",
+      "escala": 1.2
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "p1"
+     },
+     {
+      "t": 0.3,
+      "accion": "aparece",
+      "actor": "p2"
+     },
+     {
+      "t": 0.6,
+      "accion": "aparece",
+      "actor": "p3"
+     },
+     {
+      "t": 1.2,
+      "accion": "aparece",
+      "actor": "flor"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Tocqueville : une société d’hommes différents, chacun avec sa singularité."
+     },
+     {
+      "t": 4.5,
+      "accion": "aparece",
+      "actor": "igualdad"
+     },
+     {
+      "t": 5,
+      "accion": "resalta",
+      "actor": "igualdad"
+     },
+     {
+      "t": 5.5,
+      "accion": "subtitulo",
+      "texto": "L’égalité des conditions est un idéal louable..."
+     },
+     {
+      "t": 8,
+      "accion": "cita",
+      "texto": "passion de l’égalité"
+     },
+     {
+      "t": 9,
+      "accion": "aparece",
+      "actor": "martillo"
+     },
+     {
+      "t": 9.5,
+      "accion": "tiembla",
+      "actor": "flor"
+     },
+     {
+      "t": 10.5,
+      "accion": "subtitulo",
+      "texto": "...mais la passion de l’égalité veut une égalité mathématique et écrase les différences."
+     },
+     {
+      "t": 12.5,
+      "accion": "desaparece",
+      "actor": "flor"
+     },
+     {
+      "t": 13,
+      "accion": "mueve",
+      "actor": "p1",
+      "a": [
+       0.2,
+       0.75
+      ],
+      "dur": 1
+     },
+     {
+      "t": 13,
+      "accion": "mueve",
+      "actor": "p3",
+      "a": [
+       0.8,
+       0.75
+      ],
+      "dur": 1
+     },
+     {
+      "t": 14,
+      "accion": "etiqueta",
+      "actor": "p1",
+      "texto": "Uniforme"
+     },
+     {
+      "t": 14,
+      "accion": "etiqueta",
+      "actor": "p2",
+      "texto": "Uniforme"
+     },
+     {
+      "t": 14,
+      "accion": "etiqueta",
+      "actor": "p3",
+      "texto": "Uniforme"
+     },
+     {
+      "t": 15,
+      "accion": "subtitulo",
+      "texto": "Résultat : un monde uniforme, avec nivellement par le bas et mépris des plus faibles."
+     },
+     {
+      "t": 18,
+      "accion": "aparece",
+      "actor": "estado"
+     },
+     {
+      "t": 18.5,
+      "accion": "proyecta",
+      "de": "estado",
+      "a": "p2",
+      "nota": "majorité"
+     },
+     {
+      "t": 20,
+      "accion": "cita",
+      "texto": "tyrannie de la majorité"
+     },
+     {
+      "t": 22,
+      "accion": "subtitulo",
+      "texto": "Au nom de l’égalité, la liberté de chacun est en danger."
+     }
+    ]
+   }
+  },
+  {
+   "id": "montesquieu",
+   "nombre": "Montesquieu",
+   "epoca": "XVIIIe siècle",
+   "tesis_principal": "La devise républicaine (liberté, égalité, fraternité) est un idéal et une exigence que le citoyen se pose à lui-même, non un fait établi ; et un État sans aucun conflit est le signe que la liberté n’existe pas.",
+   "ideas_clave": [
+    "La devise républicaine n’est pas un dogme imposé mais une exigence des citoyens envers eux-mêmes",
+    "Chacun a sa propre conception de la liberté, de l’égalité et de la fraternité : les désaccords et les affrontements nourrissent l’esprit démocratique",
+    "L’État n’impose pas les trois principes ; il doit tout faire pour garantir leur existence",
+    "Il faut se méfier de toute conception irénique de l’État qui minimise les conflits",
+    "Le bien-être est subjectif et relève de la vie privée : il n’intéresse qu’un État totalitaire qui veut tout réguler"
+   ],
+   "citas": [
+    {
+     "texto": "Quand dans un État, vous […] ne percevez le bruit d’aucun […] conflit, vous pouvez être sûr […] que la liberté n’y est pas.",
+     "idioma": "fr",
+     "obra": "Grandeur et décadence des Romains, VIII",
+     "pagina_pdf": 217
+    }
+   ],
+   "debate_con": [
+    "tocqueville"
+   ],
+   "como_usarlo_en_disertacion": "Dans la dernière partie d’un plan sur l’État : la liberté se maintient par le conflit et la vigilance des citoyens, et l’État est toujours perfectible. Sert à critiquer l’État qui proclame l’harmonie et le bonheur de tous.",
+   "escena_sugerida": "Un État silencieux est une liberté fermée : le conflit ouvre la porte.",
+   "pagina_pdf": 217,
+   "escena": {
+    "titulo": "Montesquieu : le conflit, signe de liberté",
+    "estilo": "monigotes",
+    "duracion_seg": 26,
+    "actores": [
+     {
+      "id": "estado",
+      "tipo": "silueta_grande",
+      "pos": [
+       0.5,
+       0.3
+      ],
+      "etiqueta": "L’État",
+      "escala": 1.4
+     },
+     {
+      "id": "c1",
+      "tipo": "monigote",
+      "pos": [
+       0.2,
+       0.8
+      ],
+      "etiqueta": "Citoyen",
+      "escala": 1
+     },
+     {
+      "id": "c2",
+      "tipo": "monigote",
+      "pos": [
+       0.8,
+       0.8
+      ],
+      "etiqueta": "Citoyen",
+      "escala": 1
+     },
+     {
+      "id": "puerta",
+      "tipo": "puerta",
+      "pos": [
+       0.5,
+       0.75
+      ],
+      "etiqueta": "Liberté",
+      "escala": 1
+     },
+     {
+      "id": "rayo",
+      "tipo": "rayo",
+      "pos": [
+       0.5,
+       0.55
+      ],
+      "etiqueta": "Conflit",
+      "escala": 1
+     },
+     {
+      "id": "devise",
+      "tipo": "bandera",
+      "pos": [
+       0.12,
+       0.3
+      ],
+      "etiqueta": "Liberté, égalité, fraternité",
+      "escala": 1
+     }
+    ],
+    "pasos": [
+     {
+      "t": 0,
+      "accion": "aparece",
+      "actor": "estado"
+     },
+     {
+      "t": 0.5,
+      "accion": "aparece",
+      "actor": "c1"
+     },
+     {
+      "t": 0.8,
+      "accion": "aparece",
+      "actor": "c2"
+     },
+     {
+      "t": 1.2,
+      "accion": "aparece",
+      "actor": "puerta"
+     },
+     {
+      "t": 2,
+      "accion": "subtitulo",
+      "texto": "Un État où tout est calme : personne ne discute, personne ne s’affronte."
+     },
+     {
+      "t": 5,
+      "accion": "cita",
+      "texto": "Quand dans un État, vous ne percevez le bruit d’aucun conflit, vous pouvez être sûr que la liberté n’y est pas."
+     },
+     {
+      "t": 8,
+      "accion": "subtitulo",
+      "texto": "Montesquieu : sans aucun conflit, la liberté n’existe pas."
+     },
+     {
+      "t": 10.5,
+      "accion": "aparece",
+      "actor": "rayo"
+     },
+     {
+      "t": 11,
+      "accion": "dice",
+      "actor": "c1",
+      "texto": "Pour moi, la liberté, c’est ceci"
+     },
+     {
+      "t": 12.5,
+      "accion": "dice",
+      "actor": "c2",
+      "texto": "Moi, je comprends l’égalité ainsi"
+     },
+     {
+      "t": 14,
+      "accion": "resalta",
+      "actor": "puerta"
+     },
+     {
+      "t": 14.5,
+      "accion": "subtitulo",
+      "texto": "Chacun comprend différemment la liberté et l’égalité : les chocs nourrissent l’esprit démocratique."
+     },
+     {
+      "t": 18,
+      "accion": "aparece",
+      "actor": "devise"
+     },
+     {
+      "t": 18.5,
+      "accion": "resalta",
+      "actor": "devise"
+     },
+     {
+      "t": 19,
+      "accion": "subtitulo",
+      "texto": "La devise républicaine n’est ni un fait ni un dogme : c’est un idéal et une exigence des citoyens."
+     },
+     {
+      "t": 22.5,
+      "accion": "subtitulo",
+      "texto": "L’État doit garantir ces principes, non les imposer ; il est toujours perfectible."
+     }
+    ]
+   }
+  }
+ ],
+ "relaciones": [
+  {
+   "de": "hobbes",
+   "a": "rousseau",
+   "tipo": "se opone",
+   "nota": "Contrat de soumission à un pouvoir absolu face à un contrat d’association qui préserve la liberté."
+  },
+  {
+   "de": "machiavel",
+   "a": "hobbes",
+   "tipo": "complementa",
+   "nota": "Machiavel ne pose pas la légitimité de l’État ; les philosophes du contrat la lui attribuent."
+  },
+  {
+   "de": "machiavel",
+   "a": "rousseau",
+   "tipo": "complementa",
+   "nota": "Machiavel, dans ses Discours, rappelle que le prince doit tenir compte de la souveraineté du peuple, que Rousseau érige en fondement de la légitimité."
+  },
+  {
+   "de": "weber",
+   "a": "pascal",
+   "tipo": "complementa",
+   "nota": "Le pouvoir légal (Weber) sépare l’homme de la fonction, comme le demande Pascal."
+  },
+  {
+   "de": "marx",
+   "a": "rousseau",
+   "tipo": "se opone",
+   "nota": "Marx dénonce l’égalité juridique comme une mystification qui maintient les privilèges économiques."
+  },
+  {
+   "de": "tocqueville",
+   "a": "marx",
+   "tipo": "complementa",
+   "nota": "Tous deux analysent les limites de l’État républicain : Marx l’inégalité réelle, Tocqueville les risques de l’égalitarisme."
+  },
+  {
+   "de": "montesquieu",
+   "a": "tocqueville",
+   "tipo": "complementa",
+   "nota": "Face au danger d’uniformité, le conflit et le désaccord préservent la liberté."
+  },
+  {
+   "de": "sieyes",
+   "a": "rousseau",
+   "tipo": "complementa",
+   "nota": "La nation comme association contractuelle d’individus libres rappelle le contrat d’association."
+  },
+  {
+   "de": "sieyes",
+   "a": "nation",
+   "tipo": "influye",
+   "nota": "Sieyès définit la nation contractuelle face à la nation naturaliste."
+  },
+  {
+   "de": "machiavel",
+   "a": "autonomie-politique",
+   "tipo": "influye",
+   "nota": "Machiavel établit l’amoralité du politique."
+  },
+  {
+   "de": "weber",
+   "a": "pouvoir-legal",
+   "tipo": "influye",
+   "nota": "Weber identifie le pouvoir légal comme forme étatique."
+  },
+  {
+   "de": "tocqueville",
+   "a": "egalitarisme",
+   "tipo": "influye",
+   "nota": "Tocqueville décrit les risques de la passion de l’égalité."
+  }
+ ],
+ "quiz": [
+  {
+   "pregunta": "Pascal distingue les grandeurs naturelles et les grandeurs… :",
+   "opciones": [
+    "d’âme.",
+    "morales.",
+    "d’établissement.",
+    "religieuses."
+   ],
+   "correcta": 2,
+   "explicacion": "Le cours : Pascal distingue les « grandeurs d’établissement », instituées par les hommes, et les « grandeurs naturelles ».",
+   "filosofo": "pascal",
+   "pagina_pdf": 212
+  },
+  {
+   "pregunta": "Selon Weber, les origines du pouvoir peuvent se trouver dans la tradition, la loi et… :",
+   "opciones": [
+    "la force.",
+    "le charisme.",
+    "la naïveté.",
+    "la richesse."
+   ],
+   "correcta": 1,
+   "explicacion": "Weber distingue pouvoir traditionnel, pouvoir charismatique et pouvoir légal (corrigé : 2 b).",
+   "filosofo": "weber",
+   "pagina_pdf": 212
+  },
+  {
+   "pregunta": "Quel type d’États distingue-t-on communément des États centralisés ?",
+   "opciones": [
+    "Communautaires.",
+    "Fédéraux.",
+    "Régionaux.",
+    "Totalitaires."
+   ],
+   "correcta": 1,
+   "explicacion": "Le cours cite les États fédéraux (États-Unis, Allemagne) où le pouvoir est décentralisé, même s’il y a une capitale et un espace juridique commun (corrigé : 3 b).",
+   "filosofo": null,
+   "pagina_pdf": 213
+  },
+  {
+   "pregunta": "Pour garantir un État démocratique, il faut favoriser… :",
+   "opciones": [
+    "Les conflits.",
+    "La mise en accord de tous.",
+    "Le jeu des pouvoirs.",
+    "Le bonheur de chacun."
+   ],
+   "correcta": 0,
+   "explicacion": "Selon Montesquieu, les désaccords et les affrontements nourrissent l’esprit démocratique (corrigé : 4 a).",
+   "filosofo": "montesquieu",
+   "pagina_pdf": 217
+  },
+  {
+   "pregunta": "Selon Machiavel, la politique est à distinguer… :",
+   "opciones": [
+    "du droit.",
+    "de la ruse.",
+    "de la morale.",
+    "de la nation."
+   ],
+   "correcta": 2,
+   "explicacion": "Machiavel sépare le politique du religieux et de la morale : il y a amoralité du politique (corrigé : 5 c).",
+   "filosofo": "machiavel",
+   "pagina_pdf": 213
+  },
+  {
+   "pregunta": "Pour Machiavel, qu’est-ce qui se trouve en inadéquation avec l’exercice du pouvoir ?",
+   "opciones": [
+    "La douceur et la compréhension.",
+    "Mettre en place des stratégies politiques.",
+    "L’absence de compassion.",
+    "L’usage de la ruse."
+   ],
+   "correcta": 0,
+   "explicacion": "Piero Soderini perdit le pouvoir pour avoir préféré la douceur, la franchise et la compréhension à la force et à la ruse (corrigé : 6 a).",
+   "filosofo": "machiavel",
+   "pagina_pdf": 213
+  },
+  {
+   "pregunta": "Dans l’état de nature, l’homme est, selon Hobbes… :",
+   "opciones": [
+    "bon avec son prochain.",
+    "totalement innocent.",
+    "un loup pour l’homme.",
+    "un être libre et pacifique."
+   ],
+   "correcta": 2,
+   "explicacion": "Hobbes : l’état de nature est un « état de guerre de chacun contre chacun » où « l’homme est un loup pour l’homme » (corrigé : 7 c).",
+   "filosofo": "hobbes",
+   "pagina_pdf": 215
+  },
+  {
+   "pregunta": "Pour Rousseau, comment doit être le contrat social ?",
+   "opciones": [
+    "D’association.",
+    "De protection.",
+    "De soumission.",
+    "De domination."
+   ],
+   "correcta": 0,
+   "explicacion": "Rousseau rejette le contrat de soumission de Hobbes : il doit être d’association pour que les hommes restent libres et égaux (corrigé : 8 a).",
+   "filosofo": "rousseau",
+   "pagina_pdf": 215
+  },
+  {
+   "pregunta": "Comment est perçu par Marx l’État républicain ?",
+   "opciones": [
+    "Un idéal louable.",
+    "Une universalité illusoire.",
+    "Un principe à défendre.",
+    "Une universalité dévorante."
+   ],
+   "correcta": 1,
+   "explicacion": "Pour Marx, l’État républicain est une tromperie objective, une « universalité illusoire » et non une universalité dévorante (Bakounine) (corrigé : 9 b).",
+   "filosofo": "marx",
+   "pagina_pdf": 216
+  },
+  {
+   "pregunta": "Quel danger peut engendrer l’égalitarisme ?",
+   "opciones": [
+    "L’élection d’un tyran.",
+    "Le renversement de l’État.",
+    "La disparition des singularités.",
+    "L’augmentation des privilèges."
+   ],
+   "correcta": 2,
+   "explicacion": "L’égalitarisme, qui recherche une égalité mathématique, mène à un monde uniforme où les différences disparaissent (Tocqueville) (corrigé : 10 c).",
+   "filosofo": "tocqueville",
+   "pagina_pdf": 216
+  },
+  {
+   "pregunta": "Selon le cours, quand l’État apparaît-il au sens de l’institutionnalisation du pouvoir ?",
+   "opciones": [
+    "Quand un chef charismatique réunit tout le pouvoir.",
+    "Quand le pouvoir n’est plus détenu par un homme et que l’on distingue le pouvoir institué de celui qui en est investi.",
+    "Quand la tradition familiale fixe la filiation.",
+    "Quand le peuple renonce à sa souveraineté."
+   ],
+   "correcta": 1,
+   "explicacion": "Définition du cours : l’État commence à apparaître quand on distingue le pouvoir institué de celui qui l’exerce (citant Weil).",
+   "filosofo": "weber",
+   "pagina_pdf": 212
+  },
+  {
+   "pregunta": "Selon le cours, la devise de l’État républicain (liberté, égalité, fraternité) est avant tout… :",
+   "opciones": [
+    "un fait établi que les citoyens doivent accepter.",
+    "un dogme imposé par l’État.",
+    "un idéal et une exigence que l’on se pose.",
+    "une garantie du bonheur de chacun."
+   ],
+   "correcta": 2,
+   "explicacion": "Le cours : ce n’est ni un dogme ni un fait établi, mais un idéal et une exigence des citoyens envers eux-mêmes (Montesquieu).",
+   "filosofo": "montesquieu",
+   "pagina_pdf": 217
+  }
+ ],
+ "preguntas_abiertas": [
+  {
+   "enunciado": "Hobbes et Rousseau défendent-ils le même contrat fondateur de l’État ?",
+   "puntos_clave": [
+    "Tous deux fondent la légitimité de l’État sur un contrat : le pouvoir ne vient ni de Dieu ni de la nature mais de conventions humaines (souveraineté du peuple)",
+    "Hobbes : l’état de nature est une guerre de tous contre tous ; on signe un contrat de soumission à un pouvoir fort et absolu (le Léviathan) qui protège la vie",
+    "Rousseau : on ne peut pas aliéner la liberté pour la sécurité ; le contrat doit être d’association et chacun n’obéit qu’à la loi de tous",
+    "Pour Rousseau, la loi, universelle, exclut les privilèges et est condition de la liberté politique",
+    "Que le peuple soit le fondement ne signifie pas qu’il exerce le pouvoir : tous les contrats ne mènent pas à un régime démocratique"
+   ],
+   "filosofos": [
+    "hobbes",
+    "rousseau"
+   ],
+   "pagina_pdf": 215
+  },
+  {
+   "enunciado": "Pourquoi, selon Machiavel, l’État n’a-t-il pas de fondement moral ?",
+   "puntos_clave": [
+    "Machiavel refuse de fonder le pouvoir sur des principes métaphysiques ou religieux : prendre et conserver le pouvoir est une question de technique",
+    "Il distingue le politique du religieux et de la morale : il n’y a pas immoralité mais amoralité du politique",
+    "La morale juge les actions selon des principes ; la politique ne vaut que par ses résultats (le bien commun)",
+    "Le prince doit s’adapter aux circonstances, jouer avec les apparences (renard et lion) ; exemple de Piero Soderini à Florence",
+    "Les seules valeurs acceptables sont l’unité du pays et son indépendance ; Machiavel ne pose pas la question de la légitimité, que reprennent les philosophes du contrat"
+   ],
+   "filosofos": [
+    "machiavel",
+    "hobbes",
+    "rousseau"
+   ],
+   "pagina_pdf": 213
+  },
+  {
+   "enunciado": "Pourquoi l’État républicain est-il, pour Marx, une tromperie objective ?",
+   "puntos_clave": [
+    "Après la Révolution française, aux privilèges juridiques de la noblesse se substituent des privilèges économiques des « républiques bourgeoises »",
+    "Liberté et égalité sont des principes formels qui n’empêchent pas les inégalités sociales et économiques de croître",
+    "Donner aux prolétaires le statut de citoyens leur donne l’illusion de nouveaux droits et renforce les privilèges des bourgeois",
+    "L’État républicain universel serait une fiction trompeuse : une « universalité illusoire », non une universalité dévorante comme le croit Bakounine",
+    "Nuance du cours : Tocqueville met en garde, par ailleurs, contre le danger opposé de l’égalitarisme"
+   ],
+   "filosofos": [
+    "marx",
+    "tocqueville"
+   ],
+   "pagina_pdf": 216
+  },
+  {
+   "enunciado": "Quels sont les éléments du pacte social ? Ne consiste-t-il pas à céder un peu de sa liberté et de ses propriétés pour assurer et maintenir ce que l’on conserve de l’un et de l’autre ? (Sade, « Français, encore un effort si vous voulez être républicains ») Rédigez l’introduction de l’explication.",
+   "puntos_clave": [
+    "Thème général : la politique et, plus précisément, le contrat social fondateur de la souveraineté",
+    "Thèse : le pacte social, à l’origine instrument de libération et de justice sociale, est dévoyé lorsque seuls les co-contractants les plus forts y trouvent intérêt et que les faibles n’y gagnent rien",
+    "Conséquence logique : les faibles tombent dans le parjure et la violation d’un contrat fondé sur la tromperie ou l’usurpation",
+    "Structure : première partie (jusqu’à « ce qui lui reste », ligne 7) sur ce qui rend possible un contrat juste et ses contraintes nécessaires et légitimes",
+    "Deuxième partie (à partir de « mais, encore une fois ») : Sade interpelle les législateurs pour avoir fondé le contrat sur une inégalité de fait ; il justifie la violence des faibles et ôte toute légitimité à leur condamnation"
+   ],
+   "filosofos": [
+    "rousseau",
+    "hobbes"
+   ],
+   "pagina_pdf": 225
+  }
+ ],
+ "disertaciones": [
+  {
+   "sujeto": "L’État rend-il libre ?",
+   "tipo_plan": "dialectique",
+   "problematica": "L’État nous protège de la violence de l’état de nature et fonde la liberté par la loi, mais il peut aussi réduire les libertés, même en démocratie. Qui garantit alors la liberté réelle : l’État ou les citoyens ?",
+   "plan": [
+    {
+     "parte": "I. L’État est le résultat de la disparition de l’état de nature et des rapports de force",
+     "idea": "L’État fait passer de l’état de nature, de peur et de violence, à un état civil pacifié où la loi permet l’usage légitime de la liberté ; la sécurité est la première des libertés, surtout pour les faibles.",
+     "autores": [
+      "hobbes",
+      "rousseau"
+     ],
+     "ejemplo": "L’état de nature comme « état de guerre de chacun contre chacun » (Hobbes)."
+    },
+    {
+     "parte": "II. Un État, même démocratique, peut se renfermer sur lui-même et limiter les libertés",
+     "idea": "Un État peut se replier dans le nationalisme, la raison d’État, ou légiférer sur tout au nom de la sécurité ou du bien-être, jusqu’à une « tyrannie de la majorité ».",
+     "autores": [
+      "tocqueville",
+      "sieyes",
+      "marx"
+     ],
+     "ejemplo": "La guerre d’Algérie après la période vichyste : torture et assassinat d’opposants au nom de prétendus intérêts d’État."
+    },
+    {
+     "parte": "III. Les citoyens sont les garants du maintien de leurs libertés individuelles",
+     "idea": "L’État n’est que garant de la liberté ; celle-ci est réelle si les citoyens, vigilants et informés, obligent les gouvernants à la respecter, et élisent et surveillent leurs représentants.",
+     "autores": [
+      "montesquieu",
+      "rousseau"
+     ],
+     "ejemplo": "Les citoyens comme « vigies de la République » (Victor Basch)."
+    }
+   ],
+   "pagina_pdf": 223
+  },
+  {
+   "sujeto": "Peut-on obéir à l’État sans renoncer à sa liberté ?",
+   "tipo_plan": "dialectique",
+   "problematica": "L’État exige l’obéissance, mais le citoyen cède-t-il sa liberté en obéissant ? Les philosophes du contrat répondent de manière opposée, et la distinction entre l’homme et la fonction nuance le problème.",
+   "plan": [
+    {
+     "parte": "I. Obéir à l’État suppose de céder sa liberté pour être protégé",
+     "idea": "Pour Hobbes, le contrat de soumission échange la liberté naturelle contre la protection de la vie : l’État peut exiger l’obéissance parce que c’est pour le bien de tous.",
+     "autores": [
+      "hobbes",
+      "pascal"
+     ],
+     "ejemplo": "Le Léviathan qui protège la vie de chaque citoyen ; respect de la fonction (Pascal)."
+    },
+    {
+     "parte": "II. Obéir à la loi de tous, c’est rester libre",
+     "idea": "Pour Rousseau, on ne peut pas aliéner la liberté pour la sécurité : avec un contrat d’association, on n’obéit qu’à la loi, qui vient du peuple et est égale pour tous.",
+     "autores": [
+      "rousseau"
+     ],
+     "ejemplo": "« il n’obéit qu’aux lois, et c’est par la force des lois qu’il n’obéit pas aux hommes »."
+    },
+    {
+     "parte": "III. L’obéissance exige vigilance",
+     "idea": "Le pouvoir, même élu, peut abuser ou se fonder sur une illusion ; il faut observer comment il s’exerce et au nom de quelles valeurs il s’impose.",
+     "autores": [
+      "marx",
+      "machiavel",
+      "montesquieu"
+     ],
+     "ejemplo": "Le pacte qui n’enchaîne que le faible (texte de Sade) ; les intentions des dirigeants se révèlent dans les moments cruciaux (guerre, révolution)."
+    }
+   ],
+   "pagina_pdf": 211
+  },
+  {
+   "sujeto": "L’égalité menace-t-elle la liberté ?",
+   "tipo_plan": "progressif",
+   "problematica": "L’égalité républicaine est un idéal louable, mais on peut craindre que, poussée à l’extrême, elle uniformise et supprime les singularités. La liberté doit-elle céder devant l’égalité, ou se nourrissent-elles mutuellement ?",
+   "plan": [
+    {
+     "parte": "I. L’égalité des droits libère",
+     "idea": "La loi abstraite et universelle évite de réduire chacun à ses origines naturelles ou sociales et exclut les privilèges.",
+     "autores": [
+      "rousseau"
+     ],
+     "ejemplo": "En ayant les mêmes droits que les hommes, les femmes ne sont pas réduites à leur genre."
+    },
+    {
+     "parte": "II. Mais la passion de l’égalité devient égalitarisme",
+     "idea": "Une égalité mathématique conduit à un monde uniforme, avec un nivellement culturel par le bas, et un État peut obliger à nier les différences.",
+     "autores": [
+      "tocqueville"
+     ],
+     "ejemplo": "« ce qui fait de l’État un enfer, c’est que l’homme essaie d’en faire un paradis » (Hölderlin)."
+    },
+    {
+     "parte": "III. Liberté et égalité restent des exigences à nourrir par le conflit",
+     "idea": "Le formel ne suffit pas (Marx) et la devise républicaine est un idéal toujours perfectible : ses désaccords nourrissent l’esprit démocratique.",
+     "autores": [
+      "marx",
+      "montesquieu"
+     ],
+     "ejemplo": "« Quand dans un État, vous ne percevez le bruit d’aucun conflit, vous pouvez être sûr que la liberté n’y est pas »."
+    }
+   ],
+   "pagina_pdf": 216
+  }
+ ]
+}

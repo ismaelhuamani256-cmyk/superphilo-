@@ -1,0 +1,201 @@
+{
+  "capitulo": "conscience",
+  "perspectivas": {
+    "autores": ["Descartes", "Kant", "Nietzsche", "Husserl", "Sartre", "Freud"],
+    "nociones_liadas": ["liberté", "devoir", "justice", "inconscient", "temps", "bonheur"],
+    "ramas": [
+      {
+        "titulo": {"es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture"},
+        "ideas": [
+          {
+            "texto": {"es": "La conciencia nunca es algo fijo y está siempre abierta a lo real.", "fr": "La conscience n’est jamais figée et est toujours ouverte sur le réel."},
+            "autor": "husserl",
+            "cours": "1. b."
+          },
+          {
+            "texto": {"es": "Descartes distingue el yo psicológico, ligado a nuestra propia historia, y el yo metafísico, que permite abrirse y pensar el mundo.", "fr": "Descartes distingue le moi psychologique, lié à notre propre histoire, et le moi métaphysique qui permet de s’ouvrir et de penser le monde."},
+            "autor": "descartes",
+            "cours": "2. b."
+          },
+          {
+            "texto": {"es": "Es difícil asumir nuestro yo metafísico (o trascendental), porque ilustra nuestra libertad absoluta.", "fr": "Il est difficile d’assumer notre moi métaphysique (ou transcendantal) car il illustre notre liberté absolue."},
+            "autor": "sartre",
+            "cours": "3. a."
+          },
+          {
+            "texto": {"es": "Es por la mirada del otro como tomo conciencia de mí mismo.", "fr": "C’est par le regard de l’autre que je prends conscience de moi-même."},
+            "autor": "hegel",
+            "cours": "4. a."
+          }
+        ]
+      },
+      {
+        "titulo": {"es": "La moral y la política", "fr": "La morale et la politique"},
+        "ideas": [
+          {
+            "texto": {"es": "Porque tiene una conciencia, el hombre es moralmente responsable.", "fr": "C’est parce qu’il a une conscience que l’homme est moralement responsable."},
+            "autor": "aristote",
+            "cours": "1. c."
+          },
+          {
+            "texto": {"es": "Si en el terreno teórico se puede permanecer en la duda, en la acción es necesario elegir.", "fr": "Si, dans le domaine théorique, on peut en rester au doute, dans l’action, il faut choisir."},
+            "autor": "descartes",
+            "cours": "3. b."
+          }
+        ]
+      },
+      {
+        "titulo": {"es": "El conocimiento", "fr": "La connaissance"},
+        "ideas": [
+          {
+            "texto": {"es": "Existen dos grados de conciencia: la conciencia espontánea y la conciencia reflexiva.", "fr": "Il existe deux degrés de conscience : la conscience spontanée et la conscience réfléchie."},
+            "cours": "1. a."
+          },
+          {
+            "texto": {"es": "Es mediante la duda radical como Descartes llega a la certeza de la conciencia.", "fr": "C’est par la démarche du doute radical que Descartes aboutit à la certitude de la conscience."},
+            "autor": "descartes",
+            "cours": "2. a."
+          },
+          {
+            "texto": {"es": "Un individuo nunca tendrá un conocimiento perfecto de sí mismo únicamente a través de su conciencia.", "fr": "Jamais un individu n’aura une connaissance parfaite de lui-même par sa seule conscience."},
+            "cours": "4. b."
+          }
+        ]
+      }
+    ],
+    "pagina_pdf": 49
+  },
+  "ejercicios": [
+    {
+      "id": "conscience-diss",
+      "tipo": "dissertation",
+      "enunciado": {
+        "es": "¿Se puede decir con Valéry que «la conciencia reina pero no gobierna»?",
+        "fr": "Peut-on dire avec Valéry que « la conscience règne mais ne gouverne pas » ?"
+      },
+      "consigna": {
+        "es": "1. Redacte la introducción poniendo de relieve la problemática que plantea el tema. 2. Elabore un plan en tres partes y exponga sus argumentos cuidando las transiciones. (Perspectiva 1: Paul Valéry ilustra el papel de la conciencia mediante una metáfora política. Duración: 2 h.)",
+        "fr": "1. Rédigez l’introduction en dégageant la problématique que soulève le sujet. 2. Élaborez un plan en trois parties, puis exposez vos arguments en veillant aux transitions. (Perspective 1 : Paul Valéry illustre le rôle de la conscience en usant d’une métaphore politique. Durée : 2 h.)"
+      },
+      "corrige": {
+        "orientacion": {
+          "es": "Valéry recurre a una metáfora política para pensar el papel de nuestra conciencia en la conducción de nuestra vida: hay que evaluar la pertinencia de esa metáfora.",
+          "fr": "Valéry a recours à une métaphore politique pour penser le rôle de notre conscience dans la conduite de notre vie."
+        },
+        "introduccion": {
+          "es": "[Explicación del tema] Valéry recurre a una metáfora política para pensar el papel de nuestra conciencia en la conducción de nuestra vida. [Explicación de los términos] Como en una monarquía constitucional, en la que el soberano no conoce la realidad del poder porque no lo ejerce propiamente y es un simple portavoz de decisiones en las que no ha participado, la conciencia sería una instancia que acompaña nuestra conducta pero no la guía. Se trata de evaluar la pertinencia de esta metáfora para comprender todo el alcance de la noción de conciencia. [Problemática] ¿Es necesario plantear la hipótesis de que existe otra instancia que dicta su ley a la conciencia? [Anuncio del plan] En una primera parte presentaremos la conciencia como dotada de poderes limitados. Después, en una segunda parte, intentaremos comprender lo que se impone a nuestra conciencia sin que lo hayamos decidido y nos influye irremediablemente. Por último, en una tercera parte, recuperaremos la posesión de nuestra conciencia y mostraremos de qué modo nos permite tomar decisiones informadas.",
+          "fr": "[Explication du sujet] Valéry a recours à une métaphore politique pour penser le rôle de notre conscience dans la conduite de notre vie. [Explication des termes du sujet] À l’instar d’une monarchie constitutionnelle dans laquelle le souverain ne connaît pas la réalité du pouvoir puisqu’il ne l’exerce pas à proprement parler en n’étant qu’un simple porte-parole de décisions auxquelles il n’a pas pris part, la conscience s’apparenterait à une instance accompagnant notre conduire, mais ne la guiderait pas. Il va s’agir d’évaluer la pertinence de cette métaphore pour comprendre toute la portée de la notion de conscience. [Problématique] Est-il nécessaire de faire l’hypothèse de l’existence d’une autre instance dictant sa loi à la conscience ? [Annonce du plan] Pour répondre à la problématique, nous présenterons, dans une première partie, la conscience comme ayant des pouvoirs limités. Puis, nous tenterons de comprendre, dans une deuxième partie, ce qui s’impose à notre conscience sans que nous l’ayons décidé et qui nous influence irrémédiablement. Et enfin, dans une dernière partie, nous reprendrons possession de notre conscience et illustrerons de quelle manière elle nous permet de prendre des décisions éclairées."
+        },
+        "problematica": {
+          "es": "¿Es necesario plantear la hipótesis de que existe otra instancia que dicta su ley a la conciencia?",
+          "fr": "Est-il nécessaire de faire l’hypothèse de l’existence d’une autre instance dictant sa loi à la conscience ?"
+        },
+        "plan": [
+          {
+            "parte": {"es": "I. La conciencia: una instancia de poder limitado", "fr": "I – La conscience : une instance au pouvoir limité"},
+            "idea": {
+              "es": "Si la conciencia reina por ser constitutiva del hombre, nada impide pensar que sea solo un representante «títere» de un poder que se le escapa y sobre el que no tiene verdadero control. Esa otra instancia (que se verá más adelante) daría cuenta de lo que escapa a la conciencia, gobernaría nuestra vida, ejercería una influencia determinante y impediría hacer de la conciencia el centro autónomo de nuestras decisiones. Ciertamente es la conciencia quien decide, pero no siempre domina las razones verdaderas de sus elecciones. Transición: la noción de inconsciente muestra el desfase entre la identidad reflexiva del yo y la identidad real de sí; la concepción de Valéry se opone así a una conciencia como interioridad y condición de la libertad, y advierte contra las ilusiones de una conciencia introspectiva que se conocería perfectamente.",
+              "fr": "Si la conscience règne en étant bien constitutive de l’homme, rien ne nous prémunit contre l’idée qu’elle ne serait qu’un représentant « fantoche » d’un pouvoir qui lui échapperait et sur lequel elle n’aurait aucune prise véritable. Cette autre instance (que nous verrons plus loin) rendrait compte de ce qui échappe à la conscience, gouvernerait notre vie, exercerait une influence déterminante sur nous et empêcherait de faire de la conscience le centre autonome de nos décisions. Certes, c’est bien la conscience qui décide, mais elle ne maîtrise pas toujours les raisons véritables de ses choix. Transition : la notion d’inconscient montre le décalage entre l’identité réfléchie du moi et l’identité réelle de soi ; cette conception de Valéry s’oppose à une conception de la conscience comme intériorité et condition de la liberté, elle met en garde contre les illusions d’une conscience introspective et se connaissant parfaitement."
+            },
+            "autores": ["valery", "freud"]
+          },
+          {
+            "parte": {"es": "II. Comprender lo que se nos impone para intentar controlar sus efectos", "fr": "II – Comprendre ce qui s’impose à soi pour tenter d’en contrôler les effets"},
+            "idea": {
+              "es": "Si la conciencia no dirige ni sus propias producciones ni la conducta que de ellas se deriva, es imposible hablar de un reinado de la conciencia. Si hay reinado, hay que suponer que la conciencia debe asumir elecciones de las que no ha tenido la iniciativa: no hemos elegido nacer ni ser lo que somos, ni en cuanto a nuestro carácter ni en cuanto a nuestra educación. Transición: podemos asumir por completo lo que hemos llegado a ser, seguir viviendo y actuando sin rechazar lo que se nos ha transmitido; incluso es posible aceptar una tradición cultural renovándola y haciéndola vivir a nuestra manera. ¿No es esa una manera, ciertamente segunda e indirecta, de recuperar cierto control sobre la conducción de nuestra vida?",
+              "fr": "Si la conscience ne dirige ni ses propres productions ni la conduite qui en découle, dès lors, il nous est impossible de parler de règne de la conscience. Si règne il y a, il faut bien supposer que la conscience doive assumer des choix dont elle n’a pas eu l’initiative. Il est vrai que nous n’avons pas choisi de naître et d’être ce que nous sommes, tant du point de vue de notre caractère que de notre éducation. Transition : nous pouvons assumer complètement ce que nous sommes devenus, continuer à vivre et à agir sans refuser ce qui nous a été transmis. Il est même possible d’accepter une tradition culturelle en la renouvelant et la faisant vivre à notre manière. N’est-ce pas une manière certes seconde et indirecte de reprendre un certain contrôle sur la conduite de notre vie ?"
+            },
+            "autores": []
+          },
+          {
+            "parte": {"es": "III. La toma de decisiones, prueba de un gobierno de la conciencia", "fr": "III – La prise de décision, preuve d’une gouvernance de la conscience"},
+            "idea": {
+              "es": "Como explica Spinoza, comprender lo que se nos impone permite controlar, e incluso modificar, sus efectos. La conciencia gobierna porque toma decisiones sin cesar, muestra iniciativa y es activa y selectiva: el ser consciente vive experiencias que afectan a todo su ser, se adapta a lo real, muestra un poder de reflexión creadora y es libre de determinarse eligiendo sus propios fines. En la acción, y sobre todo en los momentos de elecciones cruciales para sí y/o para los demás, la conciencia suele estar sola y no puede esconderse tras excusas para no actuar. Según Sartre (tras Descartes), no decidir es decidir no hacer nada y por tanto es una elección, la del miedo y la debilidad: una elección irracional que expresa un bajo grado de libertad, que se deja llevar por lo que es y se niega a todo cambio.",
+              "fr": "Comme l’explique clairement Spinoza, comprendre ce qui s’impose à soi permet d’en contrôler, voire d’en modifier les effets. Plus encore, la conscience gouverne puisqu’elle prend sans cesse des décisions, fait preuve d’initiative, elle est donc active et sélective. L’être conscient dans sa vie quotidienne fait des expériences qui affectent son être tout entier, est capable de s’adapter au réel, montre un pouvoir de réflexion créatrice, est libre de se déterminer par le choix de ses propres fins. Dans l’action, à savoir dans la vie quotidienne, mais aussi et surtout dans les moments où des choix cruciaux ou essentiels doivent être faits pour soi et/ou les autres, la conscience est souvent seule et ne peut s’inventer, se cacher derrière des excuses pour ne pas agir. Selon Sartre (après Descartes), ne pas décider, c’est décider de ne rien faire et c’est donc un choix, celui de la peur et de la faiblesse. Il s’agit là d’un choix irrationnel exprimant un faible degré de liberté, se laissant volontairement aller à accepter ce qui est et se refusant à tout changement."
+            },
+            "autores": ["spinoza", "sartre", "descartes"]
+          }
+        ],
+        "conclusion": {
+          "es": "Existe, pues, una cierta autonomía de la conciencia de la que la metáfora de Valéry no da cuenta. Se puede quizá conceder a Valéry la idea de una conciencia segunda, pero seguramente no secundaria.",
+          "fr": "Il y a donc une certaine autonomie de la conscience dont la métaphore de Valéry ne rend pas compte. On peut peut-être accorder à Valéry l’idée d’une conscience seconde mais sûrement pas secondaire."
+        },
+        "puntos_clave": [
+          {"es": "Explica la metáfora política de Valéry (monarquía constitucional: el soberano reina sin ejercer el poder) y la aplica a la conciencia.", "fr": "Explique la métaphore politique de Valéry (monarchie constitutionnelle : le souverain règne sans exercer le pouvoir) et l’applique à la conscience."},
+          {"es": "Formula una problemática clara: ¿hay que suponer otra instancia que dicte su ley a la conciencia?", "fr": "Formule une problématique claire : faut-il supposer une autre instance dictant sa loi à la conscience ?"},
+          {"es": "Muestra los límites de la conciencia: no domina las razones verdaderas de sus elecciones y la noción de inconsciente revela el desfase entre la identidad reflexiva del yo y la identidad real.", "fr": "Montre les limites de la conscience : elle ne maîtrise pas les raisons véritables de ses choix et la notion d’inconscient révèle le décalage entre l’identité réfléchie du moi et l’identité réelle."},
+          {"es": "Reconoce lo que se impone a la conciencia sin que lo haya decidido (nacimiento, carácter, educación, tradición) y que se puede asumir y renovar.", "fr": "Reconnaît ce qui s’impose à la conscience sans qu’elle l’ait décidé (naissance, caractère, éducation, tradition) et qu’on peut assumer et renouveler."},
+          {"es": "Defiende que la conciencia gobierna al decidir: es activa, selectiva, adaptativa, libre de elegir sus fines (Spinoza: comprender para controlar los efectos).", "fr": "Défend que la conscience gouverne en décidant : elle est active, sélective, capable d’adaptation, libre de choisir ses fins (Spinoza : comprendre pour contrôler les effets)."},
+          {"es": "Recurre a Sartre (tras Descartes): no decidir es ya una elección, la del miedo y la debilidad; no cabe esconderse tras excusas.", "fr": "Mobilise Sartre (après Descartes) : ne pas décider est déjà un choix, celui de la peur et de la faiblesse ; on ne peut se cacher derrière des excuses."},
+          {"es": "Cuida las transiciones entre las tres partes y concluye matizando: autonomía de la conciencia, «segunda» pero no «secundaria».", "fr": "Soigne les transitions entre les trois parties et conclut en nuançant : autonomie de la conscience, « seconde » mais non « secondaire »."}
+        ]
+      },
+      "pagina_pdf": 52,
+      "pagina_corrige": 53
+    },
+    {
+      "id": "conscience-expl",
+      "tipo": "explication",
+      "enunciado": {
+        "es": "1. Explique la primera frase del texto. 2. Localice y explique las oposiciones conceptuales de las líneas 4 y 5-7. 3. Identifique y explique la demostración por el absurdo kantiana.",
+        "fr": "1. Expliquez la première phrase du texte. 2. Repérez et expliquez les oppositions conceptuelles aux lignes 4 et 5-7. 3. Identifiez et expliquez la démonstration par l’absurde kantienne."
+      },
+      "texto": {
+        "fr": "Le « Je » prouve que j’agis par moi-même, que je suis un principe et non un résultat. J’ai conscience des déterminations et des actions, et un sujet qui a conscience de ses déterminations et de ses actions a une absolue liberté. Que le sujet possède une liberté absolue, parce qu’il est conscient, prouve qu’il n’est pas un sujet qui pâtit, mais qui agit. C’est seulement dans la mesure où j’ai conscience d’une action effective, dans la mesure où j’agis à partir du principe interne de l’activité suivant le libre arbitre, sans une détermination extérieure, que je possède une spontanéité absolue. Lorsque je dis : je pense, j’agis, etc., ou bien le mot je est employé à contresens ou bien je suis libre. Si je n’étais pas libre, je ne pourrais pas dire : je le fais, mais je devrais dire : je sens en moi une envie de faire que quelqu’un a suscitée en moi. Mais lorsque je dis : je le fais, cela signifie une spontanéité dans le sens transcendantal. Or j’ai conscience de ce que je peux dire : je fais, je ne suis donc pas conscient d’une détermination, et j’agis par conséquent d’une façon absolument libre. Si je n’étais pas libre, mais si j’étais seulement un moyen par lequel l’autre fait immédiatement en moi quelque chose que je fais, je ne pourrais pas dire : je fais. Je fais, en tant qu’action, ne peut s’employer que dans un cas d’absolue liberté.",
+        "autor": "Kant",
+        "obra": "Leçons de métaphysique, 1843",
+        "pagina_pdf": 52
+      },
+      "consigna": {
+        "es": "Responda a las tres preguntas sobre el texto de Kant. (Perspectivas 1 y 2: el texto de Kant ilustra la libertad de un «yo» pensante, origen de sus elecciones y de sus actos; sin esta libertad absoluta, la conciencia moral no tendría razón de ser. Duración: 1 h 30.)",
+        "fr": "Répondez aux trois questions sur le texte de Kant. (Perspectives 1 et 2 : le texte de Kant illustre la liberté d’un « je » pensant, étant à l’origine de ses choix et de ses actes. Sans cette absolue liberté, la conscience morale n’aurait pas lieu d’être. Durée : 1 h 30.)"
+      },
+      "corrige": {
+        "tesis": {
+          "es": "Al decir «yo», el hombre se sitúa de entrada como origen de su acción: el «yo» pensante es un principio y no un resultado, y la conciencia es la condición de una libertad absoluta (espontaneidad trascendental), sin la cual el «yo hago» no tendría sentido.",
+          "fr": "En disant « je », l’homme se positionne d’emblée comme étant à l’origine de son action : le « je » pensant est un principe et non un résultat, et la conscience est la condition d’une liberté absolue (spontanéité transcendantale) sans laquelle le « je fais » n’aurait pas de sens."
+        },
+        "etapas": [
+          {
+            "titulo": {"es": "1. La primera frase: el «yo» como principio y no como resultado", "fr": "1. La première phrase : le « je » comme principe et non comme résultat"},
+            "idea": {
+              "es": "La frase plantea la tesis de Kant: la sola presencia del «yo» prueba la libertad de la acción. El cogito es para todo sujeto un comienzo absoluto, marca de una libertad; como ser libre supone poder estar al comienzo, tener la iniciativa de una acción o de un pensamiento, la conciencia se impone como condición de esa libertad. Kant opone principio (causa de la acción, primero) y resultado (determinado lógicamente por una causa, segundo). Define positivamente la libertad como espontaneidad absoluta y primera del «yo», frente a una concepción negativa que la haría depender de estímulos e inclinaciones naturales. Esta libertad, llamada trascendental, no puede conocerse, pero es racionalmente necesaria para la idea misma de acción del «yo»; es condición de toda moralidad, pues implica la responsabilidad de quien actúa.",
+              "fr": "Cette première phrase pose la thèse de Kant : la seule présence du « je » est une preuve de la liberté de l’action. Le cogito est pour tout sujet un commencement absolu qui est la marque d’une liberté ; comme être libre suppose la possibilité d’être au commencement, d’être à l’initiative d’une action ou d’une pensée, la conscience s’impose comme la condition de cette liberté. Kant oppose le concept de principe (cause de l’action, premier) à celui de résultat (déterminé logiquement par une cause, second). Il définit positivement la liberté comme spontanéité absolue et première du « je », qu’il oppose à une approche négative la réduisant à être dépendante des stimuli, des penchants naturels. Une telle liberté, dite transcendantale, ne peut se connaître, mais elle est rationnellement nécessaire à l’idée même d’action du « je » ; elle est la condition de toute moralité, dans la mesure où elle implique la responsabilité de celui qui agit."
+            },
+            "lineas": "l. 1-2"
+          },
+          {
+            "titulo": {"es": "2. Las oposiciones conceptuales: sujeto que padece / sujeto que actúa; principio interno / determinación exterior", "fr": "2. Les oppositions conceptuelles : sujet qui pâtit / sujet qui agit ; principe interne / détermination extérieure"},
+            "idea": {
+              "es": "En la línea 4 se opone un sujeto que padece a un sujeto que actúa: la conciencia permite la acción y se opone a la pasión, sinónimo de pasividad. En las líneas 5-7 Kant opone «el principio interno de la actividad» a «una determinación exterior». La ausencia de libertad significa que la acción es provocada mecánicamente por algo distinto de mí, es decir, por lo que me es exterior.",
+              "fr": "À la ligne 4, on trouve l’opposition entre un sujet qui pâtit et un sujet qui agit : la conscience permet l’action et s’oppose à la passion, synonyme de passivité. Aux lignes 5-7, Kant oppose « le principe interne de l’activité » et « une détermination extérieure ». L’absence de liberté signifie que l’action est provoquée mécaniquement par autre chose que moi, plus précisément par ce qui est extérieur à moi."
+            },
+            "lineas": "l. 4 et 5-7"
+          },
+          {
+            "titulo": {"es": "3. La demostración por el absurdo", "fr": "3. La démonstration par l’absurde"},
+            "idea": {
+              "es": "El argumento por el absurdo comienza en la línea 9. Hipótesis: no soy libre. Consecuencia: no podría decir «actúo» o «lo hago», sino «siento un deseo que alguien ha suscitado en mí»; no solo no podría hacer nada, sino que ni siquiera podría decir que no soy libre, al no tener ninguna conciencia de la libertad. Ahora bien, tengo conciencia de no estar determinado, de no ser un simple medio, pues soy yo quien decide hablar y actuar. Conclusión: es contradictorio con el hecho de no ser libre; por tanto, soy libre.",
+              "fr": "L’argument par l’absurde commence à la ligne 9. L’hypothèse est la suivante : je ne suis pas libre. Conséquence : je ne peux pas dire j’agis ou « je le fais », mais je dois dire : « je sens une envie que quelqu’un a suscité en moi ». Non seulement je ne pourrais rien faire, mais ne pourrais même pas dire que je ne suis pas libre, n’ayant aucune conscience de la liberté. Or, j’ai conscience de ne pas être déterminé, de ne pas être un simple moyen puisque c’est bien moi qui décide de parler et d’agir. Conclusion : c’est contradictoire avec le fait de ne pas être libre : donc je suis libre."
+            },
+            "lineas": "l. 9-17"
+          }
+        ],
+        "enjeu": {
+          "es": "Establecer que la conciencia (el «yo pienso», «yo hago») es la condición de una libertad absoluta o trascendental, y que esta libertad es la condición de toda moralidad porque implica la responsabilidad de quien actúa: sin ella la conciencia moral no tendría razón de ser.",
+          "fr": "Établir que la conscience (le « je pense », « je fais ») est la condition d’une liberté absolue ou transcendantale, et que cette liberté est la condition de toute moralité parce qu’elle implique la responsabilité de celui qui agit : sans elle la conscience morale n’aurait pas lieu d’être."
+        },
+        "puntos_clave": [
+          {"es": "Identifica la tesis: el «yo» prueba que actúo por mí mismo; soy un principio y no un resultado.", "fr": "Identifie la thèse : le « je » prouve que j’agis par moi-même ; je suis un principe et non un résultat."},
+          {"es": "Explica la oposición principio / resultado (causa primera frente a efecto determinado) y la libertad como espontaneidad absoluta.", "fr": "Explique l’opposition principe / résultat (cause première face à effet déterminé) et la liberté comme spontanéité absolue."},
+          {"es": "Distingue sujeto que padece (pasividad, pasión) y sujeto que actúa, y principio interno de la actividad frente a determinación exterior.", "fr": "Distingue le sujet qui pâtit (passivité, passion) et le sujet qui agit, et le principe interne de l’activité face à la détermination extérieure."},
+          {"es": "Reconstruye el razonamiento por el absurdo: hipótesis (no soy libre), consecuencia (no podría decir «lo hago»), contradicción con mi conciencia, conclusión (soy libre).", "fr": "Reconstruit le raisonnement par l’absurde : hypothèse (je ne suis pas libre), conséquence (je ne pourrais pas dire « je le fais »), contradiction avec ma conscience, conclusion (je suis libre)."},
+          {"es": "Precisa que se trata de una libertad trascendental: no se conoce, pero es racionalmente necesaria para la idea de acción del «yo».", "fr": "Précise qu’il s’agit d’une liberté transcendantale : elle ne peut se connaître mais elle est rationnellement nécessaire à l’idée d’action du « je »."},
+          {"es": "Señala lo que está en juego: esta libertad es la condición de toda moralidad y de la responsabilidad de quien actúa.", "fr": "Dégage l’enjeu : cette liberté est la condition de toute moralité et de la responsabilité de celui qui agit."}
+        ]
+      },
+      "pagina_pdf": 52,
+      "pagina_corrige": 55
+    }
+  ]
+}

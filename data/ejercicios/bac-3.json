@@ -1,0 +1,113 @@
+{
+  "capitulo": null,
+  "ejercicios": [
+    {
+      "id": "bac-3",
+      "tipo": "explication",
+      "notions": ["art", "conscience"],
+      "enunciado": {
+        "es": "Explique el siguiente texto. No se requiere el conocimiento de la doctrina del autor. Es necesario y suficiente que la explicación dé cuenta, mediante la comprensión precisa del texto, del problema de que se trata. (Texto de Bergson, filósofo francés. Nociones: arte, conciencia.)",
+        "fr": "Expliquez le texte suivant. La connaissance de la doctrine de l’auteur n’est pas requise. Il faut et il suffit que l’explication rende compte par la compréhension précise du texte, du problème dont il est question. (Texte de Bergson, philosophe français. Notions : art, conscience.)"
+      },
+      "texto": {
+        "fr": "À quoi vise l’art, sinon à nous montrer, dans la nature et dans l’esprit, hors de nous et en nous, des choses qui ne frappaient pas explicitement nos sens et notre conscience ? Le poète et le romancier qui expriment un état d’âme ne le créent certes pas de toutes pièces ; ils ne seraient pas compris de nous si nous n’observions pas en nous, jusqu’à un certain point, ce qu’ils nous disent d’autrui. Au fur et à mesure qu’ils nous parlent, des nuances d’émotion et de pensée nous apparaissent qui pouvaient être représentées en nous depuis longtemps, mais qui demeuraient invisibles : telle, l’image photographique qui n’a pas encore été plongée dans le bain où elle se révélera. Le poète est ce révélateur. […]\n\nRemarquons que l’artiste a toujours passé pour un « idéaliste ». On entend par là qu’il est moins préoccupé que nous du côté positif et matériel de la vie. C’est, au sens propre du mot, un « distrait ». Pourquoi, étant plus détaché de la réalité, arrive-t-il à y voir plus de choses ? On ne le comprendrait pas, si la vision que nous avons ordinairement des objets extérieurs et de nous-mêmes n’était une vision que notre attachement à la réalité, notre besoin de vivre et d’agir, nous a amenés à rétrécir et à vider. De fait, il serait aisé de montrer que, plus nous sommes préoccupés de vivre, moins nous sommes enclins à contempler, et que les nécessités de l’action tendent à limiter le champ de la vision. […]\n\nAuxiliaire de l’action, la perception isole, dans l’ensemble de la réalité, ce qui nous intéresse ; elle nous montre moins les choses mêmes que le parti que nous en pouvons tirer. […] Mais, de loin en loin, par un accident heureux, des hommes surgissent dont les sens ou la conscience sont moins adhérents à la vie. La nature a oublié d’attacher leur faculté de percevoir à leur faculté d’agir. Quand ils regardent une chose, ils la voient pour elle, et non plus pour eux. Ils ne perçoivent plus simplement en vue d’agir ; ils perçoivent pour percevoir, pour rien, pour le plaisir.",
+        "autor": "Bergson",
+        "obra": "La pensée et le mouvant (1934)",
+        "pagina_pdf": 306
+      },
+      "consigna": {
+        "es": "Redacte una explicación de texto: introducción (tema, tesis, estructura), seguimiento ordenado del texto en sus etapas y conclusión crítica.",
+        "fr": "Rédigez une explication de texte : introduction (thème, thèse, structure), suivi ordonné du texte en ses moments et conclusion critique."
+      },
+      "corrige": {
+        "tesis": {
+          "es": "La finalidad del arte es revelar lo que permite una percepción no utilitaria del mundo; el artista es el mediador indispensable entre lo visible y lo invisible. Esta experiencia amplía nuestra visión, devuelve las cosas a su verdad intrínseca y procura placer, aunque esté reservada a unos pocos privilegiados.",
+          "fr": "La finalité de l’art est de révéler ce que permet une perception non utilitaire du monde, l’artiste étant le médiateur indispensable entre le visible et l’invisible. Cette expérience élargit notre vision du monde, elle restitue les choses dans leur vérité intrinsèque et procure du plaisir, même si cette expérience est réservée à quelques rares privilégiés."
+        },
+        "etapas": [
+          {
+            "titulo": {
+              "es": "I. El arte afina nuestra mirada sobre el mundo y sobre nosotros mismos",
+              "fr": "I. L’art permet d’aiguiser notre regard sur le monde et sur nous-même"
+            },
+            "idea": {
+              "es": "El arte tiene una función de desvelamiento: pone de manifiesto lo que en nosotros y en la realidad exterior sólo era implícito. No es una invención pura (creación ex nihilo): el poeta se hace comprender porque hay algo en común entre la experiencia estética y nuestra experiencia inmediata. El artista explicita aspectos de lo vivido a los que somos inatentos, nos hace tomar conciencia de nosotros mismos y nos da otra mirada sobre el otro, descubierto como alter ego. Bergson lo ilustra con la imagen fotográfica, presente en la película pero invisible hasta que se la sumerge en el baño: el poeta es ese «revelador». Ejemplos: los impresionistas (Monet y la catedral de Ruan, Cézanne), los retratos de los grandes maestros, Los embajadores de Holbein. El gran artista sobrepasa las apariencias visibles y sociales para alcanzar la complejidad de los seres.",
+              "fr": "L’art a une fonction de dévoilement : il met en évidence ce qui, en nous et dans la réalité extérieure, n’était qu’implicite. Il ne s’agit pas d’une invention pure, d’une création ex nihilo : le poète se fait comprendre, donc il y a quelque chose de commun entre l’expérience esthétique et notre expérience immédiate. L’artiste explicite des aspects du vécu auxquels nous sommes inattentifs, nous fait prendre conscience de nous-mêmes et nous donne un autre regard sur autrui, découvert comme alter ego. Bergson l’illustre par l’image photographique, présente sur la pellicule mais invisible tant qu’elle n’est pas plongée dans le bain : le poète est ce « révélateur ». Exemples : les impressionnistes (Monet et la cathédrale de Rouen, Cézanne), les portraits des grands maîtres, Les ambassadeurs d’Holbein. Le grand artiste dépasse les apparences visibles et sociales pour atteindre la complexité des êtres."
+            },
+            "lineas": "l. 1-10"
+          },
+          {
+            "titulo": {
+              "es": "II. El artista, en su relación no utilitaria con las cosas, intenta captar su esencia",
+              "fr": "II. L’artiste, dans son rapport non utilitaire aux choses, tente d’en saisir l’essence"
+            },
+            "idea": {
+              "es": "Bergson confronta su tesis con el sentido común, que juzga al artista un «distraído» e «idealista», y formula la paradoja: ¿cómo, estando más desapegado de la realidad, ve en ella más cosas? Hay que levantar esa paradoja (de lo contrario se queda uno con una opinión falsa y empobrecida del artista). Distingue dos relaciones con los sentidos: una utilitaria, atenta sólo a la función de las cosas que satisface nuestras necesidades vitales (percepción «estrechada» y vaciada por el hábito, que nos aleja de las cosas); y otra no utilitaria, contemplativa, donde el artista redescubre la presencia carnal de las cosas y rehabilita las sensaciones por sí mismas (el sonido escuchado por su cualidad propia, no por su información práctica). Hay que liberarse del trajín de proyectos, hábitos y preocupaciones, y adoptar una relación ni cognitiva ni técnica ni comercial. Es porque el artista está «distraído» de la relación utilitaria por lo que capta la vida más ampliamente: la paradoja sólo es aparente.",
+              "fr": "Bergson confronte sa thèse au sens commun, qui juge l’artiste « distrait » et « idéaliste », et formule le paradoxe : comment, étant plus détaché de la réalité, y voit-il plus de choses ? Il faut le lever, sinon l’on reste sur une opinion fausse et appauvrie de l’artiste. Il distingue deux rapports aux sens : un rapport utilitaire, attentif aux seuls aspects des choses qui satisfont nos nécessités vitales, leur fonction (perception « rétrécie » et vidée par l’habitude, qui nous éloigne des choses) ; et un rapport non utilitaire, contemplatif, où l’artiste découvre la présence charnelle des choses et réhabilite les sensations pour elles-mêmes (le son écouté pour sa qualité propre, non pour l’information pratique qu’il apporte). Il faut se dégager de l’affairement des projets, des habitudes et des soucis, et adopter un rapport ni cognitif ni technique ni commercial. C’est parce que l’artiste est « distrait » du rapport utilitaire qu’il saisit la vie plus amplement : le paradoxe n’est qu’apparent."
+            },
+            "lineas": "l. 11-20"
+          },
+          {
+            "titulo": {
+              "es": "III. La mirada del artista es singular: da altura a nuestras simples percepciones utilitarias",
+              "fr": "III. Le regard de l’artiste est singulier : il donne de la hauteur à nos simples perceptions utilitaires"
+            },
+            "idea": {
+              "es": "La percepción cotidiana, «auxiliar de la acción», es siempre engañosa: reduce la realidad a lo útil, a «lo que nos interesa», nos encierra en nuestro pequeño mundo, nos corta de los demás y lo que nos interesa no lo es en sí, sólo parece útil hoy; así se pierde distancia, altura y placer. Frente a esta percepción empobrecida, Bergson valora el estatuto del artista, que surge «de lejos en lejos» por una especie de «accidente feliz», es decir, una disposición innata y azarosa, no un desapego querido y razonado como el del filósofo. La producción artística no ofrece un doble manejable del mundo como la ciencia o la técnica: es «para nada», tiene una función liberadora al hacer estallar los límites de nuestras percepciones utilitarias; es gozosa («por placer») y a la vez esclarecedora, pues descubre el aspecto de las cosas y de nosotros mismos oculto por nuestro compromiso material. Valéry: «Una obra de arte siempre debería enseñarnos que no habíamos visto lo que vemos».",
+              "fr": "La perception quotidienne, « auxiliaire de l’action », est toujours trompeuse : elle rétrécit la réalité à l’utile, à « ce qui nous intéresse », enferme dans un petit monde, coupe des autres, et « ce qui nous intéresse » n’est pas intéressant en soi, cela semble simplement utile aujourd’hui ; on manque ainsi de distance, de hauteur, et tout plaisir disparaît. À l’opposé de cette perception appauvrie, Bergson valorise le statut de l’artiste, qui vient « de loin en loin » par une sorte d’« accident heureux », c’est-à-dire une disposition innée, fruit du hasard, et non un détachement voulu et raisonné comme celui du philosophe. La production artistique n’offre pas un double maniable du monde à la manière de la science ou de la technique : elle est « pour rien », a une fonction libératrice en faisant éclater les limites de nos perceptions utilitaires ; elle est jouissive (« pour le plaisir ») et éclairante, puisqu’elle dévoile l’aspect des choses et de nous-mêmes masqué par notre engagement matériel. Valéry : « Une œuvre d’art devrait toujours nous apprendre que nous n’avions pas vu ce que nous voyons »."
+            },
+            "lineas": "l. 21-28"
+          }
+        ],
+        "introduccion": {
+          "es": "[Tema] En este texto Bergson expone y luego explica el papel del artista y, más generalmente, justifica el fin esencial del arte. [Tesis] La finalidad del arte es revelar lo que permite una percepción no utilitaria del mundo, siendo el artista el mediador indispensable entre lo visible y lo invisible; esta experiencia amplía nuestra visión, restituye las cosas en su verdad intrínseca y procura placer, aunque esté reservada a unos pocos privilegiados. [Estructura] El texto se divide en tres momentos: (1) Bergson expone su tesis sobre la finalidad del arte (desde el comienzo hasta «el poeta es ese revelador»), preguntándose qué funda su existencia; (2) de «Observemos…» hasta «el campo de la visión», confronta su tesis con el sentido común y, como éste la juzgará paradójica, debe argumentar que la paradoja sólo es aparente; (3) hasta el final, precisa el estatuto del artista y su carácter muy particular: como un genio, su aparición es accidental, fruto del azar y por tanto inexplicable.",
+          "fr": "[Thème général] Dans ce texte, Bergson expose, puis explique le rôle de l’artiste et plus généralement, justifie la fin essentielle de l’art. [Thèse] La thèse de l’auteur est la suivante : la finalité de l’art est de révéler ce que permet une perception non utilitaire du monde, l’artiste étant le médiateur indispensable entre le visible et l’invisible. Cette expérience élargit notre vision du monde, elle restitue les choses dans leur vérité intrinsèque et procure du plaisir, même si pourtant cette expérience est réservée à quelques rares privilégiés. [Structure du texte] Le texte se découpe en trois moments distincts : – Bergson expose d’abord sa thèse (du début jusqu’à « …le poète est ce révélateur. ») sur la finalité de l’art en se demandant dès le début ce qui fonde son existence. – Puis, dans la deuxième partie du texte, de « Remarquons… » jusqu’à « […] le champ de vision. »), l’auteur confronte sa thèse au sens commun et, parce que celui-ci la jugera paradoxale, il doit absolument développer une argumentation pour montrer que le paradoxe n’est qu’apparent. – Enfin (jusqu’à la fin du texte), Bergson précise le statut de l’artiste et montre son caractère très particulier puisque tel un génie, son apparition est accidentelle, fruit du hasard et ne s’explique donc pas."
+        },
+        "enjeu": {
+          "es": "Lo que está en juego en la experiencia estética: Bergson rehabilita al artista como mediador benéfico en un mundo demasiado alienado por los imperativos de eficacia y rentabilidad, capaz de enriquecer nuestros sentidos y nuestra conciencia. La cuestión de fondo es si el arte es un simple don reservado a una naturaleza excepcional o una potencialidad de todo hombre, y qué dice del ser humano como ser libre que busca en el arte lo absoluto, la novedad, la metamorfosis, la verdad y el dominio simbólico de la vida, frente a quienes tachan el arte de inútil y vano.",
+          "fr": "Ce qui est en jeu dans l’expérience esthétique : Bergson réhabilite l’artiste, médiateur bénéfique dans un monde trop aliéné aux impératifs d’efficacité et de rentabilité, offrant un enrichissement de nos sens et de notre conscience. La question de fond est de savoir si l’art est un simple don réservé à une nature exceptionnelle ou une potentialité inhérente à tout homme, et ce que cela dit de l’homme comme être libre qui, dans l’art, satisfait ses exigences d’absolu, de nouveauté, de métamorphose, de vérité et de maîtrise symbolique de la vie, face aux objections du sens commun sur l’inutilité et la vanité de l’art."
+        },
+        "conclusion": {
+          "es": "Bergson se inscribe en una larga tradición que da a la experiencia estética un estatuto privilegiado y rehabilita al artista. Pero al hacer de éste un «accidente feliz» de la naturaleza, parece sugerir que es vano que quien no tiene esa naturaleza crea poder acceder a la experiencia estética. Se puede pensar que ese estatuto de naturaleza rara e inspirada, y la concepción del arte como ampliación de las percepciones, ocultan en parte lo que está en juego: la especificidad del hombre como ser libre, y la dignidad de las conciencias libres que el arte permite sentir intensamente. El temperamento de artista sería entonces menos un don que una potencialidad de todo hombre, y se puede ampliar la tesis de Bergson: el verdadero «distraído» es el hombre común, que al pegarse a la realidad para usar cosas y seres en su solo interés se aleja de ella y no la comprende; el supuesto «realista» o «hombre de acción» vive en un pequeño mundo cerrado, quizá fantasmagórico, forjado para tranquilizarse (Arendt: los poetas y novelistas revelan factores sociales ocultos que escapan al historiador). Como el albatros de Baudelaire, el poeta camina torpemente en el suelo, pero esa torpeza le obliga a tomar la altura necesaria para comprender mejor; sirve de modelo existencial, y, como dice Deleuze, expresa para los demás lo que sienten confusamente: habla en su lugar y no de sí mismo. Con Aristóteles, el fin del arte es figurar el sentido oculto de las cosas y no su apariencia; en ese ir y venir entre ficción y realidad vivida, lo real recobra un sentido perdido.",
+          "fr": "[Conclusion critique] Bergson s’inscrit dans toute une tradition qui donne à l’expérience esthétique un statut privilégié, invitant à une réhabilitation de l’artiste, médiateur bénéfique dans un monde trop aliéné aux impératifs d’efficacité, de rentabilité et offrant la possibilité d’un enrichissement de nos sens et de notre conscience. Mais en faisant de l’artiste un « accident heureux » de la nature, Bergson semble sous-entendre qu’il est vain pour ceux qui n’ont pas cette nature d’artiste de croire pouvoir accéder à l’expérience esthétique. On peut pourtant penser que le statut de l’artiste en tant que nature rare et inspirée, et la conception de l’art comme élargissement des perceptions, masquent en partie ce qui est en jeu dans l’expérience esthétique, à savoir la spécificité de l’homme comme être libre, et ce qui fait notre dignité de consciences libres. Le tempérament d’artiste est alors moins un don qu’une potentialité inhérente à tout homme, et l’on peut élargir la thèse de Bergson : l’homme du commun est le véritable distrait. À vouloir trop coller à la réalité en utilisant les choses et les êtres pour son seul intérêt, il s’en détache et ne les comprend pas ; celui qui se dit réaliste, l’homme d’action qui se moque de l’art, vit dans son petit monde refermé sur lui-même, peut-être un monde fantasmagorique inventé pour se rassurer (Arendt : les poètes et les romanciers rapportent des facteurs sociaux cachés qui échappent à l’historien). Comme l’albatros de Baudelaire, le poète marche maladroitement sur le sol, mais cette maladresse l’oblige à prendre la hauteur suffisante pour mieux comprendre ; il nous sert de modèle existentiel et, comme le dit Deleuze, exprime pour les autres ce qu’ils ressentent confusément ; il parle à leur place et non pour lui-même. Avec Aristote, « le but de l’art est de figurer le sens caché des choses et non point leur apparence » : dans ce va-et-vient entre la fiction et le réel vécu, ce dernier retrouve un sens qu’il avait perdu."
+        },
+        "puntos_clave": [
+          {
+            "es": "Enunciar la tesis: el arte revela lo que una percepción no utilitaria permite ver, y el artista es el mediador entre lo visible y lo invisible.",
+            "fr": "Énoncer la thèse : l’art révèle ce que permet une perception non utilitaire, et l’artiste est le médiateur entre le visible et l’invisible."
+          },
+          {
+            "es": "Mostrar que el arte desvela (no crea ex nihilo) lo que ya estaba en nosotros de forma implícita, y explicar la imagen fotográfica y el «revelador».",
+            "fr": "Montrer que l’art dévoile (et ne crée pas ex nihilo) ce qui était déjà en nous de façon implicite, et expliquer l’image photographique et le « révélateur »."
+          },
+          {
+            "es": "Identificar la paradoja (el artista «distraído» ve más) y mostrar que sólo es aparente, apoyándose en el sentido común que el texto confronta.",
+            "fr": "Identifier le paradoxe (l’artiste « distrait » voit plus) et montrer qu’il n’est qu’apparent, en s’appuyant sur le sens commun que le texte affronte."
+          },
+          {
+            "es": "Distinguir la percepción utilitaria (auxiliar de la acción, que aísla, estrecha y vacía la realidad hasta lo que «nos interesa») de la relación contemplativa y desinteresada con las cosas.",
+            "fr": "Distinguer la perception utilitaire (auxiliaire de l’action, qui isole, rétrécit et vide la réalité à « ce qui nous intéresse ») du rapport contemplatif et désintéressé aux choses."
+          },
+          {
+            "es": "Explicar el carácter excepcional del artista («de lejos en lejos», «accidente feliz»): disposición innata y azarosa, no desapego voluntario como el del filósofo.",
+            "fr": "Expliquer le caractère d’exception de l’artiste (« de loin en loin », « accident heureux ») : disposition innée et due au hasard, non détachement voulu comme chez le philosophe."
+          },
+          {
+            "es": "Subrayar que el arte es «para nada» y «por placer»: libera de los límites de la percepción utilitaria y esclarece, a diferencia de la ciencia o la técnica.",
+            "fr": "Souligner que l’art est « pour rien » et « pour le plaisir » : il libère des limites de la perception utilitaire et éclaire, à la différence de la science ou de la technique."
+          },
+          {
+            "es": "Ilustrar con ejemplos precisos (impresionistas, retratos, Holbein, Valéry) sin sustituir el análisis del texto, siguiendo las etapas con sus líneas.",
+            "fr": "Illustrer par des exemples précis (impressionnistes, portraits, Holbein, Valéry) sans substituer cela à l’analyse du texte, en suivant ses moments avec leurs lignes."
+          },
+          {
+            "es": "Concluir con una discusión crítica: el arte como potencialidad de todo hombre (el hombre común como verdadero «distraído»), y el enjeu de la libertad y la dignidad de la conciencia.",
+            "fr": "Conclure par une discussion critique : l’art comme potentialité de tout homme (l’homme du commun comme véritable « distrait »), et l’enjeu de la liberté et de la dignité de la conscience."
+          }
+        ]
+      },
+      "pagina_pdf": 306,
+      "pagina_corrige": 307
+    }
+  ]
+}

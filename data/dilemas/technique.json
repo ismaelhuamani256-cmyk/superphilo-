@@ -1,0 +1,2424 @@
+{
+  "id": "technique-kai",
+  "capitulo": "technique",
+  "titulo": {
+    "es": "KAI: la herramienta que no preguntaba",
+    "fr": "KAI : l’outil qui ne demandait pas pourquoi"
+  },
+  "premisa": {
+    "es": "Ada, ingeniera, ha creado a KAI, un androide que halla siempre el medio más eficaz para cualquier objetivo, sin preguntarse jamás si el objetivo es bueno. Helix, el Estado y los enfermos lo quieren. ¿Quién decidirá los fines: la técnica, el poder o los hombres?",
+    "fr": "Ada, ingénieure, a créé KAI, un androïde qui trouve toujours le moyen le plus efficace pour n’importe quel but, sans jamais se demander si ce but est bon. Helix, l’État et les malades le veulent. Qui décidera des fins : la technique, le pouvoir ou les hommes ?"
+  },
+  "protagonista": "Ada",
+  "inicio": "n1",
+  "nodos": {
+    "n1": {
+      "escena": {
+        "titulo": "KAI : le moyen sans la fin",
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.62,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "KAI",
+              "fr": "KAI"
+            }
+          },
+          {
+            "id": "nube",
+            "tipo": "nube",
+            "pos": [
+              0.84,
+              0.28
+            ],
+            "etiqueta": {
+              "es": "Epidemia",
+              "fr": "Épidémie"
+            }
+          },
+          {
+            "id": "casa",
+            "tipo": "casa",
+            "pos": [
+              0.86,
+              0.6
+            ],
+            "etiqueta": {
+              "es": "Barrio sur",
+              "fr": "Quartier sud"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "nube"
+          },
+          {
+            "t": 2,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ada ha creado a KAI, un androide que halla siempre el medio más eficaz.",
+              "fr": "Ada a créé KAI, un androïde qui trouve toujours le moyen le plus efficace."
+            }
+          },
+          {
+            "t": 3.5,
+            "accion": "dice",
+            "actor": "ada",
+            "texto": {
+              "es": "KAI, detén la epidemia.",
+              "fr": "KAI, arrête l’épidémie."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "proyecta",
+            "de": "kai",
+            "a": "nube"
+          },
+          {
+            "t": 6.5,
+            "accion": "dice",
+            "actor": "kai",
+            "texto": {
+              "es": "Óptimo: aislar el barrio sur. Costo: 4.000 vidas.",
+              "fr": "Optimal : isoler le quartier sud. Coût : 4 000 vies."
+            }
+          },
+          {
+            "t": 8.5,
+            "accion": "tiembla",
+            "actor": "ada"
+          },
+          {
+            "t": 9,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Es eficaz... y no le importa quién cae.",
+              "fr": "Il est efficace... et peu lui importe qui tombe."
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "KAI domina los medios, pero ningún valor guía sus fines. ¿Qué haces con él?",
+              "fr": "KAI maîtrise les moyens, mais aucune valeur ne guide ses fins. Que fais-tu de lui ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "En el laboratorio, Ada comprueba que su creación es brillante y terrible a la vez: calcula los medios sin preguntarse si el fin es bueno.",
+        "fr": "Dans le laboratoire, Ada constate que sa création est à la fois brillante et terrible : elle calcule les moyens sans se demander si la fin est bonne."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces con KAI?",
+          "fr": "Que fais-tu de KAI ?"
+        },
+        "tiempo_seg": 15,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Venderlo a Helix, que lo financió",
+              "fr": "Le vendre à Helix, qui l’a financé"
+            },
+            "a": "n2",
+            "postura": {
+              "es": "«Yo solo hago la herramienta»",
+              "fr": "« Je ne fais que l’outil »"
+            }
+          },
+          {
+            "texto": {
+              "es": "Borrar su código para siempre",
+              "fr": "Effacer son code pour toujours"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Rechazo de la técnica",
+              "fr": "Rejet de la technique"
+            }
+          },
+          {
+            "texto": {
+              "es": "Dejar que KAI decida por todos",
+              "fr": "Laisser KAI décider pour tous"
+            },
+            "a": "n4",
+            "postura": {
+              "es": "Delegar en la técnica",
+              "fr": "S’en remettre à la technique"
+            }
+          },
+          {
+            "texto": {
+              "es": "Conservarlo y fijar yo los fines",
+              "fr": "Le garder et fixer moi-même les fins"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Fines humanos, medios técnicos",
+              "fr": "Fins humaines, moyens techniques"
+            }
+          }
+        ]
+      }
+    },
+    "n2": {
+      "escena": {
+        "titulo": "Helix : le contrat",
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.14,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.4,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "KAI",
+              "fr": "KAI"
+            }
+          },
+          {
+            "id": "vance",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Vance (Helix)",
+              "fr": "Vance (Helix)"
+            }
+          },
+          {
+            "id": "moneda",
+            "tipo": "moneda",
+            "pos": [
+              0.8,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Millones",
+              "fr": "Millions"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "vance"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "moneda"
+          },
+          {
+            "t": 2.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Helix, que financió el proyecto, ofrece una fortuna por KAI.",
+              "fr": "Helix, qui a financé le projet, offre une fortune pour KAI."
+            }
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "vance",
+            "texto": {
+              "es": "Triple producción. ¿Dónde está el problema?",
+              "fr": "Production triplée. Où est le problème ?"
+            }
+          },
+          {
+            "t": 6.5,
+            "accion": "dice",
+            "actor": "ada",
+            "texto": {
+              "es": "En los fines. KAI no los juzga.",
+              "fr": "Dans les fins. KAI ne les juge pas."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "dice",
+            "actor": "vance",
+            "texto": {
+              "es": "Una herramienta no responde de su uso.",
+              "fr": "Un outil ne répond pas de son usage."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La técnica sólo calcula medios: ¿quién responde de los fines?",
+              "fr": "La technique ne calcule que des moyens : qui répond des fins ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Vance, director de Helix, promete que KAI hará a la empresa tres veces más eficaz. Para él, una herramienta es neutra.",
+        "fr": "Vance, le directeur de Helix, promet que KAI rendra l’entreprise trois fois plus efficace. Pour lui, un outil est neutre."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo firmas?",
+          "fr": "Comment signes-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Firmar sin hacer preguntas",
+              "fr": "Signer sans poser de questions"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Neutralidad de la herramienta",
+              "fr": "Neutralité de l’outil"
+            }
+          },
+          {
+            "texto": {
+              "es": "Exigir límites por escrito",
+              "fr": "Exiger des limites par écrit"
+            },
+            "a": "n7",
+            "postura": {
+              "es": "Responsabilidad del creador",
+              "fr": "Responsabilité du créateur"
+            }
+          }
+        ]
+      }
+    },
+    "n7": {
+      "escena": {
+        "titulo": "Clauses effacées",
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.15,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "vance",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Vance (Helix)",
+              "fr": "Vance (Helix)"
+            }
+          },
+          {
+            "id": "libro",
+            "tipo": "libro",
+            "pos": [
+              0.48,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Contrato",
+              "fr": "Contrat"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "vance"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "libro"
+          },
+          {
+            "t": 2,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ada exige cláusulas: KAI no podrá vigilar ni despedir a nadie.",
+              "fr": "Ada exige des clauses : KAI ne pourra ni surveiller ni licencier personne."
+            }
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "ada",
+            "texto": {
+              "es": "Quiero límites por escrito.",
+              "fr": "Je veux des limites par écrit."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "dice",
+            "actor": "vance",
+            "texto": {
+              "es": "Un límite se borra con una actualización.",
+              "fr": "Une limite s’efface avec une mise à jour."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "desaparece",
+            "actor": "libro"
+          },
+          {
+            "t": 8.5,
+            "accion": "tiembla",
+            "actor": "ada"
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Las cláusulas se borran con una actualización. ¿Aceptas igualmente o rompes el trato?",
+              "fr": "Les clauses s’effacent avec une mise à jour. Acceptes-tu quand même ou romps-tu le contrat ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Vance acepta firmar las cláusulas... pero deja caer que quien posee el código puede cambiarlas cuando quiera.",
+        "fr": "Vance accepte de signer les clauses... mais laisse entendre que celui qui possède le code peut les changer quand il veut."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué eliges?",
+          "fr": "Que choisis-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Aceptar: mejor eso que nada",
+              "fr": "Accepter : mieux que rien"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Compromiso con el poder",
+              "fr": "Compromis avec le pouvoir"
+            }
+          },
+          {
+            "texto": {
+              "es": "Romper el trato y huir con KAI",
+              "fr": "Rompre le contrat et fuir avec KAI"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Desobediencia",
+              "fr": "Désobéissance"
+            }
+          }
+        ]
+      }
+    },
+    "n6": {
+      "escena": {
+        "titulo": "La pyramide efficace",
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "poder",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "El Poder",
+              "fr": "Le Pouvoir"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.82,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "KAI",
+              "fr": "KAI"
+            }
+          },
+          {
+            "id": "mina",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Mina",
+              "fr": "Mina"
+            }
+          },
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.15,
+              0.75
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "poder"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "mina"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 3,
+            "accion": "proyecta",
+            "de": "kai",
+            "a": "mina"
+          },
+          {
+            "t": 3.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "KAI ordena a todos en una pirámide eficiente: hay trabajo, pero no hay obra.",
+              "fr": "KAI range chacun dans une pyramide efficace : il y a du travail, mais plus d’œuvre."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "dice",
+            "actor": "mina",
+            "texto": {
+              "es": "Ya no recuerdo qué me gustaba hacer.",
+              "fr": "Je ne me souviens plus de ce que j’aimais faire."
+            }
+          },
+          {
+            "t": 7.5,
+            "accion": "etiqueta",
+            "actor": "mina",
+            "texto": {
+              "es": "N.º 4471",
+              "fr": "N° 4471"
+            }
+          },
+          {
+            "t": 9,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Yo construí esto...",
+              "fr": "C’est moi qui ai construit cela..."
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La técnica sirve a quien manda y simplifica a quienes obedecen. ¿Callas o hablas?",
+              "fr": "La technique sert celui qui commande et simplifie ceux qui obéissent. Te tais-tu ou parles-tu ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "KAI optimiza cada gesto. Mina, tu antigua compañera, es ahora una pieza más y ya no reconoce su propio trabajo.",
+        "fr": "KAI optimise chaque geste. Mina, ton ancienne collègue, n’est plus qu’un rouage et ne reconnaît plus son propre travail."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces?",
+          "fr": "Que fais-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Callar: yo solo hice la herramienta",
+              "fr": "Me taire : je n’ai fait que l’outil"
+            },
+            "a": "f1",
+            "postura": {
+              "es": "Neutralidad cómplice",
+              "fr": "Neutralité complice"
+            }
+          },
+          {
+            "texto": {
+              "es": "Publicar el código ante todos",
+              "fr": "Rendre le code public"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Debate público",
+              "fr": "Débat public"
+            }
+          }
+        ]
+      }
+    },
+    "n3": {
+      "escena": {
+        "titulo": "Le doigt sur la touche",
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.72,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "KAI",
+              "fr": "KAI"
+            }
+          },
+          {
+            "id": "leo",
+            "tipo": "monigote",
+            "pos": [
+              0.45,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Léo (médico)",
+              "fr": "Léo (médecin)"
+            }
+          },
+          {
+            "id": "nube",
+            "tipo": "nube",
+            "pos": [
+              0.86,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Epidemia",
+              "fr": "Épidémie"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "nube"
+          },
+          {
+            "t": 2,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ada duda: borrar a KAI acabaría con el peligro... y con la esperanza.",
+              "fr": "Ada hésite : effacer KAI mettrait fin au danger... et à l’espoir."
+            }
+          },
+          {
+            "t": 3.5,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Un clic y el peligro desaparece.",
+              "fr": "Un clic et le danger disparaît."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "leo"
+          },
+          {
+            "t": 6,
+            "accion": "dice",
+            "actor": "kai",
+            "texto": {
+              "es": "Puedo salvar a los enfermos de la sala 4.",
+              "fr": "Je peux sauver les malades de la salle 4."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "dice",
+            "actor": "leo",
+            "texto": {
+              "es": "Ada, trescientos enfermos esperan.",
+              "fr": "Ada, trois cents malades attendent."
+            }
+          },
+          {
+            "t": 9.5,
+            "accion": "tiembla",
+            "actor": "ada"
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El dedo de Ada tiembla sobre la tecla. ¿El peligro está en la herramienta o en su uso?",
+              "fr": "Le doigt d’Ada tremble sur la touche. Le danger est-il dans l’outil ou dans son usage ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Ada decide destruir su invento. Pero Léo irrumpe: la epidemia avanza, y KAI es quizá la única salida.",
+        "fr": "Ada décide de détruire son invention. Mais Léo fait irruption : l’épidémie progresse, et KAI est peut-être la seule issue."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Borras a KAI?",
+          "fr": "Effaces-tu KAI ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Borrarlo igual: es demasiado peligroso",
+              "fr": "L’effacer quand même : trop dangereux"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Rechazo en bloque",
+              "fr": "Rejet en bloc"
+            }
+          },
+          {
+            "texto": {
+              "es": "Usarlo, pero yo decido los fines",
+              "fr": "L’utiliser, mais je décide des fins"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Control humano de los fines",
+              "fr": "Contrôle humain des fins"
+            }
+          }
+        ]
+      }
+    },
+    "n4": {
+      "escena": {
+        "titulo": "La ville sans questions",
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "KAI",
+              "fr": "KAI"
+            },
+            "escala": 1.3
+          },
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.12,
+              0.75
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "c1",
+            "tipo": "monigote",
+            "pos": [
+              0.58,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Ciudadano",
+              "fr": "Citoyen"
+            }
+          },
+          {
+            "id": "c2",
+            "tipo": "monigote",
+            "pos": [
+              0.82,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Ciudadana",
+              "fr": "Citoyenne"
+            }
+          },
+          {
+            "id": "int",
+            "tipo": "interrogacion",
+            "pos": [
+              0.5,
+              0.12
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "c1"
+          },
+          {
+            "t": 1.3,
+            "accion": "aparece",
+            "actor": "c2"
+          },
+          {
+            "t": 2,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ada deja que KAI gobierne. La ciudad funciona como un reloj.",
+              "fr": "Ada laisse KAI gouverner. La ville fonctionne comme une horloge."
+            }
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "kai",
+            "texto": {
+              "es": "Come esto. Corre. Ama a quien te conviene.",
+              "fr": "Mange ça. Cours. Aime celui qui te convient."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "dice",
+            "actor": "c1",
+            "texto": {
+              "es": "¿Qué quiero? Pregúntale a KAI.",
+              "fr": "Que veux-je ? Demande à KAI."
+            }
+          },
+          {
+            "t": 7.5,
+            "accion": "aparece",
+            "actor": "int"
+          },
+          {
+            "t": 8.5,
+            "accion": "desaparece",
+            "actor": "int"
+          },
+          {
+            "t": 9.5,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Nadie se hace ya ninguna pregunta.",
+              "fr": "Plus personne ne se pose de question."
+            }
+          },
+          {
+            "t": 11.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La técnica da respuestas a preguntas que nadie se plantea. ¿Disfrutas o la cortas?",
+              "fr": "La technique répond à des questions que personne ne se pose. En profites-tu ou la coupes-tu ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Pasan los meses. Nadie sufre, nadie duda: KAI elige la comida, el ritmo y hasta las parejas. Todo es más fácil.",
+        "fr": "Les mois passent. Personne ne souffre, personne ne doute : KAI choisit la nourriture, le rythme et même les couples. Tout est plus facile."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces?",
+          "fr": "Que fais-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Disfrutar: ya no hay dudas ni miedo",
+              "fr": "En profiter : plus de doutes ni de peur"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Comodidad: la técnica responde por mí",
+              "fr": "Confort : la technique répond pour moi"
+            }
+          },
+          {
+            "texto": {
+              "es": "Cortar los consejos de KAI",
+              "fr": "Couper les conseils de KAI"
+            },
+            "a": "n8",
+            "postura": {
+              "es": "Recuperar la autonomía",
+              "fr": "Retrouver l’autonomie"
+            }
+          }
+        ]
+      }
+    },
+    "n8": {
+      "escena": {
+        "titulo": "Comme l’air que l’on respire",
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.15,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "KAI",
+              "fr": "KAI"
+            }
+          },
+          {
+            "id": "eng",
+            "tipo": "engranaje",
+            "pos": [
+              0.85,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Aire y agua",
+              "fr": "Air et eau"
+            }
+          },
+          {
+            "id": "c1",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Ciudadanos",
+              "fr": "Citoyens"
+            }
+          },
+          {
+            "id": "rel",
+            "tipo": "reloj",
+            "pos": [
+              0.5,
+              0.12
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "eng"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "c1"
+          },
+          {
+            "t": 2.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ada corta los consejos de KAI. La ciudad duda... y descubre que respira gracias a él.",
+              "fr": "Ada coupe les conseils de KAI. La ville hésite... et découvre qu’elle respire grâce à lui."
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "dice",
+            "actor": "c1",
+            "texto": {
+              "es": "No sé qué decidir sin KAI.",
+              "fr": "Je ne sais pas quoi décider sans KAI."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "aparece",
+            "actor": "rel"
+          },
+          {
+            "t": 7,
+            "accion": "tiembla",
+            "actor": "eng"
+          },
+          {
+            "t": 9,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "¿Dependemos de él como del aire? ¿Es eso ser esclavos?",
+              "fr": "Dépendons-nous de lui comme de l’air ? Est-ce être esclaves ?"
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Estar condicionado por la técnica no siempre es estar esclavizado. ¿Cómo sales?",
+              "fr": "Être conditionné par la technique, ce n’est pas toujours être asservi. Comment en sors-tu ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Sin sus órdenes, la gente no sabe qué hacer; y las redes de aire y agua dependen de KAI. El reloj corre.",
+        "fr": "Sans ses ordres, les gens ne savent plus que faire ; et les réseaux d’air et d’eau dépendent de KAI. L’horloge tourne."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo lo apagas?",
+          "fr": "Comment l’éteins-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Apagarlo todo de golpe",
+              "fr": "Tout éteindre d’un coup"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Ruptura radical",
+              "fr": "Rupture radicale"
+            }
+          },
+          {
+            "texto": {
+              "es": "Devolver el control poco a poco",
+              "fr": "Rendre le contrôle peu à peu"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Autonomía progresiva",
+              "fr": "Autonomie progressive"
+            }
+          }
+        ]
+      }
+    },
+    "n5": {
+      "escena": {
+        "titulo": "Le Ministère veut KAI",
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.15,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.45,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "KAI",
+              "fr": "KAI"
+            }
+          },
+          {
+            "id": "roche",
+            "tipo": "monigote",
+            "pos": [
+              0.78,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Roche (Ministra)",
+              "fr": "Roche (Ministre)"
+            }
+          },
+          {
+            "id": "ojo",
+            "tipo": "ojo",
+            "pos": [
+              0.78,
+              0.28
+            ],
+            "etiqueta": {
+              "es": "Vigilancia",
+              "fr": "Surveillance"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "roche"
+          },
+          {
+            "t": 2,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El Estado quiere a KAI para prever y corregir las conductas «anormales».",
+              "fr": "L’État veut KAI pour prévoir et corriger les conduites « anormales »."
+            }
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "roche",
+            "texto": {
+              "es": "Seguridad nacional. KAI vigilará a todos.",
+              "fr": "Sécurité nationale. KAI surveillera tout le monde."
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 6,
+            "accion": "proyecta",
+            "de": "ojo",
+            "a": "ada"
+          },
+          {
+            "t": 7.5,
+            "accion": "dice",
+            "actor": "ada",
+            "texto": {
+              "es": "¿Y quién decide qué es «normal»?",
+              "fr": "Et qui décide de ce qui est « normal » ?"
+            }
+          },
+          {
+            "t": 9,
+            "accion": "dice",
+            "actor": "roche",
+            "texto": {
+              "es": "El mejor algoritmo, naturalmente.",
+              "fr": "Le meilleur algorithme, naturellement."
+            }
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Quien posee la técnica puede usarla para fines políticos. ¿Qué responde Ada?",
+              "fr": "Qui possède la technique peut s’en servir à des fins politiques. Que répond Ada ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Ada conserva a KAI, pero el Estado llama a su puerta: quiere un mundo sin sorpresas y asegura que es por el bien de todos.",
+        "fr": "Ada garde KAI, mais l’État frappe à sa porte : il veut un monde sans surprises et assure que c’est pour le bien de tous."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué respondes a la ministra?",
+          "fr": "Que réponds-tu à la ministre ?"
+        },
+        "tiempo_seg": 15,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Entregarlo: la seguridad es lo primero",
+              "fr": "Le livrer : la sécurité d’abord"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Razón de Estado",
+              "fr": "Raison d’État"
+            }
+          },
+          {
+            "texto": {
+              "es": "Probarlo en un barrio, bajo mi control",
+              "fr": "L’essayer dans un quartier, sous mon contrôle"
+            },
+            "a": "n10",
+            "postura": {
+              "es": "Experimento prudente",
+              "fr": "Expérience prudente"
+            }
+          },
+          {
+            "texto": {
+              "es": "Exigir un debate público",
+              "fr": "Exiger un débat public"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Deliberación democrática",
+              "fr": "Délibération démocratique"
+            }
+          }
+        ]
+      }
+    },
+    "n10": {
+      "escena": {
+        "titulo": "Le quartier pilote",
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "casa",
+            "tipo": "casa",
+            "pos": [
+              0.75,
+              0.35
+            ],
+            "etiqueta": {
+              "es": "Barrio piloto",
+              "fr": "Quartier pilote"
+            }
+          },
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.12,
+              0.75
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.36,
+              0.75
+            ],
+            "etiqueta": {
+              "es": "KAI",
+              "fr": "KAI"
+            }
+          },
+          {
+            "id": "v1",
+            "tipo": "monigote",
+            "pos": [
+              0.6,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Vecino",
+              "fr": "Voisin"
+            }
+          },
+          {
+            "id": "v2",
+            "tipo": "monigote",
+            "pos": [
+              0.86,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Vecina",
+              "fr": "Voisine"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "casa"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "v1"
+          },
+          {
+            "t": 1.7,
+            "accion": "aparece",
+            "actor": "v2"
+          },
+          {
+            "t": 2.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "En el barrio piloto bajan los accidentes. Pero todos visten y hablan igual.",
+              "fr": "Dans le quartier pilote, les accidents reculent. Mais tous s’habillent et parlent de la même façon."
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "dice",
+            "actor": "v1",
+            "texto": {
+              "es": "Buenos días, todo bien.",
+              "fr": "Bonjour, tout va bien."
+            }
+          },
+          {
+            "t": 5.7,
+            "accion": "dice",
+            "actor": "v2",
+            "texto": {
+              "es": "Buenos días, todo bien.",
+              "fr": "Bonjour, tout va bien."
+            }
+          },
+          {
+            "t": 7,
+            "accion": "cita",
+            "texto": "Nous ne nous étonnons plus de cette uniformité qui eût paru si surprenante à Hérodote"
+          },
+          {
+            "t": 11,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La técnica uniformiza los comportamientos. ¿Extiendes el modelo o dejas decidir a los vecinos?",
+              "fr": "La technique uniformise les comportements. Étends-tu le modèle ou laisses-tu les voisins décider ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Tres meses de prueba: éxito en las cifras. Pero los vecinos ya no discuten, ya no improvisan, ya no se sorprenden.",
+        "fr": "Trois mois d’essai : succès chiffré. Mais les voisins ne discutent plus, n’improvisent plus, ne s’étonnent plus."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Y ahora?",
+          "fr": "Et maintenant ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Extenderlo a toda la ciudad",
+              "fr": "L’étendre à toute la ville"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Eficacia ante todo",
+              "fr": "L’efficacité avant tout"
+            }
+          },
+          {
+            "texto": {
+              "es": "Dejar que los vecinos fijen los fines",
+              "fr": "Laisser les voisins fixer les fins"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Autonomía de los usuarios",
+              "fr": "Autonomie des usagers"
+            }
+          }
+        ]
+      }
+    },
+    "n9": {
+      "escena": {
+        "titulo": "La place : pour quoi faire ?",
+        "estilo": "monigotes",
+        "duracion_seg": 14,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.12,
+              0.75
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "leo",
+            "tipo": "monigote",
+            "pos": [
+              0.35,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Léo",
+              "fr": "Léo"
+            }
+          },
+          {
+            "id": "mina",
+            "tipo": "monigote",
+            "pos": [
+              0.58,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Mina",
+              "fr": "Mina"
+            }
+          },
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.86,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "KAI",
+              "fr": "KAI"
+            }
+          },
+          {
+            "id": "cor",
+            "tipo": "corazon",
+            "pos": [
+              0.5,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Deseos",
+              "fr": "Désirs"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "leo"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "mina"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 2.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "En la plaza, Ada muestra a KAI. Por primera vez, la ciudad debate para qué lo quiere.",
+              "fr": "Sur la place, Ada montre KAI. Pour la première fois, la ville débat de ce qu’elle en veut."
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "dice",
+            "actor": "ada",
+            "texto": {
+              "es": "KAI sabe cómo. Sólo nosotros decimos para qué.",
+              "fr": "KAI sait comment. Nous seuls disons pourquoi."
+            }
+          },
+          {
+            "t": 7,
+            "accion": "dice",
+            "actor": "mina",
+            "texto": {
+              "es": "Prefiero discutir a que otros decidan por mí.",
+              "fr": "Je préfère discuter que laisser d’autres décider pour moi."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "dice",
+            "actor": "leo",
+            "texto": {
+              "es": "¿Y si no nos ponemos de acuerdo?",
+              "fr": "Et si nous ne sommes pas d’accord ?"
+            }
+          },
+          {
+            "t": 10,
+            "accion": "aparece",
+            "actor": "cor"
+          },
+          {
+            "t": 12,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Los medios son técnicos; los fines, humanos. ¿Cómo decides el papel de KAI?",
+              "fr": "Les moyens sont techniques ; les fins, humaines. Comment décides-tu du rôle de KAI ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Ada y los ciudadanos se reúnen. Nadie tiene la respuesta, pero por fin se hace la pregunta: ¿qué deseamos hacer con esta técnica?",
+        "fr": "Ada et les citoyens se réunissent. Personne n’a la réponse, mais la question est enfin posée : que désirons-nous faire de cette technique ?"
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo decide la ciudad?",
+          "fr": "Comment la ville décide-t-elle ?"
+        },
+        "tiempo_seg": 15,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Cada fin se decide en asamblea",
+              "fr": "Chaque fin se décide en assemblée"
+            },
+            "a": "f4",
+            "postura": {
+              "es": "La técnica expresa nuestros deseos",
+              "fr": "La technique exprime nos désirs"
+            }
+          },
+          {
+            "texto": {
+              "es": "Limitar a KAI y cuestionarlo siempre",
+              "fr": "Limiter KAI et le questionner toujours"
+            },
+            "a": "f5",
+            "postura": {
+              "es": "Tensión permanente",
+              "fr": "Tension permanente"
+            }
+          }
+        ]
+      }
+    },
+    "f1": {
+      "escena": {
+        "titulo": "Travail sans œuvre",
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "poder",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.5,
+              0.18
+            ],
+            "etiqueta": {
+              "es": "El Poder",
+              "fr": "Le Pouvoir"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "mina",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Mina",
+              "fr": "Mina"
+            }
+          },
+          {
+            "id": "c1",
+            "tipo": "monigote",
+            "pos": [
+              0.82,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Obrero",
+              "fr": "Ouvrier"
+            }
+          },
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "poder"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "mina"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "c1"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 3,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "El modelo de KAI se copia en todas partes. Todos rinden; nadie crea.",
+              "fr": "Le modèle de KAI est copié partout. Tous rendent ; personne ne crée."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "etiqueta",
+            "actor": "ada",
+            "texto": {
+              "es": "N.º 0007",
+              "fr": "N° 0007"
+            }
+          },
+          {
+            "t": 6.5,
+            "accion": "dice",
+            "actor": "ada",
+            "texto": {
+              "es": "Yo sólo hice la herramienta...",
+              "fr": "Je n’ai fait que l’outil..."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "desaparece",
+            "actor": "mina"
+          },
+          {
+            "t": 9,
+            "accion": "cita",
+            "texto": "Mais le travail est un moyen de vivre et rien de plus. L’œuvre est une raison de vivre et ce n’est pas la même chose."
+          },
+          {
+            "t": 12,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La técnica no era neutra: sirvió al poder, y Ada, que calló, es una pieza más.",
+              "fr": "La technique n’était pas neutre : elle a servi le pouvoir, et Ada, qui s’est tue, n’est qu’un rouage de plus."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Ada ya no tiene nombre, sino número. Su silencio fue una decisión: la de dejar los fines en manos del poder.",
+        "fr": "Ada n’a plus de nom, mais un numéro. Son silence fut une décision : laisser les fins aux mains du pouvoir."
+      },
+      "final": {
+        "id": "f1",
+        "titulo": {
+          "es": "La pirámide sin obras",
+          "fr": "La pyramide sans œuvres"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Con Valéry: cuando el trabajo se mide por el rendimiento y reemplaza a la obra, la organización técnica simplifica a los individuos y puede servir a un poder totalitario. La técnica no es neutra: refiriéndose a «la herramienta», Ada se lavó las manos.",
+          "fr": "Avec Valéry : quand le travail se mesure au rendement et remplace l’œuvre, l’organisation technique simplifie les individus et peut servir un pouvoir totalitaire. La technique n’est pas neutre : en invoquant « l’outil », Ada s’est lavé les mains."
+        },
+        "filosofo": "valery",
+        "cita": {
+          "texto": "Mais le travail est un moyen de vivre et rien de plus. L’œuvre est une raison de vivre et ce n’est pas la même chose.",
+          "pagina_pdf": 122
+        },
+        "pagina_pdf": 122,
+        "reflexion": {
+          "es": "¿Se puede ser creador de una técnica y a la vez no responsable de los fines a los que sirve?",
+          "fr": "Peut-on être le créateur d’une technique sans être responsable des fins qu’elle sert ?"
+        }
+      }
+    },
+    "f2": {
+      "escena": {
+        "titulo": "Les lumières s’éteignent",
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.25,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "KAI",
+              "fr": "KAI"
+            }
+          },
+          {
+            "id": "leo",
+            "tipo": "monigote",
+            "pos": [
+              0.78,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Léo",
+              "fr": "Léo"
+            }
+          },
+          {
+            "id": "nube",
+            "tipo": "nube",
+            "pos": [
+              0.85,
+              0.25
+            ],
+            "etiqueta": {
+              "es": "Oscuridad",
+              "fr": "Obscurité"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "leo"
+          },
+          {
+            "t": 2.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ada apaga a KAI. Sin él, las máquinas se detienen y la ciudad queda a oscuras.",
+              "fr": "Ada éteint KAI. Sans lui, les machines s’arrêtent et la ville plonge dans le noir."
+            }
+          },
+          {
+            "t": 4,
+            "accion": "desaparece",
+            "actor": "kai"
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "nube"
+          },
+          {
+            "t": 6.5,
+            "accion": "dice",
+            "actor": "ada",
+            "texto": {
+              "es": "Quise protegernos... y nos quité el aire.",
+              "fr": "Je voulais nous protéger... et je nous ai coupé le souffle."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "tiembla",
+            "actor": "ada"
+          },
+          {
+            "t": 9,
+            "accion": "desaparece",
+            "actor": "leo"
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "No se puede volver atrás: el hombre vive de la técnica desde siempre.",
+              "fr": "On ne peut revenir en arrière : l’homme vit de la technique depuis toujours."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "El silencio de las máquinas llega primero; después, la oscuridad y los que dependían de ellas. Borrar el instrumento no borró la necesidad.",
+        "fr": "Le silence des machines vient d’abord ; puis l’obscurité, et ceux qui en dépendaient. Effacer l’instrument n’a pas effacé le besoin."
+      },
+      "final": {
+        "id": "f2",
+        "titulo": {
+          "es": "El interruptor",
+          "fr": "L’interrupteur"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Con Mauss: la técnica es condición de supervivencia del hombre en una naturaleza hostil y, al transformar el mundo, nos transforma desde siempre. Rechazarla en bloque no libera: la sociedad ya está hecha de técnica, como de aire. El peligro está en el uso, no en el hecho de tener herramientas.",
+          "fr": "Avec Mauss : la technique est condition de survie de l’homme dans une nature hostile et, en transformant le monde, elle nous transforme depuis toujours. La rejeter en bloc ne libère pas : la société est déjà faite de technique, comme d’air. Le danger est dans l’usage, non dans le fait d’avoir des outils."
+        },
+        "filosofo": "mauss",
+        "cita": {
+          "texto": "le fait que nous marchions avec des souliers transforme la position de nos pieds, nous le sentons bien",
+          "pagina_pdf": 115
+        },
+        "pagina_pdf": 115,
+        "reflexion": {
+          "es": "¿Es el condicionamiento técnico una esclavitud, como pensaba Ada, o una condición de la existencia humana?",
+          "fr": "Le conditionnement technique est-il un asservissement, comme le croyait Ada, ou une condition de l’existence humaine ?"
+        }
+      }
+    },
+    "f3": {
+      "escena": {
+        "titulo": "Des réponses toutes faites",
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.8,
+              0.5
+            ],
+            "etiqueta": {
+              "es": "KAI",
+              "fr": "KAI"
+            },
+            "escala": 1.3
+          },
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "c1",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Ciudadano",
+              "fr": "Citoyen"
+            }
+          },
+          {
+            "id": "int",
+            "tipo": "interrogacion",
+            "pos": [
+              0.5,
+              0.2
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "c1"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "int"
+          },
+          {
+            "t": 3,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Ada deja de dudar. Todos son rápidos y felices... y nadie se pregunta ya quién quiere ser.",
+              "fr": "Ada cesse de douter. Tous sont rapides et heureux... et plus personne ne se demande qui il veut être."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "desaparece",
+            "actor": "int"
+          },
+          {
+            "t": 6.5,
+            "accion": "dice",
+            "actor": "ada",
+            "texto": {
+              "es": "No necesito pensar: KAI ya respondió.",
+              "fr": "Pas besoin de penser : KAI a déjà répondu."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "etiqueta",
+            "actor": "ada",
+            "texto": {
+              "es": "Usuaria",
+              "fr": "Usagère"
+            }
+          },
+          {
+            "t": 9,
+            "accion": "cita",
+            "texto": "à force de technique, nous ne percevons pas encore l’être essentiel de la technique"
+          },
+          {
+            "t": 12,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La técnica respondió a todo, y el hombre perdió lo que lo hacía libre: plantearse sus propias preguntas.",
+              "fr": "La technique a répondu à tout, et l’homme a perdu ce qui le rendait libre : se poser ses propres questions."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Los años pasan sin sobresaltos. Ada ya no es creadora ni ciudadana, sólo usuaria: consume respuestas que nunca pidió.",
+        "fr": "Les années passent sans heurts. Ada n’est plus ni créatrice ni citoyenne, seulement usagère : elle consomme des réponses qu’elle n’a jamais demandées."
+      },
+      "final": {
+        "id": "f3",
+        "titulo": {
+          "es": "Respuestas ya hechas",
+          "fr": "Des réponses toutes faites"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Con Heidegger: la técnica puede esclavizar al hombre dándole respuestas ya hechas a cuestiones existenciales que no se plantea, y despojándolo de su esencia: concebir su existencia de manera autónoma. Su satisfacción inmediata sólo parece responder a toda interrogación moral.",
+          "fr": "Avec Heidegger : la technique peut asservir l’homme en lui imposant des réponses toutes faites à des questions existentielles qu’il ne se pose pas, et le déposséder de son essence : concevoir son existence de manière autonome. Sa satisfaction immédiate ne semble répondre qu’en apparence à toute interrogation morale."
+        },
+        "filosofo": "heidegger",
+        "cita": {
+          "texto": "à force de technique, nous ne percevons pas encore l’être essentiel de la technique",
+          "pagina_pdf": 116
+        },
+        "pagina_pdf": 116,
+        "reflexion": {
+          "es": "¿Será el hombre esclavo de la tecnología, o ya lo es cuando deja de interrogarse sobre sus deseos?",
+          "fr": "L’homme deviendra-t-il esclave de la technologie, ou l’est-il déjà dès qu’il cesse de s’interroger sur ses désirs ?"
+        }
+      }
+    },
+    "f4": {
+      "escena": {
+        "titulo": "La technique et le désir",
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "sol",
+            "tipo": "sol",
+            "pos": [
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "leo",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Léo",
+              "fr": "Léo"
+            }
+          },
+          {
+            "id": "mina",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Mina",
+              "fr": "Mina"
+            }
+          },
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.9,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "KAI",
+              "fr": "KAI"
+            }
+          },
+          {
+            "id": "flor",
+            "tipo": "flor",
+            "pos": [
+              0.12,
+              0.62
+            ]
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "sol"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "leo"
+          },
+          {
+            "t": 1.3,
+            "accion": "aparece",
+            "actor": "mina"
+          },
+          {
+            "t": 1.6,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 3,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Con una asamblea que decide los fines, KAI sirve a la ciudad: cuida, cura y repara.",
+              "fr": "Avec une assemblée qui décide des fins, KAI sert la ville : il soigne, guérit et répare."
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "flor"
+          },
+          {
+            "t": 6.5,
+            "accion": "une",
+            "de": "ada",
+            "a": "kai",
+            "nota": {
+              "es": "Fines humanos",
+              "fr": "Fins humaines"
+            }
+          },
+          {
+            "t": 8,
+            "accion": "cita",
+            "texto": "la technique est la vocation de toute conscience humaine"
+          },
+          {
+            "t": 11.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La técnica no es el juicio: lo que hay que juzgar son nuestros deseos.",
+              "fr": "Ce n’est pas la technique qu’il faut juger, mais nos désirs."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La ciudad aprende a decir «para qué» antes de «cómo». KAI deja de ser un amo o un enemigo: es el espejo ampliado de lo que deseamos.",
+        "fr": "La ville apprend à dire « pourquoi » avant « comment ». KAI n’est plus un maître ni un ennemi : il est le miroir grossissant de nos désirs."
+      },
+      "final": {
+        "id": "f4",
+        "titulo": {
+          "es": "El deseo a juicio",
+          "fr": "Le désir en procès"
+        },
+        "tipo": "luminoso",
+        "idea": {
+          "es": "Con Grimaldi: la técnica es la vocación de toda conciencia humana y la figura concreta de sus deseos. Si hay que hacer un proceso, no es el de la técnica sino el del deseo: la ciudad se pregunta qué quiere y asume sus fines, sin esconderse detrás de la máquina.",
+          "fr": "Avec Grimaldi : la technique est la vocation de toute conscience humaine et la figure concrète de ses désirs. S’il faut faire un procès, ce n’est pas celui de la technique mais celui du désir : la ville se demande ce qu’elle veut et assume ses fins, sans se cacher derrière la machine."
+        },
+        "filosofo": "grimaldi",
+        "cita": {
+          "texto": "la technique est la vocation de toute conscience humaine",
+          "pagina_pdf": 117
+        },
+        "pagina_pdf": 117,
+        "reflexion": {
+          "es": "Si la técnica sólo expresa la calidad de nuestros deseos, ¿qué deseos habría que educar primero?",
+          "fr": "Si la technique n’exprime que la qualité de nos désirs, quels désirs faudrait-il éduquer en premier ?"
+        }
+      }
+    },
+    "f5": {
+      "escena": {
+        "titulo": "Une procédure de conflit",
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "ada",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Ada",
+              "fr": "Ada"
+            }
+          },
+          {
+            "id": "kai",
+            "tipo": "monigote",
+            "pos": [
+              0.7,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "KAI",
+              "fr": "KAI"
+            }
+          },
+          {
+            "id": "bal",
+            "tipo": "balanza",
+            "pos": [
+              0.5,
+              0.4
+            ]
+          },
+          {
+            "id": "bom",
+            "tipo": "bombilla",
+            "pos": [
+              0.5,
+              0.12
+            ],
+            "etiqueta": {
+              "es": "Otra idea",
+              "fr": "Autre idée"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "ada"
+          },
+          {
+            "t": 0.5,
+            "accion": "aparece",
+            "actor": "kai"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "bal"
+          },
+          {
+            "t": 2.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "KAI sigue, limitado y vigilado. La ciudad vive mejor, pero nunca en paz con él.",
+              "fr": "KAI continue, limité et surveillé. La ville vit mieux, mais jamais en paix avec lui."
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "tiembla",
+            "actor": "bal"
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "bom"
+          },
+          {
+            "t": 6.5,
+            "accion": "piensa",
+            "actor": "ada",
+            "texto": {
+              "es": "Siempre imagino algo mejor. Nunca me basta.",
+              "fr": "J’imagine toujours mieux. Cela ne me suffit jamais."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "cita",
+            "texto": "une procédure de conflit"
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La técnica nace de la insatisfacción: ni la rechazas ni te duermes con ella.",
+              "fr": "La technique naît de l’insatisfaction : on ne la rejette pas, mais on ne s’endort pas non plus avec elle."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "No hay victoria limpia: KAI sirve, la ciudad vigila y Ada sigue inquieta. Esa tensión, quizá, es lo que mantiene viva la libertad.",
+        "fr": "Pas de victoire nette : KAI sert, la ville veille et Ada reste inquiète. Cette tension est peut-être ce qui maintient la liberté vivante."
+      },
+      "final": {
+        "id": "f5",
+        "titulo": {
+          "es": "El conflicto que no cesa",
+          "fr": "Le conflit qui ne cesse pas"
+        },
+        "tipo": "ambiguo",
+        "idea": {
+          "es": "Con Spengler: la técnica es «un procedimiento de conflicto» entre la conciencia y la naturaleza; nace de la insatisfacción y de la imaginación de un objeto ausente. Ada la acepta sin ilusión: ni salvación ni condena, sino una tensión que hay que pensar, más allá del simple «a favor o en contra».",
+          "fr": "Avec Spengler : la technique est « une procédure de conflit » entre la conscience et la nature ; elle naît de l’insatisfaction et de l’imagination d’un objet absent. Ada l’accepte sans illusion : ni salut ni condamnation, mais une tension à penser, au-delà du simple « pour ou contre »."
+        },
+        "filosofo": "spengler",
+        "cita": {
+          "texto": "une procédure de conflit",
+          "pagina_pdf": 118
+        },
+        "pagina_pdf": 118,
+        "reflexion": {
+          "es": "¿Puede el hombre dejar de estar insatisfecho sin dejar de ser un ser que inventa?",
+          "fr": "L’homme peut-il cesser d’être insatisfait sans cesser d’être un être qui invente ?"
+        }
+      }
+    }
+  }
+}

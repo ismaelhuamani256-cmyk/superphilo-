@@ -1,0 +1,136 @@
+{
+  "capitulo": "inconscient",
+  "perspectivas": {
+    "autores": ["Leibniz", "Freud", "Nietzsche", "Lacan", "Marx", "Alain", "Lévi-Strauss", "Sartre", "Saussure"],
+    "nociones_liadas": ["liberté", "conscience", "devoir", "bonheur", "justice", "langage"],
+    "ramas": [
+      {
+        "titulo": {"es": "La existencia humana y la cultura", "fr": "L’existence humaine et la culture"},
+        "ideas": [
+          {"texto": {"es": "Existe un inconsciente cultural que estructura nuestros sentimientos y nuestros comportamientos.", "fr": "Il existe un inconscient culturel qui structure nos sentiments et nos comportements."}, "autor": "Lévi-Strauss", "cours": "1. c."},
+          {"texto": {"es": "Todo hombre debe vivir con los principios de placer y de realidad.", "fr": "Tout homme doit vivre avec les principes de plaisir et de réalité."}, "autor": "Freud", "cours": "2. b."},
+          {"texto": {"es": "La cura analítica busca la emancipación mediante el conocimiento de uno mismo.", "fr": "La cure analytique vise à l’émancipation par la connaissance de soi."}, "autor": "Freud", "cours": "3. b."},
+          {"texto": {"es": "La noción de inconsciente implica un enfoque antihumanista del hombre.", "fr": "La notion d’inconscient implique une approche antihumaniste de l’homme."}, "autor": "Alain", "cours": "5. a."},
+          {"texto": {"es": "El inconsciente sería la expresión de la mala fe.", "fr": "L’inconscient serait l’expression de la mauvaise foi."}, "autor": "Sartre", "cours": "5. b."}
+        ]
+      },
+      {
+        "titulo": {"es": "La moral y la política", "fr": "La morale et la politique"},
+        "ideas": [
+          {"texto": {"es": "Las condiciones sociales y materiales desiguales condicionan inconscientemente las concepciones políticas de los hombres.", "fr": "Les conditions sociales et matérielles inégales conditionnent inconsciemment les conceptions politiques des hommes."}, "autor": "Marx", "cours": "1. b."}
+        ]
+      },
+      {
+        "titulo": {"es": "El conocimiento", "fr": "La connaissance"},
+        "ideas": [
+          {"texto": {"es": "Ciertos fenómenos son imperceptibles porque son muy débiles (inconscientes) y sin embargo se conocen porque se ensamblan.", "fr": "Certains phénomènes sont imperceptibles, car très faibles (inconscients) et pourtant connus parce qu’assemblés."}, "autor": "Leibniz", "cours": "1. a."},
+          {"texto": {"es": "La hipótesis del inconsciente psíquico es necesaria, legítima y verdadera.", "fr": "L’hypothèse de l’inconscient psychique est nécessaire, légitime et vraie."}, "autor": "Freud", "cours": "2. a."},
+          {"texto": {"es": "El inconsciente se manifiesta por los sueños, los actos fallidos y las neurosis.", "fr": "L’inconscient se manifeste par les rêves, les actes manqués et les névroses."}, "autor": "Freud", "cours": "2. c."},
+          {"texto": {"es": "El psicoanálisis permite al hombre conocerse mejor.", "fr": "La psychanalyse permet à l’homme de mieux se connaître."}, "autor": "Freud", "cours": "4. a."},
+          {"texto": {"es": "El lenguaje permite dar sentido a nuestra identidad y, por consiguiente, a nuestro inconsciente.", "fr": "Le langage permet de donner du sens à notre identité et par conséquent à notre inconscient."}, "autor": "Lacan", "cours": "4. b."}
+        ]
+      }
+    ],
+    "pagina_pdf": 63
+  },
+  "ejercicios": [
+    {
+      "id": "inconscient-diss",
+      "tipo": "dissertation",
+      "enunciado": {"es": "¿La hipótesis del inconsciente vuelve al hombre irresponsable?", "fr": "L’hypothèse de l’inconscient rend-elle l’homme irresponsable ?"},
+      "consigna": {"es": "1. Redacte la introducción del tema. 2. Después, indique de forma sucinta las distintas tesis o perspectivas que constituirían su trabajo. (Perspectivas 2 y 3; 45 min)", "fr": "1. Rédigez l’introduction du sujet. 2. Puis, donnez succinctement les différentes thèses ou perspectives qui constitueraient votre devoir. (Perspectives 2 et 3 ; 45 min)"},
+      "corrige": {
+        "orientacion": {
+          "es": "Preste atención a lo que abarca este tema. Si la noción de responsabilidad plantea cuestiones jurídicas y morales, tiene consecuencias sobre la libertad de los hombres. Habrá que relacionar aquí estos tres ámbitos sin asimilarlos. No olvide tampoco que la inconsciencia no es el inconsciente: este tema permite mostrar que toda relación causal entre dos estados, objetos o fenómenos no implica que tengan el mismo significado.",
+          "fr": "Soyez attentif(ve) à ce que recouvre ce sujet. Si la notion de responsabilité soulève des questions juridique et morale, elle a des conséquences sur la liberté des hommes. Il va falloir ici relier ces trois domaines sans pour autant les assimiler. N’oubliez pas non plus que l’inconscience n’est pas l’inconscient : ce sujet va vous permettre de montrer que toute relation causale entre deux états, objets ou phénomènes n’implique pas leur même signification."
+        },
+        "introduccion": {
+          "es": "[Explicación del tema] El inconsciente psíquico o social implica o supone la hipótesis de una instancia que escapa al individuo, puesto que éste no domina ni su causa ni su evolución. Es, pues, algo en él que el hombre sufre y que, sin embargo, orienta ciertos afectos suyos e incluso gran parte de sus comportamientos. Lejos de ser racionales, sus acciones y pasiones se le imponen sin que pueda siquiera asumir las consecuencias. ¿No impide entonces el inconsciente a todo individuo actuar como un hombre libre y responsable? Pero si es cierto que nuestro inconsciente puede orientar nuestra vida, no es el único factor y no prohíbe a un hombre tomar conciencia de lo que le hace actuar y, por tanto, seguir siendo dueño de sus actos, e incluso asumirlos. Si todo hombre tiene un inconsciente y, por tanto, fantasmas, carencias e incluso obsesiones, su responsabilidad sólo está comprometida cuando pasa al acto y no se contiene. [Problemática] ¿No corresponde entonces a la instancia judicial apreciar su grado de responsabilidad, es decir, sus facultades o capacidades para asumir todos sus actos? [Anuncio del plan] Así, si la hipótesis del inconsciente psíquico supone que ciertos actos escapan a nuestra comprensión y a nuestra voluntad, debemos confiar a una instancia superior e imperiosa la evaluación de nuestros comportamientos más reprobables. Sin embargo, el inconsciente no puede presentarse como una especie de monstruo escondido en nosotros que espera su hora para obrar mal. Forma parte de nuestra historia personal, que en este sentido no es idéntica a ninguna otra. Nada está, pues, fijado de una vez por todas. Al contrario, el carácter vivo de nuestro inconsciente obliga a estar atentos a sus expresiones para no ser engañados por ellas. Sin creer en un conocimiento total de uno mismo, ¿un conocimiento más profundo de nuestro inconsciente no nos permitirá tejer con más lucidez los vínculos entre nuestras acciones o pasiones? ¿No sería un medio más seguro para asumir sin máscara toda nuestra responsabilidad y, por tanto, toda nuestra vida?",
+          "fr": "[Explication du sujet] L’inconscient psychique ou social implique ou suppose l’hypothèse d’une instance échappant à l’individu puisqu’il n’en maîtrise ni la cause ni l’évolution. C’est donc bien quelque chose en lui que l’homme subit et qui pourtant va orienter certains de ses affects et même une grande partie de ses comportements. Loin d’être rationnelles, ses actions et passions s’imposent à lui sans qu’il puisse même en assumer les conséquences. L’inconscient n’empêche-t-il alors tout individu d’agir en homme libre et responsable ? Mais s’il est vrai que notre inconscient peut orienter notre vie, il n’est pas le seul et il n’interdit pas à un homme de prendre conscience de ce qui le fait agir et donc de rester maître de ses actions, voire les assumer. Si chaque homme a un inconscient et donc des fantasmes, des manques voire des obsessions, sa responsabilité est engagée seulement lorsqu’il passe à l’acte et ne se retient pas. [Problématique] N’est-ce pas alors à l’instance judiciaire d’apprécier son degré de responsabilité, c’est-à-dire ses facultés ou capacités à assumer tous ses actes ? [Annonce du plan] Aussi, si l’hypothèse de l’inconscient psychique suppose que certains de nos actes échappent à notre compréhension et à notre volonté, c’est en une instance supérieure et impérieuse que nous devons remettre l’évaluation de nos comportements les plus répréhensibles. Toutefois, l’inconscient ne peut se présenter comme une sorte de monstre caché en nous et attendant son heure pour mal agir. Il fait partie de notre histoire personnelle qui n’est, en ce sens, identique à nulle autre. Rien n’est donc figé ou arrêté une fois pour toute. Au contraire, le caractère vivant de notre inconscient nous oblige à être attentifs à ses expressions afin de ne pas en être dupes. Sans croire à une connaissance totale de soi, une connaissance plus approfondie de notre inconscient ne nous permettra-t-elle pas de tisser plus lucidement des liens entre nos actions ou passions ? Ne serait-ce pas un moyen plus sûr pour vraiment assumer sans masque toute notre responsabilité et donc toute notre vie."
+        },
+        "problematica": {
+          "es": "¿No impide el inconsciente a todo individuo actuar como un hombre libre y responsable? ¿No corresponde a la instancia judicial apreciar su grado de responsabilidad, es decir, sus facultades para asumir todos sus actos?",
+          "fr": "L’inconscient n’empêche-t-il alors tout individu d’agir en homme libre et responsable ? N’est-ce pas alors à l’instance judiciaire d’apprécier son degré de responsabilité, c’est-à-dire ses facultés ou capacités à assumer tous ses actes ?"
+        },
+        "plan": [
+          {
+            "parte": {"es": "I. La responsabilidad y la libertad ante un inconsciente que escapa a la voluntad", "fr": "I. La responsabilité et la liberté face à un inconscient qui échappe à la volonté"},
+            "idea": {"es": "La referencia al concepto de responsabilidad obliga a preguntarse qué ocurre con la libertad si se supone que la existencia está hecha de móviles que escapan a la voluntad. Para ser responsable, hay que saber lo que se hace, si no en el desarrollo de la acción, al menos desde su origen (cf. Sartre).", "fr": "La référence au concept de responsabilité oblige à se demander ce que devient la liberté si on suppose que l’existence est constituée de mobiles échappant à la volonté. Pour être responsable, il faut savoir ce que l’on fait, si ce n’est dans le déroulement de l’action, au moins dès son origine (cf. Sartre)."},
+            "autores": ["sartre"]
+          },
+          {
+            "parte": {"es": "II. La hipótesis del inconsciente no es una excusa", "fr": "II. L’hypothèse de l’inconscient n’est pas une excuse"},
+            "idea": {"es": "No todo acto es inconsciente y la inconsciencia no siempre es absoluta. La responsabilidad penal muestra niveles de conciencia diferentes y los jueces tienen la obligación de apreciar el grado de conciencia de un acusado para decidir su responsabilidad (cf. curso sobre la libertad y la justicia).", "fr": "Tout acte n’est pas inconscient et l’inconscience n’est pas toujours absolue. La responsabilité pénale montre des niveaux de conscience différents et les juges ont l’obligation d’apprécier le degré de conscience d’un accusé pour décider de sa responsabilité (cf. cours sur la liberté et la justice)."},
+            "autores": []
+          },
+          {
+            "parte": {"es": "III. La responsabilidad como conquista incesante", "fr": "III. La responsabilité comme conquête incessante"},
+            "idea": {"es": "La responsabilidad no es un hecho bruto sino una conquista incesante, en particular contra la propia cobardía. La hipótesis del inconsciente cuestiona el poder absoluto de la conciencia, pero no lo suprime ni lo descarta. Un mejor conocimiento de nuestro inconsciente permitirá un dominio de sí más seguro y nos hará tomar más conciencia de la responsabilidad de nuestros actos (cf. Freud).", "fr": "La responsabilité n’est pas un fait brut mais une conquête incessante notamment contre sa propre lâcheté. L’hypothèse de l’inconscient remet en cause le pouvoir absolu de la conscience, mais ne le supprime, ni ne l’écarte. Une meilleure connaissance de notre inconscient permettra une maîtrise de soi plus sûre et nous fera davantage prendre conscience de la responsabilisation de nos actes (cf. Freud)."},
+            "autores": ["freud"]
+          }
+        ],
+        "puntos_clave": [
+          {"es": "Delimita el tema: la responsabilidad plantea cuestiones jurídicas y morales y tiene consecuencias sobre la libertad; se relacionan estos tres ámbitos sin asimilarlos.", "fr": "Délimiter le sujet : la responsabilité soulève des questions juridique et morale et a des conséquences sur la liberté ; relier ces trois domaines sans les assimiler."},
+          {"es": "Distingue inconsciencia e inconsciente: una relación causal entre dos fenómenos no implica que tengan el mismo significado.", "fr": "Distinguer inconscience et inconscient : une relation causale entre deux phénomènes n’implique pas leur même signification."},
+          {"es": "Reconoce que el inconsciente es algo que el hombre sufre y que orienta afectos y comportamientos que escapan a su control.", "fr": "Reconnaître que l’inconscient est quelque chose que l’homme subit et qui oriente affects et comportements échappant à son contrôle."},
+          {"es": "Muestra que el inconsciente no es una excusa: no todo acto es inconsciente y la inconsciencia no siempre es absoluta; la responsabilidad se compromete cuando se pasa al acto.", "fr": "Montrer que l’inconscient n’est pas une excuse : tout acte n’est pas inconscient, l’inconscience n’est pas toujours absolue ; la responsabilité est engagée lorsqu’on passe à l’acte."},
+          {"es": "Introduce la dimensión jurídica: los jueces aprecian el grado de conciencia del acusado para decidir su responsabilidad.", "fr": "Introduire la dimension judiciaire : les juges apprécient le degré de conscience de l’accusé pour décider de sa responsabilité."},
+          {"es": "Presenta la responsabilidad como una conquista incesante, también contra la propia cobardía.", "fr": "Présenter la responsabilité comme une conquête incessante, notamment contre sa propre lâcheté."},
+          {"es": "Concluye que el inconsciente cuestiona el poder absoluto de la conciencia sin suprimirlo, y que conocerlo mejor permite asumir mejor los propios actos (Freud).", "fr": "Conclure que l’inconscient remet en cause le pouvoir absolu de la conscience sans le supprimer, et que mieux le connaître permet de mieux assumer ses actes (Freud)."}
+        ]
+      },
+      "pagina_pdf": 66,
+      "pagina_corrige": 67
+    },
+    {
+      "id": "inconscient-expl",
+      "tipo": "explication",
+      "enunciado": {"es": "Redacte la introducción de su análisis del texto, indicando su tema y su articulación.", "fr": "Rédigez l’introduction de votre analyse de texte, en indiquant son thème et son articulation."},
+      "texto": {
+        "fr": "Une violente répression d’instincts puissants exercée de l’extérieur n’apporte jamais pour résultat l’extinction ou la domination de ceux-ci, mais occasionne un refoulement qui installe la propension à entrer ultérieurement dans la névrose. La psychanalyse a souvent eu l’occasion d’apprendre à quel point la sévérité indubitablement sans discernement de l’éducation participe à la production de la maladie nerveuse, ou au prix de quel préjudice de la capacité d’agir et de la capacité de jouir la normalité exigée est acquise. Elle peut aussi enseigner quelle précieuse contribution à la formation du caractère fournissent ces instincts asociaux et pervers de l’enfant, s’ils ne sont pas soumis au refoulement, mais sont écartés par le processus dénommé sublimation de leurs buts primitifs vers des buts plus précieux. Nos meilleures vertus sont nées comme formations réactionnelles et sublimations sur l’humus de nos plus mauvaises dispositions. L’éducation devrait se garder soigneusement de combler ses sources de forces fécondes et se borner à favoriser les processus par lesquels ces énergies sont conduites vers le bon chemin.",
+        "autor": "Freud",
+        "obra": "L’inquiétante étrangeté, 1919",
+        "pagina_pdf": 66
+      },
+      "consigna": {"es": "Redacte la introducción de su análisis del texto, indicando su tema y su articulación. (Perspectiva 3; 30 min)", "fr": "Rédigez l’introduction de votre analyse de texte, en indiquant son thème et son articulation. (Perspective 3 ; 30 min)"},
+      "corrige": {
+        "tesis": {
+          "es": "La idea general de Freud es que el psicoanálisis es una ayuda muy valiosa para la educación: permite orientar los deseos inconscientes de los niños en lugar de reprimirlos. No se trata de dejar expresarse sin límite todos los deseos, sobre todo los menos aceptables como los de violencia o de dominación, pero tampoco de reprimirlos, pues quedarían latentes para liberarse más tarde y con más gravedad. Hay que orientarlos para volverlos positivos, transformando por ejemplo una violencia en energía creadora, como hacen los deportistas o los artistas. Todo el papel de la educación es comprender la fuente de la violencia infantil para no sofocarla, sino orientarla bien.",
+          "fr": "L’idée générale de Freud est ici que la psychanalyse est une aide tout à fait précieuse pour l’éducation, elle permet l’orientation des désirs inconscients des enfants, au lieu de les réprimer. Il ne s’agit donc pas de laisser s’exprimer tous les désirs des enfants sans aucune limite, notamment les moins acceptables comme les désirs de violence ou de domination, mais pas non plus de les réprimer car ils risqueraient de rester en sommeil pour se libérer plus tard et avec plus de gravité. Il ne faut donc pas réprimer d’emblée les désirs peu louables, mais les orienter pour les rendre positifs, en transformant, par exemple une violence en énergie créatrice comme le font les sportifs ou les artistes. Tout le rôle de l’éducation est donc de comprendre la source de la violence enfantine pour, non pas l’étouffer, mais plutôt bien l’orienter."
+        },
+        "etapas": [
+          {
+            "titulo": {"es": "La represión no suprime los instintos", "fr": "La répression ne supprime pas les instincts"},
+            "idea": {"es": "Freud afirma que la prohibición o la represión de los instintos no los suprime en absoluto y sólo puede engendrar consecuencias nefastas para el futuro adulto.", "fr": "Freud affirme que l’interdiction ou la répression des instincts ne les supprime nullement et ne peut qu’engendrer des conséquences néfastes pour le futur adulte."},
+            "lineas": "l. 1-4"
+          },
+          {
+            "titulo": {"es": "El papel educativo del psicoanálisis", "fr": "Le rôle éducatif de la psychanalyse"},
+            "idea": {"es": "En una segunda argumentación (de «La psychanalyse…» hasta «nos plus mauvaises dispositions»), demuestra el papel educativo del psicoanálisis, que permite orientar y elevar los deseos formando el carácter del niño.", "fr": "Dans la deuxième argumentation (de « La psychanalyse […] » jusqu’à « nos plus mauvaises dispositions »), il démontre le rôle éducatif de la psychanalyse, cette dernière permettant d’orienter et d’élever les désirs en formant le caractère de l’enfant."},
+            "lineas": "l. 4-13"
+          },
+          {
+            "titulo": {"es": "Generalización a toda la educación", "fr": "Généralisation à toute l’éducation"},
+            "idea": {"es": "Para terminar (de «L’éducation devrait…» hasta el final), Freud generaliza la función del psicoanálisis a toda la educación, que no debe sofocar todas las potencialidades de los niños sino transformarlas en virtudes positivas.", "fr": "Pour finir (de « L’éducation devrait […] » jusqu’à la fin), Freud généralise la fonction de la psychanalyse à l’éducation tout entière, celle-ci ne devant pas étouffer toutes les potentialités des enfants, mais au contraire les transformer en vertus positives."},
+            "lineas": "l. 13-15"
+          }
+        ],
+        "introduccion": {
+          "es": "[Tema general] El tema del texto es el del inconsciente, aunque la palabra no aparezca. [Tesis sostenida por el autor] Freud sostiene que el psicoanálisis es una ayuda valiosa para la educación: permite orientar los deseos inconscientes de los niños en lugar de reprimirlos. [Estructura del texto] Se observan tres momentos: la represión de los instintos no los suprime y tiene consecuencias nefastas (hasta «dans la névrose»); el psicoanálisis permite orientar y elevar los deseos formando el carácter (hasta «nos plus mauvaises dispositions»); la educación entera debe transformar las potencialidades de los niños en virtudes positivas.",
+          "fr": "[Thème général] Le thème du texte est celui de l’inconscient même si le mot n’apparaît pas. [Thèse soutenue par l’auteur] Freud soutient que la psychanalyse est une aide précieuse pour l’éducation : elle permet l’orientation des désirs inconscients des enfants, au lieu de les réprimer. [Structure du texte] On observe trois moments : la répression des instincts ne les supprime pas et a des conséquences néfastes (jusqu’à « dans la névrose ») ; la psychanalyse permet d’orienter et d’élever les désirs en formant le caractère (jusqu’à « nos plus mauvaises dispositions ») ; l’éducation tout entière doit transformer les potentialités des enfants en vertus positives."
+        },
+        "puntos_clave": [
+          {"es": "Identifica el tema: el inconsciente, aunque la palabra no aparezca en el texto.", "fr": "Identifier le thème : l’inconscient, même si le mot n’apparaît pas dans le texte."},
+          {"es": "Formula la tesis: el psicoanálisis es una ayuda valiosa para la educación porque permite orientar los deseos inconscientes de los niños en lugar de reprimirlos.", "fr": "Formuler la thèse : la psychanalyse est une aide précieuse pour l’éducation car elle permet d’orienter les désirs inconscients des enfants au lieu de les réprimer."},
+          {"es": "Explica que reprimir no suprime los instintos: provoca una represión (refoulement) que predispone a la neurosis, y los deseos pueden liberarse más tarde con más gravedad.", "fr": "Expliquer que réprimer ne supprime pas les instincts : cela occasionne un refoulement qui prédispose à la névrose, et les désirs peuvent se libérer plus tard avec plus de gravité."},
+          {"es": "Precisa que tampoco se trata de dejar expresarse todos los deseos sin límite, sobre todo los de violencia o de dominación.", "fr": "Préciser qu’il ne s’agit pas non plus de laisser s’exprimer tous les désirs sans limite, notamment ceux de violence ou de domination."},
+          {"es": "Presenta la sublimación: orientar los deseos hacia fines más valiosos, por ejemplo transformando la violencia en energía creadora (deportistas, artistas).", "fr": "Présenter la sublimation : orienter les désirs vers des buts plus précieux, par exemple transformer la violence en énergie créatrice (sportifs, artistes)."},
+          {"es": "Anuncia la estructura en tres momentos (represión inútil y nociva; papel educativo del psicoanálisis; generalización a toda la educación).", "fr": "Annoncer la structure en trois moments (répression inutile et néfaste ; rôle éducatif de la psychanalyse ; généralisation à toute l’éducation)."},
+          {"es": "Recuerda el papel de la educación: comprender la fuente de la violencia infantil para orientarla bien en lugar de sofocarla.", "fr": "Rappeler le rôle de l’éducation : comprendre la source de la violence enfantine pour l’orienter plutôt que l’étouffer."}
+        ]
+      },
+      "pagina_pdf": 66,
+      "pagina_corrige": 68
+    }
+  ]
+}

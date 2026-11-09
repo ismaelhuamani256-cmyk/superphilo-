@@ -1,0 +1,2444 @@
+{
+  "id": "justice-valdor",
+  "capitulo": "justice",
+  "titulo": {
+    "es": "La balanza de Valdor",
+    "fr": "La balance de Valdor"
+  },
+  "premisa": {
+    "es": "En plena sequía, la jueza Mara debe juzgar a un obrero que robó agua para su hija enferma. La ley reparte el agua según el rango; su conciencia le dice otra cosa. Cada decisión encarna una teoría de la justicia, y cada final muestra su precio.",
+    "fr": "En pleine sécheresse, la juge Mara doit juger un ouvrier qui a volé de l’eau pour sa fille malade. La loi répartit l’eau selon le rang ; sa conscience lui dit autre chose. Chaque décision incarne une théorie de la justice, et chaque fin en montre le prix."
+  },
+  "protagonista": "Mara",
+  "inicio": "n1",
+  "nodos": {
+    "n1": {
+      "escena": {
+        "titulo": {
+          "es": "El tribunal de Valdor",
+          "fr": "Le tribunal de Valdor"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.5,
+              0.22
+            ],
+            "etiqueta": {
+              "es": "La ley de rangos",
+              "fr": "La loi des rangs"
+            },
+            "escala": 1.2
+          },
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Mara, jueza",
+              "fr": "Mara, juge"
+            }
+          },
+          {
+            "id": "tomas",
+            "tipo": "monigote",
+            "pos": [
+              0.17,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Tomás",
+              "fr": "Tomas"
+            }
+          },
+          {
+            "id": "jarra",
+            "tipo": "caja",
+            "pos": [
+              0.3,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Jarra de agua",
+              "fr": "Cruche d’eau"
+            },
+            "escala": 0.6
+          },
+          {
+            "id": "varga",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.86,
+              0.6
+            ],
+            "etiqueta": {
+              "es": "Gobernador Varga",
+              "fr": "Gouverneur Varga"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1.6,
+            "accion": "aparece",
+            "actor": "tomas"
+          },
+          {
+            "t": 2.2,
+            "accion": "aparece",
+            "actor": "jarra"
+          },
+          {
+            "t": 3,
+            "accion": "aparece",
+            "actor": "varga"
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "tomas",
+            "texto": {
+              "es": "Era para mi hija, que arde de fiebre.",
+              "fr": "C’était pour ma fille, qui brûle de fièvre."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "dice",
+            "actor": "varga",
+            "texto": {
+              "es": "A cada rango su ración. Que se cumpla la ley.",
+              "fr": "À chaque rang sa ration. Que la loi s’applique."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "¿Lo legal es siempre lo justo?",
+              "fr": "Ce qui est légal est-il toujours juste ?"
+            }
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Mara es árbitra, no parte del conflicto. Todo el peso de la balanza recae en ella.",
+              "fr": "Mara est arbitre, non partie au conflit. Tout le poids de la balance repose sur elle."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Valdor sufre una sequía y la ley reparte el agua según el rango de cada ciudadano. Tomás, un obrero, robó una jarra del depósito para su hija enferma. Mara, la jueza, debe dictar sentencia.",
+        "fr": "Valdor souffre de la sécheresse et la loi répartit l’eau selon le rang de chacun. Tomas, un ouvrier, a volé une cruche au réservoir pour sa fille malade. Mara, la juge, doit rendre son verdict."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Eres la jueza Mara. ¿Qué haces?",
+          "fr": "Tu es la juge Mara. Que fais-tu ?"
+        },
+        "tiempo_seg": 15,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Aplicar la ley al pie de la letra",
+              "fr": "Appliquer la loi à la lettre"
+            },
+            "a": "n2",
+            "postura": {
+              "es": "Legalidad estricta",
+              "fr": "Légalité stricte"
+            }
+          },
+          {
+            "texto": {
+              "es": "Examinar el caso de Tomás",
+              "fr": "Examiner le cas de Tomas"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Equidad (Aristóteles)",
+              "fr": "Équité (Aristote)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Hablar antes con el Gobernador",
+              "fr": "Parler d’abord au Gouverneur"
+            },
+            "a": "n4",
+            "postura": {
+              "es": "Poder del más fuerte",
+              "fr": "Pouvoir du plus fort"
+            }
+          }
+        ]
+      }
+    },
+    "n2": {
+      "escena": {
+        "titulo": {
+          "es": "La sentencia a la letra",
+          "fr": "Le verdict à la lettre"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.45,
+              0.66
+            ],
+            "etiqueta": {
+              "es": "Mara, jueza",
+              "fr": "Mara, juge"
+            }
+          },
+          {
+            "id": "tomas",
+            "tipo": "monigote",
+            "pos": [
+              0.15,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Tomás",
+              "fr": "Tomas"
+            }
+          },
+          {
+            "id": "cadena",
+            "tipo": "cadena",
+            "pos": [
+              0.27,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Cadenas",
+              "fr": "Chaînes"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "pau",
+            "tipo": "monigote",
+            "pos": [
+              0.84,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Pau, secretario",
+              "fr": "Pau, greffier"
+            }
+          },
+          {
+            "id": "registros",
+            "tipo": "libro",
+            "pos": [
+              0.66,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Registros del depósito",
+              "fr": "Registres du réservoir"
+            },
+            "escala": 0.7
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "tomas"
+          },
+          {
+            "t": 1.8,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Culpable. La ley no admite excepciones.",
+              "fr": "Coupable. La loi n’admet pas d’exception."
+            }
+          },
+          {
+            "t": 3.2,
+            "accion": "aparece",
+            "actor": "cadena"
+          },
+          {
+            "t": 3.6,
+            "accion": "une",
+            "de": "tomas",
+            "a": "cadena"
+          },
+          {
+            "t": 4,
+            "accion": "tiembla",
+            "actor": "tomas"
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "pau"
+          },
+          {
+            "t": 6.3,
+            "accion": "aparece",
+            "actor": "registros"
+          },
+          {
+            "t": 7,
+            "accion": "dice",
+            "actor": "pau",
+            "texto": {
+              "es": "Jueza, mire estos registros...",
+              "fr": "Juge, regardez ces registres..."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La sentencia se cumple a la letra. Pero los registros esconden un secreto.",
+              "fr": "La sentence est appliquée à la lettre. Mais les registres cachent un secret."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara aplica la ley a la letra: treinta días de cárcel para Tomás. La sala recupera el orden, pero Lila sigue ardiendo de fiebre. Esa noche, Pau le trae los registros del depósito.",
+        "fr": "Mara applique la loi à la lettre : trente jours de prison pour Tomas. La salle retrouve l’ordre, mais Lila brûle toujours de fièvre. Le soir, Pau lui apporte les registres du réservoir."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué haces con esos registros?",
+          "fr": "Que fais-tu de ces registres ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Revisar las raciones de los Notables",
+              "fr": "Vérifier les rations des Notables"
+            },
+            "a": "n6",
+            "postura": {
+              "es": "Igualdad ante la ley",
+              "fr": "Égalité devant la loi"
+            }
+          },
+          {
+            "texto": {
+              "es": "Mantener la sentencia: la paz primero",
+              "fr": "Maintenir la sentence : la paix d’abord"
+            },
+            "a": "n5",
+            "postura": {
+              "es": "Paz civil (Epicuro)",
+              "fr": "Paix civile (Épicure)"
+            }
+          }
+        ]
+      }
+    },
+    "n3": {
+      "escena": {
+        "titulo": {
+          "es": "Escuchar el caso",
+          "fr": "Écouter le cas"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.5,
+              0.22
+            ],
+            "escala": 1.1
+          },
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Mara, jueza",
+              "fr": "Mara, juge"
+            }
+          },
+          {
+            "id": "tomas",
+            "tipo": "monigote",
+            "pos": [
+              0.18,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Tomás",
+              "fr": "Tomas"
+            }
+          },
+          {
+            "id": "lila",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Lila",
+              "fr": "Lila"
+            },
+            "escala": 0.6
+          },
+          {
+            "id": "pau",
+            "tipo": "monigote",
+            "pos": [
+              0.86,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Pau, secretario",
+              "fr": "Pau, greffier"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1.5,
+            "accion": "aparece",
+            "actor": "tomas"
+          },
+          {
+            "t": 2.2,
+            "accion": "aparece",
+            "actor": "lila"
+          },
+          {
+            "t": 3,
+            "accion": "dice",
+            "actor": "lila",
+            "texto": {
+              "es": "Papá, tengo sed...",
+              "fr": "Papa, j’ai soif..."
+            }
+          },
+          {
+            "t": 4.5,
+            "accion": "aparece",
+            "actor": "pau"
+          },
+          {
+            "t": 5.5,
+            "accion": "dice",
+            "actor": "pau",
+            "texto": {
+              "es": "Si absuelve, sentará jurisprudencia.",
+              "fr": "Si vous l’acquittez, ce sera jurisprudence."
+            }
+          },
+          {
+            "t": 7.3,
+            "accion": "tiembla",
+            "actor": "balanza"
+          },
+          {
+            "t": 8.3,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Tratar a todos igual también crea injusticias.",
+              "fr": "Traiter tous pareil crée aussi des injustices."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La equidad exige deliberar: la ley no es una norma matemática.",
+              "fr": "L’équité exige de délibérer : la loi n’est pas une norme mathématique."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara mira por fin a Tomás y a su hija. Pau advierte: absolver sentaría jurisprudencia. Pero aplicar la misma ley a todos, sin ver sus situaciones, puede crear nuevas desigualdades.",
+        "fr": "Mara regarde enfin Tomas et sa fille. Pau avertit : l’acquitter ferait jurisprudence. Mais appliquer la même loi à tous, sans voir leurs situations, peut créer de nouvelles inégalités."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo juzgas?",
+          "fr": "Comment juges-tu ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Absolver: su hija va antes que la ley",
+              "fr": "Acquitter : sa fille passe avant la loi"
+            },
+            "a": "n7",
+            "postura": {
+              "es": "Derecho natural a la salud",
+              "fr": "Droit naturel à la santé"
+            }
+          },
+          {
+            "texto": {
+              "es": "Adaptar la pena a su situación",
+              "fr": "Adapter la peine à sa situation"
+            },
+            "a": "n8",
+            "postura": {
+              "es": "Equidad: deliberar caso a caso",
+              "fr": "Équité : délibérer cas par cas"
+            }
+          }
+        ]
+      }
+    },
+    "n4": {
+      "escena": {
+        "titulo": {
+          "es": "El trato del Gobernador",
+          "fr": "Le marché du Gouverneur"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "varga",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.72,
+              0.58
+            ],
+            "etiqueta": {
+              "es": "Gobernador Varga",
+              "fr": "Gouverneur Varga"
+            }
+          },
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.25,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Mara, jueza",
+              "fr": "Mara, juge"
+            }
+          },
+          {
+            "id": "corona",
+            "tipo": "corona",
+            "pos": [
+              0.5,
+              0.35
+            ],
+            "etiqueta": {
+              "es": "Escaño de consejera",
+              "fr": "Siège de conseillère"
+            },
+            "escala": 0.9
+          },
+          {
+            "id": "moneda",
+            "tipo": "moneda",
+            "pos": [
+              0.5,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Privilegios",
+              "fr": "Privilèges"
+            },
+            "escala": 0.8
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "varga"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "corona"
+          },
+          {
+            "t": 2.8,
+            "accion": "aparece",
+            "actor": "moneda"
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "varga",
+            "texto": {
+              "es": "Condena a Tomás y serás consejera.",
+              "fr": "Condamne Tomas et tu seras conseillère."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "dice",
+            "actor": "varga",
+            "texto": {
+              "es": "La naturaleza da el mando al más fuerte.",
+              "fr": "La nature donne le pouvoir au plus fort."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "¿Soy árbitra... o su sirviente?",
+              "fr": "Suis-je arbitre... ou sa servante ?"
+            }
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Un juez deja de serlo cuando acepta las órdenes del poder.",
+              "fr": "Un juge cesse de l’être quand il accepte les ordres du pouvoir."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "En su palacio, Varga sonríe: «Mantén la ley de rangos, condena a Tomás y serás consejera». Es el trato del más fuerte.",
+        "fr": "Dans son palais, Varga sourit : « Maintiens la loi des rangs, condamne Tomas et tu seras conseillère. » C’est le marché du plus fort."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Aceptas el trato?",
+          "fr": "Acceptes-tu le marché ?"
+        },
+        "tiempo_seg": 10,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Rechazar y volver al tribunal",
+              "fr": "Refuser et retourner au tribunal"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Juez independiente (Alain)",
+              "fr": "Juge indépendant (Alain)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Aceptar el trato",
+              "fr": "Accepter le marché"
+            },
+            "a": "f2",
+            "postura": {
+              "es": "Ley del más fuerte",
+              "fr": "Loi du plus fort"
+            }
+          }
+        ]
+      }
+    },
+    "n5": {
+      "escena": {
+        "titulo": {
+          "es": "La paz de la ciudad",
+          "fr": "La paix de la ville"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.55,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Mara, jueza",
+              "fr": "Mara, juge"
+            }
+          },
+          {
+            "id": "aida",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Aïda, vecina",
+              "fr": "Aïda, voisine"
+            }
+          },
+          {
+            "id": "jardin",
+            "tipo": "flor",
+            "pos": [
+              0.8,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Jardín del Gobernador",
+              "fr": "Jardin du Gouverneur"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "pau",
+            "tipo": "monigote",
+            "pos": [
+              0.9,
+              0.62
+            ],
+            "etiqueta": {
+              "es": "Pau, secretario",
+              "fr": "Pau, greffier"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "jardin"
+          },
+          {
+            "t": 2,
+            "accion": "aparece",
+            "actor": "aida"
+          },
+          {
+            "t": 3,
+            "accion": "dice",
+            "actor": "aida",
+            "texto": {
+              "es": "Mi vecino en la cárcel y esas flores se riegan.",
+              "fr": "Mon voisin est en prison et ces fleurs sont arrosées."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "pau"
+          },
+          {
+            "t": 6,
+            "accion": "dice",
+            "actor": "pau",
+            "texto": {
+              "es": "Siempre se hizo así: la costumbre es equidad.",
+              "fr": "On a toujours fait ainsi : la coutume fait l’équité."
+            }
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "¿Y si la costumbre no fuera justicia?",
+              "fr": "Et si la coutume n’était pas la justice ?"
+            }
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Hay paz, pero ¿para quién? Para Pascal, la costumbre hace la equidad.",
+              "fr": "La paix règne, mais pour qui ? Pour Pascal, la coutume fait l’équité."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La ciudad está en calma: la paz civil parece asegurada. Pero Aïda, vecina de Tomás, golpea la puerta del despacho de Mara.",
+        "fr": "La ville est calme : la paix civile semble assurée. Mais Aïda, voisine de Tomas, frappe à la porte du bureau de Mara."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cierras el caso o lo reabres?",
+          "fr": "Classes-tu l’affaire ou la rouvres-tu ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Reabrir el caso de Tomás",
+              "fr": "Rouvrir l’affaire de Tomas"
+            },
+            "a": "n3",
+            "postura": {
+              "es": "Escuchar a la conciencia",
+              "fr": "Écouter la conscience"
+            }
+          },
+          {
+            "texto": {
+              "es": "Cerrar el expediente",
+              "fr": "Classer le dossier"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "La legalidad ante todo",
+              "fr": "La légalité avant tout"
+            }
+          }
+        ]
+      }
+    },
+    "n6": {
+      "escena": {
+        "titulo": {
+          "es": "La noche del sello",
+          "fr": "La nuit du sceau"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Mara, jueza",
+              "fr": "Mara, juge"
+            }
+          },
+          {
+            "id": "registros",
+            "tipo": "libro",
+            "pos": [
+              0.55,
+              0.74
+            ],
+            "etiqueta": {
+              "es": "Registros",
+              "fr": "Registres"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "puerta",
+            "tipo": "puerta",
+            "pos": [
+              0.85,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Depósito de agua",
+              "fr": "Réservoir d’eau"
+            }
+          },
+          {
+            "id": "sello",
+            "tipo": "estrella",
+            "pos": [
+              0.82,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Sello maestro",
+              "fr": "Sceau maître"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "ojo",
+            "tipo": "ojo",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Nadie mira",
+              "fr": "Personne ne regarde"
+            },
+            "escala": 0.8
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1,
+            "accion": "aparece",
+            "actor": "registros"
+          },
+          {
+            "t": 2.5,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Los Notables declaran la mitad de lo que gastan.",
+              "fr": "Les Notables déclarent la moitié de ce qu’ils consomment."
+            }
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "puerta"
+          },
+          {
+            "t": 5.8,
+            "accion": "aparece",
+            "actor": "sello"
+          },
+          {
+            "t": 7,
+            "accion": "aparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 8.2,
+            "accion": "desaparece",
+            "actor": "ojo"
+          },
+          {
+            "t": 9,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Con el sello, nadie lo sabría.",
+              "fr": "Avec ce sceau, personne ne le saurait."
+            }
+          },
+          {
+            "t": 10.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Sin testigos, ¿sigue siendo justa Mara? La noche lo pondrá a prueba.",
+              "fr": "Sans témoin, Mara reste-t-elle juste ? La nuit va la mettre à l’épreuve."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "En los registros, Mara descubre que los Notables declaran la mitad de lo que consumen. Tiene en la mano el sello maestro del depósito, y la noche está vacía.",
+        "fr": "Dans les registres, Mara découvre que les Notables déclarent la moitié de ce qu’ils consomment. Elle tient le sceau maître du réservoir, et la nuit est déserte."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Nadie te ve. ¿Qué haces?",
+          "fr": "Personne ne te voit. Que fais-tu ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Mostrar los registros a todos",
+              "fr": "Montrer les registres à tous"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Justicia a la luz pública",
+              "fr": "Justice au grand jour"
+            }
+          },
+          {
+            "texto": {
+              "es": "Tomar mi parte sin que nadie lo sepa",
+              "fr": "Prendre ma part sans que personne le sache"
+            },
+            "a": "f1",
+            "postura": {
+              "es": "Anillo de Giges (Platón)",
+              "fr": "Anneau de Gygès (Platon)"
+            }
+          }
+        ]
+      }
+    },
+    "n7": {
+      "escena": {
+        "titulo": {
+          "es": "La absolución",
+          "fr": "L’acquittement"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.66
+            ],
+            "etiqueta": {
+              "es": "Mara, jueza",
+              "fr": "Mara, juge"
+            }
+          },
+          {
+            "id": "tomas",
+            "tipo": "monigote",
+            "pos": [
+              0.15,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Tomás",
+              "fr": "Tomas"
+            }
+          },
+          {
+            "id": "lila",
+            "tipo": "monigote",
+            "pos": [
+              0.27,
+              0.8
+            ],
+            "etiqueta": {
+              "es": "Lila",
+              "fr": "Lila"
+            },
+            "escala": 0.6
+          },
+          {
+            "id": "pueblo",
+            "tipo": "monigote",
+            "pos": [
+              0.34,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "El pueblo",
+              "fr": "Le peuple"
+            }
+          },
+          {
+            "id": "varga",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.88,
+              0.6
+            ],
+            "etiqueta": {
+              "es": "Gobernador Varga",
+              "fr": "Gouverneur Varga"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "tomas"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "lila"
+          },
+          {
+            "t": 1.8,
+            "accion": "aparece",
+            "actor": "pueblo"
+          },
+          {
+            "t": 2.6,
+            "accion": "salta",
+            "actor": "pueblo"
+          },
+          {
+            "t": 3.2,
+            "accion": "dice",
+            "actor": "pueblo",
+            "texto": {
+              "es": "¡Viva la jueza Mara!",
+              "fr": "Vive la juge Mara !"
+            }
+          },
+          {
+            "t": 5,
+            "accion": "aparece",
+            "actor": "varga"
+          },
+          {
+            "t": 6,
+            "accion": "dice",
+            "actor": "varga",
+            "texto": {
+              "es": "Si la necesidad hace ley, ¡todos robarán!",
+              "fr": "Si le besoin fait loi, tous voleront !"
+            }
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Hay que repartir el agua de otro modo.",
+              "fr": "Il faut répartir l’eau autrement."
+            }
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Absolver no basta: ahora hay que decidir qué reparto es justo para todos.",
+              "fr": "Acquitter ne suffit pas : il faut décider quel partage est juste pour tous."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Tomás es absuelto: la salud de su hija pasa antes que la ley. El pueblo celebra, pero Varga la desafía: «Entonces, reparte tú el agua».",
+        "fr": "Tomas est acquitté : la santé de sa fille passe avant la loi. Le peuple exulte, mais Varga la défie : « Alors, répartis l’eau toi-même. »"
+      },
+      "decision": {
+        "pregunta": {
+          "es": "Propón una nueva regla de reparto.",
+          "fr": "Propose une nouvelle règle de partage."
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "A cada uno según su necesidad y trabajo",
+              "fr": "À chacun selon son besoin et son travail"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Igualdad proporcional (Aristóteles)",
+              "fr": "Égalité proportionnelle (Aristote)"
+            }
+          },
+          {
+            "texto": {
+              "es": "La misma ración para todos, sin excepción",
+              "fr": "La même ration pour tous, sans exception"
+            },
+            "a": "f4",
+            "postura": {
+              "es": "Igualdad indistinta (Hobbes)",
+              "fr": "Égalité indistincte (Hobbes)"
+            }
+          }
+        ]
+      }
+    },
+    "n8": {
+      "escena": {
+        "titulo": {
+          "es": "Una pena a medida",
+          "fr": "Une peine sur mesure"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.45,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Mara, jueza",
+              "fr": "Mara, juge"
+            }
+          },
+          {
+            "id": "tomas",
+            "tipo": "monigote",
+            "pos": [
+              0.15,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Tomás",
+              "fr": "Tomas"
+            }
+          },
+          {
+            "id": "varga",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.86,
+              0.6
+            ],
+            "etiqueta": {
+              "es": "Gobernador Varga",
+              "fr": "Gouverneur Varga"
+            }
+          },
+          {
+            "id": "ley",
+            "tipo": "libro",
+            "pos": [
+              0.66,
+              0.82
+            ],
+            "etiqueta": {
+              "es": "Ley de rangos",
+              "fr": "Loi des rangs"
+            },
+            "escala": 0.7
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "tomas"
+          },
+          {
+            "t": 1.6,
+            "accion": "aparece",
+            "actor": "varga"
+          },
+          {
+            "t": 2.4,
+            "accion": "aparece",
+            "actor": "ley"
+          },
+          {
+            "t": 3.5,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Servicio comunitario, y agua para Lila.",
+              "fr": "Travaux d’intérêt général, et de l’eau pour Lila."
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "dice",
+            "actor": "varga",
+            "texto": {
+              "es": "Ha torcido mi ley, jueza.",
+              "fr": "Vous avez plié ma loi, juge."
+            }
+          },
+          {
+            "t": 7,
+            "accion": "resalta",
+            "actor": "ley"
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Un juez dice la ley, pero no la hace.",
+              "fr": "Un juge dit la loi, mais ne la fait pas."
+            }
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La sentencia es justa, pero la ley de rangos sigue en pie.",
+              "fr": "Le verdict est juste, mais la loi des rangs reste en vigueur."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara impone una pena justa a Tomás: servicio a la comunidad y agua para Lila. Pero la ley de rangos sigue en pie, y los próximos jueces podrán aplicarla a la letra.",
+        "fr": "Mara impose à Tomas une peine juste : travaux d’intérêt général et de l’eau pour Lila. Mais la loi des rangs reste en vigueur, et les prochains juges pourront l’appliquer à la lettre."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cómo continúas?",
+          "fr": "Comment continues-tu ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Pedir al Parlamento que cambie la ley",
+              "fr": "Demander au Parlement de changer la loi"
+            },
+            "a": "n9",
+            "postura": {
+              "es": "Separación de poderes",
+              "fr": "Séparation des pouvoirs"
+            }
+          },
+          {
+            "texto": {
+              "es": "Callar: ya hice lo que podía",
+              "fr": "Me taire : j’ai fait ce que je pouvais"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "Resignación",
+              "fr": "Résignation"
+            }
+          }
+        ]
+      }
+    },
+    "n9": {
+      "escena": {
+        "titulo": {
+          "es": "La asamblea",
+          "fr": "L’assemblée"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "¿Qué es justo?",
+              "fr": "Qu’est-ce qui est juste ?"
+            },
+            "escala": 1.1
+          },
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Mara, jueza",
+              "fr": "Mara, juge"
+            }
+          },
+          {
+            "id": "pueblo",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "El pueblo",
+              "fr": "Le peuple"
+            }
+          },
+          {
+            "id": "varga",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.85,
+              0.6
+            ],
+            "etiqueta": {
+              "es": "Gobernador Varga",
+              "fr": "Gouverneur Varga"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1.6,
+            "accion": "aparece",
+            "actor": "pueblo"
+          },
+          {
+            "t": 2.4,
+            "accion": "aparece",
+            "actor": "varga"
+          },
+          {
+            "t": 3.5,
+            "accion": "dice",
+            "actor": "pueblo",
+            "texto": {
+              "es": "¡Queremos agua para todos!",
+              "fr": "De l’eau pour tous !"
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "dice",
+            "actor": "varga",
+            "texto": {
+              "es": "Los méritos y los rangos deben contar.",
+              "fr": "Les mérites et les rangs doivent compter."
+            }
+          },
+          {
+            "t": 7.5,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Decidamos juntos qué igualdad queremos.",
+              "fr": "Décidons ensemble de l’égalité que nous voulons."
+            }
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Dos igualdades se enfrentan: dar a cada uno lo suyo, o lo mismo a todos.",
+              "fr": "Deux égalités s’affrontent : donner à chacun son dû, ou la même chose à tous."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La asamblea de Valdor se reúne en la plaza. El pueblo, los Notables y Mara, frente a frente: ¿dar a cada uno según su rango o la misma ración a todos?",
+        "fr": "L’assemblée de Valdor se réunit sur la place. Le peuple, les Notables et Mara, face à face : donner à chacun selon son rang ou la même ration à tous ?"
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Qué propones a la asamblea?",
+          "fr": "Que proposes-tu à l’assemblée ?"
+        },
+        "opciones": [
+          {
+            "texto": {
+              "es": "Un derecho al agua votado por todos",
+              "fr": "Un droit à l’eau voté par tous"
+            },
+            "a": "n10",
+            "postura": {
+              "es": "Voluntad general (Rousseau)",
+              "fr": "Volonté générale (Rousseau)"
+            }
+          },
+          {
+            "texto": {
+              "es": "La misma ración para todos, ya",
+              "fr": "La même ration pour tous, tout de suite"
+            },
+            "a": "f4",
+            "postura": {
+              "es": "Igualdad indistinta",
+              "fr": "Égalité indistincte"
+            }
+          }
+        ]
+      }
+    },
+    "n10": {
+      "escena": {
+        "titulo": {
+          "es": "La amenaza",
+          "fr": "La menace"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 13,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.35,
+              0.68
+            ],
+            "etiqueta": {
+              "es": "Mara, jueza",
+              "fr": "Mara, juge"
+            }
+          },
+          {
+            "id": "pueblo",
+            "tipo": "monigote",
+            "pos": [
+              0.12,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "El pueblo",
+              "fr": "Le peuple"
+            }
+          },
+          {
+            "id": "varga",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.82,
+              0.58
+            ],
+            "etiqueta": {
+              "es": "Gobernador Varga",
+              "fr": "Gouverneur Varga"
+            }
+          },
+          {
+            "id": "reloj",
+            "tipo": "reloj",
+            "pos": [
+              0.55,
+              0.3
+            ],
+            "etiqueta": {
+              "es": "Hora de votar",
+              "fr": "L’heure du vote"
+            },
+            "escala": 0.9
+          },
+          {
+            "id": "rayo",
+            "tipo": "rayo",
+            "pos": [
+              0.82,
+              0.25
+            ],
+            "escala": 0.8
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "pueblo"
+          },
+          {
+            "t": 1.6,
+            "accion": "aparece",
+            "actor": "varga"
+          },
+          {
+            "t": 2.4,
+            "accion": "aparece",
+            "actor": "reloj"
+          },
+          {
+            "t": 4,
+            "accion": "dice",
+            "actor": "varga",
+            "texto": {
+              "es": "Propón eso y disuelvo el tribunal.",
+              "fr": "Propose cela et je dissous le tribunal."
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "rayo"
+          },
+          {
+            "t": 6.2,
+            "accion": "tiembla",
+            "actor": "mara"
+          },
+          {
+            "t": 8,
+            "accion": "piensa",
+            "actor": "mara",
+            "texto": {
+              "es": "Alguien debe dar el primer paso.",
+              "fr": "Quelqu’un doit faire le premier pas."
+            }
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Cambiar el derecho tiene un precio: alguien debe arriesgarse primero.",
+              "fr": "Changer le droit a un prix : quelqu’un doit prendre le risque le premier."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La asamblea escucha. Varga amenaza con disolver el tribunal y destituir a Mara. Cambiar el derecho exige que alguien dé el primer paso... y se arriesgue.",
+        "fr": "L’assemblée écoute. Varga menace de dissoudre le tribunal et de destituer Mara. Changer le droit exige que quelqu’un fasse le premier pas... et prenne un risque."
+      },
+      "decision": {
+        "pregunta": {
+          "es": "¿Cuál es tu decisión?",
+          "fr": "Quelle est ta décision ?"
+        },
+        "tiempo_seg": 12,
+        "opciones": [
+          {
+            "texto": {
+              "es": "Persistir: la justicia debe orientar la ley",
+              "fr": "Persévérer : la justice doit orienter le droit"
+            },
+            "a": "f5",
+            "postura": {
+              "es": "Ideal moral y derecho (Bergson)",
+              "fr": "Idéal moral et droit (Bergson)"
+            }
+          },
+          {
+            "texto": {
+              "es": "Aceptar un compromiso que mantiene los rangos",
+              "fr": "Accepter un compromis qui garde les rangs"
+            },
+            "a": "f3",
+            "postura": {
+              "es": "La legalidad ante todo",
+              "fr": "La légalité avant tout"
+            }
+          }
+        ]
+      }
+    },
+    "f1": {
+      "escena": {
+        "titulo": {
+          "es": "El anillo de Giges",
+          "fr": "L’anneau de Gygès"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.3,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Mara, jueza",
+              "fr": "Mara, juge"
+            }
+          },
+          {
+            "id": "casa",
+            "tipo": "casa",
+            "pos": [
+              0.82,
+              0.65
+            ],
+            "etiqueta": {
+              "es": "Casa de Mara",
+              "fr": "Maison de Mara"
+            }
+          },
+          {
+            "id": "agua",
+            "tipo": "caja",
+            "pos": [
+              0.55,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Agua de los Notables",
+              "fr": "Eau des Notables"
+            },
+            "escala": 0.7
+          },
+          {
+            "id": "espejo",
+            "tipo": "espejo",
+            "pos": [
+              0.1,
+              0.62
+            ],
+            "etiqueta": {
+              "es": "Su conciencia",
+              "fr": "Sa conscience"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "casa"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "agua"
+          },
+          {
+            "t": 2,
+            "accion": "mueve",
+            "actor": "agua",
+            "a": [
+              0.8,
+              0.8
+            ],
+            "dur": 2
+          },
+          {
+            "t": 4.2,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Nadie lo sabrá.",
+              "fr": "Personne ne le saura."
+            }
+          },
+          {
+            "t": 5.5,
+            "accion": "aparece",
+            "actor": "espejo"
+          },
+          {
+            "t": 6.5,
+            "accion": "etiqueta",
+            "actor": "mara",
+            "texto": {
+              "es": "Mara, sin testigos",
+              "fr": "Mara, sans témoin"
+            }
+          },
+          {
+            "t": 7.5,
+            "accion": "tiembla",
+            "actor": "espejo"
+          },
+          {
+            "t": 8.7,
+            "accion": "desaparece",
+            "actor": "espejo"
+          },
+          {
+            "t": 9.3,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Sin testigos, la justicia de Mara era solo miedo al castigo. Y se quedó sin espejo.",
+              "fr": "Sans témoin, la justice de Mara n’était que peur du châtiment. Et son miroir a disparu."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Mara se lleva agua de más y la guarda en su casa. Nadie la ve, nadie la juzga. Esa noche, el espejo ya no le devuelve a la jueza que era.",
+        "fr": "Mara emporte plus d’eau qu’il ne lui en revient et la cache chez elle. Personne ne la voit, personne ne la juge. Ce soir-là, le miroir ne lui renvoie plus la juge qu’elle était."
+      },
+      "final": {
+        "id": "f1",
+        "titulo": {
+          "es": "El anillo de Giges",
+          "fr": "L’anneau de Gygès"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Con el sello maestro, Mara es Giges con su anillo: invisible, sin sanción posible. Platón pregunta si obedecemos las leyes por virtud o por cobardía y miedo al castigo; sin testigos, la jueza revela que su justicia era solo temor.",
+          "fr": "Avec le sceau maître, Mara est Gygès avec son anneau : invisible, sans sanction possible. Platon demande si nous obéissons aux lois par vertu ou par lâcheté et peur du châtiment ; sans témoin, la juge révèle que sa justice n’était que crainte."
+        },
+        "filosofo": "platon",
+        "cita": {
+          "texto": "la lâcheté, la puérilité, ou encore la peur des sanctions qui nous font obéir aux lois",
+          "pagina_pdf": 232
+        },
+        "pagina_pdf": 232,
+        "reflexion": {
+          "es": "¿Serías justo si nadie pudiera verte ni castigarte? ¿Respetas la ley por deber o por miedo?",
+          "fr": "Serais-tu juste si personne ne pouvait te voir ni te punir ? Respectes-tu la loi par devoir ou par peur ?"
+        }
+      }
+    },
+    "f2": {
+      "escena": {
+        "titulo": {
+          "es": "La ley del más fuerte",
+          "fr": "La loi du plus fort"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 11,
+        "actores": [
+          {
+            "id": "varga",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.78,
+              0.58
+            ],
+            "etiqueta": {
+              "es": "Gobernador Varga",
+              "fr": "Gouverneur Varga"
+            }
+          },
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.35,
+              0.7
+            ],
+            "etiqueta": {
+              "es": "Mara, jueza",
+              "fr": "Mara, juge"
+            }
+          },
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "La balanza",
+              "fr": "La balance"
+            },
+            "escala": 1.1
+          },
+          {
+            "id": "corona",
+            "tipo": "corona",
+            "pos": [
+              0.6,
+              0.35
+            ],
+            "etiqueta": {
+              "es": "Escaño de consejera",
+              "fr": "Siège de conseillère"
+            },
+            "escala": 0.8
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "varga"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1.6,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 2.4,
+            "accion": "aparece",
+            "actor": "corona"
+          },
+          {
+            "t": 3.2,
+            "accion": "mueve",
+            "actor": "corona",
+            "a": [
+              0.35,
+              0.5
+            ],
+            "dur": 1.5
+          },
+          {
+            "t": 5,
+            "accion": "dice",
+            "actor": "mara",
+            "texto": {
+              "es": "Culpable, como ordena el Gobernador.",
+              "fr": "Coupable, comme l’ordonne le Gouverneur."
+            }
+          },
+          {
+            "t": 6.5,
+            "accion": "tiembla",
+            "actor": "balanza"
+          },
+          {
+            "t": 7.2,
+            "accion": "etiqueta",
+            "actor": "balanza",
+            "texto": {
+              "es": "La ley es el más fuerte",
+              "fr": "La loi, c’est le plus fort"
+            }
+          },
+          {
+            "t": 8,
+            "accion": "cita",
+            "texto": "La nature […] nous montre […] que la marque du juste, c’est la domination du puissant sur le faible et sa supériorité admise."
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Mara ganó un escaño y perdió su independencia: la balanza ya solo pesa lo que Varga quiere.",
+              "fr": "Mara a gagné un siège et perdu son indépendance : la balance ne pèse plus que ce que Varga veut."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "Tomás es condenado y Mara recibe su escaño en el Consejo. La ciudad aprende que la ley es lo que decide el más fuerte, y que la jueza ya no es una árbitra.",
+        "fr": "Tomas est condamné et Mara reçoit son siège au Conseil. La ville apprend que la loi est ce que décide le plus fort, et que la juge n’est plus une arbitre."
+      },
+      "final": {
+        "id": "f2",
+        "titulo": {
+          "es": "La ley del más fuerte",
+          "fr": "La loi du plus fort"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Para Calicles, la naturaleza funda toda justicia: es natural someterse al más fuerte, que dicta su ley. Al aceptar el trato, Mara se vuelve instrumento del poderoso y traiciona lo que define a un juez: ser un árbitro independiente, ajeno al conflicto (Alain).",
+          "fr": "Pour Calliclès, la nature fonde toute justice : il est naturel de se soumettre au plus fort, qui dicte sa loi. En acceptant le marché, Mara devient l’instrument du puissant et trahit ce qui définit un juge : être un arbitre indépendant, étranger au conflit (Alain)."
+        },
+        "filosofo": "callicles",
+        "cita": {
+          "texto": "La nature […] nous montre […] que la marque du juste, c’est la domination du puissant sur le faible et sa supériorité admise.",
+          "pagina_pdf": 229
+        },
+        "pagina_pdf": 229,
+        "reflexion": {
+          "es": "Si lo justo es lo que decide el más fuerte, ¿qué distingue a un juez de un cómplice? ¿Qué queda de la idea misma de justicia?",
+          "fr": "Si le juste est ce que décide le plus fort, qu’est-ce qui distingue un juge d’un complice ? Que reste-t-il de l’idée même de justice ?"
+        }
+      }
+    },
+    "f3": {
+      "escena": {
+        "titulo": {
+          "es": "La paz de los Notables",
+          "fr": "La paix des Notables"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.5,
+              0.2
+            ],
+            "etiqueta": {
+              "es": "Ley «neutral»",
+              "fr": "Loi « neutre »"
+            },
+            "escala": 1.1
+          },
+          {
+            "id": "mansion",
+            "tipo": "casa",
+            "pos": [
+              0.8,
+              0.62
+            ],
+            "etiqueta": {
+              "es": "Mansiones de los Notables",
+              "fr": "Demeures des Notables"
+            }
+          },
+          {
+            "id": "jardin",
+            "tipo": "flor",
+            "pos": [
+              0.92,
+              0.84
+            ],
+            "etiqueta": {
+              "es": "Jardines verdes",
+              "fr": "Jardins verts"
+            },
+            "escala": 0.8
+          },
+          {
+            "id": "pueblo",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "El pueblo",
+              "fr": "Le peuple"
+            }
+          },
+          {
+            "id": "nube",
+            "tipo": "nube",
+            "pos": [
+              0.2,
+              0.4
+            ],
+            "etiqueta": {
+              "es": "Sequía",
+              "fr": "Sécheresse"
+            },
+            "escala": 0.9
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 0.8,
+            "accion": "aparece",
+            "actor": "mansion"
+          },
+          {
+            "t": 1.6,
+            "accion": "aparece",
+            "actor": "jardin"
+          },
+          {
+            "t": 2.4,
+            "accion": "aparece",
+            "actor": "pueblo"
+          },
+          {
+            "t": 3.2,
+            "accion": "aparece",
+            "actor": "nube"
+          },
+          {
+            "t": 4.5,
+            "accion": "piensa",
+            "actor": "pueblo",
+            "texto": {
+              "es": "Hay orden... pero sigo con sed.",
+              "fr": "L’ordre règne... mais j’ai toujours soif."
+            }
+          },
+          {
+            "t": 6,
+            "accion": "tiembla",
+            "actor": "pueblo"
+          },
+          {
+            "t": 7,
+            "accion": "cita",
+            "texto": "C’est une illusion vitale qui permet […] le maintien de la cohésion sociale"
+          },
+          {
+            "t": 9.5,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La ley parece neutral y la ciudad está en calma, pero protege a quienes ya tenían de sobra.",
+              "fr": "La loi paraît neutre et la ville est calme, mais elle protège ceux qui avaient déjà trop."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La ley sigue repartiendo el agua por rangos. Hay silencio, orden y paz... una paz que beneficia sobre todo a quienes ya tenían de sobra.",
+        "fr": "La loi continue de répartir l’eau selon les rangs. Il y a du silence, de l’ordre et de la paix... une paix qui profite surtout à ceux qui avaient déjà de trop."
+      },
+      "final": {
+        "id": "f3",
+        "titulo": {
+          "es": "La paz de los Notables",
+          "fr": "La paix des Notables"
+        },
+        "tipo": "tragico",
+        "idea": {
+          "es": "Respetar la ley a la letra mantiene la cohesión social, pero no prueba que sea justa. Para Marx, todo derecho es un derecho de clase: su apariencia de neutralidad es una «ilusión vital» que sostiene a la clase dominante en posición de fuerza.",
+          "fr": "Respecter la loi à la lettre maintient la cohésion sociale, mais ne prouve pas qu’elle soit juste. Pour Marx, tout droit est un droit de classe : son apparence de neutralité est une « illusion vitale » qui maintient la classe dominante en position de force."
+        },
+        "filosofo": "marx",
+        "cita": {
+          "texto": "C’est une illusion vitale qui permet […] le maintien de la cohésion sociale",
+          "pagina_pdf": 232
+        },
+        "pagina_pdf": 232,
+        "reflexion": {
+          "es": "¿Es siempre justo respetar la legalidad? ¿Cuándo debe la conciencia ir más allá de la ley?",
+          "fr": "Le respect de la légalité est-il toujours juste ? Quand la conscience doit-elle aller au-delà de la loi ?"
+        }
+      }
+    },
+    "f4": {
+      "escena": {
+        "titulo": {
+          "es": "Todos iguales",
+          "fr": "Tous égaux"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.5,
+              0.18
+            ],
+            "etiqueta": {
+              "es": "Igualdad indistinta",
+              "fr": "Égalité indistincte"
+            },
+            "escala": 1.1
+          },
+          {
+            "id": "obrero",
+            "tipo": "monigote",
+            "pos": [
+              0.18,
+              0.74
+            ],
+            "etiqueta": {
+              "es": "Obrero",
+              "fr": "Ouvrier"
+            }
+          },
+          {
+            "id": "lila",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.78
+            ],
+            "etiqueta": {
+              "es": "Lila, enferma",
+              "fr": "Lila, malade"
+            },
+            "escala": 0.6
+          },
+          {
+            "id": "notable",
+            "tipo": "monigote",
+            "pos": [
+              0.82,
+              0.74
+            ],
+            "etiqueta": {
+              "es": "Notable",
+              "fr": "Notable"
+            }
+          },
+          {
+            "id": "ración",
+            "tipo": "caja",
+            "pos": [
+              0.5,
+              0.45
+            ],
+            "etiqueta": {
+              "es": "Misma ración",
+              "fr": "Même ration"
+            },
+            "escala": 0.7
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "obrero"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "lila"
+          },
+          {
+            "t": 1.8,
+            "accion": "aparece",
+            "actor": "notable"
+          },
+          {
+            "t": 2.4,
+            "accion": "aparece",
+            "actor": "ración"
+          },
+          {
+            "t": 3.5,
+            "accion": "proyecta",
+            "de": "ración",
+            "a": "obrero"
+          },
+          {
+            "t": 4.5,
+            "accion": "proyecta",
+            "de": "ración",
+            "a": "lila"
+          },
+          {
+            "t": 5.5,
+            "accion": "proyecta",
+            "de": "ración",
+            "a": "notable"
+          },
+          {
+            "t": 7,
+            "accion": "dice",
+            "actor": "lila",
+            "texto": {
+              "es": "Con tan poco no me alcanza...",
+              "fr": "Avec si peu, ça ne me suffit pas..."
+            }
+          },
+          {
+            "t": 9,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "Todos reciben lo mismo: hay paz. Pero ¿y quien necesita más o trabaja más?",
+              "fr": "Tous reçoivent la même chose : la paix règne. Mais qui a plus besoin ou travaille plus ?"
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La asamblea decreta la misma ración para todos. Nadie es más que nadie y la paz social se afirma. Pero las necesidades no son iguales, y algunos murmuran.",
+        "fr": "L’assemblée décrète la même ration pour tous. Nul n’est plus que personne et la paix sociale se renforce. Mais les besoins ne sont pas égaux, et certains murmurent."
+      },
+      "final": {
+        "id": "f4",
+        "titulo": {
+          "es": "Todos iguales",
+          "fr": "Tous égaux"
+        },
+        "tipo": "ambiguo",
+        "idea": {
+          "es": "La igualdad indistinta (Hobbes) trata a cada uno como igual por naturaleza: las diferencias de talento o de necesidad no justifican desigualdades políticas o sociales. Se apoya en la dignidad humana (Kant) y la paz social, pero medir a todos con la misma vara ignora los casos particulares y puede alimentar la envidia.",
+          "fr": "L’égalité indistincte (Hobbes) traite chacun comme égal par nature : les différences de talents ou de besoins ne justifient pas d’inégalités politiques ou sociales. Elle s’appuie sur la dignité humaine (Kant) et la paix sociale, mais mesurer tous à la même aune ignore les cas particuliers et peut nourrir l’envie."
+        },
+        "filosofo": "hobbes",
+        "cita": {
+          "texto": "Que chacun soit considéré comme égal par nature à chacun",
+          "pagina_pdf": 231
+        },
+        "pagina_pdf": 231,
+        "reflexion": {
+          "es": "¿Qué tipo de igualdad es la más justa: dar lo mismo a todos o a cada uno lo que le corresponde?",
+          "fr": "Quel type d’égalité est le plus juste : donner la même chose à tous ou à chacun ce qui lui revient ?"
+        }
+      }
+    },
+    "f5": {
+      "escena": {
+        "titulo": {
+          "es": "El salto adelante",
+          "fr": "Le bond en avant"
+        },
+        "estilo": "monigotes",
+        "duracion_seg": 12,
+        "actores": [
+          {
+            "id": "sol",
+            "tipo": "sol",
+            "pos": [
+              0.5,
+              0.14
+            ]
+          },
+          {
+            "id": "balanza",
+            "tipo": "balanza",
+            "pos": [
+              0.5,
+              0.36
+            ],
+            "etiqueta": {
+              "es": "Derecho al agua",
+              "fr": "Droit à l’eau"
+            },
+            "escala": 1
+          },
+          {
+            "id": "mara",
+            "tipo": "monigote",
+            "pos": [
+              0.5,
+              0.72
+            ],
+            "etiqueta": {
+              "es": "Mara, jueza",
+              "fr": "Mara, juge"
+            }
+          },
+          {
+            "id": "pueblo",
+            "tipo": "monigote",
+            "pos": [
+              0.2,
+              0.74
+            ],
+            "etiqueta": {
+              "es": "El pueblo",
+              "fr": "Le peuple"
+            }
+          },
+          {
+            "id": "varga",
+            "tipo": "silueta_grande",
+            "pos": [
+              0.84,
+              0.64
+            ],
+            "etiqueta": {
+              "es": "Gobernador Varga",
+              "fr": "Gouverneur Varga"
+            }
+          }
+        ],
+        "pasos": [
+          {
+            "t": 0,
+            "accion": "aparece",
+            "actor": "sol"
+          },
+          {
+            "t": 0.6,
+            "accion": "aparece",
+            "actor": "balanza"
+          },
+          {
+            "t": 1.2,
+            "accion": "aparece",
+            "actor": "mara"
+          },
+          {
+            "t": 1.8,
+            "accion": "aparece",
+            "actor": "pueblo"
+          },
+          {
+            "t": 2.4,
+            "accion": "aparece",
+            "actor": "varga"
+          },
+          {
+            "t": 4,
+            "accion": "resalta",
+            "actor": "balanza"
+          },
+          {
+            "t": 5,
+            "accion": "dice",
+            "actor": "pueblo",
+            "texto": {
+              "es": "¡Un derecho al agua para todos!",
+              "fr": "Un droit à l’eau pour tous !"
+            }
+          },
+          {
+            "t": 6.5,
+            "accion": "tiembla",
+            "actor": "varga"
+          },
+          {
+            "t": 7.5,
+            "accion": "cita",
+            "texto": "C’est un bond en avant, qui ne s’exécute que si la société s’est décidée à tenter une expérience"
+          },
+          {
+            "t": 10,
+            "accion": "subtitulo",
+            "texto": {
+              "es": "La ley cambió porque alguien dio el primer paso: el ideal de justicia orientó el derecho.",
+              "fr": "La loi a changé parce que quelqu’un a fait le premier pas : l’idéal de justice a orienté le droit."
+            }
+          }
+        ]
+      },
+      "narracion": {
+        "es": "La asamblea vota el derecho al agua para todos. Mara pierde su toga, pero la ley cambia por vías legales y la ciudad ensaya una justicia nueva.",
+        "fr": "L’assemblée vote le droit à l’eau pour tous. Mara perd sa robe, mais la loi change par les voies légales et la ville tente une justice nouvelle."
+      },
+      "final": {
+        "id": "f5",
+        "titulo": {
+          "es": "El salto adelante",
+          "fr": "Le bond en avant"
+        },
+        "tipo": "luminoso",
+        "idea": {
+          "es": "Para Bergson, la justicia moderna apunta a un absoluto (los derechos humanos) y se realiza por creaciones sucesivas, a través de las leyes y con el consentimiento de la sociedad; pero el impulso lo da siempre alguien. Mara une legalidad y legitimidad: los derechos naturales orientan el derecho positivo sin romperlo.",
+          "fr": "Pour Bergson, la justice moderne vise un absolu (les droits de l’homme) et procède par créations successives, par l’intermédiaire des lois et avec le consentement de la société ; mais l’impulsion est toujours donnée par quelqu’un. Mara unit légalité et légitimité : les droits naturels orientent le droit positif sans le briser."
+        },
+        "filosofo": "bergson",
+        "cita": {
+          "texto": "C’est un bond en avant, qui ne s’exécute que si la société s’est décidée à tenter une expérience",
+          "pagina_pdf": 235
+        },
+        "pagina_pdf": 235,
+        "reflexion": {
+          "es": "¿Existe un ideal de justicia moral que deba orientar el derecho? ¿Quién da el primer paso cuando una ley es legal pero no legítima?",
+          "fr": "Y a-t-il un idéal de justice morale pouvant orienter le droit ? Qui fait le premier pas quand une loi est légale mais non légitime ?"
+        }
+      }
+    }
+  }
+}

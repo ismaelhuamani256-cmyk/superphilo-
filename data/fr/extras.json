@@ -1,0 +1,949 @@
+{
+ "metodo": {
+  "dissertation": [
+   {
+    "paso": 1,
+    "titulo": "Le jour de l'épreuve: leer todos los sujets con asombro",
+    "descripcion": "Le jour de l'épreuve finale, on choisit entre trois sujets (deux sujets de dissertation et un texte). Il faut les lire lentement, tous, sans en oublier aucun : ils seront très proches de ceux travaillés pendant l'année, mais la formulation d'un sujet change sa signification et sa portée (un texte connu peut être découpé de telle sorte que la thèse générale de l'auteur n'apparaisse pas clairement). Adopter la « posture d'étonnement » d'Aristote, sans préjugé négatif, et en même temps une certaine « naïveté » (relative) : ne pas plaquer d'opinions trop arrêtées. Ne pas choisir en fonction des notes de l'année ni réduire le choix à un seul type d'exercice : chaque sujet est original et la variété est une chance.",
+    "pagina_pdf": 12
+   },
+   {
+    "paso": 2,
+    "titulo": "Choisir un sujet (choix ferme y objetivo)",
+    "descripcion": "Après avoir lu attentivement chaque sujet (environ 15 minutes), faire un choix ferme et définitif, sans retours en arrière qui fassent perdre du temps. Le choix est subjectif, mais il ne doit être ni « affectif » ni fondé sur une histoire personnelle ou des opinions arrêtées : la philosophie exige de dépasser une opinion valable pour soi seul et d'accéder à une opinion aussi objective que possible. Il doit s'appuyer sur des connaissances objectives (culture philosophique) : personnel (engagement, passion pour la réflexion) et en même temps objectif, rationnel et justifié.",
+    "pagina_pdf": 12
+   },
+   {
+    "paso": 3,
+    "titulo": "Comprendre le sujet: analizar la formulación y buscar el mot central",
+    "descripcion": "Noter au brouillon toutes les idées, références et auteurs qui viennent à l'esprit, mais sans qu'il s'agisse encore de réponses à la question (erreur fréquente : vouloir répondre immédiatement, ce qui conduit à une approche schématique ou naïve). D'abord « décortiquer » la question : c'est de là que naissent la problématique et la structure. Chercher le concept, le mot ou l'expression qui servira de fil conducteur : ce n'est pas le thème (par ex. la liberté), mais la formulation de la question (Faut-il… ? À quoi sert… ?). Chercher des synonymes, des termes voisins et opposés (servir : utile/inutile, par intérêt/gratuitement ; falloir : nécessité/contingence, contrainte/indépendance, obligation/valeur ; suffire : nécessaire/suffisant), les regrouper : ils permettent de construire au moins les deux premières parties, peut-être les trois. Interroger ce que le sujet sous-entend et présuppose pour éviter le hors-sujet.",
+    "pagina_pdf": 13
+   },
+   {
+    "paso": 4,
+    "titulo": "Élaborer un plan: organizar la reflexión",
+    "descripcion": "Il n'existe pas de plan officiel ou imposé, seulement des exigences de construction et de cohérence de la pensée. Une réflexion sans organisation méthodique serait incompréhensible et ne convaincrait pas ; une succession d'idées juxtaposées ne constitue pas une thèse. Le temps du devoir est limité à quatre heures, et la structure, même si elle paraît artificielle, l'est d'autant moins que son contenu est légitime et justifié. Le livre présente les deux types de plan les plus utilisés (progressif et dialectique) ; le choix du plan est intrinsèquement lié au sujet. (Le livre ne développe pas de « plan thématique » comme type à part.)",
+    "pagina_pdf": 13
+   },
+   {
+    "paso": 5,
+    "titulo": "Le plan dialectique (thèse, antithèse, synthèse)",
+    "descripcion": "Le plan le plus utilisé ; simple à présenter, moins à comprendre et à appliquer. On le choisit parce que le sujet implique de façon légitime (non artificielle) des thèses opposées ; si ce n'est pas possible, préférer le plan progressif. Les deux premières parties (thèse et antithèse) s'opposent et une troisième (synthèse) est nécessaire pour dépasser cette opposition. La troisième partie n'est pas une union artificielle « noir-blanc-gris » : c'est une véritable thèse qui résout la stérilité de l'opposition et qui ne devient légitime et nécessaire qu'après avoir défendu les deux premières, lesquelles « s'écroulent » en s'épuisant. C'est celle que l'on considère comme la meilleure et la plus solide.",
+    "pagina_pdf": 14
+   },
+   {
+    "paso": 6,
+    "titulo": "Le plan progressif (de lo simple a lo general y a lo universal)",
+    "descripcion": "Il est structuré sur une progression ou un approfondissement des thèses. 1) Une première thèse simple, de bon sens, sans être naïve. 2) Une approche plus générale qui montre l'insuffisance des relations particulières et la nécessité d'une vision plus globale. 3) Passage du général à l'universel : élever la réflexion à une vision universelle (de type cartésien ou kantien), non liée à une société définie ni à une situation historique précise. Il n'est pas fréquent, mais il peut se justifier et s'imposer selon le sujet.",
+    "pagina_pdf": 14
+   },
+   {
+    "paso": 7,
+    "titulo": "Dégager la problématique",
+    "descripcion": "Ne pas confondre la problématique avec les questions. Tout sujet implique des questions dès la première approche (brouillon), mais la problématique est le fil conducteur (« fil d'Ariane ») qui traverse le devoir de part en part et justifie les différentes thèses : l'axe central qui lui donne sa cohérence. Même si chaque partie défend une thèse différente ou opposée, toutes répondent à la même question essentielle, qui révèle les enjeux du sujet.",
+    "pagina_pdf": 15
+   },
+   {
+    "paso": 8,
+    "titulo": "Structurer l'introduction",
+    "descripcion": "Il n'y a pas de forme imposée, mais il y a une erreur à éviter : donner dès l'introduction une réponse à la question (son rôle est seulement d'introduire ; ne pas dévoiler l'argumentation). L'introduction doit montrer la portée du sujet : ce que signifie la question, ce qu'elle implique, quelle est sa portée philosophique. Il faut poser au moins trois questions (elles peuvent figurer à la fin de l'introduction), auxquelles chacune des parties répondra. Sans questions, il n'y a pas de réflexion philosophique. Distinguer une vraie question (Le chat est-il blanc ?) d'une simple affirmation interrogative (« On peut se demander si… », qui ne comporte pas de point d'interrogation).",
+    "pagina_pdf": 15
+   },
+   {
+    "paso": 9,
+    "titulo": "Modelo de introducción del corrigé: accroche, explication du sujet, problématique, annonce du plan",
+    "descripcion": "Dans le corrigé (« Suffit-il d'être différent pour être soi-même ? »), l'introduction suit cet ordre, avec des étiquettes explicites : [Accroche] une phrase d'entrée qui pose le thème (la personnalité forte exige d'affirmer la différence) et se termine par une question ; [Explication du sujet] précise ce qui est en jeu (différence/originalité ne sont pas la preuve automatique d'une pensée pertinente) ; [Problématique] formule la question directrice (vouloir être différent, n'est-ce pas manifester une démesure d'orgueil et un vide d'esprit ?) ; [Annonce du plan] annonce le mouvement des parties sans donner encore la réponse, sous la forme d'une question finale.",
+    "pagina_pdf": 22
+   },
+   {
+    "paso": 10,
+    "titulo": "Structurer la dissertation: número y calidad de las partes",
+    "descripcion": "Une dissertation du bac comporte généralement trois parties (habituel, non obligatoire). Elle peut en avoir plus (4 ou 5) mais pas moins, afin d'éviter une approche schématique « pour-contre » ou « oui-non » ; la vraie limite est le temps (4 h). Les parties doivent avoir des longueurs égales, chaque thèse étant menée jusqu'au bout. La dernière est la plus fondamentale (celle qui ne s'« écroule » pas, celle qui doit convaincre et le dernier souvenir du correcteur) : il faut la soigner et l'esquisser dès la construction du plan au brouillon pour ne pas l'improviser.",
+    "pagina_pdf": 16
+   },
+   {
+    "paso": 11,
+    "titulo": "Soigner ses transitions",
+    "descripcion": "On ne passe pas d'une partie à l'autre sans explication : la transition montre la nécessité de la thèse qui sera défendue dans la partie suivante. Elle se place à la fin (ni entre les parties ni au début d'une partie) de chacune des deux premières parties, sous la forme d'une objection à la thèse qui vient d'être exposée ; la dernière partie n'en a pas besoin. Les transitions peuvent prendre la forme de questions-objections auxquelles on répond dans la partie suivante, ce qui rend le devoir plus vivant et montre la capacité à interroger sa propre démarche.",
+    "pagina_pdf": 16
+   },
+   {
+    "paso": 12,
+    "titulo": "Illustrer: exemples et citations",
+    "descripcion": "La réflexion doit être illustrée par des exemples pour montrer qu'elle n'est pas une construction sans lien avec la réalité : peu nombreux (1 ou 2 par partie) mais de qualité et clairement reliés à ce qui est dit. Un exemple ne prouve rien (il peut être renversé par un contre-exemple) : il illustre seulement. Éviter une succession d'exemples qui dissimule un manque de connaissances. Les citations ne sont pas indispensables et leur absence n'est pas reprochable ; ne pas en abuser, ne pas les inventer ni les attribuer à un auteur douteux. Une citation n'est pas un argument d'autorité : elle appuie un argument et montre qu'on n'est pas seul à le défendre ; l'intégrer dans une phrase, en indiquant entre parenthèses l'auteur et l'œuvre.",
+    "pagina_pdf": 16
+   },
+   {
+    "paso": 13,
+    "titulo": "Introduire des références (culturales y filosóficas)",
+    "descripcion": "Un devoir de philosophie est avant tout un exercice littéraire, corrigé par des personnes de culture classique (philosophique, littéraire, artistique, historique). Éviter les références techniques trop précises dans un domaine restreint et les références à l'actualité politique (prudence : le correcteur peut ne pas partager l'opinion ; de plus, cela dénote souvent un manque de culture) ; préférer les références littéraires, philosophiques, historiques ou artistiques (par ex. César ou Henri IV ; l'histoire, par la distance, atténue les passions). Les philosophes sont les bienvenus, mais il ne faut ni les déformer ni les utiliser comme arguments d'autorité : leur pensée doit aider à approfondir et à orienter sa propre réflexion, jamais la remplacer ni se présenter comme une vérité indiscutable. Les cours sont un appui légitime.",
+    "pagina_pdf": 17
+   },
+   {
+    "paso": 14,
+    "titulo": "Donner son avis personnel",
+    "descripcion": "Dans la dissertation comme dans l'explication de texte, on demande une opinion personnelle parce que la réflexion philosophique elle-même l'exige, non parce qu'elle aurait un intérêt en soi. Elle doit s'appuyer sur des connaissances et une culture pour ne pas être une affirmation gratuite ou orgueilleuse. Se méfier d'un avis tranché (il révèle souvent un esprit obtus) ; la modestie est la meilleure alliée de la prudence. Ne pas mettre au premier plan des opinions personnelles, surtout politiques.",
+    "pagina_pdf": 18
+   },
+   {
+    "paso": 15,
+    "titulo": "Conclure (rappel de la démarche)",
+    "descripcion": "La conclusion est une étape obligée. Commencer en indiquant que l'on arrive à la conclusion et rappeler rapidement la démarche, c'est-à-dire les différentes thèses (5-6 lignes au maximum), par exemple : « Pour finir, nous pouvons rappeler notre démarche. D'abord, nous avons montré que… Puis… Enfin, nous avons défendu la thèse selon laquelle… ». Ce rappel montre la maîtrise de la démarche, oblige à la clarifier et donne au correcteur une vision synthétique.",
+    "pagina_pdf": 18
+   },
+   {
+    "paso": 16,
+    "titulo": "Importancia de la última parte en la conclusión",
+    "descripcion": "Après le rappel, on peut clore en « glosant » la dernière partie, celle que l'on juge la plus décisive, en reprenant cette thèse avec plus d'ampleur pour répondre pleinement à la problématique. Ensuite le devoir est terminé : il est inutile d'ajouter une nouvelle question en guise d'ouverture. Un devoir est une réponse modeste et nécessairement imparfaite ; si l'on termine par une question, ou bien elle est pertinente (et on reprochera de n'y avoir pas répondu), ou bien elle est hors-sujet.",
+    "pagina_pdf": 19
+   },
+   {
+    "paso": 17,
+    "titulo": "Ejemplo desarrollado (corrigé): estructura de las partes",
+    "descripcion": "Le corrigé « Suffit-il d'être différent pour être soi-même ? » suit un plan dialectique avec des parties (I, II, III), des sous-parties (a, b) et l'étiquette [Énoncé des arguments] au début de chacune. I. Il est difficile d'être soi-même dans un monde qui recherche l'uniformisation (autrui me rend malade en me faisant jouer un personnage ; il faut avoir le courage d'affirmer son originalité). [Transition] objection : vouloir seulement prouver la différence relève de l'orgueil et d'une opposition stérile. II. Il n'y a rien de moins original que d'affirmer les différences (se replier et tomber dans la vulgarité ; l'homme se construit à travers le regard de l'autre, « Je est un autre »). [Transition] question : comment donner un contenu à sa propre différence ? III. Être différent, c'est avant tout développer une pensée originale (reconnaître toutes les différences par l'exercice de la pensée ; le sage aristotélicien, le penseur et l'artiste comme modèles). Chaque partie combine arguments, exemples et citations d'auteurs (Sartre, Heidegger, Bourdieu, Montesquieu, Aristote…).",
+    "pagina_pdf": 22
+   },
+   {
+    "paso": 18,
+    "titulo": "Ejemplo de conclusión (corrigé)",
+    "descripcion": "Modèle : « Pour finir, nous pouvons rappeler la progression de notre réflexion. D'abord… Puis… Enfin… » (résumé de chaque partie), suivi d'une glose de la dernière thèse qui répond à la problématique et d'une phrase finale de réponse au sujet (« il ne suffit pas d'être différent pour être original… »), sans ouvrir une nouvelle question.",
+    "pagina_pdf": 29
+   }
+  ],
+  "explication_de_texte": [
+   {
+    "paso": 1,
+    "titulo": "Lectura atenta, repetida y bienveillante",
+    "descripcion": "Première étape et la plus importante : lire avec attention et à plusieurs reprises pour « s'imprégner » du texte et éviter les contresens, en saisissant ce qui est dit en filigrane (sens implicite). La lecture doit être bienveillante : faire d'emblée confiance à l'auteur ; si l'on détecte une incohérence, elle tient probablement à une lecture trop rapide. Partir du principe qu'il s'agit d'un classique étudié pendant des siècles par de nombreux spécialistes : être modeste et éviter le ridicule.",
+    "pagina_pdf": 30
+   },
+   {
+    "paso": 2,
+    "titulo": "Identificar la estructura argumentativa (étapes del argumento)",
+    "descripcion": "Une dernière lecture pratique, au crayon : découper le texte en identifiant les étapes argumentatives. Les passages à la ligne sont les premiers repères ; il faut en outre repérer les connecteurs logiques (mais, cependant, et, ou…) qui marquent une séparation, une alternative, une opposition ou des perspectives différentes. Attention : une conjonction ne signifie pas toujours un changement de partie ou de thèse (elle n'a parfois qu'une fonction stylistique). Les connecteurs donnent au texte une orientation et un sens ; le texte peut être polémique, argumentatif ou démonstratif et se structure selon sa typologie. Repérer cette structure est essentiel pour comprendre et réussir le devoir.",
+    "pagina_pdf": 30
+   },
+   {
+    "paso": 3,
+    "titulo": "Introducción: thème général, thèse y structure del texto",
+    "descripcion": "Il n'y a pas de forme imposée, mais il y a des exigences fondées sur le texte. 1) En une phrase, le thème général (de quoi il traite, correspondant à une notion du programme ; il peut y avoir deux thèmes ou leur relation, par ex. la liberté et l'État). 2) Développer plus longuement l'idée générale ou la thèse de l'auteur : étape cruciale qui montre la compréhension globale (ce qui a justifié, aux yeux de l'auteur, l'écriture du texte ; parfois il n'y a pas de thèse mais un problème posé ou une difficulté exposée). 3) Terminer en révélant la structure du texte : les moments (ou parties), en précisant le début et la fin de chacun (« de […] jusqu'à […] ») et en résumant leur contenu ; aller à la ligne pour les distinguer.",
+    "pagina_pdf": 31
+   },
+   {
+    "paso": 4,
+    "titulo": "Modelo de introducción del corrigé (texto de Aristóteles)",
+    "descripcion": "Le corrigé sur Métaphysique, A, 1 d'Aristote utilise trois étiquettes : [Thème général] (l'« art » comme savoir de l'universel par la compréhension des causes, appréhension spécifiquement humaine) ; [Thèse soutenue par l'auteur] (la compréhension commence avec l'expérience mais n'en dérive pas ; différence de nature, et non seulement de degré, entre l'homme et l'animal, grâce au jugement universel) ; [Structure du texte] (trois arguments : 1. le désir de connaître, plaisir désintéressé, provoqué par les sensations ; 2. la nature humaine ne se réduit pas à la nature animale dans la capacité de connaître ; 3. le plus haut degré de la connaissance humaine : les jugements universels).",
+    "pagina_pdf": 35
+   },
+   {
+    "paso": 5,
+    "titulo": "Desarrollar la explicación siguiendo los momentos del texto",
+    "descripcion": "L'explication se distingue radicalement de la dissertation : ce qui importe, c'est le texte, qui légitime la structure du devoir (et non l'approche personnelle). Organiser le devoir selon le texte : s'il y a trois moments, trois parties. Laisser quelques lignes après l'introduction, aller à la ligne à la fin de chaque moment, puis passer à la conclusion critique. Un texte a rarement plus de deux ou trois parties (limite de 4 h) ; les parties n'ont pas à avoir la même longueur ni la même importance : une seule phrase peut être un moment essentiel et être analysée en détail. Le correcteur a le texte à côté de lui et doit pouvoir le suivre.",
+    "pagina_pdf": 31
+   },
+   {
+    "paso": 6,
+    "titulo": "Citar el texto con parsimonia",
+    "descripcion": "On peut citer le texte, de façon subtile, en intégrant les citations dans ses propres phrases (elles ne doivent pas « tomber comme un cheveu sur la soupe »). Ne pas commencer chaque phrase par une citation ni citer tout le texte : seulement des extraits (mots ou groupes de mots) utiles à l'explication et qui montrent la compréhension de ses nuances. Les citations doivent être brèves, jamais une phrase entière, et se faire de façon linéaire, progressive, comme la lecture et l'explication.",
+    "pagina_pdf": 32
+   },
+   {
+    "paso": 7,
+    "titulo": "Desarrollo del corrigé: enunciar la idea de cada momento y explicarla",
+    "descripcion": "Dans le corrigé, chaque moment est intitulé par une phrase qui résume son idée : I. « Nos sensations nous rendent curieux et nous permettent de découvrir la diversité du réel » (le plaisir n'indique que le désir ; distinction entre sensations utilitaires et désintéressées ; hiérarchie des sens, la vue). II. « Dans l'accès à la connaissance, l'homme est supérieur à l'animal » (rôle de la mémoire et de l'ouïe ; image et souvenir ne suffisent pas). III. « Le savoir ne peut être justifié simplement par l'empirisme et les sensations » (de l'expérience à l'art par le jugement universel ; l'induction, le particulier comme universel en puissance). Il est complété par des comparaisons avec d'autres auteurs (Platon, Descartes, Hegel, Leibniz) et en évitant les interprétations erronées (sensualisme, continuité évolutionniste).",
+    "pagina_pdf": 35
+   },
+   {
+    "paso": 8,
+    "titulo": "Conclusion critique (étape cruciale)",
+    "descripcion": "À la différence de la dissertation, la conclusion est ici essentielle : c'est une longue réflexion critique sur la thèse de l'auteur, où l'on montre que l'on a compris le texte dans toute sa portée philosophique et que l'on est capable de développer une opinion personnelle, critique et argumentée. « Critique » au sens étymologique de discernement, et non d'opposition : être lucide sur la thèse, en soulignant son intérêt philosophique actuel ou universel.",
+    "pagina_pdf": 32
+   },
+   {
+    "paso": 9,
+    "titulo": "Si hay desacuerdo con el autor: prudencia",
+    "descripcion": "On peut montrer son désaccord et défendre une thèse opposée (indépendance d'esprit), mais avec prudence, au moins dans la forme : auparavant, s'assurer d'avoir compris toutes les subtilités (l'auteur est un philosophe dont la pensée a traversé les siècles ; la déformer ou la simplifier pour la contredire est un manque de modestie et expose au ridicule). Utiliser le conditionnel (« On pourrait peut-être objecter ou rétorquer à l'auteur… ») et s'appuyer sur d'autres auteurs, sans opposer artificiellement deux auteurs en schématisant leurs thèses : il y a souvent des perspectives ou des conceptions du monde différentes plutôt que des oppositions radicales.",
+    "pagina_pdf": 32
+   },
+   {
+    "paso": 10,
+    "titulo": "Enjeu del texto en la conclusión del corrigé",
+    "descripcion": "Dans le corrigé, la conclusion critique résume l'originalité de la thèse (Aristote se situe entre une approche dualiste platonicienne et une thèse sensualiste, sans se réduire à l'induction), montre que le savoir commence dans la sensation mais n'en tire pas sa légitimité (il se fonde sur le jugement universel, l'« art ») et souligne l'intérêt essentiel du texte : le statut de la connaissance, son commencement et sa spécificité irréductible. Elle s'accompagne de références (Leibniz répondant à Locke : « Rien n'est dans l'entendement qui n'ait été auparavant dans les sens, si ce n'est l'entendement »).",
+    "pagina_pdf": 39
+   },
+   {
+    "paso": 11,
+    "titulo": "Resumen de consejos (En perspectives)",
+    "descripcion": "Savoir-être : se montrer bienveillant envers l'auteur, humble devant le texte ; si l'on s'oppose à la thèse, prudence avec le conditionnel et appui sur d'autres philosophes. Savoir-faire : lire attentivement et à plusieurs reprises ; crayon pour découper le texte et dégager sa structure ; aérer le devoir. Mise en valeur : éviter les contresens, respecter les étapes de l'introduction, citer avec parcimonie (mots ou groupes de mots, intégrés) et soigner la conclusion critique.",
+    "pagina_pdf": 33
+   }
+  ],
+  "resumen_dissertation_en_perspectives": {
+   "descripcion": "Récapitulation du livre pour la dissertation : se placer dans l'étonnement sans préjugés et s'ouvrir à tout type d'exercice ; ne pas choisir par affect et appuyer son choix sur des connaissances objectives ; noter idées et références au brouillon et analyser les termes du sujet ; ne pas révéler tous les arguments dans l'introduction et poser au moins trois questions, une par thèse ; privilégier le plan dialectique (thèse, antithèse, synthèse) pour mettre en valeur la dernière partie ; soigner les transitions ; illustrer par des exemples, des citations et des références philosophiques et littéraires sans en abuser et en ne citant que des auteurs réellement connus ; ne pas afficher d'opinions personnelles, surtout politiques ; terminer par une conclusion centrée sur la dernière thèse, sans ouverture.",
+   "pagina_pdf": 20
+  }
+ },
+ "cronologia": [
+  {
+   "nombre": "Pythagore",
+   "fechas": "570-500",
+   "epoca": "Grèce antique",
+   "nota_es": "Mathématicien et géomètre de la Grèce antique, selon la chronologie du livre.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Hippocrate",
+   "fechas": "vers 460",
+   "epoca": "Grèce antique",
+   "nota_es": "Médecin grec ; le livre le situe vers 460 dans le contexte culturel de la Grèce antique.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Socrate",
+   "fechas": "470-399",
+   "epoca": "Grèce antique",
+   "nota_es": "Philosophe grec ; en 399, sous la tyrannie des Trente, il fut condamné à boire la ciguë.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Platon",
+   "fechas": "428-348",
+   "epoca": "Grèce antique",
+   "nota_es": "Philosophe grec ; en 387, il fonda à Athènes l'Académie, école philosophique.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Aristote",
+   "fechas": "384-322",
+   "epoca": "Grèce antique",
+   "nota_es": "Philosophe et physicien grec, précepteur d'Alexandre.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Épicure",
+   "fechas": "341-270",
+   "epoca": "Grèce antique",
+   "nota_es": "Philosophe grec.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Euclide",
+   "fechas": "330-270",
+   "epoca": "Grèce antique",
+   "nota_es": "Géomètre, auteur des Éléments.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Lucrèce",
+   "fechas": "98-55",
+   "epoca": "Empire romain",
+   "nota_es": "Philosophe latin épicurien.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Cicéron",
+   "fechas": "106-43",
+   "epoca": "Empire romain",
+   "nota_es": "Orateur et philosophe latin.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Tite-Live",
+   "fechas": "59 av. J.-C.-17 apr. J.-C.",
+   "epoca": "Empire romain",
+   "nota_es": "Historien romain.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Sénèque",
+   "fechas": "4 av. J.-C.-65 apr. J.-C.",
+   "epoca": "Empire romain",
+   "nota_es": "Philosophe stoïcien.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Tacite",
+   "fechas": "55-120",
+   "epoca": "Empire romain",
+   "nota_es": "Historien romain.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Épictète",
+   "fechas": "50-130",
+   "epoca": "Empire romain",
+   "nota_es": "Philosophe grec stoïcien.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Marc Aurèle",
+   "fechas": "121-180",
+   "epoca": "Empire romain",
+   "nota_es": "Empereur et philosophe stoïcien.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Saint Thomas d'Aquin",
+   "fechas": "1225-1275",
+   "epoca": "Moyen Âge",
+   "nota_es": "Théologien et philosophe italien.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Guillaume d'Ockham",
+   "fechas": "?-1349 ?",
+   "epoca": "Moyen Âge",
+   "nota_es": "Philosophe anglais.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Machiavel",
+   "fechas": "1429-1527",
+   "epoca": "XVe-XVIe siècle",
+   "nota_es": "Philosophe et penseur politique italien.",
+   "observacion": "Dates telles qu'elles figurent dans le livre.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Montaigne",
+   "fechas": "1533-1592",
+   "epoca": "XVe-XVIe siècle",
+   "nota_es": "Philosophe français.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Bacon",
+   "fechas": "1561-1626",
+   "epoca": "XVe-XVIe siècle",
+   "nota_es": "Philosophe anglais.",
+   "pagina_pdf": 313
+  },
+  {
+   "nombre": "Copernic",
+   "fechas": "1473-1542",
+   "epoca": "XVIe-XVIIe siècle",
+   "nota_es": "Astronome polonais ; il formula l'hypothèse du mouvement de la Terre et des autres planètes autour du Soleil.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Galilée",
+   "fechas": "1564-1642",
+   "epoca": "XVIe-XVIIe siècle",
+   "nota_es": "Astronome et physicien italien ; il prouva l'héliocentrisme de Copernic.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Hobbes",
+   "fechas": "1588-1679",
+   "epoca": "XVIe-XVIIe siècle",
+   "nota_es": "Philosophe anglais.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Descartes",
+   "fechas": "1596-1650",
+   "epoca": "XVIe-XVIIe siècle",
+   "nota_es": "Philosophe français.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Pascal",
+   "fechas": "1623-1662",
+   "epoca": "XVIe-XVIIe siècle",
+   "nota_es": "Écrivain et philosophe français.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Locke",
+   "fechas": "1632-1662",
+   "epoca": "XVIe-XVIIe siècle",
+   "nota_es": "Philosophe anglais.",
+   "observacion": "Dates telles qu'elles figurent dans le livre.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Spinoza",
+   "fechas": "1637-1677",
+   "epoca": "XVIe-XVIIe siècle",
+   "nota_es": "Philosophe néerlandais.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Malebranche",
+   "fechas": "1638-1715",
+   "epoca": "XVIIe-XVIIIe siècle",
+   "nota_es": "Philosophe français.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Newton",
+   "fechas": "1642-1727",
+   "epoca": "XVIIe-XVIIIe siècle",
+   "nota_es": "Physicien anglais.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Leibniz",
+   "fechas": "1646-1716",
+   "epoca": "XVIIe-XVIIIe siècle",
+   "nota_es": "Philosophe allemand.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Berkeley",
+   "fechas": "1685-1753",
+   "epoca": "XVIIe-XVIIIe siècle",
+   "nota_es": "Évêque et philosophe irlandais.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Montesquieu",
+   "fechas": "1689-1755",
+   "epoca": "XVIIe-XVIIIe siècle",
+   "nota_es": "Philosophe français.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Hume",
+   "fechas": "1711-1776",
+   "epoca": "XVIIe-XVIIIe siècle",
+   "nota_es": "Philosophe écossais.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Rousseau",
+   "fechas": "1712-1778",
+   "epoca": "XVIIe-XVIIIe siècle",
+   "nota_es": "Écrivain et philosophe français.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Diderot",
+   "fechas": "1713-1784",
+   "epoca": "XVIIe-XVIIIe siècle",
+   "nota_es": "Écrivain et philosophe français ; le livre situe l'Encyclopédie en 1751-1768.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Smith",
+   "fechas": "1723-1790",
+   "epoca": "XVIIe-XVIIIe siècle",
+   "nota_es": "Économiste anglais.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Kant",
+   "fechas": "1724-1804",
+   "epoca": "XVIIIe-XIXe siècle",
+   "nota_es": "Philosophe allemand.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Saint-Simon",
+   "fechas": "1760-1825",
+   "epoca": "XVIIIe-XIXe siècle",
+   "nota_es": "Économiste français, socialiste utopique.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Malthus",
+   "fechas": "1766-1834",
+   "epoca": "XVIIIe-XIXe siècle",
+   "nota_es": "Économiste anglais.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Hegel",
+   "fechas": "1770-1831",
+   "epoca": "XVIIIe-XIXe siècle",
+   "nota_es": "Philosophe allemand.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Fourier",
+   "fechas": "1772-1837",
+   "epoca": "XVIIIe-XIXe siècle",
+   "nota_es": "Socialiste utopique français.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Schopenhauer",
+   "fechas": "1780-1860",
+   "epoca": "XVIIIe-XIXe siècle",
+   "nota_es": "Philosophe allemand.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Comte",
+   "fechas": "1798-1857",
+   "epoca": "XVIIIe-XIXe siècle",
+   "nota_es": "Philosophe français.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Darwin",
+   "fechas": "1809-1882",
+   "epoca": "XVIIIe-XIXe siècle",
+   "nota_es": "Biologiste anglais, théoricien de l'évolution.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Kierkegaard",
+   "fechas": "1813-1855",
+   "epoca": "XVIIIe-XIXe siècle",
+   "nota_es": "Philosophe et théologien danois.",
+   "pagina_pdf": 314
+  },
+  {
+   "nombre": "Tocqueville",
+   "fechas": "1805-1859",
+   "epoca": "XVIIIe-XIXe siècle",
+   "nota_es": "Théoricien (politique) français.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Claude Bernard",
+   "fechas": "1813-1878",
+   "epoca": "XVIIIe-XIXe siècle",
+   "nota_es": "Physiologiste français, initiateur d'une réflexion sur la méthode expérimentale.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Marx",
+   "fechas": "1818-1883",
+   "epoca": "XVIIIe-XIXe siècle",
+   "nota_es": "Philosophe allemand.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Nietzsche",
+   "fechas": "1844-1900",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Philosophe allemand.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Freud",
+   "fechas": "1856-1939",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Neurologue autrichien, fondateur de la psychanalyse.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Saussure",
+   "fechas": "1857-1913",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Linguiste suisse.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Durkheim",
+   "fechas": "1858-1917",
+   "epoca": "XVIIIe-XIXe siècle",
+   "nota_es": "Sociologue français.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Husserl",
+   "fechas": "1859-1938",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Philosophe allemand.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Bergson",
+   "fechas": "1859-1942",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Philosophe français.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Alain",
+   "fechas": "1868-1951",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Philosophe français.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Russell",
+   "fechas": "1872-1970",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Mathématicien et philosophe anglais.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Einstein",
+   "fechas": "1879-1955",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Physicien allemand naturalisé américain, théoricien de la relativité.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Bachelard",
+   "fechas": "1884-1962",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Philosophe français.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Heidegger",
+   "fechas": "1889-1976",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Philosophe allemand.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Jakobson",
+   "fechas": "1896-1982",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Linguiste russe.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Lacan",
+   "fechas": "1901-1981",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Psychiatre et psychanalyste français.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Popper",
+   "fechas": "1902-1994",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Philosophe autrichien.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Sartre",
+   "fechas": "1905-1980",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Écrivain et philosophe français.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Levinas",
+   "fechas": "1905-1995",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Philosophe né en Lituanie.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Arendt",
+   "fechas": "1906-1975",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Philosophe et spécialiste de théorie politique.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Merleau-Ponty",
+   "fechas": "1908-1961",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Philosophe français.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Lévi-Strauss",
+   "fechas": "1908-2009",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Anthropologue et ethnologue français.",
+   "pagina_pdf": 315
+  },
+  {
+   "nombre": "Foucault",
+   "fechas": "1926-1984",
+   "epoca": "XIXe-XXe siècle",
+   "nota_es": "Philosophe français.",
+   "pagina_pdf": 315
+  }
+ ],
+ "reperes": [
+  {
+   "termino_fr": "Absolu / Relatif",
+   "terminos": [
+    "Absolu",
+    "Relatif"
+   ],
+   "definicion_es": "Absolu : sans lien ; ce qui existe indépendamment de toute condition, en dehors de toute relation, ce qui ne dépend de rien. Relatif : ce qui implique une relation, un rapport (ce qui est relatif à, ce qui a trait à) ; ce qui dépend d'autre chose.",
+   "pagina_pdf": 316
+  },
+  {
+   "termino_fr": "Abstrait / Concret",
+   "terminos": [
+    "Abstrait",
+    "Concret"
+   ],
+   "definicion_es": "Abstrait : ce qui est « tiré » ou « extrait » d'un être ou d'un objet (une propriété, une qualité) par une opération intellectuelle qui permet de l'isoler, de le séparer et de le considérer à part. Concret : ce qui désigne un être ou un objet réel.",
+   "pagina_pdf": 316
+  },
+  {
+   "termino_fr": "En acte / En puissance",
+   "terminos": [
+    "En acte",
+    "En puissance"
+   ],
+   "definicion_es": "En acte : ce qui existe effectivement, ce qui est accompli ou déjà réalisé. En puissance : virtuellement ou potentiellement ; ce qui existe comme simple possibilité ou virtualité.",
+   "pagina_pdf": 316
+  },
+  {
+   "termino_fr": "Analyse / Synthèse",
+   "terminos": [
+    "Analyse",
+    "Synthèse"
+   ],
+   "definicion_es": "Analyse : opération intellectuelle qui décompose un objet en ses éléments constitutifs pour parvenir à sa connaissance ; décomposition d'un tout en ses parties ; elle va du complexe au simple. Synthèse : opération intellectuelle qui réunit en un tout cohérent, structuré et homogène divers éléments ; recomposition d'un tout à partir de ses parties ; elle va du simple au complexe.",
+   "pagina_pdf": 316
+  },
+  {
+   "termino_fr": "Concept / Image / Métaphore",
+   "terminos": [
+    "Concept",
+    "Image",
+    "Métaphore"
+   ],
+   "definicion_es": "Concept : idée, abstraction de portée générale qui permet d'approfondir les notions, de les différencier et de les articuler entre elles. Image (figure de style) : sert d'appui pour exprimer une idée nouvelle ou expliciter une idée que les mots seuls ne peuvent traduire ; elle permet une meilleure compréhension de l'idée imaginée. Métaphore : figure de rhétorique qui désigne une réalité par un terme qui correspond à une autre, par une analogie entre les deux notions qui autorise la substitution.",
+   "pagina_pdf": 316
+  },
+  {
+   "termino_fr": "Contingent / Nécessaire",
+   "terminos": [
+    "Contingent",
+    "Nécessaire"
+   ],
+   "definicion_es": "Contingent : ce qui peut être ou ne pas être, arriver ou ne pas arriver (ce dont le contraire n'implique ni impossibilité ni contradiction). Nécessaire : en philosophie, ce qui ne peut pas être autrement qu'il n'est (ce dont le contraire est impossible ou implique contradiction) ; l'inévitable, ce qui ne peut pas ne pas se produire (comme le résultat ou l'effet dans un processus physique déterminé).",
+   "pagina_pdf": 316
+  },
+  {
+   "termino_fr": "Croire / Savoir",
+   "terminos": [
+    "Croire",
+    "Savoir"
+   ],
+   "definicion_es": "Croire : estimer vrai ou tenir quelque chose pour certain faute de garanties parfaitement sûres et objectives (le contraire de « savoir ») ; les croyances sont l'ensemble des jugements peu ou insuffisamment fondés rationnellement. Savoir : tenir quelque chose pour vrai avec la garantie objective de la connaissance de la chose (par opposition à « croire ») ; cela suppose des jugements suffisamment fondés rationnellement.",
+   "pagina_pdf": 316
+  },
+  {
+   "termino_fr": "Essentiel / Accidentel",
+   "terminos": [
+    "Essentiel",
+    "Accidentel"
+   ],
+   "definicion_es": "Essentiel : ce qui appartient ou se rapporte à l'essence, à la nature intime d'une chose ou d'un être ; l'essence est ce qui définit la nature ou l'être d'une chose. Accidentel : ce qui peut appartenir ou non à une chose ou à un être, lui arriver ou ne pas lui arriver ; les modifications superficielles ou qualités contingentes d'un être sont « accidentelles » ou forment ses « accidents » (non au sens courant).",
+   "pagina_pdf": 317
+  },
+  {
+   "termino_fr": "Exemple / Preuve",
+   "terminos": [
+    "Exemple",
+    "Preuve"
+   ],
+   "definicion_es": "Exemple : personnes ou actes considérés comme un modèle pouvant servir de référence pour une conduite ; cas antérieur semblable ou comparable ; citations ou exemples philosophiques pouvant illustrer une thèse ou un concept. Preuve : ce qui sert à attester qu'un phénomène est vrai (surtout en science) ; ce qui sert d'exemples probants.",
+   "pagina_pdf": 317
+  },
+  {
+   "termino_fr": "Expliquer / Comprendre",
+   "terminos": [
+    "Expliquer",
+    "Comprendre"
+   ],
+   "definicion_es": "Expliquer : rendre intelligible par la connaissance des causes, selon un raisonnement causal. Comprendre : rendre intelligible en saisissant le sens, la signification.",
+   "pagina_pdf": 317
+  },
+  {
+   "termino_fr": "En fait / En droit",
+   "terminos": [
+    "En fait",
+    "En droit"
+   ],
+   "definicion_es": "En fait : ce qui est effectif, conforme aux faits observés. En droit : ce qui est légitime ou conforme à la loi ; peut être remplacé par « légitimement », « légalement ».",
+   "pagina_pdf": 317
+  },
+  {
+   "termino_fr": "Formel / Matériel",
+   "terminos": [
+    "Formel",
+    "Matériel"
+   ],
+   "definicion_es": "Formel : relatif à la forme. Matériel : relatif au contenu, à l'objet (à « la matière »). En logique : le « formel » se dit de la forme logique du raisonnement ; si le raisonnement est correct sur le plan logique, on dit qu'il est « valide » (vérité formelle, ou mieux, validité). La « vérité matérielle » (ou vérité tout court) concerne le contenu d'un raisonnement ; exemple du livre : l'éléphant est plus grand que l'âne, et celui-ci plus grand que l'hirondelle, donc l'éléphant est plus grand que l'hirondelle.",
+   "pagina_pdf": 317
+  },
+  {
+   "termino_fr": "Genre / Espèce / Individu",
+   "terminos": [
+    "Genre",
+    "Espèce",
+    "Individu"
+   ],
+   "definicion_es": "Genre : division fondée sur un ou plusieurs caractères communs qui réunit un ensemble d'êtres vivants ; concept de classification situé entre la famille et l'espèce, qui regroupe des espèces très proches. Espèce : division fondée sur des caractères communs qui réunit des êtres vivants et permet de les distinguer au sein d'un même genre ; les individus d'une même espèce sont féconds entre eux, mais ordinairement stériles avec ceux d'une autre espèce. Individu : chaque spécimen vivant d'une espèce animale ou végétale ; le genre animal comprend plusieurs espèces, dont l'espèce humaine. (Le livre écrit « Espère » dans le titre.)",
+   "pagina_pdf": 317
+  },
+  {
+   "termino_fr": "Hypothèse / Conséquence / Conclusion",
+   "terminos": [
+    "Hypothèse",
+    "Conséquence",
+    "Conclusion"
+   ],
+   "definicion_es": "Hypothèse : possibilité d'explication d'un phénomène (par ex. scientifique) que l'on formule pour la vérifier par l'expérimentation ; dans un sens plus large, une supposition, un essai d'explication. Conséquence : ce qui découle d'un phénomène ou d'une proposition. Conclusion : conséquence qui résulte d'un raisonnement.",
+   "pagina_pdf": 318
+  },
+  {
+   "termino_fr": "Idéal / Réel",
+   "terminos": [
+    "Idéal",
+    "Réel"
+   ],
+   "definicion_es": "Idéal : modèle de perfection dans un domaine (intellectuel, moral, esthétique) qui sert d'étalon ou de norme pour juger le réel ; dans le sens courant, « le meilleur » et un but élevé, très proche du sens philosophique : l'idéal comme modèle de perfection qui oriente l'action. Réel : ce qui existe effectivement (et non seulement comme idée ou idéal). On peut défendre, avec Platon, un réalisme des idées : les idées (morales, mathématiques, etc.) existeraient réellement indépendamment des sujets qui les (re)découvrent.",
+   "pagina_pdf": 318
+  },
+  {
+   "termino_fr": "Identité / Égalité / Différence",
+   "terminos": [
+    "Identité",
+    "Égalité",
+    "Différence"
+   ],
+   "definicion_es": "Identité : ce qui fait qu'une chose est exactement de même nature qu'une autre (en ce sens, elle équivaut à l'égalité mathématique) ; ensemble de caractères permanents ou fondamentaux propres à un individu ou à un groupe qui permettent de l'identifier et de le caractériser. Égalité : rapport entre des choses (ou des quantités) égales ; principe moral, juridique et politique selon lequel tous les hommes, malgré leurs différences, doivent être considérés comme égaux en dignité (égale dignité ou égalité morale) et en droits (égalité civile, politique et sociale). Différence : ce qui distingue une chose ou une personne d'une autre ; ce par quoi des êtres ou des choses ne sont pas semblables. Les hommes sont inégaux de fait : différences physiques (taille, force), de talents, de capacités, de cultures, etc.",
+   "pagina_pdf": 318
+  },
+  {
+   "termino_fr": "Impossible / Possible",
+   "terminos": [
+    "Impossible",
+    "Possible"
+   ],
+   "definicion_es": "Impossible : caractère de ce qui contredit l'ordre logique ou physique. Possible : ce qui peut correspondre à la réalité.",
+   "pagina_pdf": 318
+  },
+  {
+   "termino_fr": "Intuitif / Discursif",
+   "terminos": [
+    "Intuitif",
+    "Discursif"
+   ],
+   "definicion_es": "Intuitif : ce qui procède de l'« intuition », c'est-à-dire d'une connaissance directe et immédiate, sans l'aide du raisonnement. L'intuition « sensible » est la saisie directe du réel ou d'une vérité par les sens (elle donne accès aux évidences sensibles) ; l'intuition « rationnelle » ou « intellectuelle » est la saisie immédiate du réel ou d'une vérité par l'intellect ou la raison. Discursif : ce qui s'appuie sur le raisonnement, qui exige la médiation d'un raisonnement pour être établi ou connu.",
+   "pagina_pdf": 318
+  },
+  {
+   "termino_fr": "Légal / Légitime",
+   "terminos": [
+    "Légal",
+    "Légitime"
+   ],
+   "definicion_es": "Légal : ce qui est conforme aux règles juridiques existantes, conforme à la loi ou à la « justice » au sens du droit existant ; la légalité d'une action est sa conformité à la règle juridique. Légitime : philosophiquement, ce qui est conforme aux exigences de l'idée de justice, d'équité, de morale et de raison.",
+   "pagina_pdf": 319
+  },
+  {
+   "termino_fr": "Médiat / Immédiat",
+   "terminos": [
+    "Médiat",
+    "Immédiat"
+   ],
+   "definicion_es": "Médiat : ce qui est intermédiaire ou suppose un intermédiaire (le discursif est médiat). Immédiat : sans intermédiaire, directement (l'intuitif est immédiat).",
+   "pagina_pdf": 319
+  },
+  {
+   "termino_fr": "Objectif / Subjectif / Intersubjectif",
+   "terminos": [
+    "Objectif",
+    "Subjectif",
+    "Intersubjectif"
+   ],
+   "definicion_es": "Objectif : ce qui ne fait pas intervenir d'éléments affectifs ou personnels dans ses jugements, dont les jugements sont fondés « objectivement » ; la science (comme ensemble de jugements sur le réel) est « objective » par opposition aux opinions. Subjectif : ce qui est individuel, susceptible de varier selon la personnalité de chacun (ne peut pas valoir pour tous) ; un jugement est subjectif s'il est influencé par la personnalité du sujet et non par l'objet. Intersubjectif : ce qui est relatif à autrui ; l'intersubjectivité suppose que les individus sont capables de prendre en considération la pensée d'autrui pour l'intégrer à leur propre jugement.",
+   "pagina_pdf": 319
+  },
+  {
+   "termino_fr": "Obligation / Contrainte",
+   "terminos": [
+    "Obligation",
+    "Contrainte"
+   ],
+   "definicion_es": "Obligation : « lien » moral ou juridique par lequel une personne est obligée ou se sent obligée de faire ou de ne pas faire quelque chose ; elle prend la forme d'un « devoir » (synonyme). Contrainte : violence ou pression morale ou physique exercée sur quelqu'un pour le forcer à agir (ou l'en empêcher). L'obligation s'oppose à la contrainte parce qu'elle ne supprime pas la liberté, elle vient de soi-même (on se sent obligé) : on obéit librement à l'obligation (on pourrait décider de ne pas obéir), alors qu'on cède à la contrainte, « contraint et forcé » (il n'y a plus de choix).",
+   "pagina_pdf": 319
+  },
+  {
+   "termino_fr": "Origine / Fondement",
+   "terminos": [
+    "Origine",
+    "Fondement"
+   ],
+   "definicion_es": "Origine : ce qui est à la source, la provenance d'un phénomène, d'une idée, d'une personne ou d'un groupe (l'origine de la vie, d'une guerre, d'un préjugé). Fondement : en philosophie, la recherche du fondement est la recherche du ou des principes (les raisons dernières) sur lesquels on peut faire reposer une thèse ou une théorie.",
+   "pagina_pdf": 319
+  },
+  {
+   "termino_fr": "Persuader / Convaincre",
+   "terminos": [
+    "Persuader",
+    "Convaincre"
+   ],
+   "definicion_es": "Persuader : amener quelqu'un à croire, à faire ou à vouloir quelque chose non par la raison (ou de bonnes « raisons ») mais par divers procédés de « persuasion » (sophismes, belles paroles ou éloquence, séduction, etc.). Convaincre : amener quelqu'un, par un raisonnement, des preuves ou une argumentation rationnelle, à reconnaître la vérité, l'exactitude d'un fait ou sa nécessité.",
+   "pagina_pdf": 319
+  },
+  {
+   "termino_fr": "Principe / Cause / Fin",
+   "terminos": [
+    "Principe",
+    "Cause",
+    "Fin"
+   ],
+   "definicion_es": "Principe : ce qui est premier et fondement du reste ; proposition qui sert de fondement ou de point de départ à un raisonnement (« je pars du principe que »). Cause : ce par quoi une chose existe ou ce qui produit quelque chose (causes antécédentes ou matérielles) ; ce pour quoi l'on fait quelque chose, la raison, le motif. Fin : but, objectif vers lequel on tend, ce pour quoi l'on fait quelque chose, la raison, le motif (« cause finale »).",
+   "pagina_pdf": 320
+  },
+  {
+   "termino_fr": "Public / Privé",
+   "terminos": [
+    "Public",
+    "Privé"
+   ],
+   "definicion_es": "Public : ce qui concerne le peuple, ce qui est relatif à la nation, à l'État. Privé : propre à chaque individu ; le public n'y a pas sa place ni n'y est admis.",
+   "pagina_pdf": 320
+  },
+  {
+   "termino_fr": "Ressemblance / Analogie",
+   "terminos": [
+    "Ressemblance",
+    "Analogie"
+   ],
+   "definicion_es": "Ressemblance : relation entre deux ou plusieurs objets qui ont certains éléments communs. Analogie : relation de ressemblance établie par l'intelligence ou l'imagination entre deux ou plusieurs objets différents et reconnus comme tels ; elle s'appuie sur un procédé rationnel qui établit une identité de « rapport » entre des termes distincts.",
+   "pagina_pdf": 320
+  },
+  {
+   "termino_fr": "Théorie / Pratique",
+   "terminos": [
+    "Théorie",
+    "Pratique"
+   ],
+   "definicion_es": "Théorie : ensemble de propositions cohérentes liées à un domaine déterminé de phénomènes ; elle vise à comprendre, expliquer, interpréter ou prévoir des phénomènes. Pratique : activités qui visent des résultats concrets ; application concrète d'une théorie.",
+   "pagina_pdf": 320
+  },
+  {
+   "termino_fr": "Transcendant / Immanent",
+   "terminos": [
+    "Transcendant",
+    "Immanent"
+   ],
+   "definicion_es": "Transcendant : ce qui dépasse un certain ordre de réalités, ce qui est au-delà du domaine où l'on se situe et d'une autre nature, radicalement extérieur (on parle de la transcendance de Dieu pour affirmer qu'il n'appartient pas à notre monde et qu'il est d'une nature totalement différente). Pour Kant, c'est ce qui est au-delà de toute expérience possible et échappe donc à toute vérification empirique. Immanent : ce qui est contenu dans un être, inhérent à sa nature, qui résulte de la nature même de cet être.",
+   "pagina_pdf": 320
+  },
+  {
+   "termino_fr": "Universel / Particulier / Général / Singulier",
+   "terminos": [
+    "Universel",
+    "Particulier",
+    "Général",
+    "Singulier"
+   ],
+   "definicion_es": "Universel : ce qui vaut pour tous, en tout lieu et en tout temps. Particulier : propre à une personne ou à une chose, à un seul groupe (un usage particulier à un peuple ou à un homme). Général : ce qui s'applique à un ensemble de personnes ou de choses (idées générales) ou concerne l'ensemble d'un groupe (intérêt général, grève générale). Singulier : ce qui ne vaut que pour un individu et un seul (« single »), qui s'applique à une seule chose ou personne.",
+   "pagina_pdf": 320
+  },
+  {
+   "termino_fr": "Vrai / Probable / Certain",
+   "terminos": [
+    "Vrai",
+    "Probable",
+    "Certain"
+   ],
+   "definicion_es": "Vrai : ce qui est conforme au réel. Probable : ce qui a l'apparence de la réalité, ce que l'on peut raisonnablement supposer. Certain : ce qui possède une réalité effective, ce qui est assuré de se produire.",
+   "pagina_pdf": 320
+  }
+ ]
+}

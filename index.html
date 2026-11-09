@@ -15,12 +15,19 @@
   <nav id="crumbs" aria-label="Ruta"></nav>
   <div class="spacer"></div>
   <nav class="tabs">
-    <button data-go="select" class="tab">Capítulos</button>
-    <button data-go="tracker" class="tab">Repaso</button>
-    <button data-go="disertacion" class="tab">Disertación</button>
-    <button data-go="reperes" class="tab">Repères</button>
+    <button data-go="select" data-ic="🌌" class="tab">Capítulos</button>
+    <button data-go="tracker" data-ic="📊" class="tab">Repaso</button>
+    <button data-go="examen" data-ic="📝" class="tab">Examen</button>
+    <button data-go="tarjetas" data-ic="🃏" class="tab">Tarjetas</button>
+    <button data-go="dilemas" data-ic="🎮" class="tab">Dilemas</button>
+    <button data-go="autores" data-ic="👤" class="tab">Autores</button>
+    <button data-go="reperes" data-ic="🔖" class="tab">Repères</button>
+    <button data-go="audio" data-ic="🎧" class="tab">Audio</button>
+    <button data-go="plan" data-ic="📅" class="tab">Plan</button>
   </nav>
+  <div class="seg" id="lang" role="group" aria-label="Idioma"><button data-l="es">ES</button><button data-l="fr">FR</button></div>
   <div id="xpbox" title="Tu nivel y XP"><span id="lvl">Nv 1</span><div class="xpbar"><i id="xpfill"></i></div><span id="xptxt">0 XP</span></div>
+  <button id="btn-music" class="icon" aria-label="Música" title="Música ambiental">🎵</button>
   <button id="btn-settings" class="icon" aria-label="Ajustes" title="Ajustes">⚙</button>
 </header>
 
@@ -39,31 +46,45 @@
   <!-- 4.2 Mapa del capítulo -->
   <section id="view-map" class="view" hidden>
     <aside id="chap-side"></aside>
-    <div id="map-wrap"><svg id="map" role="img" aria-label="Mapa de filósofos y conceptos"></svg>
+    <div id="side-resizer" class="resizer" title="Arrastra para cambiar el ancho (doble clic: restablecer)"></div>
+    <div id="map-wrap"><button id="side-toggle" class="btn sm" aria-label="Resumen del capítulo">ℹ</button><svg id="map" role="img" aria-label="Mapa de filósofos y conceptos"></svg>
       <div class="legend"><span class="l infl">influye</span><span class="l opp">se opone</span><span class="l comp">complementa</span><span class="l conc">◆ concepto</span></div>
     </div>
   </section>
 
   <!-- 4.5 Repaso y tracker -->
   <section id="view-tracker" class="view page" hidden></section>
+  <section id="view-examen" class="view page" hidden></section>
+  <section id="view-tarjetas" class="view page" hidden></section>
+  <section id="view-autores" class="view page" hidden></section>
+  <section id="view-plan" class="view page" hidden></section>
+  <section id="view-audio" class="view page" hidden></section>
+  <section id="view-dilemas" class="view page" hidden></section>
   <section id="view-disertacion" class="view page" hidden></section>
   <section id="view-reperes" class="view page" hidden></section>
 </main>
 
 <!-- Ficha (panel que se expande desde el nodo) -->
 <aside id="ficha" class="ficha" hidden></aside>
+<div id="ficha-resizer" class="resizer right" title="Arrastra para cambiar el ancho (doble clic: restablecer)" hidden></div>
 
 <!-- Modal genérico: escena / quiz / ajustes -->
 <div id="modal" class="modal" hidden>
   <div class="modal-card" id="modal-card" role="dialog" aria-modal="true"></div>
 </div>
 
+<div id="audiobar" class="audiobar" hidden>
+  <div class="ab-info"><b id="ab-title"></b><span id="ab-now"></span><div class="ab-bar"><i id="ab-fill"></i></div></div>
+  <span id="ab-pos"></span><button id="ab-prev" aria-label="Anterior">⏮</button><button id="ab-play" aria-label="Pausa">⏸</button><button id="ab-next" aria-label="Siguiente">⏭</button>
+  <select id="ab-rate" aria-label="Velocidad"><option value="0.8">0.8×</option><option value="1">1×</option><option value="1.2">1.2×</option><option value="1.5">1.5×</option></select><button id="ab-close" aria-label="Cerrar">✕</button>
+</div>
 <div id="toast" class="toast" hidden></div>
 <div id="fade" class="fade"></div>
 
 <script src="vendor/three.min.js"></script>
 <script src="data/cours.js"></script>
 <script src="js/state.js"></script>
+<script src="js/i18n.js"></script>
 <script src="js/scene-model.js"></script>
 <script src="js/skin-notebook.js"></script>
 <script src="js/skin-comic.js"></script>
@@ -71,7 +92,11 @@
 <script src="js/skin-ps2.js"></script>
 <script src="js/three-select.js"></script>
 <script src="js/map.js"></script>
+<script src="js/audio.js"></script>
 <script src="js/ui.js"></script>
+<script src="js/dilemas.js"></script>
+<script src="js/examen.js"></script>
+<script src="js/estudio.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
