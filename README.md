@@ -28,6 +28,12 @@ Sin Node también funciona: abre `index.html` con doble clic (el progreso se gua
 | **Disertación** | Planes por sujeto armados solo con autores del cours + el método de la dissertation y de l'explication de texte de tu libro. |
 | **Repères** | Glosario de repères y cronología de autores del final del libro, con buscador. |
 
+## En el celular
+- **Lo más fácil:** descarga **`dist/philo-bac-movil.html`** (un solo archivo, ~4 MB, con todo incrustado) y ábrelo con Chrome (Android: Archivos → tocar el archivo → abrir con Chrome). El progreso se guarda en el navegador del celular. Si lo abres desde un ZIP o una vista previa del gestor de archivos, **primero extrae/copia el archivo** a Descargas.
+- **Con la laptop (wifi de casa):** `node server.js --lan` y abre `http://IP-de-la-laptop:3000` en el celular; el progreso se guarda en la laptop.
+- En pantallas chicas el menú está abajo (desliza para ver todas las pestañas); el resumen del capítulo se abre con el botón ℹ del mapa; en el mapa se puede hacer zoom con dos dedos.
+- Tras cambiar algo del contenido: `node tools/build.js && node tools/empaquetar-movil.js` regenera el archivo único.
+
 ## Audios para el celular (segundo plano, sin internet)
 La carpeta `audio/` trae **70 audios .m4a (9 h, ~100 MB)** generados con voz neuronal local (Piper): por noción, el *capítulo completo* (~10-16 min) y las *tesis de los autores* (~2-3 min), en **español y francés**, más los *repères*. Las citas se leen con la voz francesa. Pasan al celular copiando la carpeta (cable / Drive / WhatsApp), descargándolos desde la pestaña **Audio** (`node server.js --lan` y abrir `http://IP-de-la-laptop:3000` desde el celular en el mismo wifi) o desde GitHub; una vez en el celular suenan con la pantalla bloqueada y sin conexión. Se regeneran con `tools/generar-audios.py` (instrucciones dentro del archivo).
 

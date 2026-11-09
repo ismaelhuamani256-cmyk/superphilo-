@@ -38,7 +38,7 @@
   function crumbs(parts) { $('#crumbs').innerHTML = parts.map((p, i) => i === parts.length - 1 ? `<b>${p}</b>` : `<span>${p}</span><span>›</span>`).join(' '); }
 
   function go(view, id, sub) {
-    UI.closeFicha(); UI.closeModal(); cur = { view, id, sub };
+    UI.closeFicha(); UI.closeModal(); document.body.classList.remove('side-open'); cur = { view, id, sub };
     document.documentElement.style.setProperty('--accent', '#e0b862');
     if (view === 'select') { show('select'); crumbs(['Capítulos']); document.getElementById('fade').classList.remove('on'); }
     else if (view === 'map') {
@@ -115,6 +115,8 @@
     if (!S.hasFR) document.querySelector('#lang [data-l="fr"]').disabled = true;
     I18N.start(); paintLang(); Voz.init();
     if (S.P.ajustes.musica) addEventListener('pointerdown', () => Voz.Musica.start(), { once: true });   // el navegador exige un gesto antes de sonar
+    $('#side-toggle').onclick = () => document.body.classList.toggle('side-open');
+    if (matchMedia('(pointer:coarse)').matches) { const hp = $('.hero p'); if (hp) hp.textContent = 'Desliza para girar · toca un capítulo para entrar'; }
     $('#btn-home').onclick = () => go('select'); $('#btn-settings').onclick = () => UI.openSettings();
     document.querySelectorAll('.tab').forEach(t => t.onclick = () => go(t.dataset.go));
     const [v, id, sub] = location.hash.slice(1).split('/'); views.includes(v) && v !== 'select' ? go(v, id, sub) : go('select');

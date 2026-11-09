@@ -15,15 +15,15 @@
   <nav id="crumbs" aria-label="Ruta"></nav>
   <div class="spacer"></div>
   <nav class="tabs">
-    <button data-go="select" class="tab">Capítulos</button>
-    <button data-go="tracker" class="tab">Repaso</button>
-    <button data-go="examen" class="tab">Examen</button>
-    <button data-go="tarjetas" class="tab">Tarjetas</button>
-    <button data-go="dilemas" class="tab">Dilemas</button>
-    <button data-go="autores" class="tab">Autores</button>
-    <button data-go="reperes" class="tab">Repères</button>
-    <button data-go="audio" class="tab">Audio</button>
-    <button data-go="plan" class="tab">Plan</button>
+    <button data-go="select" data-ic="🌌" class="tab">Capítulos</button>
+    <button data-go="tracker" data-ic="📊" class="tab">Repaso</button>
+    <button data-go="examen" data-ic="📝" class="tab">Examen</button>
+    <button data-go="tarjetas" data-ic="🃏" class="tab">Tarjetas</button>
+    <button data-go="dilemas" data-ic="🎮" class="tab">Dilemas</button>
+    <button data-go="autores" data-ic="👤" class="tab">Autores</button>
+    <button data-go="reperes" data-ic="🔖" class="tab">Repères</button>
+    <button data-go="audio" data-ic="🎧" class="tab">Audio</button>
+    <button data-go="plan" data-ic="📅" class="tab">Plan</button>
   </nav>
   <div class="seg" id="lang" role="group" aria-label="Idioma"><button data-l="es">ES</button><button data-l="fr">FR</button></div>
   <div id="xpbox" title="Tu nivel y XP"><span id="lvl">Nv 1</span><div class="xpbar"><i id="xpfill"></i></div><span id="xptxt">0 XP</span></div>
@@ -47,7 +47,7 @@
   <section id="view-map" class="view" hidden>
     <aside id="chap-side"></aside>
     <div id="side-resizer" class="resizer" title="Arrastra para cambiar el ancho (doble clic: restablecer)"></div>
-    <div id="map-wrap"><svg id="map" role="img" aria-label="Mapa de filósofos y conceptos"></svg>
+    <div id="map-wrap"><button id="side-toggle" class="btn sm" aria-label="Resumen del capítulo">ℹ</button><svg id="map" role="img" aria-label="Mapa de filósofos y conceptos"></svg>
       <div class="legend"><span class="l infl">influye</span><span class="l opp">se opone</span><span class="l comp">complementa</span><span class="l conc">◆ concepto</span></div>
     </div>
   </section>

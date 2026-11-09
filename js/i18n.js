@@ -9,7 +9,7 @@
   'use strict';
   const DIC = {
     // barra superior y navegación
-    'Capítulos': 'Chapitres', 'Audio': 'Audio', 'Música ambiental': 'Musique d’ambiance', 'Música': 'Musique', 'Anterior': 'Précédent', 'Siguiente': 'Suivant', 'Examen': 'Examen', 'Tarjetas': 'Cartes', 'Autores': 'Auteurs', 'Plan': 'Plan', '🧠 Carte mentale': '🧠 Carte mentale', 'Repaso': 'Révisions', 'Disertación': 'Dissertation', 'Dilemas': 'Dilemmes', 'Repères': 'Repères',
+    'Capítulos': 'Chapitres', 'Desliza para girar · toca un capítulo para entrar': 'Glisse pour tourner · touche un chapitre pour entrer', 'Resumen del capítulo': 'Résumé du chapitre', 'Audio': 'Audio', 'Música ambiental': 'Musique d’ambiance', 'Música': 'Musique', 'Anterior': 'Précédent', 'Siguiente': 'Suivant', 'Examen': 'Examen', 'Tarjetas': 'Cartes', 'Autores': 'Auteurs', 'Plan': 'Plan', '🧠 Carte mentale': '🧠 Carte mentale', 'Repaso': 'Révisions', 'Disertación': 'Dissertation', 'Dilemas': 'Dilemmes', 'Repères': 'Repères',
     'Volver a los capítulos': 'Retour aux chapitres', 'Ajustes': 'Réglages', 'Tu nivel y XP': 'Ton niveau et tes XP', 'Ruta': 'Chemin',
     'Arrastra para girar · pasa el cursor por un capítulo · clic para entrar': 'Fais glisser pour tourner · survole un chapitre · clique pour entrer',
     'influye': 'influence', 'se opone': 's’oppose', 'complementa': 'complète', '◆ concepto': '◆ concept',

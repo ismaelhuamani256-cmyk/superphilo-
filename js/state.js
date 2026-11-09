@@ -34,7 +34,7 @@
 
   async function load() {
     let loaded = null;
-    try { const r = await fetch('/api/progreso', { cache: 'no-store' }); if (r.ok) { useServer = true; loaded = await r.json(); } } catch (e) { /* sin servidor */ }
+    if (location.protocol !== 'file:') try { const r = await fetch('/api/progreso', { cache: 'no-store' }); if (r.ok) { useServer = true; loaded = await r.json(); } } catch (e) { /* sin servidor */ }
     if (!loaded) { try { loaded = JSON.parse(localStorage.getItem(LS) || 'null'); } catch (e) {} }
     if (loaded) { P = merge(defaults(), loaded); if ((loaded.version || 1) < 2) { P.ajustes.sonido = true; P.version = 2; save(); } }   // v2: los sonidos de interfaz pasan a estar activados por defecto
     emit();
