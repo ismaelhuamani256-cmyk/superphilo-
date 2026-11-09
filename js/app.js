@@ -122,5 +122,5 @@
     const [v, id, sub] = location.hash.slice(1).split('/'); views.includes(v) && v !== 'select' ? go(v, id, sub) : go('select');
   }
   window.App = { go, rerender, setLang };
-  addEventListener('DOMContentLoaded', boot);
+  document.readyState === 'loading' ? addEventListener('DOMContentLoaded', boot) : boot();   // también arranca si la página se inyecta tras la carga
 })();

@@ -13,6 +13,7 @@
   --infl:#e0b862; --opp:#ef6a5b; --comp:#5cc8b8; --ok:#5cc88a; --bad:#ef6a5b;
   --serif:"Cormorant Garamond",Georgia,serif; --sans:Inter,system-ui,sans-serif; --hand:Caveat,cursive;
   --r:14px;
+  color-scheme:dark;
 }
 *{box-sizing:border-box}
 html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font-family:var(--sans);overflow:hidden;-webkit-font-smoothing:antialiased}

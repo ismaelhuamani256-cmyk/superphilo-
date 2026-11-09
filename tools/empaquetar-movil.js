@@ -12,3 +12,11 @@ html = html.replace(/<link rel="stylesheet" href="css\/app.css">/, () => `<style
 html = html.replace(/<script src="([^"]+)"><\/script>/g, (_, src) => `<script>\n${rd(src).replace(/<\/script/gi, '<\\/script')}\n</script>`);
 fs.mkdirSync(R('dist'), { recursive: true }); fs.writeFileSync(R('dist/philo-bac-movil.html'), html);
 console.log('dist/philo-bac-movil.html', (html.length / 1e6).toFixed(2), 'MB');
+
+// Variante para publicar como página (Artifact): el servicio añade su propio <html><head><body>, así que se entrega solo título + estilos + contenido.
+if (process.argv.includes('--artifact')) {
+  const out = process.argv[process.argv.indexOf('--artifact') + 1] || R('dist/philo-bac-artifact.html');
+  const styleBlock = html.match(/<style>[\s\S]*?<\/style>/)[0];
+  const body = html.match(/<body>([\s\S]*)<\/body>/)[1];
+  fs.writeFileSync(out, `<title>PHILO BAC</title>\n${styleBlock}\n${body}`); console.log(out, (fs.statSync(out).size / 1e6).toFixed(2), 'MB');
+}
